@@ -123,7 +123,7 @@ function makeNodes(run) {
           description: encounter.description, role, enemyIds: encounter.units.map(unit => unit.id), eventId };
       }
       const name = enemyIds.length ? ENEMY_BY_ID[enemyIds[0]].name : type === 'event' ? region.events.find(item => item.id === eventId).title : NODE_NAMES[type];
-      return { id: `node-${index}-${option}`, name, description: type === 'battle' ? `胜利后可选择${ROLE_NAMES[role]}方向的新牌` : type === 'elite' ? '战胜精英，挑选一件遗物' : type === 'boss' ? '击破两个阶段，完成本次远行' : type === 'camp' ? '恢复全队生命，或升级一张牌' : type === 'treasure' ? '带走星线，挑选一件遗物' : '作出选择，决定这次收获', role, enemyIds, eventId };
+      return { id: `node-${index}-${option}`, name, description: type === 'battle' ? '胜利后三选一：构筑、功能与跨方向候选' : type === 'elite' ? '战胜精英，挑选一件遗物' : type === 'boss' ? '击破两个阶段，完成本次远行' : type === 'camp' ? run.regionId === 'street' ? '恢复、升级或替换一张非专属牌，三选一' : '恢复全队生命，或升级一张牌' : type === 'treasure' ? '带走星线，挑选一件遗物' : '作出选择，决定这次收获', role, enemyIds, eventId };
     });
     return { index, type, label: NODE_NAMES[type], options, visited: false, chosenId: null };
   });
