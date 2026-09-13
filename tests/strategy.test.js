@@ -231,3 +231,85 @@ test('四种构筑提示来自真实卡牌效果；两张回响防护牌能够�
   assert.ok(result.events.some(e => e.kind === 'echo' && e.targetId === 'sheep'));
   game.assertState(result.state);
 });
+
+test('标记只统计实际增加的生命损失，护盾完全阻挡或溢出不虚增收益', () => {
+  for (const [hp, block, gain] of [[20, 0, 2], [20, 30, 0], [1, 0, 0]]) {
+    const state = at(start(), n => n.index === 0), run = state.adventure.active;
+    const card = putHand(state, 'strike', run.party[0].id);
+    run.enemies[0].hp = hp; run.enemies[0].block = block; run.enemies[0].status.mark = 1;
+    const before = JSON.stringify(state);
+    const action = { type: 'playCard', cardUid: card.uid, targetId: run.enemies[0].id };
+    const preview = combat.previewAction(state, action, true), actual = combat.applyAction(state, action);
+    assert.deepEqual(preview.events, actual.events); assert.equal(JSON.stringify(state), before);
+    assert.equal(actual.state.adventure.active.battleStats.markHpDamage, gain);
+    assert.match(preview.impactSummary, hp === 1 ? /本战结束/ : /立即结束的生命损失/);
+    game.assertState(actual.state);
+  }
+});
+
+test('留盾统计只计算跨回合护盾实际挡伤，并在新战斗清零', () => {
+  let state = at(start(), n => n.index === 0), run = state.adventure.active;
+  run.party[0].block = 10; run.party[0].status.retainBlock = 1;
+  // 第一轮纸团攻击6，剩余4被留到下一回合，但还没有兑现留盾挡伤。
+  state = act(state, { type: 'endTurn' });
+  assert.equal(state.adventure.active.party[0].carriedBlock, 4);
+  assert.equal(state.adventure.active.battleStats.retainedBlocked, 0);
+  // 单元夹具把下一意图设为公开的攻击，验证实际消费而非生成值。
+  state.adventure.active.enemies[0].intentIndex = 0;
+  state.adventure.active.party[0].block += 3;
+  state = act(state, { type: 'endTurn' });
+  assert.equal(state.adventure.active.battleStats.retainedBlocked, 4);
+  state = at(state, n => n.options[0].encounterId === 'street-patrol');
+  assert.equal(state.adventure.active.battleStats.retainedBlocked, 0);
+});
+
+test('战斗统计在存档与重开中保留，老战局仅记录启用后的效果；非法统计拒绝', () => {
+  const state = at(start(), n => n.options[0].encounterId === 'street-swarm'), run = state.adventure.active;
+  delete run.battleStats;
+  const card = putHand(state, 'street-sweep', run.party[0].id);
+  let next = act(state, { type: 'playCard', cardUid: card.uid });
+  assert.equal(next.adventure.active.battleStats.partial, true);
+  assert.equal(next.adventure.active.battleStats.areaTargets, 3);
+  const snapshot = JSON.stringify(next); combat.getAdventureView(next); assert.equal(JSON.stringify(next), snapshot);
+  assert.deepEqual(combat.getAdventureView(clone(next)).run.battleStatLines, combat.getAdventureView(next).run.battleStatLines);
+  next.adventure.active.battleStats.areaTargets = -1;
+  assert.throws(() => game.assertState(next), /损坏/);
+});
+
+test('回合按钮预估包含本轮存蓄，且新预览不暴露发现或观星的候选', () => {
+  const state = at(start(), n => n.index === 0), run = state.adventure.active;
+  const view = combat.getAdventureView(state).run;
+  const ended = combat.applyAction(state, { type: 'endTurn' }).state;
+  assert.equal(view.nextEnergyIfEnd, ended.adventure.active.energy);
+  const card = putHand(state, 'quick-sketch', run.party[0].id);
+  const preview = combat.previewAction(state, { type: 'playCard', cardUid: card.uid }, true);
+  assert.match(preview.impactSummary, /完成发现或观星/);
+  assert.ok(!preview.impactSummary.includes('chance-'));
+});
+
+test('四个固定种子通过公开操作走完九站，营地与奇遇各完成一次换牌，逐步校验存档', () => {
+  const { chooseFromView } = require('./helpers/adventure-policy');
+  for (const seed of [42, 12345, 824596, 987654321]) {
+    let state = start(seed), replacements = 0, steps = 0;
+    while (state.adventure.active && steps++ < 1200) {
+      const view = combat.getAdventureView(state).run;
+      let action;
+      if (view.phase === 'camp') action = { type: 'chooseRefit' };
+      else if (view.phase === 'event') action = { type: 'chooseEvent', choiceId: 'refit' };
+      else if (['campReplace', 'eventReplace'].includes(view.phase)) {
+        // 仅使用公开可见的候选，不用隐藏牌序；选择一进一出且合法的组合。
+        const incoming = view.choices[0], outgoing = view.replaceCards.find(c => c.cardId !== incoming.cardId);
+        action = { type: 'refitCard', choiceId: incoming.uid, cardUid: outgoing.uid, ownerId: incoming.ownerId };
+        replacements += 1;
+      } else action = chooseFromView(view, candidate => combat.previewAction(state, candidate));
+      const before = JSON.stringify(state);
+      const result = combat.applyAction(state, action); game.assertState(result.state);
+      assert.equal(JSON.stringify(state), before);
+      state = clone(result.state); // 模拟每一步存储后恢复，随机进度、候选与换牌记录必须一致。
+    }
+    assert.ok(steps < 1200);
+    assert.equal(replacements, 2);
+    assert.equal(state.adventure.active, null);
+    assert.equal(typeof state.adventure.lastResult.win, 'boolean');
+  }
+});

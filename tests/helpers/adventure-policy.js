@@ -293,6 +293,16 @@ function chooseFromView(view, previewActionCallback, style = 'balanced') {
       const ratio = missing / Math.max(1, view.party.reduce((sum, member) => sum + member.maxHp, 0));
       return ratio >= (style === 'guard' ? 0.16 : 0.25) ? { type: 'rest' } : { type: 'chooseUpgrade' };
     }
+    case 'campReplace': case 'eventReplace': {
+      const pairs = [];
+      for (const incoming of view.choices) for (const outgoing of view.replaceCards) {
+        if (incoming.cardId === outgoing.cardId && incoming.ownerId === outgoing.ownerId) continue;
+        pairs.push({ incoming, outgoing, score: cardPotential(incoming, view, weights) - cardPotential(outgoing, view, weights) });
+      }
+      pairs.sort((a, b) => b.score - a.score || a.incoming.uid.localeCompare(b.incoming.uid) || a.outgoing.uid.localeCompare(b.outgoing.uid));
+      const best = pairs[0];
+      return best && best.score > 0 ? { type: 'refitCard', choiceId: best.incoming.uid, ownerId: best.incoming.ownerId, cardUid: best.outgoing.uid } : { type: 'refitCard', choiceId: 'skip' };
+    }
     case 'startingUpgrade': case 'campUpgrade': return chooseUpgrade(view, weights);
     default: throw new Error(`选择策略不支持当前阶段：${view.phase}`);
   }

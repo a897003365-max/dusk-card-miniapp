@@ -4,6 +4,8 @@ const { FIGHTERS, CARDS, OPPORTUNITY_CARDS, STARTING_TACTICS, RELICS, ENEMIES, R
 
 const { analyzeDeck, rewardCandidates, rewardReason, REWARD_SLOTS, SLOT_NAMES } = require('./deck-strategy');
 
+const { KEYS: STAT_KEYS, freshStats, addStat, statLines } = require('./battle-stats');
+
 const PHASES = ['startingUpgrade', 'map', 'battle', 'cardReward', 'relicReward', 'event', 'camp', 'campUpgrade', 'campReplace', 'eventReplace'];
 const STATUS_KEYS = ['mark', 'weak', 'burn', 'counter', 'echo', 'retainBlock'];
 const EFFECT_LABELS = { damage: '伤害', block: '护盾', heal: '治疗', draw: '抽牌', energy: '能量', charge: '蓄能', mark: '标记', weak: '虚弱', burn: '灼烧', counter: '反击', echo: '回响次数', retainBlock: '留盾', cleanse: '净化', stripBlock: '破盾', intercept: '拦截', discover: '发现', scout: '观星', environment: '环境' };
@@ -181,28 +183,42 @@ function removeDownedCards(run, member, events) {
   const ids = runCards(run).filter(card => card.ownerId === member.id).map(card => card.uid);
   for (const key of ['drawPile', 'hand', 'discardPile']) run[key] = run[key].filter(uid => !ids.includes(uid));
   run.removed = [...new Set([...run.removed, ...ids])];
-  member.block = 0;
+  member.block = 0; member.carriedBlock = 0;
   logEvent(events, 'down', member.id, member.id, 0, `${familyName(member.id)}暂时倒下，所属卡牌本场退场`);
 }
 
-function damage(run, actor, target, base, events, { direct = true, enemyAttack = false, echo = false, applyWeak = true } = {}) {
+function damage(run, actor, target, base, events, { direct = true, enemyAttack = false, echo = false, applyWeak = true, counter = false } = {}) {
   if (!target || !alive(target)) return { killed: false, amount: 0, blocked: 0, hpLoss: 0 };
   let amount = Math.max(0, base);
   if (direct && run.environmentId) amount = Math.max(0, amount + ENVIRONMENTS[run.environmentId].damageModifier);
   if (direct && applyWeak && actor && actor.status.weak > 0) amount = Math.floor(amount * STATUS_RULES.weakMultiplier);
-  if (direct && target.status.mark > 0) { amount += STATUS_RULES.markBonus; target.status.mark -= 1; }
+  const unmarkedAmount = amount, originalHp = target.hp, originalBlock = target.block;
+  const marked = direct && target.status.mark > 0;
+  if (marked) { amount += STATUS_RULES.markBonus; target.status.mark -= 1; }
   const blocked = direct ? Math.min(target.block, amount) : 0;
+  const retainedBlocked = Math.min(target.carriedBlock || 0, blocked);
+  if (target.carriedBlock !== undefined) target.carriedBlock -= retainedBlocked;
   target.block -= blocked;
   const lost = Math.min(target.hp, amount - blocked);
   target.hp -= lost;
   const targetName = target.definitionId ? ENEMY_BY_ID[target.definitionId].name : familyName(target.id);
   const impact = logEvent(events, echo ? 'echo' : direct ? 'damage' : 'burn', actor && actor.id, target.id, lost, `${targetName}${blocked ? `的护盾挡下 ${blocked}，` : ''}受到 ${lost} 点伤害`);
   impact.hpDelta = -lost;
+  if (target.definitionId) {
+    const markHpGain = marked ? lost - Math.min(originalHp, Math.max(0, unmarkedAmount - originalBlock)) : 0;
+    if (markHpGain) { impact.markHpGain = markHpGain; addStat(run, 'markHpDamage', markHpGain); }
+    if (!direct) addStat(run, 'burnHpDamage', lost);
+    if (counter) { impact.counterDamage = lost; addStat(run, 'counterHpDamage', lost); }
+  } else if (retainedBlocked) {
+    impact.retainedBlocked = retainedBlocked; addStat(run, 'retainedBlocked', retainedBlocked);
+  }
   if (blocked > 0) impact.blocked = blocked;
   let killed = target.hp === 0;
   if (killed && target.definitionId) {
     const definition = ENEMY_BY_ID[target.definitionId];
     if (definition.phase2 && target.phase === 1) {
+      const phaseBurnCleared = target.status.burn;
+      addStat(run, 'phaseBurnCleared', phaseBurnCleared);
       target.phase = 2;
       target.maxHp = Math.ceil(definition.phase2.maxHp * difficultyOf(run).hpMultiplier);
       target.hp = target.maxHp;
@@ -210,11 +226,12 @@ function damage(run, actor, target, base, events, { direct = true, enemyAttack =
       target.status = freshStatus();
       target.intentIndex = 0;
       killed = false;
-      logEvent(events, 'bossPhase', target.id, target.id, target.hp, `${definition.name}进入第二阶段`);
+      const phaseEvent = logEvent(events, 'bossPhase', target.id, target.id, target.hp, `${definition.name}进入第二阶段，清除护盾和全部状态`);
+      phaseEvent.burnCleared = phaseBurnCleared;
     } else logEvent(events, 'defeat', actor && actor.id, target.id, 0, `${definition.name}被击败了`);
   } else if (killed) removeDownedCards(run, target, events);
   if (enemyAttack && target.status.counter > 0 && actor && alive(actor)) {
-    damage(run, target, actor, target.status.counter, events, { direct: true, applyWeak: false });
+    damage(run, target, actor, target.status.counter, events, { direct: true, applyWeak: false, counter: true });
   }
   return { killed, amount, blocked, hpLoss: lost };
 }
@@ -303,6 +320,7 @@ function effect(run, descriptor, actor, cardTarget, targetId, events, facts, sca
     } else if (kind === 'stripBlock') {
       const removed = Math.min(target.block, amount);
       target.block -= removed;
+      if (target.carriedBlock !== undefined) target.carriedBlock = Math.max(0, target.carriedBlock - removed);
       const event = logEvent(events, 'stripBlock', actor && actor.id, target.id, removed, `${name}失去 ${removed} 点护盾`);
       event.blockDelta = -removed;
     } else if (kind === 'intercept') {
@@ -364,6 +382,7 @@ function finish(state, win, reason, events) {
     win, reason, regionId: run.regionId, regionName: REGION_BY_ID[run.regionId].name,
     difficultyName: difficultyOf(run).name, nodesCleared: run.layer, threads: run.threadsEarned, tickets: run.ticketsEarned
   };
+  if (run.battleStats) state.adventure.lastResult.battleStats = clone(run.battleStats);
   logEvent(events, 'finish', null, null, 0, reason);
   state.adventure.active = null;
 }
@@ -432,7 +451,7 @@ function battleOutcome(state, events) {
     const recovery = logEvent(events, 'revive', member.id, member.id, member.hp, `${familyName(member.id)}恢复四分之一生命，重新归队`);
     recovery.hpDelta = member.hp;
   });
-  run.party.forEach(member => { member.block = 0; member.status = freshStatus(); });
+  run.party.forEach(member => { member.block = 0; member.carriedBlock = 0; member.status = freshStatus(); });
   const type = run.nodes[run.layer].type;
   bank(state, type === 'boss' ? 12 : type === 'elite' ? 8 : 4, events);
   if (type === 'boss') {
@@ -471,6 +490,7 @@ function beginTurn(state, events) {
   const releasedCharge = run.charge;
   run.energy = baseEnergy + releasedCharge;
   run.charge = 0;
+  addStat(run, 'chargeReleased', releasedCharge);
   if (releasedCharge) logEvent(events, 'chargeRelease', null, null, releasedCharge, `蓄能释放，本回合额外获得 ${releasedCharge} 点能量`);
   run.environmentId = null;
   run.interceptorId = null;
@@ -480,8 +500,8 @@ function beginTurn(state, events) {
     member.usedTurn = {};
     if (!firstTurn) {
       member.status.counter = 0;
-      if (member.status.retainBlock > 0) member.status.retainBlock -= 1;
-      else member.block = 0;
+      if (member.status.retainBlock > 0) { member.status.retainBlock -= 1; member.carriedBlock = member.block; }
+      else { member.block = 0; member.carriedBlock = 0; }
     }
     if (member.status.burn > 0) {
       damage(run, null, member, member.status.burn, events, { direct: false });
@@ -497,6 +517,7 @@ function beginTurn(state, events) {
 function startBattle(state, option, events) {
   const run = state.adventure.active;
   run.phase = 'battle';
+  run.battleStats = freshStats();
   run.turn = 0;
   run.plays = 0;
   run.energy = BATTLE_RULES.energyStart;
@@ -507,7 +528,7 @@ function startBattle(state, option, events) {
   run.temporaryCards = [];
   run.relicUsedTurn = {};
   run.relicUsedBattle = {};
-  run.party.forEach(member => { member.block = 0; member.status = freshStatus(); member.usedTurn = {}; member.usedBattle = {}; });
+  run.party.forEach(member => { member.block = 0; member.carriedBlock = 0; member.status = freshStatus(); member.usedTurn = {}; member.usedBattle = {}; });
   run.enemies = option.enemyIds.map((id, index) => spawnEnemy(run, id, option.encounterId, index));
   run.hand = [];
   run.discardPile = [];
@@ -641,15 +662,21 @@ function playCard(state, action, events) {
   (definition.exhaust ? run.removed : run.discardPile).push(card.uid);
   run.plays += 1;
   const cardAction = logEvent(events, 'playCard', owner.id, action.targetId, definition.cost, `${familyName(owner.id)}使用${definition.name}${card.upgraded ? '＋' : ''}`);
+  cardAction.cardUid = card.uid;
+  cardAction.cardId = card.cardId;
   cardAction.payment = payment;
   cardAction.paymentText = paymentText(payment);
   cardAction.targetKind = definition.target;
   cardAction.targetIds = getTargets(run, definition.target, owner, action.targetId).map(target => target.id);
   const facts = { kills: 0 };
   const effects = card.upgraded ? definition.upgradeEffects : definition.effects;
+  const areaTargets = new Set();
   let echoReady = owner.status.echo > 0;
   effects.forEach(descriptor => {
     if (descriptor.minPlays && run.plays < descriptor.minPlays) return;
+    if (['damage', 'burn', 'mark', 'weak'].includes(descriptor.kind) && ['allEnemies', 'enemies'].includes(descriptor.target || definition.target)) {
+      run.enemies.filter(alive).forEach(enemy => areaTargets.add(enemy.id));
+    }
     effect(run, descriptor, owner, definition.target, action.targetId, events, facts);
     if (descriptor.kind === 'damage' && echoReady) {
       echoReady = false;
@@ -659,6 +686,8 @@ function playCard(state, action, events) {
       targets.forEach(target => { if (damage(run, owner, target, amount, events, { echo: true }).killed) facts.kills += 1; });
     }
   });
+  cardAction.areaTargets = areaTargets.size;
+  addStat(run, 'areaTargets', areaTargets.size);
   ['attack', 'guard', 'heal', 'marked'].forEach(name => { if (facts[name]) trigger(run, name, owner, action.targetId, events); });
   if (facts.kills) trigger(run, 'kill', owner, action.targetId, events);
   if (run.plays === 3) trigger(run, 'thirdPlay', owner, action.targetId, events);
@@ -825,7 +854,34 @@ function applyAction(state, action) {
   return { state: next, events };
 }
 
-function previewAction(state, action) {
+function incomingLoss(state) {
+  const run = state.adventure.active;
+  if (!run || run.phase !== 'battle' || run.pendingChoice) return null;
+  const events = applyAction(state, { type: 'endTurn' }).events;
+  return run.party.map(member => ({ id: member.id, name: familyName(member.id),
+    loss: events.filter(event => event.targetId === member.id && event.hpDelta < 0).reduce((sum, event) => sum - event.hpDelta, 0) }));
+}
+function actionImpact(state, result) {
+  const run = result.state.adventure.active;
+  const events = result.events;
+  const damage = events.filter(event => event.targetId && event.targetId.startsWith('enemy-') && event.hpDelta < 0).reduce((sum, event) => sum - event.hpDelta, 0);
+  const before = incomingLoss(state), after = incomingLoss(result.state);
+  const kills = events.filter(event => event.kind === 'defeat').length;
+  const phases = events.filter(event => event.kind === 'bossPhase').length;
+  const lines = [`本次实际伤害 ${damage}${kills ? ` · 击败 ${kills} 名敌人` : ''}${phases ? ' · Boss转阶段清状态' : ''}`];
+  if (!run || run.phase !== 'battle') lines.push('本战结束，不再承受本轮敌方行动。');
+  else if (run.pendingChoice) lines.push('先完成发现或观星选择，再更新回合风险。');
+  else {
+    lines.push(`出牌后剩 ${run.energy} 能量；立即结束预计下回合 ${nextTurnEnergy(run)} 能量。`);
+    if (before && after) lines.push('立即结束的生命损失：' + after.map(member => `${member.name} ${before.find(item => item.id === member.id).loss}→${member.loss}`).join(' / ') + '（含状态伤害，不抵消治疗）。');
+  }
+  return lines.join('\n');
+}
+function nextTurnEnergy(run) {
+  const banked = Math.min(BATTLE_RULES.bankLimit, run.energy, STATUS_RULES.maxCharge - (run.charge || 0));
+  return (run.turn + 1 >= BATTLE_RULES.energyGrowthTurn ? BATTLE_RULES.energyLate : BATTLE_RULES.energyStart) + (run.charge || 0) + banked;
+}
+function previewAction(state, action, withImpact = false) {
   try {
     const result = applyAction(state, action);
     const events = action && action.type === 'tradeCard' ? result.events.map(event => {
@@ -833,7 +889,7 @@ function previewAction(state, action) {
       const { replacementUid, ...visible } = event;
       return { ...visible, text: `花费${event.paymentText}改签，换入一张牌` };
     }) : result.events;
-    return { allowed: true, reason: '', events, summary: events.map(item => item.text).join('；') || '确认后继续前行' };
+    return { allowed: true, reason: '', events, ...(withImpact && action.type === 'playCard' ? { impactSummary: actionImpact(state, result) } : {}), summary: events.map(item => item.text).join('；') || '确认后继续前行' };
   } catch (error) {
     return { allowed: false, reason: error.message, events: [], summary: error.message };
   }
@@ -1008,13 +1064,15 @@ function getAdventureView(state, rewardOwners = {}) {
       id: run.id, tacticName: (STARTING_TACTICS.find(item => item.id === (run.tacticId || 'classic')) || STARTING_TACTICS[0]).name,
       regionId: run.regionId, regionName: REGION_BY_ID[run.regionId].name, difficulty: run.difficulty, difficultyName: difficultyOf(run).name,
       phase: run.phase, layer: run.layer, progress: Math.round(run.layer / 9 * 100), nodes: run.nodes.map(node => ({ ...clone(node), current: node.index === run.layer })),
+      battleStats: run.battleStats ? clone(run.battleStats) : null, battleStatLines: statLines(run.battleStats),
       deckAnalysis: analyzeDeck(run.deck, run.party), refitsUsed: (run.refits || []).length,
       canRefit: run.regionId === 'street' && !(run.refits || []).some(item => item.source === 'camp'),
       replaceCards: ['campReplace', 'eventReplace'].includes(run.phase) ? refitCandidates(run).map(card => cardView(run, card, true)) : [],
       party: run.party.map(memberView), hand: run.hand.map(uid => cardView(run, findCard(run, uid))),
-      enemies: run.enemies.filter(alive).map(enemy => ({ ...clone(enemy), name: ENEMY_BY_ID[enemy.definitionId].name, rank: ENEMY_BY_ID[enemy.definitionId].rank, statusText: statusText(enemy), ...intentView(enemy, enemyPlan) })),
+      enemies: run.enemies.filter(alive).map((enemy, index) => ({ ...clone(enemy), actionOrder: index + 1, phaseWarning: ENEMY_BY_ID[enemy.definitionId].phase2 && enemy.phase === 1 ? '转阶段清除全部状态和护盾' : '', name: ENEMY_BY_ID[enemy.definitionId].name, rank: ENEMY_BY_ID[enemy.definitionId].rank, statusText: statusText(enemy), ...intentView(enemy, enemyPlan) })),
       energy: run.energy, charge: run.charge || 0, maxCharge: STATUS_RULES.maxCharge, availableBudget: availableBudget(run),
       energyRefill: run.turn >= BATTLE_RULES.energyGrowthTurn ? BATTLE_RULES.energyLate : BATTLE_RULES.energyStart,
+      nextEnergyIfEnd: nextTurnEnergy(run),
       nextEnergyRefill: (run.turn + 1 >= BATTLE_RULES.energyGrowthTurn ? BATTLE_RULES.energyLate : BATTLE_RULES.energyStart) + (run.charge || 0),
       bankAtEnd: Math.min(BATTLE_RULES.bankLimit, run.energy, STATUS_RULES.maxCharge - (run.charge || 0)),
       environmentId: run.environmentId || null, environmentName: run.environmentId ? ENVIRONMENTS[run.environmentId].name : '',
@@ -1041,11 +1099,15 @@ function assertAdventure(profile, state) {
     check(!profile.clears[item.id][2] || profile.clears[item.id][1] > 0);
     check(!profile.clears[item.id].some(Boolean) || regionUnlocked(profile, index));
   });
+  const checkStats = stats => {
+    check(object(stats) && typeof stats.partial === 'boolean' && STAT_KEYS.every(key => integer(stats[key])));
+  };
   const checkResult = result => {
     check(object(result) && typeof result.win === 'boolean' && REGION_BY_ID[result.regionId] && typeof result.reason === 'string');
     check(result.regionName === REGION_BY_ID[result.regionId].name && DIFFICULTIES.some(item => item.name === result.difficultyName));
     check(integer(result.nodesCleared) && result.nodesCleared <= 9 && integer(result.threads) && integer(result.tickets));
     check(!result.win || result.nodesCleared === 9);
+    if (result.battleStats !== undefined) checkStats(result.battleStats);
   };
   if (profile.lastResult !== null) checkResult(profile.lastResult);
   if (profile.active === null) return profile;
@@ -1055,6 +1117,7 @@ function assertAdventure(profile, state) {
   check(regionUnlocked(profile, REGIONS.findIndex(item => item.id === run.regionId)) && difficultyUnlocked(profile, run.regionId, run.difficulty));
   check(typeof run.id === 'string' && integer(run.seed) && run.seed > 0 && run.seed <= 0xffffffff && integer(run.rng) && run.rng > 0 && run.rng <= 0xffffffff);
   check(integer(run.layer) && run.layer < 9 && integer(run.energy) && (run.charge === undefined || integer(run.charge) && run.charge <= STATUS_RULES.maxCharge) && integer(run.turn) && integer(run.plays));
+  if (run.battleStats !== undefined) checkStats(run.battleStats);
   check(run.tacticId === undefined || STARTING_TACTICS.some(item => item.id === run.tacticId));
   check(run.environmentId === undefined || run.environmentId === null || Boolean(ENVIRONMENTS[run.environmentId]));
   check(run.pendingChoice === undefined || run.pendingChoice === null || object(run.pendingChoice));
@@ -1064,6 +1127,7 @@ function assertAdventure(profile, state) {
   check(run.interceptorId === undefined || run.interceptorId === null || run.party.some(member => member.id === run.interceptorId && alive(member)));
   const checkUnit = unit => {
     check(object(unit) && integer(unit.hp) && integer(unit.maxHp) && unit.maxHp > 0 && unit.hp <= unit.maxHp && integer(unit.block));
+    check(unit.carriedBlock === undefined || integer(unit.carriedBlock) && unit.carriedBlock <= unit.block);
     check(object(unit.status) && STATUS_KEYS.every(key => integer(unit.status[key])));
   };
   run.party.forEach(member => {

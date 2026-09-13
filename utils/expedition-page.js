@@ -1,4 +1,5 @@
 const combat = require('./combat');
+const { statLines } = require('./battle-stats');
 const { STATUS_GUIDE, getStatusHelp } = require('./status-help');
 const art = require('../assets/battle/manifest');
 const { unitArt, STATES, LABELS, imageFor, heroGroup } = require('./action-art');
@@ -50,6 +51,9 @@ function playActionAudio(action, result) {
 function statusBadges(unit) {
   return Object.keys(statusLabels).filter(key => unit.status[key] > 0).map(key => ({ key, text: statusLabels[key] + unit.status[key] }));
 }
+function compactBadges(badges) {
+  return badges.length > 2 ? [...badges.slice(0, 2), { key: 'more', text: `+${badges.length - 2}` }] : badges;
+}
 function impactFeedback(events, id) {
   const feedback = impactForUnit(events, id);
   return { ...feedback, impactEntries: feedback.lines };
@@ -90,7 +94,7 @@ function enemyArt(enemy, events, regionId, beat) {
   const displayedIntent = action && (beat === 'action' || beat === 'impact') ? actionIntentLines(enemy, action) : intentLines(enemy);
   return { ...enemy,
     ...unitArt(enemy, regionId, events, beat),
-    statusBadges: statusBadges(enemy).slice(0, 2),
+    statusBadges: compactBadges(statusBadges(enemy)),
     exitMotion: !!enemy.leaving && beat === 'impact',
     motion: action && beat === 'action' ? (action.intentKind === 'attack' ? 'enemy-strike' : 'enemy-spell') : '',
     themeId: theme.id, themeLabel: theme.label,
@@ -129,7 +133,7 @@ function buildBattleReceipt(view, battleRun, events) {
     const turn = battleRun && battleRun.turn || result.battleSummary && result.battleSummary.turn || 0;
     const rewardAmount = (events || []).filter(event => event && event.kind === 'reward').reduce((sum, event) => sum + (event.amount || 0), 0);
     return {
-      visible: true,
+      visible: true, statLines: statLines(result.battleStats), statsPartial: result.battleStats && result.battleStats.partial,
       key: `result:${result.regionId}:${result.win ? 'win' : 'loss'}:${result.nodesCleared}:${result.threads}:${result.tickets}`,
       kind: result.win ? 'final-win' : 'defeat',
       postmark: result.win ? '全程送达' : '旅伴归队',
@@ -153,7 +157,7 @@ function buildBattleReceipt(view, battleRun, events) {
   if (nodeType !== 'battle' && nodeType !== 'elite') return null;
   const rewardAmount = (events || []).filter(event => event && event.kind === 'reward').reduce((sum, event) => sum + (event.amount || 0), 0);
   return {
-    visible: true,
+    visible: true, statLines: run.battleStatLines || [], statsPartial: run.battleStats && run.battleStats.partial,
     key: `reward:${run.id}:${run.layer}:${nodeType}`,
     kind: nodeType === 'elite' ? 'elite-win' : 'battle-win',
     postmark: nodeType === 'elite' ? '要件收妥' : '本站收妥',
@@ -257,7 +261,7 @@ function createPage(regionId) {
           const impact = impactFeedback(this._beat === 'impact' ? frameEvents : [], member.id);
           return { ...display,
           ...unitArt(display, regionId, frameEvents, this._beat),
-          statusBadges: [...(run.interceptorId === member.id ? [{ key: 'intercept', text: '护卫' }] : []), ...statusBadges(display)].slice(0, 2),
+          statusBadges: compactBadges([...(run.interceptorId === member.id ? [{ key: 'intercept', text: '护卫' }] : []), ...statusBadges(display)]),
           acting: this._beat === 'action' && frame && frame.actorId === member.id,
           activeTarget: activeTargetIds.includes(member.id),
           hitTarget: impact.hit,
@@ -278,7 +282,7 @@ function createPage(regionId) {
           run.enemies = run.enemies.concat(summoned);
         }
         selected = run.hand.find(card => card.uid === this._selection.cardUid) || null;
-        if (selected) preview = combat.previewAction(app.state, { type: 'playCard', cardUid: selected.uid, targetId: this._selection.targetId });
+        if (selected) preview = combat.previewAction(app.state, { type: 'playCard', cardUid: selected.uid, targetId: this._selection.targetId }, true);
       }
       const finalAliveEnemies = committedRun ? committedRun.enemies : [];
       const aliveEnemies = animating
