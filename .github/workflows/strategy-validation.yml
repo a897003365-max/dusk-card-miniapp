@@ -1,7 +1,7 @@
 name: Strategy validation
 on:
   push:
-    branches: [feat/street-strategy-v2]
+    branches: [main, feat/street-strategy-v2]
   pull_request:
 permissions:
   contents: read
@@ -18,9 +18,9 @@ jobs:
           node-version: '22'
       - name: Unit and integration tests
         run: npm test 2>&1 | tee "$RUNNER_TEMP/strategy-tests.log"
-      - name: Native WXSS validation
+      - name: WXSS static checks (native acceptance runs in WeChat DevTools)
         if: always()
-        run: node tests/claw-wxss.test.js --native 2>&1 | tee "$RUNNER_TEMP/strategy-wxss.log"
+        run: node tests/claw-wxss.test.js 2>&1 | tee "$RUNNER_TEMP/strategy-wxss.log"
       - name: Package budgets
         if: always()
         run: node scripts/check-package-budget.js 2>&1 | tee "$RUNNER_TEMP/strategy-budget.log"
