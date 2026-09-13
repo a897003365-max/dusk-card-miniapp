@@ -193,3 +193,18 @@
 .opportunity-footer .opportunity-skip, .opportunity-footer .opportunity-later { width: 100%; max-width: 100%; min-height: 44px; padding: 10px; font-size: 13px; }
 
 .opportunity-budget { padding: 8px; background: #eee2c8; color: #415870; font-size: 12px; line-height: 1.7; }
+
+/* 构筑与有限改造：信息在滚动区内，不压缩战场。 */
+.strategy-note { display: block; color: #6c675e; font-size: 22rpx; line-height: 1.65; margin: 12rpx 0; }
+.strategy-owner-label { font-size: 22rpx; margin-top: 14rpx; }
+.reward-owners { display: flex; flex-wrap: wrap; gap: 8rpx; margin: 12rpx 0; }
+.reward-owner { flex: 1; min-width: 120rpx; margin: 0; padding: 8rpx; font-size: 22rpx; line-height: 1.5; white-space: normal; }
+.owner-selected { background: #354964; color: #fff8e8; }
+.refit-selected { outline: 4rpx solid #b88438; outline-offset: -4rpx; }
+.refit-heading { font-size: 28rpx; line-height: 1.6; margin: 24rpx 0 8rpx; }
+.strategy-deck-link, .camp-refit { margin: 18rpx 0; }
+.strategy-summary { padding: 20rpx; border-radius: 16rpx; background: #f2ebdf; font-size: 24rpx; line-height: 1.65; }
+.strategy-build { margin: 18rpx 0; }
+.strategy-build text { display: block; font-size: 22rpx; color: #6c675e; }
+.strategy-tags { display: flex; flex-wrap: wrap; gap: 10rpx; }
+.strategy-tags text { padding: 4rpx 10rpx; background: #fff8e8; border-radius: 8rpx; font-size: 22rpx; }

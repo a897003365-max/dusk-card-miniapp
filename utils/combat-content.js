@@ -109,7 +109,7 @@ const CARDS = [
   card("moon-arc", "弯月轻扫", "moon", "echo", 1, "allEnemies", [effect("damage", 2), effect("mark", 1)], [effect("damage", 4), effect("mark", 2)]),
   card("moon-watch", "窗边守月", "moon", "echo", 1, "ally", [effect("block", 6), effect("echo", 1)], [effect("block", 9), effect("echo", 1)]),
   card("nav-chart", "圈出下一站", "nav", "echo", 1, "enemy", [effect("mark", 2), effect("draw", 1, "self")], [effect("mark", 3), effect("draw", 1, "self")]),
-  card("nav-compass", "罗盘借星光", "nav", "echo", 1, "self", [effect("echo", 1), effect("block", 2)], [effect("echo", 1), effect("block", 5)]),
+  card("nav-compass", "罗盘借星光", "nav", "echo", 1, "ally", [effect("echo", 1), effect("block", 2)], [effect("echo", 1), effect("block", 5)]),
   card("tea-sharing", "长椅分半杯", "tea", "guard", 3, "allAllies", [effect("heal", 5), effect("block", 3)], [effect("heal", 7), effect("block", 5)]),
   card("tea-straw", "吸管小栅栏", "tea", "guard", 1, "ally", [effect("block", 6), effect("counter", 2)], [effect("block", 9), effect("counter", 3)]),
   card("sushi-nori", "海苔包好啦", "sushi", "guard", 2, "self", [effect("block", 8), effect("weak", 1, "enemies")], [effect("block", 12), effect("weak", 2, "enemies")]),
@@ -136,7 +136,7 @@ const CARDS = [
   card("firefly-flash", "灯笼晃一晃", "firefly", "combo", 0, "enemy", [effect("cleanse", 1, "self"), effect("mark", 1)], [effect("cleanse", 2, "self"), effect("mark", 2)]),
   card("soup-ladle", "盛一勺再走", "soup", "guard", 2, "ally", [effect("heal", 9), effect("block", 4)], [effect("heal", 12), effect("block", 6)]),
   card("soup-steam", "锅盖冒暖雾", "soup", "guard", 3, "allEnemies", [effect("weak", 1), effect("heal", 4, "party")], [effect("weak", 2), effect("heal", 6, "party")]),
-  card("blanket-quilt", "星毯铺平", "blanket", "echo", 2, "self", [effect("block", 8), effect("echo", 1), effect("retainBlock", 1)], [effect("block", 11), effect("echo", 1), effect("retainBlock", 1)]),
+  card("blanket-quilt", "星毯铺平", "blanket", "echo", 2, "ally", [effect("block", 8), effect("echo", 1), effect("retainBlock", 1)], [effect("block", 11), effect("echo", 1), effect("retainBlock", 1)]),
   card("blanket-stitch", "银线绣一针", "blanket", "echo", 1, "enemy", [effect("damage", 6), effect("echo", 1, "self")], [effect("damage", 9), effect("echo", 1, "self")]),
   card("seedling-break", "嫩芽顶开砖", "seedling", "combo", 2, "enemy", [effect("stripBlock", 6), effect("damage", 8)], [effect("stripBlock", 10), effect("damage", 11)]),
   card("seedling-travel", "沿路撒下种子", "seedling", "combo", 2, "allEnemies", [effect("damage", 4), effect("heal", 2, "party")], [effect("damage", 6), effect("heal", 3, "party")]),
@@ -276,10 +276,12 @@ const REGIONS = [
     { id: "street-tea", title: "窗下的一碗热茶", text: "守窗的街坊请旅伴歇一会儿。茶还热着，一只拆开的邮袋也正等人缝好。", choices: [
       { id: "tea", label: "坐下喝完热茶", description: "全队恢复8点生命，获得2星线。", heal: 8, threads: 2 },
       { id: "sew", label: "帮忙缝好邮袋", description: "获得7星线。", heal: 0, threads: 7 },
+      { id: "refit", label: "重新整理一张邮路牌", description: "放弃本次其他收益，三选一替换一张非专属牌；牌数不变，原牌升级不继承。", replace: true, heal: 0, threads: 0 },
     ] },
     { id: "street-corner", title: "信封上翘起的角", text: "旧书摊里有一册邮路剪贴簿。摊主愿意教你把一张常用卡牌折得更顺手。", choices: [
       { id: "learn", label: "学会一种折法", description: "随机升级1张尚未升级的牌，获得2星线。", heal: 0, threads: 2, upgrade: true },
       { id: "sort", label: "替摊主整理旧书", description: "全队恢复3点生命，获得5星线。", heal: 3, threads: 5 },
+      { id: "refit", label: "重新整理一张邮路牌", description: "放弃本次其他收益，三选一替换一张非专属牌；牌数不变，原牌升级不继承。", replace: true, heal: 0, threads: 0 },
     ] },
   ] },
   { id: "bridge", name: "雨巷旧桥", subtitle: "沿青瓦和雨声找到来路", description: "雨水洗淡了青瓦上的旧字。顺着桥灯穿过窄巷，留意墨潮落下前的停顿。", bossId: "ink-tide", normalIds: ["ink-puddle", "tile-sprite", "rain-knot", "reed-shadow"], eliteIds: ["umbrella-spirit", "bridge-drum"], palette: { sky: "#354752", ground: "#657a78", accent: "#b9cab3" }, events: [

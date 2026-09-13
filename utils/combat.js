@@ -2,7 +2,9 @@ const { FAMILIES, TIERS } = require('./content');
 const { heroes } = require('../assets/battle/manifest');
 const { FIGHTERS, CARDS, OPPORTUNITY_CARDS, STARTING_TACTICS, RELICS, ENEMIES, REGIONS, DIFFICULTIES, CARD_BY_ID, RELIC_BY_ID, ENEMY_BY_ID, REGION_BY_ID, STATUS_RULES, BATTLE_RULES, ENVIRONMENTS, STREET_ENCOUNTERS, STREET_BATTLE_PATH } = require('./combat-content');
 
-const PHASES = ['startingUpgrade', 'map', 'battle', 'cardReward', 'relicReward', 'event', 'camp', 'campUpgrade'];
+const { analyzeDeck, rewardCandidates, rewardReason, REWARD_SLOTS, SLOT_NAMES } = require('./deck-strategy');
+
+const PHASES = ['startingUpgrade', 'map', 'battle', 'cardReward', 'relicReward', 'event', 'camp', 'campUpgrade', 'campReplace', 'eventReplace'];
 const STATUS_KEYS = ['mark', 'weak', 'burn', 'counter', 'echo', 'retainBlock'];
 const EFFECT_LABELS = { damage: '伤害', block: '护盾', heal: '治疗', draw: '抽牌', energy: '能量', charge: '蓄能', mark: '标记', weak: '虚弱', burn: '灼烧', counter: '反击', echo: '回响次数', retainBlock: '留盾', cleanse: '净化', stripBlock: '破盾', intercept: '拦截', discover: '发现', scout: '观星', environment: '环境' };
 const ROLE_NAMES = { guard: '守护', combo: '连携', echo: '回响' };
@@ -366,18 +368,43 @@ function finish(state, win, reason, events) {
   state.adventure.active = null;
 }
 
-function cardRewards(run) {
-  const node = run.nodes[run.layer];
-  const option = node.options.find(item => item.id === node.chosenId);
-  const pool = CARDS.filter(card => !['strike', 'guard'].includes(card.id) && (!card.familyId || run.party.some(member => member.id === card.familyId)));
-  const preferred = pool.filter(card => card.role === option.role);
-  const source = preferred.length >= 3 ? preferred : pool;
-  const tactical = shuffled(run, source.filter(card => card.tactic))[0];
-  const candidates = [tactical, ...shuffled(run, source.filter(card => !tactical || card.id !== tactical.id)).slice(0, 2)];
-  run.choices = candidates.map(card => {
+function cardRewards(run, genericOnly = false) {
+  run.choices = rewardCandidates(run, () => random(run), genericOnly).map(({ card, slot }) => {
     const owner = card.familyId ? run.party.find(member => member.id === card.familyId) : run.party.find(member => member.role === card.role) || run.party[0];
-    return newCard(run, card.id, owner.id);
+    return { ...newCard(run, card.id, owner.id), rewardSlot: slot };
   });
+}
+
+function refitCandidates(run) { return run.deck.filter(card => !CARD_BY_ID[card.cardId].familyId); }
+function openRefit(run, source, events) {
+  const refits = run.refits || [];
+  requireThat(run.regionId === 'street' && refits.length < 2 && !refits.some(item => item.source === source), '本局这次改造机会已经使用');
+  requireThat(refitCandidates(run).length > 0, '没有可替换的非专属牌');
+  run.phase = `${source}Replace`;
+  cardRewards(run, true);
+  logEvent(events, 'notice', null, null, 0, '已选择换牌机会；放弃本节点其他收益。替换一进一出，不保留原牌升级。');
+}
+function rewardOwner(run, card, ownerId) {
+  const id = ownerId === undefined ? card.ownerId : ownerId;
+  requireThat(run.party.some(member => member.id === id), '请选择本队旅伴作为卡牌归属');
+  requireThat(!CARD_BY_ID[card.cardId].familyId || CARD_BY_ID[card.cardId].familyId === id, '专属牌只能交给对应旅伴');
+  return id;
+}
+function refitCard(run, action, events) {
+  requireThat(['campReplace', 'eventReplace'].includes(run.phase), '当前没有可用的换牌机会');
+  if (action.choiceId === 'skip') { completeNode(run); return; }
+  const choice = run.choices.find(card => card.uid === action.choiceId);
+  const original = refitCandidates(run).find(card => card.uid === action.cardUid);
+  requireThat(choice && original && !CARD_BY_ID[choice.cardId].familyId, '请选择一张候选通用牌和一张要替换的非专属牌');
+  const ownerId = rewardOwner(run, choice, action.ownerId);
+  requireThat(original.cardId !== choice.cardId || original.ownerId !== ownerId, '不能用相同归属的同一张牌替换自己');
+  const record = { source: run.phase === 'campReplace' ? 'camp' : 'event', nodeIndex: run.layer, cardUid: original.uid,
+    before: { cardId: original.cardId, ownerId: original.ownerId }, after: { cardId: choice.cardId, ownerId } };
+  run.refits = [...(run.refits || []), record];
+  const previousName = CARD_BY_ID[original.cardId].name;
+  original.cardId = choice.cardId; original.ownerId = ownerId; original.upgraded = false;
+  logEvent(events, 'refit', ownerId, null, 1, `${previousName}替换为${CARD_BY_ID[choice.cardId].name}，交给${familyName(ownerId)}；牌组张数不变`);
+  completeNode(run);
 }
 
 function relicRewards(run) {
@@ -740,7 +767,10 @@ function resolve(state, action, events) {
     requireThat(run.phase === 'cardReward', '当前没有待领取的卡牌');
     const card = run.choices.find(item => item.uid === action.choiceId);
     requireThat(action.choiceId === 'skip' || card, '请选择奖励中的卡牌，或跳过');
-    if (card) run.deck.push(card);
+    if (card) {
+      requireThat(run.deck.length < 16, '牌组已满，请跳过本次加牌');
+      run.deck.push({ ...card, ownerId: rewardOwner(run, card, action.ownerId) });
+    }
     completeNode(run);
   } else if (action.type === 'chooseRelic') {
     requireThat(run.phase === 'relicReward', '当前没有待领取的遗物');
@@ -754,6 +784,7 @@ function resolve(state, action, events) {
     const encounter = REGION_BY_ID[run.regionId].events.find(item => item.id === option.eventId);
     const choice = encounter.choices.find(item => item.id === action.choiceId);
     requireThat(choice, '请选择当前奇遇中的选项');
+    if (choice.replace) { openRefit(run, 'event', events); return; }
     if (choice.heal) healParty(run, choice.heal, events);
     if (choice.threads) bank(state, choice.threads, events);
     if (choice.upgrade && upgradeCandidates(run).length) {
@@ -766,6 +797,11 @@ function resolve(state, action, events) {
     requireThat(run.phase === 'camp', '只有营地可以休息');
     healParty(run, 0.35, events, true);
     completeNode(run);
+  } else if (action.type === 'chooseRefit') {
+    requireThat(run.phase === 'camp', '只有营地可以选择换牌');
+    openRefit(run, 'camp', events);
+  } else if (action.type === 'refitCard') {
+    refitCard(run, action, events);
   } else if (action.type === 'chooseUpgrade') {
     requireThat(run.phase === 'camp', '只有营地可以选择升级');
     requireThat(upgradeCandidates(run).length > 0, '所有卡牌都已经升级，可选择休息');
@@ -920,7 +956,7 @@ function plannedEnemyEvents(state) {
   return previewAction(previewState, { type: 'endTurn' }).events;
 }
 
-function getAdventureView(state) {
+function getAdventureView(state, rewardOwners = {}) {
   const profile = state.adventure;
   const levels = FAMILIES.map(family => {
     const tier = ownedTier(state, family.id) || 'R';
@@ -953,7 +989,11 @@ function getAdventureView(state) {
     const enemyPlan = run.phase === 'battle' ? plannedEnemyEvents(state) : [];
     let event = null;
     let choices = [];
-    if (run.phase === 'cardReward') choices = run.choices.map(card => cardView(run, card));
+    if (['cardReward', 'campReplace', 'eventReplace'].includes(run.phase)) choices = run.choices.map(card => ({
+      ...cardView(run, { ...card, ownerId: rewardOwner(run, card, rewardOwners[card.uid]) }, true), rewardLabel: SLOT_NAMES[card.rewardSlot] || '奖励候选',
+      rewardReason: rewardReason(card, card.rewardSlot, run.deck),
+      ownerOptions: run.party.filter(member => !CARD_BY_ID[card.cardId].familyId || CARD_BY_ID[card.cardId].familyId === member.id).map(member => ({ id: member.id, name: familyName(member.id), selected: member.id === (rewardOwners[card.uid] || card.ownerId) }))
+    }));
     if (run.phase === 'relicReward') choices = run.choices.map(id => ({ id, ...RELIC_BY_ID[id] }));
     if (['campUpgrade', 'startingUpgrade'].includes(run.phase)) choices = upgradeCandidates(run).map(card => ({ ...cardView(run, card), upgradeDescription: cardDescription(CARD_BY_ID[card.cardId], { ...card, upgraded: true }, run.party.find(member => member.id === card.ownerId)) }));
     if (run.phase === 'event') {
@@ -968,6 +1008,9 @@ function getAdventureView(state) {
       id: run.id, tacticName: (STARTING_TACTICS.find(item => item.id === (run.tacticId || 'classic')) || STARTING_TACTICS[0]).name,
       regionId: run.regionId, regionName: REGION_BY_ID[run.regionId].name, difficulty: run.difficulty, difficultyName: difficultyOf(run).name,
       phase: run.phase, layer: run.layer, progress: Math.round(run.layer / 9 * 100), nodes: run.nodes.map(node => ({ ...clone(node), current: node.index === run.layer })),
+      deckAnalysis: analyzeDeck(run.deck, run.party), refitsUsed: (run.refits || []).length,
+      canRefit: run.regionId === 'street' && !(run.refits || []).some(item => item.source === 'camp'),
+      replaceCards: ['campReplace', 'eventReplace'].includes(run.phase) ? refitCandidates(run).map(card => cardView(run, card, true)) : [],
       party: run.party.map(memberView), hand: run.hand.map(uid => cardView(run, findCard(run, uid))),
       enemies: run.enemies.filter(alive).map(enemy => ({ ...clone(enemy), name: ENEMY_BY_ID[enemy.definitionId].name, rank: ENEMY_BY_ID[enemy.definitionId].rank, statusText: statusText(enemy), ...intentView(enemy, enemyPlan) })),
       energy: run.energy, charge: run.charge || 0, maxCharge: STATUS_RULES.maxCharge, availableBudget: availableBudget(run),
@@ -982,7 +1025,7 @@ function getAdventureView(state) {
           return { ...cardView(run, card, true), choiceId };
         }) } : null,
       turn: run.turn, plays: run.plays, drawCount: run.drawPile.length, discardCount: run.discardPile.length, removedCount: run.removed.length, deck: run.deck.map(card => cardView(run, card)), temporaryCards: (run.temporaryCards || []).map(card => cardView(run, card)),
-      relics: run.relics.map(id => ({ ...RELIC_BY_ID[id] })), choices, event, log: clone(run.log), threadsEarned: run.threadsEarned, hint: hints[run.phase]
+      relics: run.relics.map(id => ({ ...RELIC_BY_ID[id] })), choices, event, log: clone(run.log), threadsEarned: run.threadsEarned, hint: ['campReplace', 'eventReplace'].includes(run.phase) ? '先选新牌和归属，再选换出的非专属牌；一进一出，原牌升级不继承' : run.phase === 'camp' && run.regionId === 'street' ? '休息、升级或替换非专属牌，三选一' : hints[run.phase]
     };
   }
   return { regions, threads: profile.threads, party: state.team.map(id => levels.find(item => item.id === id)), levels, tactics, run: runView, result: clone(profile.lastResult) };
@@ -1051,23 +1094,49 @@ function assertAdventure(profile, state) {
   });
   check(ROUTES.some(route => route.every((type, index) => run.nodes[index].type === type)));
   check(['map', 'startingUpgrade'].includes(run.phase) ? run.nodes[run.layer].chosenId === null : Boolean(run.nodes[run.layer].chosenId));
-  const phaseNodes = { battle: ['battle', 'elite', 'boss'], cardReward: ['battle'], relicReward: ['elite', 'treasure'], event: ['event'], camp: ['camp'], campUpgrade: ['camp'] };
+  const phaseNodes = { battle: ['battle', 'elite', 'boss'], cardReward: ['battle'], relicReward: ['elite', 'treasure'], event: ['event'], camp: ['camp'], campUpgrade: ['camp'], campReplace: ['camp'], eventReplace: ['event'] };
   if (phaseNodes[run.phase]) check(phaseNodes[run.phase].includes(run.nodes[run.layer].type));
   check(Array.isArray(run.deck) && run.deck.length >= 12 && run.deck.length <= 16 && new Set(run.deck.map(card => card.uid)).size === run.deck.length);
   const checkCard = card => {
     check(object(card) && /^card-[1-9]\d*$/.test(card.uid) && Number(card.uid.slice(5)) < run.nextCardId && CARD_BY_ID[card.cardId]);
     check(run.party.some(member => member.id === card.ownerId) && typeof card.upgraded === 'boolean');
     check(!CARD_BY_ID[card.cardId].familyId || CARD_BY_ID[card.cardId].familyId === card.ownerId);
+    check(card.rewardSlot === undefined || REWARD_SLOTS.includes(card.rewardSlot));
   };
   run.deck.forEach(card => { checkCard(card); check(permanentCardIds.has(card.cardId)); });
   const temporaryCards = run.temporaryCards || [];
   temporaryCards.forEach(card => { checkCard(card); check(opportunityCardIds.has(card.cardId) && card.upgraded === false && CARD_BY_ID[card.cardId].exhaust); });
   check(new Set([...run.deck, ...temporaryCards].map(card => card.uid)).size === run.deck.length + temporaryCards.length);
   const startingTactic = STARTING_TACTICS.find(item => item.id === (run.tacticId || 'classic'));
+  const expectedCards = new Map();
   run.party.forEach((member, index) => {
-    const initial = run.deck.find(card => card.uid === `card-${index * 4 + 1}`);
-    check(initial && initial.ownerId === member.id && initial.cardId === (startingTactic.cards[index] || 'strike'));
+    [startingTactic.cards[index] || 'strike', 'guard', ...FIGHTERS[member.id].cards].forEach((cardId, offset) => {
+      expectedCards.set(`card-${index * 4 + offset + 1}`, { cardId, ownerId: member.id });
+    });
   });
+  const refits = run.refits || [];
+  check(run.refits === undefined || Array.isArray(run.refits));
+  check(refits.length <= 2 && refits.every(object));
+  check(new Set(refits.map(item => item.source)).size === refits.length);
+  let previousRefitNode = -1;
+  for (const item of refits) {
+    check(object(item) && run.regionId === 'street' && ['camp', 'event'].includes(item.source));
+    check(integer(item.nodeIndex) && item.nodeIndex > previousRefitNode && item.nodeIndex < run.layer && run.nodes[item.nodeIndex].type === item.source);
+    previousRefitNode = item.nodeIndex;
+    check(run.deck.some(card => card.uid === item.cardUid));
+    for (const value of [item.before, item.after]) check(object(value) && permanentCardIds.has(value.cardId) && !CARD_BY_ID[value.cardId].familyId && run.party.some(member => member.id === value.ownerId));
+    const expected = expectedCards.get(item.cardUid);
+    check(!expected || expected.cardId === item.before.cardId && expected.ownerId === item.before.ownerId);
+    expectedCards.set(item.cardUid, item.after);
+  }
+  for (const [uid, expected] of expectedCards) {
+    const card = run.deck.find(item => item.uid === uid);
+    check(card && card.cardId === expected.cardId && card.ownerId === expected.ownerId);
+  }
+  if (['campReplace', 'eventReplace'].includes(run.phase)) {
+    const source = run.phase === 'campReplace' ? 'camp' : 'event';
+    check(run.regionId === 'street' && refits.length < 2 && !refits.some(item => item.source === source));
+  }
   const allCards = runCards(run);
   for (const key of ['hand', 'drawPile', 'discardPile', 'removed']) check(Array.isArray(run[key]) && run[key].every(uid => allCards.some(card => card.uid === uid)));
   const piles = [...run.hand, ...run.drawPile, ...run.discardPile, ...run.removed];
@@ -1112,8 +1181,9 @@ function assertAdventure(profile, state) {
   check(Array.isArray(run.relics) && new Set(run.relics).size === run.relics.length && run.relics.every(id => RELIC_BY_ID[id]));
   check(object(run.relicUsedTurn) && object(run.relicUsedBattle) && Array.isArray(run.choices) && Array.isArray(run.log));
   check(Object.values(run.relicUsedTurn).every(value => typeof value === 'boolean') && Object.values(run.relicUsedBattle).every(value => typeof value === 'boolean'));
-  if (run.phase === 'cardReward') {
+  if (['cardReward', 'campReplace', 'eventReplace'].includes(run.phase)) {
     check(run.choices.length === 3 && new Set(run.choices.map(card => card.uid)).size === 3);
+    if (run.phase !== 'cardReward') check(run.choices.every(card => CARD_BY_ID[card.cardId] && !CARD_BY_ID[card.cardId].familyId));
     run.choices.forEach(card => { checkCard(card); check(permanentCardIds.has(card.cardId) && !run.deck.some(item => item.uid === card.uid)); });
   }
   if (run.phase === 'relicReward') check(run.choices.length === 3 && new Set(run.choices).size === 3 && run.choices.every(id => RELIC_BY_ID[id] && !run.relics.includes(id)));

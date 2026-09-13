@@ -297,13 +297,17 @@ test("Boss使用可见的防御与蓄力序列，灯市Boss两阶段召唤不同
   assert.equal(bell.phase2.patterns[0].summonId, "bell-sprite");
 });
 
-test("每区事件提供两种明确收益路线，难度只公开约定倍数和词缀", () => {
+test("每区保留两种收益路线，邮街另有一次有代价的换牌机会", () => {
   for (const region of REGIONS) {
     assert.equal(region.events.length, 2);
     for (const event of region.events) {
-      assert.equal(event.choices.length, 2);
-      assert.equal(new Set(event.choices.map(item => item.id)).size, 2);
+      assert.equal(event.choices.length, region.id === "street" ? 3 : 2);
+      assert.equal(new Set(event.choices.map(item => item.id)).size, event.choices.length);
       for (const choice of event.choices) {
+        if (choice.replace) {
+          assert.equal(region.id, "street"); assert.equal(choice.heal, 0); assert.equal(choice.threads, 0);
+          assert.match(choice.description, /放弃本次其他收益/); continue;
+        }
         assert(Number.isInteger(choice.heal) && choice.heal >= 0);
         assert(Number.isInteger(choice.threads) && choice.threads > 0);
         assert(choice.description.includes(`${choice.threads}星线`));

@@ -177,6 +177,8 @@ function createPage(regionId) {
     data: { screen: { error: '', regionId, view: null } },
     onLoad() {
       this._selection = { cardUid: '', targetId: '' };
+      this._rewardOwners = {};
+      this._refitChoiceId = '';
       this._sheet = '';
       this._previewPose = '';
       this._busy = false;
@@ -218,7 +220,7 @@ function createPage(regionId) {
     refresh() {
       const app = getApp();
       if (!app.state) return this.setData({ screen: { error: app.storageError, regionId } });
-      const view = combat.getAdventureView(app.state);
+      const view = combat.getAdventureView(app.state, this._rewardOwners);
       const committedRun = view.run;
       const animating = !!(this._busy && this._battleTimeline.length && this._previousRun);
       const run = animating ? clone(this._previousRun) : committedRun;
@@ -246,7 +248,8 @@ function createPage(regionId) {
         if (run.pendingChoice) run.pendingChoice.options = run.pendingChoice.options.map(card => cardArt(card, regionId));
         run.environmentName = run.environmentId ? ENVIRONMENTS[run.environmentId].name : '';
         run.conditionLabel = [run.environmentName, run.interceptorId ? '护卫' : '', run.pressure ? '压力+' + run.pressure : ''].filter(Boolean).join(' · ') || '战场平静';
-        if (['cardReward', 'campUpgrade', 'startingUpgrade'].includes(run.phase)) run.choices = run.choices.map(card => cardArt(card, regionId));
+        if (['cardReward', 'campUpgrade', 'startingUpgrade', 'campReplace', 'eventReplace'].includes(run.phase)) run.choices = run.choices.map(card => cardArt(card, regionId));
+        run.refitSelected = run.choices.find(card => card.uid === this._refitChoiceId) || null;
         run.log = run.log.map((event, key) => ({ ...event, key }));
         run.party = run.party.map(member => {
           const shown = shownParty.get(member.id);
@@ -334,6 +337,8 @@ function createPage(regionId) {
         const battleAudio = ['playCard', 'endTurn'].includes(action.type) ? { events: result.events || [], outcome: result.state.adventure.active ? null : result.state.adventure.lastResult } : null;
         playActionAudio(action, result);
         this._selection = { cardUid: '', targetId: '' };
+        this._rewardOwners = {};
+        this._refitChoiceId = '';
         this._sheet = '';
         this._fx = result.events || [];
         this._enemyFrame = this._fx.some(event => event.kind === 'defeat') ? previousEnemies : null;
@@ -459,7 +464,29 @@ function createPage(regionId) {
     tradeSelected() { if (this.data.screen.selected && this.data.screen.selected.canTrade) this.perform({ type: 'tradeCard', cardUid: this.data.screen.selected.uid }); },
     chooseOpportunity(event) { this.perform({ type: 'chooseOpportunity', choiceId: event.currentTarget.dataset.id }); },
     skipOpportunity() { this.perform({ type: 'chooseOpportunity', choiceId: 'skip' }); },
-    chooseCard(event) { this.perform({ type: 'chooseCard', choiceId: event.currentTarget.dataset.uid }); },
+    chooseRewardOwner(event) {
+      if (this._busy || this.data.screen.receipt) return;
+      const { uid, owner } = event.currentTarget.dataset;
+      const card = this.data.screen.run.choices.find(item => item.uid === uid);
+      if (!card || !card.ownerOptions.some(item => item.id === owner)) return;
+      this._rewardOwners[uid] = owner;
+      this.refresh();
+    },
+    chooseCard(event) {
+      const card = this.data.screen.run.choices.find(item => item.uid === event.currentTarget.dataset.uid);
+      if (card) this.perform({ type: 'chooseCard', choiceId: card.uid, ownerId: card.ownerId });
+    },
+    showRefit() { this.perform({ type: 'chooseRefit' }); },
+    selectRefit(event) {
+      if (this._busy || this.data.screen.receipt) return;
+      this._refitChoiceId = event.currentTarget.dataset.uid;
+      this.refresh();
+    },
+    refitCard(event) {
+      const selected = this.data.screen.run.refitSelected;
+      if (selected) this.perform({ type: 'refitCard', choiceId: selected.uid, ownerId: selected.ownerId, cardUid: event.currentTarget.dataset.uid });
+    },
+    skipRefit() { this.perform({ type: 'refitCard', choiceId: 'skip' }); },
     skipCard() { this.perform({ type: 'chooseCard', choiceId: 'skip' }); },
     chooseRelic(event) { this.perform({ type: 'chooseRelic', choiceId: event.currentTarget.dataset.id }); },
     chooseEvent(event) { this.perform({ type: 'chooseEvent', choiceId: event.currentTarget.dataset.id }); },
