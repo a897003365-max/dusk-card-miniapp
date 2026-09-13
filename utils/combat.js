@@ -1,6 +1,6 @@
 const { FAMILIES, TIERS } = require('./content');
 const { heroes } = require('../assets/battle/manifest');
-const { FIGHTERS, CARDS, OPPORTUNITY_CARDS, STARTING_TACTICS, RELICS, ENEMIES, REGIONS, DIFFICULTIES, CARD_BY_ID, RELIC_BY_ID, ENEMY_BY_ID, REGION_BY_ID, STATUS_RULES, BATTLE_RULES, ENVIRONMENTS } = require('./combat-content');
+const { FIGHTERS, CARDS, OPPORTUNITY_CARDS, STARTING_TACTICS, RELICS, ENEMIES, REGIONS, DIFFICULTIES, CARD_BY_ID, RELIC_BY_ID, ENEMY_BY_ID, REGION_BY_ID, STATUS_RULES, BATTLE_RULES, ENVIRONMENTS, STREET_ENCOUNTERS, STREET_BATTLE_PATH } = require('./combat-content');
 
 const PHASES = ['startingUpgrade', 'map', 'battle', 'cardReward', 'relicReward', 'event', 'camp', 'campUpgrade'];
 const STATUS_KEYS = ['mark', 'weak', 'burn', 'counter', 'echo', 'retainBlock'];
@@ -100,7 +100,9 @@ function newCard(run, cardId, ownerId) {
 function makeNodes(run) {
   const region = REGION_BY_ID[run.regionId];
   const route = pick(run, ROUTES);
+  let ordinaryIndex = -1;
   return route.map((type, index) => {
+    if (type === 'battle') ordinaryIndex += 1;
     const count = type === 'boss' || type === 'camp' ? 1 : 2;
     const options = Array.from({ length: count }, (_, option) => {
       const role = ['guard', 'combo', 'echo'][(index + option) % 3];
@@ -109,6 +111,13 @@ function makeNodes(run) {
       if (type === 'elite') enemyIds = [region.eliteIds[option % region.eliteIds.length]];
       if (type === 'boss') enemyIds = [region.bossId];
       const eventId = type === 'event' ? region.events[option % region.events.length].id : null;
+      const encounterId = run.regionId === 'street' && type === 'battle' && ordinaryIndex > 0 ? STREET_BATTLE_PATH[ordinaryIndex - 1][option]
+        : run.regionId === 'street' && type === 'elite' ? ['street-guard', 'street-press'][option] : null;
+      if (encounterId) {
+        const encounter = STREET_ENCOUNTERS[encounterId];
+        return { id: `node-${index}-${option}`, encounterId, name: encounter.name,
+          description: encounter.description, role, enemyIds: encounter.units.map(unit => unit.id), eventId };
+      }
       const name = enemyIds.length ? ENEMY_BY_ID[enemyIds[0]].name : type === 'event' ? region.events.find(item => item.id === eventId).title : NODE_NAMES[type];
       return { id: `node-${index}-${option}`, name, description: type === 'battle' ? `胜利后可选择${ROLE_NAMES[role]}方向的新牌` : type === 'elite' ? '战胜精英，挑选一件遗物' : type === 'boss' ? '击破两个阶段，完成本次远行' : type === 'camp' ? '恢复全队生命，或升级一张牌' : type === 'treasure' ? '带走星线，挑选一件遗物' : '作出选择，决定这次收获', role, enemyIds, eventId };
     });
@@ -416,10 +425,15 @@ function battleOutcome(state, events) {
   return true;
 }
 
-function spawnEnemy(run, definitionId) {
+function encounterUnit(enemy) {
+  return enemy.encounterId ? STREET_ENCOUNTERS[enemy.encounterId].units[enemy.encounterSlot] : null;
+}
+function spawnEnemy(run, definitionId, encounterId, encounterSlot) {
   const definition = ENEMY_BY_ID[definitionId];
-  const maxHp = Math.ceil(definition.maxHp * difficultyOf(run).hpMultiplier);
-  return { id: `enemy-${run.nextEnemyId++}`, definitionId, hp: maxHp, maxHp, block: 0, status: freshStatus(), phase: 1, intentIndex: 0 };
+  const slot = encounterId ? STREET_ENCOUNTERS[encounterId].units[encounterSlot] : null;
+  const maxHp = Math.ceil((slot ? slot.hp : definition.maxHp) * difficultyOf(run).hpMultiplier);
+  return { id: `enemy-${run.nextEnemyId++}`, definitionId, hp: maxHp, maxHp, block: 0, status: freshStatus(), phase: 1, intentIndex: 0,
+    ...(slot ? { encounterId, encounterSlot } : {}) };
 }
 
 function beginTurn(state, events) {
@@ -467,7 +481,7 @@ function startBattle(state, option, events) {
   run.relicUsedTurn = {};
   run.relicUsedBattle = {};
   run.party.forEach(member => { member.block = 0; member.status = freshStatus(); member.usedTurn = {}; member.usedBattle = {}; });
-  run.enemies = option.enemyIds.map(id => spawnEnemy(run, id));
+  run.enemies = option.enemyIds.map((id, index) => spawnEnemy(run, id, option.encounterId, index));
   run.hand = [];
   run.discardPile = [];
   run.removed = [];
@@ -495,8 +509,9 @@ function enemyTargets(run, pattern, events, enemy) {
   return natural;
 }
 
-function enemyAmount(run, pattern) {
-  let amount = Math.ceil(pattern.amount * difficultyOf(run).damageMultiplier);
+function enemyAmount(run, pattern, enemy) {
+  const slot = encounterUnit(enemy);
+  let amount = Math.ceil(pattern.amount * (slot ? slot.attackPercent / 100 : 1) * difficultyOf(run).damageMultiplier);
   if (difficultyOf(run).affixes.some(item => item.id === 'fury') && run.turn % 3 === 0 && pattern.kind === 'attack') amount += 2;
   if (pattern.kind === 'attack') amount += pressureForTurn(run.turn);
   return amount;
@@ -557,7 +572,7 @@ function endTurn(state, events) {
       for (const target of targets) {
         if (!alive(enemy) || !alive(target)) continue;
         if (pattern.kind === 'attack') {
-          const outcome = damage(run, enemy, target, enemyAmount(run, pattern), events, { enemyAttack: true });
+          const outcome = damage(run, enemy, target, enemyAmount(run, pattern, enemy), events, { enemyAttack: true });
           actionEvent.intentTargets.push({ id: target.id, name: familyName(target.id), ...outcome });
         }
         else {
@@ -1024,7 +1039,12 @@ function assertAdventure(profile, state) {
     node.options.forEach((option, choiceIndex) => {
       check(option.id === `node-${index}-${choiceIndex}` && ROLE_NAMES[option.role] && typeof option.name === 'string' && typeof option.description === 'string');
       check(Array.isArray(option.enemyIds) && option.enemyIds.every(id => ENEMY_BY_ID[id] && ENEMY_BY_ID[id].regionId === run.regionId));
-      if (['battle', 'elite', 'boss'].includes(node.type)) check(option.enemyIds.length === 1 && ENEMY_BY_ID[option.enemyIds[0]].rank === (node.type === 'battle' ? 'normal' : node.type));
+      if (option.encounterId !== undefined) {
+        const encounter = STREET_ENCOUNTERS[option.encounterId];
+        check(run.regionId === 'street' && encounter && encounter.rank === (node.type === 'battle' ? 'normal' : node.type));
+        check(node.type === 'elite' || node.type === 'battle' && index > 0);
+        check(JSON.stringify(option.enemyIds) === JSON.stringify(encounter.units.map(unit => unit.id)));
+      } else if (['battle', 'elite', 'boss'].includes(node.type)) check(option.enemyIds.length === 1 && ENEMY_BY_ID[option.enemyIds[0]].rank === (node.type === 'battle' ? 'normal' : node.type));
       else check(option.enemyIds.length === 0);
       if (node.type === 'event') check(REGION_BY_ID[run.regionId].events.some(item => item.id === option.eventId));
     });
@@ -1077,7 +1097,15 @@ function assertAdventure(profile, state) {
     check(ENEMY_BY_ID[enemy.definitionId] && /^enemy-[1-9]\d*$/.test(enemy.id) && Number(enemy.id.slice(6)) < run.nextEnemyId && integer(enemy.intentIndex));
     check(enemy.phase === 1 || enemy.phase === 2 && ENEMY_BY_ID[enemy.definitionId].phase2);
     const definition = ENEMY_BY_ID[enemy.definitionId];
-    check(definition.regionId === run.regionId && enemy.maxHp === Math.ceil((enemy.phase === 2 ? definition.phase2.maxHp : definition.maxHp) * difficultyOf(run).hpMultiplier));
+    if (enemy.encounterId !== undefined) {
+      const encounter = STREET_ENCOUNTERS[enemy.encounterId];
+      check(run.regionId === 'street' && encounter && integer(enemy.encounterSlot));
+      const unit = encounter.units[enemy.encounterSlot];
+      check(unit && unit.id === enemy.definitionId && enemy.phase === 1);
+      check(run.nodes.some(node => node.chosenId && node.options.some(option => option.id === node.chosenId && option.encounterId === enemy.encounterId)));
+    } else check(enemy.encounterSlot === undefined);
+    const slot = encounterUnit(enemy);
+    check(definition.regionId === run.regionId && enemy.maxHp === Math.ceil((slot ? slot.hp : enemy.phase === 2 ? definition.phase2.maxHp : definition.maxHp) * difficultyOf(run).hpMultiplier));
     checkUnit(enemy);
   });
   if (run.phase === 'battle') check(run.enemies.some(alive));

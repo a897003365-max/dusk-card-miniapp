@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "node --test tests/game.test.js tests/storage.test.js tests/pages.test.js tests/migration.test.js tests/combat-content.test.js tests/combat.test.js tests/combat-economy.test.js tests/expedition-ui.test.js tests/action-art.test.js tests/action-assets.test.js tests/audio.test.js tests/sound-controls.test.js tests/battle-feedback.test.js",
+    "test": "node --test tests/game.test.js tests/storage.test.js tests/pages.test.js tests/migration.test.js tests/combat-content.test.js tests/combat.test.js tests/combat-economy.test.js tests/expedition-ui.test.js tests/action-art.test.js tests/action-assets.test.js tests/audio.test.js tests/sound-controls.test.js tests/battle-feedback.test.js tests/strategy.test.js",
     "devtools": "node scripts/open-devtools.js",
     "check:wxss": "node tests/claw-wxss.test.js --native",
     "check:budget": "node scripts/check-package-budget.js"

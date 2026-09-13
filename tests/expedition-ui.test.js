@@ -129,6 +129,8 @@ function lethalAttackState(initial = inBattle()) {
   run.hand = [card.uid];
   run.drawPile = run.deck.filter(item => item.uid !== card.uid).map(item => item.uid);
   run.discardPile = []; run.energy = 3;
+  // 回执夹具表示最后一敌；新精英遭遇的随从在此已被击败。
+  run.enemies.slice(1).forEach(enemy => { enemy.hp = 0; });
   run.enemies[0].hp = 1; run.enemies[0].block = 0;
   return state;
 }
