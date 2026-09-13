@@ -1,0 +1,128 @@
+{
+  "width": 390,
+  "status": "pass",
+  "checks": [
+    {
+      "name": "真实结束一回合",
+      "pass": true
+    },
+    {
+      "name": "永久资源和伙伴不变",
+      "pass": true
+    }
+  ],
+  "shots": [],
+  "interactions": [
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    }
+  ],
+  "before": {
+    "turn": 1,
+    "energy": 0
+  },
+  "after": {
+    "turn": 2,
+    "energy": 3
+  },
+  "hand": [
+    {
+      "uid": "card-15",
+      "cardId": "safety-pin",
+      "ownerId": "sheep",
+      "upgraded": false,
+      "choiceId": "card-15",
+      "ownerName": "羊咩咩团",
+      "name": "别住袖口",
+      "cost": 1,
+      "target": "self",
+      "description": "自身 反击 4；自身 护盾 4",
+      "shortDescription": "4 反击",
+      "flavor": "自身本回合每次遭敌主动攻击后反击4点伤害；自身获得4点护盾。",
+      "role": "guard",
+      "playable": true,
+      "reason": ""
+    },
+    {
+      "uid": "card-2",
+      "cardId": "guard",
+      "ownerId": "sheep",
+      "upgraded": false,
+      "choiceId": "card-2",
+      "ownerName": "羊咩咩团",
+      "name": "护好邮包",
+      "cost": 1,
+      "target": "self",
+      "description": "自身 护盾 6",
+      "shortDescription": "6 护盾",
+      "flavor": "自身获得6点护盾。",
+      "role": "guard",
+      "playable": true,
+      "reason": ""
+    },
+    {
+      "uid": "card-12",
+      "cardId": "nav-compass",
+      "ownerId": "nav",
+      "upgraded": false,
+      "choiceId": "card-12",
+      "ownerName": "领航小鸭",
+      "name": "罗盘借星光",
+      "cost": 1,
+      "target": "self",
+      "description": "自身 回响次数 1；自身 护盾 4",
+      "shortDescription": "1 次回响",
+      "flavor": "自身获得1层回响（下一张伤害牌首个伤害效果追加50%，消耗1层）；自身获得4点护盾。",
+      "role": "echo",
+      "playable": true,
+      "reason": ""
+    },
+    {
+      "uid": "card-6",
+      "cardId": "guard",
+      "ownerId": "orangecat",
+      "upgraded": false,
+      "choiceId": "card-6",
+      "ownerName": "橘猫豆包",
+      "name": "护好邮包",
+      "cost": 1,
+      "target": "self",
+      "description": "自身 护盾 6",
+      "shortDescription": "6 护盾",
+      "flavor": "自身获得6点护盾。",
+      "role": "guard",
+      "playable": true,
+      "reason": ""
+    },
+    {
+      "uid": "card-8",
+      "cardId": "orangecat-sidestep",
+      "ownerId": "orangecat",
+      "upgraded": false,
+      "choiceId": "card-8",
+      "ownerName": "橘猫豆包",
+      "name": "窗台借一步",
+      "cost": 1,
+      "target": "enemy",
+      "description": "目标敌人 伤害 5；抽牌 1",
+      "shortDescription": "5 伤害",
+      "flavor": "对目标敌人造成5点伤害；抽1张牌。",
+      "role": "combo",
+      "playable": true,
+      "reason": ""
+    }
+  ]
+}

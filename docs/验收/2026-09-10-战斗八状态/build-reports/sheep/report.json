@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch",
+  "actors": [
+    {
+      "id": "sheep",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/sheep-sheet.png",
+      "sourceHash": "6a37e6d721be7e5fabf5aaf63c4f57b3c791ff2b65e94dcb27d1f13052a3b6eb",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          19503,
+          1052
+        ],
+        "removedPixels": 20555
+      },
+      "foregroundPixels": 594789,
+      "assignedPixels": 594789
+    }
+  ],
+  "frames": [
+    {
+      "id": "sheep",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/enter.png",
+      "contentBounds": {
+        "x": 47,
+        "y": 22,
+        "width": 326,
+        "height": 420
+      },
+      "bytes": 18313
+    },
+    {
+      "id": "sheep",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/attack.png",
+      "contentBounds": {
+        "x": 447,
+        "y": 56,
+        "width": 448,
+        "height": 371
+      },
+      "bytes": 19324
+    },
+    {
+      "id": "sheep",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/guard.png",
+      "contentBounds": {
+        "x": 948,
+        "y": 80,
+        "width": 368,
+        "height": 336
+      },
+      "bytes": 20848
+    },
+    {
+      "id": "sheep",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/hurt.png",
+      "contentBounds": {
+        "x": 1363,
+        "y": 54,
+        "width": 372,
+        "height": 376
+      },
+      "bytes": 22410
+    },
+    {
+      "id": "sheep",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/exit.png",
+      "contentBounds": {
+        "x": 39,
+        "y": 496,
+        "width": 375,
+        "height": 341
+      },
+      "bytes": 20568
+    },
+    {
+      "id": "sheep",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/control.png",
+      "contentBounds": {
+        "x": 470,
+        "y": 472,
+        "width": 384,
+        "height": 391
+      },
+      "bytes": 23718
+    },
+    {
+      "id": "sheep",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/buff.png",
+      "contentBounds": {
+        "x": 916,
+        "y": 445,
+        "width": 390,
+        "height": 419
+      },
+      "bytes": 23231
+    },
+    {
+      "id": "sheep",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-KyR4Ch/sheep/debuff.png",
+      "contentBounds": {
+        "x": 1380,
+        "y": 486,
+        "width": 353,
+        "height": 370
+      },
+      "bytes": 23886
+    }
+  ],
+  "bytes": 172298
+}

@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "name": "试听真实收到播放回调",
+      "pass": true
+    },
+    {
+      "name": "反馈明确媒体音量",
+      "pass": true
+    },
+    {
+      "name": "试听不改战斗状态或随机数",
+      "pass": true
+    },
+    {
+      "name": "原生播放无错误",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "sound-preview",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-phone-audio-Hk7gYC/sound-preview.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "after": {
+    "music": true,
+    "effects": true,
+    "foreground": true,
+    "interrupted": false,
+    "readyState": "ready",
+    "scene": "town",
+    "musicSrc": "/assets/audio/town.mp3",
+    "musicPlaying": true,
+    "musicTime": 14.296750000000003,
+    "musicStarts": 1,
+    "effectStarts": 1,
+    "lastEffect": "reward",
+    "contexts": 2,
+    "lastError": null
+  },
+  "controls": {
+    "music": true,
+    "effects": true,
+    "testing": false,
+    "soundMessage": "试听已播放，声音跟随手机媒体音量"
+  }
+}

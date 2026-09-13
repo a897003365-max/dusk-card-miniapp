@@ -1,0 +1,22 @@
+Use case: stylized-concept
+Asset type: game combat sprite master sheet, production intermediate
+Input images: Image 1 is the idle identity reference for the firefly partner. Image 2 is the cast/action identity reference. Image 3 is layout-only reference for a wide 2:1 4-column by 2-row equal-cell chroma-key sprite sheet; do not copy its character. Preserve the same firefly folded-paper spirit: small pale face with large green eyes, two thin antennae, existing multi-panel mint/cream wings, dark green folded-paper body and robe, red tassels and knots, glowing mint-green gem panels, and the existing long staff/spear held in the hands. Preserve exactly the existing face, antennae, wings, two arms, two legs, gem panels and staff; no redesign or added limbs.
+
+Create exactly one wide 2:1 high-resolution action sprite master sheet matching Image 3's equal-cell layout: four equal-width columns and two equal-height rows, eight complete square-ish action cells, no labels. Keep the complete character, all existing wings and staff, and every light/paper effect inside the inner 60–65% of its own cell, with generous roughly 25% clear space around every cell. Same hovering baseline and scale. No wing tip, staff, antenna, tassel or effect may touch or cross a cell boundary. No cropping. Keep the full staff and wings visible.
+
+Exact order:
+Top row col 1 ENTER: firefly descends or unfolds its existing mint wings into an alert hovering arrival, gem panels softly lit, staff ready.
+Top row col 2 ATTACK: firefly thrusts the existing staff toward the right and releases one compact diagonal mint-gold firefly light arc with a few contained paper sparks, fully inside this cell.
+Top row col 3 GUARD: existing wings fold forward into a protective layered shield around the torso, staff held across the body, face visible.
+Top row col 4 HURT: firefly recoils midair with wings partially folded, gem light dimmed and a few small paper sparks, no blood.
+Bottom row col 1 EXIT: wings fold and the character sinks into a low fading hover, staff and face recognizable, a few contained paper motes.
+Bottom row col 2 CONTROL: indigo paper threads and binding talisman strips wrap existing wings, staff and ankles; face and gem panels unobstructed, clearly distinct from debuff.
+Bottom row col 3 BUFF: energized upright hover with compact warm-gold and teal-green firefly motes around the existing wings and gem panels, no new anatomy.
+Bottom row col 4 DEBUFF: drooping low hover with cool-gray ink marks and negative talisman symbols on existing wings and robe, clearly different from control.
+
+Backdrop: a perfectly flat solid chroma-key magenta background, exact color #FF00FF (RGB 255,0,255) across every background pixel. No transparency, no checkerboard, no gradient, no noise texture, no floor, no shadow plate, no grid or cell lines.
+Style: soft polished 2.5D hand-painted folded-paper game illustration, upper-left light, visible paper fibers and creases, mint/cream/deep-green palette, small red cord and gold gem details.
+Text: none.
+Avoid: labels, numbers, UI, logo, watermark, extra characters, extra arms or legs, extra wings, extra antennae, human anatomy changes, horns, added tail, missing staff, giant sweeping light rays, cross-cell overlap, cropped parts, idle recolor.
+
+Technical post-processing: normalize only near-magenta background pixels to exact #FF00FF; do not remove, crop, key, or delete any subject/effect pixels.

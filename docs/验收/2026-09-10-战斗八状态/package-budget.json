@@ -1,0 +1,646 @@
+[
+  {
+    "name": "main",
+    "root": "",
+    "bytes": 1439362,
+    "mib": 1.3726825714111328,
+    "remainingBytes": 657790,
+    "imageBytes": 1168424,
+    "codeBytes": 267722,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "assets/scenes/summon-postoffice.jpg",
+        "bytes": 310651
+      },
+      {
+        "path": "assets/partners/tea.png",
+        "bytes": 59535
+      },
+      {
+        "path": "assets/partners/bomb.png",
+        "bytes": 53089
+      },
+      {
+        "path": "assets/partners/catcafe.png",
+        "bytes": 51496
+      },
+      {
+        "path": "utils/combat.js",
+        "bytes": 47964
+      },
+      {
+        "path": "assets/partners/sushi.png",
+        "bytes": 42759
+      },
+      {
+        "path": "assets/partners/soup.png",
+        "bytes": 39632
+      },
+      {
+        "path": "assets/partners/ticket.png",
+        "bytes": 39535
+      },
+      {
+        "path": "assets/partners/burger.png",
+        "bytes": 39063
+      },
+      {
+        "path": "assets/partners/blanket.png",
+        "bytes": 36787
+      },
+      {
+        "path": "assets/partners/sunset.png",
+        "bytes": 35789
+      },
+      {
+        "path": "assets/partners/badminton.png",
+        "bytes": 35034
+      },
+      {
+        "path": "assets/partners/sheep.png",
+        "bytes": 34325
+      },
+      {
+        "path": "assets/partners/nav.png",
+        "bytes": 34086
+      },
+      {
+        "path": "assets/partners/moon.png",
+        "bytes": 33453
+      },
+      {
+        "path": "assets/partners/hydrangea.png",
+        "bytes": 31981
+      },
+      {
+        "path": "assets/partners/pear.png",
+        "bytes": 31445
+      },
+      {
+        "path": "assets/partners/cloudmail.png",
+        "bytes": 31071
+      },
+      {
+        "path": "utils/combat-content.js",
+        "bytes": 30645
+      },
+      {
+        "path": "utils/content.js",
+        "bytes": 30349
+      }
+    ]
+  },
+  {
+    "name": "package-street",
+    "root": "package-street",
+    "bytes": 1304494,
+    "mib": 1.2440624237060547,
+    "remainingBytes": 792658,
+    "imageBytes": 1303754,
+    "codeBytes": 235,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-street/assets/art/street-back.jpg",
+        "bytes": 453222
+      },
+      {
+        "path": "package-street/assets/art/paper-lion.png",
+        "bytes": 64854
+      },
+      {
+        "path": "package-street/assets/art/postbag-guard.png",
+        "bytes": 60916
+      },
+      {
+        "path": "package-street/assets/art/twine-sprite.png",
+        "bytes": 60137
+      },
+      {
+        "path": "package-street/assets/art/paper-lion-phase2.png",
+        "bytes": 57221
+      },
+      {
+        "path": "package-street/assets/art/wax-drop.png",
+        "bytes": 54318
+      },
+      {
+        "path": "package-street/assets/art/stamp-press.png",
+        "bytes": 48995
+      },
+      {
+        "path": "package-street/assets/art/paper-ball.png",
+        "bytes": 47564
+      },
+      {
+        "path": "package-street/assets/art/stamp-moth.png",
+        "bytes": 32839
+      },
+      {
+        "path": "package-street/assets/art/street-front.png",
+        "bytes": 28189
+      },
+      {
+        "path": "package-street/assets/actions/paper-lion-phase2/buff.png",
+        "bytes": 27240
+      },
+      {
+        "path": "package-street/assets/actions/paper-lion-phase2/enter.png",
+        "bytes": 26045
+      },
+      {
+        "path": "package-street/assets/actions/paper-lion-phase2/debuff.png",
+        "bytes": 25673
+      },
+      {
+        "path": "package-street/assets/actions/paper-lion-phase2/control.png",
+        "bytes": 25541
+      },
+      {
+        "path": "package-street/assets/actions/paper-lion/enter.png",
+        "bytes": 25382
+      },
+      {
+        "path": "package-street/assets/actions/paper-lion-phase2/guard.png",
+        "bytes": 25256
+      },
+      {
+        "path": "package-street/assets/actions/paper-lion/control.png",
+        "bytes": 24936
+      },
+      {
+        "path": "package-street/assets/actions/paper-lion/buff.png",
+        "bytes": 24919
+      },
+      {
+        "path": "package-street/assets/actions/paper-lion/hurt.png",
+        "bytes": 24102
+      },
+      {
+        "path": "package-street/assets/actions/paper-lion-phase2/hurt.png",
+        "bytes": 23085
+      }
+    ]
+  },
+  {
+    "name": "package-bridge",
+    "root": "package-bridge",
+    "bytes": 1241018,
+    "mib": 1.1835269927978516,
+    "remainingBytes": 856134,
+    "imageBytes": 1240278,
+    "codeBytes": 235,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-bridge/assets/art/bridge-back.jpg",
+        "bytes": 418467
+      },
+      {
+        "path": "package-bridge/assets/art/bridge-drum.png",
+        "bytes": 56257
+      },
+      {
+        "path": "package-bridge/assets/art/ink-tide.png",
+        "bytes": 52014
+      },
+      {
+        "path": "package-bridge/assets/art/ink-tide-phase2.png",
+        "bytes": 49447
+      },
+      {
+        "path": "package-bridge/assets/art/ink-puddle.png",
+        "bytes": 46929
+      },
+      {
+        "path": "package-bridge/assets/art/umbrella-spirit.png",
+        "bytes": 45227
+      },
+      {
+        "path": "package-bridge/assets/art/rain-knot.png",
+        "bytes": 44475
+      },
+      {
+        "path": "package-bridge/assets/art/bridge-middle.png",
+        "bytes": 41104
+      },
+      {
+        "path": "package-bridge/assets/art/tile-sprite.png",
+        "bytes": 38892
+      },
+      {
+        "path": "package-bridge/assets/art/bridge-front.png",
+        "bytes": 36079
+      },
+      {
+        "path": "package-bridge/assets/actions/ink-tide-phase2/guard.png",
+        "bytes": 28785
+      },
+      {
+        "path": "package-bridge/assets/actions/ink-tide-phase2/debuff.png",
+        "bytes": 28240
+      },
+      {
+        "path": "package-bridge/assets/actions/ink-tide/buff.png",
+        "bytes": 27874
+      },
+      {
+        "path": "package-bridge/assets/actions/ink-tide/control.png",
+        "bytes": 27149
+      },
+      {
+        "path": "package-bridge/assets/actions/ink-tide-phase2/buff.png",
+        "bytes": 26808
+      },
+      {
+        "path": "package-bridge/assets/actions/ink-tide/enter.png",
+        "bytes": 26403
+      },
+      {
+        "path": "package-bridge/assets/actions/ink-tide-phase2/control.png",
+        "bytes": 26285
+      },
+      {
+        "path": "package-bridge/assets/actions/ink-tide/debuff.png",
+        "bytes": 25616
+      },
+      {
+        "path": "package-bridge/assets/actions/ink-tide-phase2/hurt.png",
+        "bytes": 24103
+      },
+      {
+        "path": "package-bridge/assets/art/reed-shadow.png",
+        "bytes": 23910
+      }
+    ]
+  },
+  {
+    "name": "package-market",
+    "root": "package-market",
+    "bytes": 1313409,
+    "mib": 1.2525644302368164,
+    "remainingBytes": 783743,
+    "imageBytes": 1312669,
+    "codeBytes": 235,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-market/assets/art/market-back.jpg",
+        "bytes": 450259
+      },
+      {
+        "path": "package-market/assets/art/bell-warden.png",
+        "bytes": 69996
+      },
+      {
+        "path": "package-market/assets/art/bell-warden-phase2.png",
+        "bytes": 67599
+      },
+      {
+        "path": "package-market/assets/art/market-front.png",
+        "bytes": 56653
+      },
+      {
+        "path": "package-market/assets/art/market-middle.png",
+        "bytes": 53957
+      },
+      {
+        "path": "package-market/assets/art/bell-sprite.png",
+        "bytes": 49592
+      },
+      {
+        "path": "package-market/assets/art/paper-mask.png",
+        "bytes": 44320
+      },
+      {
+        "path": "package-market/assets/art/lantern-rack.png",
+        "bytes": 42820
+      },
+      {
+        "path": "package-market/assets/art/silk-tail.png",
+        "bytes": 38282
+      },
+      {
+        "path": "package-market/assets/art/lantern-mote.png",
+        "bytes": 35876
+      },
+      {
+        "path": "package-market/assets/art/market-usher.png",
+        "bytes": 31599
+      },
+      {
+        "path": "package-market/assets/actions/bell-warden-phase2/buff.png",
+        "bytes": 26132
+      },
+      {
+        "path": "package-market/assets/actions/bell-warden/control.png",
+        "bytes": 25717
+      },
+      {
+        "path": "package-market/assets/actions/bell-warden-phase2/enter.png",
+        "bytes": 25526
+      },
+      {
+        "path": "package-market/assets/actions/bell-warden-phase2/debuff.png",
+        "bytes": 25482
+      },
+      {
+        "path": "package-market/assets/actions/bell-warden-phase2/control.png",
+        "bytes": 25042
+      },
+      {
+        "path": "package-market/assets/actions/bell-warden-phase2/guard.png",
+        "bytes": 24664
+      },
+      {
+        "path": "package-market/assets/actions/bell-warden-phase2/attack.png",
+        "bytes": 24493
+      },
+      {
+        "path": "package-market/assets/actions/bell-warden/guard.png",
+        "bytes": 24266
+      },
+      {
+        "path": "package-market/assets/actions/bell-warden-phase2/hurt.png",
+        "bytes": 23339
+      }
+    ]
+  },
+  {
+    "name": "package-actors-a",
+    "root": "package-actors-a",
+    "bytes": 1289540,
+    "mib": 1.2298011779785156,
+    "remainingBytes": 807612,
+    "imageBytes": 1289118,
+    "codeBytes": 403,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-actors-a/assets/tea/guard.png",
+        "bytes": 27465
+      },
+      {
+        "path": "package-actors-a/assets/tea/exit.png",
+        "bytes": 26241
+      },
+      {
+        "path": "package-actors-a/assets/tea/buff.png",
+        "bytes": 25735
+      },
+      {
+        "path": "package-actors-a/assets/catcafe/control.png",
+        "bytes": 25080
+      },
+      {
+        "path": "package-actors-a/assets/tea/debuff.png",
+        "bytes": 24709
+      },
+      {
+        "path": "package-actors-a/assets/catcafe/buff.png",
+        "bytes": 24497
+      },
+      {
+        "path": "package-actors-a/assets/tea/enter.png",
+        "bytes": 24313
+      },
+      {
+        "path": "package-actors-a/assets/ticket/buff.png",
+        "bytes": 24026
+      },
+      {
+        "path": "package-actors-a/assets/sheep/debuff.png",
+        "bytes": 23886
+      },
+      {
+        "path": "package-actors-a/assets/nav/buff.png",
+        "bytes": 23866
+      },
+      {
+        "path": "package-actors-a/assets/moon/buff.png",
+        "bytes": 23826
+      },
+      {
+        "path": "package-actors-a/assets/tea/hurt.png",
+        "bytes": 23808
+      },
+      {
+        "path": "package-actors-a/assets/catcafe/debuff.png",
+        "bytes": 23761
+      },
+      {
+        "path": "package-actors-a/assets/sheep/control.png",
+        "bytes": 23718
+      },
+      {
+        "path": "package-actors-a/assets/tea/control.png",
+        "bytes": 23411
+      },
+      {
+        "path": "package-actors-a/assets/catcafe/guard.png",
+        "bytes": 23397
+      },
+      {
+        "path": "package-actors-a/assets/sheep/buff.png",
+        "bytes": 23231
+      },
+      {
+        "path": "package-actors-a/assets/nav/control.png",
+        "bytes": 22796
+      },
+      {
+        "path": "package-actors-a/assets/catcafe/hurt.png",
+        "bytes": 22718
+      },
+      {
+        "path": "package-actors-a/assets/catcafe/attack.png",
+        "bytes": 22711
+      }
+    ]
+  },
+  {
+    "name": "package-actors-b",
+    "root": "package-actors-b",
+    "bytes": 1033468,
+    "mib": 0.9855918884277344,
+    "remainingBytes": 1063684,
+    "imageBytes": 1033046,
+    "codeBytes": 403,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-actors-b/assets/bomb/control.png",
+        "bytes": 23731
+      },
+      {
+        "path": "package-actors-b/assets/bomb/buff.png",
+        "bytes": 23237
+      },
+      {
+        "path": "package-actors-b/assets/burger/guard.png",
+        "bytes": 23058
+      },
+      {
+        "path": "package-actors-b/assets/sushi/guard.png",
+        "bytes": 22943
+      },
+      {
+        "path": "package-actors-b/assets/bomb/enter.png",
+        "bytes": 22929
+      },
+      {
+        "path": "package-actors-b/assets/bomb/hurt.png",
+        "bytes": 22659
+      },
+      {
+        "path": "package-actors-b/assets/bomb/guard.png",
+        "bytes": 22431
+      },
+      {
+        "path": "package-actors-b/assets/orangecat/buff.png",
+        "bytes": 21698
+      },
+      {
+        "path": "package-actors-b/assets/bomb/debuff.png",
+        "bytes": 21651
+      },
+      {
+        "path": "package-actors-b/assets/burger/hurt.png",
+        "bytes": 21475
+      },
+      {
+        "path": "package-actors-b/assets/burger/control.png",
+        "bytes": 21015
+      },
+      {
+        "path": "package-actors-b/assets/sushi/buff.png",
+        "bytes": 20947
+      },
+      {
+        "path": "package-actors-b/assets/sushi/control.png",
+        "bytes": 20891
+      },
+      {
+        "path": "package-actors-b/assets/burger/debuff.png",
+        "bytes": 20643
+      },
+      {
+        "path": "package-actors-b/assets/burger/exit.png",
+        "bytes": 20632
+      },
+      {
+        "path": "package-actors-b/assets/pear/buff.png",
+        "bytes": 20575
+      },
+      {
+        "path": "package-actors-b/assets/burger/buff.png",
+        "bytes": 20027
+      },
+      {
+        "path": "package-actors-b/assets/burger/attack.png",
+        "bytes": 19791
+      },
+      {
+        "path": "package-actors-b/assets/badminton/debuff.png",
+        "bytes": 19729
+      },
+      {
+        "path": "package-actors-b/assets/pear/debuff.png",
+        "bytes": 19682
+      }
+    ]
+  },
+  {
+    "name": "package-actors-c",
+    "root": "package-actors-c",
+    "bytes": 1037651,
+    "mib": 0.9895811080932617,
+    "remainingBytes": 1059501,
+    "imageBytes": 1037229,
+    "codeBytes": 403,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-actors-c/assets/blanket/control.png",
+        "bytes": 24928
+      },
+      {
+        "path": "package-actors-c/assets/blanket/hurt.png",
+        "bytes": 24161
+      },
+      {
+        "path": "package-actors-c/assets/blanket/buff.png",
+        "bytes": 23842
+      },
+      {
+        "path": "package-actors-c/assets/soup/buff.png",
+        "bytes": 23637
+      },
+      {
+        "path": "package-actors-c/assets/soup/control.png",
+        "bytes": 23154
+      },
+      {
+        "path": "package-actors-c/assets/blanket/exit.png",
+        "bytes": 22552
+      },
+      {
+        "path": "package-actors-c/assets/hydrangea/guard.png",
+        "bytes": 22537
+      },
+      {
+        "path": "package-actors-c/assets/cloudmail/buff.png",
+        "bytes": 21428
+      },
+      {
+        "path": "package-actors-c/assets/blanket/attack.png",
+        "bytes": 21316
+      },
+      {
+        "path": "package-actors-c/assets/pearlamp/control.png",
+        "bytes": 21237
+      },
+      {
+        "path": "package-actors-c/assets/seedling/debuff.png",
+        "bytes": 21000
+      },
+      {
+        "path": "package-actors-c/assets/cloudmail/debuff.png",
+        "bytes": 20779
+      },
+      {
+        "path": "package-actors-c/assets/hydrangea/control.png",
+        "bytes": 20772
+      },
+      {
+        "path": "package-actors-c/assets/cloudmail/control.png",
+        "bytes": 20658
+      },
+      {
+        "path": "package-actors-c/assets/blanket/debuff.png",
+        "bytes": 20030
+      },
+      {
+        "path": "package-actors-c/assets/pearlamp/buff.png",
+        "bytes": 19878
+      },
+      {
+        "path": "package-actors-c/assets/hydrangea/debuff.png",
+        "bytes": 19636
+      },
+      {
+        "path": "package-actors-c/assets/soup/debuff.png",
+        "bytes": 19502
+      },
+      {
+        "path": "package-actors-c/assets/cloudmail/hurt.png",
+        "bytes": 19431
+      },
+      {
+        "path": "package-actors-c/assets/blanket/enter.png",
+        "bytes": 19336
+      }
+    ]
+  }
+]

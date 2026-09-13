@@ -1,0 +1,542 @@
+{
+  "tier": "SSR",
+  "id": "moon",
+  "expectedImage": "/assets/partners/moon.png",
+  "samples": [
+    {
+      "time": 1789017469635,
+      "route": "pages/collection/index",
+      "revealPhase": null,
+      "replayMode": false,
+      "activeReveal": null,
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "time": 1789017470964,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789017471010,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789017471056,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789017471100,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789017471555,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789017471601,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789017471646,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789017471691,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789017471965,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.85, 0, 0, 0.85, 0, 22)",
+          "opacity": "0"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "compassOpen",
+          "transform": "matrix(0.424264, -0.424264, 0.424264, 0.424264, 0, 0)",
+          "opacity": "0.8"
+        }
+      ]
+    },
+    {
+      "time": 1789017472011,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.90864, 0, 0, 0.90864, 0, 13.3995)",
+          "opacity": "0.390931"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "compassOpen",
+          "transform": "matrix(0.558386, -0.34815, 0.34815, 0.558386, 0, 0)",
+          "opacity": "0.727462"
+        }
+      ]
+    },
+    {
+      "time": 1789017472058,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.9342, 0, 0, 0.9342, 0, 9.65061)",
+          "opacity": "0.561336"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "compassOpen",
+          "transform": "matrix(0.633954, -0.281424, 0.281424, 0.633954, 0, 0)",
+          "opacity": "0.682985"
+        }
+      ]
+    },
+    {
+      "time": 1789017472106,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.964575, 0, 0, 0.964575, 0, 5.19561)",
+          "opacity": "0.763836"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "compassOpen",
+          "transform": "matrix(0.752638, -0.115034, 0.115034, 0.752638, 0, 0)",
+          "opacity": "0.598277"
+        }
+      ]
+    },
+    {
+      "time": 1789017472532,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.16"
+        }
+      ]
+    },
+    {
+      "time": 1789017472579,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.16"
+        }
+      ]
+    },
+    {
+      "time": 1789017472629,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.16"
+        }
+      ]
+    }
+  ],
+  "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-3kxPvK/430-SSR-motion.json",
+  "phases": [
+    "charge",
+    "burst",
+    "arrive",
+    "settled"
+  ],
+  "animations": [
+    {
+      "selector": ".summon-reveal",
+      "animation": "companionArrive",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.85, 0, 0, 0.85, 0, 22)",
+        "matrix(0.90864, 0, 0, 0.90864, 0, 13.3995)",
+        "matrix(0.9342, 0, 0, 0.9342, 0, 9.65061)",
+        "matrix(0.964575, 0, 0, 0.964575, 0, 5.19561)"
+      ],
+      "opacities": [
+        "0",
+        "0.390931",
+        "0.561336",
+        "0.763836"
+      ],
+      "moved": true
+    },
+    {
+      "selector": ".summon-compass",
+      "animation": "compassOpen",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.424264, -0.424264, 0.424264, 0.424264, 0, 0)",
+        "matrix(0.558386, -0.34815, 0.34815, 0.558386, 0, 0)",
+        "matrix(0.633954, -0.281424, 0.281424, 0.633954, 0, 0)",
+        "matrix(0.752638, -0.115034, 0.115034, 0.752638, 0, 0)"
+      ],
+      "opacities": [
+        "0.8",
+        "0.727462",
+        "0.682985",
+        "0.598277"
+      ],
+      "moved": true
+    }
+  ]
+}

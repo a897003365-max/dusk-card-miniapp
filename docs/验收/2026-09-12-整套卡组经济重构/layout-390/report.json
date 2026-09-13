@@ -1,0 +1,403 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-eyOoUj",
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "width": 390,
+  "checks": [
+    {
+      "name": "目标为独立验收命名空间",
+      "pass": true
+    },
+    {
+      "name": "原生视口宽度符合验收目标",
+      "pass": true
+    },
+    {
+      "name": "说明检查处于真实战斗",
+      "pass": true
+    },
+    {
+      "name": "蓄能按钮完整收在44px工具条内",
+      "pass": true
+    },
+    {
+      "name": "点击HUD直达当前场面或补给规则",
+      "pass": true
+    },
+    {
+      "name": "charge详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "charge末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "environment详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "environment末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "intercept详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "intercept末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "discover详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "discover末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "scout详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "scout末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "trade详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "trade末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "pressure详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "pressure末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "sequence详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "sequence末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "状态说明返回原生旅途记录",
+      "pass": true
+    },
+    {
+      "name": "查看说明、滚动与关闭未改变存档或RNG",
+      "pass": true
+    },
+    {
+      "name": "本次布局现场console error为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "battle-hud",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-eyOoUj/battle-hud.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "guide-charge",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-eyOoUj/guide-charge.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "guide-environment",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-eyOoUj/guide-environment.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "guide-intercept",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-eyOoUj/guide-intercept.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "guide-discover",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-eyOoUj/guide-discover.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "guide-scout",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-eyOoUj/guide-scout.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "guide-trade",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-eyOoUj/guide-trade.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "guide-pressure",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-eyOoUj/guide-pressure.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "guide-sequence",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-eyOoUj/guide-sequence.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "deck-bottom",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-eyOoUj/deck-bottom.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    }
+  ],
+  "status": "pass",
+  "interactions": [
+    {
+      "selector": ".tactic-hud",
+      "rect": {
+        "dataset": {},
+        "left": 136.8671875,
+        "right": 244.8671875,
+        "top": 48,
+        "bottom": 92,
+        "width": 108,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"charge\"]",
+      "rect": {
+        "dataset": {
+          "id": "charge"
+        },
+        "left": 33,
+        "right": 97,
+        "top": 122.2421875,
+        "bottom": 166.2421875,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"environment\"]",
+      "rect": {
+        "dataset": {
+          "id": "environment"
+        },
+        "left": 39,
+        "right": 103,
+        "top": 122.2421875,
+        "bottom": 166.2421875,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"intercept\"]",
+      "rect": {
+        "dataset": {
+          "id": "intercept"
+        },
+        "left": 243,
+        "right": 307,
+        "top": 122.2421875,
+        "bottom": 166.2421875,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"discover\"]",
+      "rect": {
+        "dataset": {
+          "id": "discover"
+        },
+        "left": 103,
+        "right": 167,
+        "top": 122.2421875,
+        "bottom": 166.2421875,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"scout\"]",
+      "rect": {
+        "dataset": {
+          "id": "scout"
+        },
+        "left": 153,
+        "right": 217,
+        "top": 122.2421875,
+        "bottom": 166.2421875,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"trade\"]",
+      "rect": {
+        "dataset": {
+          "id": "trade"
+        },
+        "left": 223,
+        "right": 287,
+        "top": 122.2421875,
+        "bottom": 166.2421875,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"pressure\"]",
+      "rect": {
+        "dataset": {
+          "id": "pressure"
+        },
+        "left": 293,
+        "right": 357,
+        "top": 122.2421875,
+        "bottom": 166.2421875,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"sequence\"]",
+      "rect": {
+        "dataset": {
+          "id": "sequence"
+        },
+        "left": 39,
+        "right": 103,
+        "top": 122.2421875,
+        "bottom": 166.2421875,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".status-guide-back",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 625.7578125,
+        "bottom": 669.7578125,
+        "width": 324,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".deck-link",
+      "rect": {
+        "dataset": {},
+        "left": 310.2265625,
+        "right": 378,
+        "top": 48,
+        "bottom": 92,
+        "width": 67.7734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    }
+  ],
+  "console": ""
+}

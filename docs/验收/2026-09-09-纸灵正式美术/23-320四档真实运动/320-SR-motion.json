@@ -1,0 +1,669 @@
+{
+  "tier": "SR",
+  "id": "sunset",
+  "expectedImage": "/assets/partners/sunset.png",
+  "samples": [
+    {
+      "time": 1789018002404,
+      "route": "pages/collection/index",
+      "revealPhase": null,
+      "replayMode": false,
+      "activeReveal": null,
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": false
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "time": 1789018003820,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "ringGather",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -117.758, -117.758)",
+          "opacity": "0.08"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "ringGather",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -117.758, -117.758)",
+          "opacity": "0.08"
+        }
+      ]
+    },
+    {
+      "time": 1789018003865,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "ringGather",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -116.359, -116.359)",
+          "opacity": "0.097809"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "ringGather",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -116.359, -116.359)",
+          "opacity": "0.097809"
+        }
+      ]
+    },
+    {
+      "time": 1789018003910,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "ringGather",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -114.562, -114.562)",
+          "opacity": "0.120737"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "ringGather",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -114.562, -114.562)",
+          "opacity": "0.120737"
+        }
+      ]
+    },
+    {
+      "time": 1789018003955,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "ringGather",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -109.938, -109.938)",
+          "opacity": "0.179681"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "ringGather",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -109.938, -109.938)",
+          "opacity": "0.179681"
+        }
+      ]
+    },
+    {
+      "time": 1789018004272,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -99.8398, -99.8398)",
+          "opacity": "0.8"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -79.3594, -79.3594)",
+          "opacity": "0.8"
+        }
+      ]
+    },
+    {
+      "time": 1789018004316,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -99.8398, -99.8398)",
+          "opacity": "0.8"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -79.3594, -79.3594)",
+          "opacity": "0.8"
+        }
+      ]
+    },
+    {
+      "time": 1789018004360,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -99.8398, -99.8398)",
+          "opacity": "0.8"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -79.3594, -79.3594)",
+          "opacity": "0.8"
+        }
+      ]
+    },
+    {
+      "time": 1789018004405,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -99.8398, -99.8398)",
+          "opacity": "0.8"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -79.3594, -79.3594)",
+          "opacity": "0.8"
+        }
+      ]
+    },
+    {
+      "time": 1789018004544,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.85, 0, 0, 0.85, 0, 22)",
+          "opacity": "0"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "petalOpen",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -43.5195, -43.5195)",
+          "opacity": "0.8"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "petalOpen",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -43.5195, -43.5195)",
+          "opacity": "0.8"
+        }
+      ]
+    },
+    {
+      "time": 1789018004589,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.925812, 0, 0, 0.925812, 0, 10.8809)",
+          "opacity": "0.505412"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "petalOpen",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -54.8633, -54.8633)",
+          "opacity": "0.679129"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "petalOpen",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -54.8633, -54.8633)",
+          "opacity": "0.679129"
+        }
+      ]
+    },
+    {
+      "time": 1789018004635,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.944762, 0, 0, 0.944762, 0, 8.1016)",
+          "opacity": "0.631745"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "petalOpen",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -59.3906, -59.3906)",
+          "opacity": "0.630906"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "petalOpen",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -59.3906, -59.3906)",
+          "opacity": "0.630906"
+        }
+      ]
+    },
+    {
+      "time": 1789018004679,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.973324, 0, 0, 0.973324, 0, 3.91244)",
+          "opacity": "0.822162"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "petalOpen",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -70.4961, -70.4961)",
+          "opacity": "0.512594"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "petalOpen",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -70.4961, -70.4961)",
+          "opacity": "0.512594"
+        }
+      ]
+    },
+    {
+      "time": 1789018005010,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -99.8398, -99.8398)",
+          "opacity": "0.16"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -79.3594, -79.3594)",
+          "opacity": "0.16"
+        }
+      ]
+    },
+    {
+      "time": 1789018005056,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -99.8398, -99.8398)",
+          "opacity": "0.16"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -79.3594, -79.3594)",
+          "opacity": "0.16"
+        }
+      ]
+    },
+    {
+      "time": 1789018005102,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "SR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".ring-outer",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, -0.422618, 0.422618, 0.906308, -99.8398, -99.8398)",
+          "opacity": "0.16"
+        },
+        {
+          "selector": ".ring-inner",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.906308, 0.422618, -0.422618, 0.906308, -79.3594, -79.3594)",
+          "opacity": "0.16"
+        }
+      ]
+    }
+  ],
+  "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-E1j1Ru/320-SR-motion.json",
+  "phases": [
+    "charge",
+    "burst",
+    "arrive",
+    "settled"
+  ],
+  "animations": [
+    {
+      "selector": ".summon-reveal",
+      "animation": "companionArrive",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.85, 0, 0, 0.85, 0, 22)",
+        "matrix(0.925812, 0, 0, 0.925812, 0, 10.8809)",
+        "matrix(0.944762, 0, 0, 0.944762, 0, 8.1016)",
+        "matrix(0.973324, 0, 0, 0.973324, 0, 3.91244)"
+      ],
+      "opacities": [
+        "0",
+        "0.505412",
+        "0.631745",
+        "0.822162"
+      ],
+      "moved": true
+    },
+    {
+      "selector": ".ring-outer",
+      "animation": "petalOpen",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.906308, -0.422618, 0.422618, 0.906308, -43.5195, -43.5195)",
+        "matrix(0.906308, -0.422618, 0.422618, 0.906308, -54.8633, -54.8633)",
+        "matrix(0.906308, -0.422618, 0.422618, 0.906308, -59.3906, -59.3906)",
+        "matrix(0.906308, -0.422618, 0.422618, 0.906308, -70.4961, -70.4961)"
+      ],
+      "opacities": [
+        "0.8",
+        "0.679129",
+        "0.630906",
+        "0.512594"
+      ],
+      "moved": true
+    },
+    {
+      "selector": ".ring-inner",
+      "animation": "petalOpen",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.906308, 0.422618, -0.422618, 0.906308, -43.5195, -43.5195)",
+        "matrix(0.906308, 0.422618, -0.422618, 0.906308, -54.8633, -54.8633)",
+        "matrix(0.906308, 0.422618, -0.422618, 0.906308, -59.3906, -59.3906)",
+        "matrix(0.906308, 0.422618, -0.422618, 0.906308, -70.4961, -70.4961)"
+      ],
+      "opacities": [
+        "0.8",
+        "0.679129",
+        "0.630906",
+        "0.512594"
+      ],
+      "moved": true
+    }
+  ]
+}

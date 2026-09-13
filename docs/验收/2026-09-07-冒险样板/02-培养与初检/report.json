@@ -1,0 +1,313 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-RvrAdN",
+  "width": 390,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-4k56Cl",
+  "checks": [
+    {
+      "name": "隔离运行存档与副本一致",
+      "pass": true
+    },
+    {
+      "name": "实际模拟器宽度正确",
+      "pass": true
+    },
+    {
+      "name": "真实培养 sheep 只扣本次费用",
+      "pass": true
+    },
+    {
+      "name": "sheep 详情末尾可完整滚动",
+      "pass": true
+    },
+    {
+      "name": "真实培养 orangecat 只扣本次费用",
+      "pass": true
+    },
+    {
+      "name": "orangecat 详情末尾可完整滚动",
+      "pass": true
+    },
+    {
+      "name": "真实培养 nav 只扣本次费用",
+      "pass": true
+    },
+    {
+      "name": "nav 详情末尾可完整滚动",
+      "pass": true
+    },
+    {
+      "name": "完整牌组与存档张数一致",
+      "pass": true
+    },
+    {
+      "name": "牌组最后一张可完整滚动",
+      "pass": false
+    }
+  ],
+  "shots": [
+    {
+      "name": "train-sheep",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-4k56Cl/train-sheep.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "train-orangecat",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-4k56Cl/train-orangecat.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "train-nav",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-4k56Cl/train-nav.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "hub",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-4k56Cl/hub.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "route",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-4k56Cl/route.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-4k56Cl/battle.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".party-member[data-id=\"sheep\"]",
+      "rect": {
+        "dataset": {
+          "id": "sheep"
+        },
+        "left": 31,
+        "right": 136.3359375,
+        "top": 160.140625,
+        "bottom": 288.734375,
+        "width": 105.3359375,
+        "height": 128.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".train-partner",
+      "rect": {
+        "dataset": {},
+        "left": 51,
+        "right": 339,
+        "top": 439.96875,
+        "bottom": 483.96875,
+        "width": 288,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".party-member[data-id=\"orangecat\"]",
+      "rect": {
+        "dataset": {
+          "id": "orangecat"
+        },
+        "left": 142.3359375,
+        "right": 247.671875,
+        "top": 160.140625,
+        "bottom": 288.734375,
+        "width": 105.3359375,
+        "height": 128.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".train-partner",
+      "rect": {
+        "dataset": {},
+        "left": 51,
+        "right": 339,
+        "top": 439.96875,
+        "bottom": 483.96875,
+        "width": 288,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".party-member[data-id=\"nav\"]",
+      "rect": {
+        "dataset": {
+          "id": "nav"
+        },
+        "left": 253.671875,
+        "right": 359.0078125,
+        "top": 160.140625,
+        "bottom": 288.734375,
+        "width": 105.3359375,
+        "height": 128.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".train-partner",
+      "rect": {
+        "dataset": {},
+        "left": 51,
+        "right": 339,
+        "top": 439.96875,
+        "bottom": 483.96875,
+        "width": 288,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".region-tab[data-id=\"bridge\"]",
+      "rect": {
+        "dataset": {
+          "id": "bridge"
+        },
+        "left": 138.6640625,
+        "right": 251.328125,
+        "top": 142.890625,
+        "bottom": 202.0859375,
+        "width": 112.6640625,
+        "height": 59.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".start-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-0-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-0-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 331.9921875,
+        "bottom": 400.1875,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".deck-link",
+      "rect": {
+        "dataset": {},
+        "left": 173.4140625,
+        "right": 328.4140625,
+        "top": 48,
+        "bottom": 92,
+        "width": 155,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    }
+  ],
+  "status": "fail",
+  "error": "牌组最后一张可完整滚动"
+}

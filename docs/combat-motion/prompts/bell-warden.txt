@@ -1,0 +1,22 @@
+Use case: stylized-concept
+Asset type: game combat sprite master sheet, production intermediate
+Input images: Image 1 is the identity reference for the bell-warden boss first phase. Image 2 is layout-only reference for a wide 2:1 4-column by 2-row equal-cell chroma-key sprite sheet; do not copy its duck character. Preserve Image 1 exactly as a non-human floating bell guardian: large round bronze/gold weathered bell shell, cream folded-paper mask/face nested under the rim with glowing amber eyes, existing dark-blue and cream folded-paper layers, red braided rope and rings around the top, pointed gold ornaments, central gold clapper/pendant, and the same hovering bell anatomy. Do not add human arms, legs, hands, feet or a new weapon. This is phase one only.
+
+Create exactly one wide 2:1 high-resolution action sprite master sheet matching Image 2's equal-cell layout: four equal-width columns and two equal-height rows, eight complete square-ish action cells, no labels. Keep the complete bell body, every existing rope/ring/clapper detail and every action effect inside the inner 70% of its own cell with about 20% clear margin around every cell. Same scale and baseline for all floating poses. No subject, bell arc, rope or paper piece may touch or cross a cell boundary. No cropping. The attack uses the existing bell rim and clapper, with the complete compact chime arc visible inside its cell.
+
+Exact order:
+Top row col 1 ENTER: bell-warden descends/unfurls from above into an alert hovering guard stance, face and clapper visible.
+Top row col 2 ATTACK: bell tilts toward the right and swings its existing clapper/rim, emitting one compact diagonal folded-paper chime arc or sound-wave seal immediately beside the bell, fully contained in this cell.
+Top row col 3 GUARD: bell rim and existing folded side layers close into a protective shell, face still visible beneath the rim.
+Top row col 4 HURT: bell tilts and recoils with a few small folded-paper flakes and a dim strained gaze, no dented flesh, blood or gore.
+Bottom row col 1 EXIT: bell folds inward and recedes downward, rope and clapper still recognizable, suitable for temporary defeat.
+Bottom row col 2 CONTROL: indigo paper ribbons and binding talisman strips wrap the existing red ropes, rings and clapper, face unobstructed; compact and distinct from debuff.
+Bottom row col 3 BUFF: bell rises proudly with compact warm gold and teal-green chime feathers/ornaments around the existing rim, energized without new anatomy.
+Bottom row col 4 DEBUFF: bell droops with cool gray ink drips and negative talisman marks on its existing shell and paper mask, clearly different from control.
+
+Backdrop: a perfectly flat solid chroma-key magenta background, exact color #FF00FF (RGB 255,0,255) across every background pixel. No transparency, no checkerboard, no gradient, no noise texture, no floor, no shadow plate, no grid or cell lines.
+Style: soft polished 2.5D hand-painted folded-paper and weathered-metal game illustration, upper-left light, visible paper fibers, creases, patina and small copper/brass details.
+Text: none.
+Avoid: labels, numbers, UI, logo, watermark, any other character, human anatomy, extra limbs, wings, horns, added tail, phase-two redesign, flesh/fur, plush, plastic, blood, gore, duplicated bell, broken clapper, cropped parts, giant sweeping sound waves, cross-cell overlap, idle recolor.
+
+Technical post-processing: normalize only near-magenta background pixels to exact #FF00FF; do not remove, crop, key, or delete any subject/effect pixels.

@@ -1,0 +1,2964 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2zUKIu",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-runtime-Wm8c3O",
+  "family": "nav",
+  "width": 390,
+  "galleryOnly": true,
+  "checks": [
+    {
+      "name": "只在纸灵美术验收副本执行",
+      "pass": true
+    },
+    {
+      "name": "运行存档与副本命名空间一致",
+      "pass": true
+    },
+    {
+      "name": "实际模拟器宽度正确",
+      "pass": true
+    },
+    {
+      "name": "ally nav打开只读详情",
+      "pass": true
+    },
+    {
+      "name": "ally nav公开展示8个姿态按钮",
+      "pass": true
+    },
+    {
+      "name": "ally nav enter预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "ally nav attack预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "ally nav guard预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "ally nav hurt预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "ally nav exit预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "ally nav control预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "ally nav buff预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "ally nav debuff预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "ally nav当前姿态恢复而不硬断言idle",
+      "pass": true
+    },
+    {
+      "name": "ally nav关闭动作图谱",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6打开只读详情",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6公开展示8个姿态按钮",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6 enter预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6 attack预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6 guard预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6 hurt预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6 exit预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6 control预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6 buff预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6 debuff预览与实际图片节点一致",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6当前姿态恢复而不硬断言idle",
+      "pass": true
+    },
+    {
+      "name": "enemy enemy-6关闭动作图谱",
+      "pass": true
+    },
+    {
+      "name": "动作图谱不改变内存存档或RNG",
+      "pass": true
+    },
+    {
+      "name": "动作图谱不改变持久化存档或RNG",
+      "pass": true
+    },
+    {
+      "name": "图谱只读检查后控制台没有脚本或图片加载异常",
+      "pass": true
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".ally-unit[data-id=\"nav\"]",
+      "rect": {
+        "dataset": {
+          "id": "nav"
+        },
+        "left": 265.9609375,
+        "right": 372.09375,
+        "top": 288.9921875,
+        "bottom": 425.5859375,
+        "width": 106.1328125,
+        "height": 136.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"enter\"]",
+      "rect": {
+        "dataset": {
+          "pose": "enter"
+        },
+        "left": 33,
+        "right": 109.5,
+        "top": 351.2421875,
+        "bottom": 395.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"attack\"]",
+      "rect": {
+        "dataset": {
+          "pose": "attack"
+        },
+        "left": 115.5,
+        "right": 192,
+        "top": 351.2421875,
+        "bottom": 395.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"guard\"]",
+      "rect": {
+        "dataset": {
+          "pose": "guard"
+        },
+        "left": 198,
+        "right": 274.5,
+        "top": 351.2421875,
+        "bottom": 395.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"hurt\"]",
+      "rect": {
+        "dataset": {
+          "pose": "hurt"
+        },
+        "left": 280.5,
+        "right": 357,
+        "top": 351.2421875,
+        "bottom": 395.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"exit\"]",
+      "rect": {
+        "dataset": {
+          "pose": "exit"
+        },
+        "left": 33,
+        "right": 109.5,
+        "top": 401.2421875,
+        "bottom": 445.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"control\"]",
+      "rect": {
+        "dataset": {
+          "pose": "control"
+        },
+        "left": 115.5,
+        "right": 192,
+        "top": 401.2421875,
+        "bottom": 445.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"buff\"]",
+      "rect": {
+        "dataset": {
+          "pose": "buff"
+        },
+        "left": 198,
+        "right": 274.5,
+        "top": 401.2421875,
+        "bottom": 445.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"debuff\"]",
+      "rect": {
+        "dataset": {
+          "pose": "debuff"
+        },
+        "left": 280.5,
+        "right": 357,
+        "top": 401.2421875,
+        "bottom": 445.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-current",
+      "rect": {
+        "dataset": {},
+        "left": 204.96875,
+        "right": 294.96875,
+        "top": 299.2421875,
+        "bottom": 343.2421875,
+        "width": 90,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"enter\"]",
+      "rect": {
+        "dataset": {
+          "pose": "enter"
+        },
+        "left": 33,
+        "right": 109.5,
+        "top": 347.2421875,
+        "bottom": 391.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"attack\"]",
+      "rect": {
+        "dataset": {
+          "pose": "attack"
+        },
+        "left": 115.5,
+        "right": 192,
+        "top": 347.2421875,
+        "bottom": 391.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"guard\"]",
+      "rect": {
+        "dataset": {
+          "pose": "guard"
+        },
+        "left": 198,
+        "right": 274.5,
+        "top": 347.2421875,
+        "bottom": 391.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"hurt\"]",
+      "rect": {
+        "dataset": {
+          "pose": "hurt"
+        },
+        "left": 280.5,
+        "right": 357,
+        "top": 347.2421875,
+        "bottom": 391.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"exit\"]",
+      "rect": {
+        "dataset": {
+          "pose": "exit"
+        },
+        "left": 33,
+        "right": 109.5,
+        "top": 397.2421875,
+        "bottom": 441.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"control\"]",
+      "rect": {
+        "dataset": {
+          "pose": "control"
+        },
+        "left": 115.5,
+        "right": 192,
+        "top": 397.2421875,
+        "bottom": 441.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"buff\"]",
+      "rect": {
+        "dataset": {
+          "pose": "buff"
+        },
+        "left": 198,
+        "right": 274.5,
+        "top": 397.2421875,
+        "bottom": 441.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-choice[data-pose=\"debuff\"]",
+      "rect": {
+        "dataset": {
+          "pose": "debuff"
+        },
+        "left": 280.5,
+        "right": 357,
+        "top": 397.2421875,
+        "bottom": 441.2421875,
+        "width": 76.5,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".pose-current",
+      "rect": {
+        "dataset": {},
+        "left": 204.96875,
+        "right": 294.96875,
+        "top": 295.2421875,
+        "bottom": 339.2421875,
+        "width": 90,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    }
+  ],
+  "shots": [
+    {
+      "name": "gallery-ally-nav-attack",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-runtime-Wm8c3O/gallery-ally-nav-attack.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "gallery-ally-nav-control",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-runtime-Wm8c3O/gallery-ally-nav-control.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "gallery-enemy-enemy-6-attack",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-runtime-Wm8c3O/gallery-enemy-enemy-6-attack.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "gallery-enemy-enemy-6-control",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-runtime-Wm8c3O/gallery-enemy-enemy-6-control.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "after-gallery",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-runtime-Wm8c3O/after-gallery.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "gallery": [
+    {
+      "id": "nav",
+      "kind": "ally",
+      "poses": [
+        {
+          "pose": "enter",
+          "inspectedPreview": {
+            "actionState": "enter",
+            "image": "/package-actors-a/assets/nav/enter.png",
+            "label": "出场"
+          },
+          "actualImage": {
+            "src": "/package-actors-a/assets/nav/enter.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            },
+            {
+              "src": "/package-actors-a/assets/nav/enter.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "attack",
+          "inspectedPreview": {
+            "actionState": "attack",
+            "image": "/package-actors-a/assets/nav/attack.png",
+            "label": "施招"
+          },
+          "actualImage": {
+            "src": "/package-actors-a/assets/nav/attack.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            },
+            {
+              "src": "/package-actors-a/assets/nav/attack.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "guard",
+          "inspectedPreview": {
+            "actionState": "guard",
+            "image": "/package-actors-a/assets/nav/guard.png",
+            "label": "防御"
+          },
+          "actualImage": {
+            "src": "/package-actors-a/assets/nav/guard.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            },
+            {
+              "src": "/package-actors-a/assets/nav/guard.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "hurt",
+          "inspectedPreview": {
+            "actionState": "hurt",
+            "image": "/package-actors-a/assets/nav/hurt.png",
+            "label": "受伤"
+          },
+          "actualImage": {
+            "src": "/package-actors-a/assets/nav/hurt.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            },
+            {
+              "src": "/package-actors-a/assets/nav/hurt.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "exit",
+          "inspectedPreview": {
+            "actionState": "exit",
+            "image": "/package-actors-a/assets/nav/exit.png",
+            "label": "退场"
+          },
+          "actualImage": {
+            "src": "/package-actors-a/assets/nav/exit.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            },
+            {
+              "src": "/package-actors-a/assets/nav/exit.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "control",
+          "inspectedPreview": {
+            "actionState": "control",
+            "image": "/package-actors-a/assets/nav/control.png",
+            "label": "受制 · 虚弱"
+          },
+          "actualImage": {
+            "src": "/package-actors-a/assets/nav/control.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            },
+            {
+              "src": "/package-actors-a/assets/nav/control.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "buff",
+          "inspectedPreview": {
+            "actionState": "buff",
+            "image": "/package-actors-a/assets/nav/buff.png",
+            "label": "获得增益"
+          },
+          "actualImage": {
+            "src": "/package-actors-a/assets/nav/buff.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            },
+            {
+              "src": "/package-actors-a/assets/nav/buff.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "debuff",
+          "inspectedPreview": {
+            "actionState": "debuff",
+            "image": "/package-actors-a/assets/nav/debuff.png",
+            "label": "受到减益"
+          },
+          "actualImage": {
+            "src": "/package-actors-a/assets/nav/debuff.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            },
+            {
+              "src": "/package-actors-a/assets/nav/debuff.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        }
+      ],
+      "evidenceShots": [
+        "gallery-ally-nav-attack",
+        "gallery-ally-nav-control"
+      ],
+      "currentPose": {
+        "actionState": "buff",
+        "image": "/package-actors-a/assets/nav/buff.png"
+      }
+    },
+    {
+      "id": "enemy-6",
+      "kind": "enemy",
+      "poses": [
+        {
+          "pose": "enter",
+          "inspectedPreview": {
+            "actionState": "enter",
+            "image": "/package-street/assets/actions/paper-lion-phase2/enter.png",
+            "label": "出场"
+          },
+          "actualImage": {
+            "src": "/package-street/assets/actions/paper-lion-phase2/enter.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "/package-street/assets/actions/paper-lion-phase2/enter.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "attack",
+          "inspectedPreview": {
+            "actionState": "attack",
+            "image": "/package-street/assets/actions/paper-lion-phase2/attack.png",
+            "label": "施招"
+          },
+          "actualImage": {
+            "src": "/package-street/assets/actions/paper-lion-phase2/attack.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "/package-street/assets/actions/paper-lion-phase2/attack.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "guard",
+          "inspectedPreview": {
+            "actionState": "guard",
+            "image": "/package-street/assets/actions/paper-lion-phase2/guard.png",
+            "label": "防御"
+          },
+          "actualImage": {
+            "src": "/package-street/assets/actions/paper-lion-phase2/guard.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "/package-street/assets/actions/paper-lion-phase2/guard.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "hurt",
+          "inspectedPreview": {
+            "actionState": "hurt",
+            "image": "/package-street/assets/actions/paper-lion-phase2/hurt.png",
+            "label": "受伤"
+          },
+          "actualImage": {
+            "src": "/package-street/assets/actions/paper-lion-phase2/hurt.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "/package-street/assets/actions/paper-lion-phase2/hurt.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "exit",
+          "inspectedPreview": {
+            "actionState": "exit",
+            "image": "/package-street/assets/actions/paper-lion-phase2/exit.png",
+            "label": "退场"
+          },
+          "actualImage": {
+            "src": "/package-street/assets/actions/paper-lion-phase2/exit.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "/package-street/assets/actions/paper-lion-phase2/exit.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "control",
+          "inspectedPreview": {
+            "actionState": "control",
+            "image": "/package-street/assets/actions/paper-lion-phase2/control.png",
+            "label": "受制 · 虚弱"
+          },
+          "actualImage": {
+            "src": "/package-street/assets/actions/paper-lion-phase2/control.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "/package-street/assets/actions/paper-lion-phase2/control.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "buff",
+          "inspectedPreview": {
+            "actionState": "buff",
+            "image": "/package-street/assets/actions/paper-lion-phase2/buff.png",
+            "label": "获得增益"
+          },
+          "actualImage": {
+            "src": "/package-street/assets/actions/paper-lion-phase2/buff.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "/package-street/assets/actions/paper-lion-phase2/buff.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        },
+        {
+          "pose": "debuff",
+          "inspectedPreview": {
+            "actionState": "debuff",
+            "image": "/package-street/assets/actions/paper-lion-phase2/debuff.png",
+            "label": "受到减益"
+          },
+          "actualImage": {
+            "src": "/package-street/assets/actions/paper-lion-phase2/debuff.png",
+            "width": 324,
+            "height": 140,
+            "rect": null
+          },
+          "nodes": [
+            {
+              "src": "/package-street/assets/actions/paper-lion-phase2/debuff.png",
+              "width": 324,
+              "height": 140,
+              "rect": null
+            }
+          ]
+        }
+      ],
+      "evidenceShots": [
+        "gallery-enemy-enemy-6-attack",
+        "gallery-enemy-enemy-6-control"
+      ],
+      "currentPose": {
+        "actionState": "guard",
+        "image": "/package-street/assets/actions/paper-lion-phase2/guard.png"
+      }
+    }
+  ],
+  "samples": [],
+  "status": "pass",
+  "galleryScope": "ally+boss",
+  "galleryBossSkipped": false,
+  "galleryBefore": {
+    "version": 2,
+    "tickets": 6,
+    "drawCount": 0,
+    "pitySSR": 0,
+    "pityUR": 0,
+    "collection": {
+      "sheep": {
+        "R": 1,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "ramen": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "sunset": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "ticket": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "catcafe": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "moon": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "nav": {
+        "R": 1,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "tea": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "sushi": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "pear": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "burger": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "badminton": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "bomb": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "orangecat": {
+        "R": 1,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "doudou": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "hydrangea": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "pearlamp": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "cloudmail": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "firefly": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "soup": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "blanket": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "seedling": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      }
+    },
+    "team": [
+      "sheep",
+      "orangecat",
+      "nav"
+    ],
+    "cleared": [],
+    "endings": {},
+    "journey": null,
+    "lastEnding": null,
+    "adventure": {
+      "threads": 34,
+      "levels": {
+        "sheep": 1,
+        "ramen": 1,
+        "sunset": 1,
+        "ticket": 1,
+        "catcafe": 1,
+        "moon": 1,
+        "nav": 1,
+        "tea": 1,
+        "sushi": 1,
+        "pear": 1,
+        "burger": 1,
+        "badminton": 1,
+        "bomb": 1,
+        "orangecat": 1,
+        "doudou": 1,
+        "hydrangea": 1,
+        "pearlamp": 1,
+        "cloudmail": 1,
+        "firefly": 1,
+        "soup": 1,
+        "blanket": 1,
+        "seedling": 1
+      },
+      "clears": {
+        "street": [
+          0,
+          0,
+          0
+        ],
+        "bridge": [
+          0,
+          0,
+          0
+        ],
+        "market": [
+          0,
+          0,
+          0
+        ]
+      },
+      "active": {
+        "id": "street-0-703094669",
+        "regionId": "street",
+        "difficulty": 0,
+        "seed": 703094669,
+        "rng": 1430787407,
+        "phase": "battle",
+        "layer": 8,
+        "nodes": [
+          {
+            "index": 0,
+            "type": "battle",
+            "label": "交锋",
+            "options": [
+              {
+                "id": "node-0-0",
+                "name": "迷途纸团",
+                "description": "胜利后可选择守护方向的新牌",
+                "role": "guard",
+                "enemyIds": [
+                  "paper-ball"
+                ],
+                "eventId": null
+              },
+              {
+                "id": "node-0-1",
+                "name": "邮戳小蛾",
+                "description": "胜利后可选择连携方向的新牌",
+                "role": "combo",
+                "enemyIds": [
+                  "stamp-moth"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-0-0"
+          },
+          {
+            "index": 1,
+            "type": "event",
+            "label": "奇遇",
+            "options": [
+              {
+                "id": "node-1-0",
+                "name": "窗下的一碗热茶",
+                "description": "作出选择，决定这次收获",
+                "role": "combo",
+                "enemyIds": [],
+                "eventId": "street-tea"
+              },
+              {
+                "id": "node-1-1",
+                "name": "信封上翘起的角",
+                "description": "作出选择，决定这次收获",
+                "role": "echo",
+                "enemyIds": [],
+                "eventId": "street-corner"
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-1-0"
+          },
+          {
+            "index": 2,
+            "type": "battle",
+            "label": "交锋",
+            "options": [
+              {
+                "id": "node-2-0",
+                "name": "绕线小怪",
+                "description": "胜利后可选择回响方向的新牌",
+                "role": "echo",
+                "enemyIds": [
+                  "twine-sprite"
+                ],
+                "eventId": null
+              },
+              {
+                "id": "node-2-1",
+                "name": "火漆滴滴",
+                "description": "胜利后可选择守护方向的新牌",
+                "role": "guard",
+                "enemyIds": [
+                  "wax-drop"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-2-0"
+          },
+          {
+            "index": 3,
+            "type": "elite",
+            "label": "精英",
+            "options": [
+              {
+                "id": "node-3-0",
+                "name": "空邮袋守卫",
+                "description": "战胜精英，挑选一件遗物",
+                "role": "guard",
+                "enemyIds": [
+                  "postbag-guard"
+                ],
+                "eventId": null
+              },
+              {
+                "id": "node-3-1",
+                "name": "旧戳印偶",
+                "description": "战胜精英，挑选一件遗物",
+                "role": "combo",
+                "enemyIds": [
+                  "stamp-press"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-3-0"
+          },
+          {
+            "index": 4,
+            "type": "camp",
+            "label": "营地",
+            "options": [
+              {
+                "id": "node-4-0",
+                "name": "营地",
+                "description": "恢复全队生命，或升级一张牌",
+                "role": "combo",
+                "enemyIds": [],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-4-0"
+          },
+          {
+            "index": 5,
+            "type": "battle",
+            "label": "交锋",
+            "options": [
+              {
+                "id": "node-5-0",
+                "name": "邮戳小蛾",
+                "description": "胜利后可选择回响方向的新牌",
+                "role": "echo",
+                "enemyIds": [
+                  "stamp-moth"
+                ],
+                "eventId": null
+              },
+              {
+                "id": "node-5-1",
+                "name": "绕线小怪",
+                "description": "胜利后可选择守护方向的新牌",
+                "role": "guard",
+                "enemyIds": [
+                  "twine-sprite"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-5-0"
+          },
+          {
+            "index": 6,
+            "type": "treasure",
+            "label": "宝箱",
+            "options": [
+              {
+                "id": "node-6-0",
+                "name": "宝箱",
+                "description": "带走星线，挑选一件遗物",
+                "role": "guard",
+                "enemyIds": [],
+                "eventId": null
+              },
+              {
+                "id": "node-6-1",
+                "name": "宝箱",
+                "description": "带走星线，挑选一件遗物",
+                "role": "combo",
+                "enemyIds": [],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-6-0"
+          },
+          {
+            "index": 7,
+            "type": "battle",
+            "label": "交锋",
+            "options": [
+              {
+                "id": "node-7-0",
+                "name": "火漆滴滴",
+                "description": "胜利后可选择连携方向的新牌",
+                "role": "combo",
+                "enemyIds": [
+                  "wax-drop"
+                ],
+                "eventId": null
+              },
+              {
+                "id": "node-7-1",
+                "name": "迷途纸团",
+                "description": "胜利后可选择回响方向的新牌",
+                "role": "echo",
+                "enemyIds": [
+                  "paper-ball"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-7-0"
+          },
+          {
+            "index": 8,
+            "type": "boss",
+            "label": "首领",
+            "options": [
+              {
+                "id": "node-8-0",
+                "name": "吞信纸狮",
+                "description": "击破两个阶段，完成本次远行",
+                "role": "echo",
+                "enemyIds": [
+                  "paper-lion"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": false,
+            "chosenId": "node-8-0"
+          }
+        ],
+        "party": [
+          {
+            "id": "sheep",
+            "tier": "R",
+            "level": 1,
+            "role": "guard",
+            "maxHp": 54,
+            "hp": 54,
+            "block": 0,
+            "status": {
+              "mark": 0,
+              "weak": 0,
+              "burn": 0,
+              "counter": 0,
+              "echo": 0,
+              "retainBlock": 0
+            },
+            "usedTurn": {},
+            "usedBattle": {
+              "battleStart": true
+            }
+          },
+          {
+            "id": "orangecat",
+            "tier": "R",
+            "level": 1,
+            "role": "combo",
+            "maxHp": 48,
+            "hp": 44,
+            "block": 0,
+            "status": {
+              "mark": 0,
+              "weak": 0,
+              "burn": 0,
+              "counter": 0,
+              "echo": 0,
+              "retainBlock": 0
+            },
+            "usedTurn": {},
+            "usedBattle": {}
+          },
+          {
+            "id": "nav",
+            "tier": "R",
+            "level": 1,
+            "role": "echo",
+            "maxHp": 44,
+            "hp": 41,
+            "block": 0,
+            "status": {
+              "mark": 0,
+              "weak": 0,
+              "burn": 0,
+              "counter": 0,
+              "echo": 1,
+              "retainBlock": 0
+            },
+            "usedTurn": {},
+            "usedBattle": {}
+          }
+        ],
+        "deck": [
+          {
+            "uid": "card-1",
+            "cardId": "strike",
+            "ownerId": "sheep",
+            "upgraded": false
+          },
+          {
+            "uid": "card-2",
+            "cardId": "guard",
+            "ownerId": "sheep",
+            "upgraded": false
+          },
+          {
+            "uid": "card-3",
+            "cardId": "sheep-coat",
+            "ownerId": "sheep",
+            "upgraded": false
+          },
+          {
+            "uid": "card-4",
+            "cardId": "sheep-flock",
+            "ownerId": "sheep",
+            "upgraded": false
+          },
+          {
+            "uid": "card-5",
+            "cardId": "strike",
+            "ownerId": "orangecat",
+            "upgraded": false
+          },
+          {
+            "uid": "card-6",
+            "cardId": "guard",
+            "ownerId": "orangecat",
+            "upgraded": false
+          },
+          {
+            "uid": "card-7",
+            "cardId": "orangecat-pounce",
+            "ownerId": "orangecat",
+            "upgraded": false
+          },
+          {
+            "uid": "card-8",
+            "cardId": "orangecat-sidestep",
+            "ownerId": "orangecat",
+            "upgraded": false
+          },
+          {
+            "uid": "card-9",
+            "cardId": "strike",
+            "ownerId": "nav",
+            "upgraded": false
+          },
+          {
+            "uid": "card-10",
+            "cardId": "guard",
+            "ownerId": "nav",
+            "upgraded": false
+          },
+          {
+            "uid": "card-11",
+            "cardId": "nav-chart",
+            "ownerId": "nav",
+            "upgraded": false
+          },
+          {
+            "uid": "card-12",
+            "cardId": "nav-compass",
+            "ownerId": "nav",
+            "upgraded": false
+          },
+          {
+            "uid": "card-19",
+            "cardId": "ink-drop",
+            "ownerId": "nav",
+            "upgraded": false
+          },
+          {
+            "uid": "card-23",
+            "cardId": "orangecat-pounce",
+            "ownerId": "orangecat",
+            "upgraded": false
+          }
+        ],
+        "drawPile": [
+          "card-3",
+          "card-10"
+        ],
+        "hand": [
+          "card-1",
+          "card-23",
+          "card-5",
+          "card-8",
+          "card-12"
+        ],
+        "discardPile": [
+          "card-19",
+          "card-11",
+          "card-6",
+          "card-7",
+          "card-9",
+          "card-4",
+          "card-2"
+        ],
+        "removed": [],
+        "enemies": [
+          {
+            "id": "enemy-6",
+            "definitionId": "paper-lion",
+            "hp": 52,
+            "maxHp": 52,
+            "block": 8,
+            "status": {
+              "mark": 0,
+              "weak": 0,
+              "burn": 0,
+              "counter": 0,
+              "echo": 0,
+              "retainBlock": 0
+            },
+            "phase": 2,
+            "intentIndex": 1
+          }
+        ],
+        "energy": 3,
+        "turn": 6,
+        "plays": 0,
+        "nextCardId": 25,
+        "nextEnemyId": 7,
+        "relics": [
+          "blue-thread",
+          "tea-token"
+        ],
+        "relicUsedTurn": {
+          "tea-token": true
+        },
+        "relicUsedBattle": {
+          "blue-thread": true
+        },
+        "choices": [],
+        "log": [
+          {
+            "kind": "block",
+            "actorId": "nav",
+            "targetId": "nav",
+            "amount": 4,
+            "text": "领航小鸭获得 4 点护盾"
+          },
+          {
+            "kind": "burn",
+            "actorId": null,
+            "targetId": "enemy-6",
+            "amount": 4,
+            "text": "吞信纸狮受到 4 点伤害",
+            "hpDelta": -4
+          },
+          {
+            "kind": "enemyAction",
+            "actorId": "enemy-6",
+            "targetId": null,
+            "amount": 0,
+            "text": "吞信纸狮 · 纸鬃散落",
+            "intentKind": "attack",
+            "intentName": "纸鬃散落",
+            "intentTargets": [
+              {
+                "id": "sheep",
+                "name": "羊咩咩团",
+                "killed": false,
+                "amount": 4,
+                "blocked": 0,
+                "hpLoss": 4
+              },
+              {
+                "id": "orangecat",
+                "name": "橘猫豆包",
+                "killed": false,
+                "amount": 4,
+                "blocked": 0,
+                "hpLoss": 4
+              },
+              {
+                "id": "nav",
+                "name": "领航小鸭",
+                "killed": false,
+                "amount": 4,
+                "blocked": 4,
+                "hpLoss": 0
+              }
+            ],
+            "intentAll": true,
+            "armor": 0
+          },
+          {
+            "kind": "damage",
+            "actorId": "enemy-6",
+            "targetId": "sheep",
+            "amount": 4,
+            "text": "羊咩咩团受到 4 点伤害",
+            "hpDelta": -4
+          },
+          {
+            "kind": "damage",
+            "actorId": "enemy-6",
+            "targetId": "orangecat",
+            "amount": 4,
+            "text": "橘猫豆包受到 4 点伤害",
+            "hpDelta": -4
+          },
+          {
+            "kind": "damage",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 2,
+            "text": "吞信纸狮受到 2 点伤害",
+            "hpDelta": -2
+          },
+          {
+            "kind": "damage",
+            "actorId": "enemy-6",
+            "targetId": "nav",
+            "amount": 0,
+            "text": "领航小鸭的护盾挡下 4，受到 0 点伤害",
+            "hpDelta": 0,
+            "blocked": 4
+          },
+          {
+            "kind": "draw",
+            "actorId": null,
+            "targetId": null,
+            "amount": 5,
+            "text": "抽取 5 张牌"
+          },
+          {
+            "kind": "relic",
+            "actorId": "sheep",
+            "targetId": null,
+            "amount": 0,
+            "text": "遗物 · 热茶木牌"
+          },
+          {
+            "kind": "heal",
+            "actorId": "sheep",
+            "targetId": "sheep",
+            "amount": 2,
+            "text": "羊咩咩团恢复 2 点生命",
+            "hpDelta": 2
+          },
+          {
+            "kind": "playCard",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 1,
+            "text": "橘猫豆包使用窗台借一步"
+          },
+          {
+            "kind": "damage",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 5,
+            "text": "吞信纸狮受到 5 点伤害",
+            "hpDelta": -5
+          },
+          {
+            "kind": "draw",
+            "actorId": "orangecat",
+            "targetId": null,
+            "amount": 1,
+            "text": "抽取 1 张牌"
+          },
+          {
+            "kind": "passive",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 0,
+            "text": "橘猫豆包 · 尾巴护住后路"
+          },
+          {
+            "kind": "counter",
+            "actorId": "orangecat",
+            "targetId": "orangecat",
+            "amount": 2,
+            "text": "橘猫豆包获得 2 反击"
+          },
+          {
+            "kind": "playCard",
+            "actorId": "sheep",
+            "targetId": "enemy-6",
+            "amount": 1,
+            "text": "羊咩咩团使用小小出手"
+          },
+          {
+            "kind": "damage",
+            "actorId": "sheep",
+            "targetId": "enemy-6",
+            "amount": 6,
+            "text": "吞信纸狮受到 6 点伤害",
+            "hpDelta": -6
+          },
+          {
+            "kind": "playCard",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 1,
+            "text": "橘猫豆包使用小小出手"
+          },
+          {
+            "kind": "damage",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 6,
+            "text": "吞信纸狮受到 6 点伤害",
+            "hpDelta": -6
+          },
+          {
+            "kind": "burn",
+            "actorId": null,
+            "targetId": "enemy-6",
+            "amount": 3,
+            "text": "吞信纸狮受到 3 点伤害",
+            "hpDelta": -3
+          },
+          {
+            "kind": "enemyAction",
+            "actorId": "enemy-6",
+            "targetId": null,
+            "amount": 14,
+            "text": "吞信纸狮 · 折纸厚甲",
+            "intentKind": "block",
+            "intentName": "折纸厚甲",
+            "intentTargets": [],
+            "intentAll": false,
+            "armor": 0
+          },
+          {
+            "kind": "shuffle",
+            "actorId": null,
+            "targetId": null,
+            "amount": 11,
+            "text": "弃牌重新洗入抽牌堆"
+          },
+          {
+            "kind": "draw",
+            "actorId": null,
+            "targetId": null,
+            "amount": 5,
+            "text": "抽取 5 张牌"
+          },
+          {
+            "kind": "relic",
+            "actorId": "sheep",
+            "targetId": null,
+            "amount": 0,
+            "text": "遗物 · 热茶木牌"
+          },
+          {
+            "kind": "heal",
+            "actorId": "sheep",
+            "targetId": "sheep",
+            "amount": 2,
+            "text": "羊咩咩团恢复 2 点生命",
+            "hpDelta": 2
+          },
+          {
+            "kind": "playCard",
+            "actorId": "nav",
+            "targetId": "enemy-6",
+            "amount": 1,
+            "text": "领航小鸭使用墨滴慢洇"
+          },
+          {
+            "kind": "burn",
+            "actorId": "nav",
+            "targetId": "enemy-6",
+            "amount": 4,
+            "text": "吞信纸狮获得 4 灼烧"
+          },
+          {
+            "kind": "playCard",
+            "actorId": "nav",
+            "targetId": "enemy-6",
+            "amount": 1,
+            "text": "领航小鸭使用圈出下一站"
+          },
+          {
+            "kind": "mark",
+            "actorId": "nav",
+            "targetId": "enemy-6",
+            "amount": 2,
+            "text": "吞信纸狮获得 2 标记"
+          },
+          {
+            "kind": "draw",
+            "actorId": "nav",
+            "targetId": null,
+            "amount": 1,
+            "text": "抽取 1 张牌"
+          },
+          {
+            "kind": "passive",
+            "actorId": "nav",
+            "targetId": "enemy-6",
+            "amount": 0,
+            "text": "领航小鸭 · 地图旁的注解"
+          },
+          {
+            "kind": "draw",
+            "actorId": "nav",
+            "targetId": null,
+            "amount": 1,
+            "text": "抽取 1 张牌"
+          },
+          {
+            "kind": "playCard",
+            "actorId": "orangecat",
+            "targetId": null,
+            "amount": 1,
+            "text": "橘猫豆包使用护好邮包"
+          },
+          {
+            "kind": "block",
+            "actorId": "orangecat",
+            "targetId": "orangecat",
+            "amount": 6,
+            "text": "橘猫豆包获得 6 点护盾"
+          },
+          {
+            "kind": "burn",
+            "actorId": null,
+            "targetId": "enemy-6",
+            "amount": 3,
+            "text": "吞信纸狮受到 3 点伤害",
+            "hpDelta": -3
+          },
+          {
+            "kind": "bossPhase",
+            "actorId": "enemy-6",
+            "targetId": "enemy-6",
+            "amount": 52,
+            "text": "吞信纸狮进入第二阶段"
+          },
+          {
+            "kind": "enemyAction",
+            "actorId": "enemy-6",
+            "targetId": null,
+            "amount": 8,
+            "text": "吞信纸狮 · 重折纸甲",
+            "intentKind": "block",
+            "intentName": "重折纸甲",
+            "intentTargets": [],
+            "intentAll": false,
+            "armor": 0
+          },
+          {
+            "kind": "draw",
+            "actorId": null,
+            "targetId": null,
+            "amount": 5,
+            "text": "抽取 5 张牌"
+          },
+          {
+            "kind": "relic",
+            "actorId": "sheep",
+            "targetId": null,
+            "amount": 0,
+            "text": "遗物 · 热茶木牌"
+          },
+          {
+            "kind": "heal",
+            "actorId": "sheep",
+            "targetId": "sheep",
+            "amount": 0,
+            "text": "羊咩咩团恢复 0 点生命",
+            "hpDelta": 0
+          }
+        ],
+        "threadsEarned": 34,
+        "ticketsEarned": 0
+      },
+      "lastResult": null
+    }
+  },
+  "galleryAfter": {
+    "version": 2,
+    "tickets": 6,
+    "drawCount": 0,
+    "pitySSR": 0,
+    "pityUR": 0,
+    "collection": {
+      "sheep": {
+        "R": 1,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "ramen": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "sunset": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "ticket": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "catcafe": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "moon": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "nav": {
+        "R": 1,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "tea": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "sushi": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "pear": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "burger": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "badminton": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "bomb": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "orangecat": {
+        "R": 1,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "doudou": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "hydrangea": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "pearlamp": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "cloudmail": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "firefly": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "soup": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "blanket": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "seedling": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      }
+    },
+    "team": [
+      "sheep",
+      "orangecat",
+      "nav"
+    ],
+    "cleared": [],
+    "endings": {},
+    "journey": null,
+    "lastEnding": null,
+    "adventure": {
+      "threads": 34,
+      "levels": {
+        "sheep": 1,
+        "ramen": 1,
+        "sunset": 1,
+        "ticket": 1,
+        "catcafe": 1,
+        "moon": 1,
+        "nav": 1,
+        "tea": 1,
+        "sushi": 1,
+        "pear": 1,
+        "burger": 1,
+        "badminton": 1,
+        "bomb": 1,
+        "orangecat": 1,
+        "doudou": 1,
+        "hydrangea": 1,
+        "pearlamp": 1,
+        "cloudmail": 1,
+        "firefly": 1,
+        "soup": 1,
+        "blanket": 1,
+        "seedling": 1
+      },
+      "clears": {
+        "street": [
+          0,
+          0,
+          0
+        ],
+        "bridge": [
+          0,
+          0,
+          0
+        ],
+        "market": [
+          0,
+          0,
+          0
+        ]
+      },
+      "active": {
+        "id": "street-0-703094669",
+        "regionId": "street",
+        "difficulty": 0,
+        "seed": 703094669,
+        "rng": 1430787407,
+        "phase": "battle",
+        "layer": 8,
+        "nodes": [
+          {
+            "index": 0,
+            "type": "battle",
+            "label": "交锋",
+            "options": [
+              {
+                "id": "node-0-0",
+                "name": "迷途纸团",
+                "description": "胜利后可选择守护方向的新牌",
+                "role": "guard",
+                "enemyIds": [
+                  "paper-ball"
+                ],
+                "eventId": null
+              },
+              {
+                "id": "node-0-1",
+                "name": "邮戳小蛾",
+                "description": "胜利后可选择连携方向的新牌",
+                "role": "combo",
+                "enemyIds": [
+                  "stamp-moth"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-0-0"
+          },
+          {
+            "index": 1,
+            "type": "event",
+            "label": "奇遇",
+            "options": [
+              {
+                "id": "node-1-0",
+                "name": "窗下的一碗热茶",
+                "description": "作出选择，决定这次收获",
+                "role": "combo",
+                "enemyIds": [],
+                "eventId": "street-tea"
+              },
+              {
+                "id": "node-1-1",
+                "name": "信封上翘起的角",
+                "description": "作出选择，决定这次收获",
+                "role": "echo",
+                "enemyIds": [],
+                "eventId": "street-corner"
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-1-0"
+          },
+          {
+            "index": 2,
+            "type": "battle",
+            "label": "交锋",
+            "options": [
+              {
+                "id": "node-2-0",
+                "name": "绕线小怪",
+                "description": "胜利后可选择回响方向的新牌",
+                "role": "echo",
+                "enemyIds": [
+                  "twine-sprite"
+                ],
+                "eventId": null
+              },
+              {
+                "id": "node-2-1",
+                "name": "火漆滴滴",
+                "description": "胜利后可选择守护方向的新牌",
+                "role": "guard",
+                "enemyIds": [
+                  "wax-drop"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-2-0"
+          },
+          {
+            "index": 3,
+            "type": "elite",
+            "label": "精英",
+            "options": [
+              {
+                "id": "node-3-0",
+                "name": "空邮袋守卫",
+                "description": "战胜精英，挑选一件遗物",
+                "role": "guard",
+                "enemyIds": [
+                  "postbag-guard"
+                ],
+                "eventId": null
+              },
+              {
+                "id": "node-3-1",
+                "name": "旧戳印偶",
+                "description": "战胜精英，挑选一件遗物",
+                "role": "combo",
+                "enemyIds": [
+                  "stamp-press"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-3-0"
+          },
+          {
+            "index": 4,
+            "type": "camp",
+            "label": "营地",
+            "options": [
+              {
+                "id": "node-4-0",
+                "name": "营地",
+                "description": "恢复全队生命，或升级一张牌",
+                "role": "combo",
+                "enemyIds": [],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-4-0"
+          },
+          {
+            "index": 5,
+            "type": "battle",
+            "label": "交锋",
+            "options": [
+              {
+                "id": "node-5-0",
+                "name": "邮戳小蛾",
+                "description": "胜利后可选择回响方向的新牌",
+                "role": "echo",
+                "enemyIds": [
+                  "stamp-moth"
+                ],
+                "eventId": null
+              },
+              {
+                "id": "node-5-1",
+                "name": "绕线小怪",
+                "description": "胜利后可选择守护方向的新牌",
+                "role": "guard",
+                "enemyIds": [
+                  "twine-sprite"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-5-0"
+          },
+          {
+            "index": 6,
+            "type": "treasure",
+            "label": "宝箱",
+            "options": [
+              {
+                "id": "node-6-0",
+                "name": "宝箱",
+                "description": "带走星线，挑选一件遗物",
+                "role": "guard",
+                "enemyIds": [],
+                "eventId": null
+              },
+              {
+                "id": "node-6-1",
+                "name": "宝箱",
+                "description": "带走星线，挑选一件遗物",
+                "role": "combo",
+                "enemyIds": [],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-6-0"
+          },
+          {
+            "index": 7,
+            "type": "battle",
+            "label": "交锋",
+            "options": [
+              {
+                "id": "node-7-0",
+                "name": "火漆滴滴",
+                "description": "胜利后可选择连携方向的新牌",
+                "role": "combo",
+                "enemyIds": [
+                  "wax-drop"
+                ],
+                "eventId": null
+              },
+              {
+                "id": "node-7-1",
+                "name": "迷途纸团",
+                "description": "胜利后可选择回响方向的新牌",
+                "role": "echo",
+                "enemyIds": [
+                  "paper-ball"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": true,
+            "chosenId": "node-7-0"
+          },
+          {
+            "index": 8,
+            "type": "boss",
+            "label": "首领",
+            "options": [
+              {
+                "id": "node-8-0",
+                "name": "吞信纸狮",
+                "description": "击破两个阶段，完成本次远行",
+                "role": "echo",
+                "enemyIds": [
+                  "paper-lion"
+                ],
+                "eventId": null
+              }
+            ],
+            "visited": false,
+            "chosenId": "node-8-0"
+          }
+        ],
+        "party": [
+          {
+            "id": "sheep",
+            "tier": "R",
+            "level": 1,
+            "role": "guard",
+            "maxHp": 54,
+            "hp": 54,
+            "block": 0,
+            "status": {
+              "mark": 0,
+              "weak": 0,
+              "burn": 0,
+              "counter": 0,
+              "echo": 0,
+              "retainBlock": 0
+            },
+            "usedTurn": {},
+            "usedBattle": {
+              "battleStart": true
+            }
+          },
+          {
+            "id": "orangecat",
+            "tier": "R",
+            "level": 1,
+            "role": "combo",
+            "maxHp": 48,
+            "hp": 44,
+            "block": 0,
+            "status": {
+              "mark": 0,
+              "weak": 0,
+              "burn": 0,
+              "counter": 0,
+              "echo": 0,
+              "retainBlock": 0
+            },
+            "usedTurn": {},
+            "usedBattle": {}
+          },
+          {
+            "id": "nav",
+            "tier": "R",
+            "level": 1,
+            "role": "echo",
+            "maxHp": 44,
+            "hp": 41,
+            "block": 0,
+            "status": {
+              "mark": 0,
+              "weak": 0,
+              "burn": 0,
+              "counter": 0,
+              "echo": 1,
+              "retainBlock": 0
+            },
+            "usedTurn": {},
+            "usedBattle": {}
+          }
+        ],
+        "deck": [
+          {
+            "uid": "card-1",
+            "cardId": "strike",
+            "ownerId": "sheep",
+            "upgraded": false
+          },
+          {
+            "uid": "card-2",
+            "cardId": "guard",
+            "ownerId": "sheep",
+            "upgraded": false
+          },
+          {
+            "uid": "card-3",
+            "cardId": "sheep-coat",
+            "ownerId": "sheep",
+            "upgraded": false
+          },
+          {
+            "uid": "card-4",
+            "cardId": "sheep-flock",
+            "ownerId": "sheep",
+            "upgraded": false
+          },
+          {
+            "uid": "card-5",
+            "cardId": "strike",
+            "ownerId": "orangecat",
+            "upgraded": false
+          },
+          {
+            "uid": "card-6",
+            "cardId": "guard",
+            "ownerId": "orangecat",
+            "upgraded": false
+          },
+          {
+            "uid": "card-7",
+            "cardId": "orangecat-pounce",
+            "ownerId": "orangecat",
+            "upgraded": false
+          },
+          {
+            "uid": "card-8",
+            "cardId": "orangecat-sidestep",
+            "ownerId": "orangecat",
+            "upgraded": false
+          },
+          {
+            "uid": "card-9",
+            "cardId": "strike",
+            "ownerId": "nav",
+            "upgraded": false
+          },
+          {
+            "uid": "card-10",
+            "cardId": "guard",
+            "ownerId": "nav",
+            "upgraded": false
+          },
+          {
+            "uid": "card-11",
+            "cardId": "nav-chart",
+            "ownerId": "nav",
+            "upgraded": false
+          },
+          {
+            "uid": "card-12",
+            "cardId": "nav-compass",
+            "ownerId": "nav",
+            "upgraded": false
+          },
+          {
+            "uid": "card-19",
+            "cardId": "ink-drop",
+            "ownerId": "nav",
+            "upgraded": false
+          },
+          {
+            "uid": "card-23",
+            "cardId": "orangecat-pounce",
+            "ownerId": "orangecat",
+            "upgraded": false
+          }
+        ],
+        "drawPile": [
+          "card-3",
+          "card-10"
+        ],
+        "hand": [
+          "card-1",
+          "card-23",
+          "card-5",
+          "card-8",
+          "card-12"
+        ],
+        "discardPile": [
+          "card-19",
+          "card-11",
+          "card-6",
+          "card-7",
+          "card-9",
+          "card-4",
+          "card-2"
+        ],
+        "removed": [],
+        "enemies": [
+          {
+            "id": "enemy-6",
+            "definitionId": "paper-lion",
+            "hp": 52,
+            "maxHp": 52,
+            "block": 8,
+            "status": {
+              "mark": 0,
+              "weak": 0,
+              "burn": 0,
+              "counter": 0,
+              "echo": 0,
+              "retainBlock": 0
+            },
+            "phase": 2,
+            "intentIndex": 1
+          }
+        ],
+        "energy": 3,
+        "turn": 6,
+        "plays": 0,
+        "nextCardId": 25,
+        "nextEnemyId": 7,
+        "relics": [
+          "blue-thread",
+          "tea-token"
+        ],
+        "relicUsedTurn": {
+          "tea-token": true
+        },
+        "relicUsedBattle": {
+          "blue-thread": true
+        },
+        "choices": [],
+        "log": [
+          {
+            "kind": "block",
+            "actorId": "nav",
+            "targetId": "nav",
+            "amount": 4,
+            "text": "领航小鸭获得 4 点护盾"
+          },
+          {
+            "kind": "burn",
+            "actorId": null,
+            "targetId": "enemy-6",
+            "amount": 4,
+            "text": "吞信纸狮受到 4 点伤害",
+            "hpDelta": -4
+          },
+          {
+            "kind": "enemyAction",
+            "actorId": "enemy-6",
+            "targetId": null,
+            "amount": 0,
+            "text": "吞信纸狮 · 纸鬃散落",
+            "intentKind": "attack",
+            "intentName": "纸鬃散落",
+            "intentTargets": [
+              {
+                "id": "sheep",
+                "name": "羊咩咩团",
+                "killed": false,
+                "amount": 4,
+                "blocked": 0,
+                "hpLoss": 4
+              },
+              {
+                "id": "orangecat",
+                "name": "橘猫豆包",
+                "killed": false,
+                "amount": 4,
+                "blocked": 0,
+                "hpLoss": 4
+              },
+              {
+                "id": "nav",
+                "name": "领航小鸭",
+                "killed": false,
+                "amount": 4,
+                "blocked": 4,
+                "hpLoss": 0
+              }
+            ],
+            "intentAll": true,
+            "armor": 0
+          },
+          {
+            "kind": "damage",
+            "actorId": "enemy-6",
+            "targetId": "sheep",
+            "amount": 4,
+            "text": "羊咩咩团受到 4 点伤害",
+            "hpDelta": -4
+          },
+          {
+            "kind": "damage",
+            "actorId": "enemy-6",
+            "targetId": "orangecat",
+            "amount": 4,
+            "text": "橘猫豆包受到 4 点伤害",
+            "hpDelta": -4
+          },
+          {
+            "kind": "damage",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 2,
+            "text": "吞信纸狮受到 2 点伤害",
+            "hpDelta": -2
+          },
+          {
+            "kind": "damage",
+            "actorId": "enemy-6",
+            "targetId": "nav",
+            "amount": 0,
+            "text": "领航小鸭的护盾挡下 4，受到 0 点伤害",
+            "hpDelta": 0,
+            "blocked": 4
+          },
+          {
+            "kind": "draw",
+            "actorId": null,
+            "targetId": null,
+            "amount": 5,
+            "text": "抽取 5 张牌"
+          },
+          {
+            "kind": "relic",
+            "actorId": "sheep",
+            "targetId": null,
+            "amount": 0,
+            "text": "遗物 · 热茶木牌"
+          },
+          {
+            "kind": "heal",
+            "actorId": "sheep",
+            "targetId": "sheep",
+            "amount": 2,
+            "text": "羊咩咩团恢复 2 点生命",
+            "hpDelta": 2
+          },
+          {
+            "kind": "playCard",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 1,
+            "text": "橘猫豆包使用窗台借一步"
+          },
+          {
+            "kind": "damage",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 5,
+            "text": "吞信纸狮受到 5 点伤害",
+            "hpDelta": -5
+          },
+          {
+            "kind": "draw",
+            "actorId": "orangecat",
+            "targetId": null,
+            "amount": 1,
+            "text": "抽取 1 张牌"
+          },
+          {
+            "kind": "passive",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 0,
+            "text": "橘猫豆包 · 尾巴护住后路"
+          },
+          {
+            "kind": "counter",
+            "actorId": "orangecat",
+            "targetId": "orangecat",
+            "amount": 2,
+            "text": "橘猫豆包获得 2 反击"
+          },
+          {
+            "kind": "playCard",
+            "actorId": "sheep",
+            "targetId": "enemy-6",
+            "amount": 1,
+            "text": "羊咩咩团使用小小出手"
+          },
+          {
+            "kind": "damage",
+            "actorId": "sheep",
+            "targetId": "enemy-6",
+            "amount": 6,
+            "text": "吞信纸狮受到 6 点伤害",
+            "hpDelta": -6
+          },
+          {
+            "kind": "playCard",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 1,
+            "text": "橘猫豆包使用小小出手"
+          },
+          {
+            "kind": "damage",
+            "actorId": "orangecat",
+            "targetId": "enemy-6",
+            "amount": 6,
+            "text": "吞信纸狮受到 6 点伤害",
+            "hpDelta": -6
+          },
+          {
+            "kind": "burn",
+            "actorId": null,
+            "targetId": "enemy-6",
+            "amount": 3,
+            "text": "吞信纸狮受到 3 点伤害",
+            "hpDelta": -3
+          },
+          {
+            "kind": "enemyAction",
+            "actorId": "enemy-6",
+            "targetId": null,
+            "amount": 14,
+            "text": "吞信纸狮 · 折纸厚甲",
+            "intentKind": "block",
+            "intentName": "折纸厚甲",
+            "intentTargets": [],
+            "intentAll": false,
+            "armor": 0
+          },
+          {
+            "kind": "shuffle",
+            "actorId": null,
+            "targetId": null,
+            "amount": 11,
+            "text": "弃牌重新洗入抽牌堆"
+          },
+          {
+            "kind": "draw",
+            "actorId": null,
+            "targetId": null,
+            "amount": 5,
+            "text": "抽取 5 张牌"
+          },
+          {
+            "kind": "relic",
+            "actorId": "sheep",
+            "targetId": null,
+            "amount": 0,
+            "text": "遗物 · 热茶木牌"
+          },
+          {
+            "kind": "heal",
+            "actorId": "sheep",
+            "targetId": "sheep",
+            "amount": 2,
+            "text": "羊咩咩团恢复 2 点生命",
+            "hpDelta": 2
+          },
+          {
+            "kind": "playCard",
+            "actorId": "nav",
+            "targetId": "enemy-6",
+            "amount": 1,
+            "text": "领航小鸭使用墨滴慢洇"
+          },
+          {
+            "kind": "burn",
+            "actorId": "nav",
+            "targetId": "enemy-6",
+            "amount": 4,
+            "text": "吞信纸狮获得 4 灼烧"
+          },
+          {
+            "kind": "playCard",
+            "actorId": "nav",
+            "targetId": "enemy-6",
+            "amount": 1,
+            "text": "领航小鸭使用圈出下一站"
+          },
+          {
+            "kind": "mark",
+            "actorId": "nav",
+            "targetId": "enemy-6",
+            "amount": 2,
+            "text": "吞信纸狮获得 2 标记"
+          },
+          {
+            "kind": "draw",
+            "actorId": "nav",
+            "targetId": null,
+            "amount": 1,
+            "text": "抽取 1 张牌"
+          },
+          {
+            "kind": "passive",
+            "actorId": "nav",
+            "targetId": "enemy-6",
+            "amount": 0,
+            "text": "领航小鸭 · 地图旁的注解"
+          },
+          {
+            "kind": "draw",
+            "actorId": "nav",
+            "targetId": null,
+            "amount": 1,
+            "text": "抽取 1 张牌"
+          },
+          {
+            "kind": "playCard",
+            "actorId": "orangecat",
+            "targetId": null,
+            "amount": 1,
+            "text": "橘猫豆包使用护好邮包"
+          },
+          {
+            "kind": "block",
+            "actorId": "orangecat",
+            "targetId": "orangecat",
+            "amount": 6,
+            "text": "橘猫豆包获得 6 点护盾"
+          },
+          {
+            "kind": "burn",
+            "actorId": null,
+            "targetId": "enemy-6",
+            "amount": 3,
+            "text": "吞信纸狮受到 3 点伤害",
+            "hpDelta": -3
+          },
+          {
+            "kind": "bossPhase",
+            "actorId": "enemy-6",
+            "targetId": "enemy-6",
+            "amount": 52,
+            "text": "吞信纸狮进入第二阶段"
+          },
+          {
+            "kind": "enemyAction",
+            "actorId": "enemy-6",
+            "targetId": null,
+            "amount": 8,
+            "text": "吞信纸狮 · 重折纸甲",
+            "intentKind": "block",
+            "intentName": "重折纸甲",
+            "intentTargets": [],
+            "intentAll": false,
+            "armor": 0
+          },
+          {
+            "kind": "draw",
+            "actorId": null,
+            "targetId": null,
+            "amount": 5,
+            "text": "抽取 5 张牌"
+          },
+          {
+            "kind": "relic",
+            "actorId": "sheep",
+            "targetId": null,
+            "amount": 0,
+            "text": "遗物 · 热茶木牌"
+          },
+          {
+            "kind": "heal",
+            "actorId": "sheep",
+            "targetId": "sheep",
+            "amount": 0,
+            "text": "羊咩咩团恢复 0 点生命",
+            "hpDelta": 0
+          }
+        ],
+        "threadsEarned": 34,
+        "ticketsEarned": 0
+      },
+      "lastResult": null
+    }
+  },
+  "galleryStorageUnchanged": true,
+  "console": ""
+}

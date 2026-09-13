@@ -1,0 +1,6 @@
+<view class="sound-controls" aria-label="声音设置">
+  <button size="mini" class="sound-toggle music-toggle" bindtap="toggleMusic" aria-label="{{music ? '关闭音乐' : '开启音乐'}}">{{music ? '音乐 开' : '音乐 关'}}</button>
+  <button size="mini" class="sound-toggle effects-toggle" bindtap="toggleEffects" aria-label="{{effects ? '关闭音效' : '开启音效'}}">{{effects ? '音效 开' : '音效 关'}}</button>
+  <button size="mini" class="sound-toggle sound-test {{!effects || testing ? 'sound-disabled' : ''}}" bindtap="testSound" disabled="{{!effects || testing}}" aria-label="播放试听音效">{{testing ? '试听中' : '试听'}}</button>
+</view>
+<view wx:if="{{soundMessage}}" class="sound-message" aria-live="polite">{{soundMessage}}</view>

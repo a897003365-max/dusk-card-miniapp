@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr",
+  "actors": [
+    {
+      "id": "ramen",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/ramen-sheet.png",
+      "sourceHash": "ea018d14e792aa2139552d6324925f6b57dc7754644f8e640748e64d18e4054a",
+      "width": 1448,
+      "height": 1086,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          15228,
+          1627
+        ],
+        "removedPixels": 16855
+      },
+      "foregroundPixels": 519238,
+      "assignedPixels": 519238
+    }
+  ],
+  "frames": [
+    {
+      "id": "ramen",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/enter.png",
+      "contentBounds": {
+        "x": 28,
+        "y": 44,
+        "width": 317,
+        "height": 471
+      },
+      "bytes": 14439
+    },
+    {
+      "id": "ramen",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/attack.png",
+      "contentBounds": {
+        "x": 364,
+        "y": 76,
+        "width": 368,
+        "height": 419
+      },
+      "bytes": 16766
+    },
+    {
+      "id": "ramen",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/guard.png",
+      "contentBounds": {
+        "x": 748,
+        "y": 118,
+        "width": 324,
+        "height": 366
+      },
+      "bytes": 18260
+    },
+    {
+      "id": "ramen",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/hurt.png",
+      "contentBounds": {
+        "x": 1113,
+        "y": 72,
+        "width": 325,
+        "height": 426
+      },
+      "bytes": 15692
+    },
+    {
+      "id": "ramen",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/exit.png",
+      "contentBounds": {
+        "x": 50,
+        "y": 591,
+        "width": 274,
+        "height": 437
+      },
+      "bytes": 13353
+    },
+    {
+      "id": "ramen",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/control.png",
+      "contentBounds": {
+        "x": 367,
+        "y": 561,
+        "width": 354,
+        "height": 472
+      },
+      "bytes": 17004
+    },
+    {
+      "id": "ramen",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/buff.png",
+      "contentBounds": {
+        "x": 750,
+        "y": 535,
+        "width": 328,
+        "height": 501
+      },
+      "bytes": 15316
+    },
+    {
+      "id": "ramen",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-CQTvfr/ramen/debuff.png",
+      "contentBounds": {
+        "x": 1130,
+        "y": 600,
+        "width": 267,
+        "height": 429
+      },
+      "bytes": 14095
+    }
+  ],
+  "bytes": 124925
+}

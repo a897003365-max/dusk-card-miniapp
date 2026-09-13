@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "files": [
+    "pages/adventure/index.wxml",
+    "pages/home/index.wxml",
+    "pages/collection/index.wxml",
+    "pages/story/index.wxml",
+    "package-street/pages/run/index.wxml",
+    "package-bridge/pages/run/index.wxml",
+    "package-market/pages/run/index.wxml",
+    "templates/expedition.wxml"
+  ],
+  "outputBytes": 133175,
+  "stderr": ""
+}

@@ -1,0 +1,42 @@
+<view wx:if="{{error}}" class="error">{{error}}</view>
+<view wx:elif="{{!journey}}" class="page story-map">
+  <view class="eyebrow">A JOURNEY IN FOUR LETTERS</view><view class="title serif">替一封信，找到归处。</view>
+  <view class="map-intro">一封被雨水洗去地址的旧信，<text>把你和旅伴带向小镇另一端。</text></view>
+  <view class="journey-summary"><text>已送达 {{completed}} / 4 章</text><text>回信收藏 {{collectedEndings}} / 8</text></view>
+  <view class="chapter-list"><view wx:for="{{chapters}}" wx:key="id" class="chapter-card {{item.unlocked ? 'unlocked' : 'locked'}}">
+    <view class="chapter-side"><text class="chapter-number">{{item.number}}</text><view class="route-line"></view></view>
+    <view class="chapter-main">
+      <view class="row"><view><view class="chapter-place">{{item.place}}</view><view class="chapter-title serif">{{item.title}}</view></view><image class="guide-art {{item.unlocked ? '' : 'locked-guide'}}" src="{{item.guideImage}}" mode="aspectFit"/></view>
+      <view class="chapter-subtitle">{{item.subtitle}}</view><view class="chapter-description">{{item.description}}</view>
+      <view class="chapter-reward"><text>{{item.cleared ? '重访 +1 邮票' : '首次送达 +3 邮票'}}</text><text>{{item.cleared ? '已收集 ' + item.endingCount + '/2 回信' : '纪念品 · ' + item.keepsake}}</text></view>
+      <button class="chapter-start {{item.cleared ? 'secondary' : ''}}" disabled="{{!item.unlocked}}" data-id="{{item.id}}" bindtap="start">{{!item.unlocked ? '前一章送达后开启' : item.cleared ? '重访这一章 ↗' : '从这里启程 ↗'}}</button>
+      <button wx:if="{{item.cleared}}" class="archive-link text-button" data-id="{{item.id}}" bindtap="openArchive">翻阅已收藏的回信 · {{item.endingCount}} 封</button>
+    </view>
+  </view></view>
+  <view wx:if="{{keepsakes.length}}" class="keepsake-panel panel"><view class="section-title serif">口袋里的纪念品</view><view wx:for="{{keepsakes}}" wx:key="name" class="keepsake"><text>✧ {{item.name}}</text><text class="small muted">{{item.title}}</text></view></view>
+  <button class="story-help-toggle text-button" bindtap="toggleHelp">{{helpOpen ? '收起旅途说明 −' : '旅伴的能力，怎样影响故事？ ＋'}}</button>
+  <view wx:if="{{helpOpen}}" class="panel story-help"><view class="rule-line">三位旅伴的爱心、勇气、灵感会相加。每个选项会告诉你需要什么能力；达到要求时，伙伴会用自己的办法解决难题。</view><view class="rule-line">能力不足也会继续故事，事情只是换一种方式发生。偏向温柔或主动的选择会带来不同回信，每章两封可收集。</view><view class="rule-line">启程时记录本章队伍与能力，中途拆信匣不改变本章判定。本章结束后可换队；离开小程序会保存到刚才的选择。</view></view>
+</view>
+<view wx:else class="page story-reader {{journey.pending ? 'has-feedback' : ''}}">
+  <view class="reader-top"><view class="eyebrow">{{chapter.place}}</view><text class="muted small">{{journey.sceneIndex + 1}} / {{chapter.scenes.length}} 幕</text></view>
+  <view class="reading-progress"><view style="width: {{progress}}%"></view></view>
+  <view class="reader-chapter">{{chapter.title}}</view><view class="title serif reader-title">{{scene.title}}</view>
+  <view class="scene-window"><view class="window-ring"></view><view class="window-hill hill-back"></view><view class="window-hill hill-front"></view><view class="window-moon"></view><view class="window-spark">✧</view><image class="scene-guide" src="/assets/prizes/{{chapter.guide}}/SSR.png" mode="aspectFit"/><view class="scene-location">{{chapter.place}} · {{chapter.subtitle}}</view></view>
+  <view wx:if="{{!journey.pending}}" class="letter-page"><view class="speaker">{{scene.speaker}}</view><text class="body-copy scene-text">{{scene.text}}</text></view>
+  <view wx:else class="outcome panel"><view class="outcome-eyebrow">{{journey.pending.passed ? '旅伴接住了这一刻' : '事情换了一种温柔的走向'}}</view><view class="outcome-score">{{pendingStatName}} {{journey.pending.score}} / 需要 {{journey.pending.requires}}</view><text class="body-copy outcome-text">{{journey.pending.text}}</text><view class="choice-memory">{{journey.pending.tone === 'warm' ? '这一页，留下了温柔的痕迹。' : '这一页，留下了勇敢的痕迹。'}}</view></view>
+  <view class="reader-party"><view class="mini-partners"><image wx:for="{{team}}" wx:key="id" src="{{item.image}}" mode="aspectFit"/></view><view class="reader-stats"><text>爱心 {{journey.stats.heart}}</text><text>勇气 {{journey.stats.courage}}</text><text>灵感 {{journey.stats.insight}}</text></view></view>
+  <view class="reader-actions">
+  <view wx:if="{{!journey.pending}}" class="choices"><view class="choice-question serif">这一刻，你想怎么做？</view><button wx:for="{{choices}}" wx:key="id" class="choice-button" data-id="{{item.id}}" bindtap="choose"><view class="row"><text class="choice-text">{{item.text}}</text><text class="choice-arrow">↗</text></view><view class="choice-condition">{{item.tone === 'warm' ? '温柔' : '主动'}} · {{item.statName}} {{item.score}} / {{item.requires}} <text>{{item.passed ? '旅伴可以做到' : '会有另一种进展'}}</text></view></button></view>
+  <button wx:else class="continue-story" bindtap="nextScene">{{journey.sceneIndex + 1 === chapter.scenes.length ? '收下这一章的回信' : '翻到下一页 →'}}</button>
+  <view class="save-note">已夹好书签 · 随时离开，下次从这里继续</view>
+  </view>
+</view>
+<view wx:if="{{ending}}" class="overlay" catchtouchmove="noop"><view class="dialog ending-dialog">
+  <view class="dialog-head"><view class="eyebrow">A LETTER HAS FOUND ITS HOME</view><button class="close" bindtap="dismissEnding" aria-label="收好回信">×</button></view>
+  <scroll-view scroll-y class="dialog-scroll ending-scroll"><view class="ending-seal">✦</view><view class="ending-title serif">{{ending.title}}</view><text class="body-copy ending-text">{{ending.text}}</text><view class="ending-reward"><text>邮票 +{{ending.tickets}}</text><text>{{ending.firstClear ? '新纪念品' : '重访纪念'}} · {{ending.keepsake}}</text></view><view class="ending-caption">{{ending.tone === 'warm' ? '收藏了一封温柔的回信' : '收藏了一封勇敢的回信'}}</view></scroll-view>
+  <view class="dialog-footer"><button class="keep-ending" bindtap="dismissEnding">把回信收好，看看下一程</button></view>
+</view></view>
+<view wx:if="{{archive}}" class="overlay" catchtouchmove="noop"><view class="dialog">
+  <view class="dialog-head"><view><view class="eyebrow">SAVED LETTERS</view><view class="dialog-title serif">{{archive.title}}的回信</view></view><button class="close archive-close" bindtap="closeArchive" aria-label="关闭回信收藏">×</button></view>
+  <scroll-view scroll-y class="dialog-scroll archive-scroll"><view wx:for="{{archive.letters}}" wx:key="tone" class="archived-letter"><view class="archive-tone">{{item.tone === 'warm' ? '温柔的回信' : '勇敢的回信'}}</view><view class="archived-title serif">{{item.title}}</view><text class="body-copy">{{item.text}}</text></view></scroll-view>
+</view></view>

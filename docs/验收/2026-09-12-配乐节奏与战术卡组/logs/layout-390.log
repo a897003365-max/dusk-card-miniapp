@@ -1,0 +1,17 @@
+✓ 目标为独立验收命名空间
+✓ 原生视口宽度符合验收目标
+✓ 说明检查处于真实战斗
+✓ 蓄能按钮完整收在44px工具条内
+✓ 点击HUD直接解释当前全队蓄能
+✓ charge详细说明由真实点击切换
+✓ charge末尾说明完整可读
+✓ sequence详细说明由真实点击切换
+✓ sequence末尾说明完整可读
+✓ exhaust详细说明由真实点击切换
+✓ exhaust末尾说明完整可读
+✓ retain详细说明由真实点击切换
+✓ retain末尾说明完整可读
+✓ 状态说明返回原生旅途记录
+✓ 查看说明、滚动与关闭未改变存档或RNG
+✓ 本次布局现场console error为空
+pass: /var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-is86mE

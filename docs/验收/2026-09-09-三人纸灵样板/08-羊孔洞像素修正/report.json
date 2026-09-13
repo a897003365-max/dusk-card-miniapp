@@ -1,0 +1,30 @@
+{
+  "changedPixels": 1594,
+  "outsideRegionsChanged": 0,
+  "points": [
+    {
+      "x": 216,
+      "y": 575,
+      "beforeAlpha": 255,
+      "afterAlpha": 0
+    },
+    {
+      "x": 216,
+      "y": 695,
+      "beforeAlpha": 254,
+      "afterAlpha": 0
+    },
+    {
+      "x": 750,
+      "y": 256,
+      "beforeAlpha": 254,
+      "afterAlpha": 0
+    },
+    {
+      "x": 750,
+      "y": 264,
+      "beforeAlpha": 254,
+      "afterAlpha": 0
+    }
+  ]
+}

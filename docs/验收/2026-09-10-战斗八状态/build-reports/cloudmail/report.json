@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy",
+  "actors": [
+    {
+      "id": "cloudmail",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/cloudmail-sheet.png",
+      "sourceHash": "8156e40aab5ee16ff8cb8731ba8a556ab39d8e0a09829bde88ad801a8124f9f3",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          12552,
+          485
+        ],
+        "removedPixels": 13037
+      },
+      "foregroundPixels": 513456,
+      "assignedPixels": 513456
+    }
+  ],
+  "frames": [
+    {
+      "id": "cloudmail",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/enter.png",
+      "contentBounds": {
+        "x": 32,
+        "y": 45,
+        "width": 343,
+        "height": 385
+      },
+      "bytes": 16879
+    },
+    {
+      "id": "cloudmail",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/attack.png",
+      "contentBounds": {
+        "x": 443,
+        "y": 70,
+        "width": 472,
+        "height": 352
+      },
+      "bytes": 14431
+    },
+    {
+      "id": "cloudmail",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/guard.png",
+      "contentBounds": {
+        "x": 913,
+        "y": 49,
+        "width": 364,
+        "height": 381
+      },
+      "bytes": 18085
+    },
+    {
+      "id": "cloudmail",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/hurt.png",
+      "contentBounds": {
+        "x": 1362,
+        "y": 57,
+        "width": 382,
+        "height": 375
+      },
+      "bytes": 19431
+    },
+    {
+      "id": "cloudmail",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/exit.png",
+      "contentBounds": {
+        "x": 34,
+        "y": 480,
+        "width": 382,
+        "height": 366
+      },
+      "bytes": 18143
+    },
+    {
+      "id": "cloudmail",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/control.png",
+      "contentBounds": {
+        "x": 461,
+        "y": 468,
+        "width": 399,
+        "height": 387
+      },
+      "bytes": 20658
+    },
+    {
+      "id": "cloudmail",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/buff.png",
+      "contentBounds": {
+        "x": 920,
+        "y": 468,
+        "width": 411,
+        "height": 386
+      },
+      "bytes": 21428
+    },
+    {
+      "id": "cloudmail",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-mNqCSy/cloudmail/debuff.png",
+      "contentBounds": {
+        "x": 1389,
+        "y": 492,
+        "width": 330,
+        "height": 354
+      },
+      "bytes": 20779
+    }
+  ],
+  "bytes": 149834
+}

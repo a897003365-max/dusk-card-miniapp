@@ -1,0 +1,30 @@
+# Ramen action sprite sheet prompt
+
+Generation mode: built-in imagegen, Luna max orchestration.
+Reference images (identity anchors only):
+- docs/visual-rework/production/rgba/ramen-idle.png
+- docs/visual-rework/production/rgba/ramen-cast.png
+
+## Primary generation prompt
+
+Use case: stylized-concept
+Asset type: game character action sprite sheet, production master for ramen
+Generation orchestration: Luna max.
+Input images: Image 1 and Image 2 are identity references only, the ramen idle and ramen cast PNGs.
+Primary request: Create one high-resolution landscape 4-column by 2-row action sprite sheet for the exact same paper-folded ramen cat chef from the references. Preserve identity and construction: cream origami cat face, pointed ears, amber eyes, long curled paper tail, four limbs, brown paper-folded chef apron and robe with leaf motif, red cord bow, steaming ramen bowl with toppings, chopsticks, and the small woven basket at the waist. Create eight genuinely different full-body poses in this exact order: row 1 enter, attack, guard, hurt; row 2 exit, control, buff, debuff. Never use recolored idle duplicates.
+Canvas and chroma-key layout: a single wide 4:3-ish landscape sheet with exactly four equal columns and two equal rows. Every cell must have a flat solid pure chroma-key magenta background RGB #FF00FF (255,0,255) filling every pixel outside the subject and effects; no transparency, no checkerboard, no gradient, no floor, no shadow plate. Keep each character and all effects inside the central 70% width and 70% height of its own cell, leaving about 20% clean magenta safety margin on every side. No limb, tail, chopstick, bowl, ribbon, steam, paper shard, glow, or effect may touch or cross any cell boundary. Do not draw grid lines or cell labels. Same scale, baseline, camera angle, and readable silhouette in all cells.
+Action poses: enter = stepping forward into battle while balancing the ramen bowl, chopsticks raised, tail open; attack = clear rightward chopstick flick and noodle casting pose with one small contained diagonal noodle/steam arc only; guard = crouched stance with the ramen tray or bowl held in front like a shield and chopsticks angled behind; hurt = torso recoiling, bowl tilted but intact, one knee bent, a few contained paper flecks, no blood; exit = low folded crouch with apron and tail curling inward, face recognizable; control = indigo paper threads and restraint talismans wrapped around feet and chopsticks, face unobstructed; buff = upright energized chef pose with warm gold and teal-green steam feathers, bowl lifted; debuff = drooping pose with cool gray ink markings and small negative paper sigils, clearly different from control.
+Style/medium: soft 2.5D origami paper illustration, layered paper facets and visible paper fiber, small copper and red cord details, polished game asset, light from upper left, never plush, plastic, photorealistic, or 3D toy.
+Constraints: no text, no labels, no numbers, no logos, no watermark, no extra characters, no added limbs or tails, no missing limbs, no broken bowl/chopsticks, no giant effects, no cross-cell bleed, no blood or gore. The output must be a single flat-magenta-background PNG sprite sheet with eight distinct poses in the specified order.
+
+## Background correction prompt used after inspection
+
+Use case: precise-object-edit
+Asset type: production game action sprite sheet
+Primary request: Keep the supplied ramen cat chef 4-column by 2-row sprite sheet exactly as drawn, with the same eight poses, cell positions, character scale, props, noodles, paper effects, and silhouette. Change only the background outside every subject/effect to one perfectly flat mathematically uniform chroma-key color: RGB #FF00FF (255,0,255) in every background pixel.
+Strict background requirement: no checkerboard, no texture, no noise, no gradient, no lighting variation, no shadows, no vignette, no alpha, no other colors outside the subjects/effects. The output must be RGB PNG with a solid #FF00FF background.
+Strict preservation: do not redraw, recolor, resize, crop, move, simplify, or remove any character, limb, tail, bowl, chopstick, ribbon, noodle, steam, paper shard, or effect. Keep the original 4x2 arrangement and all action differences intact.
+
+## Artifact note
+
+The saved master is `masters/ramen-sheet.png`, 1448x1086 RGB PNG with no alpha. The eight poses are visually distinct and fit the requested 4x2 sequence; the attack uses a contained diagonal noodle arc. The imagegen output is visibly magenta but may include slight per-pixel variation, so root should use the agreed tolerant chroma-key pipeline without cropping subjects or effects.

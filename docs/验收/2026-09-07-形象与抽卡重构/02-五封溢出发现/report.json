@@ -1,0 +1,314 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2DBUUV",
+  "width": 390,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-Goebty",
+  "status": "fail",
+  "checks": [
+    {
+      "name": "真实运行隔离命名空间",
+      "pass": true
+    },
+    {
+      "name": "真实模拟器宽度与验收参数一致",
+      "pass": true
+    },
+    {
+      "name": "验收不从冒险在途状态开始",
+      "pass": true
+    },
+    {
+      "name": "抽取只扣实际票数并一次入库",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "自动演出最终稳定在settled且当前张只揭一次",
+      "pass": true
+    },
+    {
+      "name": "角色/名字和操作都完整可见",
+      "pass": true
+    },
+    {
+      "name": "关闭固定右侧，主操作满宽且至少44px",
+      "pass": true
+    },
+    {
+      "name": "每档具有真实的不同图层结构",
+      "pass": true
+    },
+    {
+      "name": "揭晓不改随机数进度/保底/余额/收藏",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "390-home",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-Goebty/390-home.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-R-settled",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-Goebty/390-R-settled.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".draw-five",
+      "rect": {
+        "dataset": {
+          "count": "5"
+        },
+        "left": 199.5,
+        "right": 372,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 31,
+        "right": 215,
+        "top": 194.984375,
+        "bottom": 394.984375,
+        "width": 184,
+        "height": 200
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-back",
+      "rect": {
+        "dataset": {},
+        "left": 115,
+        "right": 275,
+        "top": 593.5,
+        "bottom": 637.5,
+        "width": 160,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ],
+  "frames": [
+    {
+      "tier": "R",
+      "index": 0,
+      "elapsedSinceTapReturn": 1974,
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-Goebty/390-R-frame-0.jpg"
+    }
+  ],
+  "tiers": [
+    {
+      "tier": "R",
+      "familyId": "sunset",
+      "name": "晚霞云",
+      "profile": {
+        "tier": "R",
+        "name": "纸页轻响",
+        "kicker": "A SMALL HELLO",
+        "color": "#9fbdce",
+        "secondary": "#e0eff5",
+        "chargeMs": 280,
+        "burstMs": 180,
+        "arriveMs": 360,
+        "particles": [
+          {
+            "id": 0,
+            "angle": 0,
+            "distance": 68,
+            "delay": 0,
+            "size": 5
+          },
+          {
+            "id": 1,
+            "angle": 137.5,
+            "distance": 85,
+            "delay": 24,
+            "size": 8
+          },
+          {
+            "id": 2,
+            "angle": 275,
+            "distance": 102,
+            "delay": 48,
+            "size": 11
+          },
+          {
+            "id": 3,
+            "angle": 52.5,
+            "distance": 119,
+            "delay": 72,
+            "size": 6
+          },
+          {
+            "id": 4,
+            "angle": 190,
+            "distance": 78,
+            "delay": 96,
+            "size": 9
+          },
+          {
+            "id": 5,
+            "angle": 327.5,
+            "distance": 95,
+            "delay": 120,
+            "size": 12
+          },
+          {
+            "id": 6,
+            "angle": 105,
+            "distance": 112,
+            "delay": 0,
+            "size": 7
+          },
+          {
+            "id": 7,
+            "angle": 242.5,
+            "distance": 71,
+            "delay": 24,
+            "size": 10
+          },
+          {
+            "id": 8,
+            "angle": 20,
+            "distance": 88,
+            "delay": 48,
+            "size": 5
+          },
+          {
+            "id": 9,
+            "angle": 157.5,
+            "distance": 105,
+            "delay": 72,
+            "size": 8
+          }
+        ],
+        "rays": []
+      },
+      "layout": {
+        "overlay": {
+          "id": "",
+          "dataset": {},
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 671,
+          "width": 390,
+          "height": 671
+        },
+        "close": {
+          "id": "",
+          "dataset": {},
+          "left": 328,
+          "right": 372,
+          "top": 12,
+          "bottom": 56,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "id": "",
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 548.5,
+          "bottom": 593.5,
+          "width": 354,
+          "height": 45
+        },
+        "name": {
+          "id": "",
+          "dataset": {},
+          "left": 150,
+          "right": 240,
+          "top": 413.9765625,
+          "bottom": 451.7734375,
+          "width": 90,
+          "height": 37.796875
+        },
+        "character": {
+          "id": "",
+          "dataset": {},
+          "left": 62.921875,
+          "right": 327.0703125,
+          "top": 172.0859375,
+          "bottom": 394.3125,
+          "width": 264.1484375,
+          "height": 222.2265625
+        }
+      }
+    }
+  ],
+  "draws": [
+    {
+      "count": 5,
+      "drawCount": 6,
+      "cards": [
+        {
+          "id": "sunset",
+          "tier": "R"
+        },
+        {
+          "id": "ticket",
+          "tier": "R"
+        },
+        {
+          "id": "sunset",
+          "tier": "R"
+        },
+        {
+          "id": "sunset",
+          "tier": "SR"
+        },
+        {
+          "id": "seedling",
+          "tier": "R"
+        }
+      ]
+    }
+  ],
+  "chapters": [],
+  "error": "目标未完整可见 .sealed-letter[data-serial=\"1\"]: {\"dataset\":{\"serial\":1},\"left\":200,\"right\":384,\"top\":194.984375,\"bottom\":394.984375,\"width\":184,\"height\":200}"
+}

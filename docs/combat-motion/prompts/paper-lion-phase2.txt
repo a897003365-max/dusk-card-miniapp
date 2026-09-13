@@ -1,0 +1,20 @@
+Use case: stylized-concept
+Asset type: game combat sprite master sheet, production intermediate
+Input image: Image 1 is the identity reference for the paper-lion boss phase two. Preserve this exact phase-two identity: a cream folded-paper lion with an enlarged sharp envelope mane, four existing legs, mask-like lion face, indigo folded inner faces, red braided cords, red wax seals, worn paper fibers and the same proportions, tools and facial construction. Do not revert to phase one and do not invent a new boss.
+
+Create exactly one high-resolution action sprite master sheet as a strict 4-column by 2-row grid. Eight equal cells, one complete paper-lion phase-two pose per cell, consistent 3/4 side view, scale and baseline. Keep the lion plus all paper effects entirely inside the inner 70% of its own cell, leaving roughly 20% clear space around every cell. Compact effects only; attack effects are small and diagonal, never a broad horizontal sweep. No pose, effect or loose paper may touch or cross a cell boundary. No cropping.
+
+Exact order:
+Top row, col 1 ENTER: phase-two lion unfolds its enlarged envelope mane and steps forward into an alert arrival stance.
+Top row, col 2 ATTACK: a committed right-facing lunge with a compact diagonal folded-letter slash or paper arc close to the existing foreleg; attack direction readable, effect fully inside this cell.
+Top row, col 3 GUARD: crouched defensive stance with its existing folded mane/envelope plates braced in front as a shield, face visible.
+Top row, col 4 HURT: phase-two lion recoils and folds inward, a few contained torn paper scraps, no blood or gore.
+Bottom row, col 1 EXIT: low folding and dispersing retreat pose, a few small phase-two paper sheets, face and mane still recognizable.
+Bottom row, col 2 CONTROL: indigo paper threads and binding talisman strips wrap existing legs/cords/tools, face unobstructed, compact and clearly different from debuff.
+Bottom row, col 3 BUFF: proud lifted phase-two stance with compact warm gold and teal-green folded paper feathers close to the mane and body.
+Bottom row, col 4 DEBUFF: drooping weakened phase-two stance with cool gray ink marks and negative talisman symbols, visibly distinct from control.
+
+Backdrop: a perfectly flat solid chroma-key magenta background, exact color #FF00FF (RGB 255,0,255) across every background pixel. No transparency, no checkerboard, no gradient, no texture in the background, no floor, no shadow plate, no grid or cell lines.
+Style: soft polished 2.5D hand-painted folded-paper game illustration, top-left light on the subject, visible paper fibers and creases, small copper/red cord details.
+Text: none.
+Avoid: labels, numbers, UI, logo, watermark, any other character, extra limbs, human hands or feet, wings, horns, added tail, phase-one redesign, flesh/fur, plush, plastic, blood, gore, duplicated body, cropped parts, giant sweeping effects, cross-cell overlap, idle recolor.

@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "sources": [
+    "paper-orangecat-v1-opaque.png",
+    "paper-orangecat-v3-transparent.png",
+    "paper-orangecat-v5-transparent.png"
+  ],
+  "regions": [
+    {
+      "x": 990,
+      "y": 380,
+      "width": 145,
+      "height": 130
+    },
+    {
+      "x": 190,
+      "y": 276,
+      "width": 28,
+      "height": 34
+    }
+  ],
+  "restoredPixels": 5785,
+  "outsideChanged": 0,
+  "notMatchingOriginal": 0,
+  "runtimeBytes": 108015
+}

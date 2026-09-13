@@ -1,0 +1,689 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-K1WTy6",
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "width": 320,
+  "checks": [
+    {
+      "name": "目标为独立验收命名空间",
+      "pass": true
+    },
+    {
+      "name": "原生视口宽度符合验收目标",
+      "pass": true
+    },
+    {
+      "name": "说明检查处于真实战斗",
+      "pass": true
+    },
+    {
+      "name": "蓄能按钮完整收在44px工具条内",
+      "pass": true
+    },
+    {
+      "name": "小屏费用和伤害摘要分行呈现",
+      "pass": true
+    },
+    {
+      "name": "小屏卡牌持有者未被底边裁切",
+      "pass": true
+    },
+    {
+      "name": "点击HUD直达当前场面或补给规则",
+      "pass": true
+    },
+    {
+      "name": "charge详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "charge末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "environment详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "environment末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "intercept详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "intercept末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "discover详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "discover末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "scout详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "scout末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "trade详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "trade末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "pressure详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "pressure末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "sequence详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "sequence末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "状态说明返回原生旅途记录",
+      "pass": true
+    },
+    {
+      "name": "查看说明、滚动与关闭未改变存档或RNG",
+      "pass": true
+    },
+    {
+      "name": "本次布局现场console error为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "battle-hud",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-K1WTy6/battle-hud.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-charge",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-K1WTy6/guide-charge.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-environment",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-K1WTy6/guide-environment.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-intercept",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-K1WTy6/guide-intercept.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-discover",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-K1WTy6/guide-discover.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-scout",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-K1WTy6/guide-scout.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-trade",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-K1WTy6/guide-trade.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-pressure",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-K1WTy6/guide-pressure.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-sequence",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-K1WTy6/guide-sequence.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "deck-bottom",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-K1WTy6/deck-bottom.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    }
+  ],
+  "status": "pass",
+  "interactions": [
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 396,
+        "bottom": 444,
+        "width": 284,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".tactic-hud",
+      "rect": {
+        "dataset": {},
+        "left": 101.8671875,
+        "right": 209.8671875,
+        "top": 48,
+        "bottom": 92,
+        "width": 108,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"charge\"]",
+      "rect": {
+        "dataset": {
+          "id": "charge"
+        },
+        "left": 27,
+        "right": 91,
+        "top": 99.3203125,
+        "bottom": 143.3203125,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"environment\"]",
+      "rect": {
+        "dataset": {
+          "id": "environment"
+        },
+        "left": 33,
+        "right": 97,
+        "top": 99.3203125,
+        "bottom": 143.3203125,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"intercept\"]",
+      "rect": {
+        "dataset": {
+          "id": "intercept"
+        },
+        "left": 33,
+        "right": 97,
+        "top": 99.3203125,
+        "bottom": 143.3203125,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"discover\"]",
+      "rect": {
+        "dataset": {
+          "id": "discover"
+        },
+        "left": 97,
+        "right": 161,
+        "top": 99.3203125,
+        "bottom": 143.3203125,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"scout\"]",
+      "rect": {
+        "dataset": {
+          "id": "scout"
+        },
+        "left": 97,
+        "right": 161,
+        "top": 99.3203125,
+        "bottom": 143.3203125,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"trade\"]",
+      "rect": {
+        "dataset": {
+          "id": "trade"
+        },
+        "left": 159,
+        "right": 223,
+        "top": 99.3203125,
+        "bottom": 143.3203125,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"pressure\"]",
+      "rect": {
+        "dataset": {
+          "id": "pressure"
+        },
+        "left": 229,
+        "right": 293,
+        "top": 99.3203125,
+        "bottom": 143.3203125,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"sequence\"]",
+      "rect": {
+        "dataset": {
+          "id": "sequence"
+        },
+        "left": 33,
+        "right": 97,
+        "top": 99.3203125,
+        "bottom": 143.3203125,
+        "width": 64,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-guide-back",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 399.6796875,
+        "bottom": 443.6796875,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 249,
+        "right": 293,
+        "top": 52.3203125,
+        "bottom": 96.3203125,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".deck-link",
+      "rect": {
+        "dataset": {},
+        "left": 240.2265625,
+        "right": 308,
+        "top": 48,
+        "bottom": 92,
+        "width": 67.7734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 249,
+        "right": 293,
+        "top": 52.3203125,
+        "bottom": 96.3203125,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    }
+  ],
+  "compactCards": [
+    [
+      {
+        "id": "",
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 16,
+        "right": 68,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      },
+      {
+        "id": "",
+        "dataset": {
+          "uid": "card-11"
+        },
+        "left": 74,
+        "right": 126,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      },
+      {
+        "id": "",
+        "dataset": {
+          "uid": "card-5"
+        },
+        "left": 132,
+        "right": 184,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      },
+      {
+        "id": "",
+        "dataset": {
+          "uid": "card-8"
+        },
+        "left": 190,
+        "right": 242,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      },
+      {
+        "id": "",
+        "dataset": {
+          "uid": "card-2"
+        },
+        "left": 248,
+        "right": 300,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      },
+      {
+        "id": "",
+        "dataset": {
+          "uid": "card-4"
+        },
+        "left": 306,
+        "right": 358,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      }
+    ],
+    [
+      {
+        "id": "",
+        "dataset": {},
+        "left": 20,
+        "right": 37,
+        "top": 366,
+        "bottom": 383,
+        "width": 17,
+        "height": 17
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 78,
+        "right": 95,
+        "top": 366,
+        "bottom": 383,
+        "width": 17,
+        "height": 17
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 136,
+        "right": 153,
+        "top": 366,
+        "bottom": 383,
+        "width": 17,
+        "height": 17
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 194,
+        "right": 211,
+        "top": 366,
+        "bottom": 383,
+        "width": 17,
+        "height": 17
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 252,
+        "right": 269,
+        "top": 366,
+        "bottom": 383,
+        "width": 17,
+        "height": 17
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 310,
+        "right": 327,
+        "top": 366,
+        "bottom": 383,
+        "width": 17,
+        "height": 17
+      }
+    ],
+    [
+      {
+        "id": "",
+        "dataset": {},
+        "left": 19,
+        "right": 65,
+        "top": 384,
+        "bottom": 398,
+        "width": 46,
+        "height": 14
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 77,
+        "right": 123,
+        "top": 384,
+        "bottom": 398,
+        "width": 46,
+        "height": 14
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 135,
+        "right": 181,
+        "top": 384,
+        "bottom": 398,
+        "width": 46,
+        "height": 14
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 193,
+        "right": 239,
+        "top": 384,
+        "bottom": 398,
+        "width": 46,
+        "height": 14
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 251,
+        "right": 297,
+        "top": 384,
+        "bottom": 398,
+        "width": 46,
+        "height": 14
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 309,
+        "right": 355,
+        "top": 384,
+        "bottom": 398,
+        "width": 46,
+        "height": 14
+      }
+    ],
+    [
+      {
+        "id": "",
+        "dataset": {},
+        "left": 19,
+        "right": 65,
+        "top": 422,
+        "bottom": 434,
+        "width": 46,
+        "height": 12
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 77,
+        "right": 123,
+        "top": 422,
+        "bottom": 434,
+        "width": 46,
+        "height": 12
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 135,
+        "right": 181,
+        "top": 422,
+        "bottom": 434,
+        "width": 46,
+        "height": 12
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 193,
+        "right": 239,
+        "top": 422,
+        "bottom": 434,
+        "width": 46,
+        "height": 12
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 251,
+        "right": 297,
+        "top": 422,
+        "bottom": 434,
+        "width": 46,
+        "height": 12
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 309,
+        "right": 355,
+        "top": 422,
+        "bottom": 434,
+        "width": 46,
+        "height": 12
+      }
+    ]
+  ],
+  "console": ""
+}

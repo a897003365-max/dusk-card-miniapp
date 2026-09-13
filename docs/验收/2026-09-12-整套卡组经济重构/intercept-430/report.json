@@ -1,0 +1,516 @@
+{
+  "mode": "intercept",
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactical-intercept-QQthJ4",
+  "checks": [
+    {
+      "name": "实际 KEY 属于指定隔离副本",
+      "pass": true
+    },
+    {
+      "name": "验收开始时没有未完成远行",
+      "pass": true
+    },
+    {
+      "name": "验收前没有进行中的主线来信",
+      "pass": true
+    },
+    {
+      "name": "战术选择仅改变出发界面",
+      "pass": true
+    },
+    {
+      "name": "真实出发使用指定战术、当前三位旅伴和12张起手牌",
+      "pass": true
+    },
+    {
+      "name": "真实入口为黄昏邮街普通难度",
+      "pass": true
+    },
+    {
+      "name": "完成可能存在的开局升级后进入路线图",
+      "pass": true
+    },
+    {
+      "name": "选择公开的首个普通战斗节点与源引擎结算完全一致",
+      "pass": true
+    },
+    {
+      "name": "路线点击后进入真实战斗",
+      "pass": true
+    },
+    {
+      "name": "自然结束第1回合继续抽牌与源引擎结算完全一致",
+      "pass": true
+    },
+    {
+      "name": "自然结束第2回合继续抽牌与源引擎结算完全一致",
+      "pass": true
+    },
+    {
+      "name": "当前真实目标预览允许确认",
+      "pass": true
+    },
+    {
+      "name": "公开候选后发现源牌结算完全一致",
+      "pass": true
+    },
+    {
+      "name": "自然选择护卫机会牌与源引擎一致",
+      "pass": true
+    },
+    {
+      "name": "当前真实目标预览允许确认",
+      "pass": true
+    },
+    {
+      "name": "将护卫机会牌打给非原目标队友与源引擎结算完全一致",
+      "pass": true
+    },
+    {
+      "name": "单体敌意图在界面和源引擎中同步改向",
+      "pass": true
+    },
+    {
+      "name": "敌方单体攻击触发一次护卫并与源引擎一致",
+      "pass": true
+    },
+    {
+      "name": "本次原生验收控制台 error 为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "intercept-active",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactical-intercept-QQthJ4/intercept-active.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "intercept-consumed",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactical-intercept-QQthJ4/intercept-consumed.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    }
+  ],
+  "actions": [
+    {
+      "label": "选择公开的首个普通战斗节点",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-0-0"
+      },
+      "events": [
+        {
+          "kind": "passive",
+          "actorId": "sheep",
+          "targetId": null,
+          "amount": 0,
+          "text": "羊咩咩团 · 叠信成盾"
+        },
+        {
+          "kind": "block",
+          "actorId": "sheep",
+          "targetId": "sheep",
+          "amount": 3,
+          "text": "羊咩咩团获得 3 点护盾"
+        },
+        {
+          "kind": "block",
+          "actorId": "sheep",
+          "targetId": "orangecat",
+          "amount": 3,
+          "text": "橘猫豆包获得 3 点护盾"
+        },
+        {
+          "kind": "block",
+          "actorId": "sheep",
+          "targetId": "nav",
+          "amount": 3,
+          "text": "领航小鸭获得 3 点护盾"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌"
+        }
+      ]
+    },
+    {
+      "label": "自然结束第1回合继续抽牌",
+      "action": {
+        "type": "endTurn"
+      },
+      "events": [
+        {
+          "kind": "chargeBank",
+          "actorId": null,
+          "targetId": null,
+          "amount": 1,
+          "text": "将 1 点未用能量存为蓄能"
+        },
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-1",
+          "targetId": null,
+          "amount": 0,
+          "text": "迷途纸团 · 滚过信口",
+          "intentKind": "attack",
+          "intentName": "滚过信口",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 6,
+              "blocked": 3,
+              "hpLoss": 3
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-1",
+          "targetId": "sheep",
+          "amount": 3,
+          "text": "羊咩咩团的护盾挡下 3，受到 3 点伤害",
+          "hpDelta": -3,
+          "blocked": 3
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "label": "自然结束第2回合继续抽牌",
+      "action": {
+        "type": "endTurn"
+      },
+      "events": [
+        {
+          "kind": "chargeBank",
+          "actorId": null,
+          "targetId": null,
+          "amount": 1,
+          "text": "将 1 点未用能量存为蓄能"
+        },
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-1",
+          "targetId": null,
+          "amount": 4,
+          "text": "迷途纸团 · 裹紧纸层",
+          "intentKind": "block",
+          "intentName": "裹紧纸层",
+          "intentTargets": [],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 9,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "label": "将护卫机会牌打给非原目标队友",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-13",
+        "targetId": "orangecat"
+      },
+      "events": [
+        {
+          "kind": "playCard",
+          "actorId": "sheep",
+          "targetId": "orangecat",
+          "amount": 1,
+          "text": "羊咩咩团使用借伞同路",
+          "payment": {
+            "energy": 1,
+            "charge": 0
+          },
+          "paymentText": "1 能量",
+          "targetKind": "ally",
+          "targetIds": [
+            "orangecat"
+          ]
+        },
+        {
+          "kind": "block",
+          "actorId": "sheep",
+          "targetId": "orangecat",
+          "amount": 6,
+          "text": "橘猫豆包获得 6 点护盾"
+        },
+        {
+          "kind": "intercept",
+          "actorId": "sheep",
+          "targetId": "orangecat",
+          "amount": 1,
+          "text": "橘猫豆包将拦截下一次敌方单体攻击"
+        }
+      ]
+    }
+  ],
+  "status": "pass",
+  "prerequisites": [
+    "prepare-acceptance 生成的隔离副本，允许保留历史通关、材料与养成",
+    "当前没有未完成远行或进行中的主线来信",
+    "从黄昏邮街普通难度正常出发",
+    "不注入存档、手牌、牌序、生命、资源或 RNG"
+  ],
+  "width": 430,
+  "interactions": [
+    {
+      "selector": ".tactic-tab[data-id=\"relay\"]",
+      "rect": {
+        "dataset": {
+          "id": "relay"
+        },
+        "left": 218,
+        "right": 396,
+        "top": 397.2109375,
+        "bottom": 445.2109375,
+        "width": 178,
+        "height": 48
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    },
+    {
+      "selector": ".start-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 412,
+        "top": 692,
+        "bottom": 740,
+        "width": 394,
+        "height": 48
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-0-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-0-0"
+        },
+        "left": 59,
+        "right": 231,
+        "top": 335.1875,
+        "bottom": 403.3828125,
+        "width": 172,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 430,
+        "height": 800
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 150.6796875,
+        "top": 748.5,
+        "bottom": 792.5,
+        "width": 136.6796875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 430,
+        "height": 800
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 150.6796875,
+        "top": 748.5,
+        "bottom": 792.5,
+        "width": 136.6796875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 430,
+        "height": 800
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-1\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 176,
+        "right": 250,
+        "top": 614,
+        "bottom": 732,
+        "width": 74,
+        "height": 118
+      },
+      "viewport": {
+        "width": 430,
+        "height": 800
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 159.6796875,
+        "right": 416,
+        "top": 748.5,
+        "bottom": 792.5,
+        "width": 256.3203125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 430,
+        "height": 800
+      }
+    },
+    {
+      "selector": ".opportunity-take[data-id=\"chance-intercept\"]",
+      "rect": {
+        "dataset": {
+          "id": "chance-intercept"
+        },
+        "left": 50,
+        "right": 380,
+        "top": 612.0546875,
+        "bottom": 658.0546875,
+        "width": 330,
+        "height": 46
+      },
+      "viewport": {
+        "width": 430,
+        "height": 800
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-13\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-13"
+        },
+        "left": 340,
+        "right": 414,
+        "top": 614,
+        "bottom": 732,
+        "width": 74,
+        "height": 118
+      },
+      "viewport": {
+        "width": 430,
+        "height": 800
+      }
+    },
+    {
+      "selector": ".ally-unit[data-id=\"orangecat\"]",
+      "rect": {
+        "dataset": {
+          "id": "orangecat"
+        },
+        "left": 156.125,
+        "right": 273.859375,
+        "top": 356.4921875,
+        "bottom": 493.0859375,
+        "width": 117.734375,
+        "height": 136.59375
+      },
+      "viewport": {
+        "width": 430,
+        "height": 800
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 159.6796875,
+        "right": 416,
+        "top": 748.5,
+        "bottom": 792.5,
+        "width": 256.3203125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 430,
+        "height": 800
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 150.6796875,
+        "top": 748.5,
+        "bottom": 792.5,
+        "width": 136.6796875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 430,
+        "height": 800
+      }
+    }
+  ],
+  "observedStart": {
+    "team": [
+      "sheep",
+      "orangecat",
+      "nav"
+    ],
+    "tiers": [
+      "R",
+      "R",
+      "R"
+    ],
+    "regionId": "street",
+    "difficulty": 0,
+    "tacticId": "relay"
+  },
+  "cardArrival": {
+    "cardId": "quick-sketch",
+    "turn": 3,
+    "endedTurns": 2
+  },
+  "console": ""
+}

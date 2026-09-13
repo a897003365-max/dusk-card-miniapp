@@ -1,0 +1,1049 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2DBUUV",
+  "width": 320,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-five-runtime-NkyaIC",
+  "checks": [
+    {
+      "name": "五封测试只使用隔离存档",
+      "pass": true
+    },
+    {
+      "name": "实测宽度正确",
+      "pass": true
+    },
+    {
+      "name": "仅靠真实完成章节获得邮票",
+      "pass": true
+    },
+    {
+      "name": "仅靠真实完成章节获得邮票",
+      "pass": true
+    },
+    {
+      "name": "仅靠真实完成章节获得邮票",
+      "pass": true
+    },
+    {
+      "name": "仅靠真实完成章节获得邮票",
+      "pass": true
+    },
+    {
+      "name": "仅靠真实完成章节获得邮票",
+      "pass": true
+    },
+    {
+      "name": "五封仅扣五票并入库五张",
+      "pass": true
+    },
+    {
+      "name": "五个信封均不超出对应卡片宽度",
+      "pass": true
+    },
+    {
+      "name": "当前揭晓对应原五封且未重复",
+      "pass": true
+    },
+    {
+      "name": "逐封和下一封均不重复扣票或改收藏",
+      "pass": true
+    },
+    {
+      "name": "当前揭晓对应原五封且未重复",
+      "pass": true
+    },
+    {
+      "name": "逐封和下一封均不重复扣票或改收藏",
+      "pass": true
+    },
+    {
+      "name": "当前揭晓对应原五封且未重复",
+      "pass": true
+    },
+    {
+      "name": "逐封和下一封均不重复扣票或改收藏",
+      "pass": true
+    },
+    {
+      "name": "当前揭晓对应原五封且未重复",
+      "pass": true
+    },
+    {
+      "name": "逐封和下一封均不重复扣票或改收藏",
+      "pass": true
+    },
+    {
+      "name": "当前揭晓对应原五封且未重复",
+      "pass": true
+    },
+    {
+      "name": "逐封和下一封均不重复扣票或改收藏",
+      "pass": true
+    },
+    {
+      "name": "下一封最终返回完整五张汇总",
+      "pass": true
+    },
+    {
+      "name": "最后一张结果可以完整滚动进入视野",
+      "pass": true
+    },
+    {
+      "name": "关闭仍保留全部五封收益",
+      "pass": true
+    },
+    {
+      "name": "应用控制台异常为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "320-five-sealed",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-five-runtime-NkyaIC/320-five-sealed.jpg",
+      "imageWidth": 506,
+      "imageHeight": 898
+    },
+    {
+      "name": "320-five-reveal-1",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-five-runtime-NkyaIC/320-five-reveal-1.jpg",
+      "imageWidth": 506,
+      "imageHeight": 898
+    },
+    {
+      "name": "320-five-reveal-2",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-five-runtime-NkyaIC/320-five-reveal-2.jpg",
+      "imageWidth": 506,
+      "imageHeight": 898
+    },
+    {
+      "name": "320-five-reveal-3",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-five-runtime-NkyaIC/320-five-reveal-3.jpg",
+      "imageWidth": 506,
+      "imageHeight": 898
+    },
+    {
+      "name": "320-five-reveal-4",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-five-runtime-NkyaIC/320-five-reveal-4.jpg",
+      "imageWidth": 506,
+      "imageHeight": 898
+    },
+    {
+      "name": "320-five-reveal-5",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-five-runtime-NkyaIC/320-five-reveal-5.jpg",
+      "imageWidth": 506,
+      "imageHeight": 898
+    },
+    {
+      "name": "320-five-summary-bottom",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-five-runtime-NkyaIC/320-five-summary-bottom.jpg",
+      "imageWidth": 506,
+      "imageHeight": 898
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".chapter-start[data-id=\"letter\"]",
+      "rect": {
+        "dataset": {
+          "id": "letter"
+        },
+        "left": 53,
+        "right": 294,
+        "top": 281.9296875,
+        "bottom": 325.9296875,
+        "width": 241,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 29,
+        "right": 291,
+        "top": 361.515625,
+        "bottom": 405.515625,
+        "width": 262,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".chapter-start[data-id=\"letter\"]",
+      "rect": {
+        "dataset": {
+          "id": "letter"
+        },
+        "left": 53,
+        "right": 294,
+        "top": 281.9296875,
+        "bottom": 325.9296875,
+        "width": 241,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 29,
+        "right": 291,
+        "top": 361.515625,
+        "bottom": 405.515625,
+        "width": 262,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".chapter-start[data-id=\"letter\"]",
+      "rect": {
+        "dataset": {
+          "id": "letter"
+        },
+        "left": 53,
+        "right": 294,
+        "top": 281.9296875,
+        "bottom": 325.9296875,
+        "width": 241,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 29,
+        "right": 291,
+        "top": 361.515625,
+        "bottom": 405.515625,
+        "width": 262,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".chapter-start[data-id=\"letter\"]",
+      "rect": {
+        "dataset": {
+          "id": "letter"
+        },
+        "left": 53,
+        "right": 294,
+        "top": 281.9296875,
+        "bottom": 325.9296875,
+        "width": 241,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 29,
+        "right": 291,
+        "top": 361.515625,
+        "bottom": 405.515625,
+        "width": 262,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".chapter-start[data-id=\"letter\"]",
+      "rect": {
+        "dataset": {
+          "id": "letter"
+        },
+        "left": 53,
+        "right": 294,
+        "top": 281.9296875,
+        "bottom": 325.9296875,
+        "width": 241,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 15,
+        "right": 305,
+        "top": 302,
+        "bottom": 364,
+        "width": 290,
+        "height": 62
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 15,
+        "right": 305,
+        "top": 382,
+        "bottom": 430,
+        "width": 290,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 29,
+        "right": 291,
+        "top": 361.515625,
+        "bottom": 405.515625,
+        "width": 262,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".draw-five",
+      "rect": {
+        "dataset": {
+          "count": "5"
+        },
+        "left": 163.5,
+        "right": 305,
+        "top": 204.1875,
+        "bottom": 251.578125,
+        "width": 141.5,
+        "height": 47.390625
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"1\"]",
+      "rect": {
+        "dataset": {
+          "serial": 1
+        },
+        "left": 164,
+        "right": 294,
+        "top": 140.046875,
+        "bottom": 304.046875,
+        "width": 130,
+        "height": 164
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".summon-next",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 338.5,
+        "bottom": 383.5,
+        "width": 284,
+        "height": 45
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".summon-next",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 338.5,
+        "bottom": 383.5,
+        "width": 284,
+        "height": 45
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".summon-next",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 338.5,
+        "bottom": 383.5,
+        "width": 284,
+        "height": 45
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".summon-next",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 338.5,
+        "bottom": 383.5,
+        "width": 284,
+        "height": 45
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".summon-next",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 338.5,
+        "bottom": 383.5,
+        "width": 284,
+        "height": 45
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 251,
+        "right": 295,
+        "top": 66.046875,
+        "bottom": 110.046875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    }
+  ],
+  "chapters": [
+    {
+      "before": 0,
+      "after": 1,
+      "cleared": [
+        "letter",
+        "station",
+        "garden",
+        "home"
+      ]
+    },
+    {
+      "before": 1,
+      "after": 2,
+      "cleared": [
+        "letter",
+        "station",
+        "garden",
+        "home"
+      ]
+    },
+    {
+      "before": 2,
+      "after": 3,
+      "cleared": [
+        "letter",
+        "station",
+        "garden",
+        "home"
+      ]
+    },
+    {
+      "before": 3,
+      "after": 4,
+      "cleared": [
+        "letter",
+        "station",
+        "garden",
+        "home"
+      ]
+    },
+    {
+      "before": 4,
+      "after": 5,
+      "cleared": [
+        "letter",
+        "station",
+        "garden",
+        "home"
+      ]
+    }
+  ],
+  "seen": [
+    {
+      "serial": 1,
+      "tier": "R",
+      "id": "nav"
+    },
+    {
+      "serial": 0,
+      "tier": "SR",
+      "id": "sushi"
+    },
+    {
+      "serial": 2,
+      "tier": "SSR",
+      "id": "moon"
+    },
+    {
+      "serial": 3,
+      "tier": "SR",
+      "id": "doudou"
+    },
+    {
+      "serial": 4,
+      "tier": "R",
+      "id": "sushi"
+    }
+  ],
+  "status": "pass",
+  "final": {
+    "drawCount": 23,
+    "tickets": 0
+  },
+  "console": ""
+}

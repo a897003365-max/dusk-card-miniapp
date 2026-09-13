@@ -1,0 +1,86 @@
+[
+  {
+    "name": "09-羊施招真实节点",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-runtime-nZpFfl",
+    "files": 2,
+    "bytes": 131039,
+    "identical": true
+  },
+  {
+    "name": "10-橘猫肩尾修复",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-cat-final-8kFmum",
+    "files": 2,
+    "bytes": 261058,
+    "identical": true
+  },
+  {
+    "name": "11-最终静态与包体",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-final-checks-yjmOad",
+    "files": 6,
+    "bytes": 28129,
+    "identical": true
+  },
+  {
+    "name": "12-最终390布局",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-0UjqHC",
+    "files": 8,
+    "bytes": 372256,
+    "identical": true
+  },
+  {
+    "name": "13-最终八图透明复核",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-final-matte-sheet-J30uPr",
+    "files": 10,
+    "bytes": 2023942,
+    "identical": true
+  },
+  {
+    "name": "14-橘猫最终390重温",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-fLoBcA",
+    "files": 3,
+    "bytes": 98468,
+    "identical": true
+  },
+  {
+    "name": "15-橘猫真实施招",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-runtime-nkzffp",
+    "files": 2,
+    "bytes": 129128,
+    "identical": true
+  },
+  {
+    "name": "16-正常进入第二回合",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-next-turn-WehOCi",
+    "files": 1,
+    "bytes": 3117,
+    "identical": true
+  },
+  {
+    "name": "17-小鸭真实施招",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-runtime-VOAcJc",
+    "files": 2,
+    "bytes": 131716,
+    "identical": true
+  },
+  {
+    "name": "18-三人节点联合复核",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-three-poses-5BtSTN",
+    "files": 1,
+    "bytes": 1082,
+    "identical": true
+  },
+  {
+    "name": "19-意图排版静态检查",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-intent-final-checks-HkThAE",
+    "files": 5,
+    "bytes": 19063,
+    "identical": true
+  },
+  {
+    "name": "20-意图两行390复验",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-Lr4YWd",
+    "files": 8,
+    "bytes": 377381,
+    "identical": true
+  }
+]

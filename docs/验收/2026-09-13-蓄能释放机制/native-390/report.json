@@ -1,0 +1,349 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2aJrFR",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-charge-release-0fEbTL",
+  "checks": [
+    {
+      "name": "实际KEY属于指定隔离副本",
+      "pass": true
+    },
+    {
+      "name": "从无进行中远行开始",
+      "pass": true
+    },
+    {
+      "name": "实际选路进入第一场战斗",
+      "pass": true
+    },
+    {
+      "name": "第1回合基础能量为3",
+      "pass": true
+    },
+    {
+      "name": "第1回合保留1点能量与共享规则结算一致",
+      "pass": true
+    },
+    {
+      "name": "存下1点后第2回合显示4/3超额能量",
+      "pass": true
+    },
+    {
+      "name": "第2回合再次保留1点能量与共享规则结算一致",
+      "pass": true
+    },
+    {
+      "name": "存下1点后第3回合显示5/4超额能量",
+      "pass": true
+    },
+    {
+      "name": "补给说明明确蓄能在下回合转为额外能量",
+      "pass": true
+    },
+    {
+      "name": "隔离实玩结束且已入库收益保持",
+      "pass": true
+    },
+    {
+      "name": "本次原生运行控制台error为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "turn-2-four-over-three",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-charge-release-0fEbTL/turn-2-four-over-three.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "turn-3-five-over-four",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-charge-release-0fEbTL/turn-3-five-over-four.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "charge-guide",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-charge-release-0fEbTL/charge-guide.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    }
+  ],
+  "status": "pass",
+  "interactions": [
+    {
+      "selector": ".tactic-tab[data-id=\"classic\"]",
+      "rect": {
+        "dataset": {
+          "id": "classic"
+        },
+        "left": 32,
+        "right": 192,
+        "top": 316.65625,
+        "bottom": 364.65625,
+        "width": 160,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".start-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-0-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-0-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 331.9921875,
+        "bottom": 400.1875,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".tactic-hud",
+      "rect": {
+        "dataset": {},
+        "left": 137.0703125,
+        "right": 245.0703125,
+        "top": 48,
+        "bottom": 92,
+        "width": 108,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".status-guide-back",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 625.7578125,
+        "bottom": 669.7578125,
+        "width": 324,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".exp-log",
+      "rect": {
+        "dataset": {},
+        "left": 334,
+        "right": 378,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".abandon-from-log",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 633.6171875,
+        "bottom": 677.6171875,
+        "width": 324,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-abandon",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 577.7578125,
+        "bottom": 621.7578125,
+        "width": 324,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "第1回合保留1点能量",
+      "events": [
+        {
+          "kind": "chargeBank",
+          "actorId": null,
+          "targetId": null,
+          "amount": 1,
+          "text": "将 1 点未用能量存为蓄能，下回合额外获得 1 点能量"
+        },
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-1",
+          "targetId": null,
+          "amount": 0,
+          "text": "迷途纸团 · 滚过信口",
+          "intentKind": "attack",
+          "intentName": "滚过信口",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 6,
+              "blocked": 3,
+              "hpLoss": 3
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-1",
+          "targetId": "sheep",
+          "amount": 3,
+          "text": "羊咩咩团的护盾挡下 3，受到 3 点伤害",
+          "hpDelta": -3,
+          "blocked": 3
+        },
+        {
+          "kind": "chargeRelease",
+          "actorId": null,
+          "targetId": null,
+          "amount": 1,
+          "text": "蓄能释放，本回合额外获得 1 点能量",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "label": "第2回合再次保留1点能量",
+      "events": [
+        {
+          "kind": "chargeBank",
+          "actorId": null,
+          "targetId": null,
+          "amount": 1,
+          "text": "将 1 点未用能量存为蓄能，下回合额外获得 1 点能量"
+        },
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-1",
+          "targetId": null,
+          "amount": 4,
+          "text": "迷途纸团 · 裹紧纸层",
+          "intentKind": "block",
+          "intentName": "裹紧纸层",
+          "intentTargets": [],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "chargeRelease",
+          "actorId": null,
+          "targetId": null,
+          "amount": 1,
+          "text": "蓄能释放，本回合额外获得 1 点能量",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 10,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    }
+  ],
+  "console": ""
+}

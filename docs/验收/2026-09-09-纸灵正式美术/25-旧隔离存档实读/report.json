@@ -1,0 +1,45 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2DBUUV",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-restored-save-verified-mV637Y",
+  "checks": [
+    {
+      "name": "原恢复项目命名空间",
+      "pass": true
+    }
+  ],
+  "summary": {
+    "version": 2,
+    "drawCount": 23,
+    "tickets": 0,
+    "cleared": [
+      "letter",
+      "station",
+      "garden",
+      "home"
+    ],
+    "team": [
+      "sheep",
+      "orangecat",
+      "nav"
+    ],
+    "adventureClears": {
+      "street": [
+        0,
+        0,
+        0
+      ],
+      "bridge": [
+        0,
+        0,
+        0
+      ],
+      "market": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "method": "恢复原路径的程序文件和原存档键后由微信正常读取原有测试存储，未复制或注入玩家存档。",
+  "fieldNote": "早期临时摘要误读了不存在的chapterRecords字段；本记录按实际cleared字段核验。"
+}

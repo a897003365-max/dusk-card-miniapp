@@ -1,0 +1,12 @@
+{
+  "original": {
+    "bytes": 310651,
+    "decoded": "SHA256=ef35fa0e4fa9f146601e6c28f9e49b7df894e7f51bd68869b8ed5e1764a3b4cd"
+  },
+  "current": {
+    "bytes": 297883,
+    "decoded": "SHA256=ef35fa0e4fa9f146601e6c28f9e49b7df894e7f51bd68869b8ed5e1764a3b4cd"
+  },
+  "method": "jpegtran -copy all -optimize -progressive",
+  "samePixels": true
+}

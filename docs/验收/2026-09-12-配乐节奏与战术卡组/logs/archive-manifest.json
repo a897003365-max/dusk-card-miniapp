@@ -1,0 +1,93 @@
+[
+  {
+    "name": "01-邮路实玩",
+    "log": "native-relay-resume.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-runtime-Dj14zn",
+    "status": "pass-in-progress",
+    "checks": 112
+  },
+  {
+    "name": "02-Boss逐拍录制",
+    "log": "native-boss.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6",
+    "status": "pass",
+    "checks": 29
+  },
+  {
+    "name": "03-说明390",
+    "log": "layout-390.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-is86mE",
+    "status": "pass",
+    "checks": 16
+  },
+  {
+    "name": "04-说明430",
+    "log": "layout-430.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-TG83UR",
+    "status": "pass",
+    "checks": 16
+  },
+  {
+    "name": "05-首领通关",
+    "log": "native-boss-finish.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-runtime-h61x9b",
+    "status": "pass",
+    "checks": 34
+  },
+  {
+    "name": "06-最终回执430",
+    "log": "receipt-430-fixed.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-l8hWQb",
+    "status": "pass",
+    "checks": 7
+  },
+  {
+    "name": "07-最终回执320",
+    "log": "receipt-320.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-p0kOG2",
+    "status": "pass",
+    "checks": 7
+  },
+  {
+    "name": "08-灯火储备首战",
+    "log": "native-reserve-320.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-runtime-dvsRo1",
+    "status": "pass",
+    "checks": 29
+  },
+  {
+    "name": "09-小屏战后回执",
+    "log": "receipt-party-320.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-ZVJcDP",
+    "status": "pass",
+    "checks": 7
+  },
+  {
+    "name": "10-小屏卡面终验",
+    "log": "layout-320-final.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-m0UFSr",
+    "status": "pass",
+    "checks": 18
+  },
+  {
+    "name": "11-全队倒下",
+    "log": "native-defeat.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-runtime-CRJLKg",
+    "status": "pass",
+    "checks": 49
+  },
+  {
+    "name": "12-失败回执320",
+    "log": "receipt-defeat-320.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-JCiB88",
+    "status": "pass",
+    "checks": 7
+  },
+  {
+    "name": "13-音频原生",
+    "log": "native-audio.log",
+    "source": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-zrGsgc",
+    "status": "pass",
+    "checks": 22
+  }
+]

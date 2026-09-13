@@ -1,0 +1,22 @@
+Use case: stylized-concept
+Asset type: game combat sprite master sheet, production intermediate
+Input images: Image 1 is the idle identity reference for the soup partner. Image 2 is the cast/action identity reference. Image 3 is layout-only reference for a wide 2:1 4-column by 2-row equal-cell chroma-key sprite sheet; do not copy its character. Preserve the same soup folded-paper cook: friendly cream dog-like face with floppy paper ears, red-and-cream patterned chef robe, blue-gray apron panel, red cords and tassels, exactly two arms and two legs, the existing large hanging faceted cooking pot suspended from a wooden crossbar, and the existing long-handled ladle/bowl in the other hand. Preserve face, pot, crossbar, ladle and outfit exactly; no redesign or added limbs.
+
+Create exactly one wide 2:1 high-resolution action sprite master sheet matching Image 3's equal-cell layout: four equal-width columns and two equal-height rows, eight complete square-ish action cells, no labels. Keep the complete cook, hanging pot, crossbar, ladle and every steam/paper effect inside the inner 60–65% of its own cell, with generous roughly 25% clear space around every cell. Same scale and baseline. No pot handle, ladle, tassel, robe tip or effect may touch or cross a cell boundary. No cropping. Keep the full pot and ladle readable.
+
+Exact order:
+Top row col 1 ENTER: soup steps in with the hanging cooking pot and ladle ready, alert welcoming chef stance.
+Top row col 2 ATTACK: soup swings the existing ladle toward the right, releasing one compact diagonal warm broth/steam paper arc and a few contained folded droplets, fully inside this cell.
+Top row col 3 GUARD: soup braces the existing hanging pot as a round shield in front of the torso, ladle held close, face visible.
+Top row col 4 HURT: soup recoils with the pot swinging slightly and a few contained paper droplets, strained face, no blood.
+Bottom row col 1 EXIT: soup crouches and folds low as the pot and ladle recede, face and cooking tools recognizable.
+Bottom row col 2 CONTROL: indigo paper threads and binding talisman strips wrap existing pot ropes, crossbar, ladle and ankles; face unobstructed, clearly distinct from debuff.
+Bottom row col 3 BUFF: proud cook stance with compact warm-gold steam curls and teal-green herb/paper leaves close to the existing pot, no new anatomy.
+Bottom row col 4 DEBUFF: drooping tired cook pose with cool-gray ink drips and negative talisman symbols on existing apron, pot and robe, clearly different from control.
+
+Backdrop: a perfectly flat solid chroma-key magenta background, exact color #FF00FF (RGB 255,0,255) across every background pixel. No transparency, no checkerboard, no gradient, no noise texture, no floor, no shadow plate, no grid or cell lines.
+Style: soft polished 2.5D hand-painted folded-paper game illustration, upper-left light, visible paper fibers and creases, cream/red/brown/blue palette, small wood and metal cooking details.
+Text: none.
+Avoid: labels, numbers, UI, logo, watermark, extra characters, extra arms or legs, wings, horns, added tail, missing pot, broken crossbar, broken ladle, giant steam clouds, cross-cell overlap, cropped parts, idle recolor.
+
+Technical post-processing: normalize only near-magenta background pixels to exact #FF00FF; do not remove, crop, key, or delete any subject/effect pixels.

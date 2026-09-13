@@ -1,0 +1,535 @@
+{
+  "tier": "SSR",
+  "id": "moon",
+  "expectedImage": "/assets/partners/moon.png",
+  "samples": [
+    {
+      "time": 1789018029339,
+      "route": "pages/collection/index",
+      "revealPhase": null,
+      "replayMode": false,
+      "activeReveal": null,
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "time": 1789018030816,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789018030860,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789018030905,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789018030950,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789018031444,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789018031489,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789018031534,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789018031579,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789018031801,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.45"
+        }
+      ]
+    },
+    {
+      "time": 1789018031848,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.87161, 0, 0, 0.87161, 0, 18.8306)",
+          "opacity": "0.144064"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "compassOpen",
+          "transform": "matrix(0.470892, -0.402945, 0.402945, 0.470892, 0, 0)",
+          "opacity": "0.775299"
+        }
+      ]
+    },
+    {
+      "time": 1789018031896,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.934187, 0, 0, 0.934187, 0, 9.65258)",
+          "opacity": "0.561246"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "compassOpen",
+          "transform": "matrix(0.633909, -0.28147, 0.28147, 0.633909, 0, 0)",
+          "opacity": "0.683013"
+        }
+      ]
+    },
+    {
+      "time": 1789018031945,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.951975, 0, 0, 0.951975, 0, 7.04373)",
+          "opacity": "0.67983"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "compassOpen",
+          "transform": "matrix(0.699253, -0.202882, 0.202882, 0.699253, 0, 0)",
+          "opacity": "0.639886"
+        }
+      ]
+    },
+    {
+      "time": 1789018032367,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.999971, 0, 0, 0.999971, 0, 0.00421618)",
+          "opacity": "0.999808"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "compassOpen",
+          "transform": "matrix(0.708727, 0.704368, -0.704368, 0.708727, 0, 0)",
+          "opacity": "0.300982"
+        }
+      ]
+    },
+    {
+      "time": 1789018032398,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.16"
+        }
+      ]
+    },
+    {
+      "time": 1789018032463,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "moon",
+        "tier": "SSR",
+        "image": "/assets/partners/moon.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/moon.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-compass",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0)",
+          "opacity": "0.16"
+        }
+      ]
+    }
+  ],
+  "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-E1j1Ru/320-SSR-motion.json",
+  "phases": [
+    "charge",
+    "burst",
+    "arrive",
+    "settled"
+  ],
+  "animations": [
+    {
+      "selector": ".summon-reveal",
+      "animation": "companionArrive",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.87161, 0, 0, 0.87161, 0, 18.8306)",
+        "matrix(0.934187, 0, 0, 0.934187, 0, 9.65258)",
+        "matrix(0.951975, 0, 0, 0.951975, 0, 7.04373)",
+        "matrix(0.999971, 0, 0, 0.999971, 0, 0.00421618)"
+      ],
+      "opacities": [
+        "0.144064",
+        "0.561246",
+        "0.67983",
+        "0.999808"
+      ],
+      "moved": true
+    },
+    {
+      "selector": ".summon-compass",
+      "animation": "compassOpen",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.470892, -0.402945, 0.402945, 0.470892, 0, 0)",
+        "matrix(0.633909, -0.28147, 0.28147, 0.633909, 0, 0)",
+        "matrix(0.699253, -0.202882, 0.202882, 0.699253, 0, 0)",
+        "matrix(0.708727, 0.704368, -0.704368, 0.708727, 0, 0)"
+      ],
+      "opacities": [
+        "0.775299",
+        "0.683013",
+        "0.639886",
+        "0.300982"
+      ],
+      "moved": true
+    }
+  ]
+}

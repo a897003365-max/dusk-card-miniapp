@@ -1,0 +1,429 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-WDSLkA",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-mQWVL8",
+  "checks": [
+    {
+      "name": "副本从正常初始状态开始",
+      "pass": true
+    },
+    {
+      "name": "信匣真实渲染三个展示卡面",
+      "pass": true
+    },
+    {
+      "name": "本地公仔图片真实加载",
+      "pass": true
+    },
+    {
+      "name": "首页主视觉无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "概率与邮票规则可展开",
+      "pass": true
+    },
+    {
+      "name": "规则可关闭",
+      "pass": true
+    },
+    {
+      "name": "一次抽取扣一邮票并新增一张收藏",
+      "pass": true
+    },
+    {
+      "name": "收到的是可亲手开启的封蜡信",
+      "pass": true
+    },
+    {
+      "name": "单封揭晓 内容有实际高度，关闭与页脚在屏内",
+      "pass": true
+    },
+    {
+      "name": "启封只揭晓，不重复扣票",
+      "pass": true
+    },
+    {
+      "name": "揭晓可关闭",
+      "pass": true
+    },
+    {
+      "name": "五封逐次结算并真实显示五张卡",
+      "pass": true
+    },
+    {
+      "name": "五封揭晓 内容有实际高度，关闭与页脚在屏内",
+      "pass": true
+    },
+    {
+      "name": "五封可以逐封启封",
+      "pass": true
+    },
+    {
+      "name": "全部拆开显示五张公仔且不重复消费",
+      "pass": true
+    },
+    {
+      "name": "最后一张卡能滚到完整可见",
+      "pass": true
+    },
+    {
+      "name": "收藏册真实显示22位角色",
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "01-home",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-mQWVL8/01-home.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "02-rules",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-mQWVL8/02-rules.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "03-sealed-letter",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-mQWVL8/03-sealed-letter.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "03-single-reveal",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-mQWVL8/03-single-reveal.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "04-five-reveal",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-mQWVL8/04-five-reveal.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "05-five-scroll",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-mQWVL8/05-five-scroll.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "status": "fail",
+  "homeGeometry": {
+    "rects": [
+      {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 76.59375,
+        "bottom": 450.59375,
+        "width": 354,
+        "height": 374
+      },
+      {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      {
+        "dataset": {
+          "count": "5"
+        },
+        "left": 199.5,
+        "right": 372,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      }
+    ],
+    "info": {
+      "pixelRatio": 3,
+      "safeArea": {
+        "top": 47,
+        "left": 0,
+        "right": 390,
+        "bottom": 810,
+        "width": 390,
+        "height": 763
+      },
+      "screenWidth": 390,
+      "screenHeight": 844,
+      "screenTop": 173,
+      "windowWidth": 390,
+      "windowHeight": 671,
+      "statusBarHeight": 47
+    },
+    "scrollTop": 0
+  },
+  "interactions": [
+    {
+      "selector": ".rules-toggle",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 579.7734375,
+        "bottom": 623.7734375,
+        "width": 184,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".rules-toggle",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 244.7734375,
+        "bottom": 288.7734375,
+        "width": 184,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 380.59375,
+        "bottom": 437.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 103,
+        "right": 287,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 184,
+        "height": 237
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 316,
+        "right": 360,
+        "top": 117.984375,
+        "bottom": 161.984375,
+        "width": 44,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".draw-five",
+      "rect": {
+        "dataset": {
+          "count": "5"
+        },
+        "left": 199.5,
+        "right": 372,
+        "top": 380.59375,
+        "bottom": 437.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 31,
+        "right": 215,
+        "top": 194.984375,
+        "bottom": 394.984375,
+        "width": 184,
+        "height": 200
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".reveal-all",
+      "rect": {
+        "dataset": {},
+        "left": 30,
+        "right": 191.5,
+        "top": 487.5078125,
+        "bottom": 531.5078125,
+        "width": 161.5,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".view-partners",
+      "rect": {
+        "dataset": {},
+        "left": 30,
+        "right": 360,
+        "top": 487.5078125,
+        "bottom": 531.5078125,
+        "width": 330,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    }
+  ],
+  "dialogs": [
+    {
+      "name": "单封揭晓",
+      "rects": [
+        {
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 105.984375,
+          "bottom": 565.0078125,
+          "width": 354,
+          "height": 459.0234375
+        },
+        {
+          "dataset": {},
+          "left": 30,
+          "right": 360,
+          "top": 190.984375,
+          "bottom": 479.5078125,
+          "width": 330,
+          "height": 288.5234375
+        },
+        {
+          "dataset": {},
+          "left": 316,
+          "right": 360,
+          "top": 117.984375,
+          "bottom": 161.984375,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "dataset": {},
+          "left": 30,
+          "right": 360,
+          "top": 487.5078125,
+          "bottom": 553.0078125,
+          "width": 330,
+          "height": 65.5
+        }
+      ],
+      "info": {
+        "pixelRatio": 3,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "screenTop": 173,
+        "windowWidth": 390,
+        "windowHeight": 671,
+        "statusBarHeight": 47
+      },
+      "scrollTop": 119
+    },
+    {
+      "name": "五封揭晓",
+      "rects": [
+        {
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 105.984375,
+          "bottom": 565.0078125,
+          "width": 354,
+          "height": 459.0234375
+        },
+        {
+          "dataset": {},
+          "left": 30,
+          "right": 360,
+          "top": 190.984375,
+          "bottom": 479.5078125,
+          "width": 330,
+          "height": 288.5234375
+        },
+        {
+          "dataset": {},
+          "left": 316,
+          "right": 360,
+          "top": 117.984375,
+          "bottom": 161.984375,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "dataset": {},
+          "left": 30,
+          "right": 360,
+          "top": 487.5078125,
+          "bottom": 553.0078125,
+          "width": 330,
+          "height": 65.5
+        }
+      ],
+      "info": {
+        "pixelRatio": 3,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "screenTop": 173,
+        "windowWidth": 390,
+        "windowHeight": 671,
+        "statusBarHeight": 47
+      },
+      "scrollTop": 146.5
+    }
+  ],
+  "error": "点击目标必须完整可见：.filter[data-filter=\"owned\"]"
+}

@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E",
+  "actors": [
+    {
+      "id": "paper-lion",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/paper-lion-sheet.png",
+      "sourceHash": "aece9cb64c26435968dfb7c0e006c59e0d863171c088bb7d878b263b9fa19bae",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          9884,
+          482
+        ],
+        "removedPixels": 10366
+      },
+      "foregroundPixels": 596552,
+      "assignedPixels": 596552
+    }
+  ],
+  "frames": [
+    {
+      "id": "paper-lion",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/enter.png",
+      "contentBounds": {
+        "x": 40,
+        "y": 66,
+        "width": 393,
+        "height": 360
+      },
+      "bytes": 25382
+    },
+    {
+      "id": "paper-lion",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/attack.png",
+      "contentBounds": {
+        "x": 479,
+        "y": 67,
+        "width": 414,
+        "height": 357
+      },
+      "bytes": 20060
+    },
+    {
+      "id": "paper-lion",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/guard.png",
+      "contentBounds": {
+        "x": 922,
+        "y": 67,
+        "width": 394,
+        "height": 350
+      },
+      "bytes": 21483
+    },
+    {
+      "id": "paper-lion",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/hurt.png",
+      "contentBounds": {
+        "x": 1372,
+        "y": 68,
+        "width": 353,
+        "height": 342
+      },
+      "bytes": 24102
+    },
+    {
+      "id": "paper-lion",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/exit.png",
+      "contentBounds": {
+        "x": 36,
+        "y": 503,
+        "width": 368,
+        "height": 316
+      },
+      "bytes": 21615
+    },
+    {
+      "id": "paper-lion",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/control.png",
+      "contentBounds": {
+        "x": 461,
+        "y": 478,
+        "width": 392,
+        "height": 349
+      },
+      "bytes": 24936
+    },
+    {
+      "id": "paper-lion",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/buff.png",
+      "contentBounds": {
+        "x": 912,
+        "y": 477,
+        "width": 398,
+        "height": 352
+      },
+      "bytes": 24919
+    },
+    {
+      "id": "paper-lion",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VtS70E/paper-lion/debuff.png",
+      "contentBounds": {
+        "x": 1364,
+        "y": 496,
+        "width": 378,
+        "height": 326
+      },
+      "bytes": 21016
+    }
+  ],
+  "bytes": 183513
+}

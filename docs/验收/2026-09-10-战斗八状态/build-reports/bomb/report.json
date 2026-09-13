@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB",
+  "actors": [
+    {
+      "id": "bomb",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/bomb-sheet.png",
+      "sourceHash": "dafc48dbef7ac555a77a5980f36f0cfab05f6704fa81c78237b105a7a7867fc8",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          11004,
+          388
+        ],
+        "removedPixels": 11392
+      },
+      "foregroundPixels": 621767,
+      "assignedPixels": 621767
+    }
+  ],
+  "frames": [
+    {
+      "id": "bomb",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/enter.png",
+      "contentBounds": {
+        "x": 30,
+        "y": 51,
+        "width": 384,
+        "height": 376
+      },
+      "bytes": 22929
+    },
+    {
+      "id": "bomb",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/attack.png",
+      "contentBounds": {
+        "x": 481,
+        "y": 88,
+        "width": 412,
+        "height": 320
+      },
+      "bytes": 18346
+    },
+    {
+      "id": "bomb",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/guard.png",
+      "contentBounds": {
+        "x": 947,
+        "y": 80,
+        "width": 302,
+        "height": 337
+      },
+      "bytes": 22431
+    },
+    {
+      "id": "bomb",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/hurt.png",
+      "contentBounds": {
+        "x": 1365,
+        "y": 68,
+        "width": 353,
+        "height": 364
+      },
+      "bytes": 22659
+    },
+    {
+      "id": "bomb",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/exit.png",
+      "contentBounds": {
+        "x": 57,
+        "y": 502,
+        "width": 378,
+        "height": 318
+      },
+      "bytes": 19474
+    },
+    {
+      "id": "bomb",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/control.png",
+      "contentBounds": {
+        "x": 484,
+        "y": 473,
+        "width": 366,
+        "height": 370
+      },
+      "bytes": 23731
+    },
+    {
+      "id": "bomb",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/buff.png",
+      "contentBounds": {
+        "x": 917,
+        "y": 454,
+        "width": 369,
+        "height": 395
+      },
+      "bytes": 23237
+    },
+    {
+      "id": "bomb",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-N38bgB/bomb/debuff.png",
+      "contentBounds": {
+        "x": 1339,
+        "y": 494,
+        "width": 383,
+        "height": 364
+      },
+      "bytes": 21651
+    }
+  ],
+  "bytes": 174458
+}

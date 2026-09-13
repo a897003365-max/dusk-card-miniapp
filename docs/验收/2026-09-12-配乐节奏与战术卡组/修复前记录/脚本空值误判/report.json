@@ -1,0 +1,147 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-runtime-yZTGRl",
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "tacticId": "relay",
+  "checks": [
+    {
+      "name": "实际KEY属于指定隔离副本",
+      "pass": true
+    },
+    {
+      "name": "战术classic只更改待出发方案",
+      "pass": true
+    },
+    {
+      "name": "战术relay只更改待出发方案",
+      "pass": true
+    },
+    {
+      "name": "战术reserve只更改待出发方案",
+      "pass": true
+    },
+    {
+      "name": "战术relay只更改待出发方案",
+      "pass": true
+    },
+    {
+      "name": "选中打法成为12张固定起手快照",
+      "pass": true
+    },
+    {
+      "name": "回执确认按钮完整可见且不小于44px",
+      "pass": false
+    }
+  ],
+  "shots": [
+    {
+      "name": "tactics-before-start",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-runtime-yZTGRl/tactics-before-start.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "receipt-1",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-runtime-yZTGRl/receipt-1.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    }
+  ],
+  "actions": [],
+  "receipts": [
+    {}
+  ],
+  "status": "fail",
+  "interactions": [
+    {
+      "selector": ".tactic-tab[data-id=\"classic\"]",
+      "rect": {
+        "dataset": {
+          "id": "classic"
+        },
+        "left": 32,
+        "right": 136.6640625,
+        "top": 372.65625,
+        "bottom": 418.65625,
+        "width": 104.6640625,
+        "height": 46
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".tactic-tab[data-id=\"relay\"]",
+      "rect": {
+        "dataset": {
+          "id": "relay"
+        },
+        "left": 142.6640625,
+        "right": 247.328125,
+        "top": 372.65625,
+        "bottom": 418.65625,
+        "width": 104.6640625,
+        "height": 46
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".tactic-tab[data-id=\"reserve\"]",
+      "rect": {
+        "dataset": {
+          "id": "reserve"
+        },
+        "left": 253.328125,
+        "right": 357.9921875,
+        "top": 372.65625,
+        "bottom": 418.65625,
+        "width": 104.6640625,
+        "height": 46
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".tactic-tab[data-id=\"relay\"]",
+      "rect": {
+        "dataset": {
+          "id": "relay"
+        },
+        "left": 142.6640625,
+        "right": 247.328125,
+        "top": 372.65625,
+        "bottom": 418.65625,
+        "width": 104.6640625,
+        "height": 46
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".start-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ],
+  "error": "AssertionError [ERR_ASSERTION]: 回执确认按钮完整可见且不小于44px\n    at Object.check (/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/tests/helpers/native-adventure.js:86:5)\n    at inspectReceipt (/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/tests/tactics-runtime-smoke.js:52:5)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async /Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/tests/tactics-runtime-smoke.js:82:20"
+}

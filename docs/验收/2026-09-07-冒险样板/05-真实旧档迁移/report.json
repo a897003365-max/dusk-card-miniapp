@@ -1,0 +1,149 @@
+{
+  "checks": [
+    {
+      "name": "正常启动真实v1旧档自动迁移为v2",
+      "pass": true
+    },
+    {
+      "name": "升级前备份与真实旧档逐字段一致",
+      "pass": true
+    },
+    {
+      "name": "原收藏、20次抽取、保底、2邮票、4章及回信完整保留",
+      "pass": true
+    },
+    {
+      "name": "冒险初始化无奖励注入",
+      "pass": true
+    },
+    {
+      "name": "旧四章在实际页面仍全部完成",
+      "pass": true
+    },
+    {
+      "name": "迁移后实际打开原来两封不同结局回信",
+      "pass": true
+    },
+    {
+      "name": "迁移伙伴的当前牌面和被动有真实说明",
+      "pass": true
+    },
+    {
+      "name": "迁移后查看收藏和回信不消耗资源或改存档",
+      "pass": true
+    },
+    {
+      "name": "应用异常为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "migrated-hub",
+      "success": true,
+      "path": "/tmp/dusk-adventure-native-migration/migrated-hub.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "migrated-collection",
+      "success": true,
+      "path": "/tmp/dusk-adventure-native-migration/migrated-collection.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "migrated-story",
+      "success": true,
+      "path": "/tmp/dusk-adventure-native-migration/migrated-story.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "migrated-letter-bottom",
+      "success": true,
+      "path": "/tmp/dusk-adventure-native-migration/migrated-letter-bottom.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "migrated-partner-detail",
+      "success": true,
+      "path": "/tmp/dusk-adventure-native-migration/migrated-partner-detail.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".archive-link[data-id=\"letter\"]",
+      "rect": {
+        "dataset": {
+          "id": "letter"
+        },
+        "left": 119.5,
+        "right": 303.5,
+        "top": 390.9140625,
+        "bottom": 434.9140625,
+        "width": 184,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".archive-close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".party-member[data-id=\"ramen\"]",
+      "rect": {
+        "dataset": {
+          "id": "ramen"
+        },
+        "left": 31,
+        "right": 136.3359375,
+        "top": 160.140625,
+        "bottom": 288.734375,
+        "width": 105.3359375,
+        "height": 128.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ],
+  "status": "pass",
+  "console": ""
+}

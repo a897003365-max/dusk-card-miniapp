@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm",
+  "actors": [
+    {
+      "id": "firefly",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/firefly-sheet.png",
+      "sourceHash": "f24996e343781bc9d0276471445f68282493b8e138068e059725f815db9b0bd1",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          9882,
+          356
+        ],
+        "removedPixels": 10238
+      },
+      "foregroundPixels": 404500,
+      "assignedPixels": 404500
+    }
+  ],
+  "frames": [
+    {
+      "id": "firefly",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/enter.png",
+      "contentBounds": {
+        "x": 38,
+        "y": 38,
+        "width": 354,
+        "height": 397
+      },
+      "bytes": 15782
+    },
+    {
+      "id": "firefly",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/attack.png",
+      "contentBounds": {
+        "x": 454,
+        "y": 61,
+        "width": 471,
+        "height": 331
+      },
+      "bytes": 13203
+    },
+    {
+      "id": "firefly",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/guard.png",
+      "contentBounds": {
+        "x": 905,
+        "y": 54,
+        "width": 387,
+        "height": 362
+      },
+      "bytes": 15231
+    },
+    {
+      "id": "firefly",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/hurt.png",
+      "contentBounds": {
+        "x": 1409,
+        "y": 46,
+        "width": 319,
+        "height": 370
+      },
+      "bytes": 15628
+    },
+    {
+      "id": "firefly",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/exit.png",
+      "contentBounds": {
+        "x": 37,
+        "y": 510,
+        "width": 338,
+        "height": 323
+      },
+      "bytes": 16505
+    },
+    {
+      "id": "firefly",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/control.png",
+      "contentBounds": {
+        "x": 471,
+        "y": 463,
+        "width": 391,
+        "height": 375
+      },
+      "bytes": 18569
+    },
+    {
+      "id": "firefly",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/buff.png",
+      "contentBounds": {
+        "x": 910,
+        "y": 454,
+        "width": 376,
+        "height": 387
+      },
+      "bytes": 18219
+    },
+    {
+      "id": "firefly",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-jr45pm/firefly/debuff.png",
+      "contentBounds": {
+        "x": 1387,
+        "y": 473,
+        "width": 361,
+        "height": 368
+      },
+      "bytes": 17275
+    }
+  ],
+  "bytes": 130412
+}

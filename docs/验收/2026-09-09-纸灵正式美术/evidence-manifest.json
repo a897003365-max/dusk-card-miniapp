@@ -1,0 +1,1252 @@
+[
+  {
+    "path": "01-390布局/ally-detail.jpg",
+    "bytes": 49191,
+    "sha256": "395c8e9d70317ed21ab579e6dfbf704a1760e98a865a6dfdfc1490a36dd3959e"
+  },
+  {
+    "path": "01-390布局/battle.jpg",
+    "bytes": 124829,
+    "sha256": "71170395cd41b5db272988e742106f7ddbc93c8ebc25d81fa837ff069b1e7a42"
+  },
+  {
+    "path": "01-390布局/card-detail.jpg",
+    "bytes": 45671,
+    "sha256": "dbea036e20c7dddbc2f2e3457fe7cdf7317d86425e2997b372f97941d71b9a7a"
+  },
+  {
+    "path": "01-390布局/deck-bottom.jpg",
+    "bytes": 57908,
+    "sha256": "4cabc4ed9aa67f3d1bda6f1129b0652f4a61c1c8ddf3de728cae5dc87596fc0b"
+  },
+  {
+    "path": "01-390布局/enemy-detail.jpg",
+    "bytes": 49914,
+    "sha256": "f86e7f8dd3361015c553c423b540a4d069b43d7c1cb88ccc15212c2e6470517a"
+  },
+  {
+    "path": "01-390布局/hub.jpg",
+    "bytes": 92095,
+    "sha256": "bbfbf470f23dc023f3efcd7bacdf27c71c366e223573a554da3cb6b127c35ac6"
+  },
+  {
+    "path": "01-390布局/log.jpg",
+    "bytes": 46982,
+    "sha256": "b209e617bcb9864a82c7b813d60eaf9f27d10d88f0ac3ec1d7406ca68b83e851"
+  },
+  {
+    "path": "01-390布局/report.json",
+    "bytes": 10356,
+    "sha256": "b1dc3814e0fb15c8d0beea42ed23dde010f50c15ccdf5e9bd9237e0d681d96a2"
+  },
+  {
+    "path": "01-390布局/route.jpg",
+    "bytes": 47247,
+    "sha256": "3040b92a47a76b5e8b0a74e2c73f7519d6215b7a7978af0bb93daa462887c9df"
+  },
+  {
+    "path": "01-390布局/target-preview.jpg",
+    "bytes": 124412,
+    "sha256": "315a295ccfab9689f0b3d1b6f5ca76fa1690132b8a50557b11c84de592c4437a"
+  },
+  {
+    "path": "02-390主页面/collection-bottom.jpg",
+    "bytes": 50945,
+    "sha256": "e8f18b4e4eb76545a5770e5d4809ae89e5cb21b9b57537268e5853c0f5c164d0"
+  },
+  {
+    "path": "02-390主页面/collection-top.jpg",
+    "bytes": 68804,
+    "sha256": "3d82618d581ae3b7ba6b41a783cf1fc83e51509081c97c4b427dc7f54b93a58d"
+  },
+  {
+    "path": "02-390主页面/home-new-art.jpg",
+    "bytes": 86355,
+    "sha256": "c7ee0b75c44bd423681280c9f4a750bfa558f213aa9d19c8a91684fdb0ba5c87"
+  },
+  {
+    "path": "02-390主页面/report.json",
+    "bytes": 7469,
+    "sha256": "dd84d54da86e97633a9f2f7148c47b353fe9a213e932b9d43a690751165252d3"
+  },
+  {
+    "path": "02-390主页面/seedling-archive.jpg",
+    "bytes": 56126,
+    "sha256": "b88cacc664c8827f0e16ad77b1cac6b6b5ac739e51c0e13886f305a2fe0c7cdc"
+  },
+  {
+    "path": "02-390主页面/story-bottom.jpg",
+    "bytes": 51696,
+    "sha256": "a9aa5dfa65de792a552ca95b6775051f2a8d9faacb85be0fd00fca5ae703a435"
+  },
+  {
+    "path": "02-390主页面/story-top.jpg",
+    "bytes": 62064,
+    "sha256": "edbba329121fe30f46edba3d76d2325e6d483047fdb5032ad89e7d212a890589"
+  },
+  {
+    "path": "03-320布局/ally-detail.jpg",
+    "bytes": 40482,
+    "sha256": "07d0dfd03f498a1b9d901fe9be252fd55b274bade139cf3e76cd12be0c26de55"
+  },
+  {
+    "path": "03-320布局/battle.jpg",
+    "bytes": 77677,
+    "sha256": "305bb77d3f5bfacee47536698ee9ff11ede231c6cbf080ffd7ebfcf40593473b"
+  },
+  {
+    "path": "03-320布局/card-detail.jpg",
+    "bytes": 37187,
+    "sha256": "a345422bbded9d51083315a3f544f06fb06ca9ca7561881fb029edc42115af74"
+  },
+  {
+    "path": "03-320布局/deck-bottom.jpg",
+    "bytes": 36504,
+    "sha256": "e668afefb17fce2cd4f6ac71290b647581f04d3b5bb01dba64de72ced3847bfd"
+  },
+  {
+    "path": "03-320布局/enemy-detail.jpg",
+    "bytes": 41441,
+    "sha256": "4a2ab225880764e763d90148edfe7df799dc3372a3b5154a48efcc15070ae3ef"
+  },
+  {
+    "path": "03-320布局/log.jpg",
+    "bytes": 38677,
+    "sha256": "75b930794a6e7de20115a95b95ccc288e558815f657b6a238b70e1cb60250f99"
+  },
+  {
+    "path": "03-320布局/report.json",
+    "bytes": 9129,
+    "sha256": "60a7ed9717cb33764c2d274047d0cc138fc4242ad13efa4dbf5af1f7806ae181"
+  },
+  {
+    "path": "03-320布局/target-preview.jpg",
+    "bytes": 76826,
+    "sha256": "67c46afb8ac58f1e55b4089e7f6d21c8adbe7c9c192bbd8d20b61b96cc955d75"
+  },
+  {
+    "path": "04-320主页面/collection-bottom.jpg",
+    "bytes": 34372,
+    "sha256": "29c3464e547dc192e54142e159ba4417749f814e4229e4692ec25196ccba5a93"
+  },
+  {
+    "path": "04-320主页面/collection-top.jpg",
+    "bytes": 47097,
+    "sha256": "b30434a9eb2c59e649cdfbde90dc3170bc8898e9934f3fe42ac08db329c30521"
+  },
+  {
+    "path": "04-320主页面/home-new-art.jpg",
+    "bytes": 60179,
+    "sha256": "cb5d29ebb874b26aad41b855907557a59fdfa38358a270a3e843bc7aea806108"
+  },
+  {
+    "path": "04-320主页面/report.json",
+    "bytes": 7472,
+    "sha256": "8f71e447e08f18d7bbc9c65f6780805c9eb42afee6e11f7adf21b942a56e0c48"
+  },
+  {
+    "path": "04-320主页面/seedling-archive.jpg",
+    "bytes": 36579,
+    "sha256": "f49030af380400e51ade523fa5c11049523add9da41d5598f74a972c96120090"
+  },
+  {
+    "path": "04-320主页面/story-bottom.jpg",
+    "bytes": 33971,
+    "sha256": "05c130e9469d5255cfe13ea3bf001b56ba07febc325139c361145effe70ee132"
+  },
+  {
+    "path": "04-320主页面/story-top.jpg",
+    "bytes": 42307,
+    "sha256": "49346a007d769625b51448b50833f93aab3e4d98fd4cf04ecdaaee6b5e274423"
+  },
+  {
+    "path": "05-320R重温/320-R-replay.jpg",
+    "bytes": 55849,
+    "sha256": "b3ed1dc26ac685cc1aef54e0f49f2bf71a3730d58f2de68e7cdeae6bc779b8da"
+  },
+  {
+    "path": "05-320R重温/320-unowned-no-replay.jpg",
+    "bytes": 33190,
+    "sha256": "3ed70c78426ade34fea8e9bb6ea4f1fe9b8cd9e9cc6eb87f9f897dab71b28bf3"
+  },
+  {
+    "path": "05-320R重温/report.json",
+    "bytes": 7357,
+    "sha256": "334f7b266291790c9a47ffe1fc861b62b46e995396d79672e97d12f24fca8768"
+  },
+  {
+    "path": "06-430四档重温/430-R-replay.jpg",
+    "bytes": 72837,
+    "sha256": "cbc50306b6d0b21d178d99caa1920dcfa205f7a4acb081ee37821f36a5090a8b"
+  },
+  {
+    "path": "06-430四档重温/430-SR-replay.jpg",
+    "bytes": 75196,
+    "sha256": "a9ef5571facdd5c500783a347fa9643a2bde99ec83fa3ae17dcd79070af72a8c"
+  },
+  {
+    "path": "06-430四档重温/430-SSR-replay.jpg",
+    "bytes": 76981,
+    "sha256": "4897bc7dee8d7512ef7ce2c911198b2beb95a401a3355088a76f922dadc948f9"
+  },
+  {
+    "path": "06-430四档重温/430-UR-replay.jpg",
+    "bytes": 77241,
+    "sha256": "7a556b1177c5c2d63a9d83324bb9a579aaafd5b15290273f7cfe851a35fffcf3"
+  },
+  {
+    "path": "06-430四档重温/430-unowned-no-replay.jpg",
+    "bytes": 49516,
+    "sha256": "19f650d8f3e7533055c42c07db5f44f7498138c87b09ed3718711cfaf0af28b2"
+  },
+  {
+    "path": "06-430四档重温/report.json",
+    "bytes": 11308,
+    "sha256": "f25dfb9a98da21d207585eab081da29b1e3f7784fa0914e03cc5f327146e82ee"
+  },
+  {
+    "path": "07-430布局含角签/ally-detail.jpg",
+    "bytes": 47659,
+    "sha256": "5ac6426d03b9b2fa555099abca5a2e4856ce08ee91d89162a651c539783424b3"
+  },
+  {
+    "path": "07-430布局含角签/battle.jpg",
+    "bytes": 129449,
+    "sha256": "807230a7ede53308b0741f481b1aa2748343b12372ca1e7ebc30c43e724ce636"
+  },
+  {
+    "path": "07-430布局含角签/card-detail.jpg",
+    "bytes": 45004,
+    "sha256": "dc6a0ac2d3df4e76abbdc174101249437b21a1e5daf29793cf22c7f63fde475a"
+  },
+  {
+    "path": "07-430布局含角签/deck-bottom.jpg",
+    "bytes": 56806,
+    "sha256": "622e7e73f9243d73f1544b9f29b3242d2bdca695b92fba06dcfa24717f7fc10d"
+  },
+  {
+    "path": "07-430布局含角签/enemy-detail.jpg",
+    "bytes": 48379,
+    "sha256": "900c6408507fce2613aefff22eeecc02e9d5c54d90b7cc02e3a85f508cff735c"
+  },
+  {
+    "path": "07-430布局含角签/log.jpg",
+    "bytes": 46234,
+    "sha256": "3ec99b3ee1e8f722efe7c9cc248226a455bf023246d8871e1bafd7f6456c141a"
+  },
+  {
+    "path": "07-430布局含角签/report.json",
+    "bytes": 9159,
+    "sha256": "9a99c2fe7ad6838ef6501cc3145e1bc73f7bff0259b8a7da6c426450dcf02ac0"
+  },
+  {
+    "path": "07-430布局含角签/target-preview.jpg",
+    "bytes": 128223,
+    "sha256": "864150141188f8d76743be31b5f1924165579815e1e28e863fafe1e00c1d2cfa"
+  },
+  {
+    "path": "08-430主页面/collection-bottom.jpg",
+    "bytes": 51985,
+    "sha256": "a8051512e4c8b3f1ef7f7770963c03ce0f8f7190fa16e77726b29a710ef041c8"
+  },
+  {
+    "path": "08-430主页面/collection-top.jpg",
+    "bytes": 67996,
+    "sha256": "87f3bd486ddb88124ca0b0a00af07d418027d2048944aa616c6cced572e980c9"
+  },
+  {
+    "path": "08-430主页面/home-new-art.jpg",
+    "bytes": 85128,
+    "sha256": "b78bddef05c8be3e247d455915f4ca196c81eeb1b59bb84f68145bf1a06a4ccc"
+  },
+  {
+    "path": "08-430主页面/report.json",
+    "bytes": 7473,
+    "sha256": "3e0473e2fb45f2eafbf288f55929577601c4270889acf2d3fda8dbfb613ff9c7"
+  },
+  {
+    "path": "08-430主页面/seedling-archive.jpg",
+    "bytes": 55810,
+    "sha256": "8be5ffd4d4cf1c2be67a7dbcf5ce5d0ebd5466f01038cdb924872c6cc8401946"
+  },
+  {
+    "path": "08-430主页面/story-bottom.jpg",
+    "bytes": 49587,
+    "sha256": "ee4c307dd8f0ebe26d0a5942d031052a0517dfd950c9850bc129f8e6d594899f"
+  },
+  {
+    "path": "08-430主页面/story-top.jpg",
+    "bytes": 61995,
+    "sha256": "d74be750b06f5470201c662a7a715bd6d9a6e59bb950babd67357af3926efc90"
+  },
+  {
+    "path": "09-最终局部美术复核/doudou-cast-2x.png",
+    "bytes": 63564,
+    "sha256": "8585697e39498a0fe973cc3cb0f24e2de2134cf657166c7860c2e7f057f4bb6f"
+  },
+  {
+    "path": "09-最终局部美术复核/enemies-dark-1x.png",
+    "bytes": 987170,
+    "sha256": "8f2fad27932b06634a0277c16fc1e0049888632cd07294093f5729478c56b9f7"
+  },
+  {
+    "path": "09-最终局部美术复核/enemies-light-1x.png",
+    "bytes": 994930,
+    "sha256": "95519cef4a7e91a468a720d46289a23eb1eb75b1c5acbe61f545a50084dffd3f"
+  },
+  {
+    "path": "09-最终局部美术复核/focus-dark-2x.png",
+    "bytes": 82178,
+    "sha256": "48829517d0bf78f83db4412159ea31a680c0d8bd992836d422f282819446bee5"
+  },
+  {
+    "path": "09-最终局部美术复核/focus-light-2x.png",
+    "bytes": 82528,
+    "sha256": "cad4fc6f36dca3f0f9e9a36f99bb2ada9281a71cfd350fc22452d6a3b6a8f8fb"
+  },
+  {
+    "path": "09-最终局部美术复核/partners-dark-1x.png",
+    "bytes": 274725,
+    "sha256": "a73746edad0000f539cb79cdca0e6713daa56244be05ca8da93679bdcb44279d"
+  },
+  {
+    "path": "09-最终局部美术复核/partners-light-1x.png",
+    "bytes": 280454,
+    "sha256": "54d6db30e4ad6f836e45beea886223a7873a3c24e5cf28cd0c3197a5e43bc761"
+  },
+  {
+    "path": "09-最终局部美术复核/review.md",
+    "bytes": 2602,
+    "sha256": "a1470a8fdaa8268f99480dfb3a872d3703d91b45e246d5ff1c6c7a8cbf29a0bc"
+  },
+  {
+    "path": "09-最终局部美术复核/sources.json",
+    "bytes": 2835,
+    "sha256": "9d4da8be8ccf7694fe4c78ed68a18e0a82f0801db37017c4563992ce582acb49"
+  },
+  {
+    "path": "10-最终静态检查/budget.json",
+    "bytes": 7135,
+    "sha256": "986b2e4437b122bbba698c7dfda6d46637ab990c0b4ed267d70a23f10fd6bee4"
+  },
+  {
+    "path": "10-最终静态检查/report.json",
+    "bytes": 426,
+    "sha256": "eb51ca5a374ca5d6c20ecd6c23546f9923ebf379314d172ef671d6c4d6fb9480"
+  },
+  {
+    "path": "10-最终静态检查/tests.log",
+    "bytes": 11252,
+    "sha256": "b1acd63a3c5858f783af221134f8b677cce85544d4f0338f8756752aaf974907"
+  },
+  {
+    "path": "10-最终静态检查/wxss.log",
+    "bytes": 112,
+    "sha256": "df1d3e42072e0534c76975aae2e40c2591a491a8627df6ace0e0ddf619862084"
+  },
+  {
+    "path": "11-邮街动态含CLI中断/NOTE.md",
+    "bytes": 432,
+    "sha256": "382a6bf55161fda55800ad92401d53c06b007e7beb5f153b537fd7825260dd53"
+  },
+  {
+    "path": "11-邮街动态含CLI中断/node-1-battle.jpg",
+    "bytes": 129633,
+    "sha256": "51c097ed4a2e82ed7bf6587a58a4b617da479d4ad3eaf6319606ccb16f66c603"
+  },
+  {
+    "path": "11-邮街动态含CLI中断/node-1-cardReward.jpg",
+    "bytes": 47472,
+    "sha256": "66e5e1fbbe39faf27f5704f3240a5a371c915b76ce3969fcb9681c0fcda9181a"
+  },
+  {
+    "path": "11-邮街动态含CLI中断/node-2-battle.jpg",
+    "bytes": 129732,
+    "sha256": "91c4ead51cfb78f359cb22f67cb1aa59add87a7e6539ba687f7c26fe6b32fa5d"
+  },
+  {
+    "path": "11-邮街动态含CLI中断/node-2-map.jpg",
+    "bytes": 33971,
+    "sha256": "a4adb7c41d047ca678c8410c6b98869be47496fcc708d17f14d8a9a7922dbfb8"
+  },
+  {
+    "path": "11-邮街动态含CLI中断/report.json",
+    "bytes": 74704,
+    "sha256": "addb4830b59ba07bdfe50e6a97fac871b46b4e7282c93f07b2fd71187a316714"
+  },
+  {
+    "path": "12-邮街续玩通关/final-result.jpg",
+    "bytes": 40658,
+    "sha256": "3e6835f932ef94edeeb80144f933dbb451ffa03250b5df0598387f7291bd52e3"
+  },
+  {
+    "path": "12-邮街续玩通关/node-2-battle.jpg",
+    "bytes": 129892,
+    "sha256": "aab1d04609d82246162a58e3a6a70022a5c196f04ed2bddc933bc3ae540c4086"
+  },
+  {
+    "path": "12-邮街续玩通关/node-2-cardReward.jpg",
+    "bytes": 51389,
+    "sha256": "bb6eeacc540d72bff1f5ce3f3fa40180df39a917bd7b45b6fb7b0826275e7830"
+  },
+  {
+    "path": "12-邮街续玩通关/node-3-map.jpg",
+    "bytes": 33929,
+    "sha256": "87b4e8681e1876408a2168c52dc96bd274650e93954b6606694bcb83603a0c6d"
+  },
+  {
+    "path": "12-邮街续玩通关/node-3-relicReward.jpg",
+    "bytes": 57324,
+    "sha256": "0197810c9dc941dd04f41af78037788e213660e7c599f01d543498a12b05ecfa"
+  },
+  {
+    "path": "12-邮街续玩通关/node-4-event.jpg",
+    "bytes": 54888,
+    "sha256": "433c8ac362ac7e0fa99ecb8c428450f37fc26cbf175d75c3321d2ac4bc614ec8"
+  },
+  {
+    "path": "12-邮街续玩通关/node-4-map.jpg",
+    "bytes": 41378,
+    "sha256": "a9be23f6f7e63df97ef2d7c2d419c818d616b9ce2f95fbc5fcdb2b1d5f6fe377"
+  },
+  {
+    "path": "12-邮街续玩通关/node-5-battle.jpg",
+    "bytes": 129468,
+    "sha256": "f9d7408908fb1d85d2c94dc8b27d74ed4a6fd02ae8d91d8c49a49c591ad98cbe"
+  },
+  {
+    "path": "12-邮街续玩通关/node-5-cardReward.jpg",
+    "bytes": 50787,
+    "sha256": "a83c2ce2393bb441f42789bfd9949101bc75d825094d4f889ba5a5660f9811fd"
+  },
+  {
+    "path": "12-邮街续玩通关/node-5-map.jpg",
+    "bytes": 41260,
+    "sha256": "0b8c6149067daaeeeeef909f150759a80c362ee4cdac8be505422c8d1f796282"
+  },
+  {
+    "path": "12-邮街续玩通关/node-6-camp.jpg",
+    "bytes": 47343,
+    "sha256": "9700d041df00375e27aaa8f8535c32d558ac9de36a4d310604a1bd8fca652738"
+  },
+  {
+    "path": "12-邮街续玩通关/node-6-map.jpg",
+    "bytes": 38679,
+    "sha256": "96f3a46dcc0a979424905d92853353c0dbda54e56b272b4d0d7893dfa88abc57"
+  },
+  {
+    "path": "12-邮街续玩通关/node-7-battle.jpg",
+    "bytes": 130220,
+    "sha256": "470e3c7e643129954fca8503eda3c86e561240bd6fcc3b0e0b9fda11540b0dc7"
+  },
+  {
+    "path": "12-邮街续玩通关/node-7-map.jpg",
+    "bytes": 40126,
+    "sha256": "4bf01d084a08a9ef4255053f486e3e75bcd3326018728bf884b32f9cb4f274e9"
+  },
+  {
+    "path": "12-邮街续玩通关/node-7-relicReward.jpg",
+    "bytes": 51676,
+    "sha256": "0cdc945828bd778ca23a900f0c8834d1c6bdbe6b46877b1acfee89db21d3e4d6"
+  },
+  {
+    "path": "12-邮街续玩通关/node-8-battle.jpg",
+    "bytes": 129049,
+    "sha256": "4090df0b79ff35daaa8e9a3b4d8942cb27d1fa20e2bdb4870cec07e77bc5d2c9"
+  },
+  {
+    "path": "12-邮街续玩通关/node-8-cardReward.jpg",
+    "bytes": 50735,
+    "sha256": "e8fda91b1783997906adc77f132e81f8be71ced8f742f11664327170fe994c36"
+  },
+  {
+    "path": "12-邮街续玩通关/node-8-map.jpg",
+    "bytes": 43114,
+    "sha256": "1a648976cc5217a0a2f285ec9590b1433a6e21787c7446e82352bd889a6e52b5"
+  },
+  {
+    "path": "12-邮街续玩通关/node-9-battle-boss-1.jpg",
+    "bytes": 130470,
+    "sha256": "0f7bb23c9906b6807bc0981373d1e9d04e81f3bd3c109d9150dc36b5fcbeeee6"
+  },
+  {
+    "path": "12-邮街续玩通关/node-9-battle-boss-2.jpg",
+    "bytes": 127147,
+    "sha256": "b385a300acde4f8890345078a5d413bbc7debc525989966caf5e54a52cdd2dd1"
+  },
+  {
+    "path": "12-邮街续玩通关/node-9-map.jpg",
+    "bytes": 39645,
+    "sha256": "80687215287b97d8ee8c4d27471471e15c58c0e7e031bf785284e67aed3a1628"
+  },
+  {
+    "path": "12-邮街续玩通关/report.json",
+    "bytes": 141005,
+    "sha256": "654a91065f0007887db8f320e16170a0c1c9c81ef0f30d14c1a51d5bc44846c9"
+  },
+  {
+    "path": "13-430培养与旧桥布局/ally-detail.jpg",
+    "bytes": 47249,
+    "sha256": "73e3dd81a8804140eea92646d2adf2df0dfcaeb760f94e93dba40aa05d63888e"
+  },
+  {
+    "path": "13-430培养与旧桥布局/battle.jpg",
+    "bytes": 128901,
+    "sha256": "5d5976cb09507d3d105f643a17ca0aa6fefd93df6fc448b6747ccc909298e143"
+  },
+  {
+    "path": "13-430培养与旧桥布局/card-detail.jpg",
+    "bytes": 47249,
+    "sha256": "4b1c769a1d6f0d50a8f5cde933100114a0a443e2fb45e2aa36c3190a3de7784d"
+  },
+  {
+    "path": "13-430培养与旧桥布局/deck-bottom.jpg",
+    "bytes": 56293,
+    "sha256": "431d342c4fe303d58d3cfcf3ba35122a7d1bd82c069db4182f930e58deaa1e18"
+  },
+  {
+    "path": "13-430培养与旧桥布局/enemy-detail.jpg",
+    "bytes": 49501,
+    "sha256": "caad139d2b16c982988ba9a55fc049918d0141244168808313430fcce0781715"
+  },
+  {
+    "path": "13-430培养与旧桥布局/hub.jpg",
+    "bytes": 88913,
+    "sha256": "27126713399a0ed86a1d2b28c53a5f5d9846cc7bc70be0af76370a0d47dd514e"
+  },
+  {
+    "path": "13-430培养与旧桥布局/log.jpg",
+    "bytes": 45704,
+    "sha256": "22da7a031d3b5347027b500945c6a871c04135bd68833a60899c147527dc4fe7"
+  },
+  {
+    "path": "13-430培养与旧桥布局/report.json",
+    "bytes": 14542,
+    "sha256": "f797111aec79e532f308b3988a79141f36ffe65c3dcb9fb5f9bab6d1f837f08a"
+  },
+  {
+    "path": "13-430培养与旧桥布局/route.jpg",
+    "bytes": 47425,
+    "sha256": "36832ee71327bb968a754b4e161a3012588d31017a82edbb6f6ad69b63352db7"
+  },
+  {
+    "path": "13-430培养与旧桥布局/target-preview.jpg",
+    "bytes": 130678,
+    "sha256": "a8e0412e32d5f8577d20fb54214eb77c1c2db74d316d83b78c6fb54aa1b566f9"
+  },
+  {
+    "path": "13-430培养与旧桥布局/train-nav.jpg",
+    "bytes": 52617,
+    "sha256": "a94c1c865a253ea47376a34595e2266743252978be8b83f4fd71cc04c801a2c3"
+  },
+  {
+    "path": "13-430培养与旧桥布局/train-orangecat.jpg",
+    "bytes": 53955,
+    "sha256": "ac33d1a2bb892c3e67d4c6f85cb058f751f0b1bdc4e39cd8d412a1df58eaabbd"
+  },
+  {
+    "path": "13-430培养与旧桥布局/train-sheep.jpg",
+    "bytes": 54578,
+    "sha256": "06bc1400a9f5d6c3e639821c252b06ad0522185921f29e982322f3a7aa65a9cd"
+  },
+  {
+    "path": "14-390旧桥最终布局/ally-detail.jpg",
+    "bytes": 49164,
+    "sha256": "4302080ad4845d49f07a8b022f5563159988d57f68ca90dcaa4f435794970f84"
+  },
+  {
+    "path": "14-390旧桥最终布局/battle.jpg",
+    "bytes": 128519,
+    "sha256": "7bf494ee930c50ea0ffdf494c8e81bd32484007bc58624aefc3156e804308fe7"
+  },
+  {
+    "path": "14-390旧桥最终布局/card-detail.jpg",
+    "bytes": 48856,
+    "sha256": "68d62f3a38cab9fb8fbe2d7df307d096ef20edcaa46a3ad18afa410ee1c65bfa"
+  },
+  {
+    "path": "14-390旧桥最终布局/deck-bottom.jpg",
+    "bytes": 55851,
+    "sha256": "1c18c66dbe86ece0f0e15c814ac8cdb6f8d234edb737852a5d611c2f46c3858c"
+  },
+  {
+    "path": "14-390旧桥最终布局/enemy-detail.jpg",
+    "bytes": 51828,
+    "sha256": "3e0af8e863c2cc4d8cda8367d97c9f4a23657e25de53c5f6674563b94bde6028"
+  },
+  {
+    "path": "14-390旧桥最终布局/log.jpg",
+    "bytes": 46730,
+    "sha256": "d91ff5d061aa6ff0d563cc5c90fce07663484c13edf4da88b5e1f69d29bbf5b6"
+  },
+  {
+    "path": "14-390旧桥最终布局/report.json",
+    "bytes": 9165,
+    "sha256": "04fd119b113f132e11520800de61876da06fc746eb7455507793c8b121226ee5"
+  },
+  {
+    "path": "14-390旧桥最终布局/target-preview.jpg",
+    "bytes": 129934,
+    "sha256": "1e0ba92f56c65fa15489b15f6b4d872bb92a0cf77729e852142505503a1c3a23"
+  },
+  {
+    "path": "15-390旧桥通关/final-result.jpg",
+    "bytes": 45109,
+    "sha256": "c7a1403e3092663ed10f330fe70f308c85dd44001207121eb8a3a95fe847c288"
+  },
+  {
+    "path": "15-390旧桥通关/node-1-battle.jpg",
+    "bytes": 128637,
+    "sha256": "2d7905ac32770de88ec6b96c406e214b509c899ef6776969afa94f2998599144"
+  },
+  {
+    "path": "15-390旧桥通关/node-1-cardReward.jpg",
+    "bytes": 47036,
+    "sha256": "2227594df93c7c72726ecaca39d1ac00dbc66bcd87fc24bd6eb34c9955cb7ab5"
+  },
+  {
+    "path": "15-390旧桥通关/node-2-battle.jpg",
+    "bytes": 127902,
+    "sha256": "c09787bb5760ee5753c9f290bbcb2b09a17fa848da1a6f94166b0624ce77b238"
+  },
+  {
+    "path": "15-390旧桥通关/node-2-cardReward.jpg",
+    "bytes": 50867,
+    "sha256": "60c31a9dfdc3c7a8277c424c3784d6daec1c2ce6c48282c5ad5badb3ef5a7dd2"
+  },
+  {
+    "path": "15-390旧桥通关/node-2-map.jpg",
+    "bytes": 34860,
+    "sha256": "b5543278cc94126f576625ee52276beb67a6c6a4d749ad3b25f575f81dce448b"
+  },
+  {
+    "path": "15-390旧桥通关/node-3-event.jpg",
+    "bytes": 53941,
+    "sha256": "20b882dfb018bcbbe7bc0d966b35b9c05d2e400bb8ceccff0bf0b65c863bd45f"
+  },
+  {
+    "path": "15-390旧桥通关/node-3-map.jpg",
+    "bytes": 34847,
+    "sha256": "692788d5523ed0aad3e0468d158c16c853783f6c3cb9480e49ccd8c824ed86c8"
+  },
+  {
+    "path": "15-390旧桥通关/node-4-battle.jpg",
+    "bytes": 128024,
+    "sha256": "e094706e25cf37cacf23d83eb743111278220e27d48a5c791af2642d74493689"
+  },
+  {
+    "path": "15-390旧桥通关/node-4-cardReward.jpg",
+    "bytes": 47183,
+    "sha256": "2ac03293c192a1d6b7220da0673186876e273731fa5efeb738bcede686d27be7"
+  },
+  {
+    "path": "15-390旧桥通关/node-4-map.jpg",
+    "bytes": 46286,
+    "sha256": "68942201c501000e9155fff71c81850ee45427a7805c137deaefbb18e476fefd"
+  },
+  {
+    "path": "15-390旧桥通关/node-5-camp.jpg",
+    "bytes": 51065,
+    "sha256": "cb2ca158b9478dec2b517d2e7e5b443613c7969c7122d96e85efd6e4461952db"
+  },
+  {
+    "path": "15-390旧桥通关/node-5-map.jpg",
+    "bytes": 37248,
+    "sha256": "da7df13805f51a20140f923ed4f9c0d05b14f848d2977767e1122d402be467f5"
+  },
+  {
+    "path": "15-390旧桥通关/node-6-battle.jpg",
+    "bytes": 128503,
+    "sha256": "5c2df22207f33b027096ad7bcab5d6c93386bab51337edb028b6134fed010107"
+  },
+  {
+    "path": "15-390旧桥通关/node-6-map.jpg",
+    "bytes": 45463,
+    "sha256": "75a5b51d70faf13c52890b659edacf89dd1efb3af40a1c8d998e962e78317bec"
+  },
+  {
+    "path": "15-390旧桥通关/node-6-relicReward.jpg",
+    "bytes": 52005,
+    "sha256": "5423eecf498702614cbbef2a9939e1a63f82fabf73c02d7a79601ec2a7300da3"
+  },
+  {
+    "path": "15-390旧桥通关/node-7-map.jpg",
+    "bytes": 40667,
+    "sha256": "0c6b4f6d4bcd6ef8834c344ab174dd764bcc2ed80af7c2e1948454da9ffdfe19"
+  },
+  {
+    "path": "15-390旧桥通关/node-7-relicReward.jpg",
+    "bytes": 47381,
+    "sha256": "a2e83dd9f7b66bc129826a3fa866ebc1820cf396f7850b5ec311ad33ec9feb94"
+  },
+  {
+    "path": "15-390旧桥通关/node-8-battle.jpg",
+    "bytes": 127762,
+    "sha256": "920c0cfbef27f4ab2da30a8e01869c2e90765a2a11fea03a2f8769dc5f8a13ec"
+  },
+  {
+    "path": "15-390旧桥通关/node-8-cardReward.jpg",
+    "bytes": 49687,
+    "sha256": "e33d467ba5d8c243b6a727ee3c49b8aba88fb165a85506a2676023b39360d9f1"
+  },
+  {
+    "path": "15-390旧桥通关/node-8-map.jpg",
+    "bytes": 37291,
+    "sha256": "d5f2ec233aaf4081382918c9c4098038e92c5f4fcd06ea423be6a551c3d63580"
+  },
+  {
+    "path": "15-390旧桥通关/node-9-battle-boss-1.jpg",
+    "bytes": 128879,
+    "sha256": "28339b317658ecc881f774a4a6d1365d344a13a61f1ca62869193bf0f665efbc"
+  },
+  {
+    "path": "15-390旧桥通关/node-9-battle-boss-2.jpg",
+    "bytes": 128857,
+    "sha256": "a2be33c469995c03e8c1e91ffe6c5c4b65ad83af8352fb00ec896571fbb80dea"
+  },
+  {
+    "path": "15-390旧桥通关/node-9-map.jpg",
+    "bytes": 42006,
+    "sha256": "35ba1b32089bff8c0bcaf3a1b816ba23c0df3c522324bc7cba9f78ba5e95679a"
+  },
+  {
+    "path": "15-390旧桥通关/report.json",
+    "bytes": 164772,
+    "sha256": "cb4fcb3dd3029423ebe5b2f3cfffb3058ab04a1b2f0f187d4789d83774a8065b"
+  },
+  {
+    "path": "16-最终命名与静态检查/budget.json",
+    "bytes": 7134,
+    "sha256": "eb29a9e4d41c40ede7d46288ecd724f817e2684e6c3d68bbd770098f030b05b7"
+  },
+  {
+    "path": "16-最终命名与静态检查/report.json",
+    "bytes": 426,
+    "sha256": "eefa9fd5571c9c750c8e02fe578708b42fa6419822dbff8c6768972240f68792"
+  },
+  {
+    "path": "16-最终命名与静态检查/tests.log",
+    "bytes": 11242,
+    "sha256": "16b4efcb312689f528cc92d037ff8e3b4e39562b59dd11b5da63b142c693dad8"
+  },
+  {
+    "path": "16-最终命名与静态检查/wxss.log",
+    "bytes": 112,
+    "sha256": "df1d3e42072e0534c76975aae2e40c2591a491a8627df6ace0e0ddf619862084"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/ally-detail.jpg",
+    "bytes": 54242,
+    "sha256": "87ca81e372f0b7d0c6d2ba0053ea81d26f70803f99ef797be1d96e5b27ff81d4"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/battle.jpg",
+    "bytes": 115998,
+    "sha256": "c6a57a8e61a80dd7476d2e65fa00f8f6afc89273c9f072589ee0aa972d128e06"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/card-detail.jpg",
+    "bytes": 53220,
+    "sha256": "b192118c72dafcfbff3fdb2a4fce08f76b5a17110ef62563f55fab02c5c529ad"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/deck-bottom.jpg",
+    "bytes": 50579,
+    "sha256": "b9276ee7db5f2b48ba7b3dd3cf6c93786cbd8f712ee39d2b5e52891ee8af5d9a"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/enemy-detail.jpg",
+    "bytes": 50432,
+    "sha256": "50146c0df50382829ca6af857bf0e1cc43334655fb8ae85c08dac9f856e67f57"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/hub.jpg",
+    "bytes": 89914,
+    "sha256": "22ad0f481e34319a8bfea9fbd7eff159c488c7fa85b6651c1e0864d9eb57ca8d"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/log.jpg",
+    "bytes": 53097,
+    "sha256": "062740baa352047234c36c31ff69b5fc124f8f6325b17eec80f37d5a090a85ff"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/report.json",
+    "bytes": 14551,
+    "sha256": "1a7a66c6f7c8db2d78058f6579e85b0fb1ea298db626a00a403e375c892c2b75"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/route.jpg",
+    "bytes": 51849,
+    "sha256": "d588c7c1e40f5ff923575cdae9e52555ead1abcfde8aeaa80768ee7be611afc1"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/target-preview.jpg",
+    "bytes": 115525,
+    "sha256": "9008ca0640db84260d2954da486356dbd701f547898336dc28c696245b950a48"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/train-nav.jpg",
+    "bytes": 50992,
+    "sha256": "8d0c9955fd79c061240a353c09c3858a438c09e8332d6746ae3ddb4914ba2314"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/train-orangecat.jpg",
+    "bytes": 52694,
+    "sha256": "afa11902fad137d6d54fa27868657ce817c7812d07434707a041c9dd65d2ec24"
+  },
+  {
+    "path": "17-320培养与灯市最终布局/train-sheep.jpg",
+    "bytes": 52019,
+    "sha256": "d8730702f3e7b6ee63d2a120dd3347e94916a5fe1a5feb6c5f3446496306d9a5"
+  },
+  {
+    "path": "18-320灯市通关/final-result.jpg",
+    "bytes": 42332,
+    "sha256": "a4e979f640ce81e6fbc842c5a282ea4f623c7d26680953413a044df85fd8ac84"
+  },
+  {
+    "path": "18-320灯市通关/node-1-battle.jpg",
+    "bytes": 116040,
+    "sha256": "929098e7b904f4366f295232a0e1e7e5083e82ad31b1e513047475db17e0ecb4"
+  },
+  {
+    "path": "18-320灯市通关/node-1-cardReward.jpg",
+    "bytes": 47317,
+    "sha256": "95ea716f8cbdf30f16d341237b7739f90f3fd848b0a277d21d42abb17a9139dd"
+  },
+  {
+    "path": "18-320灯市通关/node-2-battle.jpg",
+    "bytes": 115875,
+    "sha256": "09bdc5acf710fa2b9455e419dc810a1753374b73d9806ba3ff01c83df0d482c4"
+  },
+  {
+    "path": "18-320灯市通关/node-2-cardReward.jpg",
+    "bytes": 49921,
+    "sha256": "0ffc32e5bc6e4c04b79cfa4bf1a732caef35d9b64013c593156fbe7b0c642043"
+  },
+  {
+    "path": "18-320灯市通关/node-2-map.jpg",
+    "bytes": 33669,
+    "sha256": "961920cd7a3afc9636c3253b0ef3e1cfd3348373fb1f2b16afbba0b9c6eed201"
+  },
+  {
+    "path": "18-320灯市通关/node-3-map.jpg",
+    "bytes": 39268,
+    "sha256": "57effdfc9197725e03d9e75455f1d9fbe84bdf1ee1b8dabe3fe4376cca015029"
+  },
+  {
+    "path": "18-320灯市通关/node-3-relicReward.jpg",
+    "bytes": 42966,
+    "sha256": "482d7c02db7367585812871847c72bb1c2ed14c696ecf47f47a1d377a9c9b646"
+  },
+  {
+    "path": "18-320灯市通关/node-4-event.jpg",
+    "bytes": 47176,
+    "sha256": "c90406145d5b15f6582a204e85eb8a60d4a2ff72ce9c8adf33a0135edd29f9b5"
+  },
+  {
+    "path": "18-320灯市通关/node-4-map.jpg",
+    "bytes": 42014,
+    "sha256": "8dd9ea820967980a4f3eaed5d87cdea11df4a065113d6e19d83230a172fb7b3b"
+  },
+  {
+    "path": "18-320灯市通关/node-5-battle.jpg",
+    "bytes": 116629,
+    "sha256": "4821546d1f390145a9ae1ee51608d01b0c79c83da450bb381de14f9768bde3d0"
+  },
+  {
+    "path": "18-320灯市通关/node-5-cardReward.jpg",
+    "bytes": 49898,
+    "sha256": "ad411157cfcf1cbfa07930b6815dd540af9a2e3be2680d0395982e1cd1f13bf9"
+  },
+  {
+    "path": "18-320灯市通关/node-5-map.jpg",
+    "bytes": 41191,
+    "sha256": "63e83faeb84bc6d5b0ab2805013f7dce6dff4044e0731c7b5f9ab74ca70ea2a9"
+  },
+  {
+    "path": "18-320灯市通关/node-6-camp.jpg",
+    "bytes": 49335,
+    "sha256": "aeefa437449e0cef2c67c11688d48fa6c53718fa3435de1ff737bb8a28fe3883"
+  },
+  {
+    "path": "18-320灯市通关/node-6-map.jpg",
+    "bytes": 34736,
+    "sha256": "43922a82ee59fc84a8b3ede84d859da31e20e8704443eff6248b5fc4da873673"
+  },
+  {
+    "path": "18-320灯市通关/node-7-battle.jpg",
+    "bytes": 116312,
+    "sha256": "0bc9bb03722fe7fdd1ba7fdf2cd2e4c9ecb61b9a915efd20df64a60546efb8a3"
+  },
+  {
+    "path": "18-320灯市通关/node-7-map.jpg",
+    "bytes": 39922,
+    "sha256": "c99e551ce8269914c0b72a3586697bc6ff73727ad3bf09f1228b43b07fc2feda"
+  },
+  {
+    "path": "18-320灯市通关/node-7-relicReward.jpg",
+    "bytes": 55559,
+    "sha256": "bdfe10d5cd0f4f0d858518653c8cd6c8c547c5ab5bb49e223ec2f06d4c4c3a38"
+  },
+  {
+    "path": "18-320灯市通关/node-8-battle.jpg",
+    "bytes": 116398,
+    "sha256": "3851f9f0724c3b3a751a806d0216b2b88438f95958194a7be3a82b2fe1878200"
+  },
+  {
+    "path": "18-320灯市通关/node-8-cardReward.jpg",
+    "bytes": 49810,
+    "sha256": "1c86696265187c06fa92c24574a580a71ce9003b98efea25fab674be87d7c7a8"
+  },
+  {
+    "path": "18-320灯市通关/node-8-map.jpg",
+    "bytes": 39267,
+    "sha256": "f49a383fee7178722ecae4db3dff1522dc829ffe392935e3d2e7dbf3c8a1436a"
+  },
+  {
+    "path": "18-320灯市通关/node-9-battle-boss-1.jpg",
+    "bytes": 116691,
+    "sha256": "029d96fac88d8989a220f061c4c95bbc827af817d65aa54bb8b4980ea527cf1a"
+  },
+  {
+    "path": "18-320灯市通关/node-9-battle-boss-2.jpg",
+    "bytes": 116785,
+    "sha256": "0763a34209dc3499ccd3e516865bd5354cf93631c147740c37346bb4904e84d7"
+  },
+  {
+    "path": "18-320灯市通关/node-9-battle.jpg",
+    "bytes": 107783,
+    "sha256": "073982e8424360591dcffa591a1e685960be9c4c487fe315c064cf5a56009c15"
+  },
+  {
+    "path": "18-320灯市通关/node-9-map.jpg",
+    "bytes": 34482,
+    "sha256": "c7a21e347e9a8cec4ae214893c3f8f69997d6f22f87f09316c61478dd1a65dd7"
+  },
+  {
+    "path": "18-320灯市通关/report.json",
+    "bytes": 201661,
+    "sha256": "a4f4e963712dcf5c9bbc739dee7b7e4d1096ed0c374bcb3395a278f70dab119b"
+  },
+  {
+    "path": "19-封面修正后最终静态检查/budget.json",
+    "bytes": 7135,
+    "sha256": "af6d3ddb5f45da4c982e9e12e786b4cdd2263ad3ceb3b618e07b5d4c6b397914"
+  },
+  {
+    "path": "19-封面修正后最终静态检查/report.json",
+    "bytes": 426,
+    "sha256": "8928ed57c13f844851e7ee35eadd0153831f759a2c0cc03964577dcd3a897f13"
+  },
+  {
+    "path": "19-封面修正后最终静态检查/tests.log",
+    "bytes": 11244,
+    "sha256": "50db46ea352586f065b6925051fb4a5d4365d761c7fd73b523a4164afda943b1"
+  },
+  {
+    "path": "19-封面修正后最终静态检查/wxss.log",
+    "bytes": 112,
+    "sha256": "df1d3e42072e0534c76975aae2e40c2591a491a8627df6ace0e0ddf619862084"
+  },
+  {
+    "path": "20-430主包封面与主页面复验/collection-bottom.jpg",
+    "bytes": 52650,
+    "sha256": "4e9cd3a6cfbd6fe9bfe6ccf2cc6a5f3afb7854f3535d2e9cf29bc64a3c58ddc4"
+  },
+  {
+    "path": "20-430主包封面与主页面复验/collection-top.jpg",
+    "bytes": 63487,
+    "sha256": "cc34b1a090cc54e01ce0bb43bfd1258d11d538af94dfd0d39f3961e4457ec8af"
+  },
+  {
+    "path": "20-430主包封面与主页面复验/home-new-art.jpg",
+    "bytes": 79659,
+    "sha256": "e7284a60b05de1291386095d5b841d984e1b120adf8e4e907001813219d672db"
+  },
+  {
+    "path": "20-430主包封面与主页面复验/region-bridge-cover.jpg",
+    "bytes": 71465,
+    "sha256": "66cc1bb3077e2922cba6338f63b9f5bff13cadef5d6b7d7d8d165f5a433b3506"
+  },
+  {
+    "path": "20-430主包封面与主页面复验/region-market-cover.jpg",
+    "bytes": 71265,
+    "sha256": "05c50ae0a8d98614aa6710259ec911caa88658cb34c689a5df3b1fb350a9bece"
+  },
+  {
+    "path": "20-430主包封面与主页面复验/region-street-cover.jpg",
+    "bytes": 73409,
+    "sha256": "daa4ce4be38abf968a7ca4ca0506e1b21cad1f926e94542138495f178db64e8a"
+  },
+  {
+    "path": "20-430主包封面与主页面复验/report.json",
+    "bytes": 9683,
+    "sha256": "0ed7271f9c20e55a474f0c75b4aa2906ebdea8561e28d493d261c9e0b13243d3"
+  },
+  {
+    "path": "20-430主包封面与主页面复验/seedling-archive.jpg",
+    "bytes": 46497,
+    "sha256": "dc3f4cce7f11857f60a9261077ea32eaa4fbf7a6cb52bc46fd993f9d9bf1ed23"
+  },
+  {
+    "path": "20-430主包封面与主页面复验/story-bottom.jpg",
+    "bytes": 48372,
+    "sha256": "b848a0bc6a51610e738be4a03b5aaf1d13bbbe9390e6a792e889c5e778c41297"
+  },
+  {
+    "path": "20-430主包封面与主页面复验/story-top.jpg",
+    "bytes": 55297,
+    "sha256": "6f04f0a2a4411e00c987874014ed3c735b99703e185bbf21dadb6a631f56b933"
+  },
+  {
+    "path": "21-430四档真实运动/430-R-motion.json",
+    "bytes": 13986,
+    "sha256": "707d5ccbf91ab37dbef8e08307dc9be45f3e942a85bc33c9b8c4aba93dec0dc4"
+  },
+  {
+    "path": "21-430四档真实运动/430-R-replay.jpg",
+    "bytes": 72432,
+    "sha256": "ae0512053e08d6c3cb945814647d5911007e3ac7a73cb533fe798bcb14fa1cc8"
+  },
+  {
+    "path": "21-430四档真实运动/430-SR-motion.json",
+    "bytes": 18408,
+    "sha256": "bd58c03925278053ec0dfb22f65309d8769917a63a2562089864b1727bae1ee3"
+  },
+  {
+    "path": "21-430四档真实运动/430-SR-replay.jpg",
+    "bytes": 74605,
+    "sha256": "a1e85221a33b6372cafeaba0bc03409e4573680ccb20c2f5159fcdf85991956f"
+  },
+  {
+    "path": "21-430四档真实运动/430-SSR-motion.json",
+    "bytes": 13942,
+    "sha256": "814eb986528fab76b81e55122a7f87d21523f3207d2dba6038ffbd682840afeb"
+  },
+  {
+    "path": "21-430四档真实运动/430-SSR-replay.jpg",
+    "bytes": 76413,
+    "sha256": "6283af0ad83c2c2f8e1a893819113cb6ba9bc7d9f8333a209d0f94d50ee914ab"
+  },
+  {
+    "path": "21-430四档真实运动/430-UR-motion.json",
+    "bytes": 22594,
+    "sha256": "9351330aa96f4295d5370c8be926fb5c5f6038a0c576f3e041460126fe2a036a"
+  },
+  {
+    "path": "21-430四档真实运动/430-UR-replay.jpg",
+    "bytes": 76676,
+    "sha256": "32c6db2cf578d5b285e7e7e5b53e5b4a86623f37be7c3cab25c43f701649dd9b"
+  },
+  {
+    "path": "21-430四档真实运动/430-unowned-no-replay.jpg",
+    "bytes": 49949,
+    "sha256": "040658323fd1474fb10b4ff4f6db45066ee33a4d6da65f9a709a794214f5e0e7"
+  },
+  {
+    "path": "21-430四档真实运动/report.json",
+    "bytes": 92766,
+    "sha256": "87efeda32b00c912bbc0efcc0f146c3e15606abc1f3778049a640e905c120ec8"
+  },
+  {
+    "path": "22-390四档真实运动/390-R-motion.json",
+    "bytes": 14028,
+    "sha256": "a28202cb138ec2f16207917b8406a4784a121d5464201e7888e4fc40c7918d22"
+  },
+  {
+    "path": "22-390四档真实运动/390-R-replay.jpg",
+    "bytes": 77264,
+    "sha256": "e0c916b867cffc04a83e78c2fc8ef81c3ffe95468d534283fa2d54aaec707682"
+  },
+  {
+    "path": "22-390四档真实运动/390-SR-motion.json",
+    "bytes": 18562,
+    "sha256": "4a8dc1b92998a0cbbec9258fe72235573edc50c9ff20a5c2230c2300f3502265"
+  },
+  {
+    "path": "22-390四档真实运动/390-SR-replay.jpg",
+    "bytes": 79563,
+    "sha256": "a53088f9705b830ff18b31bb443df12df7e1ba26b790ad891fa596be46de7ac0"
+  },
+  {
+    "path": "22-390四档真实运动/390-SSR-motion.json",
+    "bytes": 13542,
+    "sha256": "8f88c8695a659eb486555cda4d06cd7e021c1cb2233b970132d68e9095248b15"
+  },
+  {
+    "path": "22-390四档真实运动/390-SSR-replay.jpg",
+    "bytes": 81200,
+    "sha256": "86e6c139fec69ab75e0cbfb5da0c4f364d4f2dee20ce1c787a0d37e12e37d103"
+  },
+  {
+    "path": "22-390四档真实运动/390-UR-motion.json",
+    "bytes": 22485,
+    "sha256": "95b07943c84b3de92779842a0bf73e199af4d31b047a380a8006da8088a87ca3"
+  },
+  {
+    "path": "22-390四档真实运动/390-UR-replay.jpg",
+    "bytes": 81987,
+    "sha256": "2efdfdcb48556aff06d26f6c0dc1bf457cc30bedbeb01539ed8d294c8e7215cd"
+  },
+  {
+    "path": "22-390四档真实运动/390-unowned-no-replay.jpg",
+    "bytes": 50817,
+    "sha256": "a33e05008d7d8aa14c28903d7d0bc00357b4316d08c43a12ca2c0230b2ea0c24"
+  },
+  {
+    "path": "22-390四档真实运动/report.json",
+    "bytes": 92500,
+    "sha256": "20b5f602e752c5be025b87aadc98b400cf22f66b3697d2f0ec943ba26a5ee7c0"
+  },
+  {
+    "path": "23-320四档真实运动/320-R-motion.json",
+    "bytes": 14021,
+    "sha256": "a8d0aa9643ce51d07a6aaccde1a816385395c41e68dda427cd4c645a4038970b"
+  },
+  {
+    "path": "23-320四档真实运动/320-R-replay.jpg",
+    "bytes": 67994,
+    "sha256": "88c56f250778e1623a49e582780c4e33afa4b43ec7c24a747fb00b839ca0dbfe"
+  },
+  {
+    "path": "23-320四档真实运动/320-SR-motion.json",
+    "bytes": 18582,
+    "sha256": "c683efb2d88458487e8a5d3f89f712d1889af949a8a7bc6c7ddfe3fc01f82f16"
+  },
+  {
+    "path": "23-320四档真实运动/320-SR-replay.jpg",
+    "bytes": 70068,
+    "sha256": "60564508986c5b406b9de86a7390c2f291e14ce535aabd2620219fab408581bd"
+  },
+  {
+    "path": "23-320四档真实运动/320-SSR-motion.json",
+    "bytes": 13774,
+    "sha256": "d75d6806689b42254ce820891dc7b774d9bc105b7aeb4ec9d0ccf7521e61bf86"
+  },
+  {
+    "path": "23-320四档真实运动/320-SSR-replay.jpg",
+    "bytes": 69712,
+    "sha256": "f880ddb0dd77919ac02d8ca7a47fa81b00a552df399f264011a0261b57acd2f7"
+  },
+  {
+    "path": "23-320四档真实运动/320-UR-motion.json",
+    "bytes": 22377,
+    "sha256": "81a75394af7407c032bb1c7dc7bb8f696b96532a98fc398d446b3e6bf3e5d8ec"
+  },
+  {
+    "path": "23-320四档真实运动/320-UR-replay.jpg",
+    "bytes": 72243,
+    "sha256": "05169e40daa8a9c406e6217454cf728639310c8bb404e4e22c0c6a714f779209"
+  },
+  {
+    "path": "23-320四档真实运动/320-unowned-no-replay.jpg",
+    "bytes": 39448,
+    "sha256": "00db38f2ec06bcf1c0fc9c259b2c37270a782ad199097cbe61e57c1c62ec8209"
+  },
+  {
+    "path": "23-320四档真实运动/report.json",
+    "bytes": 92629,
+    "sha256": "af01c4dfee27a66656034154f4a936e03036e328d2c9197d18c0f3603a64fbf6"
+  },
+  {
+    "path": "24-独立源项目只读打开/NOTE.md",
+    "bytes": 419,
+    "sha256": "67bded80d2670ef3a839fedb4ac00c628ec4e2c0c65fef68862f489086ee8032"
+  },
+  {
+    "path": "24-独立源项目只读打开/budget.json",
+    "bytes": 7135,
+    "sha256": "9dba90de7b53d0bf22438675f046a82b9dfce5a76cad2dfb4f57cbe74adb4c7d"
+  },
+  {
+    "path": "24-独立源项目只读打开/report.json",
+    "bytes": 884,
+    "sha256": "fc16c3e7cb671460fb49e333bf6173309a4667c707dae05bf8c3941c361ba57e"
+  },
+  {
+    "path": "24-独立源项目只读打开/source-adventure.jpg",
+    "bytes": 76876,
+    "sha256": "029b6b6fbc64aa2625a275b57be86f35a1f0071b9286af44415218572be4ab98"
+  },
+  {
+    "path": "24-独立源项目只读打开/早期选择器检查/error.txt",
+    "bytes": 78,
+    "sha256": "f79039a56e8b6756f3816c17bc946711f4d56beba74ba85d6cd795ca59ef2c72"
+  },
+  {
+    "path": "25-旧隔离存档实读/report.json",
+    "bytes": 983,
+    "sha256": "00134cf0258ddb1b2848c82b9f8654077854d5fc1ba04d74e6aafc65dfd09ad0"
+  },
+  {
+    "path": "26-主包封面依据与派生/README.md",
+    "bytes": 970,
+    "sha256": "558514f404bcc7e5aee6da75a44800e4f20bbec2995052da54b591ff01ac5a0e"
+  },
+  {
+    "path": "26-主包封面依据与派生/build-report.json",
+    "bytes": 887,
+    "sha256": "b0e1d6edf041483b5c33f0fe1b996e8652c24e1d7eb934613c2c8a2a5ec2c5f5"
+  },
+  {
+    "path": "26-主包封面依据与派生/measurement.json",
+    "bytes": 6234,
+    "sha256": "a2251b8fcedb319f899a4f1d942fa27a04225a850e723d03f0d8780cd1e14594"
+  },
+  {
+    "path": "26-主包封面依据与派生/recommended-320-q50-overview-2x.png",
+    "bytes": 802468,
+    "sha256": "fa479924b74a448e01b8c9f9936dfb90aa0512dbaf64d593e79c3a79fe7fa779"
+  },
+  {
+    "path": "27-采样输出截断记录/430-R-motion.json",
+    "bytes": 273,
+    "sha256": "16e430129e1afc7af44947c78edff5841942782a14ea9b528bc29f4a4b1eb4d2"
+  },
+  {
+    "path": "27-采样输出截断记录/after-error-state.json",
+    "bytes": 177,
+    "sha256": "cfeceeccbc9c41aaf27e6e92eafbaced6d499de2c77ec3aba7b6da990cf1b4f6"
+  },
+  {
+    "path": "27-采样输出截断记录/report.json",
+    "bytes": 1986,
+    "sha256": "888a27d4e279bf1c4bc0a4005c6ab5d687909c7b3fb86744f2c30004b0eb9468"
+  },
+  {
+    "path": "28-运行会话失效记录/NOTE.md",
+    "bytes": 244,
+    "sha256": "e1f94420e76909267eca3585e0a7d6ac4dd80e9fb130339eaa7f547a8a3fe11f"
+  },
+  {
+    "path": "28-运行会话失效记录/report.json",
+    "bytes": 1018,
+    "sha256": "ce59c66134c5386dfddac6e181d09ae69109391f82651647029af66de20e7f33"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7051,
+    "sha256": "a2b7edb16f49c80950f79892672ff988e64d7f65997375e4f09fe094262f403b"
+  },
+  {
+    "path": "archive-manifest.json",
+    "bytes": 1595,
+    "sha256": "d4201fae9ca0929c243a6531cc8a0dbfc2f1355de254a5d1d984464140a06e58"
+  },
+  {
+    "path": "source-sha256-before-covers.json",
+    "bytes": 32127,
+    "sha256": "11a806cf20b93d09dca843b3f885141227be49230c71362f58b2792a86ccdd3c"
+  },
+  {
+    "path": "source-sha256-before-labels.json",
+    "bytes": 16282,
+    "sha256": "fc692c0ce6264be8de9579bf7f97e3f49025a805923c531160f5a8f2242dac4c"
+  },
+  {
+    "path": "source-sha256.json",
+    "bytes": 32667,
+    "sha256": "2de0f54123ce76fb5e71173521c82605dda38875461dc4f687b3295b4b22c841"
+  }
+]

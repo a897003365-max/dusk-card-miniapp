@@ -1,0 +1,72 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-y19ZgE",
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "width": 430,
+  "checks": [
+    {
+      "name": "目标为独立验收命名空间",
+      "pass": true
+    },
+    {
+      "name": "原生视口宽度符合验收目标",
+      "pass": true
+    },
+    {
+      "name": "邮戳与结算标题没有重叠",
+      "pass": false
+    }
+  ],
+  "shots": [
+    {
+      "name": "receipt-top",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-y19ZgE/receipt-top.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    }
+  ],
+  "status": "fail",
+  "receiptRects": [
+    {
+      "id": "",
+      "dataset": {},
+      "left": 37,
+      "right": 393,
+      "top": 128,
+      "bottom": 164.4453125,
+      "width": 356,
+      "height": 36.4453125
+    },
+    {
+      "id": "",
+      "dataset": {},
+      "left": 290.8202209472656,
+      "right": 381.1797790527344,
+      "top": 55.820220947265625,
+      "bottom": 146.17977905273438,
+      "width": 90.35955810546875,
+      "height": 90.35955810546875
+    },
+    {
+      "id": "",
+      "dataset": {},
+      "left": 14,
+      "right": 416,
+      "top": 18,
+      "bottom": 782,
+      "width": 402,
+      "height": 764
+    },
+    {
+      "id": "",
+      "dataset": {},
+      "left": 15,
+      "right": 415,
+      "top": 714,
+      "bottom": 781,
+      "width": 400,
+      "height": 67
+    }
+  ],
+  "error": "AssertionError [ERR_ASSERTION]: 邮戳与结算标题没有重叠\n    at Object.check (/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/tests/helpers/native-adventure.js:86:5)\n    at /Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/tests/tactics-layout-runtime.js:35:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+}

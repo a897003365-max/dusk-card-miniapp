@@ -1,0 +1,10 @@
+{
+  "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp",
+  "copy": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "files": 464,
+  "exceptions": [
+    "app.js替换隔离存档KEY",
+    "项目注册配置保留"
+  ],
+  "mismatches": []
+}

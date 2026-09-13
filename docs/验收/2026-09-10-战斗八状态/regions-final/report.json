@@ -1,0 +1,1197 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-nyMDCE",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-DNJ0zl",
+  "width": 320,
+  "checks": [
+    {
+      "name": "运行存档属于隔离副本",
+      "pass": true
+    },
+    {
+      "name": "实际模拟器宽度一致",
+      "pass": true
+    },
+    {
+      "name": "bridge由既有真实进度解锁",
+      "pass": true
+    },
+    {
+      "name": "bridge从正常地图开始",
+      "pass": true
+    },
+    {
+      "name": "bridge真实打开对应战斗页面",
+      "pass": true
+    },
+    {
+      "name": "bridge三位伙伴实际使用对应动作图片",
+      "pass": true
+    },
+    {
+      "name": "bridge选牌和目标预览允许操作",
+      "pass": true
+    },
+    {
+      "name": "bridge战斗内公开入口先显示确认",
+      "pass": true
+    },
+    {
+      "name": "结束远行确认完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "bridge三位伙伴实际显示退场PNG",
+      "pass": true
+    },
+    {
+      "name": "bridge退场有连续变换",
+      "pass": true
+    },
+    {
+      "name": "bridge退场动画期间已完成持久化",
+      "pass": true
+    },
+    {
+      "name": "bridge主动结束保留永久收获",
+      "pass": true
+    },
+    {
+      "name": "market由既有真实进度解锁",
+      "pass": true
+    },
+    {
+      "name": "market从正常地图开始",
+      "pass": true
+    },
+    {
+      "name": "market真实打开对应战斗页面",
+      "pass": true
+    },
+    {
+      "name": "market三位伙伴实际使用对应动作图片",
+      "pass": true
+    },
+    {
+      "name": "market选牌和目标预览允许操作",
+      "pass": true
+    },
+    {
+      "name": "market战斗内公开入口先显示确认",
+      "pass": true
+    },
+    {
+      "name": "结束远行确认完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "market三位伙伴实际显示退场PNG",
+      "pass": true
+    },
+    {
+      "name": "market退场有连续变换",
+      "pass": true
+    },
+    {
+      "name": "market退场动画期间已完成持久化",
+      "pass": true
+    },
+    {
+      "name": "market主动结束保留永久收获",
+      "pass": true
+    },
+    {
+      "name": "现场error筛选为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "bridge-battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-DNJ0zl/bridge-battle.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    },
+    {
+      "name": "bridge-target-preview",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-DNJ0zl/bridge-target-preview.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    },
+    {
+      "name": "bridge-retreat-confirm",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-DNJ0zl/bridge-retreat-confirm.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    },
+    {
+      "name": "bridge-retreat-result",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-DNJ0zl/bridge-retreat-result.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    },
+    {
+      "name": "market-battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-DNJ0zl/market-battle.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    },
+    {
+      "name": "market-target-preview",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-DNJ0zl/market-target-preview.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    },
+    {
+      "name": "market-retreat-confirm",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-DNJ0zl/market-retreat-confirm.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    },
+    {
+      "name": "market-retreat-result",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-DNJ0zl/market-retreat-result.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".region-tab[data-id=\"bridge\"]",
+      "rect": {
+        "dataset": {
+          "id": "bridge"
+        },
+        "left": 114.3359375,
+        "right": 205.671875,
+        "top": 119.890625,
+        "bottom": 193.0859375,
+        "width": 91.3359375,
+        "height": 73.1953125
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".difficulty-tab[data-id=\"0\"]",
+      "rect": {
+        "dataset": {
+          "id": 0
+        },
+        "left": 15,
+        "right": 106.3359375,
+        "top": 80.0859375,
+        "bottom": 138.6796875,
+        "width": 91.3359375,
+        "height": 58.59375
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".start-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 396,
+        "bottom": 444,
+        "width": 284,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-0-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-0-0"
+        },
+        "left": 59,
+        "right": 176,
+        "top": 327.1875,
+        "bottom": 411.3828125,
+        "width": 117,
+        "height": 84.1953125
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-9\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 16,
+        "right": 68,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 117.078125,
+        "right": 202.9140625,
+        "top": 99.0625,
+        "bottom": 213.65625,
+        "width": 85.8359375,
+        "height": 114.59375
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".exp-log",
+      "rect": {
+        "dataset": {},
+        "left": 264,
+        "right": 308,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".abandon-from-log",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 408.0078125,
+        "bottom": 452.0078125,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-abandon",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 351.6796875,
+        "bottom": 395.6796875,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".finish-run",
+      "rect": {
+        "dataset": {},
+        "left": 23,
+        "right": 297,
+        "top": 414.1796875,
+        "bottom": 458.1796875,
+        "width": 274,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".region-tab[data-id=\"market\"]",
+      "rect": {
+        "dataset": {
+          "id": "market"
+        },
+        "left": 213.671875,
+        "right": 305.0078125,
+        "top": 79.890625,
+        "bottom": 153.0859375,
+        "width": 91.3359375,
+        "height": 73.1953125
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".difficulty-tab[data-id=\"0\"]",
+      "rect": {
+        "dataset": {
+          "id": 0
+        },
+        "left": 15,
+        "right": 106.3359375,
+        "top": 80.0859375,
+        "bottom": 138.6796875,
+        "width": 91.3359375,
+        "height": 58.59375
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".start-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 396,
+        "bottom": 444,
+        "width": 284,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-0-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-0-0"
+        },
+        "left": 59,
+        "right": 176,
+        "top": 327.1875,
+        "bottom": 411.3828125,
+        "width": 117,
+        "height": 84.1953125
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-5\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-5"
+        },
+        "left": 132,
+        "right": 184,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 117.078125,
+        "right": 202.9140625,
+        "top": 99.0625,
+        "bottom": 213.65625,
+        "width": 85.8359375,
+        "height": 114.59375
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".exp-log",
+      "rect": {
+        "dataset": {},
+        "left": 264,
+        "right": 308,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".abandon-from-log",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 407.8046875,
+        "bottom": 451.8046875,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-abandon",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 351.6796875,
+        "bottom": 395.6796875,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".finish-run",
+      "rect": {
+        "dataset": {},
+        "left": 23,
+        "right": 297,
+        "top": 414.1796875,
+        "bottom": 458.1796875,
+        "width": 274,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    }
+  ],
+  "regions": [
+    {
+      "region": "bridge",
+      "images": [
+        {
+          "dataset": {
+            "actor": "sheep",
+            "state": "guard"
+          },
+          "src": "/package-actors-a/assets/sheep/guard.png"
+        },
+        {
+          "dataset": {
+            "actor": "orangecat",
+            "state": "guard"
+          },
+          "src": "/package-actors-b/assets/orangecat/guard.png"
+        },
+        {
+          "dataset": {
+            "actor": "nav",
+            "state": "guard"
+          },
+          "src": "/package-actors-a/assets/nav/guard.png"
+        }
+      ],
+      "card": "小小出手",
+      "samples": [
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.99554, 0, 0, 0.99554, 0, 0.267572)",
+              "opacity": "0.966554"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.99554, 0, 0, 0.99554, 0, 0.267572)",
+              "opacity": "0.966554"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.99554, 0, 0, 0.99554, 0, 0.267572)",
+              "opacity": "0.966554"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.987636, 0, 0, 0.987636, 0, 0.741817)",
+              "opacity": "0.907273"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.987636, 0, 0, 0.987636, 0, 0.741817)",
+              "opacity": "0.907273"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.987636, 0, 0, 0.987636, 0, 0.741817)",
+              "opacity": "0.907273"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.963883, 0, 0, 0.963883, 0, 2.16704)",
+              "opacity": "0.72912"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.963883, 0, 0, 0.963883, 0, 2.16704)",
+              "opacity": "0.72912"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.963883, 0, 0, 0.963883, 0, 2.16704)",
+              "opacity": "0.72912"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.951924, 0, 0, 0.951924, 0, 2.88458)",
+              "opacity": "0.639428"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.951924, 0, 0, 0.951924, 0, 2.88458)",
+              "opacity": "0.639428"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.951924, 0, 0, 0.951924, 0, 2.88458)",
+              "opacity": "0.639428"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.919828, 0, 0, 0.919828, 0, 4.8103)",
+              "opacity": "0.398712"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.919828, 0, 0, 0.919828, 0, 4.8103)",
+              "opacity": "0.398712"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.919828, 0, 0, 0.919828, 0, 4.8103)",
+              "opacity": "0.398712"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        }
+      ],
+      "result": {
+        "win": false,
+        "reason": "旅伴们返回邮局，已获得的星线全部保留",
+        "regionId": "bridge",
+        "regionName": "雨巷旧桥",
+        "difficultyName": "普通",
+        "nodesCleared": 0,
+        "threads": 0,
+        "tickets": 0
+      }
+    },
+    {
+      "region": "market",
+      "images": [
+        {
+          "dataset": {
+            "actor": "sheep",
+            "state": "guard"
+          },
+          "src": "/package-actors-a/assets/sheep/guard.png"
+        },
+        {
+          "dataset": {
+            "actor": "orangecat",
+            "state": "guard"
+          },
+          "src": "/package-actors-b/assets/orangecat/guard.png"
+        },
+        {
+          "dataset": {
+            "actor": "nav",
+            "state": "guard"
+          },
+          "src": "/package-actors-a/assets/nav/guard.png"
+        }
+      ],
+      "card": "小小出手",
+      "samples": [
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.993249, 0, 0, 0.993249, 0, 0.405039)",
+              "opacity": "0.94937"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.993249, 0, 0, 0.993249, 0, 0.405039)",
+              "opacity": "0.94937"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.993249, 0, 0, 0.993249, 0, 0.405039)",
+              "opacity": "0.94937"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.986075, 0, 0, 0.986075, 0, 0.835531)",
+              "opacity": "0.895559"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.986075, 0, 0, 0.986075, 0, 0.835531)",
+              "opacity": "0.895559"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.986075, 0, 0, 0.986075, 0, 0.835531)",
+              "opacity": "0.895559"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.963886, 0, 0, 0.963886, 0, 2.16684)",
+              "opacity": "0.729145"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.963886, 0, 0, 0.963886, 0, 2.16684)",
+              "opacity": "0.729145"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.963886, 0, 0, 0.963886, 0, 2.16684)",
+              "opacity": "0.729145"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.951459, 0, 0, 0.951459, 0, 2.91249)",
+              "opacity": "0.635939"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.951459, 0, 0, 0.951459, 0, 2.91249)",
+              "opacity": "0.635939"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.951459, 0, 0, 0.951459, 0, 2.91249)",
+              "opacity": "0.635939"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.919908, 0, 0, 0.919908, 0, 4.80552)",
+              "opacity": "0.39931"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.919908, 0, 0, 0.919908, 0, 4.80552)",
+              "opacity": "0.39931"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.919908, 0, 0, 0.919908, 0, 4.80552)",
+              "opacity": "0.39931"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        }
+      ],
+      "result": {
+        "win": false,
+        "reason": "旅伴们返回邮局，已获得的星线全部保留",
+        "regionId": "market",
+        "regionName": "夜行灯市",
+        "difficultyName": "普通",
+        "nodesCleared": 0,
+        "threads": 0,
+        "tickets": 0
+      }
+    }
+  ],
+  "status": "pass",
+  "console": ""
+}

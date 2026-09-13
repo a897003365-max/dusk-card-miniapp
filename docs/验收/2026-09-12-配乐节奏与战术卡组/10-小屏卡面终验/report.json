@@ -1,0 +1,499 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-m0UFSr",
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "width": 320,
+  "checks": [
+    {
+      "name": "目标为独立验收命名空间",
+      "pass": true
+    },
+    {
+      "name": "原生视口宽度符合验收目标",
+      "pass": true
+    },
+    {
+      "name": "说明检查处于真实战斗",
+      "pass": true
+    },
+    {
+      "name": "蓄能按钮完整收在44px工具条内",
+      "pass": true
+    },
+    {
+      "name": "小屏费用和伤害摘要分行呈现",
+      "pass": true
+    },
+    {
+      "name": "小屏卡牌持有者未被底边裁切",
+      "pass": true
+    },
+    {
+      "name": "点击HUD直接解释当前全队蓄能",
+      "pass": true
+    },
+    {
+      "name": "charge详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "charge末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "sequence详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "sequence末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "exhaust详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "exhaust末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "retain详细说明由真实点击切换",
+      "pass": true
+    },
+    {
+      "name": "retain末尾说明完整可读",
+      "pass": true
+    },
+    {
+      "name": "状态说明返回原生旅途记录",
+      "pass": true
+    },
+    {
+      "name": "查看说明、滚动与关闭未改变存档或RNG",
+      "pass": true
+    },
+    {
+      "name": "本次布局现场console error为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "battle-hud",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-m0UFSr/battle-hud.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-charge",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-m0UFSr/guide-charge.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-sequence",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-m0UFSr/guide-sequence.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-exhaust",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-m0UFSr/guide-exhaust.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "guide-retain",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-m0UFSr/guide-retain.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "deck-bottom",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-m0UFSr/deck-bottom.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    }
+  ],
+  "status": "pass",
+  "compactCards": [
+    [
+      {
+        "id": "",
+        "dataset": {
+          "uid": "card-7"
+        },
+        "left": 16,
+        "right": 68,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      },
+      {
+        "id": "",
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 74,
+        "right": 126,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      },
+      {
+        "id": "",
+        "dataset": {
+          "uid": "card-6"
+        },
+        "left": 132,
+        "right": 184,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      },
+      {
+        "id": "",
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 190,
+        "right": 242,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      },
+      {
+        "id": "",
+        "dataset": {
+          "uid": "card-4"
+        },
+        "left": 248,
+        "right": 300,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      }
+    ],
+    [
+      {
+        "id": "",
+        "dataset": {},
+        "left": 20,
+        "right": 37,
+        "top": 366,
+        "bottom": 383,
+        "width": 17,
+        "height": 17
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 78,
+        "right": 95,
+        "top": 366,
+        "bottom": 383,
+        "width": 17,
+        "height": 17
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 136,
+        "right": 153,
+        "top": 366,
+        "bottom": 383,
+        "width": 17,
+        "height": 17
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 194,
+        "right": 211,
+        "top": 366,
+        "bottom": 383,
+        "width": 17,
+        "height": 17
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 252,
+        "right": 269,
+        "top": 366,
+        "bottom": 383,
+        "width": 17,
+        "height": 17
+      }
+    ],
+    [
+      {
+        "id": "",
+        "dataset": {},
+        "left": 19,
+        "right": 65,
+        "top": 384,
+        "bottom": 398,
+        "width": 46,
+        "height": 14
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 77,
+        "right": 123,
+        "top": 384,
+        "bottom": 398,
+        "width": 46,
+        "height": 14
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 135,
+        "right": 181,
+        "top": 384,
+        "bottom": 398,
+        "width": 46,
+        "height": 14
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 193,
+        "right": 239,
+        "top": 384,
+        "bottom": 398,
+        "width": 46,
+        "height": 14
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 251,
+        "right": 297,
+        "top": 384,
+        "bottom": 398,
+        "width": 46,
+        "height": 14
+      }
+    ],
+    [
+      {
+        "id": "",
+        "dataset": {},
+        "left": 19,
+        "right": 65,
+        "top": 422,
+        "bottom": 434,
+        "width": 46,
+        "height": 12
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 77,
+        "right": 123,
+        "top": 422,
+        "bottom": 434,
+        "width": 46,
+        "height": 12
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 135,
+        "right": 181,
+        "top": 422,
+        "bottom": 434,
+        "width": 46,
+        "height": 12
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 193,
+        "right": 239,
+        "top": 422,
+        "bottom": 434,
+        "width": 46,
+        "height": 12
+      },
+      {
+        "id": "",
+        "dataset": {},
+        "left": 251,
+        "right": 297,
+        "top": 422,
+        "bottom": 434,
+        "width": 46,
+        "height": 12
+      }
+    ]
+  ],
+  "interactions": [
+    {
+      "selector": ".tactic-hud",
+      "rect": {
+        "dataset": {},
+        "left": 104.703125,
+        "right": 195.703125,
+        "top": 48,
+        "bottom": 92,
+        "width": 91,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"charge\"]",
+      "rect": {
+        "dataset": {
+          "id": "charge"
+        },
+        "left": 27,
+        "right": 111.6640625,
+        "top": 196.3203125,
+        "bottom": 240.3203125,
+        "width": 84.6640625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"sequence\"]",
+      "rect": {
+        "dataset": {
+          "id": "sequence"
+        },
+        "left": 27,
+        "right": 293,
+        "top": 104.3203125,
+        "bottom": 148.3203125,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"exhaust\"]",
+      "rect": {
+        "dataset": {
+          "id": "exhaust"
+        },
+        "left": 117.6640625,
+        "right": 202.328125,
+        "top": 104.3203125,
+        "bottom": 148.3203125,
+        "width": 84.6640625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"retain\"]",
+      "rect": {
+        "dataset": {
+          "id": "retain"
+        },
+        "left": 208.328125,
+        "right": 292.9921875,
+        "top": 104.3203125,
+        "bottom": 148.3203125,
+        "width": 84.6640625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-guide-back",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 399.6796875,
+        "bottom": 443.6796875,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 249,
+        "right": 293,
+        "top": 52.3203125,
+        "bottom": 96.3203125,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".deck-link",
+      "rect": {
+        "dataset": {},
+        "left": 240.65625,
+        "right": 308,
+        "top": 48,
+        "bottom": 92,
+        "width": 67.34375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 249,
+        "right": 293,
+        "top": 52.3203125,
+        "bottom": 96.3203125,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    }
+  ],
+  "console": ""
+}

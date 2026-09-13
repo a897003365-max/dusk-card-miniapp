@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma",
+  "actors": [
+    {
+      "id": "bell-warden-phase2",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/bell-warden-phase2-sheet.png",
+      "sourceHash": "3caaa4ad42a073414e09776da24cf30a99d787c5ad3f6a70a946d4a2ef215faf",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          10191,
+          641
+        ],
+        "removedPixels": 10832
+      },
+      "foregroundPixels": 702156,
+      "assignedPixels": 702156
+    }
+  ],
+  "frames": [
+    {
+      "id": "bell-warden-phase2",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/enter.png",
+      "contentBounds": {
+        "x": 24,
+        "y": 44,
+        "width": 410,
+        "height": 366
+      },
+      "bytes": 25526
+    },
+    {
+      "id": "bell-warden-phase2",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/attack.png",
+      "contentBounds": {
+        "x": 472,
+        "y": 57,
+        "width": 425,
+        "height": 372
+      },
+      "bytes": 24493
+    },
+    {
+      "id": "bell-warden-phase2",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/guard.png",
+      "contentBounds": {
+        "x": 892,
+        "y": 54,
+        "width": 390,
+        "height": 351
+      },
+      "bytes": 24664
+    },
+    {
+      "id": "bell-warden-phase2",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/hurt.png",
+      "contentBounds": {
+        "x": 1353,
+        "y": 61,
+        "width": 395,
+        "height": 353
+      },
+      "bytes": 23339
+    },
+    {
+      "id": "bell-warden-phase2",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/exit.png",
+      "contentBounds": {
+        "x": 68,
+        "y": 467,
+        "width": 313,
+        "height": 374
+      },
+      "bytes": 20450
+    },
+    {
+      "id": "bell-warden-phase2",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/control.png",
+      "contentBounds": {
+        "x": 451,
+        "y": 459,
+        "width": 408,
+        "height": 380
+      },
+      "bytes": 25042
+    },
+    {
+      "id": "bell-warden-phase2",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/buff.png",
+      "contentBounds": {
+        "x": 902,
+        "y": 461,
+        "width": 414,
+        "height": 366
+      },
+      "bytes": 26132
+    },
+    {
+      "id": "bell-warden-phase2",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-ai4yma/bell-warden-phase2/debuff.png",
+      "contentBounds": {
+        "x": 1369,
+        "y": 469,
+        "width": 365,
+        "height": 365
+      },
+      "bytes": 25482
+    }
+  ],
+  "bytes": 195128
+}

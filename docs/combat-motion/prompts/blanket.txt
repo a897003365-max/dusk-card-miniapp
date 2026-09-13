@@ -1,0 +1,22 @@
+Use case: stylized-concept
+Asset type: game combat sprite master sheet, production intermediate
+Input images: Image 1 is the idle identity reference for the blanket partner. Image 2 is the cast/action identity reference. Image 3 is layout-only reference for a wide 2:1 4-column by 2-row equal-cell chroma-key sprite sheet; do not copy its character. Preserve the same blanket folded-paper spirit: small cream cat-like face with one visible playful wink, purple and cream patterned robe/blanket layers, exactly two arms and two legs, red knots and tassels, the existing round paper drum/blanket shield held at the front, the existing large curled folded-paper tail/blanket train, and any small existing baton/handle. Preserve face, drum/shield, tail, outfit and four limbs exactly; no redesign or added limbs or tails.
+
+Create exactly one wide 2:1 high-resolution action sprite master sheet matching Image 3's equal-cell layout: four equal-width columns and two equal-height rows, eight complete square-ish action cells, no labels. Keep the complete character, round drum/shield, existing tail/blanket train and every sound/paper effect inside the inner 60–65% of its own cell, with generous roughly 25% clear space around every cell. Same scale and baseline. No tail tip, drum rim, tassel or effect may touch or cross a cell boundary. No cropping. Keep the full drum and tail visible.
+
+Exact order:
+Top row col 1 ENTER: blanket steps or unfurls with the round drum/shield held ready, curled tail lifting, alert playful arrival.
+Top row col 2 ATTACK: blanket strikes the existing round drum/shield toward the right, emitting one compact diagonal lavender/gold paper chime ring and a few contained folded notes, fully inside this cell.
+Top row col 3 GUARD: blanket raises the existing round drum/blanket shield in front of the torso, tail curled behind, face visible.
+Top row col 4 HURT: blanket recoils with drum tilted and tail drooping, a few contained paper scraps, no blood.
+Bottom row col 1 EXIT: blanket curls low and folds into a receding bundled pose, drum/shield and face recognizable.
+Bottom row col 2 CONTROL: indigo paper ribbons and binding talisman strips wrap existing drum rim, wrists, tail and ankles; face unobstructed, clearly distinct from debuff.
+Bottom row col 3 BUFF: proud playful stance with compact warm-gold and teal-green drum chimes/paper leaves around the existing drum and tail, no new anatomy.
+Bottom row col 4 DEBUFF: drooping tired pose with cool-gray ink marks and negative talisman symbols on existing purple robe, drum and tail, clearly different from control.
+
+Backdrop: a perfectly flat solid chroma-key magenta background, exact color #FF00FF (RGB 255,0,255) across every background pixel. No transparency, no checkerboard, no gradient, no noise texture, no floor, no shadow plate, no grid or cell lines.
+Style: soft polished 2.5D hand-painted folded-paper game illustration, upper-left light, visible paper fibers and creases, cream/purple palette, red cord details, gentle chime accents.
+Text: none.
+Avoid: labels, numbers, UI, logo, watermark, extra characters, extra arms or legs, extra tails, wings, horns, added anatomy, missing drum, broken tail, giant sweeping sound waves, cross-cell overlap, cropped parts, idle recolor.
+
+Technical post-processing: normalize only near-magenta background pixels to exact #FF00FF; do not remove, crop, key, or delete any subject/effect pixels.

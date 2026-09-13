@@ -1,0 +1,494 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE",
+  "actors": [
+    {
+      "id": "sheep",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/sheep-sheet.png",
+      "sourceHash": "6a37e6d721be7e5fabf5aaf63c4f57b3c791ff2b65e94dcb27d1f13052a3b6eb",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          19503,
+          1052
+        ],
+        "removedPixels": 20555
+      },
+      "foregroundPixels": 594789,
+      "assignedPixels": 594789
+    },
+    {
+      "id": "orangecat",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/orangecat-sheet.png",
+      "sourceHash": "abe3c7ae7ca3802ea3d8f421b30bffef2a635d76e7f1de10a10b39262d9a8ed1",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          11827,
+          207
+        ],
+        "removedPixels": 12034
+      },
+      "foregroundPixels": 447527,
+      "assignedPixels": 447527
+    },
+    {
+      "id": "nav",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/nav-sheet.png",
+      "sourceHash": "20f63a58b71b23b3bb1ebdde14355397fa4dbbd7324f98613ef3d78dd655941b",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          14086,
+          743
+        ],
+        "removedPixels": 14829
+      },
+      "foregroundPixels": 529382,
+      "assignedPixels": 529382
+    },
+    {
+      "id": "paper-lion",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/paper-lion-sheet.png",
+      "sourceHash": "aece9cb64c26435968dfb7c0e006c59e0d863171c088bb7d878b263b9fa19bae",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          9884,
+          482
+        ],
+        "removedPixels": 10366
+      },
+      "foregroundPixels": 596552,
+      "assignedPixels": 596552
+    }
+  ],
+  "frames": [
+    {
+      "id": "sheep",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/enter.png",
+      "contentBounds": {
+        "x": 47,
+        "y": 22,
+        "width": 326,
+        "height": 420
+      },
+      "bytes": 18313
+    },
+    {
+      "id": "sheep",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/attack.png",
+      "contentBounds": {
+        "x": 447,
+        "y": 56,
+        "width": 448,
+        "height": 371
+      },
+      "bytes": 19324
+    },
+    {
+      "id": "sheep",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/guard.png",
+      "contentBounds": {
+        "x": 948,
+        "y": 80,
+        "width": 368,
+        "height": 336
+      },
+      "bytes": 20848
+    },
+    {
+      "id": "sheep",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/hurt.png",
+      "contentBounds": {
+        "x": 1363,
+        "y": 54,
+        "width": 372,
+        "height": 376
+      },
+      "bytes": 22410
+    },
+    {
+      "id": "sheep",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/exit.png",
+      "contentBounds": {
+        "x": 39,
+        "y": 496,
+        "width": 375,
+        "height": 341
+      },
+      "bytes": 20568
+    },
+    {
+      "id": "sheep",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/control.png",
+      "contentBounds": {
+        "x": 470,
+        "y": 472,
+        "width": 384,
+        "height": 391
+      },
+      "bytes": 23718
+    },
+    {
+      "id": "sheep",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/buff.png",
+      "contentBounds": {
+        "x": 916,
+        "y": 445,
+        "width": 390,
+        "height": 419
+      },
+      "bytes": 23231
+    },
+    {
+      "id": "sheep",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/sheep/debuff.png",
+      "contentBounds": {
+        "x": 1380,
+        "y": 486,
+        "width": 353,
+        "height": 370
+      },
+      "bytes": 23886
+    },
+    {
+      "id": "orangecat",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/enter.png",
+      "contentBounds": {
+        "x": 35,
+        "y": 85,
+        "width": 411,
+        "height": 329
+      },
+      "bytes": 16385
+    },
+    {
+      "id": "orangecat",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/attack.png",
+      "contentBounds": {
+        "x": 471,
+        "y": 106,
+        "width": 425,
+        "height": 294
+      },
+      "bytes": 12691
+    },
+    {
+      "id": "orangecat",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/guard.png",
+      "contentBounds": {
+        "x": 919,
+        "y": 109,
+        "width": 425,
+        "height": 273
+      },
+      "bytes": 14230
+    },
+    {
+      "id": "orangecat",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/hurt.png",
+      "contentBounds": {
+        "x": 1336,
+        "y": 52,
+        "width": 408,
+        "height": 321
+      },
+      "bytes": 13987
+    },
+    {
+      "id": "orangecat",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/exit.png",
+      "contentBounds": {
+        "x": 28,
+        "y": 524,
+        "width": 392,
+        "height": 281
+      },
+      "bytes": 16887
+    },
+    {
+      "id": "orangecat",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/control.png",
+      "contentBounds": {
+        "x": 470,
+        "y": 489,
+        "width": 397,
+        "height": 313
+      },
+      "bytes": 17991
+    },
+    {
+      "id": "orangecat",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/buff.png",
+      "contentBounds": {
+        "x": 919,
+        "y": 438,
+        "width": 387,
+        "height": 386
+      },
+      "bytes": 21698
+    },
+    {
+      "id": "orangecat",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/orangecat/debuff.png",
+      "contentBounds": {
+        "x": 1348,
+        "y": 509,
+        "width": 404,
+        "height": 300
+      },
+      "bytes": 17502
+    },
+    {
+      "id": "nav",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/enter.png",
+      "contentBounds": {
+        "x": 59,
+        "y": 36,
+        "width": 317,
+        "height": 378
+      },
+      "bytes": 17654
+    },
+    {
+      "id": "nav",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/attack.png",
+      "contentBounds": {
+        "x": 464,
+        "y": 48,
+        "width": 410,
+        "height": 355
+      },
+      "bytes": 18471
+    },
+    {
+      "id": "nav",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/guard.png",
+      "contentBounds": {
+        "x": 939,
+        "y": 49,
+        "width": 346,
+        "height": 357
+      },
+      "bytes": 18752
+    },
+    {
+      "id": "nav",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/hurt.png",
+      "contentBounds": {
+        "x": 1380,
+        "y": 59,
+        "width": 340,
+        "height": 358
+      },
+      "bytes": 19383
+    },
+    {
+      "id": "nav",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/exit.png",
+      "contentBounds": {
+        "x": 42,
+        "y": 472,
+        "width": 361,
+        "height": 368
+      },
+      "bytes": 17562
+    },
+    {
+      "id": "nav",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/control.png",
+      "contentBounds": {
+        "x": 464,
+        "y": 467,
+        "width": 383,
+        "height": 375
+      },
+      "bytes": 22796
+    },
+    {
+      "id": "nav",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/buff.png",
+      "contentBounds": {
+        "x": 918,
+        "y": 458,
+        "width": 390,
+        "height": 388
+      },
+      "bytes": 23866
+    },
+    {
+      "id": "nav",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/nav/debuff.png",
+      "contentBounds": {
+        "x": 1387,
+        "y": 488,
+        "width": 334,
+        "height": 358
+      },
+      "bytes": 18102
+    },
+    {
+      "id": "paper-lion",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/enter.png",
+      "contentBounds": {
+        "x": 40,
+        "y": 66,
+        "width": 393,
+        "height": 360
+      },
+      "bytes": 25382
+    },
+    {
+      "id": "paper-lion",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/attack.png",
+      "contentBounds": {
+        "x": 479,
+        "y": 67,
+        "width": 414,
+        "height": 357
+      },
+      "bytes": 20060
+    },
+    {
+      "id": "paper-lion",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/guard.png",
+      "contentBounds": {
+        "x": 922,
+        "y": 67,
+        "width": 394,
+        "height": 350
+      },
+      "bytes": 21483
+    },
+    {
+      "id": "paper-lion",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/hurt.png",
+      "contentBounds": {
+        "x": 1372,
+        "y": 68,
+        "width": 353,
+        "height": 342
+      },
+      "bytes": 24102
+    },
+    {
+      "id": "paper-lion",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/exit.png",
+      "contentBounds": {
+        "x": 36,
+        "y": 503,
+        "width": 368,
+        "height": 316
+      },
+      "bytes": 21615
+    },
+    {
+      "id": "paper-lion",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/control.png",
+      "contentBounds": {
+        "x": 461,
+        "y": 478,
+        "width": 392,
+        "height": 349
+      },
+      "bytes": 24936
+    },
+    {
+      "id": "paper-lion",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/buff.png",
+      "contentBounds": {
+        "x": 912,
+        "y": 477,
+        "width": 398,
+        "height": 352
+      },
+      "bytes": 24919
+    },
+    {
+      "id": "paper-lion",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-VUzuqE/paper-lion/debuff.png",
+      "contentBounds": {
+        "x": 1364,
+        "y": 496,
+        "width": 378,
+        "height": 326
+      },
+      "bytes": 21016
+    }
+  ],
+  "bytes": 643768
+}

@@ -1,0 +1,4366 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6",
+  "checks": [
+    {
+      "name": "只操作指定隔离存档",
+      "pass": true
+    },
+    {
+      "name": "真实进度已到首领战",
+      "pass": true
+    },
+    {
+      "name": "结束回合按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "每次回合真实状态与规则结算一致",
+      "pass": true
+    },
+    {
+      "name": "动作展示有界结束",
+      "pass": true
+    },
+    {
+      "name": "结束回合按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "每次回合真实状态与规则结算一致",
+      "pass": true
+    },
+    {
+      "name": "动作展示有界结束",
+      "pass": true
+    },
+    {
+      "name": "敌人独立施招与命中阶段均可观察",
+      "pass": true
+    },
+    {
+      "name": "Boss蓄势800ms、命中读数1200ms、间歇300ms均真实运行",
+      "pass": true
+    },
+    {
+      "name": "Boss命中数字在后半段仍有可见停留",
+      "pass": true
+    },
+    {
+      "name": "高亮范围与真实行动目标相符",
+      "pass": true
+    },
+    {
+      "name": "原生特效节点可见",
+      "pass": true
+    },
+    {
+      "name": "sheep 红色掉血数字与真实损失相等",
+      "pass": true
+    },
+    {
+      "name": "原生伤害文字大小清楚",
+      "pass": true
+    },
+    {
+      "name": "结束回合按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "每次回合真实状态与规则结算一致",
+      "pass": true
+    },
+    {
+      "name": "动作展示有界结束",
+      "pass": true
+    },
+    {
+      "name": "敌人独立施招与命中阶段均可观察",
+      "pass": true
+    },
+    {
+      "name": "Boss蓄势800ms、命中读数1200ms、间歇300ms均真实运行",
+      "pass": true
+    },
+    {
+      "name": "Boss命中数字在后半段仍有可见停留",
+      "pass": true
+    },
+    {
+      "name": "高亮范围与真实行动目标相符",
+      "pass": true
+    },
+    {
+      "name": "原生特效节点可见",
+      "pass": true
+    },
+    {
+      "name": "nav 红色掉血数字与真实损失相等",
+      "pass": true
+    },
+    {
+      "name": "orangecat 红色掉血数字与真实损失相等",
+      "pass": true
+    },
+    {
+      "name": "sheep 红色掉血数字与真实损失相等",
+      "pass": true
+    },
+    {
+      "name": "原生伤害文字大小清楚",
+      "pass": true
+    },
+    {
+      "name": "实际首领同时覆盖单体与群体攻击",
+      "pass": true
+    },
+    {
+      "name": "原生控制台 error 筛选为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "boss-before",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6/boss-before.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "after-round-0",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6/after-round-0.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "after-round-1",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6/after-round-1.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "after-round-2",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6/after-round-2.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    }
+  ],
+  "rounds": [
+    {
+      "index": 0,
+      "beforeTurn": 1,
+      "timeline": [
+        {
+          "id": "endTurn-0-enemy-6",
+          "index": 0,
+          "actionType": "endTurn",
+          "actorId": "enemy-6",
+          "actorKind": "enemy",
+          "actorDefinitionId": "paper-lion",
+          "actionEvent": {
+            "kind": "enemyAction",
+            "actorId": "enemy-6",
+            "targetId": null,
+            "amount": 14,
+            "text": "吞信纸狮 · 折纸厚甲",
+            "intentKind": "block",
+            "intentName": "折纸厚甲",
+            "intentTargets": [],
+            "intentAll": false,
+            "armor": 0
+          },
+          "events": [
+            {
+              "kind": "enemyAction",
+              "actorId": "enemy-6",
+              "targetId": null,
+              "amount": 14,
+              "text": "吞信纸狮 · 折纸厚甲",
+              "intentKind": "block",
+              "intentName": "折纸厚甲",
+              "intentTargets": [],
+              "intentAll": false,
+              "armor": 0
+            }
+          ],
+          "eventKinds": [
+            "enemyAction"
+          ],
+          "actionLabel": "折纸厚甲",
+          "actionMs": 800,
+          "impactMs": 1200,
+          "gapMs": 300,
+          "timingKind": "boss",
+          "intentAll": false,
+          "intentKind": "block",
+          "intentName": "折纸厚甲",
+          "intentTargets": [],
+          "intentTargetIds": [],
+          "intentTargetLabel": "自身",
+          "intentScope": "自身",
+          "intentScopeLabel": "自身",
+          "targetIds": [
+            "enemy-6"
+          ],
+          "targetMode": "single",
+          "theme": {
+            "id": "paper-lion",
+            "label": "纸刃",
+            "actionLabel": "纸刃",
+            "impactLabel": "纸风",
+            "actionClass": "paper-blade",
+            "impactClass": "paper-burst"
+          },
+          "prelude": false
+        },
+        {
+          "id": "endTurn-1-system",
+          "index": 1,
+          "actionType": "endTurn",
+          "actorId": null,
+          "actorKind": "system",
+          "actorDefinitionId": "",
+          "actionEvent": null,
+          "events": [
+            {
+              "kind": "draw",
+              "actorId": null,
+              "targetId": null,
+              "amount": 5,
+              "text": "抽取 5 张牌",
+              "presentation": "turn-start"
+            },
+            {
+              "kind": "relic",
+              "actorId": "sheep",
+              "targetId": null,
+              "amount": 0,
+              "text": "遗物 · 热茶木牌",
+              "presentation": "turn-start"
+            },
+            {
+              "kind": "heal",
+              "actorId": "sheep",
+              "targetId": "sheep",
+              "amount": 0,
+              "text": "羊咩咩团恢复 0 点生命",
+              "hpDelta": 0,
+              "presentation": "turn-start"
+            }
+          ],
+          "eventKinds": [
+            "draw",
+            "relic",
+            "heal"
+          ],
+          "actionLabel": "补充手牌",
+          "actionMs": 0,
+          "impactMs": 300,
+          "gapMs": 0,
+          "timingKind": "system",
+          "intentAll": false,
+          "intentKind": "",
+          "intentName": "",
+          "intentTargets": [],
+          "intentTargetIds": [],
+          "intentTargetLabel": "",
+          "intentScope": "单体",
+          "intentScopeLabel": "",
+          "targetIds": [
+            "sheep"
+          ],
+          "targetMode": "single",
+          "theme": {
+            "id": "paper",
+            "label": "纸响",
+            "actionLabel": "纸响",
+            "impactLabel": "轻击",
+            "actionClass": "light-cast",
+            "impactClass": "light-hit"
+          },
+          "prelude": true
+        }
+      ],
+      "video": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6/round-0.mov",
+      "recordingStartedAt": 1789264260209,
+      "tapAt": 1789264260393,
+      "observed": {
+        "busySeen": true,
+        "samples": [
+          {
+            "at": 1789264261495,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "折纸厚甲",
+              "scope": "自身",
+              "theme": "纸刃",
+              "phaseLabel": "蓄势"
+            },
+            "fx": [],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 2,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 54
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [],
+              [],
+              []
+            ]
+          },
+          {
+            "at": 1789264261711,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "折纸厚甲",
+              "scope": "自身",
+              "theme": "纸刃",
+              "phaseLabel": "蓄势"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-self paper-blade",
+                "range": "self",
+                "style": "left:194.9921875px;top:95.3984375px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 2,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 54
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [],
+              [],
+              [
+                {
+                  "left": 178.1374969482422,
+                  "right": 211.8468780517578,
+                  "top": 170.5437469482422,
+                  "bottom": 204.2531280517578,
+                  "width": 33.709381103515625,
+                  "height": 33.709381103515625,
+                  "opacity": "0.59773",
+                  "transform": "matrix(0.802604, 0, 0, 0.802604, -21, -21)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264261977,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "折纸厚甲",
+              "scope": "自身",
+              "theme": "纸刃",
+              "phaseLabel": "蓄势"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-self paper-blade",
+                "range": "self",
+                "style": "left:194.9921875px;top:95.3984375px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 2,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 54
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [],
+              [],
+              [
+                {
+                  "left": 171.47218322753906,
+                  "right": 218.51217651367188,
+                  "top": 163.87843322753906,
+                  "bottom": 210.91842651367188,
+                  "width": 47.03999328613281,
+                  "height": 47.03999328613281,
+                  "opacity": "0",
+                  "transform": "matrix(1.12, 0, 0, 1.12, -21, -21)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264262352,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "折纸厚甲",
+              "scope": "自身",
+              "theme": "纸刃",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "enemy-6",
+                "style": "left:194.9921875px;top:95.3984375px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 2,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 54
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [],
+              [],
+              [
+                {
+                  "left": 185.89218139648438,
+                  "right": 204.09217834472656,
+                  "top": 178.29843139648438,
+                  "bottom": 196.49844360351562,
+                  "width": 18.199996948242188,
+                  "height": 18.20001220703125,
+                  "opacity": "0",
+                  "transform": "matrix(0.35, 0, 0, 0.35, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264262761,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "折纸厚甲",
+              "scope": "自身",
+              "theme": "纸刃",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "enemy-6",
+                "style": "left:194.9921875px;top:95.3984375px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 2,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 54
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [],
+              [],
+              [
+                {
+                  "left": 175.9298858642578,
+                  "right": 214.05447387695312,
+                  "top": 168.3361358642578,
+                  "bottom": 206.46072387695312,
+                  "width": 38.12458801269531,
+                  "height": 38.12458801269531,
+                  "opacity": "0.726417",
+                  "transform": "matrix(0.733165, 0, 0, 0.733165, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264263172,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "折纸厚甲",
+              "scope": "自身",
+              "theme": "纸刃",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "enemy-6",
+                "style": "left:194.9921875px;top:95.3984375px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 2,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 54
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [],
+              [],
+              [
+                {
+                  "left": 168.8678436279297,
+                  "right": 221.1165313720703,
+                  "top": 161.2740936279297,
+                  "bottom": 213.5227813720703,
+                  "width": 52.248687744140625,
+                  "height": 52.248687744140625,
+                  "opacity": "0.221149",
+                  "transform": "matrix(1.00478, 0, 0, 1.00478, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264263578,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "gap",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "折纸厚甲",
+              "scope": "自身",
+              "theme": "纸刃",
+              "phaseLabel": "间歇"
+            },
+            "fx": [],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 2,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 54
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [],
+              [],
+              []
+            ]
+          },
+          {
+            "at": 1789264263906,
+            "frame": {
+              "id": "endTurn-1-system",
+              "index": 1,
+              "phase": "impact",
+              "actionMs": 0,
+              "impactMs": 300,
+              "gapMs": 0,
+              "timingKind": "system"
+            },
+            "action": {
+              "kind": "system",
+              "actor": "战场",
+              "skill": "补充手牌",
+              "scope": "",
+              "theme": "纸响",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 2,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 54
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              []
+            ]
+          },
+          {
+            "at": 1789264264029,
+            "frame": {
+              "id": "endTurn-1-system",
+              "index": 1,
+              "phase": "impact",
+              "actionMs": 0,
+              "impactMs": 300,
+              "gapMs": 0,
+              "timingKind": "system"
+            },
+            "action": {
+              "kind": "system",
+              "actor": "战场",
+              "skill": "补充手牌",
+              "scope": "",
+              "theme": "纸响",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 2,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 54
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              []
+            ]
+          },
+          {
+            "at": 1789264264153,
+            "frame": {
+              "id": "endTurn-1-system",
+              "index": 1,
+              "phase": "impact",
+              "actionMs": 0,
+              "impactMs": 300,
+              "gapMs": 0,
+              "timingKind": "system"
+            },
+            "action": {
+              "kind": "system",
+              "actor": "战场",
+              "skill": "补充手牌",
+              "scope": "",
+              "theme": "纸响",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 3,
+                "down": false,
+                "actionState": "guard",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 2,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 54
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              []
+            ]
+          }
+        ],
+        "idle": true
+      },
+      "recording": {
+        "audio": false,
+        "droppedFrames": 0,
+        "duration": 8,
+        "event": "finished",
+        "fpsTarget": 30,
+        "frames": 235,
+        "height": 1746,
+        "output": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6/round-0.mov",
+        "width": 2500,
+        "windowId": 3623
+      }
+    },
+    {
+      "index": 1,
+      "beforeTurn": 2,
+      "timeline": [
+        {
+          "id": "endTurn-0-enemy-6",
+          "index": 0,
+          "actionType": "endTurn",
+          "actorId": "enemy-6",
+          "actorKind": "enemy",
+          "actorDefinitionId": "paper-lion",
+          "actionEvent": {
+            "kind": "enemyAction",
+            "actorId": "enemy-6",
+            "targetId": null,
+            "amount": 0,
+            "text": "吞信纸狮 · 拆信扑咬",
+            "intentKind": "attack",
+            "intentName": "拆信扑咬",
+            "intentTargets": [
+              {
+                "id": "sheep",
+                "name": "羊咩咩团",
+                "killed": false,
+                "amount": 13,
+                "blocked": 0,
+                "hpLoss": 13
+              }
+            ],
+            "intentAll": false,
+            "armor": 0
+          },
+          "events": [
+            {
+              "kind": "enemyAction",
+              "actorId": "enemy-6",
+              "targetId": null,
+              "amount": 0,
+              "text": "吞信纸狮 · 拆信扑咬",
+              "intentKind": "attack",
+              "intentName": "拆信扑咬",
+              "intentTargets": [
+                {
+                  "id": "sheep",
+                  "name": "羊咩咩团",
+                  "killed": false,
+                  "amount": 13,
+                  "blocked": 0,
+                  "hpLoss": 13
+                }
+              ],
+              "intentAll": false,
+              "armor": 0
+            },
+            {
+              "kind": "damage",
+              "actorId": "enemy-6",
+              "targetId": "sheep",
+              "amount": 13,
+              "text": "羊咩咩团受到 13 点伤害",
+              "hpDelta": -13
+            }
+          ],
+          "eventKinds": [
+            "enemyAction",
+            "damage"
+          ],
+          "actionLabel": "拆信扑咬",
+          "actionMs": 800,
+          "impactMs": 1200,
+          "gapMs": 300,
+          "timingKind": "boss",
+          "intentAll": false,
+          "intentKind": "attack",
+          "intentName": "拆信扑咬",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 13,
+              "blocked": 0,
+              "hpLoss": 13
+            }
+          ],
+          "intentTargetIds": [
+            "sheep"
+          ],
+          "intentTargetLabel": "羊咩咩团",
+          "intentScope": "单体",
+          "intentScopeLabel": "单体 · 羊咩咩团",
+          "targetIds": [
+            "sheep"
+          ],
+          "targetMode": "single",
+          "theme": {
+            "id": "paper-lion",
+            "label": "纸刃",
+            "actionLabel": "纸刃",
+            "impactLabel": "纸风",
+            "actionClass": "paper-blade",
+            "impactClass": "paper-burst"
+          },
+          "prelude": false
+        },
+        {
+          "id": "endTurn-1-system",
+          "index": 1,
+          "actionType": "endTurn",
+          "actorId": null,
+          "actorKind": "system",
+          "actorDefinitionId": "",
+          "actionEvent": null,
+          "events": [
+            {
+              "kind": "shuffle",
+              "actorId": null,
+              "targetId": null,
+              "amount": 10,
+              "text": "弃牌重新洗入抽牌堆",
+              "presentation": "turn-start"
+            },
+            {
+              "kind": "draw",
+              "actorId": null,
+              "targetId": null,
+              "amount": 5,
+              "text": "抽取 5 张牌",
+              "presentation": "turn-start"
+            },
+            {
+              "kind": "relic",
+              "actorId": "sheep",
+              "targetId": null,
+              "amount": 0,
+              "text": "遗物 · 热茶木牌",
+              "presentation": "turn-start"
+            },
+            {
+              "kind": "heal",
+              "actorId": "sheep",
+              "targetId": "sheep",
+              "amount": 2,
+              "text": "羊咩咩团恢复 2 点生命",
+              "hpDelta": 2,
+              "presentation": "turn-start"
+            }
+          ],
+          "eventKinds": [
+            "shuffle",
+            "draw",
+            "relic",
+            "heal"
+          ],
+          "actionLabel": "补充手牌",
+          "actionMs": 0,
+          "impactMs": 650,
+          "gapMs": 0,
+          "timingKind": "system",
+          "intentAll": false,
+          "intentKind": "",
+          "intentName": "",
+          "intentTargets": [],
+          "intentTargetIds": [],
+          "intentTargetLabel": "",
+          "intentScope": "单体",
+          "intentScopeLabel": "",
+          "targetIds": [
+            "sheep"
+          ],
+          "targetMode": "single",
+          "theme": {
+            "id": "paper",
+            "label": "纸响",
+            "actionLabel": "纸响",
+            "impactLabel": "轻击",
+            "actionClass": "light-cast",
+            "impactClass": "light-hit"
+          },
+          "prelude": true
+        }
+      ],
+      "video": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6/round-1.mov",
+      "recordingStartedAt": 1789264276000,
+      "tapAt": 1789264276183,
+      "observed": {
+        "busySeen": true,
+        "samples": [
+          {
+            "at": 1789264277198,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "拆信扑咬",
+              "scope": "单体 · 羊咩咩团",
+              "theme": "纸刃",
+              "phaseLabel": "蓄势"
+            },
+            "fx": [],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 3,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 43
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              []
+            ]
+          },
+          {
+            "at": 1789264277467,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "拆信扑咬",
+              "scope": "单体 · 羊咩咩团",
+              "theme": "纸刃",
+              "phaseLabel": "蓄势"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-action fx-single paper-blade",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:194.9921875px;top:95.3984375px;width:192.7891750478356px;transform:rotate(130.04220632241334deg);"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 3,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 43
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              [
+                {
+                  "left": 69.42987060546875,
+                  "right": 196.52333068847656,
+                  "top": 188.11172485351562,
+                  "bottom": 338.27880859375,
+                  "width": 127.09346008300781,
+                  "height": 150.16708374023438,
+                  "opacity": "0.909634",
+                  "transform": "matrix(-0.643352, 0.765571, -0.765571, -0.643352, 0, 0)",
+                  "animation-name": "fxRay"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264277734,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "拆信扑咬",
+              "scope": "单体 · 羊咩咩团",
+              "theme": "纸刃",
+              "phaseLabel": "蓄势"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-action fx-single paper-blade",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:194.9921875px;top:95.3984375px;width:192.7891750478356px;transform:rotate(130.04220632241334deg);"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 54,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 3,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 43
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              [
+                {
+                  "left": 69.42987060546875,
+                  "right": 196.52333068847656,
+                  "top": 188.11172485351562,
+                  "bottom": 338.27880859375,
+                  "width": 127.09346008300781,
+                  "height": 150.16708374023438,
+                  "opacity": "0.289523",
+                  "transform": "matrix(-0.643352, 0.765571, -0.765571, -0.643352, 0, 0)",
+                  "animation-name": "fxRay"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264278059,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "拆信扑咬",
+              "scope": "单体 · 羊咩咩团",
+              "theme": "纸刃",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 41,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−13",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 3,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 43
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 46.253517150878906,
+                  "right": 95.66914367675781,
+                  "top": 319.3921813964844,
+                  "bottom": 344.5921936035156,
+                  "width": 49.415626525878906,
+                  "height": 25.20001220703125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 61.860939025878906,
+                  "right": 80.0609359741211,
+                  "top": 325.8921813964844,
+                  "bottom": 344.0921630859375,
+                  "width": 18.199996948242188,
+                  "height": 18.199981689453125,
+                  "opacity": "0",
+                  "transform": "matrix(0.35, 0, 0, 0.35, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264278468,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "拆信扑咬",
+              "scope": "单体 · 羊咩咩团",
+              "theme": "纸刃",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 41,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−13",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 3,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 43
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 43.28764343261719,
+                  "right": 98.63417053222656,
+                  "top": 305.4696044921875,
+                  "bottom": 333.6941223144531,
+                  "width": 55.346527099609375,
+                  "height": 28.224517822265625,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 51.541900634765625,
+                  "right": 90.37997436523438,
+                  "top": 315.5731506347656,
+                  "bottom": 354.4112243652344,
+                  "width": 38.83807373046875,
+                  "height": 38.83807373046875,
+                  "opacity": "0.700971",
+                  "transform": "matrix(0.746886, 0, 0, 0.746886, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264278872,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "拆信扑咬",
+              "scope": "单体 · 羊咩咩团",
+              "theme": "纸刃",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 41,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−13",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 3,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 43
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 43.05807876586914,
+                  "right": 98.86367797851562,
+                  "top": 300.7541198730469,
+                  "bottom": 329.2127685546875,
+                  "width": 55.805599212646484,
+                  "height": 28.458648681640625,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 44.73460388183594,
+                  "right": 97.18727111816406,
+                  "top": 308.765869140625,
+                  "bottom": 361.218505859375,
+                  "width": 52.452667236328125,
+                  "height": 52.45263671875,
+                  "opacity": "0.213759",
+                  "transform": "matrix(1.00871, 0, 0, 1.00871, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264279277,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "gap",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "拆信扑咬",
+              "scope": "单体 · 羊咩咩团",
+              "theme": "纸刃",
+              "phaseLabel": "间歇"
+            },
+            "fx": [],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 41,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 3,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 43
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              []
+            ]
+          },
+          {
+            "at": 1789264279561,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "gap",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "拆信扑咬",
+              "scope": "单体 · 羊咩咩团",
+              "theme": "纸刃",
+              "phaseLabel": "间歇"
+            },
+            "fx": [],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 41,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 3,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 43
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              []
+            ]
+          },
+          {
+            "at": 1789264279636,
+            "frame": {
+              "id": "endTurn-1-system",
+              "index": 1,
+              "phase": "impact",
+              "actionMs": 0,
+              "impactMs": 650,
+              "gapMs": 0,
+              "timingKind": "system"
+            },
+            "action": {
+              "kind": "system",
+              "actor": "战场",
+              "skill": "补充手牌",
+              "scope": "",
+              "theme": "纸响",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target light-hit",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 43,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [
+                  {
+                    "tone": "heal",
+                    "text": "+2",
+                    "kind": "heal",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 3,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 43
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 51.66551971435547,
+                  "right": 90.25691223144531,
+                  "top": 316.5803527832031,
+                  "bottom": 342.617919921875,
+                  "width": 38.591392517089844,
+                  "height": 26.037567138671875,
+                  "font-size": "25px",
+                  "color": "rgb(63, 140, 88)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 61.14391326904297,
+                  "right": 80.7779541015625,
+                  "top": 325.1751708984375,
+                  "bottom": 344.8092041015625,
+                  "width": 19.63404083251953,
+                  "height": 19.634033203125,
+                  "opacity": "0.171208",
+                  "transform": "matrix(0.377578, 0, 0, 0.377578, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264279906,
+            "frame": {
+              "id": "endTurn-1-system",
+              "index": 1,
+              "phase": "impact",
+              "actionMs": 0,
+              "impactMs": 650,
+              "gapMs": 0,
+              "timingKind": "system"
+            },
+            "action": {
+              "kind": "system",
+              "actor": "战场",
+              "skill": "补充手牌",
+              "scope": "",
+              "theme": "纸响",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target light-hit",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 43,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [
+                  {
+                    "tone": "heal",
+                    "text": "+2",
+                    "kind": "heal",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 3,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 43
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 49.992130279541016,
+                  "right": 91.9296646118164,
+                  "top": 304.04595947265625,
+                  "bottom": 332.3411560058594,
+                  "width": 41.93753433227539,
+                  "height": 28.295196533203125,
+                  "font-size": "25px",
+                  "color": "rgb(63, 140, 88)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 50.29578399658203,
+                  "right": 91.62608337402344,
+                  "top": 314.3270263671875,
+                  "bottom": 355.6573486328125,
+                  "width": 41.330299377441406,
+                  "height": 41.330322265625,
+                  "opacity": "0.612163",
+                  "transform": "matrix(0.794814, 0, 0, 0.794814, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264280128,
+            "frame": {
+              "id": "endTurn-1-system",
+              "index": 1,
+              "phase": "impact",
+              "actionMs": 0,
+              "impactMs": 650,
+              "gapMs": 0,
+              "timingKind": "system"
+            },
+            "action": {
+              "kind": "system",
+              "actor": "战场",
+              "skill": "补充手牌",
+              "scope": "",
+              "theme": "纸响",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target light-hit",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 43,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [
+                  {
+                    "tone": "heal",
+                    "text": "+2",
+                    "kind": "heal",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 3,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 43
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 48
+                },
+                {
+                  "id": "nav",
+                  "hp": 39
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 49.85791015625,
+                  "right": 92.06382751464844,
+                  "top": 300.3984680175781,
+                  "bottom": 328.874755859375,
+                  "width": 42.20591735839844,
+                  "height": 28.476287841796875,
+                  "font-size": "25px",
+                  "color": "rgb(63, 140, 88)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 45.12078094482422,
+                  "right": 96.80108642578125,
+                  "top": 309.15203857421875,
+                  "bottom": 360.83233642578125,
+                  "width": 51.68030548095703,
+                  "height": 51.6802978515625,
+                  "opacity": "0.241714",
+                  "transform": "matrix(0.993852, 0, 0, 0.993852, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          }
+        ],
+        "idle": true
+      },
+      "recording": {
+        "audio": false,
+        "droppedFrames": 0,
+        "duration": 8,
+        "event": "finished",
+        "fpsTarget": 30,
+        "frames": 235,
+        "height": 1746,
+        "output": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6/round-1.mov",
+        "width": 2500,
+        "windowId": 3623
+      }
+    },
+    {
+      "index": 2,
+      "beforeTurn": 3,
+      "timeline": [
+        {
+          "id": "endTurn-0-enemy-6",
+          "index": 0,
+          "actionType": "endTurn",
+          "actorId": "enemy-6",
+          "actorKind": "enemy",
+          "actorDefinitionId": "paper-lion",
+          "actionEvent": {
+            "kind": "enemyAction",
+            "actorId": "enemy-6",
+            "targetId": null,
+            "amount": 0,
+            "text": "吞信纸狮 · 纸鬃散落",
+            "intentKind": "attack",
+            "intentName": "纸鬃散落",
+            "intentTargets": [
+              {
+                "id": "sheep",
+                "name": "羊咩咩团",
+                "killed": false,
+                "amount": 4,
+                "blocked": 0,
+                "hpLoss": 4
+              },
+              {
+                "id": "orangecat",
+                "name": "橘猫豆包",
+                "killed": false,
+                "amount": 4,
+                "blocked": 0,
+                "hpLoss": 4
+              },
+              {
+                "id": "nav",
+                "name": "领航小鸭",
+                "killed": false,
+                "amount": 4,
+                "blocked": 0,
+                "hpLoss": 4
+              }
+            ],
+            "intentAll": true,
+            "armor": 0
+          },
+          "events": [
+            {
+              "kind": "enemyAction",
+              "actorId": "enemy-6",
+              "targetId": null,
+              "amount": 0,
+              "text": "吞信纸狮 · 纸鬃散落",
+              "intentKind": "attack",
+              "intentName": "纸鬃散落",
+              "intentTargets": [
+                {
+                  "id": "sheep",
+                  "name": "羊咩咩团",
+                  "killed": false,
+                  "amount": 4,
+                  "blocked": 0,
+                  "hpLoss": 4
+                },
+                {
+                  "id": "orangecat",
+                  "name": "橘猫豆包",
+                  "killed": false,
+                  "amount": 4,
+                  "blocked": 0,
+                  "hpLoss": 4
+                },
+                {
+                  "id": "nav",
+                  "name": "领航小鸭",
+                  "killed": false,
+                  "amount": 4,
+                  "blocked": 0,
+                  "hpLoss": 4
+                }
+              ],
+              "intentAll": true,
+              "armor": 0
+            },
+            {
+              "kind": "damage",
+              "actorId": "enemy-6",
+              "targetId": "sheep",
+              "amount": 4,
+              "text": "羊咩咩团受到 4 点伤害",
+              "hpDelta": -4
+            },
+            {
+              "kind": "damage",
+              "actorId": "enemy-6",
+              "targetId": "orangecat",
+              "amount": 4,
+              "text": "橘猫豆包受到 4 点伤害",
+              "hpDelta": -4
+            },
+            {
+              "kind": "damage",
+              "actorId": "enemy-6",
+              "targetId": "nav",
+              "amount": 4,
+              "text": "领航小鸭受到 4 点伤害",
+              "hpDelta": -4
+            }
+          ],
+          "eventKinds": [
+            "enemyAction",
+            "damage"
+          ],
+          "actionLabel": "纸鬃散落",
+          "actionMs": 800,
+          "impactMs": 1200,
+          "gapMs": 300,
+          "timingKind": "boss",
+          "intentAll": true,
+          "intentKind": "attack",
+          "intentName": "纸鬃散落",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 4,
+              "blocked": 0,
+              "hpLoss": 4
+            },
+            {
+              "id": "orangecat",
+              "name": "橘猫豆包",
+              "killed": false,
+              "amount": 4,
+              "blocked": 0,
+              "hpLoss": 4
+            },
+            {
+              "id": "nav",
+              "name": "领航小鸭",
+              "killed": false,
+              "amount": 4,
+              "blocked": 0,
+              "hpLoss": 4
+            }
+          ],
+          "intentTargetIds": [
+            "sheep",
+            "orangecat",
+            "nav"
+          ],
+          "intentTargetLabel": "全队",
+          "intentScope": "全体",
+          "intentScopeLabel": "全体 · 全队",
+          "targetIds": [
+            "sheep",
+            "orangecat",
+            "nav"
+          ],
+          "targetMode": "all",
+          "theme": {
+            "id": "paper-lion",
+            "label": "纸刃",
+            "actionLabel": "纸刃",
+            "impactLabel": "纸风",
+            "actionClass": "paper-blade",
+            "impactClass": "paper-burst"
+          },
+          "prelude": false
+        },
+        {
+          "id": "endTurn-1-system",
+          "index": 1,
+          "actionType": "endTurn",
+          "actorId": null,
+          "actorKind": "system",
+          "actorDefinitionId": "",
+          "actionEvent": null,
+          "events": [
+            {
+              "kind": "draw",
+              "actorId": null,
+              "targetId": null,
+              "amount": 5,
+              "text": "抽取 5 张牌",
+              "presentation": "turn-start"
+            },
+            {
+              "kind": "relic",
+              "actorId": "sheep",
+              "targetId": null,
+              "amount": 0,
+              "text": "遗物 · 热茶木牌",
+              "presentation": "turn-start"
+            },
+            {
+              "kind": "heal",
+              "actorId": "sheep",
+              "targetId": "sheep",
+              "amount": 2,
+              "text": "羊咩咩团恢复 2 点生命",
+              "hpDelta": 2,
+              "presentation": "turn-start"
+            }
+          ],
+          "eventKinds": [
+            "draw",
+            "relic",
+            "heal"
+          ],
+          "actionLabel": "补充手牌",
+          "actionMs": 0,
+          "impactMs": 650,
+          "gapMs": 0,
+          "timingKind": "system",
+          "intentAll": false,
+          "intentKind": "",
+          "intentName": "",
+          "intentTargets": [],
+          "intentTargetIds": [],
+          "intentTargetLabel": "",
+          "intentScope": "单体",
+          "intentScopeLabel": "",
+          "targetIds": [
+            "sheep"
+          ],
+          "targetMode": "single",
+          "theme": {
+            "id": "paper",
+            "label": "纸响",
+            "actionLabel": "纸响",
+            "impactLabel": "轻击",
+            "actionClass": "light-cast",
+            "impactClass": "light-hit"
+          },
+          "prelude": true
+        }
+      ],
+      "video": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6/round-2.mov",
+      "recordingStartedAt": 1789264291940,
+      "tapAt": 1789264292123,
+      "observed": {
+        "busySeen": true,
+        "samples": [
+          {
+            "at": 1789264293256,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃",
+              "phaseLabel": "蓄势"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-action fx-group paper-blade",
+                "range": "all"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 43,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 41
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 44
+                },
+                {
+                  "id": "nav",
+                  "hp": 35
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              [
+                {
+                  "left": 117.779296875,
+                  "right": 272.220703125,
+                  "top": 258.54766845703125,
+                  "bottom": 349.51483154296875,
+                  "width": 154.44140625,
+                  "height": 90.9671630859375,
+                  "opacity": "0",
+                  "transform": "matrix(0.45, 0, 0, 0.7, 0, 0)",
+                  "animation-name": "fxWave"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264293525,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃",
+              "phaseLabel": "蓄势"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-action fx-group paper-blade",
+                "range": "all"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 43,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 41
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 44
+                },
+                {
+                  "id": "nav",
+                  "hp": 35
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              [
+                {
+                  "left": 66.77418518066406,
+                  "right": 323.22584533691406,
+                  "top": 248.0133056640625,
+                  "bottom": 360.0491943359375,
+                  "width": 256.45166015625,
+                  "height": 112.035888671875,
+                  "opacity": "0.687713",
+                  "transform": "matrix(0.74723, 0, 0, 0.862125, 0, 0)",
+                  "animation-name": "fxWave"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264293790,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃",
+              "phaseLabel": "蓄势"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-action fx-group paper-blade",
+                "range": "all"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 43,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 48,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 41
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 44
+                },
+                {
+                  "id": "nav",
+                  "hp": 35
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              [
+                {
+                  "left": 33.58433532714844,
+                  "right": 356.41563415527344,
+                  "top": 241.158447265625,
+                  "bottom": 366.904052734375,
+                  "width": 322.831298828125,
+                  "height": 125.74560546875,
+                  "opacity": "0.166824",
+                  "transform": "matrix(0.940642, 0, 0, 0.967623, 0, 0)",
+                  "animation-name": "fxWave"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264294120,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-group-impact paper-burst",
+                "range": "all"
+              },
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              },
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "orangecat",
+                "style": "left:194.9921875px;top:242.9921875px;"
+              },
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "nav",
+                "style": "left:319.0234375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 44,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 35,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 41
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 44
+                },
+                {
+                  "id": "nav",
+                  "hp": 35
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 51.74492263793945,
+                  "right": 90.177734375,
+                  "top": 319.3921813964844,
+                  "bottom": 344.5921936035156,
+                  "width": 38.43281173706055,
+                  "height": 25.20001220703125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 175.7761688232422,
+                  "right": 214.208984375,
+                  "top": 319.3921813964844,
+                  "bottom": 344.5921936035156,
+                  "width": 38.43281555175781,
+                  "height": 25.20001220703125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 299.80743408203125,
+                  "right": 338.240234375,
+                  "top": 319.3921813964844,
+                  "bottom": 344.5921936035156,
+                  "width": 38.43280029296875,
+                  "height": 25.20001220703125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 77.6078109741211,
+                  "right": 312.39217376708984,
+                  "top": 317.71875,
+                  "bottom": 392.953125,
+                  "width": 234.78436279296875,
+                  "height": 75.234375,
+                  "opacity": "0",
+                  "transform": "matrix(0.7, 0, 0, 1, 0, 0)",
+                  "animation-name": "fxWaveImpact"
+                },
+                {
+                  "left": 61.860939025878906,
+                  "right": 80.0609359741211,
+                  "top": 325.8921813964844,
+                  "bottom": 344.0921630859375,
+                  "width": 18.199996948242188,
+                  "height": 18.199981689453125,
+                  "opacity": "0",
+                  "transform": "matrix(0.35, 0, 0, 0.35, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 185.89218139648438,
+                  "right": 204.09217834472656,
+                  "top": 325.8921813964844,
+                  "bottom": 344.0921630859375,
+                  "width": 18.199996948242188,
+                  "height": 18.199981689453125,
+                  "opacity": "0",
+                  "transform": "matrix(0.35, 0, 0, 0.35, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 309.9234313964844,
+                  "right": 328.1234436035156,
+                  "top": 325.8921813964844,
+                  "bottom": 344.0921630859375,
+                  "width": 18.20001220703125,
+                  "height": 18.199981689453125,
+                  "opacity": "0",
+                  "transform": "matrix(0.35, 0, 0, 0.35, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264294529,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-group-impact paper-burst",
+                "range": "all"
+              },
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              },
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "orangecat",
+                "style": "left:194.9921875px;top:242.9921875px;"
+              },
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "nav",
+                "style": "left:319.0234375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 44,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 35,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 41
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 44
+                },
+                {
+                  "id": "nav",
+                  "hp": 35
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 49.43933868408203,
+                  "right": 92.48247528076172,
+                  "top": 305.50152587890625,
+                  "bottom": 333.7244873046875,
+                  "width": 43.04313659667969,
+                  "height": 28.22296142578125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 173.47059631347656,
+                  "right": 216.51373291015625,
+                  "top": 305.50152587890625,
+                  "bottom": 333.7244873046875,
+                  "width": 43.04313659667969,
+                  "height": 28.22296142578125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 297.5018310546875,
+                  "right": 340.54498291015625,
+                  "top": 305.50152587890625,
+                  "bottom": 333.7244873046875,
+                  "width": 43.04315185546875,
+                  "height": 28.22296142578125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 48.349853515625,
+                  "right": 341.650146484375,
+                  "top": 317.71875,
+                  "bottom": 392.953125,
+                  "width": 293.30029296875,
+                  "height": 75.234375,
+                  "opacity": "0.58492",
+                  "transform": "matrix(0.874463, 0, 0, 1, 0, 0)",
+                  "animation-name": "fxWaveImpact"
+                },
+                {
+                  "left": 51.58815383911133,
+                  "right": 90.33372497558594,
+                  "top": 315.619384765625,
+                  "bottom": 354.3649597167969,
+                  "width": 38.74557113647461,
+                  "height": 38.745574951171875,
+                  "opacity": "0.704269",
+                  "transform": "matrix(0.745107, 0, 0, 0.745107, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 175.61940002441406,
+                  "right": 214.36495971679688,
+                  "top": 315.619384765625,
+                  "bottom": 354.3649597167969,
+                  "width": 38.74555969238281,
+                  "height": 38.745574951171875,
+                  "opacity": "0.704269",
+                  "transform": "matrix(0.745107, 0, 0, 0.745107, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 299.6506652832031,
+                  "right": 338.396240234375,
+                  "top": 315.619384765625,
+                  "bottom": 354.3649597167969,
+                  "width": 38.745574951171875,
+                  "height": 38.745574951171875,
+                  "opacity": "0.704269",
+                  "transform": "matrix(0.745107, 0, 0, 0.745107, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264294934,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-group-impact paper-burst",
+                "range": "all"
+              },
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              },
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "orangecat",
+                "style": "left:194.9921875px;top:242.9921875px;"
+              },
+              {
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "nav",
+                "style": "left:319.0234375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 44,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 35,
+                "block": 0,
+                "down": false,
+                "actionState": "hurt",
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 41
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 44
+                },
+                {
+                  "id": "nav",
+                  "hp": 35
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 49.26271057128906,
+                  "right": 92.6590347290039,
+                  "top": 300.8367004394531,
+                  "bottom": 329.2912292480469,
+                  "width": 43.396324157714844,
+                  "height": 28.45452880859375,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 173.29396057128906,
+                  "right": 216.69027709960938,
+                  "top": 300.8367004394531,
+                  "bottom": 329.2912292480469,
+                  "width": 43.39631652832031,
+                  "height": 28.45452880859375,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 297.3251953125,
+                  "right": 340.7215270996094,
+                  "top": 300.8367004394531,
+                  "bottom": 329.2912292480469,
+                  "width": 43.396331787109375,
+                  "height": 28.45452880859375,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 29.167190551757812,
+                  "right": 360.8328399658203,
+                  "top": 317.71875,
+                  "bottom": 392.953125,
+                  "width": 331.6656494140625,
+                  "height": 75.234375,
+                  "opacity": "0.183838",
+                  "transform": "matrix(0.988847, 0, 0, 1, 0, 0)",
+                  "animation-name": "fxWaveImpact"
+                },
+                {
+                  "left": 44.85292053222656,
+                  "right": 97.06895446777344,
+                  "top": 308.8841552734375,
+                  "bottom": 361.1002197265625,
+                  "width": 52.216033935546875,
+                  "height": 52.216064453125,
+                  "opacity": "0.222332",
+                  "transform": "matrix(1.00415, 0, 0, 1.00415, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 168.88417053222656,
+                  "right": 221.10020446777344,
+                  "top": 308.8841552734375,
+                  "bottom": 361.1002197265625,
+                  "width": 52.216033935546875,
+                  "height": 52.216064453125,
+                  "opacity": "0.222332",
+                  "transform": "matrix(1.00415, 0, 0, 1.00415, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 292.9154052734375,
+                  "right": 345.1314392089844,
+                  "top": 308.8841552734375,
+                  "bottom": 361.1002197265625,
+                  "width": 52.216033935546875,
+                  "height": 52.216064453125,
+                  "opacity": "0.222332",
+                  "transform": "matrix(1.00415, 0, 0, 1.00415, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264295337,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "gap",
+              "actionMs": 800,
+              "impactMs": 1200,
+              "gapMs": 300,
+              "timingKind": "boss"
+            },
+            "action": {
+              "kind": "enemy",
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃",
+              "phaseLabel": "间歇"
+            },
+            "fx": [],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 39,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 44,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 35,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 41
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 44
+                },
+                {
+                  "id": "nav",
+                  "hp": 35
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              []
+            ]
+          },
+          {
+            "at": 1789264295673,
+            "frame": {
+              "id": "endTurn-1-system",
+              "index": 1,
+              "phase": "impact",
+              "actionMs": 0,
+              "impactMs": 650,
+              "gapMs": 0,
+              "timingKind": "system"
+            },
+            "action": {
+              "kind": "system",
+              "actor": "战场",
+              "skill": "补充手牌",
+              "scope": "",
+              "theme": "纸响",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target light-hit",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 41,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [
+                  {
+                    "tone": "heal",
+                    "text": "+2",
+                    "kind": "heal",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 44,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 35,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 41
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 44
+                },
+                {
+                  "id": "nav",
+                  "hp": 35
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 52.28633117675781,
+                  "right": 89.6363296508789,
+                  "top": 319.3921813964844,
+                  "bottom": 344.5921936035156,
+                  "width": 37.349998474121094,
+                  "height": 25.20001220703125,
+                  "font-size": "25px",
+                  "color": "rgb(63, 140, 88)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 61.860939025878906,
+                  "right": 80.0609359741211,
+                  "top": 325.8921813964844,
+                  "bottom": 344.0921630859375,
+                  "width": 18.199996948242188,
+                  "height": 18.199981689453125,
+                  "opacity": "0",
+                  "transform": "matrix(0.35, 0, 0, 0.35, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264295891,
+            "frame": {
+              "id": "endTurn-1-system",
+              "index": 1,
+              "phase": "impact",
+              "actionMs": 0,
+              "impactMs": 650,
+              "gapMs": 0,
+              "timingKind": "system"
+            },
+            "action": {
+              "kind": "system",
+              "actor": "战场",
+              "skill": "补充手牌",
+              "scope": "",
+              "theme": "纸响",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target light-hit",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 41,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [
+                  {
+                    "tone": "heal",
+                    "text": "+2",
+                    "kind": "heal",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 44,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 35,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 41
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 44
+                },
+                {
+                  "id": "nav",
+                  "hp": 35
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 50.057342529296875,
+                  "right": 91.86447143554688,
+                  "top": 305.818115234375,
+                  "bottom": 334.0253601074219,
+                  "width": 41.80712890625,
+                  "height": 28.207244873046875,
+                  "font-size": "25px",
+                  "color": "rgb(63, 140, 88)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 52.72893524169922,
+                  "right": 89.19293212890625,
+                  "top": 316.76019287109375,
+                  "bottom": 353.22418212890625,
+                  "width": 36.46399688720703,
+                  "height": 36.4639892578125,
+                  "opacity": "0.785724",
+                  "transform": "matrix(0.701231, 0, 0, 0.701231, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789264296111,
+            "frame": {
+              "id": "endTurn-1-system",
+              "index": 1,
+              "phase": "impact",
+              "actionMs": 0,
+              "impactMs": 650,
+              "gapMs": 0,
+              "timingKind": "system"
+            },
+            "action": {
+              "kind": "system",
+              "actor": "战场",
+              "skill": "补充手牌",
+              "scope": "",
+              "theme": "纸响",
+              "phaseLabel": "命中读数"
+            },
+            "fx": [
+              {
+                "className": "battle-fx fx-impact fx-target light-hit",
+                "range": "single",
+                "targetId": "sheep",
+                "style": "left:70.9609375px;top:242.9921875px;"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 41,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [
+                  {
+                    "tone": "heal",
+                    "text": "+2",
+                    "kind": "heal",
+                    "key": 0
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 44,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              },
+              {
+                "id": "nav",
+                "hp": 35,
+                "block": 0,
+                "down": false,
+                "actionState": "buff",
+                "impactEntries": [],
+                "activeTarget": false
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 41
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 44
+                },
+                {
+                  "id": "nav",
+                  "hp": 35
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 49.90294647216797,
+                  "right": 92.01881408691406,
+                  "top": 301.6223449707031,
+                  "bottom": 330.0378723144531,
+                  "width": 42.115867614746094,
+                  "height": 28.41552734375,
+                  "font-size": "25px",
+                  "color": "rgb(63, 140, 88)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 46.900352478027344,
+                  "right": 95.02153015136719,
+                  "top": 310.93157958984375,
+                  "bottom": 359.0527648925781,
+                  "width": 48.121177673339844,
+                  "height": 48.121185302734375,
+                  "opacity": "0.369757",
+                  "transform": "matrix(0.925407, 0, 0, 0.925407, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          }
+        ],
+        "idle": true
+      },
+      "recording": {
+        "audio": false,
+        "droppedFrames": 0,
+        "duration": 8,
+        "event": "finished",
+        "fpsTarget": 30,
+        "frames": 235,
+        "height": 1746,
+        "output": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-boss-feedback-WaOAH6/round-2.mov",
+        "width": 2500,
+        "windowId": 3623
+      }
+    }
+  ],
+  "status": "pass",
+  "interactions": [
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ],
+  "width": 390,
+  "console": ""
+}

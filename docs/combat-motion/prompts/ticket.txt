@@ -1,0 +1,22 @@
+# Ticket action sprite sheet prompt
+
+Generation mode: built-in imagegen, Luna max orchestration.
+Reference images (identity anchors only):
+- docs/visual-rework/production/rgba/ticket-idle.png
+- docs/visual-rework/production/rgba/ticket-cast.png
+
+## Primary generation prompt
+
+Use case: stylized-concept
+Asset type: production game character action sprite sheet for ticket
+Generation orchestration: Luna max.
+Input images: Image 1 and Image 2 are the ticket idle and ticket cast identity references.
+Primary request: Create one wide 2:1 landscape 4-column by 2-row action sprite sheet for the same paper-folded fox-like ticket courier from the references. Preserve identity and anatomy exactly: cream origami fox face and pointed ears, amber eye, purple and navy travel cloak with gold geometric seams and red lining, four limbs, large folded tail with paper ticket/stamp cards, handheld vintage camera with film reels, waist reel pouch, red cords and tassels. Create eight genuinely different full-body action poses in this exact order: row 1 enter, attack, guard, hurt; row 2 exit, control, buff, debuff. Do not turn the courier into a different species or a humanoid with extra limbs.
+Canvas and chroma-key layout: exactly four equal columns and two equal rows. Every pixel outside the character and effects must be flat solid pure chroma-key magenta RGB #FF00FF (255,0,255): no alpha, checkerboard, gradient, texture, floor, shadow plate, labels, or grid lines. Keep the courier plus camera, reels, tail, tickets, tassels, and all effects inside the central 70% width and 70% height of its own cell, with about 20% clean magenta margin on every side. No prop, ribbon, film strip, paper shard, glow, or tail may touch or cross any cell boundary. Keep the same scale, baseline, camera angle, and clear silhouette in every cell.
+Action poses: enter = step into battle with camera and stamp pouch ready, tail lifted; attack = clear rightward stamp or film-reel flick with a small diagonal gold/rose paper-light burst contained in the cell; guard = camera or folded mail satchel held in front like a shield, tail curled defensively; hurt = recoiling sideways with bent knees and a few loose ticket papers, face visible, no blood; exit = low folded crouch with cloak and tail drawing inward, camera and face recognizable; control = indigo paper threads and restraint talismans wrapped around feet, tail, and camera, face unobstructed; buff = upright confident courier pose with warm gold and teal-green ticket/film feathers around the tail, positive energy; debuff = lowered head and sagging cloak with cool gray ink marks and small negative ticket sigils, clearly distinct from control.
+Style/medium: soft 2.5D origami paper illustration, layered paper facets, visible paper fiber, restrained brass/copper and red cord details, upper-left light, refined game asset, not plush, plastic, or photorealistic.
+Constraints: no text or readable writing on tickets, no labels, logos, or watermark, no extra characters, no added or missing limbs, no broken camera/reels/tail, no giant effects, no cross-cell bleed, no blood or gore. Output one flat-magenta-background RGB PNG sprite sheet with exactly eight distinct poses in the specified order.
+
+## Artifact note
+
+The saved master is `masters/ticket-sheet.png`, 1774x887 RGB PNG with no alpha. All eight poses retain the camera, reels, purple cloak, tail, and ticket props; the attack burst is small and diagonal, and no obvious prop crosses its cell. The imagegen magenta background may contain slight per-pixel variation, so root should use the agreed local chroma-key pipeline without cropping or deleting props/effects.

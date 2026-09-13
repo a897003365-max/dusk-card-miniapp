@@ -1,0 +1,500 @@
+{
+  "mode": "scout",
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactical-scout-azWKNn",
+  "checks": [
+    {
+      "name": "实际 KEY 属于指定隔离副本",
+      "pass": true
+    },
+    {
+      "name": "验收开始时没有未完成远行",
+      "pass": true
+    },
+    {
+      "name": "验收前没有进行中的主线来信",
+      "pass": true
+    },
+    {
+      "name": "战术选择仅改变出发界面",
+      "pass": true
+    },
+    {
+      "name": "真实出发使用指定战术、当前三位旅伴和12张起手牌",
+      "pass": true
+    },
+    {
+      "name": "真实入口为黄昏邮街普通难度",
+      "pass": true
+    },
+    {
+      "name": "完成可能存在的开局升级后进入路线图",
+      "pass": true
+    },
+    {
+      "name": "选择公开的首个普通战斗节点与源引擎结算完全一致",
+      "pass": true
+    },
+    {
+      "name": "路线点击后进入真实战斗",
+      "pass": true
+    },
+    {
+      "name": "自然结束第1回合继续抽牌与源引擎结算完全一致",
+      "pass": true
+    },
+    {
+      "name": "最多自然结束4回合后抽到观星牌",
+      "pass": true
+    },
+    {
+      "name": "卡牌详情直达scout说明",
+      "pass": true
+    },
+    {
+      "name": "scout说明末尾完整可读",
+      "pass": true
+    },
+    {
+      "name": "说明返回原卡牌详情",
+      "pass": true
+    },
+    {
+      "name": "查看说明和滚动没有改变存档或 RNG",
+      "pass": true
+    },
+    {
+      "name": "0费观星的实际确认预览可用",
+      "pass": true
+    },
+    {
+      "name": "真实出牌自然产生3张公开观星候选",
+      "pass": true
+    },
+    {
+      "name": "观星不扣能量且源牌本战移出循环",
+      "pass": true
+    },
+    {
+      "name": "界面候选顺序与已公开存档一致",
+      "pass": true
+    },
+    {
+      "name": "最后一个观星选择按钮可滚动看到且至少44px",
+      "pass": true
+    },
+    {
+      "name": "离开再续玩不改变候选、资源、牌区或 RNG",
+      "pass": true
+    },
+    {
+      "name": "续玩后候选顺序仍逐字相同",
+      "pass": true
+    },
+    {
+      "name": "公开候选后回放源牌结算完全一致",
+      "pass": true
+    },
+    {
+      "name": "选择候选与源引擎结算完全一致",
+      "pass": true
+    },
+    {
+      "name": "选中原牌进入手牌且不复制实例",
+      "pass": true
+    },
+    {
+      "name": "其余候选按展示顺序位于牌堆底",
+      "pass": true
+    },
+    {
+      "name": "本次原生验收控制台 error 为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "scout-guide",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactical-scout-azWKNn/scout-guide.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "scout-choice",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactical-scout-azWKNn/scout-choice.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "scout-selected",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactical-scout-azWKNn/scout-selected.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    }
+  ],
+  "actions": [
+    {
+      "label": "选择公开的首个普通战斗节点",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-0-0"
+      },
+      "events": [
+        {
+          "kind": "passive",
+          "actorId": "sheep",
+          "targetId": null,
+          "amount": 0,
+          "text": "羊咩咩团 · 叠信成盾"
+        },
+        {
+          "kind": "block",
+          "actorId": "sheep",
+          "targetId": "sheep",
+          "amount": 3,
+          "text": "羊咩咩团获得 3 点护盾"
+        },
+        {
+          "kind": "block",
+          "actorId": "sheep",
+          "targetId": "orangecat",
+          "amount": 3,
+          "text": "橘猫豆包获得 3 点护盾"
+        },
+        {
+          "kind": "block",
+          "actorId": "sheep",
+          "targetId": "nav",
+          "amount": 3,
+          "text": "领航小鸭获得 3 点护盾"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌"
+        }
+      ]
+    },
+    {
+      "label": "自然结束第1回合继续抽牌",
+      "action": {
+        "type": "endTurn"
+      },
+      "events": [
+        {
+          "kind": "chargeBank",
+          "actorId": null,
+          "targetId": null,
+          "amount": 1,
+          "text": "将 1 点未用能量存为蓄能"
+        },
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-1",
+          "targetId": null,
+          "amount": 0,
+          "text": "迷途纸团 · 滚过信口",
+          "intentKind": "attack",
+          "intentName": "滚过信口",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 6,
+              "blocked": 3,
+              "hpLoss": 3
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-1",
+          "targetId": "sheep",
+          "amount": 3,
+          "text": "羊咩咩团的护盾挡下 3，受到 3 点伤害",
+          "hpDelta": -3,
+          "blocked": 3
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "label": "选择公开观星候选",
+      "action": {
+        "type": "chooseOpportunity",
+        "choiceId": "card-2"
+      },
+      "events": [
+        {
+          "kind": "opportunityChoice",
+          "actorId": "sheep",
+          "targetId": null,
+          "amount": 1,
+          "text": "观星选择了护好邮包"
+        }
+      ]
+    }
+  ],
+  "status": "pass",
+  "prerequisites": [
+    "prepare-acceptance 生成的隔离副本，允许保留历史通关、材料与养成",
+    "当前没有未完成远行或进行中的主线来信",
+    "从黄昏邮街普通难度正常出发",
+    "不注入存档、手牌、牌序、生命、资源或 RNG"
+  ],
+  "width": 320,
+  "interactions": [
+    {
+      "selector": ".tactic-tab[data-id=\"reserve\"]",
+      "rect": {
+        "dataset": {
+          "id": "reserve"
+        },
+        "left": 29,
+        "right": 157,
+        "top": 155.65625,
+        "bottom": 203.65625,
+        "width": 128,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".start-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 396,
+        "bottom": 444,
+        "width": 284,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-0-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-0-0"
+        },
+        "left": 59,
+        "right": 176,
+        "top": 327.1875,
+        "bottom": 411.3828125,
+        "width": 117,
+        "height": 84.1953125
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 446.3125,
+        "bottom": 502.6953125,
+        "width": 99.2734375,
+        "height": 56.3828125
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-1\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 190,
+        "right": 242,
+        "top": 361,
+        "bottom": 438,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".card-detail-link",
+      "rect": {
+        "dataset": {},
+        "left": 260,
+        "right": 304,
+        "top": 309.9453125,
+        "bottom": 353.9453125,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-help-link",
+      "rect": {
+        "dataset": {},
+        "left": 68,
+        "right": 252,
+        "top": 375.90625,
+        "bottom": 419.90625,
+        "width": 184,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-guide-back",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 399.6796875,
+        "bottom": 443.6796875,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 249,
+        "right": 293,
+        "top": 52.3203125,
+        "bottom": 96.3203125,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".opportunity-later",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 421,
+        "bottom": 467,
+        "width": 266,
+        "height": 46
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 396,
+        "bottom": 444,
+        "width": 284,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".opportunity-take[data-id=\"card-2\"]",
+      "rect": {
+        "dataset": {
+          "id": "card-2"
+        },
+        "left": 40,
+        "right": 280,
+        "top": 74.5703125,
+        "bottom": 120.5703125,
+        "width": 240,
+        "height": 46
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    }
+  ],
+  "observedStart": {
+    "team": [
+      "sheep",
+      "orangecat",
+      "nav"
+    ],
+    "tiers": [
+      "R",
+      "R",
+      "R"
+    ],
+    "regionId": "street",
+    "difficulty": 0,
+    "tacticId": "reserve"
+  },
+  "cardArrival": {
+    "cardId": "wax-spark",
+    "turn": 2,
+    "endedTurns": 1
+  },
+  "console": ""
+}

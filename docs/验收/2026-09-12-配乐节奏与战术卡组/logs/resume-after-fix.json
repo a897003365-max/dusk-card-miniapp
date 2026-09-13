@@ -1,0 +1,46 @@
+{
+  "checks": [],
+  "shots": [
+    {
+      "name": "boss-hud-fixed",
+      "success": true,
+      "path": "/tmp/dusk-rhythm-3SnbiH/boss-hud-fixed.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ],
+  "audio": {
+    "music": true,
+    "effects": true,
+    "foreground": true,
+    "interrupted": false,
+    "readyState": "ready",
+    "scene": "boss",
+    "musicSrc": "/assets/audio/boss.mp3",
+    "musicPlaying": true,
+    "musicTime": 2.3999999999999986,
+    "musicStarts": 2,
+    "effectStarts": 0,
+    "lastEffect": "",
+    "contexts": 1,
+    "lastError": null
+  }
+}

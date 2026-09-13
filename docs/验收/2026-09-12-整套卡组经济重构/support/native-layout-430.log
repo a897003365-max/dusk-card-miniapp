@@ -1,0 +1,25 @@
+✓ 目标为独立验收命名空间
+✓ 原生视口宽度符合验收目标
+✓ 说明检查处于真实战斗
+✓ 蓄能按钮完整收在44px工具条内
+✓ 点击HUD直达当前场面或补给规则
+✓ charge详细说明由真实点击切换
+✓ charge末尾说明完整可读
+✓ environment详细说明由真实点击切换
+✓ environment末尾说明完整可读
+✓ intercept详细说明由真实点击切换
+✓ intercept末尾说明完整可读
+✓ discover详细说明由真实点击切换
+✓ discover末尾说明完整可读
+✓ scout详细说明由真实点击切换
+✓ scout末尾说明完整可读
+✓ trade详细说明由真实点击切换
+✓ trade末尾说明完整可读
+✓ pressure详细说明由真实点击切换
+✓ pressure末尾说明完整可读
+✓ sequence详细说明由真实点击切换
+✓ sequence末尾说明完整可读
+✓ 状态说明返回原生旅途记录
+✓ 查看说明、滚动与关闭未改变存档或RNG
+✓ 本次布局现场console error为空
+pass: /var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-OEKytp

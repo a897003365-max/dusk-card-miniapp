@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV",
+  "actors": [
+    {
+      "id": "ink-tide",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/ink-tide-sheet.png",
+      "sourceHash": "aca196f313c2a87c36de2378993be94e8b0322e662b59de29592504b89a72bb0",
+      "width": 1536,
+      "height": 1024,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          4204,
+          142
+        ],
+        "removedPixels": 4346
+      },
+      "foregroundPixels": 593914,
+      "assignedPixels": 593914
+    }
+  ],
+  "frames": [
+    {
+      "id": "ink-tide",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/enter.png",
+      "contentBounds": {
+        "x": 20,
+        "y": 118,
+        "width": 356,
+        "height": 348
+      },
+      "bytes": 26403
+    },
+    {
+      "id": "ink-tide",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/attack.png",
+      "contentBounds": {
+        "x": 408,
+        "y": 115,
+        "width": 401,
+        "height": 338
+      },
+      "bytes": 21122
+    },
+    {
+      "id": "ink-tide",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/guard.png",
+      "contentBounds": {
+        "x": 753,
+        "y": 92,
+        "width": 343,
+        "height": 373
+      },
+      "bytes": 20687
+    },
+    {
+      "id": "ink-tide",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/hurt.png",
+      "contentBounds": {
+        "x": 1165,
+        "y": 155,
+        "width": 351,
+        "height": 303
+      },
+      "bytes": 22386
+    },
+    {
+      "id": "ink-tide",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/exit.png",
+      "contentBounds": {
+        "x": 24,
+        "y": 646,
+        "width": 352,
+        "height": 262
+      },
+      "bytes": 16383
+    },
+    {
+      "id": "ink-tide",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/control.png",
+      "contentBounds": {
+        "x": 396,
+        "y": 558,
+        "width": 358,
+        "height": 355
+      },
+      "bytes": 27149
+    },
+    {
+      "id": "ink-tide",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/buff.png",
+      "contentBounds": {
+        "x": 774,
+        "y": 544,
+        "width": 382,
+        "height": 380
+      },
+      "bytes": 27874
+    },
+    {
+      "id": "ink-tide",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-6UngUV/ink-tide/debuff.png",
+      "contentBounds": {
+        "x": 1180,
+        "y": 621,
+        "width": 339,
+        "height": 307
+      },
+      "bytes": 25616
+    }
+  ],
+  "bytes": 187620
+}

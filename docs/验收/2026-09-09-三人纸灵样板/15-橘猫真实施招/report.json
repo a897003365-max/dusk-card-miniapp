@@ -1,0 +1,1768 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-jrCOSD",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-runtime-nkzffp",
+  "family": "orangecat",
+  "width": 390,
+  "checks": [
+    {
+      "name": "只在三人美术验收副本执行",
+      "pass": true
+    },
+    {
+      "name": "运行存档与副本命名空间一致",
+      "pass": true
+    },
+    {
+      "name": "实际模拟器宽度正确",
+      "pass": true
+    },
+    {
+      "name": "实际预览允许出牌",
+      "pass": true
+    },
+    {
+      "name": "确认按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "只完成一次真实出牌",
+      "pass": true
+    },
+    {
+      "name": "没有改变永久伙伴或已入库资源",
+      "pass": true
+    },
+    {
+      "name": "运行时切换到当前施法者的专属动作图",
+      "pass": true
+    },
+    {
+      "name": "实际渲染节点绑定了动作图片",
+      "pass": true
+    },
+    {
+      "name": "实际渲染节点出现施招动效",
+      "pass": true
+    },
+    {
+      "name": "观察结束后恢复待机",
+      "pass": true
+    },
+    {
+      "name": "页面脚本与图片加载异常过滤为空",
+      "pass": true
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-5\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-5"
+        },
+        "left": 88,
+        "right": 154,
+        "top": 563,
+        "bottom": 651,
+        "width": 66,
+        "height": 88
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-2\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-2"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 102.40625,
+        "bottom": 278,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    }
+  ],
+  "shots": [
+    {
+      "name": "after-cast",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pose-runtime-nkzffp/after-cast.jpg",
+      "imageWidth": 468,
+      "imageHeight": 1014
+    }
+  ],
+  "status": "pass",
+  "card": {
+    "uid": "card-5",
+    "name": "小小出手",
+    "ownerId": "orangecat",
+    "cost": 1
+  },
+  "targetId": "enemy-2",
+  "preview": {
+    "allowed": true,
+    "reason": "",
+    "events": [
+      {
+        "kind": "playCard",
+        "actorId": "orangecat",
+        "targetId": "enemy-2",
+        "amount": 1,
+        "text": "橘猫豆包使用小小出手"
+      },
+      {
+        "kind": "damage",
+        "actorId": "orangecat",
+        "targetId": "enemy-2",
+        "amount": 6,
+        "text": "邮戳小蛾受到 6 点伤害",
+        "hpDelta": -6
+      },
+      {
+        "kind": "passive",
+        "actorId": "orangecat",
+        "targetId": "enemy-2",
+        "amount": 0,
+        "text": "橘猫豆包 · 尾巴护住后路"
+      },
+      {
+        "kind": "counter",
+        "actorId": "orangecat",
+        "targetId": "orangecat",
+        "amount": 2,
+        "text": "橘猫豆包获得 2 反击"
+      }
+    ],
+    "summary": "橘猫豆包使用小小出手；邮戳小蛾受到 6 点伤害；橘猫豆包 · 尾巴护住后路；橘猫豆包获得 2 反击"
+  },
+  "samples": [
+    {
+      "time": 1788989592095,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592158,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592218,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592287,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592350,
+      "busy": true,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/battle/orangecat-cast.png",
+          "acting": true
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/battle/orangecat-cast.png",
+          "animation-name": "castPulse",
+          "transform": "matrix(1.00442, 0, 0, 1.00442, 0, -0.245285)"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592411,
+      "busy": true,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/battle/orangecat-cast.png",
+          "acting": true
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/battle/orangecat-cast.png",
+          "animation-name": "castPulse",
+          "transform": "matrix(1.07038, 0, 0, 1.07038, 0, -3.9102)"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592475,
+      "busy": true,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/battle/orangecat-cast.png",
+          "acting": true
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/battle/orangecat-cast.png",
+          "animation-name": "castPulse",
+          "transform": "matrix(1.08935, 0, 0, 1.08935, 0, -4.96414)"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592538,
+      "busy": true,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/battle/orangecat-cast.png",
+          "acting": true
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/battle/orangecat-cast.png",
+          "animation-name": "castPulse",
+          "transform": "matrix(1.0514, 0, 0, 1.0514, 0, -2.85545)"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592600,
+      "busy": true,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/battle/orangecat-cast.png",
+          "acting": true
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/battle/orangecat-cast.png",
+          "animation-name": "castPulse",
+          "transform": "matrix(1.01479, 0, 0, 1.01479, 0, -0.821489)"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592661,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592724,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592784,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592847,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592909,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989592971,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593034,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593097,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593158,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593222,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593284,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593347,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593409,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593472,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593533,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593596,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593659,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593722,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593784,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593844,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593908,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989593969,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989594032,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989594095,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989594157,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989594220,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989594282,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989594345,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989594409,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989594473,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989594534,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989594598,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "time": 1788989594660,
+      "busy": false,
+      "party": [
+        {
+          "id": "sheep",
+          "image": "/assets/prizes/sheep/R.png",
+          "acting": false
+        },
+        {
+          "id": "orangecat",
+          "image": "/assets/prizes/orangecat/R.png",
+          "acting": false
+        },
+        {
+          "id": "nav",
+          "image": "/assets/prizes/nav/R.png",
+          "acting": false
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/assets/prizes/sheep/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/orangecat/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        },
+        {
+          "src": "/assets/prizes/nav/R.png",
+          "animation-name": "none",
+          "transform": "none"
+        }
+      ]
+    }
+  ],
+  "after": {
+    "plays": 2,
+    "energy": 0,
+    "threads": 4,
+    "tickets": 6
+  },
+  "console": ""
+}

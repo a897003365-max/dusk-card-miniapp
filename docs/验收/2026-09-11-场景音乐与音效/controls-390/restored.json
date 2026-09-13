@@ -1,0 +1,113 @@
+{
+  "audio": {
+    "music": true,
+    "effects": true,
+    "foreground": true,
+    "scene": "town",
+    "musicSrc": "/assets/audio/town.mp3",
+    "musicPlaying": true,
+    "musicTime": 9.642666666666685,
+    "musicStarts": 8,
+    "effectStarts": 8,
+    "lastEffect": "defeat",
+    "contexts": 3,
+    "lastError": null
+  },
+  "preferences": {
+    "music": true,
+    "effects": true
+  },
+  "game": "{\"version\":2,\"tickets\":5,\"drawCount\":1,\"pitySSR\":0,\"pityUR\":1,\"collection\":{\"sheep\":{\"R\":1,\"SR\":0,\"SSR\":0,\"UR\":0},\"ramen\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"sunset\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"ticket\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"catcafe\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"moon\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"nav\":{\"R\":1,\"SR\":0,\"SSR\":0,\"UR\":0},\"tea\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"sushi\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"pear\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"burger\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"badminton\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"bomb\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"orangecat\":{\"R\":1,\"SR\":0,\"SSR\":0,\"UR\":0},\"doudou\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"hydrangea\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"pearlamp\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"cloudmail\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"firefly\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"soup\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0},\"blanket\":{\"R\":0,\"SR\":0,\"SSR\":1,\"UR\":0},\"seedling\":{\"R\":0,\"SR\":0,\"SSR\":0,\"UR\":0}},\"team\":[\"sheep\",\"orangecat\",\"nav\"],\"cleared\":[],\"endings\":{},\"journey\":null,\"lastEnding\":null,\"adventure\":{\"threads\":0,\"levels\":{\"sheep\":1,\"ramen\":1,\"sunset\":1,\"ticket\":1,\"catcafe\":1,\"moon\":1,\"nav\":1,\"tea\":1,\"sushi\":1,\"pear\":1,\"burger\":1,\"badminton\":1,\"bomb\":1,\"orangecat\":1,\"doudou\":1,\"hydrangea\":1,\"pearlamp\":1,\"cloudmail\":1,\"firefly\":1,\"soup\":1,\"blanket\":1,\"seedling\":1},\"clears\":{\"street\":[0,0,0],\"bridge\":[0,0,0],\"market\":[0,0,0]},\"active\":null,\"lastResult\":null}}",
+  "route": "pages/adventure/index",
+  "musicButton": {
+    "rect": {
+      "dataset": {},
+      "left": 208.125,
+      "right": 286.0625,
+      "top": 12,
+      "bottom": 56,
+      "width": 77.9375,
+      "height": 44
+    },
+    "container": null,
+    "offset": {
+      "id": "",
+      "dataset": {},
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 390,
+      "scrollHeight": 1001
+    },
+    "info": {
+      "pixelRatio": 3,
+      "safeArea": {
+        "top": 47,
+        "left": 0,
+        "right": 390,
+        "bottom": 810,
+        "width": 390,
+        "height": 763
+      },
+      "screenWidth": 390,
+      "screenHeight": 844,
+      "screenTop": 173,
+      "windowWidth": 390,
+      "windowHeight": 671,
+      "statusBarHeight": 47
+    },
+    "viewport": {
+      "width": 390,
+      "height": 671
+    }
+  },
+  "effectsButton": {
+    "rect": {
+      "dataset": {},
+      "left": 294.0625,
+      "right": 372,
+      "top": 12,
+      "bottom": 56,
+      "width": 77.9375,
+      "height": 44
+    },
+    "container": null,
+    "offset": {
+      "id": "",
+      "dataset": {},
+      "scrollLeft": 0,
+      "scrollTop": 0,
+      "scrollWidth": 390,
+      "scrollHeight": 1001
+    },
+    "info": {
+      "pixelRatio": 3,
+      "safeArea": {
+        "top": 47,
+        "left": 0,
+        "right": 390,
+        "bottom": 810,
+        "width": 390,
+        "height": 763
+      },
+      "screenWidth": 390,
+      "screenHeight": 844,
+      "screenTop": 173,
+      "windowWidth": 390,
+      "windowHeight": 671,
+      "statusBarHeight": 47
+    },
+    "viewport": {
+      "width": 390,
+      "height": 671
+    }
+  },
+  "shots": [
+    {
+      "name": "restored",
+      "success": true,
+      "path": "/private/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-controls-kVqZWD/restored.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ]
+}

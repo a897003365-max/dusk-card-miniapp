@@ -1,0 +1,75 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-jrCOSD",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pilot-route-EQzZza",
+  "width": 390,
+  "checks": [
+    {
+      "name": "只在已授权美术副本的实际奖励阶段操作",
+      "pass": true
+    },
+    {
+      "name": "实选别住袖口只加入一次并保留已入库星线",
+      "pass": true
+    },
+    {
+      "name": "小蛾是本局正常路线提供的选项",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "card-reward",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pilot-route-EQzZza/card-reward.jpg",
+      "imageWidth": 468,
+      "imageHeight": 1014
+    },
+    {
+      "name": "next-route",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-pilot-route-EQzZza/next-route.jpg",
+      "imageWidth": 468,
+      "imageHeight": 1014
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".take-card[data-uid=\"card-15\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-15"
+        },
+        "left": 39,
+        "right": 351,
+        "top": 575.9609375,
+        "bottom": 619.9609375,
+        "width": 312,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-1-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-1-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 108.5859375,
+        "bottom": 176.78125,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    }
+  ],
+  "status": "fail",
+  "error": "Cannot read properties of undefined (reading 'enemies')"
+}

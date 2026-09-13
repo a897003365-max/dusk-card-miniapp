@@ -1,0 +1,20 @@
+Use case: stylized-concept
+Asset type: game combat sprite master sheet, production intermediate
+Input image: Image 1 is the identity reference for the ink-tide boss first phase. Preserve its exact non-human structure: a broad folded-paper and ink arch/gate body with two upright side pillars, curved teal roof eaves, navy-indigo paper panels, cream wave motifs, curled paper-water ornaments, and a small central mask-like face with glowing amber eyes. Preserve its materials, proportions, face, existing curled ornaments and no-leg anatomy. This is phase one only; do not redesign it into phase two.
+
+Create exactly one high-resolution action sprite master sheet as a strict 4-column by 2-row grid. Eight equal cells, one complete ink-tide pose per cell, same orthographic 3/4 view, scale and baseline. Keep the arch body plus all ink/water effects entirely inside the inner 70% of its own cell, leaving roughly 20% clear space around every cell. Compact effects only; attack is a small diagonal wave or folded ink slash, never a broad horizontal sweep. No pose, effect or loose paper may touch or cross a cell boundary. No cropping. Do not add human arms, legs, hands, feet or extra creatures.
+
+Exact order:
+Top row, col 1 ENTER: the arch rises/unfurls from a low paper-tide pool into an alert open-gate arrival stance, amber eyes visible.
+Top row, col 2 ATTACK: the existing arch leans and sends a compact diagonal folded-ink wave or water-scroll strike toward the right; effect stays close and fully inside this cell.
+Top row, col 3 GUARD: the two existing pillars and curved roof fold inward into a protective gate/portcullis stance, central face visible.
+Top row, col 4 HURT: the arch sags or tilts with folded water edges disturbed, a few small paper ripples, eyes strained or dim, no blood.
+Bottom row, col 1 EXIT: the gate lowers and folds into a receding ink-water puddle, existing face still readable.
+Bottom row, col 2 CONTROL: indigo paper ribbons and binding talisman strips wrap the existing pillars and curled water ornaments, central face unobstructed, compact and distinct from debuff.
+Bottom row, col 3 BUFF: the arch stands taller with compact warm gold and teal-green tide crests around its existing roof and side curls, energized without new limbs.
+Bottom row, col 4 DEBUFF: the arch droops with cool gray ink drips and negative talisman marks on its existing paper panels, clearly different from control.
+
+Backdrop: a perfectly flat solid chroma-key magenta background, exact color #FF00FF (RGB 255,0,255) across every background pixel. No transparency, no checkerboard, no gradient, no texture in the background, no floor, no shadow plate, no grid or cell lines.
+Style: soft polished 2.5D hand-painted folded-paper game illustration, top-left light on the subject, visible paper fibers and creases, muted navy/teal/cream palette with small brass eye and trim details.
+Text: none.
+Avoid: labels, numbers, UI, logo, watermark, any other character, human anatomy, extra limbs, wings, horns, tails, phase-two redesign, flesh/fur, plush, plastic, blood, gore, duplicated body, cropped parts, giant sweeping effects, cross-cell overlap, idle recolor.

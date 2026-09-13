@@ -1,0 +1,50 @@
+[
+  {
+    "name": "01-基线",
+    "status": "pass",
+    "checks": 47,
+    "passed": 47,
+    "interactions": 0,
+    "error": null
+  },
+  {
+    "name": "02-启封",
+    "status": "fail",
+    "checks": 17,
+    "passed": 17,
+    "interactions": 9,
+    "error": "点击目标必须完整可见：.filter[data-filter=\"owned\"]"
+  },
+  {
+    "name": "03-编队与四章",
+    "status": "pass",
+    "checks": 48,
+    "passed": 48,
+    "interactions": 41,
+    "error": null
+  },
+  {
+    "name": "04-窄屏",
+    "status": "pass",
+    "checks": 16,
+    "passed": 16,
+    "interactions": 22,
+    "error": null
+  },
+  {
+    "name": "05-窄屏收尾",
+    "status": "fail",
+    "checks": 4,
+    "passed": 3,
+    "interactions": 7,
+    "error": "320px 结果末句可读，继续按钮满宽且至少44px"
+  },
+  {
+    "name": "06-大屏收尾",
+    "status": "pass",
+    "checks": 6,
+    "passed": 6,
+    "interactions": 13,
+    "error": null
+  }
+]

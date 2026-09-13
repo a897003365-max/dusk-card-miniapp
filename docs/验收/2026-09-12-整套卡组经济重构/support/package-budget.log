@@ -1,0 +1,168 @@
+
+main  1,782,012 bytes  1.699 MiB  PASS
+  距 2 MiB：315,140 bytes  图片：1,155,656 bytes  JS/WXML/WXSS：391,878 bytes
+  最大文件：
+      297883  assets/scenes/summon-postoffice.jpg
+       72534  assets/audio/letter.mp3
+       72534  assets/audio/town.mp3
+       66579  utils/combat.js
+       59535  assets/partners/tea.png
+       56443  assets/audio/boss.mp3
+       53089  assets/partners/bomb.png
+       51496  assets/partners/catcafe.png
+       42759  assets/partners/sushi.png
+       39632  assets/partners/soup.png
+       39535  assets/partners/ticket.png
+       39063  assets/partners/burger.png
+       37024  utils/combat-content.js
+       36787  assets/partners/blanket.png
+       35789  assets/partners/sunset.png
+       35320  templates/expedition.wxss
+       35034  assets/partners/badminton.png
+       34325  assets/partners/sheep.png
+       34086  assets/partners/nav.png
+       33453  assets/partners/moon.png
+
+package-street  1,401,014 bytes  1.336 MiB  PASS
+  距 2 MiB：696,138 bytes  图片：1,303,754 bytes  JS/WXML/WXSS：235 bytes
+  最大文件：
+      453222  package-street/assets/art/street-back.jpg
+       96462  package-street/assets/audio/theme.mp3
+       64854  package-street/assets/art/paper-lion.png
+       60916  package-street/assets/art/postbag-guard.png
+       60137  package-street/assets/art/twine-sprite.png
+       57221  package-street/assets/art/paper-lion-phase2.png
+       54318  package-street/assets/art/wax-drop.png
+       48995  package-street/assets/art/stamp-press.png
+       47564  package-street/assets/art/paper-ball.png
+       32839  package-street/assets/art/stamp-moth.png
+       28189  package-street/assets/art/street-front.png
+       27240  package-street/assets/actions/paper-lion-phase2/buff.png
+       26045  package-street/assets/actions/paper-lion-phase2/enter.png
+       25673  package-street/assets/actions/paper-lion-phase2/debuff.png
+       25541  package-street/assets/actions/paper-lion-phase2/control.png
+       25382  package-street/assets/actions/paper-lion/enter.png
+       25256  package-street/assets/actions/paper-lion-phase2/guard.png
+       24936  package-street/assets/actions/paper-lion/control.png
+       24919  package-street/assets/actions/paper-lion/buff.png
+       24102  package-street/assets/actions/paper-lion/hurt.png
+
+package-bridge  1,337,538 bytes  1.276 MiB  PASS
+  距 2 MiB：759,614 bytes  图片：1,240,278 bytes  JS/WXML/WXSS：235 bytes
+  最大文件：
+      418467  package-bridge/assets/art/bridge-back.jpg
+       96462  package-bridge/assets/audio/theme.mp3
+       56257  package-bridge/assets/art/bridge-drum.png
+       52014  package-bridge/assets/art/ink-tide.png
+       49447  package-bridge/assets/art/ink-tide-phase2.png
+       46929  package-bridge/assets/art/ink-puddle.png
+       45227  package-bridge/assets/art/umbrella-spirit.png
+       44475  package-bridge/assets/art/rain-knot.png
+       41104  package-bridge/assets/art/bridge-middle.png
+       38892  package-bridge/assets/art/tile-sprite.png
+       36079  package-bridge/assets/art/bridge-front.png
+       28785  package-bridge/assets/actions/ink-tide-phase2/guard.png
+       28240  package-bridge/assets/actions/ink-tide-phase2/debuff.png
+       27874  package-bridge/assets/actions/ink-tide/buff.png
+       27149  package-bridge/assets/actions/ink-tide/control.png
+       26808  package-bridge/assets/actions/ink-tide-phase2/buff.png
+       26403  package-bridge/assets/actions/ink-tide/enter.png
+       26285  package-bridge/assets/actions/ink-tide-phase2/control.png
+       25616  package-bridge/assets/actions/ink-tide/debuff.png
+       24103  package-bridge/assets/actions/ink-tide-phase2/hurt.png
+
+package-market  1,409,929 bytes  1.345 MiB  PASS
+  距 2 MiB：687,223 bytes  图片：1,312,669 bytes  JS/WXML/WXSS：235 bytes
+  最大文件：
+      450259  package-market/assets/art/market-back.jpg
+       96462  package-market/assets/audio/theme.mp3
+       69996  package-market/assets/art/bell-warden.png
+       67599  package-market/assets/art/bell-warden-phase2.png
+       56653  package-market/assets/art/market-front.png
+       53957  package-market/assets/art/market-middle.png
+       49592  package-market/assets/art/bell-sprite.png
+       44320  package-market/assets/art/paper-mask.png
+       42820  package-market/assets/art/lantern-rack.png
+       38282  package-market/assets/art/silk-tail.png
+       35876  package-market/assets/art/lantern-mote.png
+       31599  package-market/assets/art/market-usher.png
+       26132  package-market/assets/actions/bell-warden-phase2/buff.png
+       25717  package-market/assets/actions/bell-warden/control.png
+       25526  package-market/assets/actions/bell-warden-phase2/enter.png
+       25482  package-market/assets/actions/bell-warden-phase2/debuff.png
+       25042  package-market/assets/actions/bell-warden-phase2/control.png
+       24664  package-market/assets/actions/bell-warden-phase2/guard.png
+       24493  package-market/assets/actions/bell-warden-phase2/attack.png
+       24266  package-market/assets/actions/bell-warden/guard.png
+
+package-actors-a  1,289,540 bytes  1.230 MiB  PASS
+  距 2 MiB：807,612 bytes  图片：1,289,118 bytes  JS/WXML/WXSS：403 bytes
+  最大文件：
+       27465  package-actors-a/assets/tea/guard.png
+       26241  package-actors-a/assets/tea/exit.png
+       25735  package-actors-a/assets/tea/buff.png
+       25080  package-actors-a/assets/catcafe/control.png
+       24709  package-actors-a/assets/tea/debuff.png
+       24497  package-actors-a/assets/catcafe/buff.png
+       24313  package-actors-a/assets/tea/enter.png
+       24026  package-actors-a/assets/ticket/buff.png
+       23886  package-actors-a/assets/sheep/debuff.png
+       23866  package-actors-a/assets/nav/buff.png
+       23826  package-actors-a/assets/moon/buff.png
+       23808  package-actors-a/assets/tea/hurt.png
+       23761  package-actors-a/assets/catcafe/debuff.png
+       23718  package-actors-a/assets/sheep/control.png
+       23411  package-actors-a/assets/tea/control.png
+       23397  package-actors-a/assets/catcafe/guard.png
+       23231  package-actors-a/assets/sheep/buff.png
+       22796  package-actors-a/assets/nav/control.png
+       22718  package-actors-a/assets/catcafe/hurt.png
+       22711  package-actors-a/assets/catcafe/attack.png
+
+package-actors-b  1,033,468 bytes  0.986 MiB  PASS
+  距 2 MiB：1,063,684 bytes  图片：1,033,046 bytes  JS/WXML/WXSS：403 bytes
+  最大文件：
+       23731  package-actors-b/assets/bomb/control.png
+       23237  package-actors-b/assets/bomb/buff.png
+       23058  package-actors-b/assets/burger/guard.png
+       22943  package-actors-b/assets/sushi/guard.png
+       22929  package-actors-b/assets/bomb/enter.png
+       22659  package-actors-b/assets/bomb/hurt.png
+       22431  package-actors-b/assets/bomb/guard.png
+       21698  package-actors-b/assets/orangecat/buff.png
+       21651  package-actors-b/assets/bomb/debuff.png
+       21475  package-actors-b/assets/burger/hurt.png
+       21015  package-actors-b/assets/burger/control.png
+       20947  package-actors-b/assets/sushi/buff.png
+       20891  package-actors-b/assets/sushi/control.png
+       20643  package-actors-b/assets/burger/debuff.png
+       20632  package-actors-b/assets/burger/exit.png
+       20575  package-actors-b/assets/pear/buff.png
+       20027  package-actors-b/assets/burger/buff.png
+       19791  package-actors-b/assets/burger/attack.png
+       19729  package-actors-b/assets/badminton/debuff.png
+       19682  package-actors-b/assets/pear/debuff.png
+
+package-actors-c  1,037,651 bytes  0.990 MiB  PASS
+  距 2 MiB：1,059,501 bytes  图片：1,037,229 bytes  JS/WXML/WXSS：403 bytes
+  最大文件：
+       24928  package-actors-c/assets/blanket/control.png
+       24161  package-actors-c/assets/blanket/hurt.png
+       23842  package-actors-c/assets/blanket/buff.png
+       23637  package-actors-c/assets/soup/buff.png
+       23154  package-actors-c/assets/soup/control.png
+       22552  package-actors-c/assets/blanket/exit.png
+       22537  package-actors-c/assets/hydrangea/guard.png
+       21428  package-actors-c/assets/cloudmail/buff.png
+       21316  package-actors-c/assets/blanket/attack.png
+       21237  package-actors-c/assets/pearlamp/control.png
+       21000  package-actors-c/assets/seedling/debuff.png
+       20779  package-actors-c/assets/cloudmail/debuff.png
+       20772  package-actors-c/assets/hydrangea/control.png
+       20658  package-actors-c/assets/cloudmail/control.png
+       20030  package-actors-c/assets/blanket/debuff.png
+       19878  package-actors-c/assets/pearlamp/buff.png
+       19636  package-actors-c/assets/hydrangea/debuff.png
+       19502  package-actors-c/assets/soup/debuff.png
+       19431  package-actors-c/assets/cloudmail/hurt.png
+       19336  package-actors-c/assets/blanket/enter.png

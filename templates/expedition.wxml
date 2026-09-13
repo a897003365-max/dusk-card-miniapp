@@ -1,0 +1,120 @@
+<template name="pose-picker"><view wx:if="{{inspected.hasActionArt}}" class="pose-gallery"><view class="pose-gallery-heading"><text>动作图谱 · 仅查看</text><button class="pose-current text-button" bindtap="showCurrentPose">当前姿态</button></view><view class="pose-options"><button wx:for="{{poseChoices}}" wx:key="id" class="pose-choice {{previewPose === item.id ? 'selected-pose' : ''}}" data-pose="{{item.id}}" bindtap="previewPose">{{item.label}}</button></view><text class="pose-note">查看图片不会施加状态或改变本局生命。</text></view></template>
+<template name="actor-portrait">
+  <paper-actor-a wx:if="{{actionGroup === 'a'}}" actor="{{id}}" state="{{actionState}}" base="{{baseImage}}" bindimageerror="onActionImageError"/>
+  <paper-actor-b wx:elif="{{actionGroup === 'b'}}" actor="{{id}}" state="{{actionState}}" base="{{baseImage}}" bindimageerror="onActionImageError"/>
+  <paper-actor-c wx:elif="{{actionGroup === 'c'}}" actor="{{id}}" state="{{actionState}}" base="{{baseImage}}" bindimageerror="onActionImageError"/>
+</template>
+<template name="expedition">
+<view wx:if="{{error}}" class="error">{{error}}</view>
+<view wx:elif="{{view}}" class="expedition {{compact ? 'compact' : ''}} beat-{{beat}} environment-{{run.environmentId || 'none'}} timing-{{activeFrame.timingKind}} {{receipt ? 'receipt-open' : ''}}">
+  <view class="exp-top"><button class="hub-back" bindtap="goHub">‹ 邮局</button><view class="exp-heading"><view>{{run ? run.regionName : view.result.regionName}}</view><text>{{run ? run.difficultyName + ' · 第 ' + (run.layer + 1) + ' / 9 站' : '远行回执'}}</text></view><button wx:if="{{run}}" class="exp-log" bindtap="openLog">记录</button><view wx:else class="exp-log-slot"></view></view>
+  <view wx:if="{{enemyExit}}" class="enemy-exit-stage" aria-hidden="true"><view class="enemy-row">
+    <view wx:for="{{battleEnemies}}" wx:key="id" class="unit enemy-unit">
+      <view class="enemy-motion {{item.motion}}"><view class="{{item.exitMotion ? 'enemy-leaving' : ''}}"><image class="unit-art" src="{{item.image}}" mode="aspectFit" data-state="{{item.actionState}}"/></view></view>
+      <view wx:if="{{item.impactEntries.length}}" class="impact impact-stack"><text wx:for="{{item.impactEntries}}" wx:for-item="entry" wx:for-index="entryIndex" wx:key="key" class="impact-line impact-{{entry.tone}}">{{entry.text}}</text></view>
+    </view>
+  </view></view>
+  <view wx:if="{{partyExit.length}}" class="party-exit-stage" aria-hidden="true"><view class="party-row"><view wx:for="{{partyExit}}" wx:key="id" class="unit pose-exit"><view class="unit-art"><template is="actor-portrait" data="{{...item}}"/></view></view></view></view>
+  <block wx:if="{{run && run.phase === 'battle'}}">
+    <view class="battle-toolbar"><view><text class="turn-label">回合 {{run.turn}}</text><text class="energy-label">✦ 能量 {{run.energy}}/{{run.energyRefill}}</text></view><button size="mini" class="tactic-hud" bindtap="openTacticGuide"><view>蓄能 {{run.charge}} · 已出 {{run.plays}} ⓘ</view><text>{{run.conditionLabel}}</text></button><button size="mini" class="deck-link" bindtap="openDeck"><view>牌库 {{run.drawCount}} · 弃牌 {{run.discardCount}}</view><text wx:if="{{run.removedCount}}">暂离 {{run.removedCount}}</text></button></view>
+    <view class="battle-stage">
+      <image wx:if="{{art.background}}" class="scene-image scene-back" src="{{art.background}}" mode="aspectFill"/>
+      <image wx:if="{{art.middle}}" class="scene-image scene-middle" src="{{art.middle}}" mode="aspectFill"/>
+      <view class="stage-light"></view>
+      <view wx:if="{{busy && turnAction}}" class="turn-action-banner" aria-live="polite"><text class="turn-action-phase">{{turnAction.phaseLabel}}</text><text>{{turnAction.actor}}</text><text class="turn-action-skill">{{turnAction.skill}}</text><text wx:if="{{turnAction.scope}}" class="turn-action-scope">{{turnAction.scope}}</text></view>
+      <view wx:if="{{battleFx.length}}" class="battle-fx-layer" aria-hidden="true"><view wx:for="{{battleFx}}" wx:key="key" class="{{item.className}}" style="{{item.style}}"><view wx:if="{{item.range === 'all'}}" class="fx-wave-core"></view><view wx:else class="fx-target-core"></view></view></view>
+      <view class="enemy-row"><view wx:for="{{battleEnemies}}" wx:key="id" class="unit enemy-unit pose-{{item.actionState}} {{targetId === item.id ? 'targeted' : ''}} {{item.activeTarget ? 'active-target' : ''}} {{item.hitTarget ? 'hit-target' : ''}}" data-id="{{item.id}}" bindtap="selectEnemy" role="button" aria-label="{{item.name}} {{item.actionLabel}} {{item.leaving ? '已击退' : item.intentText}}">
+        <view class="intent-bubble"><view wx:if="{{item.leaving}}" class="intent-note">已击退</view><block wx:elif="{{item.intentEffectLine}}"><view class="intent-target"><text wx:if="{{item.intentScope && item.intentScope !== '自身'}}" class="intent-scope">{{item.intentScope}}</text><text>{{item.intentTargetLine}}</text></view><view class="intent-effect">{{item.intentEffectLine}}</view></block><view wx:else class="intent-note">{{item.intentNote}}</view></view>
+        <view class="enemy-motion {{item.motion}}"><view class="{{item.exitMotion ? 'enemy-leaving' : ''}}">
+          <image class="unit-art {{item.hitTarget ? 'enemy-hit' : ''}}" src="{{item.image}}" mode="aspectFit" data-state="{{item.actionState}}"/>
+        </view></view>
+        <view class="unit-name">{{item.name}}<text wx:if="{{item.rank === 'boss'}}"> · {{item.phase}}阶</text></view>
+        <view class="health-track"><view style="width: {{item.hp / item.maxHp * 100}}%"></view></view>
+        <view class="unit-health">{{item.hp}} / {{item.maxHp}}<text wx:if="{{item.block}}"> ⬡{{item.block}}</text></view>
+        <view class="unit-statuses"><text wx:for="{{item.statusBadges}}" wx:for-item="badge" wx:key="key" class="status-{{badge.key}}">{{badge.text}}</text></view>
+        <view wx:if="{{item.impactEntries.length}}" class="impact impact-stack"><text wx:for="{{item.impactEntries}}" wx:for-item="entry" wx:for-index="entryIndex" wx:key="key" class="impact-line impact-{{entry.tone}}">{{entry.text}}</text></view>
+        <view wx:if="{{item.activeTarget}}" class="target-mark" aria-hidden="true">⌁</view>
+      </view></view>
+      <view class="versus-line"><text>✦</text></view>
+      <view class="party-row"><view wx:for="{{run.party}}" wx:key="id" class="unit ally-unit battle-rarity-{{item.tier}} pose-{{item.actionState}} {{item.down ? 'down' : ''}} {{targetId === item.id ? 'targeted' : ''}} {{item.activeTarget ? 'active-target' : ''}} {{item.hitTarget ? 'hit-target' : ''}} {{item.acting ? 'acting' : ''}}" data-id="{{item.id}}" bindtap="selectAlly" role="button" aria-label="{{item.name}} {{item.actionLabel}} 稀有度{{item.tier}} 生命{{item.hp}} 护盾{{item.block}}">
+        <text class="unit-rarity tier-{{item.tier}}" aria-hidden="true">{{item.tier}}</text>
+        <view class="unit-art" data-state="{{item.actionState}}"><template is="actor-portrait" data="{{...item}}"/></view><view class="unit-name">{{item.name}}</view>
+        <view class="health-track"><view style="width: {{item.hp / item.maxHp * 100}}%"></view></view>
+        <view class="unit-health">{{item.down ? '暂时倒下' : item.hp + ' / ' + item.maxHp}}<text wx:if="{{item.block}}"> ⬡{{item.block}}</text></view>
+        <view class="unit-statuses"><text wx:for="{{item.statusBadges}}" wx:for-item="badge" wx:key="key" class="status-{{badge.key}}">{{badge.text}}</text></view>
+        <view wx:if="{{item.impactEntries.length}}" class="impact impact-stack"><text wx:for="{{item.impactEntries}}" wx:for-item="entry" wx:for-index="entryIndex" wx:key="key" class="impact-line impact-{{entry.tone}}">{{entry.text}}</text></view>
+        <view wx:if="{{item.activeTarget}}" class="target-mark" aria-hidden="true">⌁</view>
+      </view></view>
+      <image wx:if="{{art.front}}" class="scene-image scene-front" src="{{art.front}}" mode="aspectFill"/>
+    </view>
+    <view class="card-preview">
+      <block wx:if="{{selected}}"><view class="preview-title"><view class="preview-main"><text class="serif">{{selected.name}}</text><scroll-view scroll-y class="preview-scroll"><text>{{preview.allowed ? preview.summary : preview.reason}}</text></scroll-view></view><button class="card-detail-link" bindtap="openCard">详情</button></view></block>
+      <view wx:else class="hand-hint"><view class="serif">选择一张牌，交给你的旅伴。</view><text>点牌后选目标；再次点牌可取消。点单位查看状态及说明。</text></view>
+    </view>
+    <scroll-view scroll-x class="hand-scroll" show-scrollbar="{{false}}"><view class="hand-track"><button wx:for="{{run.hand}}" wx:key="uid" class="hand-card role-{{item.role}} {{selected.uid === item.uid ? 'selected-card' : ''}} {{item.playable ? '' : 'unplayable'}}" data-uid="{{item.uid}}" bindtap="selectCard" style="width: {{cardWidth}}px; min-width: {{cardWidth}}px; max-width: {{cardWidth}}px;"><view class="card-cost">{{item.cost}}</view><text wx:if="{{item.exhaust || item.retain}}" class="card-trait">{{item.exhaust ? '耗' : '留'}}</text><view class="hand-card-art"><template is="actor-portrait" data="{{...item.portrait}}"/></view><view class="card-role-icon">{{item.shortDescription}}</view><view class="hand-card-name">{{item.name}}</view><text class="hand-owner">{{item.ownerName}}</text></button></view></scroll-view>
+    <view class="battle-actions"><button class="end-turn" disabled="{{busy}}" bindtap="endTurn">结束回合<text>{{run.bankAtEnd ? '存 ' + run.bankAtEnd + ' 蓄能 · ' : ''}}下回合 {{run.nextEnergyRefill}} 能量</text></button><button class="confirm-play" disabled="{{busy || !selected || !preview.allowed}}" bindtap="confirmPlay">{{busy ? (turnAction.kind === 'enemy' ? '敌人行动中…' : turnAction.kind === 'system' ? '回合结算中…' : '伙伴行动中…') : selected ? '确认出牌' : '先选择手牌'}}<text wx:if="{{selected && !busy}}" class="payment-cost">{{selected.paymentText}}</text></button></view>
+  </block>
+  <scroll-view wx:elif="{{run}}" scroll-y class="exp-scroll">
+    <view class="journey-banner"><view class="eyebrow">{{run.difficultyName}} · 已入库 {{run.threadsEarned}} 星线</view><view class="serif">{{run.phase === 'map' ? '下一封，要往哪里送？' : run.phase === 'cardReward' ? '把这一招带上' : run.phase === 'relicReward' ? '旧物里藏着新办法' : run.phase === 'event' ? run.event.title : run.phase === 'camp' ? '在灯下歇一歇' : '给这张牌添一道光'}}</view><text>{{run.hint}}</text></view>
+    <view class="travel-party"><view wx:for="{{run.party}}" wx:key="id"><image src="{{item.baseImage}}" mode="aspectFit"/><text>{{item.name}} {{item.hp}}/{{item.maxHp}}</text></view></view>
+    <block wx:if="{{run.phase === 'map'}}"><view class="route-list"><view wx:for="{{run.nodes}}" wx:key="index" class="route-stop {{item.current ? 'current-stop' : ''}} {{item.visited ? 'visited-stop' : ''}}"><view class="route-index">{{item.visited ? '✓' : item.index + 1}}</view><view class="route-content"><view class="route-type">{{item.label}}</view><view class="route-options"><button wx:for="{{item.options}}" wx:for-item="option" wx:key="id" class="route-option" disabled="{{!item.current}}" data-id="{{option.id}}" bindtap="chooseNode"><view>{{option.name}}</view><text>{{option.description}}</text></button></view></view></view></view><button class="abandon-link text-button" bindtap="askAbandon">结束本次远行</button></block>
+    <block wx:elif="{{run.phase === 'cardReward'}}"><view class="reward-stack"><view wx:for="{{run.choices}}" wx:key="uid" class="reward-card role-{{item.role}}"><view class="reward-card-head"><text class="tag">{{item.ownerName}}</text><text>✦ {{item.cost}}</text></view><view class="reward-card-art"><template is="actor-portrait" data="{{...item.portrait}}"/></view><view class="serif reward-name">{{item.name}}</view><text class="reward-copy">{{item.description}}</text><button class="take-card" data-uid="{{item.uid}}" bindtap="chooseCard">收下这张牌</button></view></view><button class="skip-card secondary" bindtap="skipCard">这次不加牌，保持精简</button></block>
+    <block wx:elif="{{run.phase === 'relicReward'}}"><view wx:for="{{run.choices}}" wx:key="id" class="relic-choice"><view class="relic-symbol">✧</view><view class="serif reward-name">{{item.name}}</view><text class="reward-copy">{{item.description}}</text><button class="take-relic" data-id="{{item.id}}" bindtap="chooseRelic">带上这件旧物</button></view></block>
+    <block wx:elif="{{run.phase === 'event'}}"><view class="event-letter"><text class="body-copy">{{run.event.text}}</text></view><button wx:for="{{run.choices}}" wx:key="id" class="event-choice" data-id="{{item.id}}" bindtap="chooseEvent"><view>{{item.label}}</view><text>{{item.description}}</text></button></block>
+    <block wx:elif="{{run.phase === 'camp'}}"><view class="camp-lamp">♧</view><view class="event-letter body-copy">这里的灯还亮着。喝一碗热汤，或请修补师为你改造一张牌。</view><button class="camp-rest" bindtap="rest">全队恢复 35% 最大生命</button><button class="camp-upgrade secondary" bindtap="showUpgrade">升级本局一张牌</button></block>
+    <block wx:elif="{{run.phase === 'campUpgrade' || run.phase === 'startingUpgrade'}}"><view wx:for="{{run.choices}}" wx:key="uid" class="upgrade-choice"><view class="row"><view class="serif reward-name">{{item.name}} ＋</view><text class="tag">{{item.ownerName}}</text></view><text class="reward-copy">{{item.upgradeDescription}}</text><button class="upgrade-card" data-uid="{{item.uid}}" bindtap="upgradeCard">选择这张改造</button></view></block>
+    <view wx:if="{{run.relics.length}}" class="owned-relics"><view class="serif">随行旧物 · {{run.relics.length}}</view><view wx:for="{{run.relics}}" wx:key="id"><text>{{item.name}}</text><text>{{item.description}}</text></view></view>
+  </scroll-view>
+  <view wx:elif="{{view.result}}" class="result-field"></view>
+  <view wx:else class="empty">这段邮路已经收好。<button bindtap="goHub">回邮局重新出发</button></view>
+  <view wx:if="{{receipt && receipt.visible}}" class="battle-receipt receipt-{{receipt.kind}}" catchtouchmove="noop" aria-live="polite">
+    <view class="receipt-paper">
+      <scroll-view scroll-y class="receipt-scroll">
+        <view class="receipt-kicker">{{receipt.difficultyName}} · {{receipt.regionName}}</view>
+        <view class="receipt-postmark">{{receipt.postmark}}</view>
+        <view class="receipt-title serif">{{receipt.title}}</view>
+        <text class="receipt-reason">{{receipt.reason}}</text>
+        <view class="receipt-route"><text>{{receipt.station}}</text><text wx:if="{{receipt.turn}}">第 {{receipt.turn}} 回合落定</text></view>
+        <view wx:if="{{receipt.party.length}}" class="receipt-party"><view wx:for="{{receipt.party}}" wx:key="id" class="receipt-member {{item.down ? 'receipt-member-down' : ''}}"><image wx:if="{{item.baseImage}}" src="{{item.baseImage}}" mode="aspectFit"/><view>{{item.name}}</view><text>{{item.hp}} / {{item.maxHp}} 生命</text></view></view>
+        <view class="receipt-yield">
+          <view wx:if="{{receipt.rewardAmount}}"><text>+{{receipt.rewardAmount}}</text><view>本战星线</view></view>
+          <view><text>{{receipt.threads}}</text><view>本程已入库</view></view>
+          <view wx:if="{{receipt.tickets}}"><text>+{{receipt.tickets}}</text><view>获得邮票</view></view>
+        </view>
+      </scroll-view>
+      <view class="receipt-actions"><button wx:if="{{!receipt.final}}" size="mini" class="receipt-continue" bindtap="continueReceipt">查看战利品</button><button wx:else size="mini" class="finish-run" bindtap="continueReceipt">收好回执，回邮局</button></view>
+    </view>
+  </view>
+</view>
+<view wx:if="{{sheet}}" class="overlay exp-overlay" catchtouchmove="noop"><view class="dialog exp-dialog"><view class="dialog-head"><view class="dialog-title serif">{{sheet === 'deck' ? '本局牌组' : sheet === 'log' ? '旅途记录' : sheet === 'statuses' ? '玩法说明' : sheet === 'enemy' || sheet === 'ally' ? inspected.name : sheet === 'card' ? selected.name : '结束本次远行？'}}</view><button class="close" bindtap="closeSheet" aria-label="关闭">×</button></view>
+  <scroll-view wx:if="{{sheet === 'statuses'}}" scroll-x class="status-tab-scroll" scroll-into-view="guide-tab-{{statusHelp.id}}"><view class="status-tabs"><button wx:for="{{statusTabs}}" wx:key="id" id="guide-tab-{{item.id}}" size="mini" class="status-tab {{item.id === statusHelp.id ? 'status-tab-active' : ''}}" data-id="{{item.id}}" bindtap="selectStatusGuide">{{item.name}}</button></view></scroll-view>
+  <scroll-view scroll-y class="dialog-scroll" scroll-into-view="{{sheet === 'statuses' ? 'status-guide-top-' + statusHelp.id : 'sheet-top-' + sheet}}"><view id="sheet-top-{{sheet}}" aria-hidden="true"></view>
+    <block wx:if="{{sheet === 'deck'}}"><view class="deck-count-note">远行牌组 {{run.deck.length}} 张 · 本战临时 {{run.temporaryCards.length}} 张</view><view wx:for="{{run.deck}}" wx:key="uid" class="deck-item"><view class="row"><text>{{item.name}}</text><text class="tag">{{item.ownerName}} · {{item.cost}}费</text></view><text>{{item.description}}</text></view><view wx:for="{{run.temporaryCards}}" wx:key="uid" class="deck-item temporary-deck-item"><view class="row"><text>{{item.name}}</text><text class="tag">临时 · {{item.cost}} 费</text></view><text>{{item.description}}</text></view></block>
+    <block wx:elif="{{sheet === 'log'}}"><sound-controls class="sound-panel" /><button class="status-help-link" bindtap="openStatusGuide">玩法说明 · 补给 / 环境 / 状态</button><view wx:for="{{run.log}}" wx:key="key" class="log-item">{{item.text}}</view><view wx:if="{{!run.log.length}}" class="empty">这段远行刚刚开始。</view><button class="abandon-from-log text-button" bindtap="askAbandon">结束远行，保留已入库收获</button></block>
+    <block wx:elif="{{sheet === 'enemy'}}"><view class="inspected-enemy"><image wx:if="{{inspectedPreview.image}}" class="inspected-action-image" src="{{inspectedPreview.image}}" mode="aspectFit"/><template is="pose-picker" data="{{inspected: inspected, previewPose: previewPose, poseChoices: poseChoices}}"/><view>{{inspected.hp}} / {{inspected.maxHp}} 生命 · {{inspected.block}} 护盾</view><view class="serif">下一次行动</view><text class="body-copy">{{inspected.intentText}}</text><view class="body-copy">{{inspected.statusText || '当前没有额外状态'}}</view><button class="status-help-link" bindtap="openStatusGuide">查看状态说明</button></view></block>
+    <block wx:elif="{{sheet === 'ally'}}"><view class="inspected-enemy"><view class="inspected-action-image"><template is="actor-portrait" data="{{...inspectedPreview}}"/></view><template is="pose-picker" data="{{inspected: inspected, previewPose: previewPose, poseChoices: poseChoices}}"/><view>{{inspected.roleName}} · Lv.{{inspected.level}} · {{inspected.hp}} / {{inspected.maxHp}} 生命</view><view class="serif">{{inspected.passiveName}}</view><text class="body-copy">{{inspected.passiveDescription}}</text><view class="body-copy">{{inspected.statusText || '当前没有额外状态'}}</view><button class="status-help-link" bindtap="openStatusGuide">查看状态说明</button></view></block>
+    <block wx:elif="{{sheet === 'card'}}"><view class="inspected-card role-{{selected.role}}"><view class="card-detail-art"><template is="actor-portrait" data="{{...selected.portrait}}"/></view><view class="tag">{{selected.ownerName}} · {{selected.cost}} 费</view><text class="body-copy">{{selected.description}}</text><view class="preview-detail">{{preview.allowed ? preview.summary : preview.reason}}</view><button size="mini" class="trade-selected" disabled="{{!selected.canTrade}}" bindtap="tradeSelected">改签换牌 · {{selected.tradePaymentText}}</button><text class="trade-explanation">支付改签费用，抽另一张牌，本牌置于牌堆底。不发动原效果，不计连锁。</text><button class="status-help-link" bindtap="openStatusGuide">查看状态说明</button></view></block>
+    <block wx:elif="{{sheet === 'statuses'}}">
+      <view class="status-guide" id="status-guide-top-{{statusHelp.id}}" data-status="{{statusHelp.id}}">
+        <view wx:if="{{tacticStatus}}" class="status-owner-value">{{tacticStatus}}</view><view class="status-guide-name">{{statusHelp.name}}</view><view class="status-guide-summary">{{statusHelp.summary}}</view>
+        <view wx:if="{{statusOwner}}" class="status-owner-value">{{statusOwner.name}} · {{statusOwner.value ? '当前 ' + statusOwner.value + ' ' + statusHelp.unit : '当前没有这项状态'}}</view>
+        <view wx:for="{{statusHelp.rules}}" wx:key="*this" class="status-guide-rule">{{item}}</view>
+        <view class="status-example"><view>例子</view><text>{{statusHelp.example}}</text></view>
+        <view class="status-tip">{{statusHelp.tip}}</view>
+        <view class="status-guide-footer">{{statusRuleNote}}</view>
+      </view>
+    </block>
+    <view wx:elif="{{sheet === 'abandon'}}" class="abandon-copy body-copy">已经入库的星线会保留，本局牌组和遗物会结束。下次可以重新搭配队伍，再走一条不同的路。</view>
+  </scroll-view><view wx:if="{{sheet === 'statuses'}}" class="dialog-footer"><button class="status-guide-back" bindtap="backFromStatusGuide">‹ {{statusReturnLabel}}</button></view><view wx:if="{{sheet === 'abandon'}}" class="dialog-footer"><button class="confirm-abandon" bindtap="abandon">结束远行，保留已获得资源</button><button class="secondary" bindtap="closeSheet">继续这次远行</button></view>
+</view></view>
+<view wx:if="{{run.pendingChoice && !busy}}" class="overlay exp-overlay opportunity-overlay" catchtouchmove="noop"><view class="dialog exp-dialog opportunity-dialog">
+  <view class="dialog-head"><view class="dialog-title serif">{{run.pendingChoice.kind === 'discover' ? '发现临时战术' : '整理接下来的邮路'}}</view><text class="tag">{{run.pendingChoice.options.length}} 选 1</text></view>
+  <scroll-view scroll-y class="dialog-scroll opportunity-scroll">
+    <view class="opportunity-note">{{run.pendingChoice.kind === 'discover' ? '选一张加入手牌，使用时另付卡面费用。本战结束后消失。' : '从看到的牌中选一张加入手牌，其余按展示顺序置于牌堆底。'}}</view>
+    <view class="opportunity-budget">当前可用 {{run.availableBudget}} 费 · 能量 {{run.energy}} + 蓄能 {{run.charge}}</view>
+    <view class="opportunity-battle"><text wx:for="{{run.party}}" wx:key="id">{{item.name}} {{item.hp}}/{{item.maxHp}} {{item.statusText}}</text><text wx:for="{{run.enemies}}" wx:key="id">{{item.name}} · {{item.hp}}生命 · {{item.block}}盾 · {{item.intentShort}}</text></view>
+    <view wx:for="{{run.pendingChoice.options}}" wx:key="choiceId" class="opportunity-card role-{{item.role}}"><view class="row"><view class="serif">{{item.name}}</view><text class="tag">{{item.cost}} 费</text></view><text class="opportunity-owner">{{item.ownerName}}{{item.temporary ? ' · 临时牌' : ''}}</text><text class="body-copy">{{item.description}}</text><button size="mini" class="opportunity-take" data-id="{{item.choiceId}}" bindtap="chooseOpportunity">选入手牌</button></view>
+  </scroll-view>
+  <view class="dialog-footer opportunity-footer"><button size="mini" class="opportunity-skip secondary" bindtap="skipOpportunity">{{run.pendingChoice.kind === 'discover' ? '放弃这次机会' : '全部放到牌堆底'}}</button><button size="mini" class="opportunity-later text-button" bindtap="goHub">先回邮局，稍后选择</button></view>
+</view></view>
+</template>

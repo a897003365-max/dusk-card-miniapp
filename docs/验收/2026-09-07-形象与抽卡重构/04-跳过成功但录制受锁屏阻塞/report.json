@@ -1,0 +1,72 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2DBUUV",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-controls-hkzx2a",
+  "checks": [
+    {
+      "name": "快速操作仅作用于隔离存档",
+      "pass": true
+    },
+    {
+      "name": "快速操作前已正常完成一次抽取",
+      "pass": true
+    },
+    {
+      "name": "点击跳过立即稳定，不再播放入场动画",
+      "pass": true
+    }
+  ],
+  "shots": [],
+  "interactions": [
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 47.5,
+        "right": 342.5,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 295,
+        "height": 237
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ],
+  "videos": [],
+  "status": "fail",
+  "skipStyle": {
+    "phase": "settled",
+    "hero": {
+      "left": 18,
+      "right": 372,
+      "top": 116.421875,
+      "bottom": 480.5703125,
+      "animation-name": "none",
+      "opacity": "1",
+      "transform": "none"
+    }
+  },
+  "error": "{\"event\":\"error\",\"message\":\"没有收到任何完整窗口帧，录制失败\"}\n"
+}

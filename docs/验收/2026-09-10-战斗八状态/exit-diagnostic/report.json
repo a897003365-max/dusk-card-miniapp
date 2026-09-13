@@ -1,0 +1,26 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-exit-diagnostic-yCP7YH",
+  "checks": [],
+  "shots": [
+    {
+      "name": "after-failed-observation",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-exit-diagnostic-yCP7YH/after-failed-observation.jpg",
+      "imageWidth": 590,
+      "imageHeight": 1046
+    }
+  ],
+  "runtime": {
+    "route": "package-street/pages/run/index",
+    "beat": "",
+    "busy": false,
+    "internalBeat": "",
+    "internalBusy": false,
+    "fx": [],
+    "enemyFrame": null,
+    "enemyExit": false,
+    "phase": "cardReward"
+  },
+  "console": "",
+  "all": "1:[\"[info]\",\"[system]\",\"WeChatLib: 3.17.0 (2026.8.18 17:29:36)\"]\n2:[\"[info]\",\"[system]\",\"No. of subpackages: 6\"]\n--\n4:[\"[info]\",\"Lazy code loading is enabled. Only injecting required components.\"]"
+}

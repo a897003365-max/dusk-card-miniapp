@@ -1,0 +1,566 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-nyMDCE",
+  "width": 320,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-status-help-Nqyz6Q",
+  "checks": [
+    {
+      "name": "说明验收使用隔离存档",
+      "pass": true
+    },
+    {
+      "name": "实际宽度正确",
+      "pass": true
+    },
+    {
+      "name": "记录入口默认展示回响",
+      "pass": true
+    },
+    {
+      "name": "echo 详细规则和例子完整",
+      "pass": true
+    },
+    {
+      "name": "echo 切换后自动回到标题与分类",
+      "pass": true
+    },
+    {
+      "name": "echo 最后一段可完整滚动",
+      "pass": true
+    },
+    {
+      "name": "mark 详细规则和例子完整",
+      "pass": true
+    },
+    {
+      "name": "mark 切换后自动回到标题与分类",
+      "pass": true
+    },
+    {
+      "name": "mark 最后一段可完整滚动",
+      "pass": true
+    },
+    {
+      "name": "weak 详细规则和例子完整",
+      "pass": true
+    },
+    {
+      "name": "weak 切换后自动回到标题与分类",
+      "pass": true
+    },
+    {
+      "name": "weak 最后一段可完整滚动",
+      "pass": true
+    },
+    {
+      "name": "burn 详细规则和例子完整",
+      "pass": true
+    },
+    {
+      "name": "burn 切换后自动回到标题与分类",
+      "pass": true
+    },
+    {
+      "name": "burn 最后一段可完整滚动",
+      "pass": true
+    },
+    {
+      "name": "counter 详细规则和例子完整",
+      "pass": true
+    },
+    {
+      "name": "counter 切换后自动回到标题与分类",
+      "pass": true
+    },
+    {
+      "name": "counter 最后一段可完整滚动",
+      "pass": true
+    },
+    {
+      "name": "retainBlock 详细规则和例子完整",
+      "pass": true
+    },
+    {
+      "name": "retainBlock 切换后自动回到标题与分类",
+      "pass": true
+    },
+    {
+      "name": "retainBlock 最后一段可完整滚动",
+      "pass": true
+    },
+    {
+      "name": "底部按钮返回原记录",
+      "pass": true
+    },
+    {
+      "name": "伙伴详情显示对应单位当前状态",
+      "pass": true
+    },
+    {
+      "name": "返回原伙伴详情",
+      "pass": true
+    },
+    {
+      "name": "说明浏览完全不改战斗、资源和随机进度",
+      "pass": true
+    },
+    {
+      "name": "原生控制台无 error",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "echo-top",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-status-help-Nqyz6Q/echo-top.jpg",
+      "imageWidth": 564,
+      "imageHeight": 1000
+    },
+    {
+      "name": "mark-top",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-status-help-Nqyz6Q/mark-top.jpg",
+      "imageWidth": 564,
+      "imageHeight": 1000
+    },
+    {
+      "name": "weak-top",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-status-help-Nqyz6Q/weak-top.jpg",
+      "imageWidth": 564,
+      "imageHeight": 1000
+    },
+    {
+      "name": "guide-bottom",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-status-help-Nqyz6Q/guide-bottom.jpg",
+      "imageWidth": 564,
+      "imageHeight": 1000
+    },
+    {
+      "name": "unit-context",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-status-help-Nqyz6Q/unit-context.jpg",
+      "imageWidth": 564,
+      "imageHeight": 1000
+    }
+  ],
+  "entries": [
+    {
+      "id": "echo",
+      "item": {
+        "id": "echo",
+        "tab": "回响",
+        "name": "回响",
+        "unit": "次",
+        "summary": "让下一张伤害牌追加一次伤害。",
+        "rules": [
+          "出牌前已有回响时，该牌的首个伤害效果会追加一次基础伤害的 50%，向上取整，并消耗 1 层回响。",
+          "一张牌最多消耗 1 层。2 层回响可分别强化两张伤害牌，不会让同一张牌连续追加两次；没有伤害效果的牌不消耗。",
+          "追加段会独立计算虚弱、标记和护盾，因此最终掉血不一定恰好增加一半。群体伤害牌会对该效果仍可命中的目标各追加一次。",
+          "回合结束不会减少回响。该牌出手后才获得的新回响留给后续牌；首段已经消灭所有目标时，这一层仍会消耗。"
+        ],
+        "example": "没有其他状态或护盾时，卡面首段伤害为 5，回响追加 3，共造成 8 点伤害。",
+        "tip": "先准备回响，再打伤害牌；想让追加段也吃到标记，可以先给敌人叠够标记。"
+      },
+      "footer": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 316.4921875,
+        "bottom": 389.6875,
+        "width": 266,
+        "height": 73.1953125
+      }
+    },
+    {
+      "id": "mark",
+      "item": {
+        "id": "mark",
+        "tab": "标记",
+        "name": "标记",
+        "unit": "层",
+        "summary": "让目标下一次受到的直接伤害更高。",
+        "rules": [
+          "目标每次受到直接伤害时，额外增加 2 点，再消耗 1 层标记。标记加成在虚弱计算之后、护盾抵扣之前。",
+          "普通攻击、回响追加和反击都可触发标记。多段伤害会逐段消耗；即使伤害被护盾全部挡住，也会消耗。",
+          "灼烧不会触发或消耗标记。标记不会随回合自动减少，未用完的层数可留给后续攻击。"
+        ],
+        "example": "没有其他状态或护盾时，6 点直接伤害打中有 2 层标记的敌人，造成 8 点，敌人剩 1 层标记。",
+        "tip": "同一张牌里先标记再伤害，可以当场增伤；先伤害再标记则为后续攻击做准备。"
+      },
+      "footer": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 316.7890625,
+        "bottom": 389.984375,
+        "width": 266,
+        "height": 73.1953125
+      }
+    },
+    {
+      "id": "weak",
+      "item": {
+        "id": "weak",
+        "tab": "弱化",
+        "name": "虚弱（弱化）",
+        "unit": "回合",
+        "summary": "使持有者的直接伤害降低 25%。",
+        "rules": [
+          "普通出牌、敌方攻击和回响追加都会乘以 0.75，并向下取整。灼烧和反击不受虚弱影响。",
+          "伙伴的虚弱在点击结束回合时减少 1；敌人新施加的虚弱会影响接下来的己方回合，到下一次结束回合才减少。",
+          "敌人的虚弱在它完成一次行动后减少 1。防御或召唤也算行动，因此 1 回合虚弱可能被它的防御回合消耗。"
+        ],
+        "example": "没有其他状态时，6 点直接伤害在虚弱下变成 4 点，再由护盾抵扣。",
+        "tip": "看准敌人的攻击意图再施加虚弱，特别适合应对 Boss 的蓄力重击。"
+      },
+      "footer": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 316.4921875,
+        "bottom": 389.6875,
+        "width": 266,
+        "height": 73.1953125
+      }
+    },
+    {
+      "id": "burn",
+      "item": {
+        "id": "burn",
+        "tab": "灼烧",
+        "name": "灼烧",
+        "unit": "层",
+        "summary": "按当前层数直接扣生命，结算后层数减少。",
+        "rules": [
+          "敌人在各自行动之前结算；伙伴在新的己方回合开始时结算。每次按当前层数扣血，然后减少 1 层。",
+          "灼烧无视护盾，不受虚弱影响，也不触发标记。它可以使目标倒下，或让 Boss 进入下一阶段。",
+          "再次施加会累加层数；层数越高，下一次结算的伤害越高。"
+        ],
+        "example": "目标有 3 层灼烧，若持续存活且没有再叠加，接下来三次依次掉 3、2、1 点生命。",
+        "tip": "护盾挡不住灼烧。低生命时留意自己的灼烧值，及时治疗。"
+      },
+      "footer": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 316.7890625,
+        "bottom": 389.984375,
+        "width": 266,
+        "height": 73.1953125
+      }
+    },
+    {
+      "id": "counter",
+      "item": {
+        "id": "counter",
+        "tab": "反击",
+        "name": "反击",
+        "unit": "点反击",
+        "summary": "每次遭敌人主动攻击后，反打一击。",
+        "rules": [
+          "数字代表每次反击的伤害，不是次数。多次获得会相加，持续到下一次己方回合开始时清零。",
+          "即使敌人的攻击被护盾完全挡住，也会反击；同一次致命攻击中已准备的反击也会结算。",
+          "反击不受自己的虚弱影响，但仍会触发目标的标记，并被目标护盾抵扣。反击不会触发下一次反击，也不响应灼烧。",
+          "如果同一次结算让全队倒下，仍会先判定本局失败。"
+        ],
+        "example": "你有 3 点反击，敌人连续主动攻击你两次，每次都会反击 3 点基础伤害，再计算敌人的标记与护盾。",
+        "tip": "反击搭配护盾，可以承受敌方阶段的攻击并持续回击。"
+      },
+      "footer": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 316.7890625,
+        "bottom": 389.984375,
+        "width": 266,
+        "height": 73.1953125
+      }
+    },
+    {
+      "id": "retainBlock",
+      "item": {
+        "id": "retainBlock",
+        "tab": "留盾",
+        "name": "留盾",
+        "unit": "次保留",
+        "summary": "让剩余护盾跨过己方回合开始。",
+        "rules": [
+          "通常新的己方回合开始会清空伙伴护盾。有留盾时，改为保留当时剩下的护盾，并消耗 1 层留盾。",
+          "留盾不会补回已经被打掉的护盾；多层可以在多个回合开始时逐次保留。",
+          "倒下会立即清空护盾，灼烧也会绕过保留下来的护盾。"
+        ],
+        "example": "回合开始前还剩 8 点护盾和 2 层留盾，开始后仍有 8 点护盾，留盾变成 1 层。",
+        "tip": "需要积攒护盾应对重击时使用；护盾已经耗尽时，留盾本身不会提供保护。"
+      },
+      "footer": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 316.4921875,
+        "bottom": 389.6875,
+        "width": 266,
+        "height": 73.1953125
+      }
+    }
+  ],
+  "status": "pass",
+  "interactions": [
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 396,
+        "bottom": 444,
+        "width": 284,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".exp-log",
+      "rect": {
+        "dataset": {},
+        "left": 264,
+        "right": 308,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-help-link",
+      "rect": {
+        "dataset": {},
+        "left": 68,
+        "right": 252,
+        "top": 148.3203125,
+        "bottom": 192.3203125,
+        "width": 184,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"echo\"]",
+      "rect": {
+        "dataset": {
+          "id": "echo"
+        },
+        "left": 27,
+        "right": 111.6640625,
+        "top": 96.3203125,
+        "bottom": 140.3203125,
+        "width": 84.6640625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"mark\"]",
+      "rect": {
+        "dataset": {
+          "id": "mark"
+        },
+        "left": 117.6640625,
+        "right": 202.328125,
+        "top": 96.3203125,
+        "bottom": 140.3203125,
+        "width": 84.6640625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"weak\"]",
+      "rect": {
+        "dataset": {
+          "id": "weak"
+        },
+        "left": 208.328125,
+        "right": 292.9921875,
+        "top": 96.3203125,
+        "bottom": 140.3203125,
+        "width": 84.6640625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"burn\"]",
+      "rect": {
+        "dataset": {
+          "id": "burn"
+        },
+        "left": 27,
+        "right": 111.6640625,
+        "top": 104.3203125,
+        "bottom": 148.3203125,
+        "width": 84.6640625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"counter\"]",
+      "rect": {
+        "dataset": {
+          "id": "counter"
+        },
+        "left": 117.6640625,
+        "right": 202.328125,
+        "top": 104.3203125,
+        "bottom": 148.3203125,
+        "width": 84.6640625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-tab[data-id=\"retainBlock\"]",
+      "rect": {
+        "dataset": {
+          "id": "retainBlock"
+        },
+        "left": 208.328125,
+        "right": 292.9921875,
+        "top": 104.3203125,
+        "bottom": 148.3203125,
+        "width": 84.6640625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-guide-back",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 399.6796875,
+        "bottom": 443.6796875,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 249,
+        "right": 293,
+        "top": 52.3203125,
+        "bottom": 96.3203125,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".ally-unit[data-id=\"sheep\"]",
+      "rect": {
+        "dataset": {
+          "id": "sheep"
+        },
+        "left": 15.6171875,
+        "right": 101.453125,
+        "top": 219.921875,
+        "bottom": 297.921875,
+        "width": 85.8359375,
+        "height": 78
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-help-link",
+      "rect": {
+        "dataset": {},
+        "left": 68,
+        "right": 252,
+        "top": 375.8046875,
+        "bottom": 419.8046875,
+        "width": 184,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".status-guide-back",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 399.6796875,
+        "bottom": 443.6796875,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 249,
+        "right": 293,
+        "top": 52.3203125,
+        "bottom": 96.3203125,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    }
+  ],
+  "console": ""
+}

@@ -1,0 +1,28 @@
+{
+  "createdAt": "2026-09-10T04:06:25.304Z",
+  "sourceManifest": "/tmp/dusk-delivery-preview-0PpeNN/sources.json",
+  "renderer": "/tmp/dusk-delivery-preview-0PpeNN/compose.swift",
+  "partnerCount": 22,
+  "partnerLayout": "6 columns, last row of 4 centered; Chinese name and role from utils/content.js",
+  "partnerPlacement": "Original PNG width/height at 1:1, integer pixel positions, no cropping or stretching; alpha composited over light paper.",
+  "partnerSourceHashesUnchanged": true,
+  "sceneSource": "Current assets/battle/manifest.js references: each region composited background then middle then front at 1024x1024.",
+  "classification": "Static asset overview; not an in-game screenshot or CLI acceptance evidence.",
+  "visualQA": "Viewed both finished sheets: all 22 names/roles readable, generous spacing, transparent areas correctly composited; three scenes contain all three source layers.",
+  "outputs": [
+    {
+      "name": "paper-couriers-22-overview.png",
+      "path": "/tmp/dusk-delivery-preview-0PpeNN/paper-couriers-22-overview.png",
+      "width": 2544,
+      "height": 2138,
+      "bytes": 2663421
+    },
+    {
+      "name": "three-regions-layer-composite.png",
+      "path": "/tmp/dusk-delivery-preview-0PpeNN/three-regions-layer-composite.png",
+      "width": 3256,
+      "height": 1320,
+      "bytes": 6757534
+    }
+  ]
+}

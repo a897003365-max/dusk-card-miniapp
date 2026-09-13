@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/adventure/index",
+    "pages/home/index",
+    "pages/collection/index",
+    "pages/story/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "晚霞来信",
+    "navigationBarBackgroundColor": "#f8f4ed",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f8f4ed"
+  },
+  "tabBar": {
+    "color": "#8b929d",
+    "selectedColor": "#263851",
+    "backgroundColor": "#fffcf6",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/adventure/index",
+        "text": "冒险"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "text": "信匣"
+      },
+      {
+        "pagePath": "pages/collection/index",
+        "text": "旅伴"
+      },
+      {
+        "pagePath": "pages/story/index",
+        "text": "来信"
+      }
+    ]
+  },
+  "subPackages": [
+    {
+      "root": "package-street",
+      "pages": [
+        "pages/run/index"
+      ]
+    },
+    {
+      "root": "package-bridge",
+      "pages": [
+        "pages/run/index"
+      ]
+    },
+    {
+      "root": "package-market",
+      "pages": [
+        "pages/run/index"
+      ]
+    },
+    {
+      "root": "package-actors-a",
+      "name": "actors-a",
+      "pages": []
+    },
+    {
+      "root": "package-actors-b",
+      "name": "actors-b",
+      "pages": []
+    },
+    {
+      "root": "package-actors-c",
+      "name": "actors-c",
+      "pages": []
+    }
+  ],
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json"
+}

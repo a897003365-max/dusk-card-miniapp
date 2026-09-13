@@ -1,0 +1,195 @@
+.expedition { position: relative; height: 100vh; box-sizing: border-box; display: flex; flex-direction: column; overflow: hidden; background: #f5f0e5; color: #2c3e54; padding-bottom: env(safe-area-inset-bottom); }
+.exp-top { height: 48px; flex-shrink: 0; display: flex; align-items: center; border-bottom: 1px solid #d9d2c2; padding: 0 12px; gap: 10px; background: #faf6ee; }.hub-back, .exp-log { margin: 0; flex: 0 0 60px; width: 60px; min-width: 60px; max-width: 60px; min-height: 44px; padding: 8px 0; font-size: 13px; border-radius: 0; color: #52687d; background: transparent; }.exp-log { flex-basis: 44px; margin-left: auto; width: 44px; min-width: 44px; max-width: 44px; }.exp-heading { flex: 1; min-width: 0; font-size: 15px; font-weight: 600; }.exp-heading text { display: block; font-size: 10px; color: #8a806e; font-weight: 400; }
+.battle-toolbar { display: flex; align-items: center; justify-content: space-between; height: 44px; padding: 0 14px; flex-shrink: 0; background: #293f56; color: #e6e5d9; font-size: 12px; }.turn-label { margin-right: 13px; }.energy-label { color: #f3cd86; font-weight: 600; }.deck-link { padding: 6px 0; width: auto; min-width: 0; max-width: 155px; background: transparent; font-size: 11px; color: #d3dfe5; }
+.battle-stage { position: relative; height: auto; min-height: 330px; flex: 1; display: flex; flex-direction: column; justify-content: space-around; padding: 7px 12px; background: linear-gradient(160deg,#637a83,#b2b6a4 60%,#8e9b8e); overflow: hidden; }.scene-image { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }.stage-light { position: absolute; inset: 0; background: linear-gradient(#172c3d22,#182d3c00 55%,#f3ead850); pointer-events: none; }.enemy-row, .party-row { display: flex; align-items: flex-end; justify-content: space-evenly; gap: 12px; position: relative; z-index: 2; }.enemy-row { min-height: 172px; flex-shrink: 0; }.party-row { height: 138px; }.unit { width: 29%; min-width: 0; min-height: 78px; position: relative; text-align: center; border: 1px solid transparent; border-radius: 10px; padding: 2px 4px; color: #263c50; }.unit.targeted { border-color: #f4c879; background: #fff2cf6e; box-shadow: 0 0 0 2px #6e543343; }.unit-art { width: 88px; height: 90px; display: block; margin: 0 auto; max-width: 100%; filter: drop-shadow(0 3px 3px #12233555); }.intent-bubble { font-size: 12px; line-height: 1.25; min-height: 36px; padding: 3px 4px; background: #fdf7e9eb; color: #754f3f; border-radius: 5px; margin: 0 -3px 3px; }.intent-target { white-space: nowrap; }.intent-effect { white-space: nowrap; font-weight: 600; }.intent-note { white-space: normal; word-break: break-all; }.unit-name { font-size: 12px; line-height: 1.35; color: #243b4d; background: #fff6e6de; border-radius: 4px; padding: 1px 2px; white-space: nowrap; }.unit-name text { font-size: 9px; }.health-track { height: 4px; background: #25374744; margin: 3px 0 1px; border-radius: 3px; overflow: hidden; }.health-track view { height: 100%; background: #bc735b; transition: width 230ms ease; }.ally-unit .health-track view { background: #63856d; }.unit-health { background: #f7f2e5dc; border-radius: 3px; font-size: 12px; font-weight: 600; color: #243b4c; line-height: 1.2; text-shadow: 0 1px 2px #fff; }.unit-health text { color: #385b7c; }.versus-line { height: 6px; text-align: center; color: #ecdfba; font-size: 11px; line-height: 6px; }.down { opacity: .45; filter: grayscale(1); }.scene-front { z-index: 1; }.impact { position: absolute; top: 26px; left: 0; right: 0; font-weight: 800; font-size: 24px; color: #a84d34; text-shadow: 0 1px 2px #fff; animation: damageFloat 320ms ease-out both; pointer-events: none; }.impact-heal { color: #577f62; }.impact-shield { color: #396580; }.acting .unit-art { animation: castPulse 320ms ease-in-out; }
+.card-preview { height: 90px; min-height: 90px; flex: 0 0 90px; max-height: 90px; padding: 6px 16px 4px; background: #fcf8ef; border-top: 1px solid #d9d1c1; border-bottom: 1px solid #ded7c8; }.preview-title { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 44px; font-size: 17px; }.card-detail-link { width: 44px; min-width: 44px; max-width: 44px; padding: 0; min-height: 44px; color: #836b48; background: transparent; font-size: 11px; }.preview-scroll { height: 47px; font-size: 12px; line-height: 1.65; color: #866d4c; }.preview-main { flex: 1; min-width: 0; }.preview-main > .serif { display: block; font-size: 16px; line-height: 1.35; }.hand-hint { padding-top: 13px; }.hand-hint .serif { font-size: 16px; }.hand-hint text { display: block; font-size: 11px; color: #879096; margin-top: 7px; }
+.hand-scroll { height: 136px; flex-shrink: 0; width: 100%; background: #e8dfce; white-space: nowrap; }.hand-track { display: inline-flex; gap: 6px; padding: 9px 16px 8px; height: 136px; box-sizing: border-box; }.hand-card { height: 118px; min-height: 118px; flex-shrink: 0; border-radius: 6px; padding: 4px 3px; background: #fffcf2; border: 1px solid #baa983; color: #3f5662; text-align: center; position: relative; font-weight: 500; box-shadow: 0 3px 0 #cabda3; }.card-cost { position: absolute; z-index: 1; left: 3px; top: 2px; font-weight: 700; width: 17px; height: 17px; border-radius: 50%; color: #fff3d8; background: #3f5369; font-size: 11px; line-height: 17px; }.card-role-icon { font-size: 11px; line-height: 17px; margin: 3px auto; color: #8a6835; }.hand-card-name { white-space: normal; font-size: 11px; line-height: 1.25; height: 28px; overflow: hidden; font-weight: 600; }.hand-owner { display: block; font-size: 11px; line-height: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #66706c; margin-top: 3px; }.selected-card { transform: translateY(-4px); border: 2px solid #ba9146; box-shadow: 0 4px 0 #b99a60; }.unplayable { opacity: .65; }.role-guard { border-color: #8ca59a; }.role-combo { border-color: #bf987b; }.role-echo { border-color: #a098b4; }
+.battle-actions { height: 59px; flex-shrink: 0; display: flex; align-items: center; gap: 9px; padding: 6px 14px; background: #faf6eb; }.end-turn { flex: 0 0 34%; width: 34%; min-width: 0; max-width: 34%; background: #e4ddcf; color: #526577; font-size: 13px; padding: 6px 3px; border-radius: 9px; }.end-turn text { display: block; font-size: 9px; margin-top: 1px; font-weight: 400; }.confirm-play { flex: 1; width: 0; min-width: 0; color: #f7dfb2; font-size: 14px; border-radius: 9px; padding: 11px 5px; }.compact .battle-stage { min-height: 212px; height: auto; }.compact .enemy-row { min-height: 110px; }.compact .party-row { height: 78px; }.compact .unit-art { width: 56px; height: 36px; }.compact .intent-bubble { min-height: 34px; padding: 2px; }.compact .card-preview { height: 52px; min-height: 52px; max-height: 52px; flex-basis: 52px; padding-top: 2px; }.compact .preview-title { font-size: 15px; min-height: 44px; }.compact .preview-main > .serif { font-size: 14px; }.compact .preview-scroll { height: 29px; }.compact .hand-scroll, .compact .hand-track { height: 88px; }.compact .hand-card { height: 77px; min-height: 77px; }.compact .hand-card-name { font-size: 10px; height: 25px; }.compact .card-role-icon { font-size: 11px; line-height: 17px; margin-bottom: 2px; }.compact .hand-owner { font-size: 11px; }
+.exp-scroll { flex: 1; min-height: 0; height: 60vh; box-sizing: border-box; padding: 18px; }.journey-banner .serif { font-size: 28px; margin: 11px 0; }.journey-banner text { display: block; font-size: 13px; color: #7a8389; line-height: 1.8; }.journey-banner .eyebrow { font-size: 10px; letter-spacing: 2px; }.travel-party { display: flex; gap: 9px; padding: 18px 0; border-bottom: 1px dashed #cfc5b2; }.travel-party view { flex: 1; min-width: 0; text-align: center; }.travel-party image { width: 48px; height: 48px; display: block; margin: auto; }.travel-party text { font-size: 10px; color: #75818b; }.route-list { margin: 22px 0; }.route-stop { display: flex; gap: 12px; padding-bottom: 24px; opacity: .65; }.route-index { width: 29px; height: 29px; line-height: 27px; border: 1px solid #c1b59c; color: #928166; border-radius: 50%; text-align: center; font-size: 14px; flex-shrink: 0; margin-top: 6px; }.route-content { flex: 1; min-width: 0; }.route-type { font-size: 14px; margin-bottom: 8px; }.route-options { display: flex; gap: 9px; }.route-option { flex: 1; width: 0; min-width: 0; background: #fffbf1; color: #435d72; border: 1px solid #d6cdbd; border-radius: 11px; padding: 13px 9px; font-size: 13px; text-align: left; }.route-option text { display: block; font-size: 10px; font-weight: 400; line-height: 1.6; margin-top: 6px; }.current-stop { opacity: 1; }.current-stop .route-index { color: #fff0cf; background: #9d7c45; border-color: #9d7c45; }.current-stop .route-option { border-color: #aa8a51; }.visited-stop .route-index { background: #dce3d6; border-color: #a6b2a2; }.abandon-link, .abandon-from-log { width: 100%; min-width: 100%; font-size: 12px; color: #97705e; }
+.reward-stack { padding-top: 18px; }.reward-card, .relic-choice, .upgrade-choice { padding: 20px; border: 1px solid #c8baa0; border-radius: 15px; background: #fffcf3; margin: 16px 0; }.reward-card-head { display: flex; align-items: center; justify-content: space-between; color: #a48755; font-size: 13px; }.reward-name { font-size: 24px; margin: 12px 0; }.reward-copy { display: block; font-size: 14px; line-height: 1.9; color: #677b89; }.take-card, .take-relic, .upgrade-card { margin-top: 18px; width: 100%; min-width: 100%; font-size: 14px; }.skip-card { width: 100%; min-width: 100%; margin-bottom: 18px; font-size: 13px; }.relic-symbol { font-size: 30px; color: #b08c4f; }.event-letter { background: #ede5d6; border: 1px solid #d7c9af; padding: 24px; margin: 22px 0; border-radius: 14px; }.event-choice { width: 100%; min-width: 100%; text-align: left; padding: 17px; background: #fffbf2; border: 1px solid #d9cbb5; color: #354d64; margin: 14px 0; font-size: 16px; }.event-choice text { display: block; margin-top: 10px; color: #7d8b91; font-size: 13px; line-height: 1.7; font-weight: 400; }.camp-lamp { width: 100px; height: 100px; line-height: 95px; border-radius: 50%; border: 2px double #b29565; background: #e9dcbf; font-size: 65px; text-align: center; color: #8f754a; margin: 28px auto; }.camp-rest, .camp-upgrade { width: 100%; min-width: 100%; margin: 16px 0; font-size: 14px; }.owned-relics { border-top: 1px solid #d8cfbd; padding: 22px 0; }.owned-relics .serif { font-size: 21px; }.owned-relics view + view { margin-top: 14px; }.owned-relics text { display: block; font-size: 12px; line-height: 1.8; }.owned-relics text + text { color: #8b938d; font-size: 11px; }
+.result-field { flex: 1; min-height: 0; background: linear-gradient(160deg,#344b60,#837965 70%,#d0b98e); }
+.exp-overlay { z-index: 100; }.exp-dialog { max-height: calc(100vh - 50px); }.deck-item { padding: 17px 0; border-bottom: 1px solid #e3dac8; font-size: 15px; }.deck-item > text { display: block; font-size: 13px; line-height: 1.85; margin-top: 9px; color: #7c8790; }.log-item { padding: 12px 0; border-bottom: 1px solid #e3dac8; font-size: 13px; line-height: 1.8; }.inspected-enemy, .inspected-card { padding: 20px 0; }.inspected-enemy image { height: 140px; width: 100%; }.inspected-enemy > view { margin-bottom: 20px; font-size: 14px; }.inspected-enemy .serif { margin-top: 22px; font-size: 21px; }.inspected-card .tag { margin-bottom: 22px; }.inspected-card > text { display: block; }.preview-detail { margin-top: 25px; padding: 18px; background: #ebe2d1; border-radius: 12px; color: #967947; font-size: 14px; }.abandon-copy { padding: 24px 0; }.confirm-abandon, .exp-dialog .dialog-footer .secondary { width: 100%; min-width: 100%; font-size: 14px; margin-top: 12px; }
+@keyframes damageFloat { from { opacity: 1; transform: translateY(8px); } to { opacity: 0; transform: translateY(-16px); } }
+.scene-back { transform: scale(1.045); }
+.scene-middle { animation: alleyMiddle 9s ease-in-out infinite alternate; }
+.scene-front { animation: alleyFront 11s ease-in-out infinite alternate; }
+@keyframes alleyMiddle { from { transform: translate(-2px,0) scale(1.04); } to { transform: translate(2px,-1px) scale(1.04); } }
+@keyframes alleyFront { from { transform: translate(-3px,1px) scale(1.04); } to { transform: translate(3px,-1px) scale(1.04); } }
+.unit-statuses { position: absolute; right: -3px; top: 31px; display: flex; flex-direction: column; gap: 2px; pointer-events: none; }.ally-unit .unit-statuses { top: 5px; }.unit-statuses text { font-size: 10px; line-height: 15px; min-width: 20px; border-radius: 4px; color: #f9f5e7; background: #647585; padding: 0 2px; }.unit-statuses .status-burn { background: #a76646; }.unit-statuses .status-counter, .unit-statuses .status-retainBlock { background: #4c7967; }.unit-statuses .status-echo, .unit-statuses .status-mark { background: #8c7453; }.compact .hand-hint { padding-top: 4px; }.compact .hand-hint .serif { font-size: 14px; }.compact .hand-hint text { font-size: 10px; line-height: 1.45; margin-top: 3px; }
+
+.exp-log-slot { width: 44px; flex: 0 0 44px; }
+
+.compact .unit-name { font-size: 11px; line-height: 1.2; padding: 0; }
+
+/* 角色动作卡面：常规屏展示插画，紧凑屏保留完整效果与操作空间。 */
+.hand-card-art { display: block; width: 100%; height: 36px; margin: 1px auto 0; }
+.hand-card.role-guard { background: linear-gradient(#edf3ea,#fffdf4 58%); border-top: 3px solid #78977f; }
+.hand-card.role-combo { background: linear-gradient(#f4e6d7,#fffdf4 58%); border-top: 3px solid #b77c54; }
+.hand-card.role-echo { background: linear-gradient(#eae5f3,#fffdf4 58%); border-top: 3px solid #9681b3; }
+.reward-card-art { display: block; width: 100%; height: 110px; margin: 8px auto; }
+.card-detail-art { display: block; width: 100%; height: 180px; margin: 0 auto 18px; background: radial-gradient(ellipse at center,#eadfbe77,transparent 65%); }
+.compact .hand-card-art { display: none; }
+
+/* 角签独立于卡面布局；现有目标选中边框优先于稀有度光边。 */
+.unit-rarity { position: absolute; z-index: 3; top: 3px; left: -4px; min-width: 15px; padding: 1px 3px; border-radius: 3px; font-size: 9px; line-height: 12px; font-weight: 600; pointer-events: none; }
+.battle-rarity-SR { border-color: #61745066; box-shadow: 0 0 3px #6174501a; }
+.battle-rarity-SSR { border-color: #73609075; box-shadow: 0 0 4px #73609020; }
+.battle-rarity-UR { border-color: #98632788; box-shadow: 0 0 6px #98632724; }
+
+/* 敌人行动、受击和退场各用一层变换，不影响结算。 */
+.enemy-strike { animation: enemyStrike 320ms ease-out; }
+.enemy-spell { animation: enemySpell 320ms ease-in-out; }
+.enemy-hit { animation: enemyHit 180ms ease-out; }
+.enemy-leaving { transform-origin: center bottom; animation: enemyFold 240ms 80ms ease-in both; }
+.enemy-exit-stage { position: absolute; z-index: 6; top: 96px; left: 12px; right: 12px; pointer-events: none; }
+.enemy-exit-stage .enemy-row { align-items: center; }
+.party-exit-stage { position: absolute; z-index: 6; top: 205px; left: 12px; right: 12px; pointer-events: none; }
+.inspected-action-image { display: block; width: 100%; height: 140px; margin: 0 auto 16px; }
+.pose-gallery { margin: 0 0 18px; }
+.pose-gallery-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 13px; color: #526477; }
+.pose-current { min-width: 76px; max-width: 90px; min-height: 44px; padding: 10px 4px; font-size: 11px; }
+.pose-options { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin: 8px 0; }
+.pose-choice { width: 100%; max-width: 100%; min-width: 44px; min-height: 44px; padding: 7px 3px; border-radius: 8px; font-size: 11px; line-height: 15px; color: #576b7b; background: #e9e3d6; }
+.pose-choice.selected-pose { background: #345568; color: #fff0ce; }
+.pose-note { display: block; font-size: 11px; line-height: 1.7; color: #77828a; }
+.beat-enter .unit-art, .beat-impact .pose-enter .unit-art { animation: actionEnter 420ms ease-out both; }
+.beat-action .pose-attack .unit-art { animation: paperStrike 220ms ease-out; }
+.beat-action .pose-guard .unit-art, .beat-impact .pose-guard .unit-art { animation: paperGuard 350ms ease-out; }
+.beat-impact .pose-hurt .unit-art { animation: enemyHit 180ms ease-out; }
+.pose-control .unit-art { animation: paperControl 360ms ease-out both; }
+.pose-buff .unit-art { animation: paperBlessing 420ms ease-out both; }
+.pose-debuff .unit-art { animation: paperBurden 420ms ease-out both; }
+.beat-impact .pose-exit .unit-art { animation: actionExit 400ms ease-in both; }
+@keyframes actionEnter { from { opacity: .2; transform: translateY(12px) scale(.84); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes paperStrike { 45% { transform: translate(5px,-4px) scale(1.08); } }
+@keyframes paperGuard { 45% { transform: scale(1.06); filter: brightness(1.16); } }
+@keyframes paperControl { from { transform: rotate(-1deg); } to { transform: rotate(1deg); } }
+@keyframes paperBlessing { from { transform: translateY(0); } to { transform: translateY(-2px); } }
+@keyframes paperBurden { from { opacity: .94; } to { opacity: .8; } }
+@keyframes actionExit { to { opacity: .25; transform: translateY(6px) scale(.9); } }
+@keyframes enemyStrike { 30% { transform: translateY(9px) scale(1.05); } 65% { transform: translateY(-2px); } }
+@keyframes enemySpell { 45% { transform: scale(1.09); filter: brightness(1.2); } }
+@keyframes enemyHit { 25% { transform: translateX(-3px); } 65% { transform: translateX(3px); } }
+@keyframes enemyFold { from { opacity: 1; transform: scale(1); } 55% { opacity: .7; transform: scale(.55,1.04) skewX(-8deg); } to { opacity: 0; transform: scale(.06,.7) translateY(10px); } }
+
+@media (prefers-reduced-motion: reduce) { .impact, .acting .unit-art, .enemy-strike, .enemy-spell, .enemy-hit, .enemy-leaving, .scene-middle, .scene-front { animation: none; }.enemy-leaving { opacity: 0; }.health-track view { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .expedition .unit-art { animation: none; } }
+
+.compact .inspected-action-image { height: 100px; }
+
+/* 战斗反馈层只做展示，始终穿透到单位点击区域。 */
+.turn-action-banner { position: absolute; z-index: 8; top: 5px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 5px; max-width: calc(100% - 32px); padding: 4px 9px; border: 1px solid #ead09a; border-radius: 14px; background: #263b50e8; color: #fff1ca; font-size: 11px; line-height: 16px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; pointer-events: none; }.turn-action-phase { padding-right: 5px; border-right: 1px solid #d5b979; color: #f2cf87; }.turn-action-skill { color: #fffaf0; font-weight: 700; }.turn-action-scope { color: #f3cf88; }
+.battle-fx-layer { position: absolute; z-index: 5; inset: 0; overflow: hidden; pointer-events: none; }.battle-fx { position: absolute; pointer-events: none; }.fx-single { height: 4px; transform-origin: left center; border-radius: 99px; opacity: .92; animation: fxRay 360ms ease-out both; }.fx-self { width: 42px; height: 42px; transform: translate(-50%,-50%); border: 3px solid currentColor; border-radius: 50%; opacity: .9; animation: fxBurst 420ms ease-out both; }.fx-group { left: 6%; right: 6%; top: 43%; height: 38%; border: 2px solid currentColor; border-left: 0; border-right: 0; border-radius: 50%; opacity: .82; animation: fxWave 420ms ease-out both; }.fx-wave-core { position: absolute; left: 3%; right: 3%; top: 44%; height: 4px; border-radius: 99px; background: currentColor; box-shadow: 0 12px 0 currentColor, 0 -12px 0 currentColor; pointer-events: none; }.fx-target { width: 52px; height: 52px; transform: translate(-50%,-50%); border: 3px solid currentColor; border-radius: 50%; opacity: .92; animation: fxBurst 760ms ease-out both; }.fx-target-core { position: absolute; left: 50%; top: 50%; width: 11px; height: 11px; transform: translate(-50%,-50%); border: 2px solid currentColor; border-radius: 50%; background: currentColor; pointer-events: none; }.fx-group-impact { left: 7%; right: 7%; top: 66%; height: 22%; border-top: 3px solid currentColor; border-bottom: 3px solid currentColor; border-radius: 50%; opacity: .78; animation: fxWaveImpact 760ms ease-out both; }.fx-group-impact .fx-wave-core { top: 50%; box-shadow: none; }
+.paper-blade { color: #e8b860; background: linear-gradient(90deg,#fff3c8,#bd6e47,#fff3c8); box-shadow: 0 0 7px #ffe0a3; }.paper-burst { color: #d8904e; background: transparent; box-shadow: 0 0 0 2px #e9bb6f88, 0 0 16px #f1c174; }.ink-wave { color: #5b83a2; background: linear-gradient(90deg,#a8d0db,#365c82,#a8d0db); box-shadow: 0 0 9px #9bd0dc; }.ink-splash { color: #6d98b6; background: transparent; box-shadow: 0 0 0 2px #9cc8d888, 0 0 16px #77b4cc; }.bell-ring { color: #c8a65d; background: linear-gradient(90deg,#f4e6aa,#a9863d,#f4e6aa); box-shadow: 0 0 8px #f5dc8f; }.bell-pulse { color: #b79545; background: transparent; box-shadow: 0 0 0 2px #e6ca7788, 0 0 15px #e7cc79; }.light-cast { color: #d8a86b; background: linear-gradient(90deg,#fff2ce,#ba7953,#fff2ce); box-shadow: 0 0 6px #e9bc85; }.light-hit { color: #bd7b58; background: transparent; box-shadow: 0 0 0 2px #d99a6d88, 0 0 11px #e4ae7e; }.player-cast { color: #d5c17c; background: linear-gradient(90deg,#fff1bd,#9a7b4f,#fff1bd); box-shadow: 0 0 6px #ead295; }
+.unit.active-target { border-color: #f3c36d; background: #fff0bd70; box-shadow: 0 0 0 2px #8b623866, 0 0 14px #f1c26b80; }.unit.active-target .target-mark { opacity: 1; }.target-mark { position: absolute; z-index: 7; right: 2px; bottom: 5px; width: 18px; height: 18px; border: 1px solid #b8793e; border-radius: 50%; color: #a96437; background: #fff0c9e8; font-size: 14px; line-height: 14px; opacity: .8; pointer-events: none; }.unit.hit-target .unit-art { animation: targetHit 220ms ease-out; filter: saturate(1.22) brightness(1.1) drop-shadow(0 3px 3px #4d1d1855); }
+.impact-stack { top: 20px; display: flex; flex-direction: column; align-items: center; gap: 1px; min-width: 52px; animation: impactHold 700ms ease-out both; }.impact-line { display: block; font-size: 25px; line-height: 26px; font-weight: 900; letter-spacing: .2px; text-shadow: 0 1px 2px #fff, 0 0 2px #fff; }.impact-hurt { color: #b33f36; }.impact-heal { color: #3f8c58; }.impact-shield { color: #326a9b; font-size: 18px; line-height: 20px; }
+@keyframes fxRay { from { opacity: 0; } 25% { opacity: 1; } to { opacity: 0; } }
+@keyframes fxWave { from { opacity: 0; transform: scaleX(.45) scaleY(.7); } 24% { opacity: .95; } to { opacity: 0; transform: scaleX(1) scaleY(1); } }
+@keyframes fxBurst { from { opacity: 0; transform: translate(-50%,-50%) scale(.35); } 20% { opacity: 1; } to { opacity: 0; transform: translate(-50%,-50%) scale(1.12); } }
+@keyframes fxWaveImpact { from { opacity: 0; transform: scaleX(.7); } 16% { opacity: .9; } to { opacity: 0; transform: scaleX(1.04); } }
+@keyframes impactHold { from { opacity: 0; transform: translateY(8px) scale(.9); } 12% { opacity: 1; transform: translateY(0) scale(1); } 86% { opacity: 1; } to { opacity: 0; transform: translateY(-11px) scale(1.02); } }
+@keyframes targetHit { 25% { transform: translateX(-4px); } 60% { transform: translateX(4px); } }
+.compact .turn-action-banner { top: 2px; font-size: 10px; line-height: 14px; padding: 2px 7px; }.compact .fx-target { width: 40px; height: 40px; }.compact .impact-line { font-size: 21px; line-height: 23px; }.compact .impact-shield { font-size: 16px; line-height: 18px; }
+@media (prefers-reduced-motion: reduce) { .fx-single, .fx-group, .fx-target, .fx-group-impact, .impact-stack, .unit.hit-target .unit-art { animation: none; }.fx-single, .fx-group, .fx-target, .fx-group-impact, .impact-stack { opacity: 1; }.fx-target { transform: translate(-50%,-50%); }.unit.hit-target .unit-art { filter: saturate(1.12) brightness(1.05) drop-shadow(0 3px 3px #4d1d1855); } }
+
+/* 群体技能保留范围轮廓与材质轨迹，避免实心色块盖住单位和生命。 */
+.fx-group.paper-blade { background: repeating-linear-gradient(125deg,transparent 0,transparent 24px,#ffe7ad55 25px,#fff2d477 28px,transparent 30px,transparent 50px); border-color: #fff0c4; box-shadow: 0 0 8px #edc78066; }
+.fx-group.ink-wave { background: linear-gradient(0deg,#517b9255,transparent 80%); box-shadow: 0 0 10px #6bafc455; }
+.fx-group.bell-ring { background: transparent; border-style: double; border-width: 4px; box-shadow: 0 0 12px #efd79066; }
+.fx-group.player-cast { background: transparent; box-shadow: 0 0 8px #e6cf9255; }
+/* 数字落在纸色底片上，红色角色和金色群体波也不会吞掉生命读数。 */
+.impact-line { padding: 1px 4px; border-radius: 5px; background: #fffaf0f2; box-shadow: 0 1px 3px #28354538; text-shadow: none; }
+
+/* Boss 的三拍与 JS 元数据一致：蓄势 800ms、命中读数 1200ms、空场间歇 300ms。 */
+.timing-boss.beat-action .enemy-strike, .timing-boss.beat-action .enemy-spell { animation-duration: 800ms; animation-timing-function: cubic-bezier(.2,.7,.2,1); }
+.timing-boss.beat-action .enemy-unit .unit-art { animation: none; }
+.timing-boss.beat-action .fx-action { animation-duration: 800ms; }
+.timing-boss.beat-impact .fx-target, .timing-boss.beat-impact .fx-group-impact, .timing-boss.beat-impact .impact-stack { animation-duration: 1200ms; }
+.timing-boss.beat-impact .unit.hit-target .unit-art { animation: targetHitOnce 360ms ease-out both; }
+@keyframes targetHitOnce { 0% { transform: translateX(0); } 35% { transform: translateX(-4px); } 68% { transform: translateX(3px); } 100% { transform: translateX(0); } }
+
+/* 战后回执是已保存结果的持续确认层；内容滚动，底部操作始终保持 44px 可点高度。 */
+.battle-receipt { position: absolute; z-index: 90; inset: 0; display: flex; align-items: stretch; justify-content: center; padding: 18px 14px calc(18px + env(safe-area-inset-bottom)); box-sizing: border-box; background: #24374bd9; }
+.receipt-paper { position: relative; display: flex; flex-direction: column; width: 100%; max-width: 430px; min-height: 0; overflow: hidden; border: 1px solid #cbbd9e; border-radius: 6px; background: #fbf6e9; box-shadow: 0 12px 36px #14233380; animation: receiptUnfold 460ms cubic-bezier(.2,.72,.2,1) both; }
+.receipt-paper::before { content: ''; position: absolute; z-index: 0; inset: 8px; border: 1px solid #ded2b8; pointer-events: none; }
+.receipt-scroll { position: relative; z-index: 1; flex: 1; min-height: 0; box-sizing: border-box; padding: 25px 22px 18px; text-align: center; }
+.receipt-kicker { min-height: 100px; box-sizing: border-box; padding-right: 104px; color: #7d715f; font-size: 11px; line-height: 1.5; text-align: left; }
+.receipt-postmark { position: absolute; top: 18px; right: 18px; width: 78px; height: 78px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 3px double #a05f4a; border-radius: 50%; color: #914d3d; font-size: 17px; line-height: 1.05; transform: rotate(-10deg); animation: receiptStamp 520ms 300ms cubic-bezier(.2,.8,.2,1.2) both; }
+.receipt-title { margin: 12px 0 8px; color: #2c4257; font-size: 27px; line-height: 1.35; }
+.receipt-reason { display: block; color: #6e7780; font-size: 13px; line-height: 1.75; }
+.receipt-route { display: flex; justify-content: center; flex-wrap: wrap; gap: 7px 18px; margin: 18px 0 10px; color: #806c4d; font-size: 12px; }
+.receipt-party { display: flex; justify-content: center; gap: 6px; padding: 14px 0; border-top: 1px dashed #d2c5aa; border-bottom: 1px dashed #d2c5aa; animation: receiptReveal 380ms 650ms ease-out both; }
+.receipt-member { flex: 1; min-width: 0; color: #42586a; font-size: 12px; }
+.receipt-member image { display: block; width: 68px; height: 68px; margin: 0 auto 3px; }
+.receipt-member text { display: block; margin-top: 2px; color: #78828a; font-size: 10px; }
+.receipt-member-down { opacity: .58; }
+.receipt-yield { display: flex; justify-content: center; margin: 18px 0 8px; padding: 13px 4px; background: #ece3d2; animation: receiptReveal 400ms 950ms ease-out both; }
+.receipt-yield > view { flex: 1; min-width: 0; color: #8a785c; font-size: 10px; }
+.receipt-yield text { display: block; margin-bottom: 3px; color: #314c62; font-size: 24px; font-weight: 700; }
+.receipt-actions { position: relative; z-index: 2; flex-shrink: 0; padding: 10px 14px 12px; border-top: 1px solid #d8ccb3; background: #f6efe0; }
+.receipt-actions .receipt-continue, .receipt-actions .finish-run { display: block; width: 100%; min-width: 100%; max-width: 100%; min-height: 44px; margin: 0; padding: 10px 8px; border-radius: 8px; color: #f6dfb5; background: #29435c; font-size: 14px; line-height: 24px; }
+.receipt-defeat .receipt-postmark { border-color: #71808a; color: #596b78; }
+@keyframes receiptUnfold { from { opacity: .4; transform: scaleY(.18); transform-origin: center top; } to { opacity: 1; transform: scaleY(1); transform-origin: center top; } }
+@keyframes receiptStamp { from { opacity: 0; transform: rotate(-10deg) scale(1.55); } to { opacity: 1; transform: rotate(-10deg) scale(1); } }
+@keyframes receiptReveal { from { opacity: .15; transform: translateY(7px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-height: 620px) { .battle-receipt { padding: 8px 10px calc(8px + env(safe-area-inset-bottom)); }.receipt-scroll { padding: 16px 16px 10px; }.receipt-title { margin-top: 12px; font-size: 23px; }.receipt-party { padding: 8px 0; }.receipt-member image { width: 50px; height: 50px; }.receipt-yield { margin-top: 11px; padding: 8px 4px; }.receipt-yield text { font-size: 20px; } }
+@media (prefers-reduced-motion: reduce) { .receipt-paper, .receipt-postmark, .receipt-party, .receipt-yield, .timing-boss .fx-action, .timing-boss .fx-target, .timing-boss .fx-group-impact { animation: none; } }
+
+.status-help-link { width: 100%; min-height: 44px; padding: 10px; margin: 8px 0 12px; font-size: 13px; border-radius: 8px; background: #eee1c5; color: #354960; }
+.status-guide-back { display: block; min-height: 44px; margin: 0 0 8px; padding: 10px 8px; width: 100%; font-size: 13px; text-align: left; background: #f4efe5; color: #4e6072; }
+.status-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+.status-tab { flex: 1 1 30%; width: 30%; min-height: 44px; margin: 0; padding: 10px 4px; border-radius: 7px; background: #ece8df; color: #53616e; font-size: 13px; }
+.status-tab-active { background: #334c64; color: #fff2d4; }
+.status-guide-name { font-size: 19px; font-weight: 700; color: #293f53; line-height: 1.5; }
+.status-guide-summary { font-size: 14px; line-height: 1.65; margin: 4px 0 12px; color: #625744; }
+.status-owner-value { padding: 8px; margin-bottom: 12px; border-radius: 6px; background: #f0e5cc; font-size: 13px; line-height: 1.5; color: #405769; }
+.status-guide-rule { margin-bottom: 12px; font-size: 14px; line-height: 1.75; color: #425361; }
+.status-example { padding: 11px; margin: 4px 0 12px; border-radius: 7px; background: #f3e9d3; font-size: 14px; line-height: 1.7; color: #4d5c69; }
+.status-example view { font-weight: 700; margin-bottom: 3px; }
+.status-tip { font-size: 13px; line-height: 1.7; color: #586e67; margin-bottom: 14px; }
+.status-guide-footer { font-size: 12px; line-height: 1.7; color: #6f7780; padding-bottom: 12px; }
+
+/* 蓄能和出牌次序是做决定需要的信息，直接放入原有44px工具条。 */
+.battle-toolbar { gap: 6px; padding-left: 12px; padding-right: 12px; }
+.turn-label { display: block; font-size: 10px; line-height: 14px; }
+.energy-label { display: block; font-size: 12px; line-height: 16px; }
+.battle-toolbar .tactic-hud { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 44px; max-height: 44px; white-space: nowrap; flex-shrink: 0; width: 91px; min-width: 91px; max-width: 91px; min-height: 44px; padding: 5px 0; margin: 0; background: transparent; color: #f3d69d; font-size: 11px; line-height: 17px; border-radius: 0; }
+.tactic-hud text { font-size: 10px; color: #cbd8de; }
+.battle-toolbar .deck-link { min-height: 44px; max-width: 110px; padding: 5px 0; margin: 0; font-size: 10px; line-height: 17px; }
+.deck-link text { color: #b5c3ce; }
+.card-trait { position: absolute; z-index: 2; top: 3px; right: 3px; padding: 1px 3px; border-radius: 3px; background: #e8d5ad; color: #725828; font-size: 9px; line-height: 13px; }
+/* 小屏费用与效果分行 */
+.compact .hand-track { padding-top: 4px; padding-bottom: 4px; }
+.compact .hand-card { padding: 3px 2px; }
+.compact .card-role-icon { margin: 17px 0 1px; font-size: 10px; line-height: 14px; }
+.compact .hand-card-name { height: 23px; line-height: 11.5px; }
+.compact .hand-owner { margin-top: 0; font-size: 10px; line-height: 12px; }
+
+/* 补给与场面 */
+.battle-toolbar .tactic-hud { width: 108px; min-width: 108px; max-width: 108px; }
+.battle-toolbar .tactic-hud text { font-size: 9px; }
+.battle-toolbar .deck-link { max-width: 100px; }
+.battle-actions .confirm-play { display: flex; flex-direction: column; justify-content: center; min-height: 44px; max-height: 47px; padding: 6px 5px; font-size: 13px; line-height: 18px; }
+.payment-cost { display: block; font-size: 10px; line-height: 12px; }
+.environment-rain .stage-light { background: linear-gradient(#335e7f55,#748d9844 55%,#d2e2df55); }
+.environment-tailwind .stage-light { background: linear-gradient(#e7c77833,#fcdfac22 55%,#f4d58a44); }
+.unit-statuses .status-intercept { background: #3d726b; color: #fff4d9; }
+.inspected-card .trade-selected { width: 100%; max-width: 100%; min-height: 44px; padding: 10px; margin: 14px 0 8px; background: #36536b; color: #fff3d5; font-size: 13px; }
+.trade-explanation, .deck-count-note { display: block; font-size: 12px; line-height: 1.75; color: #786e5f; }
+.temporary-deck-item { background: #f2eadb; padding-left: 8px; padding-right: 8px; }
+.status-tab-scroll { flex-shrink: 0; height: 58px; white-space: nowrap; border-bottom: 1px solid #e2d5bb; }
+.status-tab-scroll .status-tabs { display: inline-flex; flex-wrap: nowrap; gap: 6px; padding: 3px 0 9px; margin: 0; }
+.exp-dialog .status-tab { flex: 0 0 64px; width: 64px; min-width: 64px; max-width: 64px; height: 44px; padding: 10px 2px; font-size: 13px; line-height: 24px; }
+.opportunity-dialog { height: calc(100vh - 48px); }
+.opportunity-note { color: #76654c; font-size: 13px; line-height: 1.8; padding: 12px 0; }
+.opportunity-battle { font-size: 11px; line-height: 1.8; color: #6a7e8a; padding-bottom: 6px; }
+.opportunity-battle text { display: block; }
+.opportunity-card { margin: 10px 0; padding: 14px 12px; border: 1px solid #cfbea0; border-radius: 10px; background: #fffbef; }
+.opportunity-card .row { align-items: flex-start; gap: 8px; font-size: 20px; }
+.opportunity-card .tag { flex-shrink: 0; }
+.opportunity-owner { display: block; margin: 6px 0 8px; font-size: 11px; color: #897a63; }
+.opportunity-card .body-copy { display: block; font-size: 13px; line-height: 1.8; }
+.opportunity-card .opportunity-take { display: block; min-height: 44px; width: 100%; max-width: 100%; margin-top: 12px; padding: 10px; font-size: 13px; background: #38556d; color: #fff2d8; }
+.opportunity-footer .opportunity-skip, .opportunity-footer .opportunity-later { width: 100%; max-width: 100%; min-height: 44px; padding: 10px; font-size: 13px; }
+
+.opportunity-budget { padding: 8px; background: #eee2c8; color: #415870; font-size: 12px; line-height: 1.7; }

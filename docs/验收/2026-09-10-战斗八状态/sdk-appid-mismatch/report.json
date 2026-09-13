@@ -1,0 +1,11 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-sdk-appid-probe-4LTE7Y",
+  "checks": [],
+  "shots": [],
+  "runtime": {
+    "appId": "",
+    "key": "dusk-letter-rpg-v1-dusk-card-acceptance-nyMDCE",
+    "route": "package-market/pages/run/index"
+  },
+  "configAppId": "wx36c7c6b8b54e63c9"
+}

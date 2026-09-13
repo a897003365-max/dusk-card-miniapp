@@ -1,0 +1,14 @@
+{
+  "provider": "Kimi Code official API",
+  "model": "kimi-for-coding",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 272,
+    "completion_tokens": 1231,
+    "total_tokens": 1503,
+    "completion_tokens_details": {
+      "reasoning_tokens": 320
+    }
+  },
+  "responseCharacters": 3456
+}

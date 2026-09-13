@@ -1,0 +1,15 @@
+{
+  "status": "blocked-before-app-launch",
+  "project": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp",
+  "errors": [
+    "Cannot read properties of undefined (reading 'MaxCodeSize')",
+    "Cannot read properties of undefined (reading 'MaxSubPackageLimit')"
+  ],
+  "attempts": [
+    "cli open",
+    "wechatide open_project_window"
+  ],
+  "runtimeReadOnlyCheckCompleted": false,
+  "storageOperationsPerformed": false,
+  "registrationChanged": false
+}

@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7",
+  "actors": [
+    {
+      "id": "sushi",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/sushi-sheet.png",
+      "sourceHash": "10a041f5bb8818195a8691548611f196c580b2ffd0dced89e9483a05a56b55b6",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          10086,
+          575
+        ],
+        "removedPixels": 10661
+      },
+      "foregroundPixels": 553189,
+      "assignedPixels": 553189
+    }
+  ],
+  "frames": [
+    {
+      "id": "sushi",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/enter.png",
+      "contentBounds": {
+        "x": 25,
+        "y": 102,
+        "width": 419,
+        "height": 294
+      },
+      "bytes": 14861
+    },
+    {
+      "id": "sushi",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/attack.png",
+      "contentBounds": {
+        "x": 470,
+        "y": 105,
+        "width": 407,
+        "height": 299
+      },
+      "bytes": 16636
+    },
+    {
+      "id": "sushi",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/guard.png",
+      "contentBounds": {
+        "x": 939,
+        "y": 98,
+        "width": 331,
+        "height": 295
+      },
+      "bytes": 22943
+    },
+    {
+      "id": "sushi",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/hurt.png",
+      "contentBounds": {
+        "x": 1362,
+        "y": 76,
+        "width": 375,
+        "height": 339
+      },
+      "bytes": 18137
+    },
+    {
+      "id": "sushi",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/exit.png",
+      "contentBounds": {
+        "x": 25,
+        "y": 483,
+        "width": 397,
+        "height": 332
+      },
+      "bytes": 15904
+    },
+    {
+      "id": "sushi",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/control.png",
+      "contentBounds": {
+        "x": 465,
+        "y": 492,
+        "width": 390,
+        "height": 343
+      },
+      "bytes": 20891
+    },
+    {
+      "id": "sushi",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/buff.png",
+      "contentBounds": {
+        "x": 910,
+        "y": 491,
+        "width": 412,
+        "height": 336
+      },
+      "bytes": 20947
+    },
+    {
+      "id": "sushi",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-PV7be7/sushi/debuff.png",
+      "contentBounds": {
+        "x": 1358,
+        "y": 511,
+        "width": 390,
+        "height": 313
+      },
+      "bytes": 18023
+    }
+  ],
+  "bytes": 148342
+}

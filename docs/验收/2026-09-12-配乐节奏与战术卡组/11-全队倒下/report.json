@@ -1,0 +1,3526 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-runtime-CRJLKg",
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "tacticId": "reserve",
+  "checks": [
+    {
+      "name": "实际KEY属于指定隔离副本",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "真实点击与共享规则预览及RNG完全一致",
+      "pass": true
+    },
+    {
+      "name": "回执确认按钮完整可见且不小于44px",
+      "pass": true
+    },
+    {
+      "name": "回执持续保留且展示期间不重复结算",
+      "pass": true
+    },
+    {
+      "name": "明确的失败流程正常结算",
+      "pass": true
+    },
+    {
+      "name": "本次原生运行控制台error为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "1-battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-runtime-CRJLKg/1-battle.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "receipt-1",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-runtime-CRJLKg/receipt-1.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    }
+  ],
+  "actions": [
+    {
+      "layer": 1,
+      "turn": 1,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 2,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "nav",
+              "name": "领航小鸭",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "nav",
+          "amount": 7,
+          "text": "领航小鸭受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 9,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 3,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 4,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "nav",
+              "name": "领航小鸭",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "nav",
+          "amount": 7,
+          "text": "领航小鸭受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 10,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 5,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 6,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "nav",
+              "name": "领航小鸭",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "nav",
+          "amount": 7,
+          "text": "领航小鸭受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 10,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 7,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 8,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "nav",
+              "name": "领航小鸭",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "nav",
+          "amount": 7,
+          "text": "领航小鸭受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 10,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 9,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 10,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "nav",
+              "name": "领航小鸭",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "nav",
+          "amount": 7,
+          "text": "领航小鸭受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 10,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 11,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 12,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "nav",
+              "name": "领航小鸭",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "nav",
+          "amount": 7,
+          "text": "领航小鸭受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 10,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 13,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 14,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "nav",
+              "name": "领航小鸭",
+              "killed": true,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 2
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "nav",
+          "amount": 2,
+          "text": "领航小鸭受到 2 点伤害",
+          "hpDelta": -2
+        },
+        {
+          "kind": "down",
+          "actorId": "nav",
+          "targetId": "nav",
+          "amount": 0,
+          "text": "领航小鸭暂时倒下，所属卡牌本场退场"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 7,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 15,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 16,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "orangecat",
+              "name": "橘猫豆包",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "orangecat",
+          "amount": 7,
+          "text": "橘猫豆包受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 17,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 18,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "orangecat",
+              "name": "橘猫豆包",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "orangecat",
+          "amount": 7,
+          "text": "橘猫豆包受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 19,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 20,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "orangecat",
+              "name": "橘猫豆包",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "orangecat",
+          "amount": 7,
+          "text": "橘猫豆包受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 21,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 22,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "orangecat",
+              "name": "橘猫豆包",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "orangecat",
+          "amount": 7,
+          "text": "橘猫豆包受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 23,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 24,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "orangecat",
+              "name": "橘猫豆包",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "orangecat",
+          "amount": 7,
+          "text": "橘猫豆包受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 25,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 26,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "orangecat",
+              "name": "橘猫豆包",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "orangecat",
+          "amount": 7,
+          "text": "橘猫豆包受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 27,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 28,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "orangecat",
+              "name": "橘猫豆包",
+              "killed": true,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 6
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "orangecat",
+          "amount": 6,
+          "text": "橘猫豆包受到 6 点伤害",
+          "hpDelta": -6
+        },
+        {
+          "kind": "down",
+          "actorId": "orangecat",
+          "targetId": "orangecat",
+          "amount": 0,
+          "text": "橘猫豆包暂时倒下，所属卡牌本场退场"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 3,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 29,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 30,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 7,
+          "text": "羊咩咩团受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 31,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 32,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 7,
+          "text": "羊咩咩团受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 33,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 34,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 7,
+          "text": "羊咩咩团受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 35,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 36,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 7,
+          "text": "羊咩咩团受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 37,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 38,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 7,
+          "text": "羊咩咩团受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 39,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 40,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 7,
+          "text": "羊咩咩团受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 41,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 42,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 7
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 7,
+          "text": "羊咩咩团受到 7 点伤害",
+          "hpDelta": -7
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 43,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "chargeAfter": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 灰粉遮字",
+          "intentKind": "weak",
+          "intentName": "灰粉遮字",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "amount": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "weak",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团受到 1 虚弱"
+        },
+        {
+          "kind": "shuffle",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "弃牌重新洗入抽牌堆",
+          "presentation": "turn-start"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 4,
+          "text": "抽取 4 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "turn": 44,
+      "action": {
+        "type": "endTurn"
+      },
+      "chargeBefore": 0,
+      "events": [
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-2",
+          "targetId": null,
+          "amount": 0,
+          "text": "邮戳小蛾 · 扑向灯面",
+          "intentKind": "attack",
+          "intentName": "扑向灯面",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": true,
+              "amount": 7,
+              "blocked": 0,
+              "hpLoss": 5
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-2",
+          "targetId": "sheep",
+          "amount": 5,
+          "text": "羊咩咩团受到 5 点伤害",
+          "hpDelta": -5
+        },
+        {
+          "kind": "down",
+          "actorId": "sheep",
+          "targetId": "sheep",
+          "amount": 0,
+          "text": "羊咩咩团暂时倒下，所属卡牌本场退场"
+        },
+        {
+          "kind": "finish",
+          "actorId": null,
+          "targetId": null,
+          "amount": 0,
+          "text": "旅伴们暂时无法继续，已带回获得的星线"
+        }
+      ]
+    }
+  ],
+  "receipts": [
+    {
+      "visible": true,
+      "key": "result:street:loss:1:4:0",
+      "kind": "defeat",
+      "postmark": "旅伴归队",
+      "title": "这次先回到灯下",
+      "reason": "旅伴们暂时无法继续，已带回获得的星线",
+      "regionName": "黄昏邮街",
+      "difficultyName": "普通",
+      "station": "1 / 9 站",
+      "turn": 44,
+      "party": [
+        {
+          "id": "sheep",
+          "name": "羊咩咩团",
+          "hp": 0,
+          "maxHp": 54,
+          "down": true,
+          "baseImage": "/assets/partners/sheep.png"
+        },
+        {
+          "id": "orangecat",
+          "name": "橘猫豆包",
+          "hp": 0,
+          "maxHp": 48,
+          "down": true,
+          "baseImage": "/assets/partners/orangecat.png"
+        },
+        {
+          "id": "nav",
+          "name": "领航小鸭",
+          "hp": 0,
+          "maxHp": 44,
+          "down": true,
+          "baseImage": "/assets/partners/nav.png"
+        }
+      ],
+      "threads": 4,
+      "tickets": 0,
+      "rewardAmount": 0,
+      "actionLabel": "收好回执",
+      "final": true
+    }
+  ],
+  "status": "pass",
+  "interactions": [
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 396,
+        "bottom": 444,
+        "width": 284,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    }
+  ],
+  "final": {
+    "version": 2,
+    "tickets": 10,
+    "drawCount": 0,
+    "pitySSR": 0,
+    "pityUR": 0,
+    "collection": {
+      "sheep": {
+        "R": 1,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "ramen": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "sunset": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "ticket": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "catcafe": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "moon": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "nav": {
+        "R": 1,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "tea": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "sushi": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "pear": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "burger": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "badminton": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "bomb": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "orangecat": {
+        "R": 1,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "doudou": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "hydrangea": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "pearlamp": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "cloudmail": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "firefly": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "soup": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "blanket": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      },
+      "seedling": {
+        "R": 0,
+        "SR": 0,
+        "SSR": 0,
+        "UR": 0
+      }
+    },
+    "team": [
+      "sheep",
+      "orangecat",
+      "nav"
+    ],
+    "cleared": [],
+    "endings": {},
+    "journey": null,
+    "lastEnding": null,
+    "adventure": {
+      "threads": 50,
+      "levels": {
+        "sheep": 1,
+        "ramen": 1,
+        "sunset": 1,
+        "ticket": 1,
+        "catcafe": 1,
+        "moon": 1,
+        "nav": 1,
+        "tea": 1,
+        "sushi": 1,
+        "pear": 1,
+        "burger": 1,
+        "badminton": 1,
+        "bomb": 1,
+        "orangecat": 1,
+        "doudou": 1,
+        "hydrangea": 1,
+        "pearlamp": 1,
+        "cloudmail": 1,
+        "firefly": 1,
+        "soup": 1,
+        "blanket": 1,
+        "seedling": 1
+      },
+      "clears": {
+        "street": [
+          1,
+          0,
+          0
+        ],
+        "bridge": [
+          0,
+          0,
+          0
+        ],
+        "market": [
+          0,
+          0,
+          0
+        ]
+      },
+      "active": null,
+      "lastResult": {
+        "win": false,
+        "reason": "旅伴们暂时无法继续，已带回获得的星线",
+        "regionId": "street",
+        "regionName": "黄昏邮街",
+        "difficultyName": "普通",
+        "nodesCleared": 1,
+        "threads": 4,
+        "tickets": 0
+      }
+    }
+  },
+  "console": ""
+}

@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "name": "仍为隔离存档",
+      "pass": true
+    },
+    {
+      "name": "保留了已成功跳过的第17次抽取",
+      "pass": true
+    },
+    {
+      "name": "关闭保留全部已有资源",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "skip-result",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-close-0rwmh1/skip-result.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".summon-close",
+      "rect": {
+        "dataset": {},
+        "left": 328,
+        "right": 372,
+        "top": 12,
+        "bottom": 56,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ]
+}

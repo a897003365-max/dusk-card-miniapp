@@ -1,0 +1,445 @@
+{
+  "mode": "environment",
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactical-environment-X9cooe",
+  "checks": [
+    {
+      "name": "实际 KEY 属于指定隔离副本",
+      "pass": true
+    },
+    {
+      "name": "验收开始时没有未完成远行",
+      "pass": true
+    },
+    {
+      "name": "验收前没有进行中的主线来信",
+      "pass": true
+    },
+    {
+      "name": "战术选择仅改变出发界面",
+      "pass": true
+    },
+    {
+      "name": "真实出发使用指定战术、当前三位旅伴和12张起手牌",
+      "pass": true
+    },
+    {
+      "name": "真实入口为黄昏邮街普通难度",
+      "pass": true
+    },
+    {
+      "name": "完成可能存在的开局升级后进入路线图",
+      "pass": true
+    },
+    {
+      "name": "选择公开的首个普通战斗节点与源引擎结算完全一致",
+      "pass": true
+    },
+    {
+      "name": "路线点击后进入真实战斗",
+      "pass": true
+    },
+    {
+      "name": "最多自然结束4回合后抽到雨幕牌",
+      "pass": true
+    },
+    {
+      "name": "当前真实目标预览允许确认",
+      "pass": true
+    },
+    {
+      "name": "0费雨幕与源引擎结算完全一致且不扣能量",
+      "pass": true
+    },
+    {
+      "name": "真实战场进入雨幕且敌意图和源引擎同步",
+      "pass": true
+    },
+    {
+      "name": "当前敌方直接攻击预览逐段降低2点",
+      "pass": true
+    },
+    {
+      "name": "当前场面按钮直达环境说明",
+      "pass": true
+    },
+    {
+      "name": "环境说明末尾完整可读",
+      "pass": true
+    },
+    {
+      "name": "查看环境说明没有改变存档或 RNG",
+      "pass": true
+    },
+    {
+      "name": "雨幕中的敌方行动和下回合开始与源引擎结算完全一致",
+      "pass": true
+    },
+    {
+      "name": "雨幕在下个己方回合开始清空",
+      "pass": true
+    },
+    {
+      "name": "环境清空后的敌意图仍与源引擎同步",
+      "pass": true
+    },
+    {
+      "name": "本次原生验收控制台 error 为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "rain-active",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactical-environment-X9cooe/rain-active.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "environment-guide",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactical-environment-X9cooe/environment-guide.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "rain-cleared",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactical-environment-X9cooe/rain-cleared.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    }
+  ],
+  "actions": [
+    {
+      "label": "选择公开的首个普通战斗节点",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-0-0"
+      },
+      "events": [
+        {
+          "kind": "passive",
+          "actorId": "sheep",
+          "targetId": null,
+          "amount": 0,
+          "text": "羊咩咩团 · 叠信成盾"
+        },
+        {
+          "kind": "block",
+          "actorId": "sheep",
+          "targetId": "sheep",
+          "amount": 3,
+          "text": "羊咩咩团获得 3 点护盾"
+        },
+        {
+          "kind": "block",
+          "actorId": "sheep",
+          "targetId": "orangecat",
+          "amount": 3,
+          "text": "橘猫豆包获得 3 点护盾"
+        },
+        {
+          "kind": "block",
+          "actorId": "sheep",
+          "targetId": "nav",
+          "amount": 3,
+          "text": "领航小鸭获得 3 点护盾"
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌"
+        }
+      ]
+    },
+    {
+      "label": "雨幕中的敌方行动和下回合开始",
+      "action": {
+        "type": "endTurn"
+      },
+      "events": [
+        {
+          "kind": "chargeBank",
+          "actorId": null,
+          "targetId": null,
+          "amount": 1,
+          "text": "将 1 点未用能量存为蓄能"
+        },
+        {
+          "kind": "enemyAction",
+          "actorId": "enemy-1",
+          "targetId": null,
+          "amount": 0,
+          "text": "迷途纸团 · 滚过信口",
+          "intentKind": "attack",
+          "intentName": "滚过信口",
+          "intentTargets": [
+            {
+              "id": "sheep",
+              "name": "羊咩咩团",
+              "killed": false,
+              "amount": 4,
+              "blocked": 3,
+              "hpLoss": 1
+            }
+          ],
+          "intentAll": false,
+          "armor": 0
+        },
+        {
+          "kind": "damage",
+          "actorId": "enemy-1",
+          "targetId": "sheep",
+          "amount": 1,
+          "text": "羊咩咩团的护盾挡下 3，受到 1 点伤害",
+          "hpDelta": -1,
+          "blocked": 3
+        },
+        {
+          "kind": "draw",
+          "actorId": null,
+          "targetId": null,
+          "amount": 5,
+          "text": "抽取 5 张牌",
+          "presentation": "turn-start"
+        }
+      ]
+    }
+  ],
+  "status": "pass",
+  "prerequisites": [
+    "prepare-acceptance 生成的隔离副本，允许保留历史通关、材料与养成",
+    "当前没有未完成远行或进行中的主线来信",
+    "从黄昏邮街普通难度正常出发",
+    "不注入存档、手牌、牌序、生命、资源或 RNG"
+  ],
+  "width": 390,
+  "interactions": [
+    {
+      "selector": ".tactic-tab[data-id=\"weather\"]",
+      "rect": {
+        "dataset": {
+          "id": "weather"
+        },
+        "left": 198,
+        "right": 358,
+        "top": 370.65625,
+        "bottom": 418.65625,
+        "width": 160,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".start-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-0-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-0-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 331.9921875,
+        "bottom": 400.1875,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-1\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".tactic-hud",
+      "rect": {
+        "dataset": {},
+        "left": 137.9296875,
+        "right": 245.9296875,
+        "top": 48,
+        "bottom": 92,
+        "width": 108,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".status-guide-back",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 625.7578125,
+        "bottom": 669.7578125,
+        "width": 324,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    }
+  ],
+  "observedStart": {
+    "team": [
+      "sheep",
+      "orangecat",
+      "nav"
+    ],
+    "tiers": [
+      "R",
+      "R",
+      "R"
+    ],
+    "regionId": "street",
+    "difficulty": 0,
+    "tacticId": "weather"
+  },
+  "cardArrival": {
+    "cardId": "folded-corner",
+    "turn": 1,
+    "endedTurns": 0
+  },
+  "environmentIntent": {
+    "before": [
+      {
+        "id": "enemy-1",
+        "intentKind": "attack",
+        "intentAll": false,
+        "intentText": "滚过信口：羊咩咩团 6 伤害（护盾抵挡 3，失去 3 生命）",
+        "intentShort": "羊咩咩团 · 6伤害",
+        "intentTargets": [
+          {
+            "id": "sheep",
+            "name": "羊咩咩团",
+            "killed": false,
+            "amount": 6,
+            "blocked": 3,
+            "hpLoss": 3
+          }
+        ]
+      }
+    ],
+    "during": [
+      {
+        "id": "enemy-1",
+        "intentKind": "attack",
+        "intentAll": false,
+        "intentText": "滚过信口：羊咩咩团 4 伤害（护盾抵挡 3，失去 1 生命）",
+        "intentShort": "羊咩咩团 · 4伤害",
+        "intentTargets": [
+          {
+            "id": "sheep",
+            "name": "羊咩咩团",
+            "killed": false,
+            "amount": 4,
+            "blocked": 3,
+            "hpLoss": 1
+          }
+        ]
+      }
+    ],
+    "attackModifierObserved": true,
+    "afterClear": [
+      {
+        "id": "enemy-1",
+        "intentKind": "block",
+        "intentAll": false,
+        "intentText": "裹紧纸层：自身总计获得 4 护盾",
+        "intentShort": "自身 · 4护盾",
+        "intentTargets": []
+      }
+    ]
+  },
+  "console": ""
+}

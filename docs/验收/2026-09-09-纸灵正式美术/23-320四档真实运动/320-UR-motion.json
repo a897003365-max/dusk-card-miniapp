@@ -1,0 +1,789 @@
+{
+  "tier": "UR",
+  "id": "sunset",
+  "expectedImage": "/assets/partners/sunset.png",
+  "samples": [
+    {
+      "time": 1789018056679,
+      "route": "pages/collection/index",
+      "revealPhase": null,
+      "replayMode": false,
+      "activeReveal": null,
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": false
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": false
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "time": 1789018058065,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "eclipseGather",
+          "transform": "matrix(0.5, 0, 0, 0.5, -65.2773, -65.2773)",
+          "opacity": "0.2"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.477, -58.8789)",
+          "opacity": "0.25"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.477, -58.8789)",
+          "opacity": "0.25"
+        }
+      ]
+    },
+    {
+      "time": 1789018058110,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "eclipseGather",
+          "transform": "matrix(0.505319, 0, 0, 0.505319, -65.2773, -65.2773)",
+          "opacity": "0.206546"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.477, -58.8789)",
+          "opacity": "0.25"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.477, -58.8789)",
+          "opacity": "0.25"
+        }
+      ]
+    },
+    {
+      "time": 1789018058154,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "eclipseGather",
+          "transform": "matrix(0.512893, 0, 0, 0.512893, -65.2773, -65.2773)",
+          "opacity": "0.215869"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.477, -58.8789)",
+          "opacity": "0.25"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.477, -58.8789)",
+          "opacity": "0.25"
+        }
+      ]
+    },
+    {
+      "time": 1789018058198,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "eclipseGather",
+          "transform": "matrix(0.532316, 0, 0, 0.532316, -65.2773, -65.2773)",
+          "opacity": "0.239773"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.477, -58.8789)",
+          "opacity": "0.25"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.477, -58.8789)",
+          "opacity": "0.25"
+        }
+      ]
+    },
+    {
+      "time": 1789018058921,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "eclipseUnveil",
+          "transform": "matrix(1.15, 0, 0, 1.15, -65.2773, -65.2773)",
+          "opacity": "1"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.477, -58.8789)",
+          "opacity": "0.25"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.477, -58.8789)",
+          "opacity": "0.25"
+        }
+      ]
+    },
+    {
+      "time": 1789018058966,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "eclipseUnveil",
+          "transform": "matrix(1.15, 0, 0, 1.15, -65.2773, -65.2773)",
+          "opacity": "1"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.477, -58.8789)",
+          "opacity": "0.25"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.477, -58.8789)",
+          "opacity": "0.25"
+        }
+      ]
+    },
+    {
+      "time": 1789018059012,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "eclipseUnveil",
+          "transform": "matrix(1.15, 0, 0, 1.15, -65.2773, -65.2773)",
+          "opacity": "1"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.477, -58.8789)",
+          "opacity": "0.25"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.477, -58.8789)",
+          "opacity": "0.25"
+        }
+      ]
+    },
+    {
+      "time": 1789018059057,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "eclipseUnveil",
+          "transform": "matrix(1.15, 0, 0, 1.15, -65.2773, -65.2773)",
+          "opacity": "1"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.477, -58.8789)",
+          "opacity": "0.25"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.477, -58.8789)",
+          "opacity": "0.25"
+        }
+      ]
+    },
+    {
+      "time": 1789018059388,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "eclipseUnveil",
+          "transform": "matrix(1.60734, 0, 0, 1.60734, -65.2773, -65.2773)",
+          "opacity": "0.112762"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.477, -58.8789)",
+          "opacity": "0.25"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.477, -58.8789)",
+          "opacity": "0.25"
+        }
+      ]
+    },
+    {
+      "time": 1789018059433,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.865467, 0, 0, 0.865467, 0, 19.7315)",
+          "opacity": "0.103115"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(1, 0, 0, 1, -65.2773, -65.2773)",
+          "opacity": "0.12"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "eclipseOrbit",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -51.0273, -49)",
+          "opacity": "0.779583"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "eclipseOrbit",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -51.0273, -49)",
+          "opacity": "0.779583"
+        }
+      ]
+    },
+    {
+      "time": 1789018059479,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.915536, 0, 0, 0.915536, 0, 12.388)",
+          "opacity": "0.436908"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(1, 0, 0, 1, -65.2773, -65.2773)",
+          "opacity": "0.12"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "eclipseOrbit",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -59.9219, -50.3398)",
+          "opacity": "0.703519"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "eclipseOrbit",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -59.9219, -50.3398)",
+          "opacity": "0.703519"
+        }
+      ]
+    },
+    {
+      "time": 1789018059526,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.928869, 0, 0, 0.928869, 0, 10.4326)",
+          "opacity": "0.525792"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(1, 0, 0, 1, -65.2773, -65.2773)",
+          "opacity": "0.12"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "eclipseOrbit",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -63.0781, -50.8164)",
+          "opacity": "0.676542"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "eclipseOrbit",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -63.0781, -50.8164)",
+          "opacity": "0.676542"
+        }
+      ]
+    },
+    {
+      "time": 1789018060185,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.999951, 0, 0, 0.999951, 0, 0.00711932)",
+          "opacity": "0.999676"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(1, 0, 0, 1, -65.2773, -65.2773)",
+          "opacity": "0.12"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "eclipseOrbit",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.258, -58.8438)",
+          "opacity": "0.221888"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "eclipseOrbit",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.258, -58.8438)",
+          "opacity": "0.221888"
+        }
+      ]
+    },
+    {
+      "time": 1789018060233,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(1, 0, 0, 1, -65.2773, -65.2773)",
+          "opacity": "0.12"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.477, -58.8789)",
+          "opacity": "0.14"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.477, -58.8789)",
+          "opacity": "0.14"
+        }
+      ]
+    },
+    {
+      "time": 1789018060280,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "UR",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-eclipse",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(1, 0, 0, 1, -65.2773, -65.2773)",
+          "opacity": "0.12"
+        },
+        {
+          "selector": ".orbit-east",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.477, -58.8789)",
+          "opacity": "0.14"
+        },
+        {
+          "selector": ".orbit-west",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.477, -58.8789)",
+          "opacity": "0.14"
+        }
+      ]
+    }
+  ],
+  "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-E1j1Ru/320-UR-motion.json",
+  "phases": [
+    "charge",
+    "burst",
+    "arrive",
+    "settled"
+  ],
+  "animations": [
+    {
+      "selector": ".summon-reveal",
+      "animation": "companionArrive",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.865467, 0, 0, 0.865467, 0, 19.7315)",
+        "matrix(0.915536, 0, 0, 0.915536, 0, 12.388)",
+        "matrix(0.928869, 0, 0, 0.928869, 0, 10.4326)",
+        "matrix(0.999951, 0, 0, 0.999951, 0, 0.00711932)"
+      ],
+      "opacities": [
+        "0.103115",
+        "0.436908",
+        "0.525792",
+        "0.999676"
+      ],
+      "moved": true
+    },
+    {
+      "selector": ".summon-eclipse",
+      "animation": "eclipseGather",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.5, 0, 0, 0.5, -65.2773, -65.2773)",
+        "matrix(0.505319, 0, 0, 0.505319, -65.2773, -65.2773)",
+        "matrix(0.512893, 0, 0, 0.512893, -65.2773, -65.2773)",
+        "matrix(0.532316, 0, 0, 0.532316, -65.2773, -65.2773)"
+      ],
+      "opacities": [
+        "0.2",
+        "0.206546",
+        "0.215869",
+        "0.239773"
+      ],
+      "moved": true
+    },
+    {
+      "selector": ".orbit-east",
+      "animation": "eclipseOrbit",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.882948, -0.469472, 0.469472, 0.882948, -51.0273, -49)",
+        "matrix(0.882948, -0.469472, 0.469472, 0.882948, -59.9219, -50.3398)",
+        "matrix(0.882948, -0.469472, 0.469472, 0.882948, -63.0781, -50.8164)",
+        "matrix(0.882948, -0.469472, 0.469472, 0.882948, -116.258, -58.8438)"
+      ],
+      "opacities": [
+        "0.779583",
+        "0.703519",
+        "0.676542",
+        "0.221888"
+      ],
+      "moved": true
+    },
+    {
+      "selector": ".orbit-west",
+      "animation": "eclipseOrbit",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.788011, 0.615661, -0.615661, 0.788011, -51.0273, -49)",
+        "matrix(0.788011, 0.615661, -0.615661, 0.788011, -59.9219, -50.3398)",
+        "matrix(0.788011, 0.615661, -0.615661, 0.788011, -63.0781, -50.8164)",
+        "matrix(0.788011, 0.615661, -0.615661, 0.788011, -116.258, -58.8438)"
+      ],
+      "opacities": [
+        "0.779583",
+        "0.703519",
+        "0.676542",
+        "0.221888"
+      ],
+      "moved": true
+    }
+  ]
+}

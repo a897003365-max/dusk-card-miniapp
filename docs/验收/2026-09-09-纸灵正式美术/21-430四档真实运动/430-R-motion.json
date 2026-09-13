@@ -1,0 +1,537 @@
+{
+  "tier": "R",
+  "id": "sunset",
+  "expectedImage": "/assets/partners/sunset.png",
+  "samples": [
+    {
+      "time": 1789017418092,
+      "route": "pages/collection/index",
+      "revealPhase": null,
+      "replayMode": false,
+      "activeReveal": null,
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": false
+        }
+      ]
+    },
+    {
+      "time": 1789017420141,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperGather",
+          "transform": "matrix(0.642788, 0.766044, -0.766044, 0.642788, 0, -38)",
+          "opacity": "0"
+        }
+      ]
+    },
+    {
+      "time": 1789017420186,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperGather",
+          "transform": "matrix(0.676034, 0.736871, -0.736871, 0.676034, 0, -36.0738)",
+          "opacity": "0.297093"
+        }
+      ]
+    },
+    {
+      "time": 1789017420229,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperGather",
+          "transform": "matrix(0.723919, 0.689885, -0.689885, 0.723919, 0, -33.152)",
+          "opacity": "0.689699"
+        }
+      ]
+    },
+    {
+      "time": 1789017420274,
+      "route": "pages/home/index",
+      "revealPhase": "charge",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperGather",
+          "transform": "matrix(0.828215, 0.560411, -0.560411, 0.828215, 0, -25.904)",
+          "opacity": "0.614799"
+        }
+      ]
+    },
+    {
+      "time": 1789017420315,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperGather",
+          "transform": "matrix(0.874454, 0.485109, -0.485109, 0.874454, 0, -22.0549)",
+          "opacity": "0.538216"
+        }
+      ]
+    },
+    {
+      "time": 1789017420361,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperScatter",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "opacity": "0.9"
+        }
+      ]
+    },
+    {
+      "time": 1789017420405,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperScatter",
+          "transform": "matrix(0.920924, 0.389742, -0.389742, 0.920924, 0, -5.44788)",
+          "opacity": "0.770971"
+        }
+      ]
+    },
+    {
+      "time": 1789017420449,
+      "route": "pages/home/index",
+      "revealPhase": "burst",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperScatter",
+          "transform": "matrix(0.857506, 0.514473, -0.514473, 0.857506, 0, -7.35354)",
+          "opacity": "0.725837"
+        }
+      ]
+    },
+    {
+      "time": 1789017420504,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": false
+        },
+        {
+          "selector": ".summon-character",
+          "exists": false
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperScatter",
+          "transform": "matrix(0.618055, 0.786135, -0.786135, 0.618055, 0, -12.3086)",
+          "opacity": "0.60848"
+        }
+      ]
+    },
+    {
+      "time": 1789017420549,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.866933, 0, 0, 0.866933, 0, 19.5164)",
+          "opacity": "0.112889"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperScatter",
+          "transform": "matrix(0.474011, 0.880519, -0.880519, 0.474011, 0, -14.6549)",
+          "opacity": "0.552909"
+        }
+      ]
+    },
+    {
+      "time": 1789017420594,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.945777, 0, 0, 0.945777, 0, 7.95272)",
+          "opacity": "0.638513"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperScatter",
+          "transform": "matrix(0.205927, 0.978567, -0.978567, 0.205927, 0, -18.5526)",
+          "opacity": "0.460596"
+        }
+      ]
+    },
+    {
+      "time": 1789017420638,
+      "route": "pages/home/index",
+      "revealPhase": "arrive",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.961926, 0, 0, 0.961926, 0, 5.58418)",
+          "opacity": "0.746174"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperScatter",
+          "transform": "matrix(0.090698, 0.995878, -0.995878, 0.090698, 0, -20.1391)",
+          "opacity": "0.423021"
+        }
+      ]
+    },
+    {
+      "time": 1789017420873,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "companionArrive",
+          "transform": "matrix(0.999848, 0, 0, 0.999848, 0, 0.0222872)",
+          "opacity": "0.998987"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "paperScatter",
+          "transform": "matrix(-0.741718, 0.670712, -0.670712, -0.741718, 0, -32.746)",
+          "opacity": "0.124436"
+        }
+      ]
+    },
+    {
+      "time": 1789017420902,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "0"
+        }
+      ]
+    },
+    {
+      "time": 1789017420964,
+      "route": "pages/home/index",
+      "revealPhase": "settled",
+      "replayMode": true,
+      "activeReveal": {
+        "id": "sunset",
+        "tier": "R",
+        "image": "/assets/partners/sunset.png"
+      },
+      "nodes": [
+        {
+          "selector": ".summon-reveal",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-character",
+          "exists": true,
+          "src": "/assets/partners/sunset.png",
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "selector": ".summon-particle",
+          "exists": true,
+          "animation-name": "none",
+          "transform": "none",
+          "opacity": "0"
+        }
+      ]
+    }
+  ],
+  "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-3kxPvK/430-R-motion.json",
+  "phases": [
+    "charge",
+    "burst",
+    "arrive",
+    "settled"
+  ],
+  "animations": [
+    {
+      "selector": ".summon-reveal",
+      "animation": "companionArrive",
+      "samples": 4,
+      "transforms": [
+        "matrix(0.866933, 0, 0, 0.866933, 0, 19.5164)",
+        "matrix(0.945777, 0, 0, 0.945777, 0, 7.95272)",
+        "matrix(0.961926, 0, 0, 0.961926, 0, 5.58418)",
+        "matrix(0.999848, 0, 0, 0.999848, 0, 0.0222872)"
+      ],
+      "opacities": [
+        "0.112889",
+        "0.638513",
+        "0.746174",
+        "0.998987"
+      ],
+      "moved": true
+    },
+    {
+      "selector": ".summon-particle",
+      "animation": "paperGather",
+      "samples": 5,
+      "transforms": [
+        "matrix(0.642788, 0.766044, -0.766044, 0.642788, 0, -38)",
+        "matrix(0.676034, 0.736871, -0.736871, 0.676034, 0, -36.0738)",
+        "matrix(0.723919, 0.689885, -0.689885, 0.723919, 0, -33.152)",
+        "matrix(0.828215, 0.560411, -0.560411, 0.828215, 0, -25.904)",
+        "matrix(0.874454, 0.485109, -0.485109, 0.874454, 0, -22.0549)"
+      ],
+      "opacities": [
+        "0",
+        "0.297093",
+        "0.689699",
+        "0.614799",
+        "0.538216"
+      ],
+      "moved": true
+    }
+  ]
+}

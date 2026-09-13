@@ -1,0 +1,22 @@
+Use case: stylized-concept
+Asset type: game combat sprite master sheet, production intermediate
+Input images: Image 1 is the idle identity reference for the pearlamp partner. Image 2 is the cast/action identity reference. Image 3 is layout-only reference for a wide 2:1 4-column by 2-row equal-cell chroma-key sprite sheet; do not copy its character. Preserve the same pearlamp paper spirit: a slim two-legged humanoid made of cream and deep green folded paper, gentle golden face, long pointed paper hair ribbons, green floral robe, red tassels and knots, a glowing pear-shaped lantern embedded in the chest, and the existing thin wand/tuning fork in the right hand. Preserve exactly two arms, two legs, face, chest lantern, robe panels and tool; no redesign.
+
+Create exactly one wide 2:1 high-resolution action sprite master sheet matching Image 3's equal-cell layout: four equal-width columns and two equal-height rows, eight complete square-ish action cells, no labels. Keep the character and every light/ribbon effect inside the inner 60–65% of its own cell, with generous roughly 25% clear space around each cell. Same scale and baseline. No subject, wand, robe tip, tassel or effect may touch or cross a cell boundary. No cropping. Keep the chest lantern and hand tool readable in every relevant pose.
+
+Exact order:
+Top row col 1 ENTER: pearlamp steps out with robe opening and chest lantern glowing softly, wand ready, welcoming but alert.
+Top row col 2 ATTACK: pearlamp thrusts the existing thin wand/tuning fork toward the right, sending one compact diagonal warm-gold lantern beam and a few paper-light shards, all fully inside this cell.
+Top row col 3 GUARD: both existing sleeves and a small folded lantern-light shield protect the chest lantern, face visible, wand held close.
+Top row col 4 HURT: pearlamp recoils with sleeves drawn inward, chest lantern dimmed and a few contained paper petals, no blood.
+Bottom row col 1 EXIT: low folding robe and fading lantern pose, tassels and face still recognizable, a few small contained paper slips.
+Bottom row col 2 CONTROL: indigo paper threads and binding talisman strips wrap existing wrists, wand and ankles; face and chest lantern unobstructed; clearly distinct from debuff.
+Bottom row col 3 BUFF: upright encouraged posture with compact warm-gold and teal-green lantern rays/paper petals close to the existing chest lamp, no new limbs.
+Bottom row col 4 DEBUFF: drooping low posture, dim chest lantern, cool-gray ink marks and negative talisman symbols on the existing robe, clearly different from control.
+
+Backdrop: a perfectly flat solid chroma-key magenta background, exact color #FF00FF (RGB 255,0,255) across every background pixel. No transparency, no checkerboard, no gradient, no noise texture, no floor, no shadow plate, no grid or cell lines.
+Style: soft polished 2.5D hand-painted folded-paper game illustration, upper-left light, visible paper fibers and creases, green/cream palette, red cord details and warm lamp glow.
+Text: none.
+Avoid: labels, numbers, UI, logo, watermark, extra characters, extra arms or legs, human anatomy changes, wings, horns, added tail, missing lantern, broken wand, giant sweeping light beams, cross-cell overlap, cropped parts, idle recolor.
+
+Technical post-processing: normalize only near-magenta background pixels to exact #FF00FF; do not remove, crop, key, or delete any subject/effect pixels.

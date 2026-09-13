@@ -1,0 +1,375 @@
+{
+  "files" : [
+    {
+      "alphaMax" : 255,
+      "alphaMin" : 0,
+      "decodedFormat" : "RGBA8-premultipliedLast-bigEndian",
+      "edges" : {
+        "bottom" : false,
+        "left" : false,
+        "right" : false,
+        "top" : false
+      },
+      "height" : 512,
+      "nonTransparentBounds" : {
+        "height" : 477,
+        "maxX" : 336,
+        "maxY" : 498,
+        "minX" : 4,
+        "minY" : 22,
+        "width" : 333,
+        "x" : 4,
+        "y" : 22
+      },
+      "opaquePixels" : 72046,
+      "path" : "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/runtime/nav-cast.png",
+      "pixelCount" : 174592,
+      "reasons" : [
+
+      ],
+      "semiTransparentPixels" : 6036,
+      "sourceBitsPerComponent" : 8,
+      "status" : "pass",
+      "touchesCanvasEdge" : false,
+      "transparentPixels" : 96510,
+      "warnings" : [
+
+      ],
+      "width" : 341
+    },
+    {
+      "alphaMax" : 255,
+      "alphaMin" : 0,
+      "decodedFormat" : "RGBA8-premultipliedLast-bigEndian",
+      "edges" : {
+        "bottom" : false,
+        "left" : false,
+        "right" : false,
+        "top" : false
+      },
+      "height" : 768,
+      "nonTransparentBounds" : {
+        "height" : 720,
+        "maxX" : 489,
+        "maxY" : 736,
+        "minX" : 22,
+        "minY" : 17,
+        "width" : 468,
+        "x" : 22,
+        "y" : 17
+      },
+      "opaquePixels" : 157503,
+      "path" : "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/runtime/nav.png",
+      "pixelCount" : 393216,
+      "reasons" : [
+
+      ],
+      "semiTransparentPixels" : 15340,
+      "sourceBitsPerComponent" : 8,
+      "status" : "pass",
+      "touchesCanvasEdge" : false,
+      "transparentPixels" : 220373,
+      "warnings" : [
+
+      ],
+      "width" : 512
+    },
+    {
+      "alphaMax" : 255,
+      "alphaMin" : 0,
+      "decodedFormat" : "RGBA8-premultipliedLast-bigEndian",
+      "edges" : {
+        "bottom" : false,
+        "left" : false,
+        "right" : false,
+        "top" : false
+      },
+      "height" : 341,
+      "nonTransparentBounds" : {
+        "height" : 279,
+        "maxX" : 500,
+        "maxY" : 313,
+        "minX" : 11,
+        "minY" : 35,
+        "width" : 490,
+        "x" : 11,
+        "y" : 35
+      },
+      "opaquePixels" : 49183,
+      "path" : "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/runtime/orangecat-cast.png",
+      "pixelCount" : 174592,
+      "reasons" : [
+
+      ],
+      "semiTransparentPixels" : 5452,
+      "sourceBitsPerComponent" : 8,
+      "status" : "pass",
+      "touchesCanvasEdge" : false,
+      "transparentPixels" : 119957,
+      "warnings" : [
+
+      ],
+      "width" : 512
+    },
+    {
+      "alphaMax" : 255,
+      "alphaMin" : 0,
+      "decodedFormat" : "RGBA8-premultipliedLast-bigEndian",
+      "edges" : {
+        "bottom" : false,
+        "left" : false,
+        "right" : false,
+        "top" : false
+      },
+      "height" : 512,
+      "nonTransparentBounds" : {
+        "height" : 470,
+        "maxX" : 750,
+        "maxY" : 486,
+        "minX" : 13,
+        "minY" : 17,
+        "width" : 738,
+        "x" : 13,
+        "y" : 17
+      },
+      "opaquePixels" : 105087,
+      "path" : "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/runtime/orangecat.png",
+      "pixelCount" : 393216,
+      "reasons" : [
+
+      ],
+      "semiTransparentPixels" : 19426,
+      "sourceBitsPerComponent" : 8,
+      "status" : "pass",
+      "touchesCanvasEdge" : false,
+      "transparentPixels" : 268703,
+      "warnings" : [
+
+      ],
+      "width" : 768
+    },
+    {
+      "alphaMax" : 255,
+      "alphaMin" : 0,
+      "decodedFormat" : "RGBA8-premultipliedLast-bigEndian",
+      "edges" : {
+        "bottom" : false,
+        "left" : false,
+        "right" : false,
+        "top" : false
+      },
+      "height" : 512,
+      "nonTransparentBounds" : {
+        "height" : 483,
+        "maxX" : 438,
+        "maxY" : 495,
+        "minX" : 63,
+        "minY" : 13,
+        "width" : 376,
+        "x" : 63,
+        "y" : 13
+      },
+      "opaquePixels" : 98373,
+      "path" : "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/runtime/paper-ball.png",
+      "pixelCount" : 262144,
+      "reasons" : [
+
+      ],
+      "semiTransparentPixels" : 7590,
+      "sourceBitsPerComponent" : 8,
+      "status" : "pass",
+      "touchesCanvasEdge" : false,
+      "transparentPixels" : 156181,
+      "warnings" : [
+
+      ],
+      "width" : 512
+    },
+    {
+      "alphaMax" : 255,
+      "alphaMin" : 0,
+      "decodedFormat" : "RGBA8-premultipliedLast-bigEndian",
+      "edges" : {
+        "bottom" : false,
+        "left" : false,
+        "right" : false,
+        "top" : false
+      },
+      "height" : 512,
+      "nonTransparentBounds" : {
+        "height" : 472,
+        "maxX" : 329,
+        "maxY" : 492,
+        "minX" : 11,
+        "minY" : 21,
+        "width" : 319,
+        "x" : 11,
+        "y" : 21
+      },
+      "opaquePixels" : 75510,
+      "path" : "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/runtime/sheep-cast.png",
+      "pixelCount" : 174592,
+      "reasons" : [
+
+      ],
+      "semiTransparentPixels" : 7293,
+      "sourceBitsPerComponent" : 8,
+      "status" : "pass",
+      "touchesCanvasEdge" : false,
+      "transparentPixels" : 91789,
+      "warnings" : [
+
+      ],
+      "width" : 341
+    },
+    {
+      "alphaMax" : 255,
+      "alphaMin" : 0,
+      "decodedFormat" : "RGBA8-premultipliedLast-bigEndian",
+      "edges" : {
+        "bottom" : false,
+        "left" : false,
+        "right" : false,
+        "top" : false
+      },
+      "height" : 768,
+      "nonTransparentBounds" : {
+        "height" : 717,
+        "maxX" : 463,
+        "maxY" : 743,
+        "minX" : 62,
+        "minY" : 27,
+        "width" : 402,
+        "x" : 62,
+        "y" : 27
+      },
+      "opaquePixels" : 139285,
+      "path" : "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/runtime/sheep.png",
+      "pixelCount" : 393216,
+      "reasons" : [
+
+      ],
+      "semiTransparentPixels" : 16724,
+      "sourceBitsPerComponent" : 8,
+      "status" : "pass",
+      "touchesCanvasEdge" : false,
+      "transparentPixels" : 237207,
+      "warnings" : [
+
+      ],
+      "width" : 512
+    },
+    {
+      "alphaMax" : 255,
+      "alphaMin" : 0,
+      "decodedFormat" : "RGBA8-premultipliedLast-bigEndian",
+      "edges" : {
+        "bottom" : false,
+        "left" : false,
+        "right" : false,
+        "top" : false
+      },
+      "height" : 341,
+      "nonTransparentBounds" : {
+        "height" : 307,
+        "maxX" : 478,
+        "maxY" : 320,
+        "minX" : 33,
+        "minY" : 14,
+        "width" : 446,
+        "x" : 33,
+        "y" : 14
+      },
+      "opaquePixels" : 53634,
+      "path" : "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/runtime/stamp-moth.png",
+      "pixelCount" : 174592,
+      "reasons" : [
+
+      ],
+      "semiTransparentPixels" : 8184,
+      "sourceBitsPerComponent" : 8,
+      "status" : "pass",
+      "touchesCanvasEdge" : false,
+      "transparentPixels" : 112774,
+      "warnings" : [
+
+      ],
+      "width" : 512
+    },
+    {
+      "alphaMax" : 255,
+      "alphaMin" : 0,
+      "decodedFormat" : "RGBA8-premultipliedLast-bigEndian",
+      "edges" : {
+        "bottom" : false,
+        "left" : true,
+        "right" : true,
+        "top" : false
+      },
+      "height" : 1024,
+      "nonTransparentBounds" : {
+        "height" : 115,
+        "maxX" : 1023,
+        "maxY" : 967,
+        "minX" : 0,
+        "minY" : 853,
+        "width" : 1024,
+        "x" : 0,
+        "y" : 853
+      },
+      "opaquePixels" : 23612,
+      "path" : "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/runtime/street-front.png",
+      "pixelCount" : 1048576,
+      "reasons" : [
+
+      ],
+      "semiTransparentPixels" : 4035,
+      "sourceBitsPerComponent" : 8,
+      "status" : "pass",
+      "touchesCanvasEdge" : true,
+      "transparentPixels" : 1020929,
+      "warnings" : [
+        "非透明像素碰到画布边缘，请人工确认是否裁切"
+      ],
+      "width" : 1024
+    },
+    {
+      "alphaMax" : 255,
+      "alphaMin" : 0,
+      "decodedFormat" : "RGBA8-premultipliedLast-bigEndian",
+      "edges" : {
+        "bottom" : false,
+        "left" : false,
+        "right" : false,
+        "top" : false
+      },
+      "height" : 1024,
+      "nonTransparentBounds" : {
+        "height" : 231,
+        "maxX" : 1008,
+        "maxY" : 254,
+        "minX" : 20,
+        "minY" : 24,
+        "width" : 989,
+        "x" : 20,
+        "y" : 24
+      },
+      "opaquePixels" : 15834,
+      "path" : "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/runtime/street-middle.png",
+      "pixelCount" : 1048576,
+      "reasons" : [
+
+      ],
+      "semiTransparentPixels" : 3800,
+      "sourceBitsPerComponent" : 8,
+      "status" : "pass",
+      "touchesCanvasEdge" : false,
+      "transparentPixels" : 1028942,
+      "warnings" : [
+
+      ],
+      "width" : 1024
+    }
+  ],
+  "status" : "pass"
+}

@@ -1,0 +1,22 @@
+# Tea action sprite sheet prompt
+
+Generation mode: built-in imagegen, Luna max orchestration.
+Reference images (identity anchors only):
+- docs/visual-rework/production/rgba/tea-idle.png
+- docs/visual-rework/production/rgba/tea-cast.png
+
+## Primary generation prompt
+
+Use case: stylized-concept
+Asset type: production game character action sprite sheet for tea
+Generation orchestration: Luna max.
+Input images: Image 1 and Image 2 are the tea idle and tea cast identity references.
+Primary request: Create one wide 2:1 landscape 4-column by 2-row action sprite sheet for the same paper-folded tea-bear courier from the references. Preserve the actual large bear anatomy and identity: broad cream-and-brown origami bear face with round ears, closed or gentle eyes, four thick limbs and large paws, green leaf-patterned scarf and robe, cream folded shoulder panels, red cords and tassels, the wooden tea rack/backpack across the shoulders, the compact folded tea table/tray from the cast reference, and the paired cup/canister props at the waist. Do not add arms, legs, paws, or extra characters. Create eight genuinely different full-body action poses in this exact order: row 1 enter, attack, guard, hurt; row 2 exit, control, buff, debuff.
+Canvas and chroma-key layout: exactly four equal columns and two equal rows. Every pixel outside the bear and effects must be flat solid pure chroma-key magenta RGB #FF00FF (255,0,255): no alpha, checkerboard, gradient, texture, floor, shadow plate, labels, or grid lines. Keep the complete bear, backpack/rack, table/tray, cups, tassels, and all effects inside the central 70% width and 70% height of its own cell, with about 20% clean magenta margin on every side. No paw, table edge, strap, tassel, paper shard, glow, ribbon, or effect may touch or cross a cell boundary. Keep the scale, baseline, camera angle, and clear silhouette consistent.
+Action poses: enter = sturdy forward step with tea rack balanced and paws ready; attack = clear compact rightward paw/table push with a small contained diagonal gold or green tea-leaf paper gust; guard = compact folded tea table or rack held directly in front as a shield, feet braced; hurt = bear recoils and crouches behind the tilted but intact rack/table, a few contained paper flecks, face visible, no blood; exit = low folded resting crouch with rack and tea props still recognizable; control = indigo paper threads and restraint talismans wrapped around legs, rack straps, and table legs, face unobstructed; buff = upright reassuring bear pose with warm gold and teal-green tea leaves/steam feathers, positive energy; debuff = lowered head and slumped scarf with cool gray ink leaves and small negative sigils, clearly different from control.
+Style/medium: soft 2.5D origami paper illustration, layered paper facets and visible paper fiber, restrained wood/brass and red cord details, soft upper-left light, refined game asset, not plush, plastic, or photorealistic.
+Constraints: no readable text, labels, logos, or watermark, no extra characters, no added/missing limbs, no broken rack/table/cups, no giant effects, no cross-cell bleed, no blood or gore. Output one flat-magenta-background RGB PNG sprite sheet with exactly eight distinct poses in the specified order.
+
+## Artifact note
+
+The saved master is `masters/tea-sheet.png`, 1774x887 RGB PNG with no alpha. The large bear, shoulder rack/backpack, compact table/tray, cups and tassels remain identifiable; the attack gust is small and diagonal, and the status effects are distinct. The imagegen magenta background may contain slight per-pixel variation, so root should use the agreed local chroma-key pipeline without cropping props/effects.

@@ -1,0 +1,84 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2DBUUV",
+  "width": 430,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-aVRc1G",
+  "checks": [
+    {
+      "name": "重温验收使用隔离存档",
+      "pass": true
+    },
+    {
+      "name": "模拟器宽度真实匹配",
+      "pass": true
+    }
+  ],
+  "shots": [],
+  "interactions": [
+    {
+      "selector": ".family-card[data-id=\"sunset\"]",
+      "rect": {
+        "dataset": {
+          "id": "sunset"
+        },
+        "left": 286.65625,
+        "right": 409.984375,
+        "top": 79.921875,
+        "bottom": 280.703125,
+        "width": 123.328125,
+        "height": 200.78125
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    },
+    {
+      "selector": ".variant[data-tier=\"R\"]",
+      "rect": {
+        "dataset": {
+          "tier": "R"
+        },
+        "left": 37,
+        "right": 121.5,
+        "top": 304.8515625,
+        "bottom": 356.4453125,
+        "width": 84.5,
+        "height": 51.59375
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    },
+    {
+      "selector": ".replay-appearance",
+      "rect": {
+        "dataset": {},
+        "left": 37,
+        "right": 393,
+        "top": 370.4453125,
+        "bottom": 437.84375,
+        "width": 356,
+        "height": 67.3984375
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    }
+  ],
+  "videos": [],
+  "motion": [
+    {
+      "tier": "R",
+      "id": "sunset",
+      "expectedImage": "/assets/partners/sunset.png",
+      "error": "Unterminated string in JSON at position 65536 (line 2474 column 34)",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-aVRc1G/430-R-motion.json"
+    }
+  ],
+  "motionRequested": true,
+  "recordingRequested": false,
+  "status": "fail",
+  "error": "Unterminated string in JSON at position 65536 (line 2474 column 34)"
+}

@@ -1,0 +1,7605 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-nyMDCE",
+  "region": "bridge",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE",
+  "scope": "full-run",
+  "checks": [
+    {
+      "name": "实际运行的是隔离存档命名空间",
+      "pass": true
+    },
+    {
+      "name": "v2真实新存档完整",
+      "pass": true
+    },
+    {
+      "name": "真实开始远行并固定三人快照",
+      "pass": true
+    },
+    {
+      "name": "本场实际敌人节点使用对应阶段立绘",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "动效观察的真实按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "真实节点播放enemyHit并发生变换",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "动效观察的真实按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "真实节点播放enemySpell并发生变换",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "返回邮局再继续不重抽手牌、不重置生命或RNG",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "动效观察的真实按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "真实节点播放enemyFold并发生变换",
+      "pass": true
+    },
+    {
+      "name": "退场尚在播放时结算已真实写入存储",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "本场实际敌人节点使用对应阶段立绘",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "动效观察的真实按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "真实节点播放enemyStrike并发生变换",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "本场实际敌人节点使用对应阶段立绘",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "本场实际敌人节点使用对应阶段立绘",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "本场实际敌人节点使用对应阶段立绘",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "本场实际敌人节点使用对应阶段立绘",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "本场实际敌人节点使用对应阶段立绘",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "远行在有界步数内实际结算",
+      "pass": true
+    },
+    {
+      "name": "通关实玩经过首领第二阶段立绘",
+      "pass": true
+    },
+    {
+      "name": "永久伙伴与此前已入库资源保留",
+      "pass": true
+    },
+    {
+      "name": "结算回执来自真实存档",
+      "pass": true
+    },
+    {
+      "name": "关闭回执不重复发资源",
+      "pass": true
+    },
+    {
+      "name": "运行时应用异常过滤为空",
+      "pass": true
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-8\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-8"
+        },
+        "left": 88,
+        "right": 154,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-7\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-7"
+        },
+        "left": 304,
+        "right": 370,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-5\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-5"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hub-back",
+      "rect": {
+        "dataset": {},
+        "left": 12,
+        "right": 72,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 60,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-11\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-11"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-9\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-1\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 304,
+        "right": 370,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".skip-card",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 656.9609375,
+        "bottom": 700.9609375,
+        "width": 354,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-1-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-1-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 56.0859375,
+        "bottom": 124.28125,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-8\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-8"
+        },
+        "left": 304,
+        "right": 370,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-2\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-2"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-11\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-11"
+        },
+        "left": 304,
+        "right": 370,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-2\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-2"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-9\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-2\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-2"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-7\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-7"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-2\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-2"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-2\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-2"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-12\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-12"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-9\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-2\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-2"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-1\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-2\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-2"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".take-card[data-uid=\"card-17\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-17"
+        },
+        "left": 39,
+        "right": 351,
+        "top": 228.171875,
+        "bottom": 272.171875,
+        "width": 312,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-2-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-2-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 56.1796875,
+        "bottom": 124.375,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".event-choice[data-id=\"dry\"]",
+      "rect": {
+        "dataset": {
+          "id": "dry"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 432.09375,
+        "bottom": 522.5859375,
+        "width": 354,
+        "height": 90.4921875
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-3-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-3-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 55.7734375,
+        "bottom": 123.96875,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-5\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-5"
+        },
+        "left": 88,
+        "right": 154,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-3\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-3"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-4\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-4"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-8\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-8"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-3\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-3"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-7\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-7"
+        },
+        "left": 304,
+        "right": 370,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-3\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-3"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".skip-card",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 656.9609375,
+        "bottom": 700.9609375,
+        "width": 354,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-4-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-4-0"
+        },
+        "left": 59,
+        "right": 372,
+        "top": 122.3671875,
+        "bottom": 190.5625,
+        "width": 313,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".camp-rest",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 566.09375,
+        "bottom": 610.09375,
+        "width": 354,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-5-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-5-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 174.9609375,
+        "bottom": 243.15625,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-17\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-17"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-4\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-4"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-11\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-11"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-4\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-4"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-1\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 88,
+        "right": 154,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-4\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-4"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-3\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-3"
+        },
+        "left": 88,
+        "right": 154,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-4\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-4"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-7\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-7"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-4\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-4"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-17\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-17"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-4\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-4"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-11\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-11"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-4\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-4"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-8\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-8"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-4\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-4"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-9\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-4\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-4"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".take-relic[data-id=\"glass-star\"]",
+      "rect": {
+        "dataset": {
+          "id": "glass-star"
+        },
+        "left": 39,
+        "right": 351,
+        "top": 325.859375,
+        "bottom": 369.859375,
+        "width": 312,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-6-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-6-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 585.0546875,
+        "bottom": 653.25,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".take-relic[data-id=\"tea-token\"]",
+      "rect": {
+        "dataset": {
+          "id": "tea-token"
+        },
+        "left": 39,
+        "right": 351,
+        "top": 556.2578125,
+        "bottom": 600.2578125,
+        "width": 312,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-7-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-7-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 211.1484375,
+        "bottom": 279.34375,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-7\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-7"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-5\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-5"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-1\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 88,
+        "right": 154,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-5\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-5"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-12\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-12"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-9\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 88,
+        "right": 154,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-5\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-5"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".take-card[data-uid=\"card-23\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-23"
+        },
+        "left": 39,
+        "right": 351,
+        "top": 56.171875,
+        "bottom": 100.171875,
+        "width": 312,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-8-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-8-0"
+        },
+        "left": 59,
+        "right": 372,
+        "top": 388.7421875,
+        "bottom": 456.9375,
+        "width": 313,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-17\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-17"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-1\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-12\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-12"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-3\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-3"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-23\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-23"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-8\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-8"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-9\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-7\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-7"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-17\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-17"
+        },
+        "left": 88,
+        "right": 154,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-23\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-23"
+        },
+        "left": 304,
+        "right": 370,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-1\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-5\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-5"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-11\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-11"
+        },
+        "left": 88,
+        "right": 154,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-8\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-8"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-17\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-17"
+        },
+        "left": 304,
+        "right": 370,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-4\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-4"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-12\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-12"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-7\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-7"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-8\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-8"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-9\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-17\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-17"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-23\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-23"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-11\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-11"
+        },
+        "left": 232,
+        "right": 298,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-3\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-3"
+        },
+        "left": 304,
+        "right": 370,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-17\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-17"
+        },
+        "left": 88,
+        "right": 154,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-8\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-8"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-9\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-6\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-6"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".finish-run",
+      "rect": {
+        "dataset": {},
+        "left": 23,
+        "right": 367,
+        "top": 549.1796875,
+        "bottom": 593.1796875,
+        "width": 344,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    }
+  ],
+  "shots": [
+    {
+      "name": "node-1-battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-1-battle.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-1-cardReward",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-1-cardReward.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-2-map",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-2-map.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-2-battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-2-battle.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-2-cardReward",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-2-cardReward.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-3-map",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-3-map.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-3-event",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-3-event.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-4-map",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-4-map.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-4-battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-4-battle.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-4-cardReward",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-4-cardReward.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-5-map",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-5-map.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-5-camp",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-5-camp.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-6-map",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-6-map.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-6-battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-6-battle.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-6-relicReward",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-6-relicReward.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-7-map",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-7-map.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-7-relicReward",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-7-relicReward.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-8-map",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-8-map.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-8-battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-8-battle.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-8-cardReward",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-8-cardReward.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-9-map",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-9-map.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-9-battle-boss-1",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-9-battle-boss-1.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "node-9-battle-boss-2",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/node-9-battle-boss-2.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "final-result",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-zVPVCE/final-result.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "actions": [
+    {
+      "layer": 0,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-8",
+        "targetId": "enemy-1"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 0,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-7",
+        "targetId": "enemy-1"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 0,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-5",
+        "targetId": "enemy-1"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 0,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 0,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-11",
+        "targetId": "enemy-1"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 0,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-9",
+        "targetId": "enemy-1"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 0,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-1",
+        "targetId": "enemy-1"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 0,
+      "phase": "cardReward",
+      "action": {
+        "type": "chooseCard",
+        "choiceId": "skip"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 1,
+      "phase": "map",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-1-0"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 1,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-8",
+        "targetId": "enemy-2"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 1,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-11",
+        "targetId": "enemy-2"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 1,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-9",
+        "targetId": "enemy-2"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 1,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 1,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-7",
+        "targetId": "enemy-2"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 1,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-2"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 1,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-12"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 1,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 1,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-9",
+        "targetId": "enemy-2"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 1,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-1",
+        "targetId": "enemy-2"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 1,
+      "phase": "cardReward",
+      "action": {
+        "type": "chooseCard",
+        "choiceId": "card-17"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 2,
+      "phase": "map",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-2-0"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 2,
+      "phase": "event",
+      "action": {
+        "type": "chooseEvent",
+        "choiceId": "dry"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 3,
+      "phase": "map",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-3-0"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-5",
+        "targetId": "enemy-3"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-4"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-8",
+        "targetId": "enemy-3"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-7",
+        "targetId": "enemy-3"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 3,
+      "phase": "cardReward",
+      "action": {
+        "type": "chooseCard",
+        "choiceId": "skip"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 4,
+      "phase": "map",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-4-0"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 4,
+      "phase": "camp",
+      "action": {
+        "type": "rest"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 5,
+      "phase": "map",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-5-0"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-17",
+        "targetId": "enemy-4"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-11",
+        "targetId": "enemy-4"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-1",
+        "targetId": "enemy-4"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-3"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-4"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-7",
+        "targetId": "enemy-4"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-17",
+        "targetId": "enemy-4"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-11",
+        "targetId": "enemy-4"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-8",
+        "targetId": "enemy-4"
+      },
+      "turn": 4
+    },
+    {
+      "layer": 5,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-9",
+        "targetId": "enemy-4"
+      },
+      "turn": 4
+    },
+    {
+      "layer": 5,
+      "phase": "relicReward",
+      "action": {
+        "type": "chooseRelic",
+        "choiceId": "glass-star"
+      },
+      "turn": 4
+    },
+    {
+      "layer": 6,
+      "phase": "map",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-6-0"
+      },
+      "turn": 4
+    },
+    {
+      "layer": 6,
+      "phase": "relicReward",
+      "action": {
+        "type": "chooseRelic",
+        "choiceId": "tea-token"
+      },
+      "turn": 4
+    },
+    {
+      "layer": 7,
+      "phase": "map",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-7-0"
+      },
+      "turn": 4
+    },
+    {
+      "layer": 7,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-7",
+        "targetId": "enemy-5"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 7,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-1",
+        "targetId": "enemy-5"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 7,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-12"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 7,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 7,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-9",
+        "targetId": "enemy-5"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 7,
+      "phase": "cardReward",
+      "action": {
+        "type": "chooseCard",
+        "choiceId": "card-23"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 8,
+      "phase": "map",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-8-0"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-17",
+        "targetId": "enemy-6"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-1",
+        "targetId": "enemy-6"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-12"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-3"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-23",
+        "targetId": "enemy-6"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-8",
+        "targetId": "enemy-6"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-9",
+        "targetId": "enemy-6"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-7",
+        "targetId": "enemy-6"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-17",
+        "targetId": "enemy-6"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-23",
+        "targetId": "enemy-6"
+      },
+      "turn": 4
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-1",
+        "targetId": "enemy-6"
+      },
+      "turn": 4
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-5",
+        "targetId": "enemy-6"
+      },
+      "turn": 4
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 4
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-11",
+        "targetId": "enemy-6"
+      },
+      "turn": 5
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-8",
+        "targetId": "enemy-6"
+      },
+      "turn": 5
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-17",
+        "targetId": "enemy-6"
+      },
+      "turn": 5
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 5
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-4"
+      },
+      "turn": 6
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-12"
+      },
+      "turn": 6
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 6
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-7",
+        "targetId": "enemy-6"
+      },
+      "turn": 7
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-8",
+        "targetId": "enemy-6"
+      },
+      "turn": 7
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-9",
+        "targetId": "enemy-6"
+      },
+      "turn": 7
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 7
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-17",
+        "targetId": "enemy-6"
+      },
+      "turn": 8
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-23",
+        "targetId": "enemy-6"
+      },
+      "turn": 8
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-11",
+        "targetId": "enemy-6"
+      },
+      "turn": 8
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 8
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-3"
+      },
+      "turn": 9
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-17",
+        "targetId": "enemy-6"
+      },
+      "turn": 9
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-8",
+        "targetId": "enemy-6"
+      },
+      "turn": 9
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 9
+    },
+    {
+      "layer": 8,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-9",
+        "targetId": "enemy-6"
+      },
+      "turn": 10
+    }
+  ],
+  "enemyArt": [
+    {
+      "layer": 0,
+      "bossPhase": null,
+      "enemies": [
+        {
+          "id": "enemy-1",
+          "definitionId": "ink-puddle",
+          "phase": 1,
+          "image": "/package-bridge/assets/art/ink-puddle.png"
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/package-bridge/assets/art/ink-puddle.png"
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "bossPhase": null,
+      "enemies": [
+        {
+          "id": "enemy-2",
+          "definitionId": "tile-sprite",
+          "phase": 1,
+          "image": "/package-bridge/assets/art/tile-sprite.png"
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/package-bridge/assets/art/tile-sprite.png"
+        }
+      ]
+    },
+    {
+      "layer": 3,
+      "bossPhase": null,
+      "enemies": [
+        {
+          "id": "enemy-3",
+          "definitionId": "reed-shadow",
+          "phase": 1,
+          "image": "/package-bridge/assets/art/reed-shadow.png"
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/package-bridge/assets/art/reed-shadow.png"
+        }
+      ]
+    },
+    {
+      "layer": 5,
+      "bossPhase": null,
+      "enemies": [
+        {
+          "id": "enemy-4",
+          "definitionId": "umbrella-spirit",
+          "phase": 1,
+          "image": "/package-bridge/assets/art/umbrella-spirit.png"
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/package-bridge/assets/art/umbrella-spirit.png"
+        }
+      ]
+    },
+    {
+      "layer": 7,
+      "bossPhase": null,
+      "enemies": [
+        {
+          "id": "enemy-5",
+          "definitionId": "reed-shadow",
+          "phase": 1,
+          "image": "/package-bridge/assets/art/reed-shadow.png"
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/package-bridge/assets/art/reed-shadow.png"
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "bossPhase": 1,
+      "enemies": [
+        {
+          "id": "enemy-6",
+          "definitionId": "ink-tide",
+          "phase": 1,
+          "image": "/package-bridge/assets/art/ink-tide.png"
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/package-bridge/assets/art/ink-tide.png"
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "bossPhase": 2,
+      "enemies": [
+        {
+          "id": "enemy-6",
+          "definitionId": "ink-tide",
+          "phase": 2,
+          "image": "/package-bridge/assets/art/ink-tide-phase2.png"
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/package-bridge/assets/art/ink-tide-phase2.png"
+        }
+      ]
+    }
+  ],
+  "motion": [
+    {
+      "expected": "enemyHit",
+      "expectedThreads": 16,
+      "samples": [
+        {
+          "time": 1789013989996,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990058,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990123,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990191,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "enemyHit",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990251,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "enemyHit",
+              "transform": "matrix(1, 0, 0, 1, 0.545077, 0)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990313,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "enemyHit",
+              "transform": "matrix(1, 0, 0, 1, 2.99982, 0)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990376,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "enemyHit",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990438,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "enemyHit",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990514,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "enemyHit",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990561,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990640,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990688,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990766,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990816,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990894,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013990944,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991025,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991074,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991153,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991201,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991282,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991329,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991409,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991456,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991537,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991587,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991665,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991712,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991790,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991840,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991920,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013991968,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013992046,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013992090,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013992167,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013992214,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013992294,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013992341,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013992421,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013992468,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789013992547,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected": "enemySpell",
+      "expectedThreads": 16,
+      "samples": [
+        {
+          "time": 1789014021534,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014021602,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014021668,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014021732,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014021820,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014021865,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemySpell",
+              "transform": "matrix(1.02266, 0, 0, 1.02266, 0, 0)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014021944,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemySpell",
+              "transform": "matrix(1.08338, 0, 0, 1.08338, 0, 0)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014021991,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemySpell",
+              "transform": "matrix(1.08433, 0, 0, 1.08433, 0, 0)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022071,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemySpell",
+              "transform": "matrix(1.03709, 0, 0, 1.03709, 0, 0)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022154,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022217,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022282,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022345,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022408,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022471,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022535,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022601,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022664,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022728,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022792,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022857,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022921,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014022981,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023043,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023106,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023168,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023229,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023289,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023350,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023410,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023475,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023540,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023608,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023673,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023738,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023802,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023870,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023937,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014023999,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014024064,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014024129,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "expected": "enemyFold",
+      "expectedThreads": 20,
+      "samples": [
+        {
+          "time": 1789014066607,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014066670,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014066732,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014066795,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014066860,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014066922,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014066989,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 16,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014067075,
+          "enemyExit": true,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "enemyFold",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014067137,
+          "enemyExit": true,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "enemyFold",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014067198,
+          "enemyExit": true,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "enemyFold",
+              "transform": "matrix(0.929692, 0, -0.0202845, 1.00625, 0, 0)",
+              "opacity": "0.953128"
+            }
+          ]
+        },
+        {
+          "time": 1789014067261,
+          "enemyExit": true,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "enemyFold",
+              "transform": "matrix(0.663604, 0, -0.0695177, 1.0299, 0, 0)",
+              "opacity": "0.775736"
+            }
+          ]
+        },
+        {
+          "time": 1789014067324,
+          "enemyExit": true,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "enemyFold",
+              "transform": "matrix(0.49593, 0, -0.0620075, 1.00248, 0, 1.1062)",
+              "opacity": "0.622757"
+            }
+          ]
+        },
+        {
+          "time": 1789014067392,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014067456,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014067520,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014067585,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014067649,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014067713,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014067780,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014067845,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014067908,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014067971,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068037,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068097,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068158,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068221,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068284,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068349,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068410,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068476,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068541,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068606,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068671,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068735,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068797,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068861,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068928,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014068995,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014069060,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014069123,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        },
+        {
+          "time": 1789014069188,
+          "enemyExit": false,
+          "phase": "cardReward",
+          "threads": 20,
+          "storedExit": {
+            "threads": 20,
+            "phase": "cardReward"
+          },
+          "nodes": []
+        }
+      ]
+    },
+    {
+      "expected": "enemyStrike",
+      "expectedThreads": 20,
+      "samples": [
+        {
+          "time": 1789014171211,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171276,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171340,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171404,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171472,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171528,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171590,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyStrike",
+              "transform": "matrix(1.02496, 0, 0, 1.02496, 0, 4.49217)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171652,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyStrike",
+              "transform": "matrix(1.04121, 0, 0, 1.04121, 0, 7.0664)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171713,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyStrike",
+              "transform": "matrix(1.01703, 0, 0, 1.01703, 0, 1.74554)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171776,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyStrike",
+              "transform": "matrix(1, 0, 0, 1, 0, -1.31247)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171839,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyStrike",
+              "transform": "matrix(1, 0, 0, 1, 0, -0.43396)",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171899,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014171962,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172024,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172088,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172152,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172212,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172273,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172337,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172398,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172459,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172522,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172585,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172648,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172714,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172779,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172845,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172909,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014172975,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014173039,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014173311,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014173373,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014173578,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014173640,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014173701,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "time": 1789014173762,
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 20,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "none",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "pass",
+  "artStatus": "paper-courier",
+  "result": {
+    "win": true,
+    "reason": "首领的两道迷雾都已散去，这次远行顺利送达",
+    "regionId": "bridge",
+    "regionName": "雨巷旧桥",
+    "difficultyName": "普通",
+    "nodesCleared": 9,
+    "threads": 46,
+    "tickets": 4
+  },
+  "console": ""
+}

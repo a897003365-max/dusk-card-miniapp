@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "results": [
+    {
+      "file": "tests.log",
+      "exitCode": 0
+    },
+    {
+      "file": "wxss.log",
+      "exitCode": 0
+    },
+    {
+      "file": "source-budget.json",
+      "exitCode": 0
+    },
+    {
+      "file": "pilot-budget.json",
+      "exitCode": 0
+    }
+  ]
+}

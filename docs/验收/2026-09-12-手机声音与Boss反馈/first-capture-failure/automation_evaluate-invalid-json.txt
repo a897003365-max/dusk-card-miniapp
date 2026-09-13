@@ -1,0 +1,2052 @@
+{
+  "ok": true,
+  "tool": "automation_evaluate",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "result": {
+      "result": {
+        "busySeen": true,
+        "samples": [
+          {
+            "at": 1789194620070,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 450,
+              "impactMs": 850
+            },
+            "action": {
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃"
+            },
+            "fx": [
+              {
+                "key": "endTurn-0-enemy-6-wave",
+                "className": "battle-fx fx-action fx-group paper-blade",
+                "range": "all",
+                "label": "纸刃"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 35,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 50,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 41,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 31
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 46
+                },
+                {
+                  "id": "nav",
+                  "hp": 37
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              [
+                {
+                  "left": 117.779296875,
+                  "right": 272.220703125,
+                  "top": 258.54766845703125,
+                  "bottom": 349.51483154296875,
+                  "width": 154.44140625,
+                  "height": 90.9671630859375,
+                  "opacity": "0",
+                  "transform": "matrix(0.45, 0, 0, 0.7, 0, 0)",
+                  "animation-name": "fxWave"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789194620141,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 450,
+              "impactMs": 850
+            },
+            "action": {
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃"
+            },
+            "fx": [
+              {
+                "key": "endTurn-0-enemy-6-wave",
+                "className": "battle-fx fx-action fx-group paper-blade",
+                "range": "all",
+                "label": "纸刃"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 35,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 50,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 41,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 31
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 46
+                },
+                {
+                  "id": "nav",
+                  "hp": 37
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              [
+                {
+                  "left": 83.731201171875,
+                  "right": 306.268798828125,
+                  "top": 251.51553344726562,
+                  "bottom": 356.5469970703125,
+                  "width": 222.53759765625,
+                  "height": 105.03146362304688,
+                  "opacity": "0.949785",
+                  "transform": "matrix(0.648414, 0, 0, 0.808226, 0, 0)",
+                  "animation-name": "fxWave"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789194620211,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 450,
+              "impactMs": 850
+            },
+            "action": {
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃"
+            },
+            "fx": [
+              {
+                "key": "endTurn-0-enemy-6-wave",
+                "className": "battle-fx fx-action fx-group paper-blade",
+                "range": "all",
+                "label": "纸刃"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 35,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 50,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 41,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 31
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 46
+                },
+                {
+                  "id": "nav",
+                  "hp": 37
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              [
+                {
+                  "left": 59.9063720703125,
+                  "right": 330.0936279296875,
+                  "top": 246.5948486328125,
+                  "bottom": 361.4676513671875,
+                  "width": 270.187255859375,
+                  "height": 114.872802734375,
+                  "opacity": "0.58066",
+                  "transform": "matrix(0.787252, 0, 0, 0.883956, 0, 0)",
+                  "animation-name": "fxWave"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789194620283,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 450,
+              "impactMs": 850
+            },
+            "action": {
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃"
+            },
+            "fx": [
+              {
+                "key": "endTurn-0-enemy-6-wave",
+                "className": "battle-fx fx-action fx-group paper-blade",
+                "range": "all",
+                "label": "纸刃"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 35,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 50,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 41,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 31
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 46
+                },
+                {
+                  "id": "nav",
+                  "hp": 37
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              [
+                {
+                  "left": 47.804901123046875,
+                  "right": 342.1950988769531,
+                  "top": 244.09548950195312,
+                  "bottom": 363.967041015625,
+                  "width": 294.39019775390625,
+                  "height": 119.87155151367188,
+                  "opacity": "0.391682",
+                  "transform": "matrix(0.857772, 0, 0, 0.922421, 0, 0)",
+                  "animation-name": "fxWave"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789194620356,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 450,
+              "impactMs": 850
+            },
+            "action": {
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃"
+            },
+            "fx": [
+              {
+                "key": "endTurn-0-enemy-6-wave",
+                "className": "battle-fx fx-action fx-group paper-blade",
+                "range": "all",
+                "label": "纸刃"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 35,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 50,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 41,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 31
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 46
+                },
+                {
+                  "id": "nav",
+                  "hp": 37
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              [
+                {
+                  "left": 29.62860107421875,
+                  "right": 360.37139892578125,
+                  "top": 240.3414306640625,
+                  "bottom": 367.7210693359375,
+                  "width": 330.7427978515625,
+                  "height": 127.379638671875,
+                  "opacity": "0.103097",
+                  "transform": "matrix(0.963694, 0, 0, 0.980197, 0, 0)",
+                  "animation-name": "fxWave"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789194620430,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "action",
+              "actionMs": 450,
+              "impactMs": 850
+            },
+            "action": {
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃"
+            },
+            "fx": [
+              {
+                "key": "endTurn-0-enemy-6-wave",
+                "className": "battle-fx fx-action fx-group paper-blade",
+                "range": "all",
+                "label": "纸刃"
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 35,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 50,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 41,
+                "block": 0,
+                "impactEntries": [],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 31
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 46
+                },
+                {
+                  "id": "nav",
+                  "hp": 37
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [],
+              [
+                {
+                  "left": 24.147232055664062,
+                  "right": 365.85279846191406,
+                  "top": 239.2093505859375,
+                  "bottom": 368.8531494140625,
+                  "width": 341.70556640625,
+                  "height": 129.643798828125,
+                  "opacity": "0.0127768",
+                  "transform": "matrix(0.995636, 0, 0, 0.99762, 0, 0)",
+                  "animation-name": "fxWave"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789194620561,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 450,
+              "impactMs": 850
+            },
+            "action": {
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃"
+            },
+            "fx": [
+              {
+                "key": "endTurn-0-enemy-6-impact-wave",
+                "className": "battle-fx fx-impact fx-group-impact paper-burst",
+                "range": "all",
+                "label": "纸风"
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-sheep-0",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "sheep",
+                "targetPercent": 16.666666666666664,
+                "targetSide": "party",
+                "style": "left:70.9609375px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-orangecat-1",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "orangecat",
+                "targetPercent": 50,
+                "targetSide": "party",
+                "style": "left:194.9921875px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-nav-2",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "nav",
+                "targetPercent": 83.33333333333334,
+                "targetSide": "party",
+                "style": "left:319.0234375px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 31,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 46,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 37,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 31
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 46
+                },
+                {
+                  "id": "nav",
+                  "hp": 37
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 55.34492492675781,
+                  "right": 86.5777359008789,
+                  "top": 319.29217529296875,
+                  "bottom": 342.69219970703125,
+                  "width": 31.232810974121094,
+                  "height": 23.4000244140625,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 179.3761749267578,
+                  "right": 210.60897827148438,
+                  "top": 319.29217529296875,
+                  "bottom": 342.69219970703125,
+                  "width": 31.232803344726562,
+                  "height": 23.4000244140625,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 303.40740966796875,
+                  "right": 334.6402282714844,
+                  "top": 319.29217529296875,
+                  "bottom": 342.69219970703125,
+                  "width": 31.232818603515625,
+                  "height": 23.4000244140625,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 77.6078109741211,
+                  "right": 312.39217376708984,
+                  "top": 317.71875,
+                  "bottom": 392.953125,
+                  "width": 234.78436279296875,
+                  "height": 75.234375,
+                  "opacity": "0",
+                  "transform": "matrix(0.7, 0, 0, 1, 0, 0)",
+                  "animation-name": "fxWaveImpact"
+                },
+                {
+                  "left": 61.860939025878906,
+                  "right": 80.0609359741211,
+                  "top": 327.8921813964844,
+                  "bottom": 346.0921630859375,
+                  "width": 18.199996948242188,
+                  "height": 18.199981689453125,
+                  "opacity": "0",
+                  "transform": "matrix(0.35, 0, 0, 0.35, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 185.89218139648438,
+                  "right": 204.09217834472656,
+                  "top": 327.8921813964844,
+                  "bottom": 346.0921630859375,
+                  "width": 18.199996948242188,
+                  "height": 18.199981689453125,
+                  "opacity": "0",
+                  "transform": "matrix(0.35, 0, 0, 0.35, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 309.9234313964844,
+                  "right": 328.1234436035156,
+                  "top": 327.8921813964844,
+                  "bottom": 346.0921630859375,
+                  "width": 18.20001220703125,
+                  "height": 18.199981689453125,
+                  "opacity": "0",
+                  "transform": "matrix(0.35, 0, 0, 0.35, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789194620634,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 450,
+              "impactMs": 850
+            },
+            "action": {
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃"
+            },
+            "fx": [
+              {
+                "key": "endTurn-0-enemy-6-impact-wave",
+                "className": "battle-fx fx-impact fx-group-impact paper-burst",
+                "range": "all",
+                "label": "纸风"
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-sheep-0",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "sheep",
+                "targetPercent": 16.666666666666664,
+                "targetSide": "party",
+                "style": "left:70.9609375px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-orangecat-1",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "orangecat",
+                "targetPercent": 50,
+                "targetSide": "party",
+                "style": "left:194.9921875px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-nav-2",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "nav",
+                "targetPercent": 83.33333333333334,
+                "targetSide": "party",
+                "style": "left:319.0234375px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 31,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 46,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 37,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 31
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 46
+                },
+                {
+                  "id": "nav",
+                  "hp": 37
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 53.6075553894043,
+                  "right": 88.31431579589844,
+                  "top": 309.93316650390625,
+                  "bottom": 335.9359130859375,
+                  "width": 34.70676040649414,
+                  "height": 26.00274658203125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 177.63880920410156,
+                  "right": 212.34556579589844,
+                  "top": 309.93316650390625,
+                  "bottom": 335.9359130859375,
+                  "width": 34.706756591796875,
+                  "height": 26.00274658203125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 301.6700439453125,
+                  "right": 336.3768310546875,
+                  "top": 309.93316650390625,
+                  "bottom": 335.9359130859375,
+                  "width": 34.706787109375,
+                  "height": 26.00274658203125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 67.59876251220703,
+                  "right": 322.40125274658203,
+                  "top": 317.71875,
+                  "bottom": 392.953125,
+                  "width": 254.802490234375,
+                  "height": 75.234375,
+                  "opacity": "0.773663",
+                  "transform": "matrix(0.759683, 0, 0, 1, 0, 0)",
+                  "animation-name": "fxWaveImpact"
+                },
+                {
+                  "left": 58.346656799316406,
+                  "right": 83.57522583007812,
+                  "top": 324.3778991699219,
+                  "bottom": 349.6064758300781,
+                  "width": 25.22856903076172,
+                  "height": 25.22857666015625,
+                  "opacity": "0.735582",
+                  "transform": "matrix(0.485165, 0, 0, 0.485165, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 182.37789916992188,
+                  "right": 207.60646057128906,
+                  "top": 324.3778991699219,
+                  "bottom": 349.6064758300781,
+                  "width": 25.228561401367188,
+                  "height": 25.22857666015625,
+                  "opacity": "0.735582",
+                  "transform": "matrix(0.485165, 0, 0, 0.485165, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 306.4091491699219,
+                  "right": 331.6377258300781,
+                  "top": 324.3778991699219,
+                  "bottom": 349.6064758300781,
+                  "width": 25.22857666015625,
+                  "height": 25.22857666015625,
+                  "opacity": "0.735582",
+                  "transform": "matrix(0.485165, 0, 0, 0.485165, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789194620705,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 450,
+              "impactMs": 850
+            },
+            "action": {
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃"
+            },
+            "fx": [
+              {
+                "key": "endTurn-0-enemy-6-impact-wave",
+                "className": "battle-fx fx-impact fx-group-impact paper-burst",
+                "range": "all",
+                "label": "纸风"
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-sheep-0",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "sheep",
+                "targetPercent": 16.666666666666664,
+                "targetSide": "party",
+                "style": "left:70.9609375px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-orangecat-1",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "orangecat",
+                "targetPercent": 50,
+                "targetSide": "party",
+                "style": "left:194.9921875px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-nav-2",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "nav",
+                "targetPercent": 83.33333333333334,
+                "targetSide": "party",
+                "style": "left:319.0234375px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 31,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 46,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 37,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 31
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 46
+                },
+                {
+                  "id": "nav",
+                  "hp": 37
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 53.55381774902344,
+                  "right": 88.36803436279297,
+                  "top": 308.1899719238281,
+                  "bottom": 334.273193359375,
+                  "width": 34.81421661376953,
+                  "height": 26.083221435546875,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 177.58506774902344,
+                  "right": 212.3992919921875,
+                  "top": 308.1899719238281,
+                  "bottom": 334.273193359375,
+                  "width": 34.81422424316406,
+                  "height": 26.083221435546875,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 301.6163330078125,
+                  "right": 336.4305419921875,
+                  "top": 308.1899719238281,
+                  "bottom": 334.273193359375,
+                  "width": 34.814208984375,
+                  "height": 26.083221435546875,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 61.17991638183594,
+                  "right": 328.82005310058594,
+                  "top": 317.71875,
+                  "bottom": 392.953125,
+                  "width": 267.64013671875,
+                  "height": 75.234375,
+                  "opacity": "0.853943",
+                  "transform": "matrix(0.797958, 0, 0, 1, 0, 0)",
+                  "animation-name": "fxWaveImpact"
+                },
+                {
+                  "left": 56.09292984008789,
+                  "right": 85.82894897460938,
+                  "top": 322.1241760253906,
+                  "bottom": 351.8601989746094,
+                  "width": 29.736019134521484,
+                  "height": 29.73602294921875,
+                  "opacity": "0.991216",
+                  "transform": "matrix(0.571846, 0, 0, 0.571846, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 180.12417602539062,
+                  "right": 209.86019897460938,
+                  "top": 322.1241760253906,
+                  "bottom": 351.8601989746094,
+                  "width": 29.73602294921875,
+                  "height": 29.73602294921875,
+                  "opacity": "0.991216",
+                  "transform": "matrix(0.571846, 0, 0, 0.571846, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 304.1554260253906,
+                  "right": 333.8914489746094,
+                  "top": 322.1241760253906,
+                  "bottom": 351.8601989746094,
+                  "width": 29.73602294921875,
+                  "height": 29.73602294921875,
+                  "opacity": "0.991216",
+                  "transform": "matrix(0.571846, 0, 0, 0.571846, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789194620776,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 450,
+              "impactMs": 850
+            },
+            "action": {
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃"
+            },
+            "fx": [
+              {
+                "key": "endTurn-0-enemy-6-impact-wave",
+                "className": "battle-fx fx-impact fx-group-impact paper-burst",
+                "range": "all",
+                "label": "纸风"
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-sheep-0",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "sheep",
+                "targetPercent": 16.666666666666664,
+                "targetSide": "party",
+                "style": "left:70.9609375px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-orangecat-1",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "orangecat",
+                "targetPercent": 50,
+                "targetSide": "party",
+                "style": "left:194.9921875px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-nav-2",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "nav",
+                "targetPercent": 83.33333333333334,
+                "targetSide": "party",
+                "style": "left:319.0234375px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 31,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 46,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 37,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 31
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 46
+                },
+                {
+                  "id": "nav",
+                  "hp": 37
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 53.483028411865234,
+                  "right": 88.43878173828125,
+                  "top": 305.8936462402344,
+                  "bottom": 332.0829162597656,
+                  "width": 34.955753326416016,
+                  "height": 26.18927001953125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 177.5142822265625,
+                  "right": 212.47003173828125,
+                  "top": 305.8936462402344,
+                  "bottom": 332.0829162597656,
+                  "width": 34.95574951171875,
+                  "height": 26.18927001953125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 301.5455322265625,
+                  "right": 336.50128173828125,
+                  "top": 305.8936462402344,
+                  "bottom": 332.0829162597656,
+                  "width": 34.95574951171875,
+                  "height": 26.18927001953125,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 52.516082763671875,
+                  "right": 337.4839172363281,
+                  "top": 317.71875,
+                  "bottom": 392.953125,
+                  "width": 284.96783447265625,
+                  "height": 75.234375,
+                  "opacity": "0.671797",
+                  "transform": "matrix(0.84962, 0, 0, 1, 0, 0)",
+                  "animation-name": "fxWaveImpact"
+                },
+                {
+                  "left": 53.05096435546875,
+                  "right": 88.87091064453125,
+                  "top": 319.08221435546875,
+                  "bottom": 354.90216064453125,
+                  "width": 35.8199462890625,
+                  "height": 35.8199462890625,
+                  "opacity": "0.808769",
+                  "transform": "matrix(0.688845, 0, 0, 0.688845, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 177.08221435546875,
+                  "right": 212.90216064453125,
+                  "top": 319.08221435546875,
+                  "bottom": 354.90216064453125,
+                  "width": 35.8199462890625,
+                  "height": 35.8199462890625,
+                  "opacity": "0.808769",
+                  "transform": "matrix(0.688845, 0, 0, 0.688845, -26, -26)",
+                  "animation-name": "fxBurst"
+                },
+                {
+                  "left": 301.11346435546875,
+                  "right": 336.93341064453125,
+                  "top": 319.08221435546875,
+                  "bottom": 354.90216064453125,
+                  "width": 35.8199462890625,
+                  "height": 35.8199462890625,
+                  "opacity": "0.808769",
+                  "transform": "matrix(0.688845, 0, 0, 0.688845, -26, -26)",
+                  "animation-name": "fxBurst"
+                }
+              ]
+            ]
+          },
+          {
+            "at": 1789194620849,
+            "frame": {
+              "id": "endTurn-0-enemy-6",
+              "index": 0,
+              "phase": "impact",
+              "actionMs": 450,
+              "impactMs": 850
+            },
+            "action": {
+              "actor": "吞信纸狮",
+              "skill": "纸鬃散落",
+              "scope": "全体 · 全队",
+              "theme": "纸刃"
+            },
+            "fx": [
+              {
+                "key": "endTurn-0-enemy-6-impact-wave",
+                "className": "battle-fx fx-impact fx-group-impact paper-burst",
+                "range": "all",
+                "label": "纸风"
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-sheep-0",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "sheep",
+                "targetPercent": 16.666666666666664,
+                "targetSide": "party",
+                "style": "left:70.9609375px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-orangecat-1",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "orangecat",
+                "targetPercent": 50,
+                "targetSide": "party",
+                "style": "left:194.9921875px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              },
+              {
+                "key": "endTurn-0-enemy-6-impact-nav-2",
+                "className": "battle-fx fx-impact fx-target paper-burst",
+                "range": "single",
+                "targetId": "nav",
+                "targetPercent": 83.33333333333334,
+                "targetSide": "party",
+                "style": "left:319.0234375px;top:244.9921875px;",
+                "feedback": {
+                  "lines": [
+                    {
+                      "tone": "hurt",
+                      "text": "−4",
+                      "kind": "damage"
+                    }
+                  ],
+                  "impact": "−4",
+                  "impactTone": "hurt",
+                  "damage": 4,
+                  "heal": 0,
+                  "blocked": 0,
+                  "shield": 0,
+                  "hit": true,
+                  "guarded": false
+                }
+              }
+            ],
+            "party": [
+              {
+                "id": "sheep",
+                "hp": 31,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "orangecat",
+                "hp": 46,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              },
+              {
+                "id": "nav",
+                "hp": 37,
+                "block": 0,
+                "impactEntries": [
+                  {
+                    "tone": "hurt",
+                    "text": "−4",
+                    "kind": "damage"
+                  }
+                ],
+                "activeTarget": true
+              }
+            ],
+            "stored": {
+              "turn": 4,
+              "party": [
+                {
+                  "id": "sheep",
+                  "hp": 31
+                },
+                {
+                  "id": "orangecat",
+                  "hp": 46
+                },
+                {
+                  "id": "nav",
+                  "hp": 37
+                }
+              ]
+            },
+            "nodes": [
+              [
+                {
+                  "dataset": {
+                    "id": "sheep"
+                  },
+                  "left": 17.8984375,
+                  "right": 124.03125,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "orangecat"
+                  },
+                  "left": 141.9296875,
+                  "right": 248.0625,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                },
+                {
+                  "dataset": {
+                    "id": "nav"
+                  },
+                  "left": 265.9609375,
+                  "right": 372.09375,
+                  "top": 288.9921875,
+                  "bottom": 425.5859375,
+                  "width": 106.1328125,
+                  "height": 136.59375
+                }
+              ],
+              [
+                {
+                  "left": 53.44469451904297,
+                  "right": 88.47709655761719,
+                  "top": 304.650146484375,
+                  "bottom": 330.8968505859375,
+                  "width": 35.03240203857422,
+                  "height": 26.2467041015625,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 177.4759521484375,
+                  "right": 212.5083465576172,
+                  "top": 304.650146484375,
+                  "bottom": 330.8968505859375,
+                  "width": 35.03239440917969,
+                  "height": 26.2467041015625,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                },
+                {
+                  "left": 301.5072021484375,
+                  "right": 336.53961181640625,
+                  "top": 304.650146484375,
+                  "bottom": 330.8968505859375,
+                  "width": 35.03240966796875,
+                  "height": 26.2467041015625,
+                  "font-size": "25px",
+                  "color": "rgb(179, 63, 54)",
+                  "opacity": "1"
+                }
+              ],
+              [
+                {
+                  "left": 47.754547119140625,
+                  "right": 342.2454528808594,
+                  "top": 317.71875,
+                  "bottom": 392.953125,
+                  "width": 294.49090576171875,
+                  "height": 75.234375,
+                  "opacity": "0.572518",
+                  "transform": "matrix(0.878013, 0, 0, 1, 0, 0

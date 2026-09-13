@@ -1,0 +1,22 @@
+# Sushi action sprite sheet prompt
+
+Generation mode: built-in imagegen, Luna max orchestration.
+Reference images (identity anchors only):
+- docs/visual-rework/production/rgba/sushi-idle.png
+- docs/visual-rework/production/rgba/sushi-cast.png
+
+## Primary generation prompt
+
+Use case: stylized-concept
+Asset type: production game character action sprite sheet for sushi
+Generation orchestration: Luna max.
+Input images: Image 1 and Image 2 are the sushi idle and sushi cast identity references.
+Primary request: Create one wide 2:1 landscape 4-column by 2-row action sprite sheet for the exact same non-human paper-folded sushi courier from the references. Preserve its actual anatomy and identity: rounded cream origami seal/otter-like face with whisker marks and amber eyes, compact water-creature body, existing fins/flippers and folded tail, blue-gray and cream robe panels with orange geometric accents, the rectangular bento/sushi carrier strapped across the back, blue cords, red knot and tassels, and all existing appendages. Do not force human arms or legs, do not add fins, and do not add extra characters. Create eight genuinely different action poses in this exact order: row 1 enter, attack, guard, hurt; row 2 exit, control, buff, debuff.
+Canvas and chroma-key layout: exactly four equal columns and two equal rows. Every pixel outside the creature and effects must be flat solid pure chroma-key magenta RGB #FF00FF (255,0,255): no alpha, checkerboard, gradient, texture, floor, shadow plate, labels, or grid lines. Keep the complete creature, fins, tail, bento carrier, cords, tassels, paper shards, and all effects inside the central 70% width and 70% height of its own cell, with about 20% clean magenta margin on every side. No fin, tail, carrier, cord, shard, glow, ribbon, or effect may touch or cross a cell boundary. Keep matching scale, baseline, angle, and clear silhouette.
+Action poses: enter = gliding forward with fins spread and bento carrier secure, alert face; attack = compact rightward fin or body thrust with one small contained diagonal blue/orange paper-wave or seaweed arc; guard = fins fold around the bento carrier and front of the body like a shield; hurt = body curls and recoils with one fin drooping, face visible, a few contained paper flecks, no blood; exit = low folded curl or sinking pose with carrier and face recognizable; control = indigo paper threads and restraint talismans loop around fins, tail, and carrier, face unobstructed; buff = body unfurls with warm gold and teal-green wave feathers, positive energy; debuff = drooping fins and lowered face with cool gray ink tide marks and small negative sigils, clearly different from control.
+Style/medium: soft 2.5D origami paper illustration, layered paper facets, visible paper fiber, restrained brass and red cord details, soft upper-left light, refined game asset, not plush, plastic, or photorealistic.
+Constraints: no readable text, labels, logos, or watermark, no extra characters, no added or missing appendages, no broken carrier or cords, no giant effects, no cross-cell bleed, no blood or gore. Output one flat-magenta-background RGB PNG sprite sheet with exactly eight distinct poses in the specified order.
+
+## Artifact note
+
+The saved master is `masters/sushi-sheet.png`, 1774x887 RGB PNG with no alpha. The seal-like anatomy, fins, folded tail, bento carrier, cords, and tassels remain identifiable; the attack wave is small and diagonal, and control/buff/debuff effects are distinct. The imagegen magenta background may contain slight per-pixel variation, so root should use the agreed local chroma-key pipeline without cropping appendages/effects.

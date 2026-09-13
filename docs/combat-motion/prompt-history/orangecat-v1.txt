@@ -1,0 +1,16 @@
+Use case: stylized-concept
+Asset type: production sprite master sheet for a native mobile game
+Primary request: Generate a high-resolution PNG sprite sheet with exactly eight clearly different action poses of the same orange paper-beast cat Doubao, arranged as a precise 4-column by 2-row grid in this exact order: top row enter, attack, guard, hurt; bottom row exit, control, buff, debuff. Use the supplied identity reference images to preserve the same face, four-legged anatomy, long tail, orange-and-cream folded paper planes, charcoal crease markings, red braided cord, blue neck pennant, brass rings, and small gold anchor tool strapped to the front paw.
+Transparency requirement: the final PNG MUST have a real transparent alpha channel. Do not paint, render, or simulate any background. Do not draw checkerboard squares, white background, gray background, grid lines, frames, floor, shadow, or panel. Any checkerboard seen in a viewer must come from the viewer's transparency preview, never from the image pixels. Transparent pixels must exist between all cells and around each cell; this will be checked with an image tool for hasAlpha and corner alpha values.
+Composition: equal-size cells, consistent scale and baseline, 10% transparent padding per cell, every pose fully inside its own cell with no crop and no cross-cell overlap. Orthographic three-quarter game sprite view, face visible in all cells.
+Pose order and readability: 
+1 enter: four paws, stepping forward while unfurling a paper letter, alert ready stance.
+2 attack: four paws, obvious rightward lunge or swipe with the anchor tool and a small restrained paper-spark arc pointing right.
+3 guard: four paws, crouched, anchor tool and folded paper shield held in front of chest.
+4 hurt: four paws, recoiling and leaning back, paws tucked slightly, a few loose paper flecks, no blood.
+5 exit: four paws, low inward-folding crouch, a few small paper pieces drifting away, face and body readable.
+6 control: four paws, tense low stance, indigo paper ribbons and restraint slips wrapping paws and tool, face unobscured.
+7 buff: four paws, lifted confident stance, warm gold and teal paper feathers or ribbons rising around body, clearly positive.
+8 debuff: four paws, slumped low stance, cool gray ink-like markings and sparse negative paper sigils, distinct from control, no blood.
+Style: soft 2.5D editorial game illustration, crisp faceted origami paper, visible subtle paper fibers, restrained copper/brass and red cord, light from upper left, polished but not plastic or plush.
+Hard constraints: non-human four-legged paper cat only; exactly four paws and one tail in every cell; never stand upright; never add arms, hands, wings, extra limbs, extra tails, extra characters, altered clothing structure, text, labels, UI, letters as text, logo, watermark, blood or gore; no checkerboard pattern; no cropping; no broken tool; no cross-cell effects.

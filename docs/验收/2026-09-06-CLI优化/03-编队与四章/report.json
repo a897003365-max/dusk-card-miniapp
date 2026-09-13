@@ -1,0 +1,1204 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-WDSLkA",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC",
+  "checks": [
+    {
+      "name": "收藏册真实显示22位角色",
+      "pass": true
+    },
+    {
+      "name": "已相遇筛选只显示拥有的伙伴",
+      "pass": true
+    },
+    {
+      "name": "详情形态切换实际生效",
+      "pass": true
+    },
+    {
+      "name": "旅伴详情 内容有实际高度，关闭与页脚在屏内",
+      "pass": true
+    },
+    {
+      "name": "邀请后下一步替换人选立即可见",
+      "pass": true
+    },
+    {
+      "name": "真实邀请新旅伴替换队员，队伍仍为三人",
+      "pass": true
+    },
+    {
+      "name": "主线4章真实渲染且只有第一章解锁",
+      "pass": true
+    },
+    {
+      "name": "失去地址的信 可启程",
+      "pass": true
+    },
+    {
+      "name": "失去地址的信 两个选择首屏都完整可见",
+      "pass": true
+    },
+    {
+      "name": "失去地址的信 第1幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "页面重开保留尚未翻页的选择",
+      "pass": true
+    },
+    {
+      "name": "失去地址的信 第2幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "失去地址的信 第3幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "失去地址的信 首次结算仅奖励3邮票",
+      "pass": true
+    },
+    {
+      "name": "失去地址的信 回信实际显示",
+      "pass": true
+    },
+    {
+      "name": "失去地址的信回信 内容有实际高度，关闭与页脚在屏内",
+      "pass": true
+    },
+    {
+      "name": "失去地址的信 收好回信不重复发奖励",
+      "pass": true
+    },
+    {
+      "name": "有人等过的站台 可启程",
+      "pass": true
+    },
+    {
+      "name": "有人等过的站台 两个选择首屏都完整可见",
+      "pass": true
+    },
+    {
+      "name": "有人等过的站台 第1幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "有人等过的站台 第2幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "有人等过的站台 第3幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "有人等过的站台 首次结算仅奖励3邮票",
+      "pass": true
+    },
+    {
+      "name": "有人等过的站台 回信实际显示",
+      "pass": true
+    },
+    {
+      "name": "有人等过的站台回信 内容有实际高度，关闭与页脚在屏内",
+      "pass": true
+    },
+    {
+      "name": "有人等过的站台 收好回信不重复发奖励",
+      "pass": true
+    },
+    {
+      "name": "雾里的星形石阶 可启程",
+      "pass": true
+    },
+    {
+      "name": "雾里的星形石阶 两个选择首屏都完整可见",
+      "pass": true
+    },
+    {
+      "name": "雾里的星形石阶 第1幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "雾里的星形石阶 第2幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "雾里的星形石阶 第3幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "雾里的星形石阶 首次结算仅奖励3邮票",
+      "pass": true
+    },
+    {
+      "name": "雾里的星形石阶 回信实际显示",
+      "pass": true
+    },
+    {
+      "name": "雾里的星形石阶回信 内容有实际高度，关闭与页脚在屏内",
+      "pass": true
+    },
+    {
+      "name": "雾里的星形石阶 收好回信不重复发奖励",
+      "pass": true
+    },
+    {
+      "name": "灯也收到了一封信 可启程",
+      "pass": true
+    },
+    {
+      "name": "灯也收到了一封信 两个选择首屏都完整可见",
+      "pass": true
+    },
+    {
+      "name": "灯也收到了一封信 第1幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "灯也收到了一封信 第2幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "灯也收到了一封信 第3幕选择与实际能力一致",
+      "pass": true
+    },
+    {
+      "name": "灯也收到了一封信 首次结算仅奖励3邮票",
+      "pass": true
+    },
+    {
+      "name": "灯也收到了一封信 回信实际显示",
+      "pass": true
+    },
+    {
+      "name": "灯也收到了一封信回信 内容有实际高度，关闭与页脚在屏内",
+      "pass": true
+    },
+    {
+      "name": "灯也收到了一封信 收好回信不重复发奖励",
+      "pass": true
+    },
+    {
+      "name": "历史回信可只读重看",
+      "pass": true
+    },
+    {
+      "name": "看历史回信不改变邮票或通关",
+      "pass": true
+    },
+    {
+      "name": "回到信匣同步剧情邮票",
+      "pass": true
+    },
+    {
+      "name": "控制台没有应用异常",
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "06-collection",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/06-collection.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "07-partner-detail",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/07-partner-detail.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "07-recruit",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/07-recruit.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "08-story-map",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/08-story-map.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "09-story-scene",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/09-story-scene.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "10-choice-outcome",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/10-choice-outcome.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "11-ending-1",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/11-ending-1.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "11-ending-2",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/11-ending-2.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "11-ending-3",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/11-ending-3.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "11-ending-4",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/11-ending-4.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "12-complete",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/12-complete.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "13-archive",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-5bhDWC/13-archive.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "status": "pass",
+  "mode": "collection-and-story",
+  "interactions": [
+    {
+      "selector": ".filter[data-filter=\"owned\"]",
+      "rect": {
+        "dataset": {
+          "filter": "owned"
+        },
+        "left": 304,
+        "right": 372,
+        "top": 386.328125,
+        "bottom": 430.328125,
+        "width": 68,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".family-card[data-id=\"sheep\"]",
+      "rect": {
+        "dataset": {
+          "id": "sheep"
+        },
+        "left": 18,
+        "right": 129.9921875,
+        "top": 440.328125,
+        "bottom": 627.5078125,
+        "width": 111.9921875,
+        "height": 187.1796875
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".variant[data-tier=\"UR\"]",
+      "rect": {
+        "dataset": {
+          "tier": "UR"
+        },
+        "left": 280.5,
+        "right": 357,
+        "top": 277.7734375,
+        "bottom": 325.7734375,
+        "width": 76.5,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".family-card[data-id=\"ramen\"]",
+      "rect": {
+        "dataset": {
+          "id": "ramen"
+        },
+        "left": 138.9921875,
+        "right": 250.984375,
+        "top": 440.328125,
+        "bottom": 627.5078125,
+        "width": 111.9921875,
+        "height": 187.1796875
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".invite-partner",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 558.71875,
+        "bottom": 602.3125,
+        "width": 324,
+        "height": 43.59375
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".replace-member[data-id=\"sheep\"]",
+      "rect": {
+        "dataset": {
+          "id": "sheep"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 253.3671875,
+        "bottom": 305.3671875,
+        "width": 184,
+        "height": 52
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".chapter-start[data-id=\"letter\"]",
+      "rect": {
+        "dataset": {
+          "id": "letter"
+        },
+        "left": 119.5,
+        "right": 303.5,
+        "top": 342.9140625,
+        "bottom": 386.9140625,
+        "width": 184,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 514,
+        "bottom": 576,
+        "width": 184,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"b\"]",
+      "rect": {
+        "dataset": {
+          "id": "b"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 581,
+        "bottom": 643,
+        "width": 184,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 514,
+        "bottom": 576,
+        "width": 184,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 36,
+        "right": 354,
+        "top": 555.71875,
+        "bottom": 599.3125,
+        "width": 318,
+        "height": 43.59375
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".chapter-start[data-id=\"station\"]",
+      "rect": {
+        "dataset": {
+          "id": "station"
+        },
+        "left": 119.5,
+        "right": 303.5,
+        "top": 315.6953125,
+        "bottom": 359.6953125,
+        "width": 184,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"b\"]",
+      "rect": {
+        "dataset": {
+          "id": "b"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 581,
+        "bottom": 643,
+        "width": 184,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 514,
+        "bottom": 576,
+        "width": 184,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"b\"]",
+      "rect": {
+        "dataset": {
+          "id": "b"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 581,
+        "bottom": 643,
+        "width": 184,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 36,
+        "right": 354,
+        "top": 555.71875,
+        "bottom": 599.3125,
+        "width": 318,
+        "height": 43.59375
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".chapter-start[data-id=\"garden\"]",
+      "rect": {
+        "dataset": {
+          "id": "garden"
+        },
+        "left": 119.5,
+        "right": 303.5,
+        "top": 288.4765625,
+        "bottom": 332.4765625,
+        "width": 184,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 514,
+        "bottom": 576,
+        "width": 184,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"b\"]",
+      "rect": {
+        "dataset": {
+          "id": "b"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 581,
+        "bottom": 643,
+        "width": 184,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 514,
+        "bottom": 576,
+        "width": 184,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 36,
+        "right": 354,
+        "top": 555.71875,
+        "bottom": 599.3125,
+        "width": 318,
+        "height": 43.59375
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".chapter-start[data-id=\"home\"]",
+      "rect": {
+        "dataset": {
+          "id": "home"
+        },
+        "left": 119.5,
+        "right": 303.5,
+        "top": 350.2578125,
+        "bottom": 394.2578125,
+        "width": 184,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"b\"]",
+      "rect": {
+        "dataset": {
+          "id": "b"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 581,
+        "bottom": 643,
+        "width": 184,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 496.6015625,
+        "bottom": 558.6015625,
+        "width": 184,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"b\"]",
+      "rect": {
+        "dataset": {
+          "id": "b"
+        },
+        "left": 103,
+        "right": 287,
+        "top": 567.8046875,
+        "bottom": 643,
+        "width": 184,
+        "height": 75.1953125
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 595,
+        "bottom": 643,
+        "width": 184,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 36,
+        "right": 354,
+        "top": 555.71875,
+        "bottom": 599.3125,
+        "width": 318,
+        "height": 43.59375
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".archive-link[data-id=\"letter\"]",
+      "rect": {
+        "dataset": {
+          "id": "letter"
+        },
+        "left": 119.5,
+        "right": 303.5,
+        "top": 390.9140625,
+        "bottom": 434.9140625,
+        "width": 184,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".archive-close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    }
+  ],
+  "dialogs": [
+    {
+      "name": "旅伴详情",
+      "rects": [
+        {
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 53.6796875,
+          "bottom": 617.3125,
+          "width": 354,
+          "height": 563.6328125
+        },
+        {
+          "dataset": {},
+          "left": 33,
+          "right": 357,
+          "top": 112.7734375,
+          "bottom": 546.71875,
+          "width": 324,
+          "height": 433.9453125
+        },
+        {
+          "dataset": {},
+          "left": 313,
+          "right": 357,
+          "top": 68.7265625,
+          "bottom": 112.7265625,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "dataset": {},
+          "left": 33,
+          "right": 357,
+          "top": 558.71875,
+          "bottom": 602.3125,
+          "width": 324,
+          "height": 43.59375
+        }
+      ],
+      "info": {
+        "pixelRatio": 3,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "screenTop": 173,
+        "windowWidth": 390,
+        "windowHeight": 671,
+        "statusBarHeight": 47
+      },
+      "scrollTop": 0
+    },
+    {
+      "name": "失去地址的信回信",
+      "rects": [
+        {
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 53.6796875,
+          "bottom": 617.3125,
+          "width": 354,
+          "height": 563.6328125
+        },
+        {
+          "dataset": {},
+          "left": 36,
+          "right": 354,
+          "top": 115.6796875,
+          "bottom": 543.71875,
+          "width": 318,
+          "height": 428.0390625
+        },
+        {
+          "dataset": {},
+          "left": 310,
+          "right": 354,
+          "top": 71.6796875,
+          "bottom": 115.6796875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "dataset": {},
+          "left": 36,
+          "right": 354,
+          "top": 555.71875,
+          "bottom": 599.3125,
+          "width": 318,
+          "height": 43.59375
+        }
+      ],
+      "info": {
+        "pixelRatio": 3,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "screenTop": 173,
+        "windowWidth": 390,
+        "windowHeight": 671,
+        "statusBarHeight": 47
+      },
+      "scrollTop": 0
+    },
+    {
+      "name": "有人等过的站台回信",
+      "rects": [
+        {
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 53.6796875,
+          "bottom": 617.3125,
+          "width": 354,
+          "height": 563.6328125
+        },
+        {
+          "dataset": {},
+          "left": 36,
+          "right": 354,
+          "top": 115.6796875,
+          "bottom": 543.71875,
+          "width": 318,
+          "height": 428.0390625
+        },
+        {
+          "dataset": {},
+          "left": 310,
+          "right": 354,
+          "top": 71.6796875,
+          "bottom": 115.6796875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "dataset": {},
+          "left": 36,
+          "right": 354,
+          "top": 555.71875,
+          "bottom": 599.3125,
+          "width": 318,
+          "height": 43.59375
+        }
+      ],
+      "info": {
+        "pixelRatio": 3,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "screenTop": 173,
+        "windowWidth": 390,
+        "windowHeight": 671,
+        "statusBarHeight": 47
+      },
+      "scrollTop": 0
+    },
+    {
+      "name": "雾里的星形石阶回信",
+      "rects": [
+        {
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 53.6796875,
+          "bottom": 617.3125,
+          "width": 354,
+          "height": 563.6328125
+        },
+        {
+          "dataset": {},
+          "left": 36,
+          "right": 354,
+          "top": 115.6796875,
+          "bottom": 543.71875,
+          "width": 318,
+          "height": 428.0390625
+        },
+        {
+          "dataset": {},
+          "left": 310,
+          "right": 354,
+          "top": 71.6796875,
+          "bottom": 115.6796875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "dataset": {},
+          "left": 36,
+          "right": 354,
+          "top": 555.71875,
+          "bottom": 599.3125,
+          "width": 318,
+          "height": 43.59375
+        }
+      ],
+      "info": {
+        "pixelRatio": 3,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "screenTop": 173,
+        "windowWidth": 390,
+        "windowHeight": 671,
+        "statusBarHeight": 47
+      },
+      "scrollTop": 0
+    },
+    {
+      "name": "灯也收到了一封信回信",
+      "rects": [
+        {
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 53.6796875,
+          "bottom": 617.3125,
+          "width": 354,
+          "height": 563.6328125
+        },
+        {
+          "dataset": {},
+          "left": 36,
+          "right": 354,
+          "top": 115.6796875,
+          "bottom": 543.71875,
+          "width": 318,
+          "height": 428.0390625
+        },
+        {
+          "dataset": {},
+          "left": 310,
+          "right": 354,
+          "top": 71.6796875,
+          "bottom": 115.6796875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "dataset": {},
+          "left": 36,
+          "right": 354,
+          "top": 555.71875,
+          "bottom": 599.3125,
+          "width": 318,
+          "height": 43.59375
+        }
+      ],
+      "info": {
+        "pixelRatio": 3,
+        "safeArea": {
+          "top": 47,
+          "left": 0,
+          "right": 390,
+          "bottom": 810,
+          "width": 390,
+          "height": 763
+        },
+        "screenWidth": 390,
+        "screenHeight": 844,
+        "screenTop": 173,
+        "windowWidth": 390,
+        "windowHeight": 671,
+        "statusBarHeight": 47
+      },
+      "scrollTop": 0
+    }
+  ],
+  "console": ""
+}

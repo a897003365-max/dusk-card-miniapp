@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "tool": "simulator_screenshot",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-source-y0YZRv/startup-failed.jpg",
+    "imageWidth": 593,
+    "imageHeight": 1280
+  }
+}

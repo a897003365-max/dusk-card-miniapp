@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX",
+  "actors": [
+    {
+      "id": "tea",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/tea-sheet.png",
+      "sourceHash": "d2aaab805152befff342152e8e5a4bba0dc83b135a2a92d3a7078d2b99aeb748",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          9949,
+          1644
+        ],
+        "removedPixels": 11593
+      },
+      "foregroundPixels": 631066,
+      "assignedPixels": 631066
+    }
+  ],
+  "frames": [
+    {
+      "id": "tea",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/enter.png",
+      "contentBounds": {
+        "x": 52,
+        "y": 68,
+        "width": 323,
+        "height": 343
+      },
+      "bytes": 24313
+    },
+    {
+      "id": "tea",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/attack.png",
+      "contentBounds": {
+        "x": 447,
+        "y": 86,
+        "width": 439,
+        "height": 311
+      },
+      "bytes": 19166
+    },
+    {
+      "id": "tea",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/guard.png",
+      "contentBounds": {
+        "x": 938,
+        "y": 60,
+        "width": 334,
+        "height": 340
+      },
+      "bytes": 27465
+    },
+    {
+      "id": "tea",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/hurt.png",
+      "contentBounds": {
+        "x": 1358,
+        "y": 68,
+        "width": 364,
+        "height": 327
+      },
+      "bytes": 23808
+    },
+    {
+      "id": "tea",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/exit.png",
+      "contentBounds": {
+        "x": 54,
+        "y": 520,
+        "width": 332,
+        "height": 296
+      },
+      "bytes": 26241
+    },
+    {
+      "id": "tea",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/control.png",
+      "contentBounds": {
+        "x": 490,
+        "y": 468,
+        "width": 326,
+        "height": 359
+      },
+      "bytes": 23411
+    },
+    {
+      "id": "tea",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/buff.png",
+      "contentBounds": {
+        "x": 908,
+        "y": 457,
+        "width": 395,
+        "height": 375
+      },
+      "bytes": 25735
+    },
+    {
+      "id": "tea",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-Hrg0xX/tea/debuff.png",
+      "contentBounds": {
+        "x": 1365,
+        "y": 480,
+        "width": 362,
+        "height": 344
+      },
+      "bytes": 24709
+    }
+  ],
+  "bytes": 194848
+}

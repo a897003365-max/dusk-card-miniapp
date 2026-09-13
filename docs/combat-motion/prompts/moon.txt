@@ -1,0 +1,22 @@
+# Moon action sprite sheet prompt
+
+Generation mode: built-in imagegen, Luna max orchestration.
+Reference images (identity anchors only):
+- docs/visual-rework/production/rgba/moon-idle.png
+- docs/visual-rework/production/rgba/moon-cast.png
+
+## Primary generation prompt
+
+Use case: stylized-concept
+Asset type: production game character action sprite sheet for moon
+Generation orchestration: Luna max.
+Input images: Image 1 and Image 2 are the moon idle and moon cast identity references.
+Primary request: Create one wide 2:1 landscape 4-column by 2-row action sprite sheet for the same paper-folded rabbit astronomer from the references. Preserve identity and anatomy exactly: cream origami rabbit face, long upright ears with star insets, amber eyes, four limbs, white and deep blue robe with gold star and crescent-moon motifs, open star-chart book, blue-and-gold telescope with crescent charm, compass pendant, red cords and tassels, and the folded cream backpack/robe panels. Create eight genuinely different full-body action poses in this exact order: row 1 enter, attack, guard, hurt; row 2 exit, control, buff, debuff. Do not add ears, limbs, or extra characters.
+Canvas and chroma-key layout: exactly four equal columns and two equal rows. Every pixel outside the rabbit and effects must be flat solid pure chroma-key magenta RGB #FF00FF (255,0,255): no alpha, checkerboard, gradient, texture, floor, shadow plate, labels, or grid lines. Keep the full rabbit, ears, telescope, book, charms, tassels, and all effects inside the central 70% width and 70% height of its own cell, leaving about 20% clean magenta margin on every side. No ear, telescope, book page, charm, star shard, beam, glow, ribbon, or effect may touch or cross a cell boundary. Same scale, baseline, camera angle, and clear silhouette in every cell.
+Action poses: enter = step forward with telescope raised and star book open, ears alert; attack = clear rightward telescope cast with a small contained diagonal gold/blue star beam and a few paper stars, never a full-width beam; guard = telescope and open book crossed defensively in front of the torso, feet braced; hurt = recoil backward with one knee bent, book tilted but intact, a few contained paper flecks, face visible, no blood; exit = low folded crouch with ears and robe panels folding inward, telescope/book recognizable; control = indigo paper threads and restraint talismans around feet, ears, telescope, and book, face unobstructed; buff = upright focused pose with warm gold and teal-green star feathers and small crescent sparks, positive energy; debuff = drooping ears and lowered head with cool gray ink constellations and small negative sigils, clearly distinct from control.
+Style/medium: soft 2.5D origami paper illustration, layered paper facets, visible paper fiber, restrained brass and red cord details, upper-left light, refined game asset, not plush, plastic, or photorealistic.
+Constraints: no readable text in the book, no labels, logos, or watermark, no extra characters, no added or missing limbs/ears, no broken telescope/book/charms, no giant effects, no cross-cell bleed, no blood or gore. Output one flat-magenta-background RGB PNG sprite sheet with exactly eight distinct poses in the specified order.
+
+## Artifact note
+
+The saved master is `masters/moon-sheet.png`, 1774x887 RGB PNG with no alpha. The telescope, star book, long ears, crescent charm, and compass remain identifiable; the attack beam is short and diagonal, while control/buff/debuff effects are distinct. The imagegen magenta background may contain slight per-pixel variation, so root should use the agreed local chroma-key pipeline without cropping props/effects.

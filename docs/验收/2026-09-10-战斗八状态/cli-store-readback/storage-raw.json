@@ -1,0 +1,672 @@
+{
+  "ok": true,
+  "tool": "automation_wx_api",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "result": {
+      "version": 2,
+      "tickets": 18,
+      "drawCount": 0,
+      "pitySSR": 0,
+      "pityUR": 0,
+      "collection": {
+        "sheep": {
+          "R": 1,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "ramen": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "sunset": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "ticket": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "catcafe": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "moon": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "nav": {
+          "R": 1,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "tea": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "sushi": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "pear": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "burger": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "badminton": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "bomb": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "orangecat": {
+          "R": 1,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "doudou": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "hydrangea": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "pearlamp": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "cloudmail": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "firefly": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "soup": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "blanket": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        },
+        "seedling": {
+          "R": 0,
+          "SR": 0,
+          "SSR": 0,
+          "UR": 0
+        }
+      },
+      "team": [
+        "sheep",
+        "orangecat",
+        "nav"
+      ],
+      "cleared": [],
+      "endings": {},
+      "journey": null,
+      "lastEnding": null,
+      "adventure": {
+        "threads": 48,
+        "levels": {
+          "sheep": 3,
+          "ramen": 1,
+          "sunset": 1,
+          "ticket": 1,
+          "catcafe": 1,
+          "moon": 1,
+          "nav": 3,
+          "tea": 1,
+          "sushi": 1,
+          "pear": 1,
+          "burger": 1,
+          "badminton": 1,
+          "bomb": 1,
+          "orangecat": 3,
+          "doudou": 1,
+          "hydrangea": 1,
+          "pearlamp": 1,
+          "cloudmail": 1,
+          "firefly": 1,
+          "soup": 1,
+          "blanket": 1,
+          "seedling": 1
+        },
+        "clears": {
+          "street": [
+            1,
+            0,
+            0
+          ],
+          "bridge": [
+            1,
+            0,
+            0
+          ],
+          "market": [
+            1,
+            0,
+            0
+          ]
+        },
+        "active": {
+          "id": "market-0-3702642621",
+          "regionId": "market",
+          "difficulty": 0,
+          "seed": 3702642621,
+          "rng": 1885145131,
+          "phase": "battle",
+          "layer": 0,
+          "nodes": [
+            {
+              "index": 0,
+              "type": "battle",
+              "label": "交锋",
+              "options": [
+                {
+                  "id": "node-0-0",
+                  "name": "灯芯小灵",
+                  "description": "胜利后可选择守护方向的新牌",
+                  "role": "guard",
+                  "enemyIds": [
+                    "lantern-mote"
+                  ],
+                  "eventId": null
+                },
+                {
+                  "id": "node-0-1",
+                  "name": "铜铃小雾",
+                  "description": "胜利后可选择连携方向的新牌",
+                  "role": "combo",
+                  "enemyIds": [
+                    "bell-sprite"
+                  ],
+                  "eventId": null
+                }
+              ],
+              "visited": false,
+              "chosenId": "node-0-0"
+            },
+            {
+              "index": 1,
+              "type": "battle",
+              "label": "交锋",
+              "options": [
+                {
+                  "id": "node-1-0",
+                  "name": "铜铃小雾",
+                  "description": "胜利后可选择连携方向的新牌",
+                  "role": "combo",
+                  "enemyIds": [
+                    "bell-sprite"
+                  ],
+                  "eventId": null
+                },
+                {
+                  "id": "node-1-1",
+                  "name": "纸面小客",
+                  "description": "胜利后可选择回响方向的新牌",
+                  "role": "echo",
+                  "enemyIds": [
+                    "paper-mask"
+                  ],
+                  "eventId": null
+                }
+              ],
+              "visited": false,
+              "chosenId": null
+            },
+            {
+              "index": 2,
+              "type": "event",
+              "label": "奇遇",
+              "options": [
+                {
+                  "id": "node-2-0",
+                  "name": "灯棚后的汤摊",
+                  "description": "作出选择，决定这次收获",
+                  "role": "echo",
+                  "enemyIds": [],
+                  "eventId": "market-soup"
+                },
+                {
+                  "id": "node-2-1",
+                  "name": "剪灯花的小桌",
+                  "description": "作出选择，决定这次收获",
+                  "role": "guard",
+                  "enemyIds": [],
+                  "eventId": "market-paper"
+                }
+              ],
+              "visited": false,
+              "chosenId": null
+            },
+            {
+              "index": 3,
+              "type": "battle",
+              "label": "交锋",
+              "options": [
+                {
+                  "id": "node-3-0",
+                  "name": "绸尾风",
+                  "description": "胜利后可选择守护方向的新牌",
+                  "role": "guard",
+                  "enemyIds": [
+                    "silk-tail"
+                  ],
+                  "eventId": null
+                },
+                {
+                  "id": "node-3-1",
+                  "name": "灯芯小灵",
+                  "description": "胜利后可选择连携方向的新牌",
+                  "role": "combo",
+                  "enemyIds": [
+                    "lantern-mote"
+                  ],
+                  "eventId": null
+                }
+              ],
+              "visited": false,
+              "chosenId": null
+            },
+            {
+              "index": 4,
+              "type": "camp",
+              "label": "营地",
+              "options": [
+                {
+                  "id": "node-4-0",
+                  "name": "营地",
+                  "description": "恢复全队生命，或升级一张牌",
+                  "role": "combo",
+                  "enemyIds": [],
+                  "eventId": null
+                }
+              ],
+              "visited": false,
+              "chosenId": null
+            },
+            {
+              "index": 5,
+              "type": "elite",
+              "label": "精英",
+              "options": [
+                {
+                  "id": "node-5-0",
+                  "name": "走马灯架",
+                  "description": "战胜精英，挑选一件遗物",
+                  "role": "echo",
+                  "enemyIds": [
+                    "lantern-rack"
+                  ],
+                  "eventId": null
+                },
+                {
+                  "id": "node-5-1",
+                  "name": "雾灯引客",
+                  "description": "战胜精英，挑选一件遗物",
+                  "role": "guard",
+                  "enemyIds": [
+                    "market-usher"
+                  ],
+                  "eventId": null
+                }
+              ],
+              "visited": false,
+              "chosenId": null
+            },
+            {
+              "index": 6,
+              "type": "treasure",
+              "label": "宝箱",
+              "options": [
+                {
+                  "id": "node-6-0",
+                  "name": "宝箱",
+                  "description": "带走星线，挑选一件遗物",
+                  "role": "guard",
+                  "enemyIds": [],
+                  "eventId": null
+                },
+                {
+                  "id": "node-6-1",
+                  "name": "宝箱",
+                  "description": "带走星线，挑选一件遗物",
+                  "role": "combo",
+                  "enemyIds": [],
+                  "eventId": null
+                }
+              ],
+              "visited": false,
+              "chosenId": null
+            },
+            {
+              "index": 7,
+              "type": "battle",
+              "label": "交锋",
+              "options": [
+                {
+                  "id": "node-7-0",
+                  "name": "绸尾风",
+                  "description": "胜利后可选择连携方向的新牌",
+                  "role": "combo",
+                  "enemyIds": [
+                    "silk-tail"
+                  ],
+                  "eventId": null
+                },
+                {
+                  "id": "node-7-1",
+                  "name": "灯芯小灵",
+                  "description": "胜利后可选择回响方向的新牌",
+                  "role": "echo",
+                  "enemyIds": [
+                    "lantern-mote"
+                  ],
+                  "eventId": null
+                }
+              ],
+              "visited": false,
+              "chosenId": null
+            },
+            {
+              "index": 8,
+              "type": "boss",
+              "label": "首领",
+              "options": [
+                {
+                  "id": "node-8-0",
+                  "name": "铜铃雾守",
+                  "description": "击破两个阶段，完成本次远行",
+                  "role": "echo",
+                  "enemyIds": [
+                    "bell-warden"
+                  ],
+                  "eventId": null
+                }
+              ],
+              "visited": false,
+              "chosenId": null
+            }
+          ],
+          "party": [
+            {
+              "id": "sheep",
+              "tier": "R",
+              "level": 3,
+              "role": "guard",
+              "maxHp": 58,
+              "hp": 58,
+              "block": 3,
+              "status": {
+                "mark": 0,
+                "weak": 0,
+                "burn": 0,
+                "counter": 0,
+                "echo": 0,
+                "retainBlock": 0
+              },
+              "usedTurn": {},
+              "usedBattle": {
+                "battleStart": true
+              }
+            },
+            {
+              "id": "orangecat",
+              "tier": "R",
+              "level": 3,
+              "role": "combo",
+              "maxHp": 51,
+              "hp": 51,
+              "block": 3,
+              "status": {
+                "mark": 0,
+                "weak": 0,
+                "burn": 0,
+                "counter": 0,
+                "echo": 0,
+                "retainBlock": 0
+              },
+              "usedTurn": {},
+              "usedBattle": {}
+            },
+            {
+              "id": "nav",
+              "tier": "R",
+              "level": 3,
+              "role": "echo",
+              "maxHp": 47,
+              "hp": 47,
+              "block": 3,
+              "status": {
+                "mark": 0,
+                "weak": 0,
+                "burn": 0,
+                "counter": 0,
+                "echo": 0,
+                "retainBlock": 0
+              },
+              "usedTurn": {},
+              "usedBattle": {}
+            }
+          ],
+          "deck": [
+            {
+              "uid": "card-1",
+              "cardId": "strike",
+              "ownerId": "sheep",
+              "upgraded": false
+            },
+            {
+              "uid": "card-2",
+              "cardId": "guard",
+              "ownerId": "sheep",
+              "upgraded": false
+            },
+            {
+              "uid": "card-3",
+              "cardId": "sheep-coat",
+              "ownerId": "sheep",
+              "upgraded": false
+            },
+            {
+              "uid": "card-4",
+              "cardId": "sheep-flock",
+              "ownerId": "sheep",
+              "upgraded": false
+            },
+            {
+              "uid": "card-5",
+              "cardId": "strike",
+              "ownerId": "orangecat",
+              "upgraded": false
+            },
+            {
+              "uid": "card-6",
+              "cardId": "guard",
+              "ownerId": "orangecat",
+              "upgraded": false
+            },
+            {
+              "uid": "card-7",
+              "cardId": "orangecat-pounce",
+              "ownerId": "orangecat",
+              "upgraded": false
+            },
+            {
+              "uid": "card-8",
+              "cardId": "orangecat-sidestep",
+              "ownerId": "orangecat",
+              "upgraded": false
+            },
+            {
+              "uid": "card-9",
+              "cardId": "strike",
+              "ownerId": "nav",
+              "upgraded": false
+            },
+            {
+              "uid": "card-10",
+              "cardId": "guard",
+              "ownerId": "nav",
+              "upgraded": false
+            },
+            {
+              "uid": "card-11",
+              "cardId": "nav-chart",
+              "ownerId": "nav",
+              "upgraded": false
+            },
+            {
+              "uid": "card-12",
+              "cardId": "nav-compass",
+              "ownerId": "nav",
+              "upgraded": false
+            }
+          ],
+          "drawPile": [
+            "card-5",
+            "card-1",
+            "card-9",
+            "card-2",
+            "card-3",
+            "card-11",
+            "card-12"
+          ],
+          "hand": [
+            "card-6",
+            "card-4",
+            "card-7",
+            "card-10",
+            "card-8"
+          ],
+          "discardPile": [],
+          "removed": [],
+          "enemies": [
+            {
+              "id": "enemy-1",
+              "definitionId": "lantern-mote",
+              "hp": 29,
+              "maxHp": 29,
+              "block": 0,
+              "status": {
+                "mark": 0,
+                "weak": 0,
+                "burn": 0,
+                "counter": 0,
+                "echo": 0,
+                "retainBlock": 0
+              },
+              "phase": 1,
+              "intentIndex": 0
+            }
+          ],
+          "energy": 3,
+          "turn": 1,
+          "plays": 0,
+          "nextCardId": 13,
+          "nextEnemyId": 2,
+          "relics": [],
+          "relicUsedTurn": {},
+          "relicUsedBattle": {},
+          "choices": [],
+          "log": [
+            {
+              "kind": "expedition",
+              "actorId": null,
+              "targetId": null,
+              "amount": 0,
+              "text": "三位旅伴出发前往夜行灯市"
+            },
+            {
+              "kind": "passive",
+              "actorId": "sheep",
+              "targetId": null,
+              "amount": 0,
+              "text": "羊咩咩团 · 叠信成盾"
+            },
+            {
+              "kind": "block",
+              "actorId": "sheep",
+              "targetId": "sheep",
+              "amount": 3,
+              "text": "羊咩咩团获得 3 点护盾"
+            },
+            {
+              "kind": "block",
+              "actorId": "sheep",
+              "targetId": "orangecat",
+              "amount": 3,
+              "text": "橘猫豆包获得 3 点护盾"
+            },
+            {
+              "kind": "block",
+              "actorId": "sheep",
+              "targetId": "nav",
+              "amount": 3,
+              "text": "领航小鸭获得 3 点护盾"
+            },
+            {
+              "kind": "draw",
+              "actorId": null,
+              "targetId": null,
+              "amount": 5,
+              "text": "抽取 5 张牌"
+            }
+          ],
+          "threadsEarned": 0,
+          "ticketsEarned": 0
+        },
+        "lastResult": null
+      }
+    }
+  }
+}

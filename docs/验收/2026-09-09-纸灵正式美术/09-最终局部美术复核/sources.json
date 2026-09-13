@@ -1,0 +1,101 @@
+[
+  {
+    "id": "market-usher",
+    "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-market/assets/art/market-usher.png",
+    "size": [
+      285,
+      384
+    ],
+    "sha256": "80cd78343a8824e88a293be01bb3a5dfbd85d973c18a36dcb8d546e0629bf204"
+  },
+  {
+    "id": "twine-sprite",
+    "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-street/assets/art/twine-sprite.png",
+    "size": [
+      369,
+      384
+    ],
+    "sha256": "df964966bc5c184dcbbc6dfa26b8ff1e309b40741d4821fb1b0fa90f4cf5e9a8"
+  },
+  {
+    "id": "rain-knot",
+    "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-bridge/assets/art/rain-knot.png",
+    "size": [
+      384,
+      376
+    ],
+    "sha256": "7cdde0d371ab0d3fa4bbc6aa449a6f00f1c2670bdb852722e9318c9e2da5c06f"
+  },
+  {
+    "id": "paper-lion",
+    "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-street/assets/art/paper-lion.png",
+    "size": [
+      384,
+      344
+    ],
+    "sha256": "c148447e55ae74cd9d20f380009fbec4d42c3ab8fffa5f6d4705266a4e7448a7"
+  },
+  {
+    "id": "paper-lion-phase2",
+    "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-street/assets/art/paper-lion-phase2.png",
+    "size": [
+      384,
+      327
+    ],
+    "sha256": "21c937b4b3846f4ce9f4c9b41d257240b4ed9b20e78e624e975ee28943a4307f"
+  },
+  {
+    "id": "bell-warden",
+    "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-market/assets/art/bell-warden.png",
+    "size": [
+      384,
+      379
+    ],
+    "sha256": "bf2df770258a5977ec9d243b5b4e621f14a14263238fe7384f169bc2e6044cfd"
+  },
+  {
+    "id": "bell-warden-phase2",
+    "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-market/assets/art/bell-warden-phase2.png",
+    "size": [
+      384,
+      331
+    ],
+    "sha256": "eee806acc66e77974745a58c780f4942e00eef5fa6c18fff8ff9ad1158f5b528"
+  },
+  {
+    "id": "ramen",
+    "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/assets/partners/ramen.png",
+    "size": [
+      195,
+      384
+    ],
+    "sha256": "7d72f90d35c4fca3793a146a09176af391e2a2b7326157ffe5ad6a270eb93649"
+  },
+  {
+    "id": "firefly",
+    "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/assets/partners/firefly.png",
+    "size": [
+      272,
+      384
+    ],
+    "sha256": "31565a41801521efd08a4ece4c755ec513f77826a41a43408cfe8e4dc483fd18"
+  },
+  {
+    "id": "soup",
+    "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/assets/partners/soup.png",
+    "size": [
+      368,
+      384
+    ],
+    "sha256": "dc65dc1ccd2c7db791e1e91faa6eb1291802fe5767592150520008effa68e944"
+  },
+  {
+    "id": "doudou-cast",
+    "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/assets/partners/doudou-cast.png",
+    "size": [
+      142,
+      224
+    ],
+    "sha256": "8093988540d7990ebe7de3bc527f00202a394d7f1a42177bafca4520517e5c4c"
+  }
+]

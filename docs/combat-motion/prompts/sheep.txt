@@ -1,0 +1,61 @@
+# Sheep action sprite sheet prompt
+
+Generation mode: built-in imagegen, with Luna max orchestration.
+Reference images (identity anchors only):
+- docs/visual-rework/production/rgba/sheep-idle.png
+- docs/visual-rework/production/rgba/sheep-cast.png
+
+## Primary generation prompt
+
+Use case: stylized-concept
+Asset type: game character action sprite sheet, production master
+Primary request: Create one high-resolution 4-column by 2-row transparent PNG sprite sheet for the same paper-folded messenger sheep character shown in the two reference images. Preserve the character identity exactly: cream paper-folded sheep face with curled ram horns, pointed ears, large amber eyes, blue and navy origami robe with thin gold crackle lines and red lining, red cord details, a red thread spool on a brass-tipped staff in the left hand, and a large white origami envelope shield with a red knot. Preserve four limbs, the recognizable face, horn silhouette, outfit construction, staff, shield, and paper-folded material. Use the reference idle and cast images only as identity and design anchors; create eight genuinely different full-body action poses, not recolors or idle duplicates.
+
+Canvas and layout: wide landscape sheet with exactly 4 equal columns and 2 equal rows, eight separate action cells in this exact reading order:
+row 1: enter, attack, guard, hurt
+row 2: exit, control, buff, debuff.
+Keep the same scale, camera angle, visual baseline, and centered placement in every cell. Leave about 10 percent transparent padding around each subject inside its cell. Keep every staff, ribbon, shield, paper effect, and limb fully inside its own cell. No object, ribbon, paper shard, glow, or shadow may cross a cell boundary. Transparent gutters between cells are acceptable, but no visible grid lines.
+
+Action direction and body language:
+1 enter: stepping forward into battle, one foot planted ahead, robe and red ribbons opening, staff raised, alert welcoming combat stance.
+2 attack: clear rightward strike or spell cast, torso and staff thrusting toward the right, shield trailing, strong dynamic diagonal motion, visible paper-fold energy arc contained inside the cell.
+3 guard: crouched defensive stance, envelope shield held directly in front of the torso, staff angled behind it, feet braced.
+4 hurt: recoiling backward with shoulders turned, one knee bent, face still visible, small loose paper flecks and a slight wilt, no blood.
+5 exit: low and folding inward as if temporarily defeated, robe collapsing and a few paper pieces dispersing, face and main silhouette still recognizable.
+6 control: constrained stance with indigo paper threads and restraint talismans visibly wrapped around the feet and staff, face unobstructed, controlled effect clearly different from debuff.
+7 buff: upright revitalized pose with chest lifted and staff raised, warm gold and teal-green paper feathers/ribbons spiraling around the character, positive energy.
+8 debuff: drooping low-energy pose with head and shoulders lowered, cool gray ink-like markings and negative paper sigils around the robe, clearly different from control, no blood.
+
+Style/medium: soft 2.5D origami paper illustration, refined game asset, layered paper facets, visible paper fiber, small copper and red cord details, elegant edges, not plush, not plastic, not photorealistic.
+Scene/backdrop: truly transparent background, no floor, no stage, no vignette, no checkerboard baked into the file.
+Lighting/mood: consistent soft light from upper left, gentle rim light, clear readable silhouettes, restrained effects.
+Color palette: cream paper, navy/blue, warm gold, red cord, with indigo for control, warm gold/teal for buff, cool gray/ink for debuff.
+Constraints: no text, no labels, no numbers, no icons, no watermark, no logos, no grid, no frame, no extra characters, no added limbs, no missing limbs, no broken or duplicated staff/shield, no clipping, no cross-cell bleed, no blood, no gore, no background.
+Output must be a single transparent PNG sprite sheet, exactly eight distinct poses in the specified order.
+
+## Transparency correction prompt used after inspection
+
+Use case: background-extraction
+Asset type: production game sprite sheet
+Primary request: Edit the supplied 4-column by 2-row sheep action sprite sheet in place while preserving the exact artwork, pose silhouettes, cell positions, scale, and action order. Remove the baked checkerboard pattern completely and make the entire background genuinely transparent with an alpha channel. A checkerboard pattern is not transparency and must not remain in any pixel. Keep all eight character poses and all contained effects unchanged: row 1 enter, attack, guard, hurt; row 2 exit, control, buff, debuff.
+Constraints: change only the background transparency; preserve every character edge, paper fold, staff, shield, ribbon, effect, and transparent gutter; no repainting, recoloring, relayout, cropping, resizing, new objects, text, labels, grid lines, or watermark. Output a single PNG with true RGBA alpha, no opaque backdrop.
+
+## Post-generation artifact note
+
+The first built-in imagegen result was 1536x1024 RGB with a baked checkerboard despite the transparency request. The selected result was converted to RGBA in place without resizing or cropping; the target PNG is 1536x1024, with binary alpha and transparent outside pixels. The generated layout has eight visually distinct action poses but several effects/subjects touch the nominal 384x512 cell edges, so root must verify boundaries before slicing.
+
+## First-batch technical revision prompt
+
+Use case: stylized-concept
+Asset type: production game character action sprite sheet, re-layout revision
+Generation orchestration: Luna max.
+Input images: Image 1 and Image 2 are the original sheep idle and cast identity anchors. Image 3 is the earlier sheep 4x2 action sheet used only as a pose/action reference; do not copy its checkerboard. Image 4 is a successful 2:1 magenta sprite-sheet layout reference for spacing and margins.
+Primary request: Recompose the same paper-folded messenger sheep into one clean 4-column by 2-row action sprite sheet. Preserve the sheep identity from Images 1 and 2 exactly: cream origami sheep face, curled ram horns, pointed ears, amber eyes, blue/navy robe with gold crackle lines and red lining, red cords, red thread spool on a brass-tipped staff, and large white origami envelope shield with red knot. Use the eight distinct action semantics from Image 3 in this exact order: row 1 enter, attack, guard, hurt; row 2 exit, control, buff, debuff. Redraw or reposition each action as needed so all props and effects are complete inside its own cell.
+Layout and chroma key: match Image 4's wide 2:1 landscape sheet and evenly spaced 4x2 composition. Every cell is equal size. Background must be a flat, mathematically uniform pure chroma-key magenta RGB #FF00FF (255,0,255) everywhere outside the subjects/effects; no checkerboard, texture, noise, gradient, lighting variation, shadow plate, floor, alpha, labels, or grid lines. Keep each character plus all action effects entirely inside the central 70% width and 70% height of its cell, with about 20% clean magenta safety margin on all sides. No limb, horn, staff, shield, tassel, ribbon, paper shard, glow, or effect may touch or cross a cell boundary. Do not solve spacing by cropping or truncating any character, weapon, shield, or effect. Keep the same readable scale, baseline, camera angle, and full-body silhouette across cells.
+Action cues: enter steps forward with staff raised and shield ready; attack is a clear rightward thrust with a small diagonal red/gold paper-light arc only, never a giant horizontal sweep; guard crouches with shield directly in front and staff behind; hurt recoils with bent knees, slight paper flecks, face visible, no blood; exit folds low and inward with a few contained paper pieces while face and equipment remain recognizable; control is indigo paper threads and restraint talismans around feet/staff with face visible; buff is upright and revitalized with contained warm gold and teal-green paper feathers; debuff droops with cool gray ink-like markings and small negative sigils clearly different from control.
+Style/medium: soft 2.5D origami paper illustration, paper facets and fiber, restrained copper and cord details, upper-left light, refined game asset, not plush or plastic.
+Constraints: exactly eight distinct poses, no extra characters, no added/missing limbs, no broken/duplicated staff or shield, no text, no logos, no watermark, no blood/gore, no cross-cell bleed. Output one flat-magenta-background RGB PNG sprite sheet.
+
+## Revision artifact note
+
+The prior transparent master was preserved as `masters/sheep-sheet-v1.png`. The revised production intermediate is `masters/sheep-sheet.png`, generated at 1774x887 RGB with the wide 2:1 layout and smaller contained effects. The imagegen background is visibly magenta but may contain slight per-pixel variation; root should apply the agreed local chroma-key pipeline without cropping character or effects.

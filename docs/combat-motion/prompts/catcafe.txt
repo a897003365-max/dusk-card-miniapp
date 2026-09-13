@@ -1,0 +1,22 @@
+# Catcafe action sprite sheet prompt
+
+Generation mode: built-in imagegen, Luna max orchestration.
+Reference images (identity anchors only):
+- docs/visual-rework/production/rgba/catcafe-idle.png
+- docs/visual-rework/production/rgba/catcafe-cast.png
+
+## Primary generation prompt
+
+Use case: stylized-concept
+Asset type: production game character action sprite sheet for catcafe
+Generation orchestration: Luna max.
+Input images: Image 1 and Image 2 are the catcafe idle and catcafe cast identity references.
+Primary request: Create one wide 2:1 landscape 4-column by 2-row action sprite sheet for the same paper-folded cat cafe server from the references. Preserve identity and anatomy exactly: cream origami cat face with pointed ears and amber eyes, curled paper tail with red bell tassel, brown and cream folded cafe robe/apron with leaf and paw motifs, four limbs, two broad serving trays, a steaming coffee cup and small cat biscuit on one tray, a green ceramic-like origami teapot on the other tray, and red cord details. Create eight genuinely different full-body action poses in this exact order: row 1 enter, attack, guard, hurt; row 2 exit, control, buff, debuff. Do not add limbs or turn the character into a different species.
+Canvas and chroma-key layout: exactly four equal columns and two equal rows. Every pixel outside the character and effects must be flat solid pure chroma-key magenta RGB #FF00FF (255,0,255): no alpha, checkerboard, gradient, texture, floor, shadow plate, labels, or grid lines. Keep the cat, both trays, cup, biscuit, teapot, tail, tassels, steam, and all effects inside the central 70% width and 70% height of its own cell, with about 20% clean magenta margin on every side. No limb, tray edge, tail, cup, teapot, steam, ribbon, paper shard, glow, or effect may touch or cross a cell boundary. Same scale, baseline, angle, and clear silhouette in every cell.
+Action poses: enter = careful forward step while balancing both loaded trays, tail lifted; attack = clear rightward pour or teapot flick with a small contained diagonal warm steam/paper-light arc; guard = both trays crossed and held directly before the torso as a shield, feet braced; hurt = torso recoiling with one tray tilted but intact, a few contained paper flecks, face visible, no blood; exit = low folded crouch as the trays lower and tail curls inward, face and tea props recognizable; control = indigo paper threads and restraint talismans wrapped around feet, tail, and tray handles, face unobstructed; buff = upright cheerful server pose with warm gold and teal-green steam feathers around cup and teapot, positive energy; debuff = lowered head and sagging apron with cool gray ink markings and small negative steam sigils, clearly different from control.
+Style/medium: soft 2.5D origami paper illustration, layered paper facets, visible paper fiber, restrained brass and red cord details, soft upper-left light, refined game asset, not plush, plastic, or photorealistic.
+Constraints: no readable text, no labels, logos, or watermark, no extra characters, no added or missing limbs/tails, no broken trays/cup/teapot, no giant effects, no cross-cell bleed, no blood or gore. Output one flat-magenta-background RGB PNG sprite sheet with exactly eight distinct poses in the specified order.
+
+## Artifact note
+
+The saved master is `masters/catcafe-sheet.png`, 1774x887 RGB PNG with no alpha. The cat, two trays, cup, biscuit, teapot, tail, and tassels remain identifiable in all eight poses; the attack is a short diagonal pour/steam arc and the status effects are visually distinct. The imagegen magenta background may contain slight per-pixel variation, so root should use the agreed local chroma-key pipeline without cropping props/effects.

@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL",
+  "actors": [
+    {
+      "id": "moon",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/moon-sheet.png",
+      "sourceHash": "b01cb8c042d72625c3347fd8184f00820ac5721efd471e6790d6a41a82d3681b",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          15069,
+          797
+        ],
+        "removedPixels": 15866
+      },
+      "foregroundPixels": 496797,
+      "assignedPixels": 496797
+    }
+  ],
+  "frames": [
+    {
+      "id": "moon",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/enter.png",
+      "contentBounds": {
+        "x": 56,
+        "y": 18,
+        "width": 343,
+        "height": 410
+      },
+      "bytes": 16133
+    },
+    {
+      "id": "moon",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/attack.png",
+      "contentBounds": {
+        "x": 439,
+        "y": 25,
+        "width": 490,
+        "height": 406
+      },
+      "bytes": 14068
+    },
+    {
+      "id": "moon",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/guard.png",
+      "contentBounds": {
+        "x": 975,
+        "y": 22,
+        "width": 319,
+        "height": 405
+      },
+      "bytes": 15751
+    },
+    {
+      "id": "moon",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/hurt.png",
+      "contentBounds": {
+        "x": 1370,
+        "y": 62,
+        "width": 347,
+        "height": 363
+      },
+      "bytes": 21023
+    },
+    {
+      "id": "moon",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/exit.png",
+      "contentBounds": {
+        "x": 81,
+        "y": 516,
+        "width": 325,
+        "height": 319
+      },
+      "bytes": 20980
+    },
+    {
+      "id": "moon",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/control.png",
+      "contentBounds": {
+        "x": 495,
+        "y": 461,
+        "width": 358,
+        "height": 398
+      },
+      "bytes": 19740
+    },
+    {
+      "id": "moon",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/buff.png",
+      "contentBounds": {
+        "x": 925,
+        "y": 467,
+        "width": 375,
+        "height": 392
+      },
+      "bytes": 23826
+    },
+    {
+      "id": "moon",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-onlBVL/moon/debuff.png",
+      "contentBounds": {
+        "x": 1396,
+        "y": 464,
+        "width": 314,
+        "height": 388
+      },
+      "bytes": 17862
+    }
+  ],
+  "bytes": 149383
+}

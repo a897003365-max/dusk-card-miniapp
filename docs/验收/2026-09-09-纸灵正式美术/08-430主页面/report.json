@@ -1,0 +1,345 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-nyMDCE",
+  "width": 430,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-art-surfaces-aW2uOD",
+  "checks": [
+    {
+      "name": "只读美术检查使用隔离存档",
+      "pass": true
+    },
+    {
+      "name": "真实设备宽度正确",
+      "pass": true
+    },
+    {
+      "name": "首页三张展示邮卡使用新角色",
+      "pass": true
+    },
+    {
+      "name": "图鉴22位全部使用正式纸灵清单",
+      "pass": true
+    },
+    {
+      "name": "22张角色在原生运行时实际解码成功",
+      "pass": true
+    },
+    {
+      "name": "末位伙伴档案真实打开",
+      "pass": true
+    },
+    {
+      "name": "R信印切换保持同一伙伴身份",
+      "pass": true
+    },
+    {
+      "name": "SR信印切换保持同一伙伴身份",
+      "pass": true
+    },
+    {
+      "name": "SSR信印切换保持同一伙伴身份",
+      "pass": true
+    },
+    {
+      "name": "UR信印切换保持同一伙伴身份",
+      "pass": true
+    },
+    {
+      "name": "四章导览角色使用新清单",
+      "pass": true
+    },
+    {
+      "name": "页面查看与信印切换不修改存档",
+      "pass": true
+    },
+    {
+      "name": "回到在途副本仍保留全部状态",
+      "pass": true
+    },
+    {
+      "name": "应用与图片加载异常过滤为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "home-new-art",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-art-surfaces-aW2uOD/home-new-art.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "collection-top",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-art-surfaces-aW2uOD/collection-top.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "seedling-archive",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-art-surfaces-aW2uOD/seedling-archive.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "collection-bottom",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-art-surfaces-aW2uOD/collection-bottom.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "story-top",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-art-surfaces-aW2uOD/story-top.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "story-bottom",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-art-surfaces-aW2uOD/story-bottom.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".family-card[data-id=\"seedling\"]",
+      "rect": {
+        "dataset": {
+          "id": "seedling"
+        },
+        "left": 20,
+        "right": 143.328125,
+        "top": 455.890625,
+        "bottom": 656.671875,
+        "width": 123.328125,
+        "height": 200.78125
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    },
+    {
+      "selector": ".variant[data-tier=\"R\"]",
+      "rect": {
+        "dataset": {
+          "tier": "R"
+        },
+        "left": 37,
+        "right": 121.5,
+        "top": 304.8515625,
+        "bottom": 356.4453125,
+        "width": 84.5,
+        "height": 51.59375
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    },
+    {
+      "selector": ".variant[data-tier=\"SR\"]",
+      "rect": {
+        "dataset": {
+          "tier": "SR"
+        },
+        "left": 127.5,
+        "right": 212,
+        "top": 304.8515625,
+        "bottom": 356.4453125,
+        "width": 84.5,
+        "height": 51.59375
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    },
+    {
+      "selector": ".variant[data-tier=\"SSR\"]",
+      "rect": {
+        "dataset": {
+          "tier": "SSR"
+        },
+        "left": 218,
+        "right": 302.5,
+        "top": 304.8515625,
+        "bottom": 356.4453125,
+        "width": 84.5,
+        "height": 51.59375
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    },
+    {
+      "selector": ".variant[data-tier=\"UR\"]",
+      "rect": {
+        "dataset": {
+          "tier": "UR"
+        },
+        "left": 308.5,
+        "right": 393,
+        "top": 304.8515625,
+        "bottom": 356.4453125,
+        "width": 84.5,
+        "height": 51.59375
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 349,
+        "right": 393,
+        "top": 78,
+        "bottom": 122,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    },
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 412,
+        "top": 692,
+        "bottom": 740,
+        "width": 394,
+        "height": 48
+      },
+      "viewport": {
+        "width": 430,
+        "height": 752
+      }
+    }
+  ],
+  "status": "pass",
+  "decoded": [
+    {
+      "src": "/assets/partners/sheep.png",
+      "width": 216,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/ramen.png",
+      "width": 195,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/sunset.png",
+      "width": 384,
+      "height": 296
+    },
+    {
+      "src": "/assets/partners/ticket.png",
+      "width": 320,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/catcafe.png",
+      "width": 371,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/moon.png",
+      "width": 274,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/nav.png",
+      "width": 249,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/tea.png",
+      "width": 384,
+      "height": 382
+    },
+    {
+      "src": "/assets/partners/sushi.png",
+      "width": 384,
+      "height": 318
+    },
+    {
+      "src": "/assets/partners/pear.png",
+      "width": 222,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/burger.png",
+      "width": 251,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/badminton.png",
+      "width": 343,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/bomb.png",
+      "width": 362,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/orangecat.png",
+      "width": 384,
+      "height": 245
+    },
+    {
+      "src": "/assets/partners/doudou.png",
+      "width": 229,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/hydrangea.png",
+      "width": 246,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/pearlamp.png",
+      "width": 162,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/cloudmail.png",
+      "width": 254,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/firefly.png",
+      "width": 272,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/soup.png",
+      "width": 368,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/blanket.png",
+      "width": 221,
+      "height": 384
+    },
+    {
+      "src": "/assets/partners/seedling.png",
+      "width": 211,
+      "height": 384
+    }
+  ],
+  "console": ""
+}

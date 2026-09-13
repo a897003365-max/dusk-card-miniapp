@@ -1,0 +1,63 @@
+{
+  "checks": [
+    {
+      "name": "最终展示战术未改变存档",
+      "pass": true
+    },
+    {
+      "name": "已恢复390宽度",
+      "pass": true
+    },
+    {
+      "name": "最终页面无console error",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "final-tactics-preview",
+      "success": true,
+      "path": "/tmp/dusk-rhythm-3SnbiH/final-tactics-preview.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".tactic-tab[data-id=\"relay\"]",
+      "rect": {
+        "dataset": {
+          "id": "relay"
+        },
+        "left": 142.6640625,
+        "right": 247.328125,
+        "top": 372.65625,
+        "bottom": 418.65625,
+        "width": 104.6640625,
+        "height": 46
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ],
+  "audio": {
+    "music": true,
+    "effects": true,
+    "foreground": true,
+    "interrupted": false,
+    "readyState": "ready",
+    "scene": "town",
+    "musicSrc": "/assets/audio/town.mp3",
+    "musicPlaying": true,
+    "musicTime": 8.899000000000001,
+    "musicStarts": 1,
+    "effectStarts": 1,
+    "lastEffect": "select",
+    "contexts": 2,
+    "lastError": null
+  },
+  "fullConsole": "1:[\"[info]\",\"[system]\",\"WeChatLib: 3.17.0 (2026.8.18 17:29:36)\"]\n2:[\"[info]\",\"[system]\",\"No. of subpackages: 6\"]\n--\n4:[\"[info]\",\"Lazy code loading is enabled. Only injecting required components.\"]",
+  "console": ""
+}

@@ -1,0 +1,10 @@
+来源：2026-09-12 22:47 微信开发者工具窗口「晚霞来信-纸灵验收-cAIGWF」现场可访问性树。
+原生调试器显示 Errors: 0, Warnings: 11；以下并不代表 get_simulator_console 的返回内容。
+
+[基础库] 正在使用灰度中的基础库 3.17.0 进行调试。如有问题，请前往工具栏-详情-本地设置更改基础库版本。
+The resource http://127.0.0.1:41264/__dev__/WAAutoService.js?t=wechat&v=3.17.0 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+The resource http://127.0.0.1:41264/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.
+[自动热重载] 已开启代码文件保存后自动热重载
+[worker] reportRealtimeAction:fail not support
+
+保持原基础库及热重载设置，没有屏蔽日志或降低安全设置。

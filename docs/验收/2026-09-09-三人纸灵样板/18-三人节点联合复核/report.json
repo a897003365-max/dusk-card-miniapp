@@ -1,0 +1,51 @@
+{
+  "status": "pass",
+  "note": "真实节点只读采样，非FPS和完整录像",
+  "heroes": [
+    {
+      "owner": "sheep",
+      "source": "dusk-pose-runtime-nZpFfl",
+      "card": "围成小羊圈",
+      "checks": 11,
+      "samples": 42,
+      "ownRenderedCastSamples": 5,
+      "sampledSpanMs": 245,
+      "after": {
+        "plays": 1,
+        "energy": 1,
+        "threads": 4,
+        "tickets": 6
+      }
+    },
+    {
+      "owner": "orangecat",
+      "source": "dusk-pose-runtime-nkzffp",
+      "card": "小小出手",
+      "checks": 12,
+      "samples": 42,
+      "ownRenderedCastSamples": 5,
+      "sampledSpanMs": 250,
+      "after": {
+        "plays": 2,
+        "energy": 0,
+        "threads": 4,
+        "tickets": 6
+      }
+    },
+    {
+      "owner": "nav",
+      "source": "dusk-pose-runtime-VOAcJc",
+      "card": "罗盘借星光",
+      "checks": 12,
+      "samples": 41,
+      "ownRenderedCastSamples": 5,
+      "sampledSpanMs": 259,
+      "after": {
+        "plays": 1,
+        "energy": 2,
+        "threads": 4,
+        "tickets": 6
+      }
+    }
+  ]
+}

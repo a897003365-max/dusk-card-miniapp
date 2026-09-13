@@ -1,0 +1,266 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-WDSLkA",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-fLRxd1",
+  "checks": [
+    {
+      "name": "390px 首页信封不遮住形态说明",
+      "pass": true
+    },
+    {
+      "name": "390px 换队三位候选无需滚动即可完整看见",
+      "pass": true
+    },
+    {
+      "name": "390px 完整正文和队伍属性可读",
+      "pass": true
+    },
+    {
+      "name": "390px 结果末句可读，继续按钮满宽且至少44px",
+      "pass": true
+    },
+    {
+      "name": "布局复验只产生正常重访奖励，不消费邮票",
+      "pass": true
+    },
+    {
+      "name": "控制台没有应用异常",
+      "pass": true
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "final-390-home",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-fLRxd1/final-390-home.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "final-390-replace",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-fLRxd1/final-390-replace.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "final-390-story",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-fLRxd1/final-390-story.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "final-390-story-bottom",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-fLRxd1/final-390-story-bottom.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "final-390-outcome-bottom",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-evidence-fLRxd1/final-390-outcome-bottom.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "status": "pass",
+  "mode": "final-layout",
+  "interactions": [
+    {
+      "selector": ".filter[data-filter=\"owned\"]",
+      "rect": {
+        "dataset": {
+          "filter": "owned"
+        },
+        "left": 304,
+        "right": 372,
+        "top": 386.328125,
+        "bottom": 430.328125,
+        "width": 68,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".family-card[data-id=\"sheep\"]",
+      "rect": {
+        "dataset": {
+          "id": "sheep"
+        },
+        "left": 18,
+        "right": 129.9921875,
+        "top": 440.328125,
+        "bottom": 627.5078125,
+        "width": 111.9921875,
+        "height": 187.1796875
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".invite-partner",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 558.3125,
+        "bottom": 602.3125,
+        "width": 324,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".cancel-replace",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 558.3125,
+        "bottom": 602.3125,
+        "width": 324,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".chapter-start[data-id=\"letter\"]",
+      "rect": {
+        "dataset": {
+          "id": "letter"
+        },
+        "left": 64,
+        "right": 359,
+        "top": 342.9140625,
+        "bottom": 386.9140625,
+        "width": 295,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "width": 390,
+      "height": 671
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 36,
+        "right": 354,
+        "top": 555.3125,
+        "bottom": 599.3125,
+        "width": 318,
+        "height": 44
+      },
+      "width": 390,
+      "height": 671
+    }
+  ],
+  "console": ""
+}

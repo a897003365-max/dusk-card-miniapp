@@ -1,0 +1,5 @@
+.sound-controls { display: flex; justify-content: flex-end; gap: 8px; min-height: 44px; margin: 0 0 8px; }
+.sound-toggle { width: 82px; flex: none; margin: 0; min-height: 44px; padding: 8px 9px; border: 1px solid #cfc4b2; border-radius: 9px; background: #f5efe3; color: #5c6d78; font-size: 12px; line-height: 1.2; }
+.sound-test { width: 68px; background: #e8d9b5; color: #364659; }
+.sound-disabled { opacity: .55; }
+.sound-message { font-size: 12px; color: #596574; line-height: 1.5; padding: 0 0 8px; text-align: right; overflow-wrap: break-word; }

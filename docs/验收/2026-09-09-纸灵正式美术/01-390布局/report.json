@@ -1,0 +1,479 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-nyMDCE",
+  "width": 390,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-u43jO9",
+  "checks": [
+    {
+      "name": "隔离运行存档与副本一致",
+      "pass": true
+    },
+    {
+      "name": "实际模拟器宽度正确",
+      "pass": true
+    },
+    {
+      "name": "短效果实际单行呈现或使用完整自然换行提示",
+      "pass": true
+    },
+    {
+      "name": "意图气泡没有超出战场裁切边界",
+      "pass": true
+    },
+    {
+      "name": "完整牌组与存档张数一致",
+      "pass": true
+    },
+    {
+      "name": "牌组最后一张可完整滚动",
+      "pass": true
+    },
+    {
+      "name": "伙伴详情包含战斗被动与状态",
+      "pass": true
+    },
+    {
+      "name": "敌人详情完整显示实际意图",
+      "pass": true
+    },
+    {
+      "name": "每张手牌直接显示当前效果摘要",
+      "pass": true
+    },
+    {
+      "name": "卡牌完整效果可读",
+      "pass": true
+    },
+    {
+      "name": "出牌确认完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "再次点同一张牌取消选择",
+      "pass": true
+    },
+    {
+      "name": "日志正常打开",
+      "pass": true
+    },
+    {
+      "name": "详情、滚动、目标预览及取消完全不改存档",
+      "pass": true
+    },
+    {
+      "name": "回城续玩保留全部战斗数据",
+      "pass": true
+    },
+    {
+      "name": "应用控制台异常为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "hub",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-u43jO9/hub.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "route",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-u43jO9/route.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-u43jO9/battle.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "deck-bottom",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-u43jO9/deck-bottom.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "ally-detail",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-u43jO9/ally-detail.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "enemy-detail",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-u43jO9/enemy-detail.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "card-detail",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-u43jO9/card-detail.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "target-preview",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-u43jO9/target-preview.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "log",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-layout-u43jO9/log.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".region-tab[data-id=\"street\"]",
+      "rect": {
+        "dataset": {
+          "id": "street"
+        },
+        "left": 18,
+        "right": 130.6640625,
+        "top": 142.890625,
+        "bottom": 202.0859375,
+        "width": 112.6640625,
+        "height": 59.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".start-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-0-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-0-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 331.9921875,
+        "bottom": 400.1875,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".deck-link",
+      "rect": {
+        "dataset": {},
+        "left": 173.4140625,
+        "right": 328.4140625,
+        "top": 48,
+        "bottom": 92,
+        "width": 155,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".ally-unit[data-id=\"sheep\"]",
+      "rect": {
+        "dataset": {
+          "id": "sheep"
+        },
+        "left": 17.8984375,
+        "right": 124.03125,
+        "top": 288.9921875,
+        "bottom": 425.5859375,
+        "width": 106.1328125,
+        "height": 136.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-1\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".card-detail-link",
+      "rect": {
+        "dataset": {},
+        "left": 330,
+        "right": 374,
+        "top": 453.296875,
+        "bottom": 497.296875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-1\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-1"
+        },
+        "left": 160,
+        "right": 226,
+        "top": 529,
+        "bottom": 647,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".exp-log",
+      "rect": {
+        "dataset": {},
+        "left": 334,
+        "right": 378,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hub-back",
+      "rect": {
+        "dataset": {},
+        "left": 12,
+        "right": 72,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 60,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ],
+  "status": "pass",
+  "intentLayout": {
+    "effects": [
+      {
+        "left": 147.9296875,
+        "right": 242.0625,
+        "top": 121.3984375,
+        "bottom": 136.3984375,
+        "width": 94.1328125,
+        "height": 15,
+        "white-space": "nowrap",
+        "line-height": "15px"
+      }
+    ],
+    "notes": [],
+    "bubbles": [
+      {
+        "id": "",
+        "dataset": {},
+        "left": 143.9296875,
+        "right": 246.0625,
+        "top": 103.3984375,
+        "bottom": 139.3984375,
+        "width": 102.1328125,
+        "height": 36
+      }
+    ],
+    "stage": {
+      "id": "",
+      "dataset": {},
+      "left": 0,
+      "right": 390,
+      "top": 92,
+      "bottom": 434,
+      "width": 390,
+      "height": 342
+    }
+  },
+  "console": ""
+}

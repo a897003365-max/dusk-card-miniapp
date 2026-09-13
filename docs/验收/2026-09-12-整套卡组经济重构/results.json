@@ -1,0 +1,138 @@
+[
+  {
+    "name": "discover-start",
+    "status": "pass-in-progress",
+    "checks": 24,
+    "shots": 6,
+    "width": null,
+    "error": null
+  },
+  {
+    "name": "opportunity-payment",
+    "status": "pass",
+    "checks": 17,
+    "shots": 6,
+    "width": null,
+    "error": null
+  },
+  {
+    "name": "run-before-camp-fix",
+    "status": "fail",
+    "checks": 50,
+    "shots": 21,
+    "width": null,
+    "error": "Error: 未映射实际点击 chooseUpgrade\n    at perform (/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/tests/tactics-runtime-smoke.js:47:9)\n    at /Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/tests/tactics-runtime-smoke.js:102:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  {
+    "name": "run-complete",
+    "status": "pass",
+    "checks": 89,
+    "shots": 32,
+    "width": null,
+    "error": null
+  },
+  {
+    "name": "receipt-probe-before-fix",
+    "status": "fail",
+    "checks": 2,
+    "shots": 0,
+    "width": null,
+    "error": "AssertionError [ERR_ASSERTION]: 重开可查看胜利回执\n    at Object.check (/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/tests/helpers/native-adventure.js:86:5)\n    at [stdin]:2:341\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  {
+    "name": "receipt-and-home",
+    "status": "pass",
+    "checks": 6,
+    "shots": 2,
+    "width": null,
+    "error": null
+  },
+  {
+    "name": "rain",
+    "status": "pass",
+    "checks": 21,
+    "shots": 3,
+    "width": 390,
+    "error": null
+  },
+  {
+    "name": "layout-390",
+    "status": "pass",
+    "checks": 24,
+    "shots": 10,
+    "width": 390,
+    "error": null
+  },
+  {
+    "name": "layout-320",
+    "status": "pass",
+    "checks": 26,
+    "shots": 10,
+    "width": 320,
+    "error": null
+  },
+  {
+    "name": "layout-430",
+    "status": "pass",
+    "checks": 24,
+    "shots": 10,
+    "width": 430,
+    "error": null
+  },
+  {
+    "name": "weather-tip-320",
+    "status": "pass",
+    "checks": 3,
+    "shots": 1,
+    "width": 320,
+    "error": null
+  },
+  {
+    "name": "scout-320",
+    "status": "pass",
+    "checks": 27,
+    "shots": 3,
+    "width": 320,
+    "error": null
+  },
+  {
+    "name": "intercept-430",
+    "status": "pass",
+    "checks": 19,
+    "shots": 2,
+    "width": 430,
+    "error": null
+  },
+  {
+    "name": "withdraw-weather",
+    "status": "pass",
+    "checks": 4,
+    "shots": 2,
+    "width": null,
+    "error": null
+  },
+  {
+    "name": "withdraw-scout",
+    "status": "pass",
+    "checks": 4,
+    "shots": 2,
+    "width": null,
+    "error": null
+  },
+  {
+    "name": "withdraw-intercept",
+    "status": "pass",
+    "checks": 5,
+    "shots": 2,
+    "width": null,
+    "error": null
+  },
+  {
+    "name": "final-hub",
+    "status": "pass",
+    "checks": 8,
+    "shots": 1,
+    "width": 390,
+    "error": null
+  }
+]

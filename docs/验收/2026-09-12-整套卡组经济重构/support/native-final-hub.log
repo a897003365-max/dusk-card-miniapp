@@ -1,0 +1,9 @@
+✓ 验收结束无未完成远行，保留96星线与11邮票
+✓ 已恢复390宽度
+✓ classic起手方案可正常切换
+✓ relay起手方案可正常切换
+✓ reserve起手方案可正常切换
+✓ weather起手方案可正常切换
+✓ 切换四种打法未消耗资源、未创建远行
+✓ 最终现场console error为空
+pass: /var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-final-hub-Y89Llv

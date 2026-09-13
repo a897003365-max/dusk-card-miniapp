@@ -1,0 +1,14 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2DBUUV",
+  "width": 430,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-jMu8Pr",
+  "checks": [],
+  "shots": [],
+  "interactions": [],
+  "videos": [],
+  "motion": [],
+  "motionRequested": true,
+  "recordingRequested": false,
+  "status": "fail",
+  "error": "{\n  \"ok\": false,\n  \"errorType\": \"MCP_TOOL_ERROR\",\n  \"message\": \"cant find runtimeid by projectpath /var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2DBUUV\",\n  \"source\": \"mcp_business\",\n  \"detail\": {\n    \"rawResult\": {\n      \"success\": false,\n      \"error\": \"cant find runtimeid by projectpath /var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2DBUUV\"\n    }\n  },\n  \"reason\": \"mcp_business_fail\",\n  \"tool\": \"automation_evaluate\",\n  \"clientName\": \"Codex\",\n  \"suggestions\": \"查看该工具完整参数, wechatide -c Codex automation_evaluate -h\"\n}\n"
+}

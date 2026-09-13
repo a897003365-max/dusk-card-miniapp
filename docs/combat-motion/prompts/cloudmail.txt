@@ -1,0 +1,22 @@
+Use case: stylized-concept
+Asset type: game combat sprite master sheet, production intermediate
+Input images: Image 1 is the idle identity reference for the cloudmail partner. Image 2 is the cast/action identity reference. Image 3 is layout-only reference for a wide 2:1 4-column by 2-row equal-cell chroma-key sprite sheet; do not copy its character. Preserve the same cloudmail folded-paper messenger: cream fox/cat-like pointed face with amber eyes, blue cloud-pattern cloak with red inner panels, two existing arms and two legs, red tassels, waist mail satchel, and the existing large folded paper scroll/quiver strapped behind the shoulder. Preserve the face, outfit, satchel, scroll bundle, four limbs and messenger identity exactly; no redesign.
+
+Create exactly one wide 2:1 high-resolution action sprite master sheet matching Image 3's equal-cell layout: four equal-width columns and two equal-height rows, eight complete square-ish action cells, no labels. Keep the complete character, satchel, scroll bundle and every paper effect inside the inner 60–65% of its own cell, with generous roughly 25% clear space around each cell. Same scale and baseline. No body, scroll, envelope, tassel or effect may touch or cross a cell boundary. No cropping. Preserve the full mail tool/effect.
+
+Exact order:
+Top row col 1 ENTER: cloudmail steps into the scene with satchel ready and scroll bundle raised, alert courier arrival.
+Top row col 2 ATTACK: cloudmail lunges toward the right and throws or thrusts one existing sealed envelope from the satchel, with a compact diagonal paper-mail trail fully inside this cell.
+Top row col 3 GUARD: cloudmail braces the existing folded scroll/satchel as a letter shield in front of the torso, face visible, feet planted.
+Top row col 4 HURT: cloudmail recoils with satchel pulled inward and a few contained loose letters, strained face, no blood.
+Bottom row col 1 EXIT: cloudmail crouches and folds into a retreating courier pose, scroll bundle and face readable, a few small paper slips.
+Bottom row col 2 CONTROL: indigo paper threads and binding talisman strips wrap existing satchel strap, wrists, scroll bundle and ankles; face unobstructed and distinct from debuff.
+Bottom row col 3 BUFF: proud courier stance with compact warm-gold and teal-green paper letters/cloud feathers orbiting the existing satchel and scroll, no new limbs.
+Bottom row col 4 DEBUFF: drooping exhausted courier pose with cool-gray ink marks and negative talisman symbols on the existing cloak and satchel, clearly different from control.
+
+Backdrop: a perfectly flat solid chroma-key magenta background, exact color #FF00FF (RGB 255,0,255) across every background pixel. No transparency, no checkerboard, no gradient, no noise texture, no floor, no shadow plate, no grid or cell lines.
+Style: soft polished 2.5D hand-painted folded-paper game illustration, upper-left light, visible paper fibers and creases, blue/cream/red cloud-mail palette, small gold clasps and tassels.
+Text: none.
+Avoid: labels, numbers, UI, logo, watermark, extra characters, extra arms or legs, wings, horns, added tail, missing satchel, broken scroll bundle, giant sweeping mail trails, cross-cell overlap, cropped parts, idle recolor.
+
+Technical post-processing: normalize only near-magenta background pixels to exact #FF00FF; do not remove, crop, key, or delete any subject/effect pixels.

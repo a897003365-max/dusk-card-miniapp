@@ -1,0 +1,22 @@
+Use case: stylized-concept
+Asset type: game combat sprite master sheet, production intermediate
+Input images: Image 1 is the identity reference for the first-stage paper-lion boss. Image 2 is layout-only reference for a wide 2:1 4-column by 2-row equal-cell chroma-key sprite sheet; do not copy its duck character. Preserve Image 1 identity exactly: cream folded-envelope lion, mask-like face, four existing legs, indigo folded inner faces, red braided cords, red wax seals, triangular paper mane, worn paper fibers, existing tail envelope, and first-stage proportions/anatomy. Do not transform into phase two.
+
+Create exactly one wide 2:1 high-resolution action sprite master sheet matching Image 2's equal-cell layout: four equal-width columns and two equal-height rows, eight complete square-ish action cells, no labels. Keep the complete paper lion, every existing envelope/cord detail, and every action effect inside the inner 70% of its own cell with about 20% clear margin on every side. Use the same scale and baseline across cells. No subject, weapon, paper sheet or sweep may touch or cross a cell boundary. No cropping. Preserve the full attack weapon and full compact slash/sweep inside its own cell.
+
+Exact order:
+Top row col 1 ENTER: paper lion steps/unfolds from a sealed letter into an alert arrival stance, all four existing legs readable.
+Top row col 2 ATTACK: clear committed right-facing lunge using the existing folded envelope/letter weapon, with one short diagonal paper slash/crescent immediately in front of the foreleg, fully contained within cell 2 and separated from cell borders.
+Top row col 3 GUARD: crouched defensive stance with a broad existing folded letter/envelope plate braced in front of the chest, face visible.
+Top row col 4 HURT: recoiling and hunched backward with only a few small paper scraps close to the body, strained face, no blood or gore.
+Bottom row col 1 EXIT: low folding and closing-away pose with a few contained paper sheets, recognizable face and body, temporary defeat.
+Bottom row col 2 CONTROL: indigo paper threads and binding talisman strips wrap existing legs/cords/tools, face unobstructed; compact and distinct from debuff.
+Bottom row col 3 BUFF: lifted proud stance with compact warm gold and teal-green folded paper feathers close to the existing body only.
+Bottom row col 4 DEBUFF: drooping weakened stance with compact cool-gray ink marks and negative talisman symbols on the existing paper, clearly distinct from control.
+
+Backdrop: a perfectly flat solid chroma-key magenta background, exact color #FF00FF (RGB 255,0,255) across every background pixel. No transparency, no checkerboard, no gradient, no noise texture in the background, no floor, no shadow plate, no grid lines or cell borders.
+Style: soft polished 2.5D hand-painted folded-paper game illustration, upper-left light, visible paper fibers and creases, small copper/red cord details.
+Text: none.
+Avoid: labels, numbers, UI, logo, watermark, extra characters, extra limbs, human hands or feet, wings, horns, added tail, phase-two redesign, flesh/fur, plush, plastic, blood, gore, duplicated body, missing legs, broken weapon, truncated sweep, giant cross-cell effect, cropped parts, cross-cell overlap, idle recolor.
+
+Technical post-processing: normalize only near-magenta background pixels to exact #FF00FF; do not remove, crop, key, or delete any subject/effect pixels.

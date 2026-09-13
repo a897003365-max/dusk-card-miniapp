@@ -1,0 +1,23 @@
+{
+  "status": "runtime_acceptance_incomplete",
+  "checks": [
+    {
+      "name": "unit",
+      "exitCode": 0
+    },
+    {
+      "name": "wxss",
+      "exitCode": 0
+    },
+    {
+      "name": "budget",
+      "exitCode": 0
+    }
+  ],
+  "nativeWxmlFiles": 3,
+  "nativeWxssFiles": 4,
+  "unitTests": 37,
+  "reason": "游客 AppID 被 CLI 拒绝；待用户指定独立测试 AppID 与批准隔离消费验收。",
+  "screenshots": [],
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-source-checks-HOM6Ka"
+}

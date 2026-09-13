@@ -1,0 +1,12 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-compile-cache-check-XJQt1J",
+  "checks": [],
+  "shots": [],
+  "beforeHash": "8f1611150f797e0b5c481929a721dd57eb46a94da392567ba90aed6b2fbaf6e1",
+  "clean": {
+    "success": true,
+    "action": "cleanCompileCache",
+    "description": "清理编译缓存"
+  },
+  "error": "{\n  \"ok\": false,\n  \"errorType\": \"MCP_TOOL_ERROR\",\n  \"message\": \"timeout waiting for automator response\",\n  \"source\": \"mcp_business\",\n  \"detail\": {\n    \"rawResult\": {\n      \"success\": false,\n      \"error\": \"timeout waiting for automator response\"\n    }\n  },\n  \"reason\": \"mcp_business_fail\",\n  \"tool\": \"automation_evaluate\",\n  \"clientName\": \"Codex\",\n  \"suggestions\": \"查看该工具完整参数, wechatide -c Codex automation_evaluate -h\"\n}\n"
+}

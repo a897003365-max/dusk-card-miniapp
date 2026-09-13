@@ -1,0 +1,129 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-market-action-probe-6sY2Zt",
+  "checks": [],
+  "shots": [
+    {
+      "name": "market-current",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-market-action-probe-6sY2Zt/market-current.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    }
+  ],
+  "party": [
+    {
+      "id": "sheep",
+      "tier": "R",
+      "level": 3,
+      "role": "guard",
+      "maxHp": 58,
+      "hp": 58,
+      "block": 3,
+      "status": {
+        "mark": 0,
+        "weak": 0,
+        "burn": 0,
+        "counter": 0,
+        "echo": 0,
+        "retainBlock": 0
+      },
+      "usedTurn": {},
+      "usedBattle": {
+        "battleStart": true
+      },
+      "name": "羊咩咩团",
+      "passiveName": "叠信成盾",
+      "passiveDescription": "战斗开始时，全队获得3点护盾；每场战斗限1次。",
+      "statusText": "",
+      "down": false,
+      "image": "/package-actors-a/assets/sheep/guard.png",
+      "roleName": "守护",
+      "baseImage": "/assets/partners/sheep.png",
+      "actionGroup": "a",
+      "hasActionArt": true,
+      "actionState": "guard",
+      "actionLabel": "防御",
+      "statusBadges": [],
+      "acting": false,
+      "impact": "",
+      "impactTone": "shield"
+    },
+    {
+      "id": "orangecat",
+      "tier": "R",
+      "level": 3,
+      "role": "combo",
+      "maxHp": 51,
+      "hp": 51,
+      "block": 3,
+      "status": {
+        "mark": 0,
+        "weak": 0,
+        "burn": 0,
+        "counter": 0,
+        "echo": 0,
+        "retainBlock": 0
+      },
+      "usedTurn": {},
+      "usedBattle": {},
+      "name": "橘猫豆包",
+      "passiveName": "尾巴护住后路",
+      "passiveDescription": "打出伤害效果时，自身本回合每次遭敌主动攻击后反击2点伤害；每回合限1次。",
+      "statusText": "",
+      "down": false,
+      "image": "/package-actors-b/assets/orangecat/guard.png",
+      "roleName": "连携",
+      "baseImage": "/assets/partners/orangecat.png",
+      "actionGroup": "b",
+      "hasActionArt": true,
+      "actionState": "guard",
+      "actionLabel": "防御",
+      "statusBadges": [],
+      "acting": false,
+      "impact": "",
+      "impactTone": "shield"
+    },
+    {
+      "id": "nav",
+      "tier": "R",
+      "level": 3,
+      "role": "echo",
+      "maxHp": 47,
+      "hp": 47,
+      "block": 3,
+      "status": {
+        "mark": 0,
+        "weak": 0,
+        "burn": 0,
+        "counter": 0,
+        "echo": 0,
+        "retainBlock": 0
+      },
+      "usedTurn": {},
+      "usedBattle": {},
+      "name": "领航小鸭",
+      "passiveName": "地图旁的注解",
+      "passiveDescription": "施加标记时，抽1张牌；每回合限1次。",
+      "statusText": "",
+      "down": false,
+      "image": "/package-actors-a/assets/nav/guard.png",
+      "roleName": "回响",
+      "baseImage": "/assets/partners/nav.png",
+      "actionGroup": "a",
+      "hasActionArt": true,
+      "actionState": "guard",
+      "actionLabel": "防御",
+      "statusBadges": [],
+      "acting": false,
+      "impact": "",
+      "impactTone": "shield"
+    }
+  ],
+  "actual": {
+    "route": "package-market/pages/run/index",
+    "beat": "",
+    "images": []
+  },
+  "console": "[\"[error]\",\"[String] <Error: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}>\\nError: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}\\n    at errorReport (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:210620)\\n    at Object.<anonymous> (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:213768)\\n    at Object.cb (http://127.0.0.1:48410/__... (length=1232)\"]\n[\"[error]\",\"[String] <Error: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}>\\nError: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}\\n    at errorReport (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:210620)\\n    at Object.<anonymous> (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:213768)\\n    at Object.cb (http://127.0.0.1:48410/__... (length=1232)\"]\n[\"[error]\",\"[String] <Error: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}>\\nError: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}\\n    at errorReport (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:210620)\\n    at Object.<anonymous> (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:213768)\\n    at Object.cb (http://127.0.0.1:48410/__... (length=1232)\"]\n[\"[error]\",\"[String] <Error: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}>\\nError: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}\\n    at errorReport (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:210620)\\n    at Object.<anonymous> (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:213768)\\n    at Object.cb (http://127.0.0.1:48410/__... (length=1232)\"]\n[\"[error]\",\"[String] <Error: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}>\\nError: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}\\n    at errorReport (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:210620)\\n    at Object.<anonymous> (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:213768)\\n    at Object.cb (http://127.0.0.1:48410/__... (length=1232)\"]",
+  "fullConsole": "1:[\"[info]\",\"[system]\",\"WeChatLib: 3.17.0 (2026.8.18 17:29:36)\"]\n2:[\"[info]\",\"[system]\",\"No. of subpackages: 6\"]\n--\n4:[\"[info]\",\"Lazy code loading is enabled. Only injecting required components.\"]\n5:[\"[error]\",\"[String] <Error: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}>\\nError: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}\\n    at errorReport (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:210620)\\n    at Object.<anonymous> (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:213768)\\n    at Object.cb (http://127.0.0.1:48410/__... (length=1232)\"]\n6:[\"[error]\",\"[String] <Error: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}>\\nError: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}\\n    at errorReport (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:210620)\\n    at Object.<anonymous> (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:213768)\\n    at Object.cb (http://127.0.0.1:48410/__... (length=1232)\"]\n7:[\"[error]\",\"[String] <Error: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}>\\nError: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}\\n    at errorReport (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:210620)\\n    at Object.<anonymous> (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:213768)\\n    at Object.cb (http://127.0.0.1:48410/__... (length=1232)\"]\n8:[\"[error]\",\"[String] <Error: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}>\\nError: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}\\n    at errorReport (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:210620)\\n    at Object.<anonymous> (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:213768)\\n    at Object.cb (http://127.0.0.1:48410/__... (length=1232)\"]\n9:[\"[error]\",\"[String] <Error: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}>\\nError: SystemError (appServiceSDKScriptError)\\n{\\\"err_code\\\":41002,\\\"errMsg\\\":\\\"webapi_getwxaasyncsecinfo:fail appid missing\\\"}\\n    at errorReport (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:210620)\\n    at Object.<anonymous> (http://127.0.0.1:48410/__dev__/WAServiceMainContext.js?t=wechat&v=3.17.0:1:213768)\\n    at Object.cb (http://127.0.0.1:48410/__... (length=1232)\"]"
+}

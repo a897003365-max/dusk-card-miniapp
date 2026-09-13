@@ -1,0 +1,22 @@
+# Sunset action sprite sheet prompt
+
+Generation mode: built-in imagegen, Luna max orchestration.
+Reference images (identity anchors only):
+- docs/visual-rework/production/rgba/sunset-idle.png
+- docs/visual-rework/production/rgba/sunset-cast.png
+
+## Primary generation prompt
+
+Use case: stylized-concept
+Asset type: production game character action sprite sheet for sunset
+Generation orchestration: Luna max.
+Input images: Image 1 and Image 2 are the sunset idle and sunset cast identity references.
+Primary request: Create one wide 2:1 landscape 4-column by 2-row action sprite sheet for the exact same non-human paper-folded sunset courier creature from the references. Preserve its actual anatomy and identity: elongated cream, coral, rose, and lavender origami body, narrow expressive eyes within the folded face, pointed fin/ear-like folds, long curled tail or wing folds, hanging red tassels, and the small rectangular paper parcel with red knot carried at the front. Preserve the same number and placement of its existing fins/appendages; do not force human arms or legs. Create eight genuinely different action poses in this exact order: row 1 enter, attack, guard, hurt; row 2 exit, control, buff, debuff.
+Canvas and chroma-key layout: exactly four equal columns and two equal rows. Every pixel outside the creature and its contained effects must be flat solid pure chroma-key magenta RGB #FF00FF (255,0,255): no transparency, no checkerboard, no gradient, no texture, no floor, no shadow plate. Keep the entire creature plus all effects inside the central 70% width and 70% height of its own cell, with about 20% clean magenta margin on every side. No tail, tassel, parcel, fin, paper shard, glow, or effect may touch or cross a cell boundary. No grid lines, labels, text, logos, or watermark. Keep matching scale, baseline, angle, and readable silhouette.
+Action poses: enter = gliding or unfurling forward into battle with parcel secure and leading folds open; attack = compact rightward dive or thrust with a small diagonal coral/gold paper-light arc contained in the cell, never a full-width sweep; guard = broad folded fins wrap around the parcel and face like a shield; hurt = body curled and recoiling with one fold sagging, face visible and a few contained paper flecks, no blood; exit = low compact folded descent with parcel and face still recognizable; control = indigo paper threads and restraint talismans visibly loop around tail/fins and parcel, face unobstructed; buff = body unfurls upward with warm gold and teal-green paper ribbons or sun-feather accents, positive energy; debuff = drooping folds and cool gray ink-like markings with small negative sigils, clearly different from control.
+Style/medium: soft 2.5D origami paper illustration, layered paper facets, visible paper fiber, restrained copper and red cord details, upper-left light, polished game asset, not plush, plastic, or photorealistic.
+Constraints: preserve the reference's non-human anatomy, no added limbs, no missing appendages, no broken parcel or tassels, no extra characters, no giant effects, no cross-cell bleed, no blood or gore. Output one flat-magenta-background RGB PNG sprite sheet with exactly eight distinct poses in the specified order.
+
+## Artifact note
+
+The saved master is `masters/sunset-sheet.png`, 1774x887 RGB PNG with no alpha. The eight non-human poses remain readable in the required order; the rightward attack has a contained diagonal light arc, and control/buff/debuff effects are distinct. The imagegen magenta background may contain slight per-pixel variation, so root should use the agreed local chroma-key pipeline without cropping or deleting appendages/effects.

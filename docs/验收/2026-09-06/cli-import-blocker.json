@@ -1,0 +1,10 @@
+{
+  "tool": "project_import",
+  "clientName": "Codex",
+  "project": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp",
+  "ok": false,
+  "code": "APPID_ERROR",
+  "message": "不存在此 AppID 请检查后重新输入",
+  "configuredAppid": "touristappid",
+  "status": "runtime_acceptance_incomplete"
+}

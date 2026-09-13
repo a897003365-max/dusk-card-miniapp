@@ -1,0 +1,7 @@
+2026-09-08 · 内置 image_gen__imagegen · background-extraction
+编辑目标：paper-sheep-v1-opaque.png
+实际输出：exec-4b22c211-efbb-4068-b48d-8933325490b7.png
+项目留档：paper-sheep-v2-opaque.png
+结果：sips hasAlpha=no；背景提取未达成，不作为透明运行素材。
+
+Use case: background-extraction. This is a correction of the supplied full-body original paper sheep courier sprite for a native mobile RPG. Remove ONLY the false grey-and-white checkerboard background around and between the character and props. Deliver a PNG with REAL transparent alpha pixels (RGBA) in every background area. The checkerboard in the reference is painted pixels and must be removed, not copied or redrawn. Preserve exactly the friendly folded-paper sheep face, eye expression, curled golden paper horns, indigo-red envelope coat, pale envelope shield with red knot, thread-spool staff, pose, hands, legs, boots, colors, lighting and painterly details. Preserve the complete silhouette including fine hanging red cords and horn/staff gaps. No floor shadow, no backdrop, no UI, no text, no checkerboard pattern. Full body centered with small clear transparent margins, same 2:3 portrait aspect. Actual transparency is essential for layering this character over the existing illustrated game background.

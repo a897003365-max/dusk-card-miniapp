@@ -1,0 +1,106 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-reopen-home-pdRq6H",
+  "checks": [
+    {
+      "name": "关闭与重开保持已完成远行和全部资源一致",
+      "pass": true
+    },
+    {
+      "name": "重开可查看胜利回执",
+      "pass": true
+    },
+    {
+      "name": "收好回执没有再次发奖",
+      "pass": true
+    },
+    {
+      "name": "微信原生成功解码无损渐进JPEG",
+      "pass": true
+    },
+    {
+      "name": "查看信匣和规则未消耗存档资源",
+      "pass": true
+    },
+    {
+      "name": "现场console error为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "receipt-reopened",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-reopen-home-pdRq6H/receipt-reopened.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    },
+    {
+      "name": "postoffice-jpeg-native",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-reopen-home-pdRq6H/postoffice-jpeg-native.jpg",
+      "imageWidth": 562,
+      "imageHeight": 1216
+    }
+  ],
+  "status": "pass",
+  "interactions": [
+    {
+      "selector": ".finish-run",
+      "rect": {
+        "dataset": {},
+        "left": 29,
+        "right": 361,
+        "top": 644,
+        "bottom": 688,
+        "width": 332,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".rules-toggle",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 579.7734375,
+        "bottom": 623.7734375,
+        "width": 184,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".rules-toggle",
+      "rect": {
+        "dataset": {},
+        "left": 103,
+        "right": 287,
+        "top": 579.7734375,
+        "bottom": 623.7734375,
+        "width": 184,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ],
+  "image": {
+    "errMsg": "getImageInfo:ok",
+    "width": 1024,
+    "height": 1536,
+    "type": "jpeg",
+    "orientation": "up",
+    "path": "assets/scenes/summon-postoffice.jpg"
+  },
+  "console": ""
+}

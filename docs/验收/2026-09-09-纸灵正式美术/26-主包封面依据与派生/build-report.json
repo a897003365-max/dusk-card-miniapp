@@ -1,0 +1,26 @@
+[
+  {
+    "id": "street",
+    "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-street/assets/art/street-back.jpg",
+    "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-cover-art-r4Sbj2/street-cover.jpg",
+    "width": 320,
+    "height": 320,
+    "bytes": 23746
+  },
+  {
+    "id": "bridge",
+    "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-bridge/assets/art/bridge-back.jpg",
+    "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-cover-art-r4Sbj2/bridge-cover.jpg",
+    "width": 320,
+    "height": 320,
+    "bytes": 21129
+  },
+  {
+    "id": "market",
+    "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-market/assets/art/market-back.jpg",
+    "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-cover-art-r4Sbj2/market-cover.jpg",
+    "width": 320,
+    "height": 320,
+    "bytes": 21354
+  }
+]

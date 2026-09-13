@@ -1,0 +1,715 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-nyMDCE",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-j3kAdU",
+  "region": "bridge",
+  "checks": [
+    {
+      "name": "音频验收使用独立存档",
+      "pass": true
+    },
+    {
+      "name": "adventure 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "真实界面已开启音乐和音效",
+      "pass": true
+    },
+    {
+      "name": "town 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "town 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "home 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "town 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "town 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "collection 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "town 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "town 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "story 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "letter 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "letter 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "页面切换与声音设置不改游戏存档或随机进度",
+      "pass": true
+    },
+    {
+      "name": "adventure 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "通过正常入口创建远行",
+      "pass": true
+    },
+    {
+      "name": "bridge 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "bridge 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "进入真实战斗",
+      "pass": true
+    },
+    {
+      "name": "确认出牌后实际播放战斗音效",
+      "pass": true
+    },
+    {
+      "name": "主动结束远行有结束音效且恢复城镇音乐",
+      "pass": true
+    },
+    {
+      "name": "整个流程最多三个播放器实例",
+      "pass": true
+    },
+    {
+      "name": "没有音频加载或播放错误",
+      "pass": true
+    },
+    {
+      "name": "控制台 error 筛选为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "town-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-j3kAdU/town-controls.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "home-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-j3kAdU/home-controls.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "collection-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-j3kAdU/collection-controls.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "story-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-j3kAdU/story-controls.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "bridge-battle-sound-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-j3kAdU/bridge-battle-sound-controls.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "bridge-after-turn",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-j3kAdU/bridge-after-turn.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "samples": [
+    {
+      "label": "playing-town",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 1.2393124999999863,
+        "musicStarts": 1,
+        "effectStarts": 0,
+        "lastEffect": "",
+        "contexts": 1,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 2.839312499999995,
+        "musicStarts": 1,
+        "effectStarts": 0,
+        "lastEffect": "",
+        "contexts": 1,
+        "lastError": null
+      }
+    },
+    {
+      "label": "playing-town",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 10.43397916666665,
+        "musicStarts": 1,
+        "effectStarts": 0,
+        "lastEffect": "",
+        "contexts": 1,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 12.039312499999983,
+        "musicStarts": 1,
+        "effectStarts": 0,
+        "lastEffect": "",
+        "contexts": 1,
+        "lastError": null
+      }
+    },
+    {
+      "label": "playing-town",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 1.7881666666666547,
+        "musicStarts": 1,
+        "effectStarts": 0,
+        "lastEffect": "",
+        "contexts": 1,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 3.388166666666649,
+        "musicStarts": 1,
+        "effectStarts": 0,
+        "lastEffect": "",
+        "contexts": 1,
+        "lastError": null
+      }
+    },
+    {
+      "label": "playing-letter",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "letter",
+        "musicSrc": "/assets/audio/letter.mp3",
+        "musicPlaying": true,
+        "musicTime": 4.090666666666664,
+        "musicStarts": 2,
+        "effectStarts": 0,
+        "lastEffect": "",
+        "contexts": 1,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "letter",
+        "musicSrc": "/assets/audio/letter.mp3",
+        "musicPlaying": true,
+        "musicTime": 5.690666666666658,
+        "musicStarts": 2,
+        "effectStarts": 0,
+        "lastEffect": "",
+        "contexts": 1,
+        "lastError": null
+      }
+    },
+    {
+      "label": "playing-bridge",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "bridge",
+        "musicSrc": "/package-bridge/assets/audio/theme.mp3",
+        "musicPlaying": true,
+        "musicTime": 3.082666666666654,
+        "musicStarts": 4,
+        "effectStarts": 1,
+        "lastEffect": "select",
+        "contexts": 2,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "bridge",
+        "musicSrc": "/package-bridge/assets/audio/theme.mp3",
+        "musicPlaying": true,
+        "musicTime": 4.682666666666648,
+        "musicStarts": 4,
+        "effectStarts": 1,
+        "lastEffect": "select",
+        "contexts": 2,
+        "lastError": null
+      }
+    },
+    {
+      "label": "before-card",
+      "music": true,
+      "effects": true,
+      "foreground": true,
+      "scene": "bridge",
+      "musicSrc": "/package-bridge/assets/audio/theme.mp3",
+      "musicPlaying": true,
+      "musicTime": 23.93066666666664,
+      "musicStarts": 4,
+      "effectStarts": 2,
+      "lastEffect": "shuffle",
+      "contexts": 3,
+      "lastError": null
+    },
+    {
+      "label": "after-card",
+      "music": true,
+      "effects": true,
+      "foreground": true,
+      "scene": "bridge",
+      "musicSrc": "/package-bridge/assets/audio/theme.mp3",
+      "musicPlaying": true,
+      "musicTime": 27.919999999999987,
+      "musicStarts": 4,
+      "effectStarts": 4,
+      "lastEffect": "hit",
+      "contexts": 3,
+      "lastError": null
+    },
+    {
+      "label": "after-enemy-turn",
+      "music": true,
+      "effects": true,
+      "foreground": true,
+      "scene": "bridge",
+      "musicSrc": "/package-bridge/assets/audio/theme.mp3",
+      "musicPlaying": true,
+      "musicTime": 3.99466666666666,
+      "musicStarts": 4,
+      "effectStarts": 6,
+      "lastEffect": "hit",
+      "contexts": 3,
+      "lastError": null
+    },
+    {
+      "label": "after-abandon",
+      "music": true,
+      "effects": true,
+      "foreground": true,
+      "scene": "town",
+      "musicSrc": "/assets/audio/town.mp3",
+      "musicPlaying": true,
+      "musicTime": 1.1359999999999957,
+      "musicStarts": 5,
+      "effectStarts": 7,
+      "lastEffect": "defeat",
+      "contexts": 3,
+      "lastError": null
+    },
+    {
+      "label": "final",
+      "music": true,
+      "effects": true,
+      "foreground": true,
+      "scene": "town",
+      "musicSrc": "/assets/audio/town.mp3",
+      "musicPlaying": true,
+      "musicTime": 5.125333333333316,
+      "musicStarts": 5,
+      "effectStarts": 7,
+      "lastEffect": "defeat",
+      "contexts": 3,
+      "lastError": null
+    }
+  ],
+  "status": "pass",
+  "controls": [
+    {
+      "page": "adventure",
+      "width": 390,
+      "buttons": [
+        {
+          "left": 208.125,
+          "right": 286.0625,
+          "top": 12,
+          "bottom": 56,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 294.0625,
+          "right": 372,
+          "top": 12,
+          "bottom": 56,
+          "width": 77.9375,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "page": "home",
+      "width": 390,
+      "buttons": [
+        {
+          "left": 208.125,
+          "right": 286.0625,
+          "top": 12,
+          "bottom": 56,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 294.0625,
+          "right": 372,
+          "top": 12,
+          "bottom": 56,
+          "width": 77.9375,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "page": "collection",
+      "width": 390,
+      "buttons": [
+        {
+          "left": 208.125,
+          "right": 286.0625,
+          "top": 12,
+          "bottom": 56,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 294.0625,
+          "right": 372,
+          "top": 12,
+          "bottom": 56,
+          "width": 77.9375,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "page": "story",
+      "width": 390,
+      "buttons": [
+        {
+          "left": 208.125,
+          "right": 286.0625,
+          "top": 12,
+          "bottom": 56,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 294.0625,
+          "right": 372,
+          "top": 12,
+          "bottom": 56,
+          "width": 77.9375,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "page": "adventure",
+      "width": 390,
+      "buttons": [
+        {
+          "left": 208.125,
+          "right": 286.0625,
+          "top": 12,
+          "bottom": 56,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 294.0625,
+          "right": 372,
+          "top": 12,
+          "bottom": 56,
+          "width": 77.9375,
+          "height": 44
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".region-tab[data-id=\"bridge\"]",
+      "rect": {
+        "dataset": {
+          "id": "bridge"
+        },
+        "left": 138.6640625,
+        "right": 251.328125,
+        "top": 194.890625,
+        "bottom": 268.0859375,
+        "width": 112.6640625,
+        "height": 73.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".start-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-0-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-0-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 331.9921875,
+        "bottom": 400.1875,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".exp-log",
+      "rect": {
+        "dataset": {},
+        "left": 334,
+        "right": 378,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-5\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-5"
+        },
+        "left": 16,
+        "right": 82,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".exp-log",
+      "rect": {
+        "dataset": {},
+        "left": 334,
+        "right": 378,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".abandon-from-log",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 633.8203125,
+        "bottom": 677.8203125,
+        "width": 324,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-abandon",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 577.7578125,
+        "bottom": 621.7578125,
+        "width": 324,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".finish-run",
+      "rect": {
+        "dataset": {},
+        "left": 23,
+        "right": 367,
+        "top": 594.1796875,
+        "bottom": 638.1796875,
+        "width": 344,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    }
+  ],
+  "console": ""
+}

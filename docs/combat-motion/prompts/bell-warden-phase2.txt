@@ -1,0 +1,22 @@
+Use case: stylized-concept
+Asset type: game combat sprite master sheet, production intermediate
+Input images: Image 1 is the identity reference for the bell-warden boss phase two. Image 2 is layout-only reference for a wide 2:1 4-column by 2-row equal-cell chroma-key sprite sheet; do not copy its duck character. Preserve Image 1's phase-two identity exactly: a large ornate round bronze/gold weathered bell shell with larger layered side plates and folded-paper curls, cream folded-paper mask/face beneath the rim with glowing amber eyes, dark-blue and cream folded-paper layers, red braided ropes and rings, multiple pointed gold ornaments, central gold clapper/pendant and more elaborate phase-two armor. Do not revert to phase one. Do not add human arms, legs, hands, feet or any new weapon.
+
+Create exactly one wide 2:1 high-resolution action sprite master sheet matching Image 2's equal-cell layout: four equal-width columns and two equal-height rows, eight complete square-ish action cells, no labels. Keep the complete phase-two bell body, every existing rope/ring/clapper/plate detail and every action effect inside the inner 70% of its own cell with about 20% clear margin around every cell. Same scale and baseline for all floating poses. No subject, bell arc, rope, plate or paper piece may touch or cross a cell boundary. No cropping. The attack uses the existing phase-two bell rim and clapper, with the complete compact chime arc visible inside its cell.
+
+Exact order:
+Top row col 1 ENTER: phase-two bell descends and unfolds its larger side plates into an alert hovering stance, face and clapper visible.
+Top row col 2 ATTACK: phase-two bell tilts toward the right and swings its existing clapper/rim, emitting one compact diagonal gold/indigo folded-paper chime arc immediately beside the bell, fully contained in this cell.
+Top row col 3 GUARD: ornate rim, side plates and folded curls close into a reinforced protective shell, face visible beneath the rim.
+Top row col 4 HURT: phase-two bell tilts and recoils, side plates loosen with a few contained paper flakes, dim strained gaze, no blood or gore.
+Bottom row col 1 EXIT: phase-two bell folds inward and recedes downward, elaborate ropes and clapper still recognizable, suitable for temporary defeat.
+Bottom row col 2 CONTROL: indigo paper ribbons and binding talisman strips wrap existing red ropes, side plates, rings and clapper, face unobstructed; compact and distinct from debuff.
+Bottom row col 3 BUFF: phase-two bell rises proudly with compact warm gold and teal-green chime feathers/ornaments around its existing rim and plates, energized without new anatomy.
+Bottom row col 4 DEBUFF: phase-two bell droops with cool gray ink drips and negative talisman marks on its existing shell, plates and mask, clearly different from control.
+
+Backdrop: a perfectly flat solid chroma-key magenta background, exact color #FF00FF (RGB 255,0,255) across every background pixel. No transparency, no checkerboard, no gradient, no noise texture, no floor, no shadow plate, no grid or cell lines.
+Style: soft polished 2.5D hand-painted folded-paper and weathered-metal game illustration, upper-left light, visible paper fibers, creases, patina and small copper/brass details.
+Text: none.
+Avoid: labels, numbers, UI, logo, watermark, any other character, human anatomy, extra limbs, wings, horns, added tail, phase-one redesign, flesh/fur, plush, plastic, blood, gore, duplicated bell, broken clapper, cropped parts, giant sweeping sound waves, cross-cell overlap, idle recolor.
+
+Technical post-processing: normalize only near-magenta background pixels to exact #FF00FF; do not remove, crop, key, or delete any subject/effect pixels.

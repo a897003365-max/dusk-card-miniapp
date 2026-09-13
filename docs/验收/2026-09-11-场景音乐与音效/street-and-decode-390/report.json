@@ -1,0 +1,743 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-K3yvHv",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-51lxeY",
+  "region": "street",
+  "checks": [
+    {
+      "name": "音频验收使用独立存档",
+      "pass": true
+    },
+    {
+      "name": "真实界面已开启音乐和音效",
+      "pass": true
+    },
+    {
+      "name": "town 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "town 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "town 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "town 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "town 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "town 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "letter 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "letter 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "页面切换与声音设置不改游戏存档或随机进度",
+      "pass": true
+    },
+    {
+      "name": "22个本地音频全部通过原生播放与解码探针",
+      "pass": true
+    },
+    {
+      "name": "通过正常入口创建远行",
+      "pass": true
+    },
+    {
+      "name": "street 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "street 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "进入真实战斗",
+      "pass": true
+    },
+    {
+      "name": "确认出牌后实际播放战斗音效",
+      "pass": true
+    },
+    {
+      "name": "主动结束远行有结束音效且恢复城镇音乐",
+      "pass": true
+    },
+    {
+      "name": "整个流程最多三个播放器实例",
+      "pass": true
+    },
+    {
+      "name": "没有音频加载或播放错误",
+      "pass": true
+    },
+    {
+      "name": "控制台 error 筛选为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "town-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-51lxeY/town-controls.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "home-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-51lxeY/home-controls.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "collection-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-51lxeY/collection-controls.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "story-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-51lxeY/story-controls.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "street-battle-sound-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-51lxeY/street-battle-sound-controls.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "street-after-turn",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-51lxeY/street-after-turn.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "samples": [
+    {
+      "label": "playing-town",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 2.115416666666661,
+        "musicStarts": 3,
+        "effectStarts": 1,
+        "lastEffect": "summon",
+        "contexts": 2,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 3.7154166666666555,
+        "musicStarts": 3,
+        "effectStarts": 1,
+        "lastEffect": "summon",
+        "contexts": 2,
+        "lastError": null
+      }
+    },
+    {
+      "label": "playing-town",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 9.395416666666648,
+        "musicStarts": 3,
+        "effectStarts": 1,
+        "lastEffect": "summon",
+        "contexts": 2,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 11.000749999999982,
+        "musicStarts": 3,
+        "effectStarts": 1,
+        "lastEffect": "summon",
+        "contexts": 2,
+        "lastError": null
+      }
+    },
+    {
+      "label": "playing-town",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 16.568749999999994,
+        "musicStarts": 3,
+        "effectStarts": 1,
+        "lastEffect": "summon",
+        "contexts": 2,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 0.16827083333332027,
+        "musicStarts": 3,
+        "effectStarts": 1,
+        "lastEffect": "summon",
+        "contexts": 2,
+        "lastError": null
+      }
+    },
+    {
+      "label": "playing-letter",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "letter",
+        "musicSrc": "/assets/audio/letter.mp3",
+        "musicPlaying": true,
+        "musicTime": 2.8373333333333335,
+        "musicStarts": 4,
+        "effectStarts": 1,
+        "lastEffect": "summon",
+        "contexts": 2,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "letter",
+        "musicSrc": "/assets/audio/letter.mp3",
+        "musicPlaying": true,
+        "musicTime": 4.437333333333328,
+        "musicStarts": 4,
+        "effectStarts": 1,
+        "lastEffect": "summon",
+        "contexts": 2,
+        "lastError": null
+      }
+    },
+    {
+      "label": "playing-street",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "street",
+        "musicSrc": "/package-street/assets/audio/theme.mp3",
+        "musicPlaying": true,
+        "musicTime": 3.1999999999999886,
+        "musicStarts": 6,
+        "effectStarts": 2,
+        "lastEffect": "select",
+        "contexts": 3,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "scene": "street",
+        "musicSrc": "/package-street/assets/audio/theme.mp3",
+        "musicPlaying": true,
+        "musicTime": 4.800000000000011,
+        "musicStarts": 6,
+        "effectStarts": 2,
+        "lastEffect": "select",
+        "contexts": 3,
+        "lastError": null
+      }
+    },
+    {
+      "label": "before-card",
+      "music": true,
+      "effects": true,
+      "foreground": true,
+      "scene": "street",
+      "musicSrc": "/package-street/assets/audio/theme.mp3",
+      "musicPlaying": true,
+      "musicTime": 23.94133333333332,
+      "musicStarts": 6,
+      "effectStarts": 3,
+      "lastEffect": "shuffle",
+      "contexts": 3,
+      "lastError": null
+    },
+    {
+      "label": "after-card",
+      "music": true,
+      "effects": true,
+      "foreground": true,
+      "scene": "street",
+      "musicSrc": "/package-street/assets/audio/theme.mp3",
+      "musicPlaying": true,
+      "musicTime": 27.829333333333324,
+      "musicStarts": 6,
+      "effectStarts": 5,
+      "lastEffect": "hit",
+      "contexts": 3,
+      "lastError": null
+    },
+    {
+      "label": "after-enemy-turn",
+      "music": true,
+      "effects": true,
+      "foreground": true,
+      "scene": "street",
+      "musicSrc": "/package-street/assets/audio/theme.mp3",
+      "musicPlaying": true,
+      "musicTime": 3.9679999999999893,
+      "musicStarts": 6,
+      "effectStarts": 7,
+      "lastEffect": "hit",
+      "contexts": 3,
+      "lastError": null
+    },
+    {
+      "label": "after-abandon",
+      "music": true,
+      "effects": true,
+      "foreground": true,
+      "scene": "town",
+      "musicSrc": "/assets/audio/town.mp3",
+      "musicPlaying": true,
+      "musicTime": 1.306666666666672,
+      "musicStarts": 7,
+      "effectStarts": 8,
+      "lastEffect": "defeat",
+      "contexts": 3,
+      "lastError": null
+    },
+    {
+      "label": "final",
+      "music": true,
+      "effects": true,
+      "foreground": true,
+      "scene": "town",
+      "musicSrc": "/assets/audio/town.mp3",
+      "musicPlaying": true,
+      "musicTime": 5.424000000000007,
+      "musicStarts": 7,
+      "effectStarts": 8,
+      "lastEffect": "defeat",
+      "contexts": 3,
+      "lastError": null
+    }
+  ],
+  "status": "pass",
+  "assetProbe": [
+    {
+      "src": "/assets/audio/town.mp3",
+      "played": true,
+      "duration": 18.00047916666667,
+      "currentTime": 0.4053333333333171,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/letter.mp3",
+      "played": true,
+      "duration": 18.00047916666667,
+      "currentTime": 0.40533333333334554,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/boss.mp3",
+      "played": true,
+      "duration": 14,
+      "currentTime": 0.4053333333333171,
+      "error": null
+    },
+    {
+      "src": "/package-street/assets/audio/theme.mp3",
+      "played": true,
+      "duration": 28,
+      "currentTime": 0.4000000000000057,
+      "error": null
+    },
+    {
+      "src": "/package-bridge/assets/audio/theme.mp3",
+      "played": true,
+      "duration": 28,
+      "currentTime": 0.4000000000000057,
+      "error": null
+    },
+    {
+      "src": "/package-market/assets/audio/theme.mp3",
+      "played": true,
+      "duration": 28,
+      "currentTime": 0.4053333333333171,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/select.mp3",
+      "played": true,
+      "duration": 0.18,
+      "currentTime": 0,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/card.mp3",
+      "played": true,
+      "duration": 0.32,
+      "currentTime": 0,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/attack.mp3",
+      "played": true,
+      "duration": 0.5,
+      "currentTime": 0.4000000000000057,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/hit.mp3",
+      "played": true,
+      "duration": 0.22,
+      "currentTime": 0,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/guard.mp3",
+      "played": true,
+      "duration": 0.3,
+      "currentTime": 0,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/heal.mp3",
+      "played": true,
+      "duration": 0.6,
+      "currentTime": 0.4000000000000057,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/buff.mp3",
+      "played": true,
+      "duration": 0.7,
+      "currentTime": 0.4000000000000057,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/debuff.mp3",
+      "played": true,
+      "duration": 0.5,
+      "currentTime": 0.40533333333334554,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/shuffle.mp3",
+      "played": true,
+      "duration": 0.8,
+      "currentTime": 0.4053333333333171,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/summon.mp3",
+      "played": true,
+      "duration": 0.9,
+      "currentTime": 0.40533333333334554,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/rare.mp3",
+      "played": true,
+      "duration": 0.7500208333333334,
+      "currentTime": 0.4053333333333171,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/reward.mp3",
+      "played": true,
+      "duration": 0.7,
+      "currentTime": 0.4000000000000057,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/chest.mp3",
+      "played": true,
+      "duration": 1,
+      "currentTime": 0.40533333333334554,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/victory.mp3",
+      "played": true,
+      "duration": 1.1,
+      "currentTime": 0.4000000000000057,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/defeat.mp3",
+      "played": true,
+      "duration": 1,
+      "currentTime": 0.40533333333334554,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/phase.mp3",
+      "played": true,
+      "duration": 1,
+      "currentTime": 0.4000000000000057,
+      "error": null
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".region-tab[data-id=\"street\"]",
+      "rect": {
+        "dataset": {
+          "id": "street"
+        },
+        "left": 18,
+        "right": 130.6640625,
+        "top": 194.890625,
+        "bottom": 254.0859375,
+        "width": 112.6640625,
+        "height": 59.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".start-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 611,
+        "bottom": 659,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-0-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-0-0"
+        },
+        "left": 59,
+        "right": 211,
+        "top": 331.9921875,
+        "bottom": 400.1875,
+        "width": 152,
+        "height": 68.1953125
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".exp-log",
+      "rect": {
+        "dataset": {},
+        "left": 334,
+        "right": 378,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 75.2421875,
+        "bottom": 119.2421875,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-8\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-8"
+        },
+        "left": 88,
+        "right": 154,
+        "top": 533,
+        "bottom": 651,
+        "width": 66,
+        "height": 118
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 141.9296875,
+        "right": 248.0625,
+        "top": 100.3984375,
+        "bottom": 275.9921875,
+        "width": 106.1328125,
+        "height": 175.59375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 146.078125,
+        "right": 376,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 229.921875,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 137.078125,
+        "top": 667.5,
+        "bottom": 711.5,
+        "width": 123.078125,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".exp-log",
+      "rect": {
+        "dataset": {},
+        "left": 334,
+        "right": 378,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".abandon-from-log",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 633.8203125,
+        "bottom": 677.8203125,
+        "width": 324,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".confirm-abandon",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 577.7578125,
+        "bottom": 621.7578125,
+        "width": 324,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    },
+    {
+      "selector": ".finish-run",
+      "rect": {
+        "dataset": {},
+        "left": 23,
+        "right": 367,
+        "top": 594.1796875,
+        "bottom": 638.1796875,
+        "width": 344,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 719
+      }
+    }
+  ],
+  "console": ""
+}

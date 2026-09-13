@@ -1,0 +1,1 @@
+<image wx:if="{{src}}" class="action-image" src="{{src}}" mode="aspectFit" bindload="loaded" binderror="failed" data-state="{{state}}" data-actor="{{actor}}"/>

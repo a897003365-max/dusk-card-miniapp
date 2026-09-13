@@ -1,0 +1,114 @@
+{
+  "files": [
+    {
+      "alphaMax": 255,
+      "alphaMin": 255,
+      "decodedFormat": "RGBA8-premultipliedLast-bigEndian",
+      "edges": {
+        "bottom": true,
+        "left": true,
+        "right": true,
+        "top": true
+      },
+      "height": 1536,
+      "nonTransparentBounds": {
+        "height": 1536,
+        "maxX": 1023,
+        "maxY": 1535,
+        "minX": 0,
+        "minY": 0,
+        "width": 1024,
+        "x": 0,
+        "y": 0
+      },
+      "opaquePixels": 1572864,
+      "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/paper-sheep-v1-opaque.png",
+      "pixelCount": 1572864,
+      "reasons": [
+        "没有实际 alpha=0 的透明像素"
+      ],
+      "semiTransparentPixels": 0,
+      "sourceBitsPerComponent": 8,
+      "status": "fail",
+      "touchesCanvasEdge": true,
+      "transparentPixels": 0,
+      "warnings": [
+        "非透明像素碰到画布边缘，请人工确认是否裁切"
+      ],
+      "width": 1024
+    },
+    {
+      "alphaMax": 255,
+      "alphaMin": 255,
+      "decodedFormat": "RGBA8-premultipliedLast-bigEndian",
+      "edges": {
+        "bottom": true,
+        "left": true,
+        "right": true,
+        "top": true
+      },
+      "height": 1536,
+      "nonTransparentBounds": {
+        "height": 1536,
+        "maxX": 1023,
+        "maxY": 1535,
+        "minX": 0,
+        "minY": 0,
+        "width": 1024,
+        "x": 0,
+        "y": 0
+      },
+      "opaquePixels": 1572864,
+      "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/visual-rework/pilots/paper-sheep-v2-opaque.png",
+      "pixelCount": 1572864,
+      "reasons": [
+        "没有实际 alpha=0 的透明像素"
+      ],
+      "semiTransparentPixels": 0,
+      "sourceBitsPerComponent": 8,
+      "status": "fail",
+      "touchesCanvasEdge": true,
+      "transparentPixels": 0,
+      "warnings": [
+        "非透明像素碰到画布边缘，请人工确认是否裁切"
+      ],
+      "width": 1024
+    },
+    {
+      "alphaMax": 254,
+      "alphaMin": 0,
+      "decodedFormat": "RGBA8-premultipliedLast-bigEndian",
+      "edges": {
+        "bottom": false,
+        "left": false,
+        "right": false,
+        "top": false
+      },
+      "height": 128,
+      "nonTransparentBounds": {
+        "height": 78,
+        "maxX": 104,
+        "maxY": 120,
+        "minX": 23,
+        "minY": 43,
+        "width": 82,
+        "x": 23,
+        "y": 43
+      },
+      "opaquePixels": 0,
+      "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/assets/prizes/sheep/R.png",
+      "pixelCount": 16384,
+      "reasons": [],
+      "semiTransparentPixels": 4697,
+      "sourceBitsPerComponent": 8,
+      "status": "pass",
+      "touchesCanvasEdge": false,
+      "transparentPixels": 11687,
+      "warnings": [],
+      "width": 128
+    }
+  ],
+  "status": "fail",
+  "processExitCode": 1,
+  "knownCaseResultsMatch": true
+}

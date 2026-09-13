@@ -1,0 +1,478 @@
+[
+  {
+    "file": "app.js",
+    "sha256": "643b55e4c4c97e6497a38883ef3ed8208e74976ff15f96e7c42e65cc6e3f4e82"
+  },
+  {
+    "file": "app.json",
+    "sha256": "ecb325281c7f70da9fe19f4182216e2cfa6430b3d63915c2480b80924720e0f0"
+  },
+  {
+    "file": "app.wxss",
+    "sha256": "44971bc95291b9695389096e3b02c5ccfaa149425b1a8479ed4c959815e8ebe2"
+  },
+  {
+    "file": "project.config.json",
+    "sha256": "d54f86d52dbe94911c67aecbdd58222c2503af2305762d5e0c93907e5e030ff0"
+  },
+  {
+    "file": "utils/combat-content.js",
+    "sha256": "671665dca1ee2f22ca27329ba0e499a8bbd81340b882d54de2c38f9b567c7b04"
+  },
+  {
+    "file": "utils/combat.js",
+    "sha256": "67072e0fbfaccf22736b26d883118ffbd56d8e1ff2f7f45190fdd0859f6c3adc"
+  },
+  {
+    "file": "utils/content.js",
+    "sha256": "7529bbd0704731b5d85ee993d2fd22431a668abe2591dd611c4dd24f1c0cd450"
+  },
+  {
+    "file": "utils/expedition-page.js",
+    "sha256": "e6b651587524b4f95804f5ee5f9644733c8731e743524b5f1731a87d038fd692"
+  },
+  {
+    "file": "utils/game.js",
+    "sha256": "d36e646d1fa440d4417aead7b210e8fa6edddb73ef20531868d2e209b13f81fd"
+  },
+  {
+    "file": "utils/summon.js",
+    "sha256": "242df79e35e4e4d96f269b1110b9ad89317ea4d4047f192a98c686f480960597"
+  },
+  {
+    "file": "templates/expedition.wxml",
+    "sha256": "16006374a4550e425c2746bb7f17ede11bcde05c798d448f3d22b73a85722a49"
+  },
+  {
+    "file": "templates/expedition.wxss",
+    "sha256": "1b7d6dd62389cc24ddd6df85395dd8821a06c1cb3605b1f03af9ca6baf6244ae"
+  },
+  {
+    "file": "pages/adventure/index.js",
+    "sha256": "cd7e0610eea790d673f5609340de6d68b3cf30ccd058df01e99cd5f7576f5edd"
+  },
+  {
+    "file": "pages/adventure/index.json",
+    "sha256": "87d87eb931364e6d0f4ce36f754d9054580455edf97899d15c479abbedac0b27"
+  },
+  {
+    "file": "pages/adventure/index.wxml",
+    "sha256": "79266d422775cf723054da990ebe20215b673213fac92200d8b82a2861bd7c62"
+  },
+  {
+    "file": "pages/adventure/index.wxss",
+    "sha256": "d907a4049836f5779fe6678ac4de4dc6f28e7a43c2de7ab8be49a3044159a06d"
+  },
+  {
+    "file": "pages/collection/index.js",
+    "sha256": "9194be43938902fcc74e4f27106e07f9dcf47213f82e0594861cb3b44cbc9e49"
+  },
+  {
+    "file": "pages/collection/index.json",
+    "sha256": "a241155bc20b83eeb5ec68177afb1f252ae4721243246bd7d5e7ba8b9a087017"
+  },
+  {
+    "file": "pages/collection/index.wxml",
+    "sha256": "d051e7b36a0f686af82bc7133cd5edf7e7d34e3bc86d7bd3017b7db40b66db4e"
+  },
+  {
+    "file": "pages/collection/index.wxss",
+    "sha256": "98b52d28b91ddace238ba1e5e634990a0aab9ad0db1c614a7258da85869266c9"
+  },
+  {
+    "file": "pages/home/index.js",
+    "sha256": "54bf912960ba1cd01250a70461c11a062ed14ac7923750077d82a097708a4b2f"
+  },
+  {
+    "file": "pages/home/index.json",
+    "sha256": "c51c0f5c95a4f1fcc04e82c6c6b1d359ff2725861356ce527f881be1cd5d21af"
+  },
+  {
+    "file": "pages/home/index.wxml",
+    "sha256": "767cfccdc3f89ffa3b07fd6829fcb57f06b9215b0689bc95aa1125e683b75ce1"
+  },
+  {
+    "file": "pages/home/index.wxss",
+    "sha256": "8f5dd0d6234d973783faaa6d75b04c5a5f396ec24585873916e638000ab66196"
+  },
+  {
+    "file": "pages/home/summon.wxss",
+    "sha256": "abea1e62c8efe1e63ecb6bbf33708c4225e7b5fb0a919c2644a6867a1e6d6de3"
+  },
+  {
+    "file": "pages/story/index.js",
+    "sha256": "21aa0f0df40bafa65c14843975d234419c671aab2a15b9b4520b140bdd9232e9"
+  },
+  {
+    "file": "pages/story/index.json",
+    "sha256": "79a122ed0be725e55f959b90727ea06576d47037b2f8f6406a376fe3372dba27"
+  },
+  {
+    "file": "pages/story/index.wxml",
+    "sha256": "85c2d5c12cb11d13da954d1dfa2ea18d6d32f7e5315cc6117128c1c70f694207"
+  },
+  {
+    "file": "pages/story/index.wxss",
+    "sha256": "767e6ca54b2c055ba1c72d0783895419887d6b7a434b0af816980e940a6364d6"
+  },
+  {
+    "file": "assets/partners/badminton-cast.png",
+    "sha256": "f6377349651ea1f0709c38cae0e1420a62e470fc2e5b25f4f526509b72fb982c"
+  },
+  {
+    "file": "assets/partners/badminton.png",
+    "sha256": "83fe58816258732b3df28a0c361a4568250ea68ca5ae0011c3283d358daa850e"
+  },
+  {
+    "file": "assets/partners/blanket-cast.png",
+    "sha256": "4013c7039abf6412790ca62bcf153a601055dd9f1badf8884881e23da672af26"
+  },
+  {
+    "file": "assets/partners/blanket.png",
+    "sha256": "f7c553270aa45d76e9fcffea5cf1d9702e689a2eb5e105b7b69b62337937e621"
+  },
+  {
+    "file": "assets/partners/bomb-cast.png",
+    "sha256": "7887a03ceac98a651dc3926fa6ba9bd98801cebccbcd58465c0a6ebe990225e8"
+  },
+  {
+    "file": "assets/partners/bomb.png",
+    "sha256": "371b1fa5535d27c9c8bf850ccf205c2cda973fd5092a3d2fd5e4b761fa778b12"
+  },
+  {
+    "file": "assets/partners/burger-cast.png",
+    "sha256": "92a1e88e80a38712b5c4ad711edbba93fbd35724b7af9a1897c6a7a69f6878f9"
+  },
+  {
+    "file": "assets/partners/burger.png",
+    "sha256": "c3f52e65b150ade15cd8a0250ef7003ee2044985d390422558b81c9161c27dc1"
+  },
+  {
+    "file": "assets/partners/catcafe-cast.png",
+    "sha256": "f86fa0e5d82ecd479a1a0b022e909b8e90552b6fa0222040665134bc1255367f"
+  },
+  {
+    "file": "assets/partners/catcafe.png",
+    "sha256": "d51351423a4f34595d40a36b55e71e1e6c76d250c69a75de874e0804278d33dc"
+  },
+  {
+    "file": "assets/partners/cloudmail-cast.png",
+    "sha256": "bfc026f94bcd0f42c0246b17229b66e16e06bbd72d0d87fe786ec914536d2328"
+  },
+  {
+    "file": "assets/partners/cloudmail.png",
+    "sha256": "c11821257daee293fa9f00ea46294d2d647b91702bcbbc943d9dbedba174aaa4"
+  },
+  {
+    "file": "assets/partners/doudou-cast.png",
+    "sha256": "8093988540d7990ebe7de3bc527f00202a394d7f1a42177bafca4520517e5c4c"
+  },
+  {
+    "file": "assets/partners/doudou.png",
+    "sha256": "11a5cbdd34528331a886c89d170251c4a3aad03966830e8f6b8c3c8f6f625887"
+  },
+  {
+    "file": "assets/partners/firefly-cast.png",
+    "sha256": "fd694e902dfccfd854a18a235a33be8b802bd9a2db3098018ddf5b4ff0aa986d"
+  },
+  {
+    "file": "assets/partners/firefly.png",
+    "sha256": "31565a41801521efd08a4ece4c755ec513f77826a41a43408cfe8e4dc483fd18"
+  },
+  {
+    "file": "assets/partners/hydrangea-cast.png",
+    "sha256": "7ffb8c23490b1a6b230852b52e2740d09383e3444c8c549c3f44561c00275ca4"
+  },
+  {
+    "file": "assets/partners/hydrangea.png",
+    "sha256": "b3ea02913b04d96734d839603fbb95cf805dca762a26479080d4c16ab14233c2"
+  },
+  {
+    "file": "assets/partners/moon-cast.png",
+    "sha256": "e63e8a0ad3487bf3af706c0a615fd462a659198a18d6b9615ffed481f39b02c5"
+  },
+  {
+    "file": "assets/partners/moon.png",
+    "sha256": "ff2bb8e13ad4457656f8c818b76146b779ba0b9101165ff953d4684d1a0fe534"
+  },
+  {
+    "file": "assets/partners/nav-cast.png",
+    "sha256": "508a11db3bd23239d3843bcb7964263fc81278c615fe92c6c406dd93595c34ff"
+  },
+  {
+    "file": "assets/partners/nav.png",
+    "sha256": "f4b6ce9e801d935b5f0844be768dfe98dacd723363ebef87e12830b1640466a6"
+  },
+  {
+    "file": "assets/partners/orangecat-cast.png",
+    "sha256": "aa1dd2302137c0636ab8f95cacdc467335f1df7159c1c0b6d343e0f860a55816"
+  },
+  {
+    "file": "assets/partners/orangecat.png",
+    "sha256": "a0a442804036cf8320d34a68e2d54f43b61235437454862fa0a0381857ad5e28"
+  },
+  {
+    "file": "assets/partners/pear-cast.png",
+    "sha256": "5abe23d8a2490456c43c1edae91273afa32f9979d3bafbbc28684b6a7bb0d62c"
+  },
+  {
+    "file": "assets/partners/pear.png",
+    "sha256": "235e4404654af95316a9a00075e2df20c064a5f695b9d1a753f71861e3adab59"
+  },
+  {
+    "file": "assets/partners/pearlamp-cast.png",
+    "sha256": "3c6b50908d90f4ad6729bd3bf2ccbc4f132ac87c9c8f14f9b9bdae85b589c0d5"
+  },
+  {
+    "file": "assets/partners/pearlamp.png",
+    "sha256": "3aee186d11b11103bae4f60c81e420832d2d6677f6aca7b47be0a9970681d1a8"
+  },
+  {
+    "file": "assets/partners/ramen-cast.png",
+    "sha256": "d9651ef88035f4aff0c6f518bc916de0c15daba1605fe2506c3d39b0515caba5"
+  },
+  {
+    "file": "assets/partners/ramen.png",
+    "sha256": "7d72f90d35c4fca3793a146a09176af391e2a2b7326157ffe5ad6a270eb93649"
+  },
+  {
+    "file": "assets/partners/seedling-cast.png",
+    "sha256": "5480b21fe5d6aad0e517770ad753f7edb72c2396165e98b89225371e5814ebca"
+  },
+  {
+    "file": "assets/partners/seedling.png",
+    "sha256": "81c92641759da3bc9c82c4dff69e562227bd0d55992bb9cc36b72c77120ef186"
+  },
+  {
+    "file": "assets/partners/sheep-cast.png",
+    "sha256": "6a658376ba2d1a6b300b70726cff7ad0880632d483c9a9b42ad5973bf0052c5e"
+  },
+  {
+    "file": "assets/partners/sheep.png",
+    "sha256": "052b3e3c6987fff777314088fccba0ad03ae1f7d47c51def237f5e9ce521ced5"
+  },
+  {
+    "file": "assets/partners/soup-cast.png",
+    "sha256": "8b0fb11a6af4f5132b508dd2f3278f26f920d6e00aef40e643885257864e777d"
+  },
+  {
+    "file": "assets/partners/soup.png",
+    "sha256": "dc65dc1ccd2c7db791e1e91faa6eb1291802fe5767592150520008effa68e944"
+  },
+  {
+    "file": "assets/partners/sunset-cast.png",
+    "sha256": "7d09f7c6db3a9b26e183da704f94fd8c9029e809f3038cf80cecfc63d73be443"
+  },
+  {
+    "file": "assets/partners/sunset.png",
+    "sha256": "dab3bb5f684095b8809ce77dc1b4030452a49b93899b45b170bb8dc04f48b3c9"
+  },
+  {
+    "file": "assets/partners/sushi-cast.png",
+    "sha256": "c7235750820c0d7bab17a68730d1d7e4f058d797a23d3eb3c24f38d6377a684b"
+  },
+  {
+    "file": "assets/partners/sushi.png",
+    "sha256": "6c5b9bab4fff525b48e8f379a88ab2c8cc383375ccc95b6ca058c786f31cfa63"
+  },
+  {
+    "file": "assets/partners/tea-cast.png",
+    "sha256": "ba10e61a6cf4b616e7cceddd5b934fd5f62fe0317e117f3b529d14455143cb83"
+  },
+  {
+    "file": "assets/partners/tea.png",
+    "sha256": "8f50d2af6bb98f22532601dcde18b333ee61ef9c952df1892e66089dfc9a0bd3"
+  },
+  {
+    "file": "assets/partners/ticket-cast.png",
+    "sha256": "7bdb03c3b539bdfaee2103c9abc740d9d289bd2913851b3ec3dcb33f9ab78714"
+  },
+  {
+    "file": "assets/partners/ticket.png",
+    "sha256": "9a7b3eca74563244a22b6b3e82da5e3757ff52e113c5e130ece6d00b17b39bf6"
+  },
+  {
+    "file": "assets/battle/manifest.js",
+    "sha256": "e4e4635abf71f93ef26eea3a8107d1b001844b6bee51852c061e46420eb553a4"
+  },
+  {
+    "file": "package-street/assets/art/paper-ball.png",
+    "sha256": "e1456973a49dca17403bf5961d966b44ee5beecd9f433c9a9e315d0a3d11025e"
+  },
+  {
+    "file": "package-street/assets/art/paper-lion-phase2.png",
+    "sha256": "21c937b4b3846f4ce9f4c9b41d257240b4ed9b20e78e624e975ee28943a4307f"
+  },
+  {
+    "file": "package-street/assets/art/paper-lion.png",
+    "sha256": "c148447e55ae74cd9d20f380009fbec4d42c3ab8fffa5f6d4705266a4e7448a7"
+  },
+  {
+    "file": "package-street/assets/art/postbag-guard.png",
+    "sha256": "8fd813b75f692b500d6250cb49b9267b8fffd4fc78d19a048093693728808684"
+  },
+  {
+    "file": "package-street/assets/art/stamp-moth.png",
+    "sha256": "ebacf7647c17096a3af522f144d9ca1d9cfc797176a0c41759be340ca40564bc"
+  },
+  {
+    "file": "package-street/assets/art/stamp-press.png",
+    "sha256": "58189e02799a273c5989a892b5b4783494e23fadf10af9281a9a918e58341187"
+  },
+  {
+    "file": "package-street/assets/art/street-back.jpg",
+    "sha256": "9ec50c0af7c2818101f7a4af427e8e5f85842224cd3c41d1bac4d8f8919ba61b"
+  },
+  {
+    "file": "package-street/assets/art/street-front.png",
+    "sha256": "f32c03449361038ee3e3211babd48d9deca018fcbd0fbfdfa9ae6dc87d040cb4"
+  },
+  {
+    "file": "package-street/assets/art/street-middle.png",
+    "sha256": "d6a7ed2998f8f1d9b433416675f1f9506a58a70a12b56b752599d2227bb5e59a"
+  },
+  {
+    "file": "package-street/assets/art/twine-sprite.png",
+    "sha256": "df964966bc5c184dcbbc6dfa26b8ff1e309b40741d4821fb1b0fa90f4cf5e9a8"
+  },
+  {
+    "file": "package-street/assets/art/wax-drop.png",
+    "sha256": "39aaf93eb958688b2ffd82bda5802583e0368b3db21a27225b9dbfb2ac3f5774"
+  },
+  {
+    "file": "package-street/pages/run/index.js",
+    "sha256": "0a1e7e2ac4494063af59de7b910a42c99f1aac4e8631c8b3cd54f110b4d4882e"
+  },
+  {
+    "file": "package-street/pages/run/index.json",
+    "sha256": "cf509d047b197ecfe242d0b85ecdee4f47ad8d2ae3ea26bd04f8af2db74d0075"
+  },
+  {
+    "file": "package-street/pages/run/index.wxml",
+    "sha256": "6a32b5a60559764312f488f490cb34f98edbfe3e9597b65367e0b0875cd3b4f6"
+  },
+  {
+    "file": "package-street/pages/run/index.wxss",
+    "sha256": "ea1163e6e057cc010af6c5d49d2d644ef9d127c12e14789fc75e194dfc4810a3"
+  },
+  {
+    "file": "package-bridge/assets/art/bridge-back.jpg",
+    "sha256": "17fa50521486621ffd0fa4b4a004f459707321245c3a6ccc87a9a0c64df266e8"
+  },
+  {
+    "file": "package-bridge/assets/art/bridge-drum.png",
+    "sha256": "c02a9bc34f99e9b7b7a06cc836f507cdadd7a4545fc425976fec624edad37db0"
+  },
+  {
+    "file": "package-bridge/assets/art/bridge-front.png",
+    "sha256": "1e54ef574fa8c56a0ec2e32b5a624b15bd8745de4e498dba9c6f2fb6cb18a887"
+  },
+  {
+    "file": "package-bridge/assets/art/bridge-middle.png",
+    "sha256": "bb67118dfa5b3cca864dbc4de1b0e3ccb94b14bc0fb7e88a2e4883046e052e33"
+  },
+  {
+    "file": "package-bridge/assets/art/ink-puddle.png",
+    "sha256": "cdbff75ef13160c0565e88a6823e3afd6043ae88a4831c01125b4b5c85a35067"
+  },
+  {
+    "file": "package-bridge/assets/art/ink-tide-phase2.png",
+    "sha256": "a7bffeacb34d7318d55b36a7d110a8bf5a15088744571c24522b62d77e78eee1"
+  },
+  {
+    "file": "package-bridge/assets/art/ink-tide.png",
+    "sha256": "576bf3775e71ff36eaf01dc99d9ccad425a49628f823b42be7f333a6825d1cdd"
+  },
+  {
+    "file": "package-bridge/assets/art/rain-knot.png",
+    "sha256": "7cdde0d371ab0d3fa4bbc6aa449a6f00f1c2670bdb852722e9318c9e2da5c06f"
+  },
+  {
+    "file": "package-bridge/assets/art/reed-shadow.png",
+    "sha256": "2840f9fc33f2cf3989f66c5b08329fc8d48ccf19c979109202bbbc4f5c6c1ce4"
+  },
+  {
+    "file": "package-bridge/assets/art/tile-sprite.png",
+    "sha256": "9fb80edae9bb7befd86556b733a7d58a900e02469777ff1f5f5b69676da1defa"
+  },
+  {
+    "file": "package-bridge/assets/art/umbrella-spirit.png",
+    "sha256": "3f383da21a7e93b1b2a79626cd46e4a750626dc5fd2fdf2746550568e8dc3165"
+  },
+  {
+    "file": "package-bridge/pages/run/index.js",
+    "sha256": "744ed020aeb4cdac420feb542d9bd08c05a3c51ebeb5aa6d0c42cee6b1023a0a"
+  },
+  {
+    "file": "package-bridge/pages/run/index.json",
+    "sha256": "d4d3c4358fc1da5d6bc0afb81be709940f61f503bee1bc0debbfa5673b85ad23"
+  },
+  {
+    "file": "package-bridge/pages/run/index.wxml",
+    "sha256": "6a32b5a60559764312f488f490cb34f98edbfe3e9597b65367e0b0875cd3b4f6"
+  },
+  {
+    "file": "package-bridge/pages/run/index.wxss",
+    "sha256": "ea1163e6e057cc010af6c5d49d2d644ef9d127c12e14789fc75e194dfc4810a3"
+  },
+  {
+    "file": "package-market/assets/art/bell-sprite.png",
+    "sha256": "1579486853a2f4843fa9a8dd81b407dc74ca67e93550f8bd81888c6d9f4b71ac"
+  },
+  {
+    "file": "package-market/assets/art/bell-warden-phase2.png",
+    "sha256": "eee806acc66e77974745a58c780f4942e00eef5fa6c18fff8ff9ad1158f5b528"
+  },
+  {
+    "file": "package-market/assets/art/bell-warden.png",
+    "sha256": "bf2df770258a5977ec9d243b5b4e621f14a14263238fe7384f169bc2e6044cfd"
+  },
+  {
+    "file": "package-market/assets/art/lantern-mote.png",
+    "sha256": "c15b3863f656512b89afbd9894370c8ce13b85f983b75358466ddc9812ad5de2"
+  },
+  {
+    "file": "package-market/assets/art/lantern-rack.png",
+    "sha256": "2edd1a5f268a03d888b1a7df57aa604bd6a7e81e1a68755275df2c24ea26fc12"
+  },
+  {
+    "file": "package-market/assets/art/market-back.jpg",
+    "sha256": "251881ecd936f6757a34adf3ad5ab1390bdca87d67cb2942ca96cb63a76019df"
+  },
+  {
+    "file": "package-market/assets/art/market-front.png",
+    "sha256": "98080d1756824048b8acbb4970bbc734459babd339a9c91054ac55728c3f1342"
+  },
+  {
+    "file": "package-market/assets/art/market-middle.png",
+    "sha256": "d660505a92b06b5dc1c9b39372c8c34c84e79566e94b8a04db093ba5055dfce1"
+  },
+  {
+    "file": "package-market/assets/art/market-usher.png",
+    "sha256": "80cd78343a8824e88a293be01bb3a5dfbd85d973c18a36dcb8d546e0629bf204"
+  },
+  {
+    "file": "package-market/assets/art/paper-mask.png",
+    "sha256": "cbe90366d1741b913c538dc67409c440d44c0ef9f7cd7810bc03385bda38a5e9"
+  },
+  {
+    "file": "package-market/assets/art/silk-tail.png",
+    "sha256": "184947a36866302a3add1eb38fb426a9a722b2c258d10c4e4eb69b05ad0f00c8"
+  },
+  {
+    "file": "package-market/pages/run/index.js",
+    "sha256": "1ac537294fff5899c8348667f65adeaede968c73f4af5310a6b48507d70ea54e"
+  },
+  {
+    "file": "package-market/pages/run/index.json",
+    "sha256": "f24bae2b87f4f786c3b092a9992b7d8187cbe30a08420dee5cfc4aed5260ca1d"
+  },
+  {
+    "file": "package-market/pages/run/index.wxml",
+    "sha256": "6a32b5a60559764312f488f490cb34f98edbfe3e9597b65367e0b0875cd3b4f6"
+  },
+  {
+    "file": "package-market/pages/run/index.wxss",
+    "sha256": "ea1163e6e057cc010af6c5d49d2d644ef9d127c12e14789fc75e194dfc4810a3"
+  }
+]

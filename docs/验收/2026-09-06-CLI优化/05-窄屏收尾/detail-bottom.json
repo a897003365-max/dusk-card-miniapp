@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "rects": [
+    {
+      "id": "",
+      "dataset": {},
+      "left": 27,
+      "right": 293,
+      "top": 92.4765625,
+      "bottom": 353.515625,
+      "width": 266,
+      "height": 261.0390625
+    },
+    {
+      "id": "",
+      "dataset": {},
+      "left": 27,
+      "right": 293,
+      "top": 324.6640625,
+      "bottom": 353.4609375,
+      "width": 266,
+      "height": 28.796875
+    },
+    {
+      "id": "",
+      "dataset": {},
+      "left": 27,
+      "right": 293,
+      "top": 363.515625,
+      "bottom": 407.515625,
+      "width": 266,
+      "height": 44
+    }
+  ],
+  "info": {
+    "pixelRatio": 2,
+    "safeArea": {
+      "top": 20,
+      "left": 0,
+      "right": 320,
+      "bottom": 568,
+      "width": 320,
+      "height": 548
+    },
+    "screenWidth": 320,
+    "screenHeight": 568,
+    "screenTop": 112,
+    "windowWidth": 320,
+    "windowHeight": 456,
+    "statusBarHeight": 20
+  }
+}

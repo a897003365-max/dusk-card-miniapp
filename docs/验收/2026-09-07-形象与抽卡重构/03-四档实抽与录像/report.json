@@ -1,0 +1,3051 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2DBUUV",
+  "width": 390,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n",
+  "status": "pass",
+  "checks": [
+    {
+      "name": "真实运行隔离命名空间",
+      "pass": true
+    },
+    {
+      "name": "真实模拟器宽度与验收参数一致",
+      "pass": true
+    },
+    {
+      "name": "验收不从冒险在途状态开始",
+      "pass": true
+    },
+    {
+      "name": "仅靠真实完成章节获得邮票",
+      "pass": true
+    },
+    {
+      "name": "抽取只扣实际票数并一次入库",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "自动演出最终稳定在settled且当前张只揭一次",
+      "pass": true
+    },
+    {
+      "name": "角色/名字和操作都完整可见",
+      "pass": true
+    },
+    {
+      "name": "关闭固定右侧，主操作满宽且至少44px",
+      "pass": true
+    },
+    {
+      "name": "每档具有真实的不同图层结构",
+      "pass": true
+    },
+    {
+      "name": "揭晓不改随机数进度/保底/余额/收藏",
+      "pass": true
+    },
+    {
+      "name": "全部结果可返回汇总且没有重复计数",
+      "pass": true
+    },
+    {
+      "name": "关闭汇总不重复发奖",
+      "pass": true
+    },
+    {
+      "name": "抽取只扣实际票数并一次入库",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "自动演出最终稳定在settled且当前张只揭一次",
+      "pass": true
+    },
+    {
+      "name": "角色/名字和操作都完整可见",
+      "pass": true
+    },
+    {
+      "name": "关闭固定右侧，主操作满宽且至少44px",
+      "pass": true
+    },
+    {
+      "name": "每档具有真实的不同图层结构",
+      "pass": true
+    },
+    {
+      "name": "揭晓不改随机数进度/保底/余额/收藏",
+      "pass": true
+    },
+    {
+      "name": "全部结果可返回汇总且没有重复计数",
+      "pass": true
+    },
+    {
+      "name": "关闭汇总不重复发奖",
+      "pass": true
+    },
+    {
+      "name": "抽取只扣实际票数并一次入库",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "揭晓不改随机数进度/保底/余额/收藏",
+      "pass": true
+    },
+    {
+      "name": "全部结果可返回汇总且没有重复计数",
+      "pass": true
+    },
+    {
+      "name": "关闭汇总不重复发奖",
+      "pass": true
+    },
+    {
+      "name": "仅靠真实完成章节获得邮票",
+      "pass": true
+    },
+    {
+      "name": "抽取只扣实际票数并一次入库",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "自动演出最终稳定在settled且当前张只揭一次",
+      "pass": true
+    },
+    {
+      "name": "角色/名字和操作都完整可见",
+      "pass": true
+    },
+    {
+      "name": "关闭固定右侧，主操作满宽且至少44px",
+      "pass": true
+    },
+    {
+      "name": "每档具有真实的不同图层结构",
+      "pass": true
+    },
+    {
+      "name": "揭晓不改随机数进度/保底/余额/收藏",
+      "pass": true
+    },
+    {
+      "name": "全部结果可返回汇总且没有重复计数",
+      "pass": true
+    },
+    {
+      "name": "关闭汇总不重复发奖",
+      "pass": true
+    },
+    {
+      "name": "抽取只扣实际票数并一次入库",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "揭晓不改随机数进度/保底/余额/收藏",
+      "pass": true
+    },
+    {
+      "name": "全部结果可返回汇总且没有重复计数",
+      "pass": true
+    },
+    {
+      "name": "关闭汇总不重复发奖",
+      "pass": true
+    },
+    {
+      "name": "抽取只扣实际票数并一次入库",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "揭晓不改随机数进度/保底/余额/收藏",
+      "pass": true
+    },
+    {
+      "name": "全部结果可返回汇总且没有重复计数",
+      "pass": true
+    },
+    {
+      "name": "关闭汇总不重复发奖",
+      "pass": true
+    },
+    {
+      "name": "仅靠真实完成章节获得邮票",
+      "pass": true
+    },
+    {
+      "name": "抽取只扣实际票数并一次入库",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "揭晓不改随机数进度/保底/余额/收藏",
+      "pass": true
+    },
+    {
+      "name": "全部结果可返回汇总且没有重复计数",
+      "pass": true
+    },
+    {
+      "name": "关闭汇总不重复发奖",
+      "pass": true
+    },
+    {
+      "name": "抽取只扣实际票数并一次入库",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "揭晓不改随机数进度/保底/余额/收藏",
+      "pass": true
+    },
+    {
+      "name": "全部结果可返回汇总且没有重复计数",
+      "pass": true
+    },
+    {
+      "name": "关闭汇总不重复发奖",
+      "pass": true
+    },
+    {
+      "name": "抽取只扣实际票数并一次入库",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "揭晓不改随机数进度/保底/余额/收藏",
+      "pass": true
+    },
+    {
+      "name": "全部结果可返回汇总且没有重复计数",
+      "pass": true
+    },
+    {
+      "name": "关闭汇总不重复发奖",
+      "pass": true
+    },
+    {
+      "name": "仅靠真实完成章节获得邮票",
+      "pass": true
+    },
+    {
+      "name": "抽取只扣实际票数并一次入库",
+      "pass": true
+    },
+    {
+      "name": "抽中的每个伙伴已经持久保存",
+      "pass": true
+    },
+    {
+      "name": "自动演出最终稳定在settled且当前张只揭一次",
+      "pass": true
+    },
+    {
+      "name": "角色/名字和操作都完整可见",
+      "pass": true
+    },
+    {
+      "name": "关闭固定右侧，主操作满宽且至少44px",
+      "pass": true
+    },
+    {
+      "name": "每档具有真实的不同图层结构",
+      "pass": true
+    },
+    {
+      "name": "揭晓不改随机数进度/保底/余额/收藏",
+      "pass": true
+    },
+    {
+      "name": "全部结果可返回汇总且没有重复计数",
+      "pass": true
+    },
+    {
+      "name": "关闭汇总不重复发奖",
+      "pass": true
+    },
+    {
+      "name": "四个稀有度均来自实际抽取并原生演出",
+      "pass": true
+    },
+    {
+      "name": "应用控制台异常为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "390-home",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-home.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-SR-settled",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-SR-settled.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-batch-0-summary",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-batch-0-summary.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-R-settled",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-R-settled.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-batch-1-summary",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-batch-1-summary.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-batch-2-summary",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-batch-2-summary.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-SSR-settled",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-SSR-settled.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-batch-3-summary",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-batch-3-summary.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-batch-4-summary",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-batch-4-summary.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-batch-5-summary",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-batch-5-summary.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-batch-6-summary",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-batch-6-summary.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-batch-7-summary",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-batch-7-summary.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-batch-8-summary",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-batch-8-summary.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-UR-settled",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-UR-settled.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-batch-9-summary",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-batch-9-summary.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".chapter-start[data-id=\"letter\"]",
+      "rect": {
+        "dataset": {
+          "id": "letter"
+        },
+        "left": 64,
+        "right": 359,
+        "top": 342.9140625,
+        "bottom": 386.9140625,
+        "width": 295,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 36,
+        "right": 354,
+        "top": 555.3125,
+        "bottom": 599.3125,
+        "width": 318,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 47.5,
+        "right": 342.5,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 295,
+        "height": 237
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-back",
+      "rect": {
+        "dataset": {},
+        "left": 115,
+        "right": 275,
+        "top": 593.5,
+        "bottom": 637.5,
+        "width": 160,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 316,
+        "right": 360,
+        "top": 117.984375,
+        "bottom": 161.984375,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 47.5,
+        "right": 342.5,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 295,
+        "height": 237
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-back",
+      "rect": {
+        "dataset": {},
+        "left": 115,
+        "right": 275,
+        "top": 593.5,
+        "bottom": 637.5,
+        "width": 160,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 316,
+        "right": 360,
+        "top": 117.984375,
+        "bottom": 161.984375,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 47.5,
+        "right": 342.5,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 295,
+        "height": 237
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-back",
+      "rect": {
+        "dataset": {},
+        "left": 115,
+        "right": 275,
+        "top": 593.5,
+        "bottom": 637.5,
+        "width": 160,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 316,
+        "right": 360,
+        "top": 117.984375,
+        "bottom": 161.984375,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".chapter-start[data-id=\"station\"]",
+      "rect": {
+        "dataset": {
+          "id": "station"
+        },
+        "left": 64,
+        "right": 359,
+        "top": 615.6953125,
+        "bottom": 659.6953125,
+        "width": 295,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 36,
+        "right": 354,
+        "top": 555.3125,
+        "bottom": 599.3125,
+        "width": 318,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 47.5,
+        "right": 342.5,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 295,
+        "height": 237
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-back",
+      "rect": {
+        "dataset": {},
+        "left": 115,
+        "right": 275,
+        "top": 593.5,
+        "bottom": 637.5,
+        "width": 160,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 316,
+        "right": 360,
+        "top": 117.984375,
+        "bottom": 161.984375,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 47.5,
+        "right": 342.5,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 295,
+        "height": 237
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-back",
+      "rect": {
+        "dataset": {},
+        "left": 115,
+        "right": 275,
+        "top": 593.5,
+        "bottom": 637.5,
+        "width": 160,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 316,
+        "right": 360,
+        "top": 117.984375,
+        "bottom": 161.984375,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 47.5,
+        "right": 342.5,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 295,
+        "height": 237
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-back",
+      "rect": {
+        "dataset": {},
+        "left": 115,
+        "right": 275,
+        "top": 593.5,
+        "bottom": 637.5,
+        "width": 160,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 316,
+        "right": 360,
+        "top": 117.984375,
+        "bottom": 161.984375,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".chapter-start[data-id=\"garden\"]",
+      "rect": {
+        "dataset": {
+          "id": "garden"
+        },
+        "left": 64,
+        "right": 359,
+        "top": 163.4765625,
+        "bottom": 207.4765625,
+        "width": 295,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 36,
+        "right": 354,
+        "top": 555.3125,
+        "bottom": 599.3125,
+        "width": 318,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 47.5,
+        "right": 342.5,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 295,
+        "height": 237
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-back",
+      "rect": {
+        "dataset": {},
+        "left": 115,
+        "right": 275,
+        "top": 593.5,
+        "bottom": 637.5,
+        "width": 160,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 316,
+        "right": 360,
+        "top": 117.984375,
+        "bottom": 161.984375,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 47.5,
+        "right": 342.5,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 295,
+        "height": 237
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-back",
+      "rect": {
+        "dataset": {},
+        "left": 115,
+        "right": 275,
+        "top": 593.5,
+        "bottom": 637.5,
+        "width": 160,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 316,
+        "right": 360,
+        "top": 117.984375,
+        "bottom": 161.984375,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 47.5,
+        "right": 342.5,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 295,
+        "height": 237
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-back",
+      "rect": {
+        "dataset": {},
+        "left": 115,
+        "right": 275,
+        "top": 593.5,
+        "bottom": 637.5,
+        "width": 160,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 316,
+        "right": 360,
+        "top": 117.984375,
+        "bottom": 161.984375,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".chapter-start[data-id=\"home\"]",
+      "rect": {
+        "dataset": {
+          "id": "home"
+        },
+        "left": 64,
+        "right": 359,
+        "top": 350.2578125,
+        "bottom": 394.2578125,
+        "width": 295,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".choice-button[data-id=\"a\"]",
+      "rect": {
+        "dataset": {
+          "id": "a"
+        },
+        "left": 18,
+        "right": 372,
+        "top": 514,
+        "bottom": 576,
+        "width": 354,
+        "height": 62
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".continue-story",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 595,
+        "bottom": 643,
+        "width": 354,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".keep-ending",
+      "rect": {
+        "dataset": {},
+        "left": 36,
+        "right": 354,
+        "top": 555.3125,
+        "bottom": 599.3125,
+        "width": 318,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".draw-one",
+      "rect": {
+        "dataset": {
+          "count": "1"
+        },
+        "left": 18,
+        "right": 190.5,
+        "top": 499.59375,
+        "bottom": 556.9921875,
+        "width": 172.5,
+        "height": 57.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".sealed-letter[data-serial=\"0\"]",
+      "rect": {
+        "dataset": {
+          "serial": 0
+        },
+        "left": 47.5,
+        "right": 342.5,
+        "top": 194.984375,
+        "bottom": 431.984375,
+        "width": 295,
+        "height": 237
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-back",
+      "rect": {
+        "dataset": {},
+        "left": 115,
+        "right": 275,
+        "top": 593.5,
+        "bottom": 637.5,
+        "width": 160,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 316,
+        "right": 360,
+        "top": 117.984375,
+        "bottom": 161.984375,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ],
+  "frames": [],
+  "videos": [
+    {
+      "tier": "SR",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-SR-native.mov",
+      "info": {
+        "audio": false,
+        "droppedFrames": 0,
+        "duration": 8,
+        "event": "finished",
+        "fpsTarget": 30,
+        "frames": 38,
+        "height": 1746,
+        "output": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-SR-native.mov",
+        "width": 2500,
+        "windowId": 15627
+      }
+    },
+    {
+      "tier": "R",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-R-native.mov",
+      "info": {
+        "audio": false,
+        "droppedFrames": 0,
+        "duration": 8,
+        "event": "finished",
+        "fpsTarget": 30,
+        "frames": 28,
+        "height": 1746,
+        "output": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-R-native.mov",
+        "width": 2500,
+        "windowId": 15627
+      }
+    },
+    {
+      "tier": "SSR",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-SSR-native.mov",
+      "info": {
+        "audio": false,
+        "droppedFrames": 0,
+        "duration": 8,
+        "event": "finished",
+        "fpsTarget": 30,
+        "frames": 48,
+        "height": 1746,
+        "output": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-SSR-native.mov",
+        "width": 2500,
+        "windowId": 15627
+      }
+    },
+    {
+      "tier": "UR",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-UR-native.mov",
+      "info": {
+        "audio": false,
+        "droppedFrames": 0,
+        "duration": 8,
+        "event": "finished",
+        "fpsTarget": 30,
+        "frames": 65,
+        "height": 1746,
+        "output": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-runtime-dFcx6n/390-UR-native.mov",
+        "width": 2500,
+        "windowId": 15627
+      }
+    }
+  ],
+  "tiers": [
+    {
+      "tier": "SR",
+      "familyId": "burger",
+      "name": "汉堡柴",
+      "profile": {
+        "tier": "SR",
+        "name": "双层花信",
+        "kicker": "A WARM BLOOM",
+        "color": "#a8d9bc",
+        "secondary": "#e5f5cf",
+        "chargeMs": 440,
+        "burstMs": 280,
+        "arriveMs": 460,
+        "particles": [
+          {
+            "id": 0,
+            "angle": 0,
+            "distance": 100,
+            "delay": 0,
+            "size": 5
+          },
+          {
+            "id": 1,
+            "angle": 137.5,
+            "distance": 117,
+            "delay": 24,
+            "size": 8
+          },
+          {
+            "id": 2,
+            "angle": 275,
+            "distance": 134,
+            "delay": 48,
+            "size": 11
+          },
+          {
+            "id": 3,
+            "angle": 52.5,
+            "distance": 151,
+            "delay": 72,
+            "size": 6
+          },
+          {
+            "id": 4,
+            "angle": 190,
+            "distance": 110,
+            "delay": 96,
+            "size": 9
+          },
+          {
+            "id": 5,
+            "angle": 327.5,
+            "distance": 127,
+            "delay": 120,
+            "size": 12
+          },
+          {
+            "id": 6,
+            "angle": 105,
+            "distance": 144,
+            "delay": 0,
+            "size": 7
+          },
+          {
+            "id": 7,
+            "angle": 242.5,
+            "distance": 103,
+            "delay": 24,
+            "size": 10
+          },
+          {
+            "id": 8,
+            "angle": 20,
+            "distance": 120,
+            "delay": 48,
+            "size": 5
+          },
+          {
+            "id": 9,
+            "angle": 157.5,
+            "distance": 137,
+            "delay": 72,
+            "size": 8
+          },
+          {
+            "id": 10,
+            "angle": 295,
+            "distance": 154,
+            "delay": 96,
+            "size": 11
+          },
+          {
+            "id": 11,
+            "angle": 72.5,
+            "distance": 113,
+            "delay": 120,
+            "size": 6
+          },
+          {
+            "id": 12,
+            "angle": 210,
+            "distance": 130,
+            "delay": 0,
+            "size": 9
+          },
+          {
+            "id": 13,
+            "angle": 347.5,
+            "distance": 147,
+            "delay": 24,
+            "size": 12
+          },
+          {
+            "id": 14,
+            "angle": 125,
+            "distance": 106,
+            "delay": 48,
+            "size": 7
+          },
+          {
+            "id": 15,
+            "angle": 262.5,
+            "distance": 123,
+            "delay": 72,
+            "size": 10
+          }
+        ],
+        "rays": [
+          {
+            "id": 0,
+            "angle": 0,
+            "length": 140,
+            "width": 3,
+            "delay": 0,
+            "opacity": 0.2
+          },
+          {
+            "id": 1,
+            "angle": 45,
+            "length": 158,
+            "width": 4,
+            "delay": 20,
+            "opacity": 0.30000000000000004
+          },
+          {
+            "id": 2,
+            "angle": 90,
+            "length": 176,
+            "width": 5,
+            "delay": 40,
+            "opacity": 0.4
+          },
+          {
+            "id": 3,
+            "angle": 135,
+            "length": 140,
+            "width": 3,
+            "delay": 60,
+            "opacity": 0.5
+          },
+          {
+            "id": 4,
+            "angle": 180,
+            "length": 158,
+            "width": 4,
+            "delay": 80,
+            "opacity": 0.2
+          },
+          {
+            "id": 5,
+            "angle": 225,
+            "length": 176,
+            "width": 5,
+            "delay": 0,
+            "opacity": 0.30000000000000004
+          },
+          {
+            "id": 6,
+            "angle": 270,
+            "length": 140,
+            "width": 3,
+            "delay": 20,
+            "opacity": 0.4
+          },
+          {
+            "id": 7,
+            "angle": 315,
+            "length": 158,
+            "width": 4,
+            "delay": 40,
+            "opacity": 0.5
+          }
+        ]
+      },
+      "layout": {
+        "overlay": {
+          "id": "",
+          "dataset": {},
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 671,
+          "width": 390,
+          "height": 671
+        },
+        "close": {
+          "id": "",
+          "dataset": {},
+          "left": 328,
+          "right": 372,
+          "top": 12,
+          "bottom": 56,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "id": "",
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 548.5,
+          "bottom": 593.5,
+          "width": 354,
+          "height": 45
+        },
+        "name": {
+          "id": "",
+          "dataset": {},
+          "left": 150,
+          "right": 240,
+          "top": 413.9765625,
+          "bottom": 451.7734375,
+          "width": 90,
+          "height": 37.796875
+        },
+        "character": {
+          "id": "",
+          "dataset": {},
+          "left": 62.921875,
+          "right": 327.0703125,
+          "top": 172.0859375,
+          "bottom": 394.3125,
+          "width": 264.1484375,
+          "height": 222.2265625
+        }
+      }
+    },
+    {
+      "tier": "R",
+      "familyId": "soup",
+      "name": "暖汤锅仔",
+      "profile": {
+        "tier": "R",
+        "name": "纸页轻响",
+        "kicker": "A SMALL HELLO",
+        "color": "#9fbdce",
+        "secondary": "#e0eff5",
+        "chargeMs": 280,
+        "burstMs": 180,
+        "arriveMs": 360,
+        "particles": [
+          {
+            "id": 0,
+            "angle": 0,
+            "distance": 68,
+            "delay": 0,
+            "size": 5
+          },
+          {
+            "id": 1,
+            "angle": 137.5,
+            "distance": 85,
+            "delay": 24,
+            "size": 8
+          },
+          {
+            "id": 2,
+            "angle": 275,
+            "distance": 102,
+            "delay": 48,
+            "size": 11
+          },
+          {
+            "id": 3,
+            "angle": 52.5,
+            "distance": 119,
+            "delay": 72,
+            "size": 6
+          },
+          {
+            "id": 4,
+            "angle": 190,
+            "distance": 78,
+            "delay": 96,
+            "size": 9
+          },
+          {
+            "id": 5,
+            "angle": 327.5,
+            "distance": 95,
+            "delay": 120,
+            "size": 12
+          },
+          {
+            "id": 6,
+            "angle": 105,
+            "distance": 112,
+            "delay": 0,
+            "size": 7
+          },
+          {
+            "id": 7,
+            "angle": 242.5,
+            "distance": 71,
+            "delay": 24,
+            "size": 10
+          },
+          {
+            "id": 8,
+            "angle": 20,
+            "distance": 88,
+            "delay": 48,
+            "size": 5
+          },
+          {
+            "id": 9,
+            "angle": 157.5,
+            "distance": 105,
+            "delay": 72,
+            "size": 8
+          }
+        ],
+        "rays": []
+      },
+      "layout": {
+        "overlay": {
+          "id": "",
+          "dataset": {},
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 671,
+          "width": 390,
+          "height": 671
+        },
+        "close": {
+          "id": "",
+          "dataset": {},
+          "left": 328,
+          "right": 372,
+          "top": 12,
+          "bottom": 56,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "id": "",
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 548.5,
+          "bottom": 593.5,
+          "width": 354,
+          "height": 45
+        },
+        "name": {
+          "id": "",
+          "dataset": {},
+          "left": 135,
+          "right": 255,
+          "top": 413.9765625,
+          "bottom": 451.7734375,
+          "width": 120,
+          "height": 37.796875
+        },
+        "character": {
+          "id": "",
+          "dataset": {},
+          "left": 62.921875,
+          "right": 327.0703125,
+          "top": 172.0859375,
+          "bottom": 394.3125,
+          "width": 264.1484375,
+          "height": 222.2265625
+        }
+      }
+    },
+    {
+      "tier": "SSR",
+      "familyId": "orangecat",
+      "name": "橘猫豆包",
+      "profile": {
+        "tier": "SSR",
+        "name": "星环回信",
+        "kicker": "A STELLAR ENCOUNTER",
+        "color": "#c8b5ff",
+        "secondary": "#f0d8ff",
+        "chargeMs": 620,
+        "burstMs": 380,
+        "arriveMs": 560,
+        "particles": [
+          {
+            "id": 0,
+            "angle": 0,
+            "distance": 132,
+            "delay": 0,
+            "size": 5
+          },
+          {
+            "id": 1,
+            "angle": 137.5,
+            "distance": 149,
+            "delay": 24,
+            "size": 8
+          },
+          {
+            "id": 2,
+            "angle": 275,
+            "distance": 166,
+            "delay": 48,
+            "size": 11
+          },
+          {
+            "id": 3,
+            "angle": 52.5,
+            "distance": 183,
+            "delay": 72,
+            "size": 6
+          },
+          {
+            "id": 4,
+            "angle": 190,
+            "distance": 142,
+            "delay": 96,
+            "size": 9
+          },
+          {
+            "id": 5,
+            "angle": 327.5,
+            "distance": 159,
+            "delay": 120,
+            "size": 12
+          },
+          {
+            "id": 6,
+            "angle": 105,
+            "distance": 176,
+            "delay": 0,
+            "size": 7
+          },
+          {
+            "id": 7,
+            "angle": 242.5,
+            "distance": 135,
+            "delay": 24,
+            "size": 10
+          },
+          {
+            "id": 8,
+            "angle": 20,
+            "distance": 152,
+            "delay": 48,
+            "size": 5
+          },
+          {
+            "id": 9,
+            "angle": 157.5,
+            "distance": 169,
+            "delay": 72,
+            "size": 8
+          },
+          {
+            "id": 10,
+            "angle": 295,
+            "distance": 186,
+            "delay": 96,
+            "size": 11
+          },
+          {
+            "id": 11,
+            "angle": 72.5,
+            "distance": 145,
+            "delay": 120,
+            "size": 6
+          },
+          {
+            "id": 12,
+            "angle": 210,
+            "distance": 162,
+            "delay": 0,
+            "size": 9
+          },
+          {
+            "id": 13,
+            "angle": 347.5,
+            "distance": 179,
+            "delay": 24,
+            "size": 12
+          },
+          {
+            "id": 14,
+            "angle": 125,
+            "distance": 138,
+            "delay": 48,
+            "size": 7
+          },
+          {
+            "id": 15,
+            "angle": 262.5,
+            "distance": 155,
+            "delay": 72,
+            "size": 10
+          },
+          {
+            "id": 16,
+            "angle": 40,
+            "distance": 172,
+            "delay": 96,
+            "size": 5
+          },
+          {
+            "id": 17,
+            "angle": 177.5,
+            "distance": 189,
+            "delay": 120,
+            "size": 8
+          },
+          {
+            "id": 18,
+            "angle": 315,
+            "distance": 148,
+            "delay": 0,
+            "size": 11
+          },
+          {
+            "id": 19,
+            "angle": 92.5,
+            "distance": 165,
+            "delay": 24,
+            "size": 6
+          },
+          {
+            "id": 20,
+            "angle": 230,
+            "distance": 182,
+            "delay": 48,
+            "size": 9
+          },
+          {
+            "id": 21,
+            "angle": 7.5,
+            "distance": 141,
+            "delay": 72,
+            "size": 12
+          },
+          {
+            "id": 22,
+            "angle": 145,
+            "distance": 158,
+            "delay": 96,
+            "size": 7
+          },
+          {
+            "id": 23,
+            "angle": 282.5,
+            "distance": 175,
+            "delay": 120,
+            "size": 10
+          }
+        ],
+        "rays": [
+          {
+            "id": 0,
+            "angle": 0,
+            "length": 172,
+            "width": 3,
+            "delay": 0,
+            "opacity": 0.2
+          },
+          {
+            "id": 1,
+            "angle": 25.714285714285715,
+            "length": 190,
+            "width": 4,
+            "delay": 20,
+            "opacity": 0.30000000000000004
+          },
+          {
+            "id": 2,
+            "angle": 51.42857142857143,
+            "length": 208,
+            "width": 5,
+            "delay": 40,
+            "opacity": 0.4
+          },
+          {
+            "id": 3,
+            "angle": 77.14285714285714,
+            "length": 172,
+            "width": 3,
+            "delay": 60,
+            "opacity": 0.5
+          },
+          {
+            "id": 4,
+            "angle": 102.85714285714286,
+            "length": 190,
+            "width": 4,
+            "delay": 80,
+            "opacity": 0.2
+          },
+          {
+            "id": 5,
+            "angle": 128.57142857142858,
+            "length": 208,
+            "width": 5,
+            "delay": 0,
+            "opacity": 0.30000000000000004
+          },
+          {
+            "id": 6,
+            "angle": 154.28571428571428,
+            "length": 172,
+            "width": 3,
+            "delay": 20,
+            "opacity": 0.4
+          },
+          {
+            "id": 7,
+            "angle": 180,
+            "length": 190,
+            "width": 4,
+            "delay": 40,
+            "opacity": 0.5
+          },
+          {
+            "id": 8,
+            "angle": 205.71428571428572,
+            "length": 208,
+            "width": 5,
+            "delay": 60,
+            "opacity": 0.2
+          },
+          {
+            "id": 9,
+            "angle": 231.42857142857142,
+            "length": 172,
+            "width": 3,
+            "delay": 80,
+            "opacity": 0.30000000000000004
+          },
+          {
+            "id": 10,
+            "angle": 257.14285714285717,
+            "length": 190,
+            "width": 4,
+            "delay": 0,
+            "opacity": 0.4
+          },
+          {
+            "id": 11,
+            "angle": 282.85714285714283,
+            "length": 208,
+            "width": 5,
+            "delay": 20,
+            "opacity": 0.5
+          },
+          {
+            "id": 12,
+            "angle": 308.57142857142856,
+            "length": 172,
+            "width": 3,
+            "delay": 40,
+            "opacity": 0.2
+          },
+          {
+            "id": 13,
+            "angle": 334.2857142857143,
+            "length": 190,
+            "width": 4,
+            "delay": 60,
+            "opacity": 0.30000000000000004
+          }
+        ]
+      },
+      "layout": {
+        "overlay": {
+          "id": "",
+          "dataset": {},
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 671,
+          "width": 390,
+          "height": 671
+        },
+        "close": {
+          "id": "",
+          "dataset": {},
+          "left": 328,
+          "right": 372,
+          "top": 12,
+          "bottom": 56,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "id": "",
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 548.5,
+          "bottom": 593.5,
+          "width": 354,
+          "height": 45
+        },
+        "name": {
+          "id": "",
+          "dataset": {},
+          "left": 135,
+          "right": 255,
+          "top": 413.9765625,
+          "bottom": 451.7734375,
+          "width": 120,
+          "height": 37.796875
+        },
+        "character": {
+          "id": "",
+          "dataset": {},
+          "left": 62.921875,
+          "right": 327.0703125,
+          "top": 172.0859375,
+          "bottom": 394.3125,
+          "width": 264.1484375,
+          "height": 222.2265625
+        }
+      }
+    },
+    {
+      "tier": "UR",
+      "familyId": "sunset",
+      "name": "晚霞云",
+      "profile": {
+        "tier": "UR",
+        "name": "日蚀来客",
+        "kicker": "AN ECLIPSE, A PROMISE",
+        "color": "#f4c36b",
+        "secondary": "#94dded",
+        "chargeMs": 850,
+        "burstMs": 500,
+        "arriveMs": 800,
+        "particles": [
+          {
+            "id": 0,
+            "angle": 0,
+            "distance": 160,
+            "delay": 0,
+            "size": 5
+          },
+          {
+            "id": 1,
+            "angle": 137.5,
+            "distance": 177,
+            "delay": 24,
+            "size": 8
+          },
+          {
+            "id": 2,
+            "angle": 275,
+            "distance": 194,
+            "delay": 48,
+            "size": 11
+          },
+          {
+            "id": 3,
+            "angle": 52.5,
+            "distance": 211,
+            "delay": 72,
+            "size": 6
+          },
+          {
+            "id": 4,
+            "angle": 190,
+            "distance": 170,
+            "delay": 96,
+            "size": 9
+          },
+          {
+            "id": 5,
+            "angle": 327.5,
+            "distance": 187,
+            "delay": 120,
+            "size": 12
+          },
+          {
+            "id": 6,
+            "angle": 105,
+            "distance": 204,
+            "delay": 0,
+            "size": 7
+          },
+          {
+            "id": 7,
+            "angle": 242.5,
+            "distance": 163,
+            "delay": 24,
+            "size": 10
+          },
+          {
+            "id": 8,
+            "angle": 20,
+            "distance": 180,
+            "delay": 48,
+            "size": 5
+          },
+          {
+            "id": 9,
+            "angle": 157.5,
+            "distance": 197,
+            "delay": 72,
+            "size": 8
+          },
+          {
+            "id": 10,
+            "angle": 295,
+            "distance": 214,
+            "delay": 96,
+            "size": 11
+          },
+          {
+            "id": 11,
+            "angle": 72.5,
+            "distance": 173,
+            "delay": 120,
+            "size": 6
+          },
+          {
+            "id": 12,
+            "angle": 210,
+            "distance": 190,
+            "delay": 0,
+            "size": 9
+          },
+          {
+            "id": 13,
+            "angle": 347.5,
+            "distance": 207,
+            "delay": 24,
+            "size": 12
+          },
+          {
+            "id": 14,
+            "angle": 125,
+            "distance": 166,
+            "delay": 48,
+            "size": 7
+          },
+          {
+            "id": 15,
+            "angle": 262.5,
+            "distance": 183,
+            "delay": 72,
+            "size": 10
+          },
+          {
+            "id": 16,
+            "angle": 40,
+            "distance": 200,
+            "delay": 96,
+            "size": 5
+          },
+          {
+            "id": 17,
+            "angle": 177.5,
+            "distance": 217,
+            "delay": 120,
+            "size": 8
+          },
+          {
+            "id": 18,
+            "angle": 315,
+            "distance": 176,
+            "delay": 0,
+            "size": 11
+          },
+          {
+            "id": 19,
+            "angle": 92.5,
+            "distance": 193,
+            "delay": 24,
+            "size": 6
+          },
+          {
+            "id": 20,
+            "angle": 230,
+            "distance": 210,
+            "delay": 48,
+            "size": 9
+          },
+          {
+            "id": 21,
+            "angle": 7.5,
+            "distance": 169,
+            "delay": 72,
+            "size": 12
+          },
+          {
+            "id": 22,
+            "angle": 145,
+            "distance": 186,
+            "delay": 96,
+            "size": 7
+          },
+          {
+            "id": 23,
+            "angle": 282.5,
+            "distance": 203,
+            "delay": 120,
+            "size": 10
+          },
+          {
+            "id": 24,
+            "angle": 60,
+            "distance": 162,
+            "delay": 0,
+            "size": 5
+          },
+          {
+            "id": 25,
+            "angle": 197.5,
+            "distance": 179,
+            "delay": 24,
+            "size": 8
+          },
+          {
+            "id": 26,
+            "angle": 335,
+            "distance": 196,
+            "delay": 48,
+            "size": 11
+          },
+          {
+            "id": 27,
+            "angle": 112.5,
+            "distance": 213,
+            "delay": 72,
+            "size": 6
+          },
+          {
+            "id": 28,
+            "angle": 250,
+            "distance": 172,
+            "delay": 96,
+            "size": 9
+          },
+          {
+            "id": 29,
+            "angle": 27.5,
+            "distance": 189,
+            "delay": 120,
+            "size": 12
+          },
+          {
+            "id": 30,
+            "angle": 165,
+            "distance": 206,
+            "delay": 0,
+            "size": 7
+          },
+          {
+            "id": 31,
+            "angle": 302.5,
+            "distance": 165,
+            "delay": 24,
+            "size": 10
+          }
+        ],
+        "rays": [
+          {
+            "id": 0,
+            "angle": 0,
+            "length": 200,
+            "width": 3,
+            "delay": 0,
+            "opacity": 0.2
+          },
+          {
+            "id": 1,
+            "angle": 18,
+            "length": 218,
+            "width": 4,
+            "delay": 20,
+            "opacity": 0.30000000000000004
+          },
+          {
+            "id": 2,
+            "angle": 36,
+            "length": 236,
+            "width": 5,
+            "delay": 40,
+            "opacity": 0.4
+          },
+          {
+            "id": 3,
+            "angle": 54,
+            "length": 200,
+            "width": 3,
+            "delay": 60,
+            "opacity": 0.5
+          },
+          {
+            "id": 4,
+            "angle": 72,
+            "length": 218,
+            "width": 4,
+            "delay": 80,
+            "opacity": 0.2
+          },
+          {
+            "id": 5,
+            "angle": 90,
+            "length": 236,
+            "width": 5,
+            "delay": 0,
+            "opacity": 0.30000000000000004
+          },
+          {
+            "id": 6,
+            "angle": 108,
+            "length": 200,
+            "width": 3,
+            "delay": 20,
+            "opacity": 0.4
+          },
+          {
+            "id": 7,
+            "angle": 126,
+            "length": 218,
+            "width": 4,
+            "delay": 40,
+            "opacity": 0.5
+          },
+          {
+            "id": 8,
+            "angle": 144,
+            "length": 236,
+            "width": 5,
+            "delay": 60,
+            "opacity": 0.2
+          },
+          {
+            "id": 9,
+            "angle": 162,
+            "length": 200,
+            "width": 3,
+            "delay": 80,
+            "opacity": 0.30000000000000004
+          },
+          {
+            "id": 10,
+            "angle": 180,
+            "length": 218,
+            "width": 4,
+            "delay": 0,
+            "opacity": 0.4
+          },
+          {
+            "id": 11,
+            "angle": 198,
+            "length": 236,
+            "width": 5,
+            "delay": 20,
+            "opacity": 0.5
+          },
+          {
+            "id": 12,
+            "angle": 216,
+            "length": 200,
+            "width": 3,
+            "delay": 40,
+            "opacity": 0.2
+          },
+          {
+            "id": 13,
+            "angle": 234,
+            "length": 218,
+            "width": 4,
+            "delay": 60,
+            "opacity": 0.30000000000000004
+          },
+          {
+            "id": 14,
+            "angle": 252,
+            "length": 236,
+            "width": 5,
+            "delay": 80,
+            "opacity": 0.4
+          },
+          {
+            "id": 15,
+            "angle": 270,
+            "length": 200,
+            "width": 3,
+            "delay": 0,
+            "opacity": 0.5
+          },
+          {
+            "id": 16,
+            "angle": 288,
+            "length": 218,
+            "width": 4,
+            "delay": 20,
+            "opacity": 0.2
+          },
+          {
+            "id": 17,
+            "angle": 306,
+            "length": 236,
+            "width": 5,
+            "delay": 40,
+            "opacity": 0.30000000000000004
+          },
+          {
+            "id": 18,
+            "angle": 324,
+            "length": 200,
+            "width": 3,
+            "delay": 60,
+            "opacity": 0.4
+          },
+          {
+            "id": 19,
+            "angle": 342,
+            "length": 218,
+            "width": 4,
+            "delay": 80,
+            "opacity": 0.5
+          }
+        ]
+      },
+      "layout": {
+        "overlay": {
+          "id": "",
+          "dataset": {},
+          "left": 0,
+          "right": 390,
+          "top": 0,
+          "bottom": 671,
+          "width": 390,
+          "height": 671
+        },
+        "close": {
+          "id": "",
+          "dataset": {},
+          "left": 328,
+          "right": 372,
+          "top": 12,
+          "bottom": 56,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "id": "",
+          "dataset": {},
+          "left": 18,
+          "right": 372,
+          "top": 548.5,
+          "bottom": 593.5,
+          "width": 354,
+          "height": 45
+        },
+        "name": {
+          "id": "",
+          "dataset": {},
+          "left": 150,
+          "right": 240,
+          "top": 413.9765625,
+          "bottom": 451.7734375,
+          "width": 90,
+          "height": 37.796875
+        },
+        "character": {
+          "id": "",
+          "dataset": {},
+          "left": 62.921875,
+          "right": 327.0703125,
+          "top": 172.0859375,
+          "bottom": 394.3125,
+          "width": 264.1484375,
+          "height": 222.2265625
+        }
+      }
+    }
+  ],
+  "draws": [
+    {
+      "count": 1,
+      "drawCount": 7,
+      "cards": [
+        {
+          "id": "burger",
+          "tier": "SR"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "drawCount": 8,
+      "cards": [
+        {
+          "id": "soup",
+          "tier": "R"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "drawCount": 9,
+      "cards": [
+        {
+          "id": "cloudmail",
+          "tier": "R"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "drawCount": 10,
+      "cards": [
+        {
+          "id": "orangecat",
+          "tier": "SSR"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "drawCount": 11,
+      "cards": [
+        {
+          "id": "doudou",
+          "tier": "R"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "drawCount": 12,
+      "cards": [
+        {
+          "id": "ramen",
+          "tier": "R"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "drawCount": 13,
+      "cards": [
+        {
+          "id": "hydrangea",
+          "tier": "SR"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "drawCount": 14,
+      "cards": [
+        {
+          "id": "seedling",
+          "tier": "SSR"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "drawCount": 15,
+      "cards": [
+        {
+          "id": "ramen",
+          "tier": "R"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "drawCount": 16,
+      "cards": [
+        {
+          "id": "sunset",
+          "tier": "UR"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "before": 0,
+      "after": 3,
+      "cleared": [
+        "letter"
+      ]
+    },
+    {
+      "before": 0,
+      "after": 3,
+      "cleared": [
+        "letter",
+        "station"
+      ]
+    },
+    {
+      "before": 0,
+      "after": 3,
+      "cleared": [
+        "letter",
+        "station",
+        "garden"
+      ]
+    },
+    {
+      "before": 0,
+      "after": 3,
+      "cleared": [
+        "letter",
+        "station",
+        "garden",
+        "home"
+      ]
+    }
+  ],
+  "console": "",
+  "final": {
+    "seen": [
+      "SR",
+      "R",
+      "SSR",
+      "UR"
+    ],
+    "drawCount": 16
+  }
+}

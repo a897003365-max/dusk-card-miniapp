@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh",
+  "actors": [
+    {
+      "id": "bell-warden",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/bell-warden-sheet.png",
+      "sourceHash": "098301574a8dbb182e0115543e7be2a9e8d3b64c97480ba785b015fa728686c4",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          8186,
+          562
+        ],
+        "removedPixels": 8748
+      },
+      "foregroundPixels": 607911,
+      "assignedPixels": 607911
+    }
+  ],
+  "frames": [
+    {
+      "id": "bell-warden",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/enter.png",
+      "contentBounds": {
+        "x": 24,
+        "y": 24,
+        "width": 362,
+        "height": 426
+      },
+      "bytes": 18813
+    },
+    {
+      "id": "bell-warden",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/attack.png",
+      "contentBounds": {
+        "x": 470,
+        "y": 39,
+        "width": 412,
+        "height": 377
+      },
+      "bytes": 21527
+    },
+    {
+      "id": "bell-warden",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/guard.png",
+      "contentBounds": {
+        "x": 939,
+        "y": 37,
+        "width": 334,
+        "height": 363
+      },
+      "bytes": 24266
+    },
+    {
+      "id": "bell-warden",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/hurt.png",
+      "contentBounds": {
+        "x": 1375,
+        "y": 62,
+        "width": 373,
+        "height": 356
+      },
+      "bytes": 23063
+    },
+    {
+      "id": "bell-warden",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/exit.png",
+      "contentBounds": {
+        "x": 55,
+        "y": 481,
+        "width": 301,
+        "height": 361
+      },
+      "bytes": 17803
+    },
+    {
+      "id": "bell-warden",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/control.png",
+      "contentBounds": {
+        "x": 445,
+        "y": 454,
+        "width": 392,
+        "height": 385
+      },
+      "bytes": 25717
+    },
+    {
+      "id": "bell-warden",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/buff.png",
+      "contentBounds": {
+        "x": 917,
+        "y": 436,
+        "width": 387,
+        "height": 414
+      },
+      "bytes": 22619
+    },
+    {
+      "id": "bell-warden",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-gZ67lh/bell-warden/debuff.png",
+      "contentBounds": {
+        "x": 1381,
+        "y": 470,
+        "width": 342,
+        "height": 376
+      },
+      "bytes": 22780
+    }
+  ],
+  "bytes": 176588
+}

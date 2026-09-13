@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "scope": "只读打开源项目，检查真实封面容器、数据、解码与控制台，没有游戏动作",
+  "project": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp",
+  "observed": {
+    "key": "dusk-letter-rpg-v1",
+    "version": 2,
+    "storageError": "",
+    "route": "pages/adventure/index",
+    "width": 390,
+    "coverRect": {
+      "id": "",
+      "dataset": {},
+      "left": 18,
+      "right": 372,
+      "top": 220.0859375,
+      "bottom": 440.0859375,
+      "width": 354,
+      "height": 220
+    },
+    "src": "/assets/scenes/street-cover.jpg",
+    "decoded": {
+      "width": 320,
+      "height": 320
+    }
+  },
+  "screenshot": {
+    "success": true,
+    "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-source-readonly-final-E4eVMa/source-adventure.jpg",
+    "imageWidth": 532,
+    "imageHeight": 1148
+  },
+  "console": ""
+}

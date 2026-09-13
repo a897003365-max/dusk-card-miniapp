@@ -1,0 +1,537 @@
+{
+  "style": "paper-courier",
+  "partners": [
+    {
+      "id": "sheep",
+      "name": "羊咩咩团",
+      "idle": {
+        "path": "assets/partners/sheep.png",
+        "bytes": 34325
+      },
+      "cast": {
+        "path": "assets/partners/sheep-cast.png",
+        "bytes": 16355
+      }
+    },
+    {
+      "id": "ramen",
+      "name": "拉面猫",
+      "idle": {
+        "path": "assets/partners/ramen.png",
+        "bytes": 26989
+      },
+      "cast": {
+        "path": "assets/partners/ramen-cast.png",
+        "bytes": 12449
+      }
+    },
+    {
+      "id": "sunset",
+      "name": "晚霞云",
+      "idle": {
+        "path": "assets/partners/sunset.png",
+        "bytes": 35789
+      },
+      "cast": {
+        "path": "assets/partners/sunset-cast.png",
+        "bytes": 16047
+      }
+    },
+    {
+      "id": "ticket",
+      "name": "票根小狐",
+      "idle": {
+        "path": "assets/partners/ticket.png",
+        "bytes": 39535
+      },
+      "cast": {
+        "path": "assets/partners/ticket-cast.png",
+        "bytes": 16416
+      }
+    },
+    {
+      "id": "catcafe",
+      "name": "猫咖团子",
+      "idle": {
+        "path": "assets/partners/catcafe.png",
+        "bytes": 51496
+      },
+      "cast": {
+        "path": "assets/partners/catcafe-cast.png",
+        "bytes": 18623
+      }
+    },
+    {
+      "id": "moon",
+      "name": "月亮兔",
+      "idle": {
+        "path": "assets/partners/moon.png",
+        "bytes": 33453
+      },
+      "cast": {
+        "path": "assets/partners/moon-cast.png",
+        "bytes": 14542
+      }
+    },
+    {
+      "id": "nav",
+      "name": "领航小鸭",
+      "idle": {
+        "path": "assets/partners/nav.png",
+        "bytes": 34086
+      },
+      "cast": {
+        "path": "assets/partners/nav-cast.png",
+        "bytes": 14585
+      }
+    },
+    {
+      "id": "tea",
+      "name": "奶茶熊",
+      "idle": {
+        "path": "assets/partners/tea.png",
+        "bytes": 59535
+      },
+      "cast": {
+        "path": "assets/partners/tea-cast.png",
+        "bytes": 21860
+      }
+    },
+    {
+      "id": "sushi",
+      "name": "寿司海豹",
+      "idle": {
+        "path": "assets/partners/sushi.png",
+        "bytes": 42759
+      },
+      "cast": {
+        "path": "assets/partners/sushi-cast.png",
+        "bytes": 11973
+      }
+    },
+    {
+      "id": "pear",
+      "name": "小梨挂件",
+      "idle": {
+        "path": "assets/partners/pear.png",
+        "bytes": 31445
+      },
+      "cast": {
+        "path": "assets/partners/pear-cast.png",
+        "bytes": 13168
+      }
+    },
+    {
+      "id": "burger",
+      "name": "汉堡柴",
+      "idle": {
+        "path": "assets/partners/burger.png",
+        "bytes": 39063
+      },
+      "cast": {
+        "path": "assets/partners/burger-cast.png",
+        "bytes": 20119
+      }
+    },
+    {
+      "id": "badminton",
+      "name": "羽球啾",
+      "idle": {
+        "path": "assets/partners/badminton.png",
+        "bytes": 35034
+      },
+      "cast": {
+        "path": "assets/partners/badminton-cast.png",
+        "bytes": 14666
+      }
+    },
+    {
+      "id": "bomb",
+      "name": "外焦里嫩弹",
+      "idle": {
+        "path": "assets/partners/bomb.png",
+        "bytes": 53089
+      },
+      "cast": {
+        "path": "assets/partners/bomb-cast.png",
+        "bytes": 20146
+      }
+    },
+    {
+      "id": "orangecat",
+      "name": "橘猫豆包",
+      "idle": {
+        "path": "assets/partners/orangecat.png",
+        "bytes": 27929
+      },
+      "cast": {
+        "path": "assets/partners/orangecat-cast.png",
+        "bytes": 11148
+      }
+    },
+    {
+      "id": "doudou",
+      "name": "豆豆花盆",
+      "idle": {
+        "path": "assets/partners/doudou.png",
+        "bytes": 28421
+      },
+      "cast": {
+        "path": "assets/partners/doudou-cast.png",
+        "bytes": 13177
+      }
+    },
+    {
+      "id": "hydrangea",
+      "name": "绣球花球",
+      "idle": {
+        "path": "assets/partners/hydrangea.png",
+        "bytes": 31981
+      },
+      "cast": {
+        "path": "assets/partners/hydrangea-cast.png",
+        "bytes": 17119
+      }
+    },
+    {
+      "id": "pearlamp",
+      "name": "梨灯精",
+      "idle": {
+        "path": "assets/partners/pearlamp.png",
+        "bytes": 27339
+      },
+      "cast": {
+        "path": "assets/partners/pearlamp-cast.png",
+        "bytes": 12029
+      }
+    },
+    {
+      "id": "cloudmail",
+      "name": "云朵邮差",
+      "idle": {
+        "path": "assets/partners/cloudmail.png",
+        "bytes": 31071
+      },
+      "cast": {
+        "path": "assets/partners/cloudmail-cast.png",
+        "bytes": 14251
+      }
+    },
+    {
+      "id": "firefly",
+      "name": "路灯萤火",
+      "idle": {
+        "path": "assets/partners/firefly.png",
+        "bytes": 27783
+      },
+      "cast": {
+        "path": "assets/partners/firefly-cast.png",
+        "bytes": 12857
+      }
+    },
+    {
+      "id": "soup",
+      "name": "暖汤锅仔",
+      "idle": {
+        "path": "assets/partners/soup.png",
+        "bytes": 39632
+      },
+      "cast": {
+        "path": "assets/partners/soup-cast.png",
+        "bytes": 14940
+      }
+    },
+    {
+      "id": "blanket",
+      "name": "星光毯卷",
+      "idle": {
+        "path": "assets/partners/blanket.png",
+        "bytes": 36787
+      },
+      "cast": {
+        "path": "assets/partners/blanket-cast.png",
+        "bytes": 16207
+      }
+    },
+    {
+      "id": "seedling",
+      "name": "晚霞籽精",
+      "idle": {
+        "path": "assets/partners/seedling.png",
+        "bytes": 24003
+      },
+      "cast": {
+        "path": "assets/partners/seedling-cast.png",
+        "bytes": 12232
+      }
+    }
+  ],
+  "enemies": [
+    {
+      "id": "paper-ball",
+      "name": "迷途纸团",
+      "regionId": "street",
+      "idle": {
+        "path": "package-street/assets/art/paper-ball.png",
+        "bytes": 47564
+      }
+    },
+    {
+      "id": "stamp-moth",
+      "name": "邮戳小蛾",
+      "regionId": "street",
+      "idle": {
+        "path": "package-street/assets/art/stamp-moth.png",
+        "bytes": 32839
+      }
+    },
+    {
+      "id": "twine-sprite",
+      "name": "绕线小怪",
+      "regionId": "street",
+      "idle": {
+        "path": "package-street/assets/art/twine-sprite.png",
+        "bytes": 60137
+      }
+    },
+    {
+      "id": "wax-drop",
+      "name": "火漆滴滴",
+      "regionId": "street",
+      "idle": {
+        "path": "package-street/assets/art/wax-drop.png",
+        "bytes": 54318
+      }
+    },
+    {
+      "id": "postbag-guard",
+      "name": "空邮袋守卫",
+      "regionId": "street",
+      "idle": {
+        "path": "package-street/assets/art/postbag-guard.png",
+        "bytes": 60916
+      }
+    },
+    {
+      "id": "stamp-press",
+      "name": "旧戳印偶",
+      "regionId": "street",
+      "idle": {
+        "path": "package-street/assets/art/stamp-press.png",
+        "bytes": 48995
+      }
+    },
+    {
+      "id": "paper-lion",
+      "name": "吞信纸狮",
+      "regionId": "street",
+      "idle": {
+        "path": "package-street/assets/art/paper-lion.png",
+        "bytes": 64854
+      },
+      "phase2": {
+        "path": "package-street/assets/art/paper-lion-phase2.png",
+        "bytes": 57221
+      }
+    },
+    {
+      "id": "ink-puddle",
+      "name": "洇墨水洼",
+      "regionId": "bridge",
+      "idle": {
+        "path": "package-bridge/assets/art/ink-puddle.png",
+        "bytes": 46929
+      }
+    },
+    {
+      "id": "tile-sprite",
+      "name": "青瓦跳跳",
+      "regionId": "bridge",
+      "idle": {
+        "path": "package-bridge/assets/art/tile-sprite.png",
+        "bytes": 38892
+      }
+    },
+    {
+      "id": "rain-knot",
+      "name": "雨丝结",
+      "regionId": "bridge",
+      "idle": {
+        "path": "package-bridge/assets/art/rain-knot.png",
+        "bytes": 44475
+      }
+    },
+    {
+      "id": "reed-shadow",
+      "name": "苇叶影",
+      "regionId": "bridge",
+      "idle": {
+        "path": "package-bridge/assets/art/reed-shadow.png",
+        "bytes": 23910
+      }
+    },
+    {
+      "id": "umbrella-spirit",
+      "name": "倒伞雨偶",
+      "regionId": "bridge",
+      "idle": {
+        "path": "package-bridge/assets/art/umbrella-spirit.png",
+        "bytes": 45227
+      }
+    },
+    {
+      "id": "bridge-drum",
+      "name": "桥墩空鼓",
+      "regionId": "bridge",
+      "idle": {
+        "path": "package-bridge/assets/art/bridge-drum.png",
+        "bytes": 56257
+      }
+    },
+    {
+      "id": "ink-tide",
+      "name": "墨潮桥灵",
+      "regionId": "bridge",
+      "idle": {
+        "path": "package-bridge/assets/art/ink-tide.png",
+        "bytes": 52014
+      },
+      "phase2": {
+        "path": "package-bridge/assets/art/ink-tide-phase2.png",
+        "bytes": 49447
+      }
+    },
+    {
+      "id": "lantern-mote",
+      "name": "灯芯小灵",
+      "regionId": "market",
+      "idle": {
+        "path": "package-market/assets/art/lantern-mote.png",
+        "bytes": 35876
+      }
+    },
+    {
+      "id": "bell-sprite",
+      "name": "铜铃小雾",
+      "regionId": "market",
+      "idle": {
+        "path": "package-market/assets/art/bell-sprite.png",
+        "bytes": 49592
+      }
+    },
+    {
+      "id": "paper-mask",
+      "name": "纸面小客",
+      "regionId": "market",
+      "idle": {
+        "path": "package-market/assets/art/paper-mask.png",
+        "bytes": 44320
+      }
+    },
+    {
+      "id": "silk-tail",
+      "name": "绸尾风",
+      "regionId": "market",
+      "idle": {
+        "path": "package-market/assets/art/silk-tail.png",
+        "bytes": 38282
+      }
+    },
+    {
+      "id": "lantern-rack",
+      "name": "走马灯架",
+      "regionId": "market",
+      "idle": {
+        "path": "package-market/assets/art/lantern-rack.png",
+        "bytes": 42820
+      }
+    },
+    {
+      "id": "market-usher",
+      "name": "雾灯引客",
+      "regionId": "market",
+      "idle": {
+        "path": "package-market/assets/art/market-usher.png",
+        "bytes": 31599
+      }
+    },
+    {
+      "id": "bell-warden",
+      "name": "铜铃雾守",
+      "regionId": "market",
+      "idle": {
+        "path": "package-market/assets/art/bell-warden.png",
+        "bytes": 69996
+      },
+      "phase2": {
+        "path": "package-market/assets/art/bell-warden-phase2.png",
+        "bytes": 67599
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "id": "street",
+      "layers": {
+        "cover": {
+          "path": "assets/scenes/street-cover.jpg",
+          "bytes": 23746
+        },
+        "background": {
+          "path": "package-street/assets/art/street-back.jpg",
+          "bytes": 453222
+        },
+        "middle": {
+          "path": "package-street/assets/art/street-middle.png",
+          "bytes": 20798
+        },
+        "front": {
+          "path": "package-street/assets/art/street-front.png",
+          "bytes": 28189
+        }
+      }
+    },
+    {
+      "id": "bridge",
+      "layers": {
+        "cover": {
+          "path": "assets/scenes/bridge-cover.jpg",
+          "bytes": 21129
+        },
+        "background": {
+          "path": "package-bridge/assets/art/bridge-back.jpg",
+          "bytes": 418467
+        },
+        "middle": {
+          "path": "package-bridge/assets/art/bridge-middle.png",
+          "bytes": 41104
+        },
+        "front": {
+          "path": "package-bridge/assets/art/bridge-front.png",
+          "bytes": 36079
+        }
+      }
+    },
+    {
+      "id": "market",
+      "layers": {
+        "cover": {
+          "path": "assets/scenes/market-cover.jpg",
+          "bytes": 21354
+        },
+        "background": {
+          "path": "package-market/assets/art/market-back.jpg",
+          "bytes": 450259
+        },
+        "middle": {
+          "path": "package-market/assets/art/market-middle.png",
+          "bytes": 53957
+        },
+        "front": {
+          "path": "package-market/assets/art/market-front.png",
+          "bytes": 56653
+        }
+      }
+    }
+  ]
+}

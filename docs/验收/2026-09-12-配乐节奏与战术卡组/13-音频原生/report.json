@@ -1,0 +1,654 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-zrGsgc",
+  "region": "",
+  "checks": [
+    {
+      "name": "音频验收使用独立存档",
+      "pass": true
+    },
+    {
+      "name": "adventure 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "真实界面已开启音乐和音效",
+      "pass": true
+    },
+    {
+      "name": "town 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "town 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "home 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "town 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "town 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "collection 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "town 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "town 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "story 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "letter 实际触发播放回调且播放时间前进",
+      "pass": true
+    },
+    {
+      "name": "letter 没有播放器错误",
+      "pass": true
+    },
+    {
+      "name": "页面切换与声音设置不改游戏存档或随机进度",
+      "pass": true
+    },
+    {
+      "name": "home 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "home 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "home 声音按钮至少44px且无横向溢出",
+      "pass": true
+    },
+    {
+      "name": "22个本地音频全部通过原生播放与解码探针",
+      "pass": true
+    },
+    {
+      "name": "整个流程最多三个播放器实例",
+      "pass": true
+    },
+    {
+      "name": "没有音频加载或播放错误",
+      "pass": true
+    },
+    {
+      "name": "控制台 error 筛选为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "town-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-zrGsgc/town-controls.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "home-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-zrGsgc/home-controls.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "collection-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-zrGsgc/collection-controls.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    },
+    {
+      "name": "story-controls",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-audio-native-zrGsgc/story-controls.jpg",
+      "imageWidth": 468,
+      "imageHeight": 830
+    }
+  ],
+  "samples": [
+    {
+      "label": "playing-town",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "interrupted": false,
+        "readyState": "ready",
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 9.232541666666798,
+        "musicStarts": 7,
+        "effectStarts": 164,
+        "lastEffect": "defeat",
+        "contexts": 3,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "interrupted": false,
+        "readyState": "ready",
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 10.83787499999999,
+        "musicStarts": 7,
+        "effectStarts": 164,
+        "lastEffect": "defeat",
+        "contexts": 3,
+        "lastError": null
+      }
+    },
+    {
+      "label": "playing-town",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "interrupted": false,
+        "readyState": "ready",
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 1.0027291666666862,
+        "musicStarts": 7,
+        "effectStarts": 164,
+        "lastEffect": "defeat",
+        "contexts": 3,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "interrupted": false,
+        "readyState": "ready",
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 2.6080625000001056,
+        "musicStarts": 7,
+        "effectStarts": 164,
+        "lastEffect": "defeat",
+        "contexts": 3,
+        "lastError": null
+      }
+    },
+    {
+      "label": "playing-town",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "interrupted": false,
+        "readyState": "ready",
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 10.15472916666673,
+        "musicStarts": 7,
+        "effectStarts": 164,
+        "lastEffect": "defeat",
+        "contexts": 3,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "interrupted": false,
+        "readyState": "ready",
+        "scene": "town",
+        "musicSrc": "/assets/audio/town.mp3",
+        "musicPlaying": true,
+        "musicTime": 11.76006250000015,
+        "musicStarts": 7,
+        "effectStarts": 164,
+        "lastEffect": "defeat",
+        "contexts": 3,
+        "lastError": null
+      }
+    },
+    {
+      "label": "playing-letter",
+      "before": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "interrupted": false,
+        "readyState": "ready",
+        "scene": "letter",
+        "musicSrc": "/assets/audio/letter.mp3",
+        "musicPlaying": true,
+        "musicTime": 4.122666666666646,
+        "musicStarts": 8,
+        "effectStarts": 164,
+        "lastEffect": "defeat",
+        "contexts": 3,
+        "lastError": null
+      },
+      "after": {
+        "music": true,
+        "effects": true,
+        "foreground": true,
+        "interrupted": false,
+        "readyState": "ready",
+        "scene": "letter",
+        "musicSrc": "/assets/audio/letter.mp3",
+        "musicPlaying": true,
+        "musicTime": 5.7280000000000655,
+        "musicStarts": 8,
+        "effectStarts": 164,
+        "lastEffect": "defeat",
+        "contexts": 3,
+        "lastError": null
+      }
+    },
+    {
+      "label": "final",
+      "music": true,
+      "effects": true,
+      "foreground": true,
+      "interrupted": false,
+      "readyState": "ready",
+      "scene": "town",
+      "musicSrc": "/assets/audio/town.mp3",
+      "musicPlaying": true,
+      "musicTime": 14.266187499999983,
+      "musicStarts": 9,
+      "effectStarts": 164,
+      "lastEffect": "defeat",
+      "contexts": 3,
+      "lastError": null
+    }
+  ],
+  "status": "pass",
+  "controls": [
+    {
+      "page": "adventure",
+      "width": 320,
+      "buttons": [
+        {
+          "left": 75.125,
+          "right": 153.0625,
+          "top": -761,
+          "bottom": -717,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 161.0625,
+          "right": 239,
+          "top": -761,
+          "bottom": -717,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 247,
+          "right": 305,
+          "top": -761,
+          "bottom": -717,
+          "width": 58,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "page": "home",
+      "width": 320,
+      "buttons": [
+        {
+          "left": 75.125,
+          "right": 153.0625,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 161.0625,
+          "right": 239,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 247,
+          "right": 305,
+          "top": 10,
+          "bottom": 54,
+          "width": 58,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "page": "collection",
+      "width": 320,
+      "buttons": [
+        {
+          "left": 75.125,
+          "right": 153.0625,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 161.0625,
+          "right": 239,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 247,
+          "right": 305,
+          "top": 10,
+          "bottom": 54,
+          "width": 58,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "page": "story",
+      "width": 320,
+      "buttons": [
+        {
+          "left": 75.125,
+          "right": 153.0625,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 161.0625,
+          "right": 239,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 247,
+          "right": 305,
+          "top": 10,
+          "bottom": 54,
+          "width": 58,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "page": "home",
+      "width": 320,
+      "buttons": [
+        {
+          "left": 75.125,
+          "right": 153.0625,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 161.0625,
+          "right": 239,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 247,
+          "right": 305,
+          "top": 10,
+          "bottom": 54,
+          "width": 58,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "page": "home",
+      "width": 320,
+      "buttons": [
+        {
+          "left": 75.125,
+          "right": 153.0625,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 161.0625,
+          "right": 239,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 247,
+          "right": 305,
+          "top": 10,
+          "bottom": 54,
+          "width": 58,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "page": "home",
+      "width": 320,
+      "buttons": [
+        {
+          "left": 75.125,
+          "right": 153.0625,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 161.0625,
+          "right": 239,
+          "top": 10,
+          "bottom": 54,
+          "width": 77.9375,
+          "height": 44
+        },
+        {
+          "left": 247,
+          "right": 305,
+          "top": 10,
+          "bottom": 54,
+          "width": 58,
+          "height": 44
+        }
+      ]
+    }
+  ],
+  "assetProbe": [
+    {
+      "src": "/assets/audio/town.mp3",
+      "played": true,
+      "duration": 18.00047916666667,
+      "currentTime": 0.40000000000009095,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/letter.mp3",
+      "played": true,
+      "duration": 18.00047916666667,
+      "currentTime": 0.3999999999998636,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/boss.mp3",
+      "played": true,
+      "duration": 14,
+      "currentTime": 0.40533333333337396,
+      "error": null
+    },
+    {
+      "src": "/package-street/assets/audio/theme.mp3",
+      "played": true,
+      "duration": 24,
+      "currentTime": 0.40533333333337396,
+      "error": null
+    },
+    {
+      "src": "/package-bridge/assets/audio/theme.mp3",
+      "played": true,
+      "duration": 24,
+      "currentTime": 0.4053333333331466,
+      "error": null
+    },
+    {
+      "src": "/package-market/assets/audio/theme.mp3",
+      "played": true,
+      "duration": 24,
+      "currentTime": 0.3999999999998636,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/select.mp3",
+      "played": true,
+      "duration": 0.18,
+      "currentTime": 0,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/card.mp3",
+      "played": true,
+      "duration": 0.32,
+      "currentTime": 0,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/attack.mp3",
+      "played": true,
+      "duration": 0.5,
+      "currentTime": 0.40533333333337396,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/hit.mp3",
+      "played": true,
+      "duration": 0.22,
+      "currentTime": 0,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/guard.mp3",
+      "played": true,
+      "duration": 0.3,
+      "currentTime": 0,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/heal.mp3",
+      "played": true,
+      "duration": 0.6,
+      "currentTime": 0.40000000000009095,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/buff.mp3",
+      "played": true,
+      "duration": 0.7,
+      "currentTime": 0.40533333333337396,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/debuff.mp3",
+      "played": true,
+      "duration": 0.5,
+      "currentTime": 0.40533333333337396,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/shuffle.mp3",
+      "played": true,
+      "duration": 0.8,
+      "currentTime": 0.3999999999998636,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/summon.mp3",
+      "played": true,
+      "duration": 0.9,
+      "currentTime": 0.40533333333337396,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/rare.mp3",
+      "played": true,
+      "duration": 0.7500208333333334,
+      "currentTime": 0.40533333333337396,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/reward.mp3",
+      "played": true,
+      "duration": 0.7,
+      "currentTime": 0.40533333333337396,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/chest.mp3",
+      "played": true,
+      "duration": 1,
+      "currentTime": 0.40000000000009095,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/victory.mp3",
+      "played": true,
+      "duration": 1.8,
+      "currentTime": 0.40000000000009095,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/defeat.mp3",
+      "played": true,
+      "duration": 1.6,
+      "currentTime": 0.40000000000009095,
+      "error": null
+    },
+    {
+      "src": "/assets/audio/sfx/phase.mp3",
+      "played": true,
+      "duration": 1,
+      "currentTime": 0.40000000000009095,
+      "error": null
+    }
+  ],
+  "console": ""
+}

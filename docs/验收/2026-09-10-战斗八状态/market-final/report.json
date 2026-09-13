@@ -1,0 +1,554 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-nyMDCE",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-fKGqfg",
+  "width": 320,
+  "checks": [
+    {
+      "name": "运行存档属于隔离副本",
+      "pass": true
+    },
+    {
+      "name": "实际模拟器宽度一致",
+      "pass": true
+    },
+    {
+      "name": "market由既有真实进度解锁",
+      "pass": true
+    },
+    {
+      "name": "market真实打开对应战斗页面",
+      "pass": true
+    },
+    {
+      "name": "market三位伙伴实际使用对应动作图片",
+      "pass": true
+    },
+    {
+      "name": "market选牌和目标预览允许操作",
+      "pass": true
+    },
+    {
+      "name": "market战斗内公开入口先显示确认",
+      "pass": true
+    },
+    {
+      "name": "结束远行确认完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "market三位伙伴实际显示退场PNG",
+      "pass": true
+    },
+    {
+      "name": "market退场有连续变换",
+      "pass": true
+    },
+    {
+      "name": "market退场动画期间已完成持久化",
+      "pass": true
+    },
+    {
+      "name": "market主动结束保留永久收获",
+      "pass": true
+    },
+    {
+      "name": "现场error筛选为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "market-battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-fKGqfg/market-battle.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    },
+    {
+      "name": "market-target-preview",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-fKGqfg/market-target-preview.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    },
+    {
+      "name": "market-retreat-confirm",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-fKGqfg/market-retreat-confirm.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    },
+    {
+      "name": "market-retreat-result",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-region-actions-fKGqfg/market-retreat-result.jpg",
+      "imageWidth": 660,
+      "imageHeight": 1172
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 396,
+        "bottom": 444,
+        "width": 284,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-7\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-7"
+        },
+        "left": 132,
+        "right": 184,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-1\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-1"
+        },
+        "left": 117.078125,
+        "right": 202.9140625,
+        "top": 99.0625,
+        "bottom": 213.65625,
+        "width": 85.8359375,
+        "height": 114.59375
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".exp-log",
+      "rect": {
+        "dataset": {},
+        "left": 264,
+        "right": 308,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".abandon-from-log",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 407.703125,
+        "bottom": 451.703125,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-abandon",
+      "rect": {
+        "dataset": {},
+        "left": 27,
+        "right": 293,
+        "top": 351.6796875,
+        "bottom": 395.6796875,
+        "width": 266,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".finish-run",
+      "rect": {
+        "dataset": {},
+        "left": 23,
+        "right": 297,
+        "top": 414.1796875,
+        "bottom": 458.1796875,
+        "width": 274,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    }
+  ],
+  "regions": [
+    {
+      "region": "market",
+      "images": [
+        {
+          "dataset": {
+            "actor": "sheep",
+            "state": "guard"
+          },
+          "src": "/package-actors-a/assets/sheep/guard.png"
+        },
+        {
+          "dataset": {
+            "actor": "orangecat",
+            "state": "guard"
+          },
+          "src": "/package-actors-b/assets/orangecat/guard.png"
+        },
+        {
+          "dataset": {
+            "actor": "nav",
+            "state": "guard"
+          },
+          "src": "/package-actors-a/assets/nav/guard.png"
+        }
+      ],
+      "card": "豆包连扑",
+      "samples": [
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.994359, 0, 0, 0.994359, 0, 0.338439)",
+              "opacity": "0.957695"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.994359, 0, 0, 0.994359, 0, 0.338439)",
+              "opacity": "0.957695"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.994359, 0, 0, 0.994359, 0, 0.338439)",
+              "opacity": "0.957695"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.98591, 0, 0, 0.98591, 0, 0.845405)",
+              "opacity": "0.894324"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.98591, 0, 0, 0.98591, 0, 0.845405)",
+              "opacity": "0.894324"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.98591, 0, 0, 0.98591, 0, 0.845405)",
+              "opacity": "0.894324"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.965997, 0, 0, 0.965997, 0, 2.04018)",
+              "opacity": "0.744978"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.965997, 0, 0, 0.965997, 0, 2.04018)",
+              "opacity": "0.744978"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.965997, 0, 0, 0.965997, 0, 2.04018)",
+              "opacity": "0.744978"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.951198, 0, 0, 0.951198, 0, 2.92812)",
+              "opacity": "0.633985"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.951198, 0, 0, 0.951198, 0, 2.92812)",
+              "opacity": "0.633985"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.951198, 0, 0, 0.951198, 0, 2.92812)",
+              "opacity": "0.633985"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        },
+        {
+          "beat": "impact",
+          "images": [
+            {
+              "dataset": {
+                "actor": "sheep",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/sheep/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "orangecat",
+                "state": "exit"
+              },
+              "src": "/package-actors-b/assets/orangecat/exit.png"
+            },
+            {
+              "dataset": {
+                "actor": "nav",
+                "state": "exit"
+              },
+              "src": "/package-actors-a/assets/nav/exit.png"
+            }
+          ],
+          "motion": [
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.91699, 0, 0, 0.91699, 0, 4.98061)",
+              "opacity": "0.377424"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.91699, 0, 0, 0.91699, 0, 4.98061)",
+              "opacity": "0.377424"
+            },
+            {
+              "animation-name": "actionExit",
+              "transform": "matrix(0.91699, 0, 0, 0.91699, 0, 4.98061)",
+              "opacity": "0.377424"
+            }
+          ],
+          "stored": {
+            "active": false,
+            "threads": 48,
+            "tickets": 18
+          }
+        }
+      ],
+      "result": {
+        "win": false,
+        "reason": "旅伴们返回邮局，已获得的星线全部保留",
+        "regionId": "market",
+        "regionName": "夜行灯市",
+        "difficultyName": "普通",
+        "nodesCleared": 0,
+        "threads": 0,
+        "tickets": 0
+      }
+    }
+  ],
+  "status": "pass",
+  "console": ""
+}

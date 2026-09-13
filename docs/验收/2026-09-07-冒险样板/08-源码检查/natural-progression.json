@@ -1,0 +1,510 @@
+{
+  "startedFrom": "game.createState()",
+  "team": [
+    "sheep",
+    "orangecat",
+    "nav"
+  ],
+  "difficulty": 0,
+  "initialRuns": [
+    {
+      "regionId": "street",
+      "seed": 42,
+      "before": {
+        "tickets": 6,
+        "threads": 0,
+        "levels": {
+          "sheep": 1,
+          "orangecat": 1,
+          "nav": 1
+        }
+      },
+      "after": {
+        "tickets": 10,
+        "threads": 46,
+        "levels": {
+          "sheep": 1,
+          "orangecat": 1,
+          "nav": 1
+        }
+      },
+      "result": {
+        "win": true,
+        "reason": "首领的两道迷雾都已散去，这次远行顺利送达",
+        "regionId": "street",
+        "regionName": "黄昏邮街",
+        "difficultyName": "初灯",
+        "nodesCleared": 9,
+        "threads": 46,
+        "tickets": 4
+      },
+      "battles": [
+        {
+          "layer": 0,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 1,
+          "type": "battle",
+          "turns": 3
+        },
+        {
+          "layer": 3,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 5,
+          "type": "elite",
+          "turns": 4
+        },
+        {
+          "layer": 7,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 8,
+          "type": "boss",
+          "turns": 8
+        }
+      ],
+      "actions": 90,
+      "materialChange": {
+        "tickets": 4,
+        "threads": 46
+      }
+    },
+    {
+      "regionId": "bridge",
+      "seed": 12345,
+      "before": {
+        "tickets": 10,
+        "threads": 16,
+        "levels": {
+          "sheep": 2,
+          "orangecat": 2,
+          "nav": 2
+        }
+      },
+      "after": {
+        "tickets": 14,
+        "threads": 62,
+        "levels": {
+          "sheep": 2,
+          "orangecat": 2,
+          "nav": 2
+        }
+      },
+      "result": {
+        "win": true,
+        "reason": "首领的两道迷雾都已散去，这次远行顺利送达",
+        "regionId": "bridge",
+        "regionName": "雨巷旧桥",
+        "difficultyName": "初灯",
+        "nodesCleared": 9,
+        "threads": 46,
+        "tickets": 4
+      },
+      "battles": [
+        {
+          "layer": 0,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 1,
+          "type": "battle",
+          "turns": 3
+        },
+        {
+          "layer": 4,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 6,
+          "type": "elite",
+          "turns": 4
+        },
+        {
+          "layer": 7,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 8,
+          "type": "boss",
+          "turns": 8
+        }
+      ],
+      "actions": 87,
+      "materialChange": {
+        "tickets": 4,
+        "threads": 46
+      }
+    },
+    {
+      "regionId": "market",
+      "seed": 824596,
+      "before": {
+        "tickets": 14,
+        "threads": 2,
+        "levels": {
+          "sheep": 3,
+          "orangecat": 3,
+          "nav": 3
+        }
+      },
+      "after": {
+        "tickets": 14,
+        "threads": 36,
+        "levels": {
+          "sheep": 3,
+          "orangecat": 3,
+          "nav": 3
+        }
+      },
+      "result": {
+        "win": false,
+        "reason": "旅伴们暂时无法继续，已带回获得的星线",
+        "regionId": "market",
+        "regionName": "夜行灯市",
+        "difficultyName": "初灯",
+        "nodesCleared": 8,
+        "threads": 34,
+        "tickets": 0
+      },
+      "battles": [
+        {
+          "layer": 0,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 1,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 4,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 6,
+          "type": "elite",
+          "turns": 6
+        },
+        {
+          "layer": 7,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 8,
+          "type": "boss",
+          "turns": 11
+        }
+      ],
+      "actions": 101,
+      "materialChange": {
+        "tickets": 0,
+        "threads": 34
+      }
+    }
+  ],
+  "marketRetries": [
+    {
+      "regionId": "market",
+      "seed": 42,
+      "before": {
+        "tickets": 14,
+        "threads": 6,
+        "levels": {
+          "sheep": 3,
+          "orangecat": 3,
+          "nav": 4
+        }
+      },
+      "after": {
+        "tickets": 14,
+        "threads": 40,
+        "levels": {
+          "sheep": 3,
+          "orangecat": 3,
+          "nav": 4
+        }
+      },
+      "result": {
+        "win": false,
+        "reason": "旅伴们暂时无法继续，已带回获得的星线",
+        "regionId": "market",
+        "regionName": "夜行灯市",
+        "difficultyName": "初灯",
+        "nodesCleared": 8,
+        "threads": 34,
+        "tickets": 0
+      },
+      "battles": [
+        {
+          "layer": 0,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 1,
+          "type": "battle",
+          "turns": 3
+        },
+        {
+          "layer": 3,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 5,
+          "type": "elite",
+          "turns": 6
+        },
+        {
+          "layer": 7,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 8,
+          "type": "boss",
+          "turns": 9
+        }
+      ],
+      "actions": 102,
+      "materialChange": {
+        "tickets": 0,
+        "threads": 34
+      }
+    },
+    {
+      "regionId": "market",
+      "seed": 12345,
+      "before": {
+        "tickets": 14,
+        "threads": 10,
+        "levels": {
+          "sheep": 3,
+          "orangecat": 4,
+          "nav": 4
+        }
+      },
+      "after": {
+        "tickets": 14,
+        "threads": 44,
+        "levels": {
+          "sheep": 3,
+          "orangecat": 4,
+          "nav": 4
+        }
+      },
+      "result": {
+        "win": false,
+        "reason": "旅伴们暂时无法继续，已带回获得的星线",
+        "regionId": "market",
+        "regionName": "夜行灯市",
+        "difficultyName": "初灯",
+        "nodesCleared": 8,
+        "threads": 34,
+        "tickets": 0
+      },
+      "battles": [
+        {
+          "layer": 0,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 1,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 4,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 6,
+          "type": "elite",
+          "turns": 4
+        },
+        {
+          "layer": 7,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 8,
+          "type": "boss",
+          "turns": 12
+        }
+      ],
+      "actions": 103,
+      "materialChange": {
+        "tickets": 0,
+        "threads": 34
+      }
+    },
+    {
+      "regionId": "market",
+      "seed": 987654321,
+      "before": {
+        "tickets": 14,
+        "threads": 14,
+        "levels": {
+          "sheep": 4,
+          "orangecat": 4,
+          "nav": 4
+        }
+      },
+      "after": {
+        "tickets": 18,
+        "threads": 60,
+        "levels": {
+          "sheep": 4,
+          "orangecat": 4,
+          "nav": 4
+        }
+      },
+      "result": {
+        "win": true,
+        "reason": "首领的两道迷雾都已散去，这次远行顺利送达",
+        "regionId": "market",
+        "regionName": "夜行灯市",
+        "difficultyName": "初灯",
+        "nodesCleared": 9,
+        "threads": 46,
+        "tickets": 4
+      },
+      "battles": [
+        {
+          "layer": 0,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 1,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 3,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 5,
+          "type": "elite",
+          "turns": 5
+        },
+        {
+          "layer": 7,
+          "type": "battle",
+          "turns": 2
+        },
+        {
+          "layer": 8,
+          "type": "boss",
+          "turns": 11
+        }
+      ],
+      "actions": 103,
+      "materialChange": {
+        "tickets": 4,
+        "threads": 46
+      }
+    }
+  ],
+  "upgrades": [
+    {
+      "before": "bridge",
+      "id": "nav",
+      "level": 2,
+      "cost": 10
+    },
+    {
+      "before": "bridge",
+      "id": "orangecat",
+      "level": 2,
+      "cost": 10
+    },
+    {
+      "before": "bridge",
+      "id": "sheep",
+      "level": 2,
+      "cost": 10
+    },
+    {
+      "before": "market-initial",
+      "id": "nav",
+      "level": 3,
+      "cost": 20
+    },
+    {
+      "before": "market-initial",
+      "id": "orangecat",
+      "level": 3,
+      "cost": 20
+    },
+    {
+      "before": "market-initial",
+      "id": "sheep",
+      "level": 3,
+      "cost": 20
+    },
+    {
+      "before": "market-retry-42",
+      "id": "nav",
+      "level": 4,
+      "cost": 30
+    },
+    {
+      "before": "market-retry-12345",
+      "id": "orangecat",
+      "level": 4,
+      "cost": 30
+    },
+    {
+      "before": "market-retry-987654321",
+      "id": "sheep",
+      "level": 4,
+      "cost": 30
+    }
+  ],
+  "readOnlyPolicyChecks": 586,
+  "final": {
+    "tickets": 18,
+    "threads": 60,
+    "levels": {
+      "sheep": 4,
+      "orangecat": 4,
+      "nav": 4
+    },
+    "clears": {
+      "street": [
+        1,
+        0,
+        0
+      ],
+      "bridge": [
+        1,
+        0,
+        0
+      ],
+      "market": [
+        1,
+        0,
+        0
+      ]
+    }
+  }
+}

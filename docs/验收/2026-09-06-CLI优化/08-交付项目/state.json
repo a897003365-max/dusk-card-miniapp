@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "tool": "automation_evaluate",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "result": {
+      "result": {
+        "route": "pages/home/index",
+        "tickets": 6,
+        "drawCount": 0,
+        "chapters": 0,
+        "team": 3,
+        "width": 390
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "name": "main",
+    "root": "",
+    "bytes": 601058,
+    "mib": 0.5732135772705078,
+    "remainingBytes": 1496094,
+    "imageBytes": 507438,
+    "codeBytes": 91986,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "utils/content.js",
+        "bytes": 30346
+      },
+      {
+        "path": "assets/prizes/bomb/SSR.png",
+        "bytes": 18767
+      },
+      {
+        "path": "assets/prizes/seedling/SR.png",
+        "bytes": 13945
+      },
+      {
+        "path": "assets/prizes/soup/UR.png",
+        "bytes": 10284
+      },
+      {
+        "path": "utils/game.js",
+        "bytes": 9869
+      },
+      {
+        "path": "assets/prizes/bomb/UR.png",
+        "bytes": 9414
+      },
+      {
+        "path": "pages/home/index.wxss",
+        "bytes": 9212
+      },
+      {
+        "path": "assets/prizes/seedling/UR.png",
+        "bytes": 9083
+      },
+      {
+        "path": "assets/prizes/tea/UR.png",
+        "bytes": 9025
+      },
+      {
+        "path": "assets/prizes/ticket/UR.png",
+        "bytes": 8263
+      },
+      {
+        "path": "assets/prizes/sheep/UR.png",
+        "bytes": 8013
+      },
+      {
+        "path": "assets/prizes/ramen/UR.png",
+        "bytes": 7905
+      },
+      {
+        "path": "assets/prizes/orangecat/UR.png",
+        "bytes": 7866
+      },
+      {
+        "path": "assets/prizes/soup/SSR.png",
+        "bytes": 7687
+      },
+      {
+        "path": "assets/prizes/pear/UR.png",
+        "bytes": 7643
+      },
+      {
+        "path": "assets/prizes/burger/UR.png",
+        "bytes": 7511
+      },
+      {
+        "path": "assets/prizes/badminton/UR.png",
+        "bytes": 7471
+      },
+      {
+        "path": "assets/prizes/doudou/UR.png",
+        "bytes": 7443
+      },
+      {
+        "path": "assets/prizes/blanket/UR.png",
+        "bytes": 7397
+      },
+      {
+        "path": "assets/prizes/sushi/UR.png",
+        "bytes": 7335
+      }
+    ]
+  }
+]

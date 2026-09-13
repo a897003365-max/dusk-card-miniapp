@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd",
+  "actors": [
+    {
+      "id": "hydrangea",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/hydrangea-sheet.png",
+      "sourceHash": "4c2c7efc3cd521cb71af53b194830cfeda7c7cc44d382f1cbd8041c3f737492a",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          18026,
+          1227
+        ],
+        "removedPixels": 19253
+      },
+      "foregroundPixels": 469238,
+      "assignedPixels": 469238
+    }
+  ],
+  "frames": [
+    {
+      "id": "hydrangea",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/enter.png",
+      "contentBounds": {
+        "x": 45,
+        "y": 25,
+        "width": 344,
+        "height": 410
+      },
+      "bytes": 16439
+    },
+    {
+      "id": "hydrangea",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/attack.png",
+      "contentBounds": {
+        "x": 471,
+        "y": 67,
+        "width": 426,
+        "height": 332
+      },
+      "bytes": 15040
+    },
+    {
+      "id": "hydrangea",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/guard.png",
+      "contentBounds": {
+        "x": 945,
+        "y": 55,
+        "width": 340,
+        "height": 351
+      },
+      "bytes": 22537
+    },
+    {
+      "id": "hydrangea",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/hurt.png",
+      "contentBounds": {
+        "x": 1376,
+        "y": 22,
+        "width": 349,
+        "height": 410
+      },
+      "bytes": 16253
+    },
+    {
+      "id": "hydrangea",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/exit.png",
+      "contentBounds": {
+        "x": 35,
+        "y": 463,
+        "width": 354,
+        "height": 383
+      },
+      "bytes": 15118
+    },
+    {
+      "id": "hydrangea",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/control.png",
+      "contentBounds": {
+        "x": 466,
+        "y": 456,
+        "width": 370,
+        "height": 403
+      },
+      "bytes": 20772
+    },
+    {
+      "id": "hydrangea",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/buff.png",
+      "contentBounds": {
+        "x": 916,
+        "y": 439,
+        "width": 376,
+        "height": 420
+      },
+      "bytes": 17306
+    },
+    {
+      "id": "hydrangea",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-0ZhcNd/hydrangea/debuff.png",
+      "contentBounds": {
+        "x": 1386,
+        "y": 500,
+        "width": 340,
+        "height": 358
+      },
+      "bytes": 19636
+    }
+  ],
+  "bytes": 143101
+}

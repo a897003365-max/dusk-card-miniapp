@@ -1,0 +1,95 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-l8hWQb",
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF",
+  "width": 430,
+  "checks": [
+    {
+      "name": "目标为独立验收命名空间",
+      "pass": true
+    },
+    {
+      "name": "原生视口宽度符合验收目标",
+      "pass": true
+    },
+    {
+      "name": "邮戳与结算标题没有重叠",
+      "pass": true
+    },
+    {
+      "name": "回执收获行可完整滚动看到",
+      "pass": true
+    },
+    {
+      "name": "回执确认固定在视口内且至少44px",
+      "pass": true
+    },
+    {
+      "name": "查看说明、滚动与关闭未改变存档或RNG",
+      "pass": true
+    },
+    {
+      "name": "本次布局现场console error为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "receipt-top",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-l8hWQb/receipt-top.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    },
+    {
+      "name": "receipt-bottom",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-layout-l8hWQb/receipt-bottom.jpg",
+      "imageWidth": 592,
+      "imageHeight": 1280
+    }
+  ],
+  "status": "pass",
+  "receiptRects": [
+    {
+      "id": "",
+      "dataset": {},
+      "left": 37,
+      "right": 393,
+      "top": 156,
+      "bottom": 192.4453125,
+      "width": 356,
+      "height": 36.4453125
+    },
+    {
+      "id": "",
+      "dataset": {},
+      "left": 290.8202209472656,
+      "right": 381.1797790527344,
+      "top": 55.820220947265625,
+      "bottom": 146.17977905273438,
+      "width": 90.35955810546875,
+      "height": 90.35955810546875
+    },
+    {
+      "id": "",
+      "dataset": {},
+      "left": 14,
+      "right": 416,
+      "top": 18,
+      "bottom": 782,
+      "width": 402,
+      "height": 764
+    },
+    {
+      "id": "",
+      "dataset": {},
+      "left": 15,
+      "right": 415,
+      "top": 714,
+      "bottom": 781,
+      "width": 400,
+      "height": 67
+    }
+  ],
+  "console": ""
+}

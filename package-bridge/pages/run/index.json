@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "雨巷旧桥",
+  "usingComponents": {
+    "action-placeholder": "/components/action-placeholder/index",
+    "sound-controls": "/components/sound-controls/index",
+    "paper-actor-a": "/package-actors-a/components/portrait/index",
+    "paper-actor-b": "/package-actors-b/components/portrait/index",
+    "paper-actor-c": "/package-actors-c/components/portrait/index"
+  },
+  "componentPlaceholder": {
+    "paper-actor-a": "action-placeholder",
+    "paper-actor-b": "action-placeholder",
+    "paper-actor-c": "action-placeholder"
+  }
+}

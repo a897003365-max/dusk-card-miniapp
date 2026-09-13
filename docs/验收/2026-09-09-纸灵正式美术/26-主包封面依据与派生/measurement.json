@@ -1,0 +1,209 @@
+{
+  "directory": "/tmp/dusk-main-cover-candidates-JO8eHv",
+  "targetTotalBytes": 60000,
+  "sources": [
+    {
+      "region": "street",
+      "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-street/assets/art/street-back.jpg",
+      "bytes": 453222,
+      "sha256": "9ec50c0af7c2818101f7a4af427e8e5f85842224cd3c41d1bac4d8f8919ba61b",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "region": "bridge",
+      "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-bridge/assets/art/bridge-back.jpg",
+      "bytes": 418467,
+      "sha256": "17fa50521486621ffd0fa4b4a004f459707321245c3a6ccc87a9a0c64df266e8",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "region": "market",
+      "path": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/package-market/assets/art/market-back.jpg",
+      "bytes": 450259,
+      "sha256": "251881ecd936f6757a34adf3ad5ab1390bdca87d67cb2942ca96cb63a76019df",
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "candidates": [
+    {
+      "region": "street",
+      "edge": 320,
+      "quality": 50,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/street-320-q50.jpg",
+      "bytes": 23746,
+      "width": 320,
+      "height": 320,
+      "recommendedPath": "/tmp/dusk-main-cover-candidates-JO8eHv/recommended/street-cover.jpg"
+    },
+    {
+      "region": "street",
+      "edge": 320,
+      "quality": 60,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/street-320-q60.jpg",
+      "bytes": 30828,
+      "width": 320,
+      "height": 320
+    },
+    {
+      "region": "street",
+      "edge": 384,
+      "quality": 50,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/street-384-q50.jpg",
+      "bytes": 33206,
+      "width": 384,
+      "height": 384
+    },
+    {
+      "region": "street",
+      "edge": 384,
+      "quality": 60,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/street-384-q60.jpg",
+      "bytes": 43100,
+      "width": 384,
+      "height": 384
+    },
+    {
+      "region": "bridge",
+      "edge": 320,
+      "quality": 50,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/bridge-320-q50.jpg",
+      "bytes": 21129,
+      "width": 320,
+      "height": 320,
+      "recommendedPath": "/tmp/dusk-main-cover-candidates-JO8eHv/recommended/bridge-cover.jpg"
+    },
+    {
+      "region": "bridge",
+      "edge": 320,
+      "quality": 60,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/bridge-320-q60.jpg",
+      "bytes": 27882,
+      "width": 320,
+      "height": 320
+    },
+    {
+      "region": "bridge",
+      "edge": 384,
+      "quality": 50,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/bridge-384-q50.jpg",
+      "bytes": 29697,
+      "width": 384,
+      "height": 384
+    },
+    {
+      "region": "bridge",
+      "edge": 384,
+      "quality": 60,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/bridge-384-q60.jpg",
+      "bytes": 38932,
+      "width": 384,
+      "height": 384
+    },
+    {
+      "region": "market",
+      "edge": 320,
+      "quality": 50,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/market-320-q50.jpg",
+      "bytes": 21354,
+      "width": 320,
+      "height": 320,
+      "recommendedPath": "/tmp/dusk-main-cover-candidates-JO8eHv/recommended/market-cover.jpg"
+    },
+    {
+      "region": "market",
+      "edge": 320,
+      "quality": 60,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/market-320-q60.jpg",
+      "bytes": 28046,
+      "width": 320,
+      "height": 320
+    },
+    {
+      "region": "market",
+      "edge": 384,
+      "quality": 50,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/market-384-q50.jpg",
+      "bytes": 30262,
+      "width": 384,
+      "height": 384
+    },
+    {
+      "region": "market",
+      "edge": 384,
+      "quality": 60,
+      "path": "/tmp/dusk-main-cover-candidates-JO8eHv/market-384-q60.jpg",
+      "bytes": 39860,
+      "width": 384,
+      "height": 384
+    }
+  ],
+  "sets": [
+    {
+      "edge": 320,
+      "quality": 50,
+      "totalBytes": 66229,
+      "remainingTo60000": -6229,
+      "within60000": false,
+      "files": [
+        "/tmp/dusk-main-cover-candidates-JO8eHv/street-320-q50.jpg",
+        "/tmp/dusk-main-cover-candidates-JO8eHv/bridge-320-q50.jpg",
+        "/tmp/dusk-main-cover-candidates-JO8eHv/market-320-q50.jpg"
+      ]
+    },
+    {
+      "edge": 320,
+      "quality": 60,
+      "totalBytes": 86756,
+      "remainingTo60000": -26756,
+      "within60000": false,
+      "files": [
+        "/tmp/dusk-main-cover-candidates-JO8eHv/street-320-q60.jpg",
+        "/tmp/dusk-main-cover-candidates-JO8eHv/bridge-320-q60.jpg",
+        "/tmp/dusk-main-cover-candidates-JO8eHv/market-320-q60.jpg"
+      ]
+    },
+    {
+      "edge": 384,
+      "quality": 50,
+      "totalBytes": 93165,
+      "remainingTo60000": -33165,
+      "within60000": false,
+      "files": [
+        "/tmp/dusk-main-cover-candidates-JO8eHv/street-384-q50.jpg",
+        "/tmp/dusk-main-cover-candidates-JO8eHv/bridge-384-q50.jpg",
+        "/tmp/dusk-main-cover-candidates-JO8eHv/market-384-q50.jpg"
+      ]
+    },
+    {
+      "edge": 384,
+      "quality": 60,
+      "totalBytes": 121892,
+      "remainingTo60000": -61892,
+      "within60000": false,
+      "files": [
+        "/tmp/dusk-main-cover-candidates-JO8eHv/street-384-q60.jpg",
+        "/tmp/dusk-main-cover-candidates-JO8eHv/bridge-384-q60.jpg",
+        "/tmp/dusk-main-cover-candidates-JO8eHv/market-384-q60.jpg"
+      ]
+    }
+  ],
+  "sourcesUnchanged": true,
+  "recommendation": {
+    "edge": 320,
+    "quality": 50,
+    "totalBytes": 66229,
+    "totalKiB": 64.6767578125,
+    "reason": "Smallest measured set; preserves complete composition; parent confirmed it fits current main-package headroom of 88014 bytes.",
+    "remainingFromParentHeadroom": 21785,
+    "files": [
+      "/tmp/dusk-main-cover-candidates-JO8eHv/recommended/street-cover.jpg",
+      "/tmp/dusk-main-cover-candidates-JO8eHv/recommended/bridge-cover.jpg",
+      "/tmp/dusk-main-cover-candidates-JO8eHv/recommended/market-cover.jpg"
+    ],
+    "preview": "/tmp/dusk-main-cover-candidates-JO8eHv/recommended-320-q50-overview-2x.png",
+    "integrationStatus": "Candidate only; not copied to project and manifest unchanged. Awaiting parent decision after subpackage-boundary verification."
+  }
+}

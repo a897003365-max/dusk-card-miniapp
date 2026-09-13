@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "tickets": 10,
+  "drawCount": 0,
+  "pitySSR": 0,
+  "pityUR": 0,
+  "collection": {
+    "sheep": {
+      "R": 1,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "ramen": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "sunset": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "ticket": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "catcafe": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "moon": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "nav": {
+      "R": 1,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "tea": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "sushi": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "pear": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "burger": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "badminton": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "bomb": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "orangecat": {
+      "R": 1,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "doudou": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "hydrangea": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "pearlamp": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "cloudmail": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "firefly": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "soup": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "blanket": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    },
+    "seedling": {
+      "R": 0,
+      "SR": 0,
+      "SSR": 0,
+      "UR": 0
+    }
+  },
+  "team": [
+    "sheep",
+    "orangecat",
+    "nav"
+  ],
+  "cleared": [],
+  "endings": {},
+  "journey": null,
+  "lastEnding": null,
+  "adventure": {
+    "threads": 50,
+    "levels": {
+      "sheep": 1,
+      "ramen": 1,
+      "sunset": 1,
+      "ticket": 1,
+      "catcafe": 1,
+      "moon": 1,
+      "nav": 1,
+      "tea": 1,
+      "sushi": 1,
+      "pear": 1,
+      "burger": 1,
+      "badminton": 1,
+      "bomb": 1,
+      "orangecat": 1,
+      "doudou": 1,
+      "hydrangea": 1,
+      "pearlamp": 1,
+      "cloudmail": 1,
+      "firefly": 1,
+      "soup": 1,
+      "blanket": 1,
+      "seedling": 1
+    },
+    "clears": {
+      "street": [
+        1,
+        0,
+        0
+      ],
+      "bridge": [
+        0,
+        0,
+        0
+      ],
+      "market": [
+        0,
+        0,
+        0
+      ]
+    },
+    "active": null,
+    "lastResult": null
+  }
+}

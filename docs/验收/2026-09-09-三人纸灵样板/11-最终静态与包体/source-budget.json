@@ -1,0 +1,178 @@
+[
+  {
+    "name": "main",
+    "root": "",
+    "bytes": 1066491,
+    "mib": 1.017085075378418,
+    "remainingBytes": 1030661,
+    "imageBytes": 818089,
+    "codeBytes": 246359,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "assets/scenes/summon-postoffice.jpg",
+        "bytes": 310651
+      },
+      {
+        "path": "utils/combat.js",
+        "bytes": 47970
+      },
+      {
+        "path": "utils/combat-content.js",
+        "bytes": 30651
+      },
+      {
+        "path": "utils/content.js",
+        "bytes": 30346
+      },
+      {
+        "path": "assets/prizes/bomb/SSR.png",
+        "bytes": 18767
+      },
+      {
+        "path": "templates/expedition.wxss",
+        "bytes": 14156
+      },
+      {
+        "path": "assets/prizes/seedling/SR.png",
+        "bytes": 13945
+      },
+      {
+        "path": "pages/home/summon.wxss",
+        "bytes": 13575
+      },
+      {
+        "path": "templates/expedition.wxml",
+        "bytes": 12518
+      },
+      {
+        "path": "pages/home/index.wxml",
+        "bytes": 11265
+      },
+      {
+        "path": "utils/game.js",
+        "bytes": 10903
+      },
+      {
+        "path": "assets/prizes/soup/UR.png",
+        "bytes": 10284
+      },
+      {
+        "path": "pages/home/index.wxss",
+        "bytes": 9481
+      },
+      {
+        "path": "assets/prizes/bomb/UR.png",
+        "bytes": 9414
+      },
+      {
+        "path": "assets/prizes/seedling/UR.png",
+        "bytes": 9083
+      },
+      {
+        "path": "assets/prizes/tea/UR.png",
+        "bytes": 9025
+      },
+      {
+        "path": "assets/prizes/ticket/UR.png",
+        "bytes": 8263
+      },
+      {
+        "path": "assets/prizes/sheep/UR.png",
+        "bytes": 8013
+      },
+      {
+        "path": "assets/prizes/ramen/UR.png",
+        "bytes": 7905
+      },
+      {
+        "path": "assets/prizes/orangecat/UR.png",
+        "bytes": 7866
+      }
+    ]
+  },
+  {
+    "name": "package-street",
+    "root": "package-street",
+    "bytes": 277,
+    "mib": 0.00026416778564453125,
+    "remainingBytes": 2096875,
+    "imageBytes": 0,
+    "codeBytes": 235,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-street/pages/run/index.wxml",
+        "bytes": 99
+      },
+      {
+        "path": "package-street/pages/run/index.js",
+        "bytes": 90
+      },
+      {
+        "path": "package-street/pages/run/index.wxss",
+        "bytes": 46
+      },
+      {
+        "path": "package-street/pages/run/index.json",
+        "bytes": 42
+      }
+    ]
+  },
+  {
+    "name": "package-bridge",
+    "root": "package-bridge",
+    "bytes": 277,
+    "mib": 0.00026416778564453125,
+    "remainingBytes": 2096875,
+    "imageBytes": 0,
+    "codeBytes": 235,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-bridge/pages/run/index.wxml",
+        "bytes": 99
+      },
+      {
+        "path": "package-bridge/pages/run/index.js",
+        "bytes": 90
+      },
+      {
+        "path": "package-bridge/pages/run/index.wxss",
+        "bytes": 46
+      },
+      {
+        "path": "package-bridge/pages/run/index.json",
+        "bytes": 42
+      }
+    ]
+  },
+  {
+    "name": "package-market",
+    "root": "package-market",
+    "bytes": 277,
+    "mib": 0.00026416778564453125,
+    "remainingBytes": 2096875,
+    "imageBytes": 0,
+    "codeBytes": 235,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-market/pages/run/index.wxml",
+        "bytes": 99
+      },
+      {
+        "path": "package-market/pages/run/index.js",
+        "bytes": 90
+      },
+      {
+        "path": "package-market/pages/run/index.wxss",
+        "bytes": 46
+      },
+      {
+        "path": "package-market/pages/run/index.json",
+        "bytes": 42
+      }
+    ]
+  }
+]

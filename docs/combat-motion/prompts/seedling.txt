@@ -1,0 +1,22 @@
+Use case: stylized-concept
+Asset type: game combat sprite master sheet, production intermediate
+Input images: Image 1 is the idle identity reference for the seedling partner. Image 2 is the cast/action identity reference. Image 3 is layout-only reference for a wide 2:1 4-column by 2-row equal-cell chroma-key sprite sheet; do not copy its character. Preserve the same seedling folded-paper nature spirit: cream face, warm orange-brown folded-paper body, green leaf collar and leaf crown/branch antlers, exactly two arms and two root-like legs, red cords and bells, the existing strapped seedling paper pack behind the shoulder, and the existing short faceted staff in one hand. Preserve face, branch anatomy, leaves, pack, staff and four limbs exactly; no redesign or added limbs.
+
+Create exactly one wide 2:1 high-resolution action sprite master sheet matching Image 3's equal-cell layout: four equal-width columns and two equal-height rows, eight complete square-ish action cells, no labels. Keep the complete character, branch/leaf silhouette, seedling pack, staff and every leaf/seed effect inside the inner 60–65% of its own cell, with generous roughly 25% clear space around every cell. Same scale and baseline. No branch tip, leaf, staff, cord, root foot or effect may touch or cross a cell boundary. No cropping. Keep the full pack and staff visible.
+
+Exact order:
+Top row col 1 ENTER: seedling steps out with the existing leaf collar lifting and seedling pack visible, staff ready, alert nature-spirit arrival.
+Top row col 2 ATTACK: seedling thrusts the existing short staff toward the right, sending one compact diagonal green-gold seed/leaf paper arc and a few contained leaf shards, fully inside this cell.
+Top row col 3 GUARD: existing leaf collar and strapped seedling pack fold into a protective shield around the torso, staff held across the body, face visible.
+Top row col 4 HURT: seedling bends and recoils with leaves drooping, a few contained paper leaves, no blood.
+Bottom row col 1 EXIT: seedling crouches and folds into a low receding sprout pose, pack and staff recognizable, a few contained leaves.
+Bottom row col 2 CONTROL: indigo paper threads and binding talisman strips wrap existing branches, staff, pack straps and root ankles; face unobstructed, clearly distinct from debuff.
+Bottom row col 3 BUFF: upright growing stance with compact warm-gold and teal-green leaves/seeds around the existing branch crown and pack, no new anatomy.
+Bottom row col 4 DEBUFF: drooping wilted pose with cool-gray ink marks and negative talisman symbols on existing leaves, body and pack, clearly different from control.
+
+Backdrop: a perfectly flat solid chroma-key magenta background, exact color #FF00FF (RGB 255,0,255) across every background pixel. No transparency, no checkerboard, no gradient, no noise texture, no floor, no shadow plate, no grid or cell lines.
+Style: soft polished 2.5D hand-painted folded-paper game illustration, upper-left light, visible paper fibers and creases, orange-brown/green/cream palette, small red cord and bell details.
+Text: none.
+Avoid: labels, numbers, UI, logo, watermark, extra characters, extra arms or legs, extra branches, extra roots, wings, horns beyond existing branch anatomy, missing pack, broken staff, giant sweeping nature effects, cross-cell overlap, cropped parts, idle recolor.
+
+Technical post-processing: normalize only near-magenta background pixels to exact #FF00FF; do not remove, crop, key, or delete any subject/effect pixels.

@@ -1,0 +1,37 @@
+<view wx:if="{{error}}" class="error">{{error}}</view>
+<view wx:else class="page collection-page">
+  <sound-controls class="sound-panel" />
+  <view class="eyebrow">THE COMPANION ARCHIVE</view><view class="title serif">把相遇，收进手账。</view>
+  <view class="archive-summary"><text>{{owned}} <text class="muted small">/ 22 位旅伴</text></text><text class="muted small">{{variantsOwned}} / 88 枚信印</text></view>
+  <view class="party-panel">
+    <view class="row"><view class="party-label">这一程，和他们一起</view><text class="party-count">3 人小队</text></view>
+    <view class="party-members"><view wx:for="{{team}}" wx:key="id" class="party-member" bindtap="openDetail" data-id="{{item.id}}" role="button" aria-label="查看{{item.name}}"><image class="party-art" src="{{item.image}}" mode="aspectFit"/><view class="party-name">{{item.name}}</view><text class="tag tier-{{item.tier}}">{{item.tier}} · {{item.role}}</text></view></view>
+    <view class="stat-row"><view class="stat">爱心 <text class="stat-number">{{stats.heart}}</text></view><view class="stat">勇气 <text class="stat-number">{{stats.courage}}</text></view><view class="stat">灵感 <text class="stat-number">{{stats.insight}}</text></view></view>
+    <view class="party-note">{{journeyActive ? '旅途进行中，归队后可以更换与培养。' : '点开已拥有的旅伴，可以更换与培养。'}}<view>以上为来信能力 · 冒险星线 {{threads}}</view></view>
+  </view>
+  <view class="section-head"><view class="section-title serif">相遇名册</view><view class="filters"><button class="filter {{filter === 'all' ? 'active' : ''}}" data-filter="all" bindtap="setFilter">全部</button><button class="filter {{filter === 'owned' ? 'active' : ''}}" data-filter="owned" bindtap="setFilter">已相遇</button></view></view>
+  <view class="collection-grid"><view wx:for="{{families}}" wx:key="id" class="family-card {{item.owned ? '' : 'unowned'}}" bindtap="openDetail" data-id="{{item.id}}" role="button" aria-label="{{item.name}} {{item.owned ? '已拥有' : '未相遇'}}">
+    <view class="family-card-top"><text class="family-number">NO.{{item.number}}</text><text class="family-tier">{{item.owned ? item.tier : '待寄达'}}</text></view>
+    <image class="family-art {{item.owned ? '' : 'silhouette'}}" src="{{item.image}}" mode="aspectFit"/>
+    <view class="family-name">{{item.name}}</view><view class="family-role">{{item.role}}</view>
+    <view class="family-bottom">{{item.inTeam ? '✦ 正在随行' : item.owned ? '羁绊 ' + item.bond + ' / 3' : '等一封有你的来信'}}</view>
+  </view></view>
+  <view class="archive-note"><view>每位旅伴都有四枚信印，也有自己的故事。</view><view>拥有更高稀有度后，随行信印会自动更新。</view></view>
+</view>
+<view wx:if="{{detail}}" class="overlay" catchtouchmove="noop">
+  <view class="dialog partner-dialog">
+    <view class="dialog-head"><view><view class="eyebrow">COMPANION FILE</view><view class="dialog-title serif">{{replacing ? '更换同行旅伴' : detail.name}}</view></view><button class="close" bindtap="closeDetail" aria-label="关闭旅伴档案">×</button></view>
+    <scroll-view scroll-y class="dialog-scroll detail-scroll">
+      <view wx:if="{{!replacing}}">
+      <view class="partner-portrait tier-{{previewTier}}"><view class="portrait-lines"></view><image class="detail-art {{previewOwned ? '' : 'silhouette'}}" src="{{previewImage}}" mode="aspectFit"/><view class="portrait-caption">{{previewTier}} · {{previewOwned ? '已相遇' : '未拥有的信印'}}</view></view>
+      <view class="variant-row"><button wx:for="{{detail.variants}}" wx:key="tier" class="variant {{previewTier === item.tier ? 'selected' : ''}}" data-tier="{{item.tier}}" bindtap="previewVariant">{{item.tier}}<text>{{item.count ? '× ' + item.count : '未拥有'}}</text></button></view>
+      <button wx:if="{{previewOwned}}" class="replay-appearance" bindtap="replayAppearance">重温 {{previewTier}} 登场<text>已收藏 · 不消耗邮票</text></button>
+      <view class="combat-profile"><view class="row"><view class="serif">冒险培养 · Lv.{{detail.combat.level}}</view><text class="tag">{{detail.combat.roleName}}</text></view><view class="combat-stats">生命 {{detail.combat.maxHp}}<text wx:if="{{detail.combat.level < 10}}"> → {{detail.combat.nextMaxHp}}</text><text> · 星线 {{threads}}</text></view><button wx:if="{{detail.owned}}" class="train-partner" disabled="{{!detail.combat.canUpgrade}}" bindtap="trainPartner">{{detail.combat.canUpgrade ? '升至 Lv.' + (detail.combat.level + 1) + ' · ' + detail.combat.cost + ' 星线' : detail.combat.reason}}</button><view class="combat-passive"><text>{{detail.passive.name}} · 当前被动</text><view>{{detail.passive.description}}</view></view><view wx:for="{{detail.cards}}" wx:key="id" class="signature-card"><view>{{item.name}} · {{item.cost}} 能量</view><text>{{item.description}}</text></view></view>
+      <view class="bio-role">{{detail.role}} · 擅长{{detail.traitName}}</view><view class="body-copy partner-bio">{{detail.bio}}</view>
+      <view wx:if="{{detail.owned}}"><view class="stat-row"><view class="stat">爱心 <text>{{detail.stats.heart}}</text></view><view class="stat">勇气 <text>{{detail.stats.courage}}</text></view><view class="stat">灵感 <text>{{detail.stats.insight}}</text></view></view><view class="bond-note">随行采用 {{detail.tier}} · {{detail.tierName}}，羁绊 {{detail.bond}} / 3<view>重复信印每张让{{detail.traitName}} +1，最多 +3。</view></view></view>
+      </view>
+      <view wx:else class="replace-panel"><view class="replace-intro"><image src="{{detail.image}}" mode="aspectFit"/><view class="replace-copy"><view class="serif">让{{detail.name}}一起出发</view><view class="muted small">选一位暂时留在邮局的伙伴。</view></view></view><button wx:for="{{team}}" wx:key="id" class="replace-member secondary" data-id="{{item.id}}" bindtap="replace"><image src="{{item.image}}" mode="aspectFit"/><text>替换 {{item.name}}</text><text class="replace-arrow">↗</text></button></view>
+    </scroll-view>
+    <view class="dialog-footer"><button wx:if="{{replacing}}" class="cancel-replace secondary" bindtap="cancelReplace">先不更换</button><button wx:elif="{{!detail.owned}}" bindtap="goHome">去信匣，等待相遇</button><button wx:elif="{{detail.inTeam}}" disabled>已在出发队伍中</button><button wx:elif="{{journeyActive}}" disabled>归队后可更换</button><button wx:else class="invite-partner" bindtap="beginReplace">邀请 Ta 随行</button></view>
+  </view>
+</view>

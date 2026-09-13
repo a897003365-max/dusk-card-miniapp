@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "node": 116,
+  "wxss": 10,
+  "packages": [
+    {
+      "name": "main",
+      "bytes": 1694571,
+      "status": "PASS"
+    },
+    {
+      "name": "package-street",
+      "bytes": 929330,
+      "status": "PASS"
+    },
+    {
+      "name": "package-bridge",
+      "bytes": 853078,
+      "status": "PASS"
+    },
+    {
+      "name": "package-market",
+      "bytes": 941230,
+      "status": "PASS"
+    }
+  ]
+}

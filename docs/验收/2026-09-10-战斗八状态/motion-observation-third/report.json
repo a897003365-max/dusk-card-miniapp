@@ -1,0 +1,1604 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2zUKIu",
+  "region": "street",
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-segZAa",
+  "scope": "stop-at-boss",
+  "checks": [
+    {
+      "name": "实际运行的是隔离存档命名空间",
+      "pass": true
+    },
+    {
+      "name": "v2真实新存档完整",
+      "pass": true
+    },
+    {
+      "name": "真实开始远行并固定三人快照",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "本场实际敌人节点使用对应阶段立绘",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "动效观察的真实按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "真实节点播放enemyHit并发生变换",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "动效观察的真实按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "真实节点播放enemySpell并发生变换",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "返回邮局再继续不重抽手牌、不重置生命或RNG",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "动效观察的真实按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "真实节点播放enemyStrike并发生变换",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "页面实际动作已改变正确的持久状态",
+      "pass": true
+    },
+    {
+      "name": "实际页面预览允许所选动作",
+      "pass": true
+    },
+    {
+      "name": "动效观察的真实按钮完整可见且至少44px",
+      "pass": true
+    },
+    {
+      "name": "真实节点播放enemyFold并发生变换",
+      "pass": false
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 396,
+        "bottom": 444,
+        "width": 284,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".skip-card",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 442.15625,
+        "bottom": 486.15625,
+        "width": 284,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".route-option[data-id=\"node-3-0\"]",
+      "rect": {
+        "dataset": {
+          "id": "node-3-0"
+        },
+        "left": 59,
+        "right": 176,
+        "top": 55.96875,
+        "bottom": 140.1640625,
+        "width": 117,
+        "height": 84.1953125
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-7\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-7"
+        },
+        "left": 16,
+        "right": 68,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-3\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-3"
+        },
+        "left": 117.078125,
+        "right": 202.9140625,
+        "top": 99.0625,
+        "bottom": 213.65625,
+        "width": 85.8359375,
+        "height": 114.59375
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-9\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 132,
+        "right": 184,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-3\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-3"
+        },
+        "left": 117.078125,
+        "right": 202.9140625,
+        "top": 99.0625,
+        "bottom": 213.65625,
+        "width": 85.8359375,
+        "height": 114.59375
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-12\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-12"
+        },
+        "left": 16,
+        "right": 68,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hub-back",
+      "rect": {
+        "dataset": {},
+        "left": 12,
+        "right": 72,
+        "top": 1.5,
+        "bottom": 45.5,
+        "width": 60,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".resume-run",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 302,
+        "top": 396,
+        "bottom": 444,
+        "width": 284,
+        "height": 48
+      },
+      "viewport": {
+        "width": 320,
+        "height": 456
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-11\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-11"
+        },
+        "left": 16,
+        "right": 68,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-3\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-3"
+        },
+        "left": 117.078125,
+        "right": 202.9140625,
+        "top": 99.0625,
+        "bottom": 213.65625,
+        "width": 85.8359375,
+        "height": 114.59375
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-4\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-4"
+        },
+        "left": 248,
+        "right": 300,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-7\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-7"
+        },
+        "left": 16,
+        "right": 68,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-3\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-3"
+        },
+        "left": 117.078125,
+        "right": 202.9140625,
+        "top": 99.0625,
+        "bottom": 213.65625,
+        "width": 85.8359375,
+        "height": 114.59375
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-5\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-5"
+        },
+        "left": 190,
+        "right": 242,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-3\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-3"
+        },
+        "left": 117.078125,
+        "right": 202.9140625,
+        "top": 99.0625,
+        "bottom": 213.65625,
+        "width": 85.8359375,
+        "height": 114.59375
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-12\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-12"
+        },
+        "left": 74,
+        "right": 126,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".end-turn",
+      "rect": {
+        "dataset": {},
+        "left": 14,
+        "right": 113.2734375,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 99.2734375,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".hand-card[data-uid=\"card-9\"]",
+      "rect": {
+        "dataset": {
+          "uid": "card-9"
+        },
+        "left": 132,
+        "right": 184,
+        "top": 366,
+        "bottom": 443,
+        "width": 52,
+        "height": 77
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".enemy-unit[data-id=\"enemy-3\"]",
+      "rect": {
+        "dataset": {
+          "id": "enemy-3"
+        },
+        "left": 117.078125,
+        "right": 202.9140625,
+        "top": 99.0625,
+        "bottom": 213.65625,
+        "width": 85.8359375,
+        "height": 114.59375
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    },
+    {
+      "selector": ".confirm-play",
+      "rect": {
+        "dataset": {},
+        "left": 122.2734375,
+        "right": 306,
+        "top": 452.5,
+        "bottom": 496.5,
+        "width": 183.7265625,
+        "height": 44
+      },
+      "viewport": {
+        "width": 320,
+        "height": 504
+      }
+    }
+  ],
+  "shots": [
+    {
+      "name": "node-3-cardReward",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-segZAa/node-3-cardReward.jpg",
+      "imageWidth": 590,
+      "imageHeight": 1046
+    },
+    {
+      "name": "node-4-map",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-segZAa/node-4-map.jpg",
+      "imageWidth": 590,
+      "imageHeight": 1046
+    },
+    {
+      "name": "node-4-battle",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-adventure-cli-segZAa/node-4-battle.jpg",
+      "imageWidth": 590,
+      "imageHeight": 1046
+    }
+  ],
+  "actions": [
+    {
+      "layer": 2,
+      "phase": "cardReward",
+      "action": {
+        "type": "chooseCard",
+        "choiceId": "skip"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 3,
+      "phase": "map",
+      "action": {
+        "type": "chooseNode",
+        "nodeId": "node-3-0"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-7",
+        "targetId": "enemy-3"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-9",
+        "targetId": "enemy-3"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-12"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 1
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-11",
+        "targetId": "enemy-3"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-4"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 2
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-7",
+        "targetId": "enemy-3"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-5",
+        "targetId": "enemy-3"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "playCard",
+        "cardUid": "card-12"
+      },
+      "turn": 3
+    },
+    {
+      "layer": 3,
+      "phase": "battle",
+      "action": {
+        "type": "endTurn"
+      },
+      "turn": 3
+    }
+  ],
+  "enemyArt": [
+    {
+      "layer": 3,
+      "bossPhase": null,
+      "enemies": [
+        {
+          "id": "enemy-3",
+          "definitionId": "postbag-guard",
+          "phase": 1,
+          "actionState": "idle",
+          "image": "/package-street/assets/art/postbag-guard.png"
+        }
+      ],
+      "nodes": [
+        {
+          "src": "/package-street/assets/art/postbag-guard.png"
+        }
+      ]
+    }
+  ],
+  "motion": [
+    {
+      "expected": "enemyHit",
+      "expectedThreads": 10,
+      "samples": [
+        {
+          "time": 1789044205937,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044206005,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044206070,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044206135,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044206202,
+          "beat": "action",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044206265,
+          "beat": "action",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044206331,
+          "beat": "action",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044206406,
+          "beat": "action",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044206451,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyHit",
+              "transform": "matrix(1, 0, 0, 1, -2.69866, 0)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 2,
+          "rawAnimationNames": [
+            "none",
+            "enemyHit"
+          ]
+        },
+        {
+          "time": 1789044206527,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyHit",
+              "transform": "matrix(1, 0, 0, 1, 1.96408, 0)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 2,
+          "rawAnimationNames": [
+            "none",
+            "enemyHit"
+          ]
+        },
+        {
+          "time": 1789044206576,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyHit",
+              "transform": "matrix(1, 0, 0, 1, 0.500737, 0)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 2,
+          "rawAnimationNames": [
+            "none",
+            "enemyHit"
+          ]
+        },
+        {
+          "time": 1789044206656,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyHit",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 2,
+          "rawAnimationNames": [
+            "none",
+            "enemyHit"
+          ]
+        }
+      ]
+    },
+    {
+      "expected": "enemySpell",
+      "expectedThreads": 10,
+      "samples": [
+        {
+          "time": 1789044233584,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044233651,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044233719,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044233783,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044234054,
+          "beat": "action",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemySpell",
+              "transform": "matrix(1.02267, 0, 0, 1.02267, 0, 0)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "enemySpell"
+          ]
+        },
+        {
+          "time": 1789044234132,
+          "beat": "action",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemySpell",
+              "transform": "matrix(1.08339, 0, 0, 1.08339, 0, 0)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "enemySpell"
+          ]
+        },
+        {
+          "time": 1789044234181,
+          "beat": "action",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemySpell",
+              "transform": "matrix(1.08062, 0, 0, 1.08062, 0, 0)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "enemySpell"
+          ]
+        },
+        {
+          "time": 1789044234244,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044234310,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044234372,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044234437,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        }
+      ]
+    },
+    {
+      "expected": "enemyStrike",
+      "expectedThreads": 10,
+      "samples": [
+        {
+          "time": 1789044268320,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044268387,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044268457,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044268521,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044268572,
+          "beat": "action",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyStrike",
+              "transform": "matrix(1.00701, 0, 0, 1.00701, 0, 1.26142)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "enemyStrike"
+          ]
+        },
+        {
+          "time": 1789044268637,
+          "beat": "action",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyStrike",
+              "transform": "matrix(1.04631, 0, 0, 1.04631, 0, 8.3357)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "enemyStrike"
+          ]
+        },
+        {
+          "time": 1789044268700,
+          "beat": "action",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyStrike",
+              "transform": "matrix(1.03053, 0, 0, 1.03053, 0, 4.71591)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "enemyStrike"
+          ]
+        },
+        {
+          "time": 1789044268777,
+          "beat": "action",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyStrike",
+              "transform": "matrix(1.00045, 0, 0, 1.00045, 0, -1.90006)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "enemyStrike"
+          ]
+        },
+        {
+          "time": 1789044268822,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyHit",
+              "transform": "matrix(1, 0, 0, 1, -2.69833, 0)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 2,
+          "rawAnimationNames": [
+            "none",
+            "enemyHit"
+          ]
+        },
+        {
+          "time": 1789044268904,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyHit",
+              "transform": "matrix(1, 0, 0, 1, 1.30806, 0)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 2,
+          "rawAnimationNames": [
+            "none",
+            "enemyHit"
+          ]
+        },
+        {
+          "time": 1789044268952,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyHit",
+              "transform": "matrix(1, 0, 0, 1, 0.49562, 0)",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 2,
+          "rawAnimationNames": [
+            "none",
+            "enemyHit"
+          ]
+        },
+        {
+          "time": 1789044269034,
+          "beat": "impact",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [
+            {
+              "animation-name": "enemyHit",
+              "transform": "none",
+              "opacity": "1"
+            }
+          ],
+          "rawNodeCount": 2,
+          "rawAnimationNames": [
+            "none",
+            "enemyHit"
+          ]
+        }
+      ]
+    },
+    {
+      "expected": "enemyFold",
+      "expectedThreads": 18,
+      "samples": [
+        {
+          "time": 1789044321827,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044321891,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044321963,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044322028,
+          "beat": "",
+          "enemyExit": false,
+          "phase": "battle",
+          "threads": 10,
+          "storedExit": null,
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044322295,
+          "beat": "action",
+          "enemyExit": true,
+          "phase": "relicReward",
+          "threads": 18,
+          "storedExit": {
+            "threads": 18,
+            "phase": "relicReward"
+          },
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044322376,
+          "beat": "action",
+          "enemyExit": true,
+          "phase": "relicReward",
+          "threads": 18,
+          "storedExit": {
+            "threads": 18,
+            "phase": "relicReward"
+          },
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044322423,
+          "beat": "action",
+          "enemyExit": true,
+          "phase": "relicReward",
+          "threads": 18,
+          "storedExit": {
+            "threads": 18,
+            "phase": "relicReward"
+          },
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044322487,
+          "beat": "impact",
+          "enemyExit": true,
+          "phase": "relicReward",
+          "threads": 18,
+          "storedExit": {
+            "threads": 18,
+            "phase": "relicReward"
+          },
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044322549,
+          "beat": "impact",
+          "enemyExit": true,
+          "phase": "relicReward",
+          "threads": 18,
+          "storedExit": {
+            "threads": 18,
+            "phase": "relicReward"
+          },
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044322614,
+          "beat": "impact",
+          "enemyExit": true,
+          "phase": "relicReward",
+          "threads": 18,
+          "storedExit": {
+            "threads": 18,
+            "phase": "relicReward"
+          },
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        },
+        {
+          "time": 1789044322678,
+          "beat": "impact",
+          "enemyExit": true,
+          "phase": "relicReward",
+          "threads": 18,
+          "storedExit": {
+            "threads": 18,
+            "phase": "relicReward"
+          },
+          "nodes": [],
+          "rawNodeCount": 1,
+          "rawAnimationNames": [
+            "none"
+          ]
+        }
+      ]
+    }
+  ],
+  "status": "fail",
+  "artStatus": "paper-courier",
+  "error": "真实节点播放enemyFold并发生变换"
+}

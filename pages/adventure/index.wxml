@@ -1,0 +1,28 @@
+<view wx:if="{{error}}" class="error">{{error}}</view>
+<view wx:elif="{{view}}" class="page adventure-hub">
+  <sound-controls class="sound-panel" />
+  <view class="eyebrow">BEYOND THE POST OFFICE</view>
+  <view class="title serif">把勇气，寄往远方。</view>
+  <view class="hub-top"><text class="hub-intro">有些信，需要一支小队才能送达。</text><view class="thread-wallet">✧ {{view.threads}} 星线</view></view>
+  <view wx:if="{{view.run}}" class="resume-card"><view><view class="eyebrow">YOUR BOOKMARK</view><view class="serif">{{view.run.regionName}} · 第 {{view.run.layer + 1}} 站</view><view class="small muted">本局已获得 {{view.run.threadsEarned}} 星线 · 进度已保存</view></view></view>
+  <view wx:if="{{storyActive}}" class="story-busy panel"><view>这封来信还没送到，伙伴们正在等你。</view><button class="secondary" bindtap="goStory">先完成当前章节</button></view>
+  <view class="section-head"><view class="section-title serif">选择一条邮路</view><text class="small muted">已挑战 {{completion}} / 9</text></view>
+  <view class="region-tabs"><button wx:for="{{view.regions}}" wx:key="id" class="region-tab {{selectedRegion === item.id ? 'active' : ''}}" data-id="{{item.id}}" bindtap="selectRegion">{{item.name}}<text>{{item.unlocked ? item.subtitle : '前一路通关后开放'}}</text></button></view>
+  <view class="region-cover region-{{selectedRegion}}"><image wx:if="{{selected.image}}" src="{{selected.image}}" mode="aspectFill"/><view class="region-cover-shade"></view><view class="region-cover-copy"><view class="eyebrow">{{selected.subtitle}}</view><view class="serif">{{selected.name}}</view><text>{{selected.description}}</text></view><view class="cover-seal"><view>九站</view><view>一程</view></view></view>
+  <view class="difficulty-tabs"><button wx:for="{{selected.difficulties}}" wx:key="id" class="difficulty-tab {{difficulty === item.id ? 'active' : ''}}" data-id="{{item.id}}" bindtap="selectDifficulty">{{item.name}}<text>{{item.unlocked ? '已通关 ' + item.clears + ' 次' : '前一难度通关解锁'}}</text></button></view>
+  <view class="difficulty-description">{{currentDifficulty.description}}</view>
+  <view wx:for="{{currentDifficulty.affixes}}" wx:key="id" class="affix">✦ {{item.name}} · {{item.description}}</view>
+  <view class="party-title"><text class="serif">这一程的旅伴</text><button class="text-button" bindtap="goCollection">编队与培养 ↗</button></view>
+  <view class="hub-party"><view wx:for="{{view.party}}" wx:key="id" class="hub-member"><image src="{{item.image}}" mode="aspectFit"/><view>{{item.name}}</view><text>{{item.roleName}} · Lv.{{item.level}}</text></view></view>
+  <view wx:if="{{!view.run}}" class="tactic-panel">
+    <view class="tactic-heading"><text class="serif">给这一程选个打法</text><text>12 张起始牌</text></view>
+    <view class="tactic-tabs"><button wx:for="{{view.tactics}}" wx:key="id" size="mini" class="tactic-tab {{tacticId === item.id ? 'tactic-active' : ''}}" data-id="{{item.id}}" bindtap="selectTactic">{{item.name}}</button></view>
+    <view class="tactic-summary">{{selectedTactic.summary}}</view>
+    <view wx:for="{{selectedTactic.cards}}" wx:key="id" class="tactic-card"><view class="tactic-card-title"><text class="tactic-cost">{{item.cost}} 费</text><text>{{item.name}}</text><text class="tactic-owner">{{item.ownerName}}</text></view><text class="tactic-card-copy">{{item.description}}</text></view>
+    <view class="tactic-note">{{tacticId === 'classic' ? '使用旅伴原有起始牌；新战术牌也会在战后出现。' : '按旅伴从左到右依次携带这三张，替换各自基础攻击；专属牌和防御牌照常携带。'}}</view>
+  </view>
+  <view wx:else class="tactic-snapshot">本程打法 · {{view.run.tacticName}}<text>出发时已固定，可在下一程更换。</text></view>
+  <view class="hub-actions"><view class="dock-copy">{{view.run ? '原路接续，队伍与牌组都会保留' : partyNames}}</view><button wx:if="{{view.run}}" class="resume-run" disabled="{{preparing}}" bindtap="resume">{{preparing ? '正在准备旅伴…' : '继续 ' + view.run.regionName + ' →'}}</button><button wx:else class="start-run" disabled="{{!selected.unlocked || !currentDifficulty.unlocked || storyActive}}" bindtap="start">{{storyActive ? '先送达当前来信' : !currentDifficulty.unlocked ? '尚未解锁此难度' : '带上伙伴，出发 →'}}</button></view>
+  <view class="hub-rules">每程 9 站 · 约 10–15 分钟 · 可随时续玩<view>战后选牌，营地休整，带着星线和新故事回来。</view></view>
+  <view wx:if="{{view.result}}" class="last-result panel"><view class="serif">{{view.result.win ? '这次邮路已送达' : '这次先回邮局歇歇'}}</view><text>{{view.result.reason}} · {{view.result.threads}} 星线 · {{view.result.tickets}} 邮票</text><button class="text-button" bindtap="dismissResult">收好本次记录</button></view>
+</view>

@@ -1,0 +1,14 @@
+[wechatide] skill-call: client=Codex tool=project_import
+project_import：通过
+- initialize
+
+(node:48458) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `Electron --trace-deprecation ...` to show where the warning was created)
+✔ IDE server has started, listening on http://127.0.0.1:9421
+- preparing
+✔ open
+[wechatide] skill-call: client=Codex tool=automation_page_action
+automation_page_action：通过
+[wechatide] skill-call: client=Codex tool=automation_evaluate
+automation_evaluate：通过
+已打开并核验 AppID：/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-cAIGWF

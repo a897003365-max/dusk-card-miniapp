@@ -1,0 +1,88 @@
+<view wx:if="{{error}}" class="error">{{error}}</view>
+<view wx:else class="page home-page">
+  <sound-controls class="sound-panel" />
+  <view class="masthead"><view><view class="eyebrow">LETTERS AT DUSK</view><view class="brand serif">晚霞来信</view></view><view class="ticket-wallet"><text class="ticket-mark">✦</text> {{tickets}} <text class="small">邮票</text></view></view>
+  <view class="post-office">
+    <image class="office-backdrop" src="/assets/scenes/summon-postoffice.jpg" mode="aspectFill"/><view class="office-shade"></view>
+    <view class="orbit orbit-one"></view><view class="orbit orbit-two"></view><view class="star star-one">✧</view><view class="star star-two">✦</view><view class="star star-three">·</view>
+    <view class="office-label">晚霞邮局 · 黄昏来客</view>
+    <view class="hero-title serif"><view>有些相遇，</view><view>藏在未拆的信里。</view></view>
+    <view class="hero-subtitle">寄件人未知 · 收件人是你</view>
+    <view class="letter-display">
+      <view class="stamp-card stamp-left"><view class="stamp-top">SR <text>06</text></view><image class="stamp-art" src="{{showcase.moon}}" mode="aspectFit"/><view class="stamp-name">月亮兔</view></view>
+      <view class="stamp-card stamp-right"><view class="stamp-top">SSR <text>14</text></view><image class="stamp-art" src="{{showcase.orangecat}}" mode="aspectFit"/><view class="stamp-name">橘猫豆包</view></view>
+      <view class="stamp-card stamp-center"><view class="stamp-top">UR <text>18</text></view><image class="stamp-art" src="{{showcase.cloudmail}}" mode="aspectFit"/><view class="stamp-name">云朵邮差</view><view class="stamp-caption">SPECIAL DELIVERY</view></view>
+      <button class="envelope" data-count="1" disabled="{{tickets < 1}}" bindtap="openLetter" aria-label="用 1 张邮票，启封一封来信"><view class="envelope-line"></view><view class="wax-seal">✦</view><view class="envelope-label">1 张邮票 · 轻触信封启封</view></button>
+    </view>
+    <view class="office-footer">22 位旅伴 · 88 种收藏形态</view>
+  </view>
+  <view class="draw-panel">
+    <view class="row"><view class="serif draw-title">拆一封，认识一位旅伴</view><text class="small muted">已结识 {{owned}} / 22</text></view>
+    <view class="draw-buttons"><button class="draw-one" data-count="1" disabled="{{tickets < 1}}" bindtap="openLetter">拆一封<text>1 张邮票</text></button><button class="draw-five" data-count="5" disabled="{{tickets < 5}}" bindtap="openLetter">拆五封<text>5 张邮票</text></button></view>
+    <view class="pity"><text>再 {{10 - pitySSR}} 封必得 SSR 或以上</text><text>UR 保底 {{pityUR}} / 40</text></view>
+    <view wx:if="{{tickets < 1}}" class="no-ticket">邮票用完了，完成一章旅途就能带回新的邮票。</view>
+  </view>
+  <view class="journey-teaser" bindtap="goStory" role="button" aria-label="进入剧情旅途，送信带回邮票"><view class="teaser-number">01—04</view><view class="teaser-copy"><view class="eyebrow">THE UNADDRESSED LETTER</view><view class="serif teaser-title">一封没有地址的信</view><view class="teaser-action">{{journeyLabel}}，带回邮票</view></view><text class="teaser-arrow">↗</text></view>
+  <button class="rules-toggle text-button" bindtap="toggleRules">{{rulesOpen ? '收起信匣说明 −' : '邮票怎么来 · 稀有度与重复规则 ＋'}}</button>
+  <view wx:if="{{rulesOpen}}" class="rules panel">
+    <view class="rule-line">第一次到访赠 6 张邮票，以及羊咩咩团、橘猫豆包、领航小鸭三位 R 旅伴。每章首次送达得 3 张，重访完成得 1 张。这里没有付费抽取。</view>
+    <view class="rule-line">单封基础概率 R 60% · SR 28% · SSR 10% · UR 2%。每个家族等概率；最多连续 10 封必得 SSR 或以上，40 封必得 UR，抽中相应稀有度会重置计数。</view>
+    <view class="rule-line">五封按单封依次结算，共享保底。重复伙伴转为该家族羁绊，主属性最多加 3；队伍自动使用已拥有最高稀有度。</view>
+    <view class="rule-line">选择 3 位不同旅伴送信。爱心、勇气、灵感决定事件的解决方式；属性不足也有新的剧情，初始队伍即可走完整个故事。暖心与勇敢的选择会留下不同结局。</view>
+  </view>
+  <view class="home-footnote">一枚邮票，一段值得收藏的小小相遇。</view>
+</view>
+<view wx:if="{{resultOpen && !activeReveal && !replayMode}}" class="overlay" catchtouchmove="noop">
+  <view class="dialog reveal-dialog">
+    <view class="dialog-head"><view class="reveal-heading"><view class="eyebrow">DELIVERED TO YOU</view><view class="dialog-title serif">{{revealedCount === results.length ? '这一程，有 Ta 同行' : '有来信，等你亲手拆开'}}</view></view><button class="close" bindtap="closeResult" aria-label="关闭揭晓，已收到的伙伴会保留">×</button></view>
+    <view class="reveal-progress"><text>{{revealedCount === results.length ? '新的相遇，已经写进手账' : '点一下火漆，拆开这次相遇'}}</text><text class="reveal-count">{{revealedCount}} / {{results.length}} 已拆</text></view>
+    <scroll-view scroll-y class="dialog-scroll result-scroll">
+      <view class="result-grid {{results.length === 1 ? 'single-result' : ''}}">
+        <view wx:for="{{results}}" wx:key="serial" class="result-card {{item.revealed ? 'is-revealed tier-' + item.tier : 'is-sealed'}}">
+          <button wx:if="{{!item.revealed}}" class="sealed-letter" data-serial="{{item.serial}}" bindtap="revealLetter" aria-label="拆开第 {{index + 1}} 封来信">
+            <view class="sealed-top"><text>晚霞邮局</text><text>0{{index + 1}}</text></view>
+            <view class="sealed-flap"></view><view class="sealed-postmark">黄昏来件</view>
+            <view class="letter-seal">✦</view><view class="seal-hint">点火漆，亲手启封</view><view class="sealed-to">TO YOU, WITH WONDER</view>
+          </button>
+          <view wx:else class="revealed-letter">
+            <view class="row"><text class="tag tier-{{item.tier}}">{{item.tier}}</text><text class="new-tag">{{item.isNewFamily ? '初次相遇' : item.isNewVariant ? '新形态' : '再次相遇'}}</text></view>
+            <image class="result-art" src="{{item.image}}" mode="aspectFit"/>
+            <view class="result-name serif">{{item.name}}</view><view class="small">{{item.duplicate ? '又一次，选择陪你' : '这一封，写着你的名字'}}</view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    <view class="dialog-footer"><view class="reveal-actions"><button wx:if="{{revealedCount < results.length}}" class="reveal-all" bindtap="revealAll">直接查看全部</button><button class="view-partners" bindtap="goCollection">查看手账</button></view><view class="result-saved">伙伴已入库，关闭也会保留 · 余 {{tickets}} 张邮票</view></view>
+  </view>
+</view>
+<view wx:if="{{activeReveal}}" class="summon-overlay summon-{{activeReveal.tier}} phase-{{revealPhase}}" style="--summon-ink: {{activeReveal.profile.color}}; --summon-light: {{activeReveal.profile.secondary}}; --charge-time: {{activeReveal.profile.chargeMs}}ms; --burst-time: {{activeReveal.profile.burstMs}}ms; --arrive-time: {{activeReveal.profile.arriveMs}}ms;" catchtouchmove="noop">
+  <image class="summon-backdrop" src="/assets/scenes/summon-postoffice.jpg" mode="aspectFill"/>
+  <view class="summon-shade"></view>
+  <view class="summon-header"><view wx:if="{{replayMode}}" class="summon-counter">已收藏的相遇 <text>重温登场</text></view><view wx:else class="summon-counter">第 {{activeReveal.serial + 1}} 封 <text>/ {{results.length}} 封来信</text></view><button class="summon-close" bindtap="exitReveal" aria-label="{{replayMode ? '返回旅伴手账' : '关闭演出并保留已抽取的旅伴'}}">×</button></view>
+  <view class="summon-center">
+    <view class="summon-field">
+      <view class="summon-halo"></view>
+      <view wx:if="{{activeReveal.tier !== 'R'}}" class="summon-ring ring-outer"></view>
+      <view wx:if="{{activeReveal.tier !== 'R'}}" class="summon-ring ring-inner"></view>
+      <view wx:if="{{activeReveal.tier === 'SSR' || activeReveal.tier === 'UR'}}" class="summon-compass"><view></view><view></view><view></view><view></view></view>
+      <view wx:if="{{activeReveal.tier === 'UR'}}" class="summon-eclipse"></view>
+      <view wx:if="{{activeReveal.tier === 'UR'}}" class="summon-orbit orbit-east"></view><view wx:if="{{activeReveal.tier === 'UR'}}" class="summon-orbit orbit-west"></view>
+      <view class="summon-rays"><view wx:for="{{activeReveal.profile.rays}}" wx:key="id" class="ray-axis" style="transform: rotate({{item.angle}}deg);"><view class="summon-ray" style="height: {{item.length}}rpx; width: {{item.width}}rpx; animation-delay: {{item.delay}}ms; opacity: {{item.opacity}};"></view></view></view>
+      <view class="summon-particles"><view wx:for="{{activeReveal.profile.particles}}" wx:key="id" class="particle-axis" style="transform: rotate({{item.angle}}deg);"><view class="summon-particle" style="--travel: {{item.distance}}rpx; width: {{item.size}}rpx; height: {{item.size * 1.5}}rpx; animation-delay: {{item.delay}}ms;"></view></view></view>
+      <view class="summon-shockwave"></view>
+    </view>
+    <view class="summon-letter" aria-hidden="true"><view class="summon-fold fold-left"></view><view class="summon-fold fold-right"></view><view class="summon-fold fold-top"></view><view class="summon-wax"><view class="wax-star">✦</view></view><view class="letter-address">致 / 同行的人</view></view>
+    <view wx:if="{{revealPhase === 'arrive' || revealPhase === 'settled'}}" class="summon-reveal">
+      <view class="summon-rank"><view class="rank-rule"></view><text>{{activeReveal.tier}}</text><view class="rank-rule"></view></view>
+      <view class="summon-portrait"><view class="portrait-arch"></view><view class="portrait-floor"></view><image class="summon-character" src="{{activeReveal.image}}" mode="aspectFit"/><view class="portrait-corner corner-left"></view><view class="portrait-corner corner-right"></view></view>
+      <view class="summon-name serif">{{activeReveal.name}}</view>
+      <view class="summon-meeting">{{replayMode ? '重温已收藏的信印' : activeReveal.isNewFamily ? '初次相遇' : activeReveal.isNewVariant ? '新的形态' : '又一次，选择陪你'}}</view>
+    </view>
+    <view wx:else class="summon-anticipation"><view>{{activeReveal.profile.name}}</view><text>{{revealPhase === 'charge' ? '有人正在回应这封信' : '信里的微光，正在醒来'}}</text></view>
+  </view>
+  <view class="summon-footer">
+    <block wx:if="{{revealPhase === 'settled'}}"><button class="summon-next" bindtap="nextReveal">{{replayMode ? '返回旅伴手账' : revealedCount < results.length ? '继续拆下一封 →' : '收好这次相遇'}}</button><button wx:if="{{!replayMode}}" class="summon-back" bindtap="backFromReveal">返回信封</button></block>
+    <button wx:else class="summon-skip" bindtap="skipReveal">跳过演出</button>
+    <view class="summon-saved">{{replayMode ? '重温不消耗邮票' : '旅伴已入库，关闭也会保留'}}</view>
+  </view>
+</view>

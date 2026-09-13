@@ -1,0 +1,310 @@
+[
+  {
+    "name": "main",
+    "root": "",
+    "bytes": 1694571,
+    "mib": 1.6160688400268555,
+    "remainingBytes": 402581,
+    "imageBytes": 1437104,
+    "codeBytes": 255150,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "assets/scenes/summon-postoffice.jpg",
+        "bytes": 310651
+      },
+      {
+        "path": "assets/partners/tea.png",
+        "bytes": 59535
+      },
+      {
+        "path": "assets/partners/bomb.png",
+        "bytes": 53089
+      },
+      {
+        "path": "assets/partners/catcafe.png",
+        "bytes": 51496
+      },
+      {
+        "path": "utils/combat.js",
+        "bytes": 47956
+      },
+      {
+        "path": "assets/partners/sushi.png",
+        "bytes": 42759
+      },
+      {
+        "path": "assets/partners/soup.png",
+        "bytes": 39632
+      },
+      {
+        "path": "assets/partners/ticket.png",
+        "bytes": 39535
+      },
+      {
+        "path": "assets/partners/burger.png",
+        "bytes": 39063
+      },
+      {
+        "path": "assets/partners/blanket.png",
+        "bytes": 36787
+      },
+      {
+        "path": "assets/partners/sunset.png",
+        "bytes": 35789
+      },
+      {
+        "path": "assets/partners/badminton.png",
+        "bytes": 35034
+      },
+      {
+        "path": "assets/partners/sheep.png",
+        "bytes": 34325
+      },
+      {
+        "path": "assets/partners/nav.png",
+        "bytes": 34086
+      },
+      {
+        "path": "assets/partners/moon.png",
+        "bytes": 33453
+      },
+      {
+        "path": "assets/partners/hydrangea.png",
+        "bytes": 31981
+      },
+      {
+        "path": "assets/partners/pear.png",
+        "bytes": 31445
+      },
+      {
+        "path": "assets/partners/cloudmail.png",
+        "bytes": 31071
+      },
+      {
+        "path": "utils/combat-content.js",
+        "bytes": 30651
+      },
+      {
+        "path": "utils/content.js",
+        "bytes": 30349
+      }
+    ]
+  },
+  {
+    "name": "package-street",
+    "root": "package-street",
+    "bytes": 929330,
+    "mib": 0.8862781524658203,
+    "remainingBytes": 1167822,
+    "imageBytes": 929053,
+    "codeBytes": 235,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-street/assets/art/street-back.jpg",
+        "bytes": 453222
+      },
+      {
+        "path": "package-street/assets/art/paper-lion.png",
+        "bytes": 64854
+      },
+      {
+        "path": "package-street/assets/art/postbag-guard.png",
+        "bytes": 60916
+      },
+      {
+        "path": "package-street/assets/art/twine-sprite.png",
+        "bytes": 60137
+      },
+      {
+        "path": "package-street/assets/art/paper-lion-phase2.png",
+        "bytes": 57221
+      },
+      {
+        "path": "package-street/assets/art/wax-drop.png",
+        "bytes": 54318
+      },
+      {
+        "path": "package-street/assets/art/stamp-press.png",
+        "bytes": 48995
+      },
+      {
+        "path": "package-street/assets/art/paper-ball.png",
+        "bytes": 47564
+      },
+      {
+        "path": "package-street/assets/art/stamp-moth.png",
+        "bytes": 32839
+      },
+      {
+        "path": "package-street/assets/art/street-front.png",
+        "bytes": 28189
+      },
+      {
+        "path": "package-street/assets/art/street-middle.png",
+        "bytes": 20798
+      },
+      {
+        "path": "package-street/pages/run/index.wxml",
+        "bytes": 99
+      },
+      {
+        "path": "package-street/pages/run/index.js",
+        "bytes": 90
+      },
+      {
+        "path": "package-street/pages/run/index.wxss",
+        "bytes": 46
+      },
+      {
+        "path": "package-street/pages/run/index.json",
+        "bytes": 42
+      }
+    ]
+  },
+  {
+    "name": "package-bridge",
+    "root": "package-bridge",
+    "bytes": 853078,
+    "mib": 0.8135585784912109,
+    "remainingBytes": 1244074,
+    "imageBytes": 852801,
+    "codeBytes": 235,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-bridge/assets/art/bridge-back.jpg",
+        "bytes": 418467
+      },
+      {
+        "path": "package-bridge/assets/art/bridge-drum.png",
+        "bytes": 56257
+      },
+      {
+        "path": "package-bridge/assets/art/ink-tide.png",
+        "bytes": 52014
+      },
+      {
+        "path": "package-bridge/assets/art/ink-tide-phase2.png",
+        "bytes": 49447
+      },
+      {
+        "path": "package-bridge/assets/art/ink-puddle.png",
+        "bytes": 46929
+      },
+      {
+        "path": "package-bridge/assets/art/umbrella-spirit.png",
+        "bytes": 45227
+      },
+      {
+        "path": "package-bridge/assets/art/rain-knot.png",
+        "bytes": 44475
+      },
+      {
+        "path": "package-bridge/assets/art/bridge-middle.png",
+        "bytes": 41104
+      },
+      {
+        "path": "package-bridge/assets/art/tile-sprite.png",
+        "bytes": 38892
+      },
+      {
+        "path": "package-bridge/assets/art/bridge-front.png",
+        "bytes": 36079
+      },
+      {
+        "path": "package-bridge/assets/art/reed-shadow.png",
+        "bytes": 23910
+      },
+      {
+        "path": "package-bridge/pages/run/index.wxml",
+        "bytes": 99
+      },
+      {
+        "path": "package-bridge/pages/run/index.js",
+        "bytes": 90
+      },
+      {
+        "path": "package-bridge/pages/run/index.wxss",
+        "bytes": 46
+      },
+      {
+        "path": "package-bridge/pages/run/index.json",
+        "bytes": 42
+      }
+    ]
+  },
+  {
+    "name": "package-market",
+    "root": "package-market",
+    "bytes": 941230,
+    "mib": 0.8976268768310547,
+    "remainingBytes": 1155922,
+    "imageBytes": 940953,
+    "codeBytes": 235,
+    "status": "PASS",
+    "largestFiles": [
+      {
+        "path": "package-market/assets/art/market-back.jpg",
+        "bytes": 450259
+      },
+      {
+        "path": "package-market/assets/art/bell-warden.png",
+        "bytes": 69996
+      },
+      {
+        "path": "package-market/assets/art/bell-warden-phase2.png",
+        "bytes": 67599
+      },
+      {
+        "path": "package-market/assets/art/market-front.png",
+        "bytes": 56653
+      },
+      {
+        "path": "package-market/assets/art/market-middle.png",
+        "bytes": 53957
+      },
+      {
+        "path": "package-market/assets/art/bell-sprite.png",
+        "bytes": 49592
+      },
+      {
+        "path": "package-market/assets/art/paper-mask.png",
+        "bytes": 44320
+      },
+      {
+        "path": "package-market/assets/art/lantern-rack.png",
+        "bytes": 42820
+      },
+      {
+        "path": "package-market/assets/art/silk-tail.png",
+        "bytes": 38282
+      },
+      {
+        "path": "package-market/assets/art/lantern-mote.png",
+        "bytes": 35876
+      },
+      {
+        "path": "package-market/assets/art/market-usher.png",
+        "bytes": 31599
+      },
+      {
+        "path": "package-market/pages/run/index.wxml",
+        "bytes": 99
+      },
+      {
+        "path": "package-market/pages/run/index.js",
+        "bytes": 90
+      },
+      {
+        "path": "package-market/pages/run/index.wxss",
+        "bytes": 46
+      },
+      {
+        "path": "package-market/pages/run/index.json",
+        "bytes": 42
+      }
+    ]
+  }
+]

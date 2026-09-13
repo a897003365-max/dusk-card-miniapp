@@ -1,0 +1,10 @@
+✓ 实际KEY属于指定隔离副本
+✓ 回执确认按钮完整可见且不小于44px
+✓ 回执持续保留且展示期间不重复结算
+✓ 查看战利品只关闭回执、不再次发奖
+→ 0-cardReward
+✓ 真实点击与共享规则预览及RNG完全一致
+→ 1-map
+✓ 真实点击与共享规则预览及RNG完全一致
+✓ 本次原生运行控制台error为空
+pass-in-progress: /var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-tactics-runtime-0fu05U

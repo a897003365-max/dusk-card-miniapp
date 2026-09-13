@@ -1,0 +1,538 @@
+{
+  "project": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-card-acceptance-2DBUUV",
+  "width": 390,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-Nrv3oZ",
+  "checks": [
+    {
+      "name": "重温验收使用隔离存档",
+      "pass": true
+    },
+    {
+      "name": "模拟器宽度真实匹配",
+      "pass": true
+    },
+    {
+      "name": "R 重温的是实际已拥有形态",
+      "pass": true
+    },
+    {
+      "name": "R 名字/角色/操作完整可见",
+      "pass": true
+    },
+    {
+      "name": "R 两个主要操作至少44px",
+      "pass": true
+    },
+    {
+      "name": "R 回到原伙伴与原形态",
+      "pass": true
+    },
+    {
+      "name": "R 重温全程不改存档或消耗资源",
+      "pass": true
+    },
+    {
+      "name": "SR 重温的是实际已拥有形态",
+      "pass": true
+    },
+    {
+      "name": "SR 名字/角色/操作完整可见",
+      "pass": true
+    },
+    {
+      "name": "SR 两个主要操作至少44px",
+      "pass": true
+    },
+    {
+      "name": "SR 回到原伙伴与原形态",
+      "pass": true
+    },
+    {
+      "name": "SR 重温全程不改存档或消耗资源",
+      "pass": true
+    },
+    {
+      "name": "SSR 重温的是实际已拥有形态",
+      "pass": true
+    },
+    {
+      "name": "SSR 名字/角色/操作完整可见",
+      "pass": true
+    },
+    {
+      "name": "SSR 两个主要操作至少44px",
+      "pass": true
+    },
+    {
+      "name": "SSR 回到原伙伴与原形态",
+      "pass": true
+    },
+    {
+      "name": "SSR 重温全程不改存档或消耗资源",
+      "pass": true
+    },
+    {
+      "name": "UR 重温的是实际已拥有形态",
+      "pass": true
+    },
+    {
+      "name": "UR 名字/角色/操作完整可见",
+      "pass": true
+    },
+    {
+      "name": "UR 两个主要操作至少44px",
+      "pass": true
+    },
+    {
+      "name": "UR 回到原伙伴与原形态",
+      "pass": true
+    },
+    {
+      "name": "UR 重温全程不改存档或消耗资源",
+      "pass": true
+    },
+    {
+      "name": "未拥有形态没有重温入口",
+      "pass": true
+    },
+    {
+      "name": "全部查看结束仍保留原存档",
+      "pass": true
+    },
+    {
+      "name": "应用异常为空",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "name": "390-R-replay",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-Nrv3oZ/390-R-replay.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-SR-replay",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-Nrv3oZ/390-SR-replay.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-SSR-replay",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-Nrv3oZ/390-SSR-replay.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-UR-replay",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-Nrv3oZ/390-UR-replay.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    },
+    {
+      "name": "390-unowned-no-replay",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-summon-replay-Nrv3oZ/390-unowned-no-replay.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "interactions": [
+    {
+      "selector": ".family-card[data-id=\"sunset\"]",
+      "rect": {
+        "dataset": {
+          "id": "sunset"
+        },
+        "left": 259.984375,
+        "right": 371.9765625,
+        "top": 459.5234375,
+        "bottom": 646.703125,
+        "width": 111.9921875,
+        "height": 187.1796875
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".variant[data-tier=\"R\"]",
+      "rect": {
+        "dataset": {
+          "tier": "R"
+        },
+        "left": 33,
+        "right": 109.5,
+        "top": 277.7734375,
+        "bottom": 325.7734375,
+        "width": 76.5,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".replay-appearance",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 339.7734375,
+        "bottom": 407.171875,
+        "width": 324,
+        "height": 67.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-next",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 592.5,
+        "bottom": 637.5,
+        "width": 354,
+        "height": 45
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".family-card[data-id=\"sunset\"]",
+      "rect": {
+        "dataset": {
+          "id": "sunset"
+        },
+        "left": 259.984375,
+        "right": 371.9765625,
+        "top": 459.5234375,
+        "bottom": 646.703125,
+        "width": 111.9921875,
+        "height": 187.1796875
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".variant[data-tier=\"SR\"]",
+      "rect": {
+        "dataset": {
+          "tier": "SR"
+        },
+        "left": 115.5,
+        "right": 192,
+        "top": 277.7734375,
+        "bottom": 325.7734375,
+        "width": 76.5,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".replay-appearance",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 339.7734375,
+        "bottom": 407.171875,
+        "width": 324,
+        "height": 67.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-next",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 592.5,
+        "bottom": 637.5,
+        "width": 354,
+        "height": 45
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".family-card[data-id=\"orangecat\"]",
+      "rect": {
+        "dataset": {
+          "id": "orangecat"
+        },
+        "left": 138.9921875,
+        "right": 250.984375,
+        "top": 80.2421875,
+        "bottom": 267.421875,
+        "width": 111.9921875,
+        "height": 187.1796875
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".variant[data-tier=\"SSR\"]",
+      "rect": {
+        "dataset": {
+          "tier": "SSR"
+        },
+        "left": 198,
+        "right": 274.5,
+        "top": 277.7734375,
+        "bottom": 325.7734375,
+        "width": 76.5,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".replay-appearance",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 339.7734375,
+        "bottom": 407.171875,
+        "width": 324,
+        "height": 67.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-next",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 592.5,
+        "bottom": 637.5,
+        "width": 354,
+        "height": 45
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".family-card[data-id=\"sunset\"]",
+      "rect": {
+        "dataset": {
+          "id": "sunset"
+        },
+        "left": 259.984375,
+        "right": 371.9765625,
+        "top": 80.0234375,
+        "bottom": 267.203125,
+        "width": 111.9921875,
+        "height": 187.1796875
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".variant[data-tier=\"UR\"]",
+      "rect": {
+        "dataset": {
+          "tier": "UR"
+        },
+        "left": 280.5,
+        "right": 357,
+        "top": 277.7734375,
+        "bottom": 325.7734375,
+        "width": 76.5,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".replay-appearance",
+      "rect": {
+        "dataset": {},
+        "left": 33,
+        "right": 357,
+        "top": 339.7734375,
+        "bottom": 407.171875,
+        "width": 324,
+        "height": 67.3984375
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".summon-next",
+      "rect": {
+        "dataset": {},
+        "left": 18,
+        "right": 372,
+        "top": 592.5,
+        "bottom": 637.5,
+        "width": 354,
+        "height": 45
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".family-card[data-id=\"sheep\"]",
+      "rect": {
+        "dataset": {
+          "id": "sheep"
+        },
+        "left": 18,
+        "right": 129.9921875,
+        "top": 80.0234375,
+        "bottom": 267.203125,
+        "width": 111.9921875,
+        "height": 187.1796875
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".variant[data-tier=\"UR\"]",
+      "rect": {
+        "dataset": {
+          "tier": "UR"
+        },
+        "left": 280.5,
+        "right": 357,
+        "top": 277.7734375,
+        "bottom": 325.7734375,
+        "width": 76.5,
+        "height": 48
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    },
+    {
+      "selector": ".close",
+      "rect": {
+        "dataset": {},
+        "left": 313,
+        "right": 357,
+        "top": 68.7265625,
+        "bottom": 112.7265625,
+        "width": 44,
+        "height": 44
+      },
+      "viewport": {
+        "width": 390,
+        "height": 671
+      }
+    }
+  ],
+  "videos": [],
+  "recordingRequested": false,
+  "status": "pass",
+  "console": ""
+}

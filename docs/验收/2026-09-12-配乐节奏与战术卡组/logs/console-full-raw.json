@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "tool": "get_simulator_console",
+  "clientName": "Codex",
+  "result": "1:[\"[info]\",\"[system]\",\"WeChatLib: 3.17.0 (2026.8.18 17:29:36)\"]\n2:[\"[info]\",\"[system]\",\"No. of subpackages: 6\"]\n--\n4:[\"[info]\",\"Lazy code loading is enabled. Only injecting required components.\"]"
+}

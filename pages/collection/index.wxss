@@ -1,0 +1,52 @@
+.collection-page .title { font-size: 45rpx; }
+.archive-summary { display: flex; justify-content: space-between; align-items: center; font-size: 43rpx; margin-bottom: 24rpx; }
+.party-panel { background: #263851; color: #f8ebd7; padding: 25rpx; border-radius: 24rpx; }
+.party-label { font-size: 26rpx; }
+.party-count { font-size: 20rpx; color: #b7c3cf; }
+.party-members { display: flex; gap: 12rpx; margin: 19rpx 0 5rpx; }
+.party-member { flex: 1; min-width: 0; text-align: center; border: 1rpx solid #ffffff24; border-radius: 16rpx; padding: 12rpx 3rpx; background: #ffffff07; }
+.party-art { width: 128rpx; height: 128rpx; display: block; margin: 0 auto; }
+.party-name { font-size: 24rpx; margin: 4rpx 0 10rpx; }
+.party-member .tag { font-size: 17rpx; padding: 4rpx 8rpx; }
+.party-panel .stat { background: #ffffff10; color: #c8d2dd; padding: 9rpx 4rpx; font-size: 22rpx; }
+.party-panel .stat-number { color: #f2d6a7; font-size: 28rpx; }
+.party-note { color: #b6c2ce; font-size: 12px; margin-top: 16rpx; }
+.filters { display: flex; gap: 8rpx; flex-shrink: 0; width: 140px; }
+.filter { flex: 1; min-height: 44px; font-size: 12px; font-weight: 400; padding: 12px 6px; background: transparent; color: #838b94; min-width: 0; width: 64px; max-width: 68px; }
+.filter.active { color: #263851; background: #e9e5dc; }
+.collection-grid { display: flex; flex-wrap: wrap; gap: 18rpx; }
+.family-card { width: calc((100% - 36rpx) / 3); padding: 15rpx 10rpx 0; background: #fffcf6; border: 1rpx solid #dfd8ca; border-radius: 5rpx; text-align: center; }
+.family-card-top { display: flex; justify-content: space-between; font-size: 17rpx; color: #87939e; }
+.family-tier { color: #8b7150; }
+.family-art { width: 155rpx; height: 155rpx; max-width: 100%; display: block; margin: 12rpx auto 6rpx; }
+.silhouette { filter: grayscale(1); opacity: .23; }
+.family-name { font-size: 12px; font-weight: 600; }
+.family-role { font-size: 19rpx; color: #8b939a; margin: 4rpx 0 14rpx; }
+.family-bottom { border-top: 1rpx dashed #d8d4c9; padding: 13rpx 0; font-size: 17rpx; color: #927452; }
+.unowned { background: #eeede7; }
+.unowned .family-bottom { color: #929792; }
+.archive-note { margin: 35rpx 0 12rpx; color: #979b9d; font-size: 21rpx; line-height: 1.9; text-align: center; }
+.partner-portrait { height: 285rpx; position: relative; margin-top: 18rpx; border-radius: 80rpx 80rpx 8rpx 8rpx; text-align: center; overflow: hidden; }
+.detail-art { width: 240rpx; height: 240rpx; position: relative; }
+.portrait-caption { font-size: 20rpx; letter-spacing: 4rpx; }
+.portrait-lines { width: 440rpx; height: 440rpx; border: 1rpx solid #647b8b33; border-radius: 50%; position: absolute; top: 40rpx; left: 50%; transform: translateX(-50%); }
+.variant-row { display: flex; gap: 12rpx; margin: 17rpx 0 22rpx; }
+.variant { flex: 1; font-size: 23rpx; padding: 13rpx 0; background: #eeeae1; color: #647385; border: 2rpx solid transparent; border-radius: 10rpx; min-height: 48px; min-width: 0; width: 0; }
+.variant text { display: block; font-size: 11px; font-weight: 400; margin-top: 4rpx; }
+.variant.selected { border-color: #536b85; background: #e7eced; }
+.bio-role { color: #9b7645; font-size: 23rpx; margin-bottom: 10rpx; }
+.partner-bio { font-size: 14px; }
+.bond-note { font-size: 21rpx; color: #878e94; margin-top: 18rpx; line-height: 1.8; }
+.replace-panel { margin-top: 8rpx; padding-top: 0; border-top: 1rpx solid #e2ded4; border: 0; }
+.replace-member { margin-top: 12rpx; font-size: 14px; min-height: 52px; display: flex; align-items: center; padding: 10rpx 22rpx; width: 100%; min-width: 0; }
+.replace-intro { display: flex; align-items: center; gap: 12px; text-align: left; margin: 12px 0 18px; }
+.replace-intro image { width: 44px; height: 44px; flex-shrink: 0; }
+.replace-intro .serif { font-size: 14px; margin-bottom: 4px; }
+.replace-copy { flex: 1; min-width: 0; }
+.replace-member image { width: 70rpx; height: 70rpx; margin-right: 16rpx; }
+.replace-arrow { margin-left: auto; color: #9d835f; }
+.family-role, .family-bottom { font-size: 11px; }
+.collection-page .section-title { white-space: nowrap; font-size: 28rpx; }
+.replace-panel .replace-member { width: 100%; min-width: 100%; }
+.combat-profile { padding: 18px; background: #ece7da; border-radius: 14px; margin: 18px 0; }.combat-profile .serif { font-size: 19px; }.combat-stats { font-size: 13px; margin-top: 12px; color: #7c715d; }.train-partner { width: 100%; min-width: 100%; margin-top: 15px; font-size: 13px; }.combat-passive { font-size: 13px; line-height: 1.85; margin-top: 18px; }.combat-passive > text { font-weight: 600; color: #8c7046; }.combat-passive > view { color: #7d898d; font-size: 12px; margin-top: 5px; }.signature-card { border-top: 1px dashed #cbbf9f; margin-top: 13px; padding-top: 13px; font-size: 13px; }.signature-card > text { display: block; font-size: 12px; color: #7d898d; line-height: 1.85; margin-top: 5px; }
+.replay-appearance { width: 100%; min-width: 100%; max-width: 100%; min-height: 44px; padding: 12px; margin: 14px 0; font-size: 15px; background: #33475e; color: #f0d7ac; border: 1px solid #ab8c5c; border-radius: 10px; }.replay-appearance text { display: block; margin-top: 5px; color: #becbd2; font-size: 11px; font-weight: 400; }

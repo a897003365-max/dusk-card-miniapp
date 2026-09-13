@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9",
+  "actors": [
+    {
+      "id": "ticket",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/ticket-sheet.png",
+      "sourceHash": "a9ad9dab5e836b73344dc80eecff07cb9facfb9654460c468cde9520d276b01a",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          12878,
+          939
+        ],
+        "removedPixels": 13817
+      },
+      "foregroundPixels": 510689,
+      "assignedPixels": 510689
+    }
+  ],
+  "frames": [
+    {
+      "id": "ticket",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/enter.png",
+      "contentBounds": {
+        "x": 47,
+        "y": 35,
+        "width": 371,
+        "height": 385
+      },
+      "bytes": 19358
+    },
+    {
+      "id": "ticket",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/attack.png",
+      "contentBounds": {
+        "x": 473,
+        "y": 49,
+        "width": 413,
+        "height": 369
+      },
+      "bytes": 19317
+    },
+    {
+      "id": "ticket",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/guard.png",
+      "contentBounds": {
+        "x": 980,
+        "y": 58,
+        "width": 319,
+        "height": 350
+      },
+      "bytes": 20590
+    },
+    {
+      "id": "ticket",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/hurt.png",
+      "contentBounds": {
+        "x": 1363,
+        "y": 37,
+        "width": 381,
+        "height": 381
+      },
+      "bytes": 18844
+    },
+    {
+      "id": "ticket",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/exit.png",
+      "contentBounds": {
+        "x": 58,
+        "y": 561,
+        "width": 341,
+        "height": 250
+      },
+      "bytes": 18424
+    },
+    {
+      "id": "ticket",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/control.png",
+      "contentBounds": {
+        "x": 487,
+        "y": 464,
+        "width": 361,
+        "height": 385
+      },
+      "bytes": 21206
+    },
+    {
+      "id": "ticket",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/buff.png",
+      "contentBounds": {
+        "x": 913,
+        "y": 464,
+        "width": 399,
+        "height": 392
+      },
+      "bytes": 24026
+    },
+    {
+      "id": "ticket",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-IPTMd9/ticket/debuff.png",
+      "contentBounds": {
+        "x": 1402,
+        "y": 514,
+        "width": 319,
+        "height": 328
+      },
+      "bytes": 21632
+    }
+  ],
+  "bytes": 163397
+}

@@ -1,0 +1,131 @@
+{
+  "size": 256,
+  "colors": 128,
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK",
+  "actors": [
+    {
+      "id": "badminton",
+      "source": "/Users/maizi/AI-Jobs/Projects/dusk-card-miniapp/docs/combat-motion/masters/badminton-sheet.png",
+      "sourceHash": "b74b4f03d0c463640d3bfbcd11fd0e561272638b61a7133f21990cba32f05787",
+      "width": 1774,
+      "height": 887,
+      "keyed": true,
+      "cleanup": {
+        "rounds": [
+          22786,
+          2534
+        ],
+        "removedPixels": 25320
+      },
+      "foregroundPixels": 405680,
+      "assignedPixels": 405680
+    }
+  ],
+  "frames": [
+    {
+      "id": "badminton",
+      "state": "enter",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/enter-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/enter.png",
+      "contentBounds": {
+        "x": 48,
+        "y": 47,
+        "width": 351,
+        "height": 377
+      },
+      "bytes": 16589
+    },
+    {
+      "id": "badminton",
+      "state": "attack",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/attack-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/attack.png",
+      "contentBounds": {
+        "x": 450,
+        "y": 65,
+        "width": 436,
+        "height": 336
+      },
+      "bytes": 14509
+    },
+    {
+      "id": "badminton",
+      "state": "guard",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/guard-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/guard.png",
+      "contentBounds": {
+        "x": 959,
+        "y": 52,
+        "width": 307,
+        "height": 363
+      },
+      "bytes": 17373
+    },
+    {
+      "id": "badminton",
+      "state": "hurt",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/hurt-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/hurt.png",
+      "contentBounds": {
+        "x": 1384,
+        "y": 71,
+        "width": 336,
+        "height": 350
+      },
+      "bytes": 18049
+    },
+    {
+      "id": "badminton",
+      "state": "exit",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/exit-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/exit.png",
+      "contentBounds": {
+        "x": 49,
+        "y": 504,
+        "width": 322,
+        "height": 323
+      },
+      "bytes": 18930
+    },
+    {
+      "id": "badminton",
+      "state": "control",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/control-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/control.png",
+      "contentBounds": {
+        "x": 481,
+        "y": 482,
+        "width": 337,
+        "height": 354
+      },
+      "bytes": 19477
+    },
+    {
+      "id": "badminton",
+      "state": "buff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/buff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/buff.png",
+      "contentBounds": {
+        "x": 929,
+        "y": 471,
+        "width": 365,
+        "height": 381
+      },
+      "bytes": 18696
+    },
+    {
+      "id": "badminton",
+      "state": "debuff",
+      "master": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/debuff-master.png",
+      "file": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-art-FlUZmK/badminton/debuff.png",
+      "contentBounds": {
+        "x": 1387,
+        "y": 498,
+        "width": 326,
+        "height": 336
+      },
+      "bytes": 19729
+    }
+  ],
+  "bytes": 143352
+}

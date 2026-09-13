@@ -1,0 +1,1 @@
+<import src="../../../templates/expedition.wxml"/><template is="expedition" data="{{...screen}}"/>

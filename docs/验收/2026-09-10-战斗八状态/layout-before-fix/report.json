@@ -1,0 +1,183 @@
+{
+  "out": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-layout-debug-CZkeKp",
+  "checks": [],
+  "shots": [
+    {
+      "name": "gallery-before-fix",
+      "success": true,
+      "path": "/var/folders/_4/8v6tx5gx30qgb8l4648rn5tr0000gn/T/dusk-action-layout-debug-CZkeKp/gallery-before-fix.jpg",
+      "imageWidth": 593,
+      "imageHeight": 1280
+    }
+  ],
+  "width": 390,
+  "nodes": [
+    [
+      {
+        "left": 18,
+        "right": 372,
+        "top": 60.2421875,
+        "bottom": 692.7578125,
+        "width": "354px",
+        "height": 632.515625,
+        "display": "flex",
+        "grid-template-columns": "none",
+        "min-width": "auto",
+        "box-sizing": "border-box",
+        "flex-basis": "auto"
+      }
+    ],
+    [
+      {
+        "left": 33,
+        "right": 357,
+        "top": 119.2421875,
+        "bottom": 677.7578125,
+        "width": "324px",
+        "height": 558.515625,
+        "display": "block",
+        "grid-template-columns": "none",
+        "min-width": "auto",
+        "box-sizing": "border-box",
+        "flex-basis": "0%"
+      }
+    ],
+    [
+      {
+        "left": 33,
+        "right": 357,
+        "top": 351.2421875,
+        "bottom": 445.2421875,
+        "width": "324px",
+        "height": 94,
+        "display": "grid",
+        "grid-template-columns": "184px 184px 184px 184px",
+        "min-width": "0px",
+        "box-sizing": "border-box",
+        "flex-basis": "auto"
+      }
+    ],
+    [
+      {
+        "left": 33,
+        "right": 217,
+        "top": 351.2421875,
+        "bottom": 395.2421875,
+        "width": "184px",
+        "height": 44,
+        "display": "block",
+        "grid-template-columns": "none",
+        "min-width": "44px",
+        "box-sizing": "border-box",
+        "flex-basis": "auto"
+      },
+      {
+        "left": 223,
+        "right": 407,
+        "top": 351.2421875,
+        "bottom": 395.2421875,
+        "width": "184px",
+        "height": 44,
+        "display": "block",
+        "grid-template-columns": "none",
+        "min-width": "44px",
+        "box-sizing": "border-box",
+        "flex-basis": "auto"
+      },
+      {
+        "left": 413,
+        "right": 597,
+        "top": 351.2421875,
+        "bottom": 395.2421875,
+        "width": "184px",
+        "height": 44,
+        "display": "block",
+        "grid-template-columns": "none",
+        "min-width": "44px",
+        "box-sizing": "border-box",
+        "flex-basis": "auto"
+      },
+      {
+        "left": 603,
+        "right": 787,
+        "top": 351.2421875,
+        "bottom": 395.2421875,
+        "width": "184px",
+        "height": 44,
+        "display": "block",
+        "grid-template-columns": "none",
+        "min-width": "44px",
+        "box-sizing": "border-box",
+        "flex-basis": "auto"
+      },
+      {
+        "left": 33,
+        "right": 217,
+        "top": 401.2421875,
+        "bottom": 445.2421875,
+        "width": "184px",
+        "height": 44,
+        "display": "block",
+        "grid-template-columns": "none",
+        "min-width": "44px",
+        "box-sizing": "border-box",
+        "flex-basis": "auto"
+      },
+      {
+        "left": 223,
+        "right": 407,
+        "top": 401.2421875,
+        "bottom": 445.2421875,
+        "width": "184px",
+        "height": 44,
+        "display": "block",
+        "grid-template-columns": "none",
+        "min-width": "44px",
+        "box-sizing": "border-box",
+        "flex-basis": "auto"
+      },
+      {
+        "left": 413,
+        "right": 597,
+        "top": 401.2421875,
+        "bottom": 445.2421875,
+        "width": "184px",
+        "height": 44,
+        "display": "block",
+        "grid-template-columns": "none",
+        "min-width": "44px",
+        "box-sizing": "border-box",
+        "flex-basis": "auto"
+      },
+      {
+        "left": 603,
+        "right": 787,
+        "top": 401.2421875,
+        "bottom": 445.2421875,
+        "width": "184px",
+        "height": 44,
+        "display": "block",
+        "grid-template-columns": "none",
+        "min-width": "44px",
+        "box-sizing": "border-box",
+        "flex-basis": "auto"
+      }
+    ],
+    [
+      {
+        "left": 33,
+        "right": 357,
+        "top": 139.2421875,
+        "bottom": 279.2421875,
+        "width": "324px",
+        "height": 140,
+        "src": "/package-actors-a/assets/sheep/guard.png",
+        "display": "block",
+        "grid-template-columns": "none",
+        "min-width": "0px",
+        "box-sizing": "content-box",
+        "flex-basis": "auto"
+      }
+    ]
+  ]
+}
