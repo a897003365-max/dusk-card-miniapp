@@ -129,6 +129,8 @@ function lethalAttackState(initial = inBattle()) {
   run.hand = [card.uid];
   run.drawPile = run.deck.filter(item => item.uid !== card.uid).map(item => item.uid);
   run.discardPile = []; run.energy = 3;
+  // 回执夹具表示最后一敌；新精英遭遇的随从在此已被击败。
+  run.enemies.slice(1).forEach(enemy => { enemy.hp = 0; });
   run.enemies[0].hp = 1; run.enemies[0].block = 0;
   return state;
 }
@@ -810,4 +812,55 @@ test('环境从真实出牌进入HUD与说明，回合结束按规则消退', ()
   page.openTacticGuide(); assert.equal(page.data.screen.statusHelp.id, 'environment');
   assert.match(page.data.screen.tacticStatus, /-2/); page.closeSheet();
   page.endTurn(); h.flushMotion(); assert.equal(page.data.screen.run.environmentId, null);
+});
+
+test('奖励归属选择只更新展示，保存失败不吞牌，成功确认不能重复领取', () => {
+  const h = harness(wonBattle()), page = h.expedition();
+  page.continueReceipt();
+  const card = page.data.screen.run.choices.find(c => !CARD_BY_ID[c.cardId].familyId);
+  const owner = card.ownerOptions.find(o => o.id !== card.ownerId).id;
+  const before = clone(h.app.state), writes = h.writes.length;
+  page.chooseRewardOwner({ currentTarget: { dataset: { uid: card.uid, owner } } });
+  assert.equal(h.writes.length, writes);
+  assert.deepEqual(h.app.state, before);
+  assert.equal(page.data.screen.run.choices.find(c => c.uid === card.uid).ownerId, owner);
+  h.controls.failWrites = true;
+  page.chooseCard(event('uid', card.uid));
+  assert.deepEqual(h.app.state, before);
+  assert.equal(page.data.screen.run.choices.find(c => c.uid === card.uid).ownerId, owner);
+  h.controls.failWrites = false;
+  page.chooseCard(event('uid', card.uid));
+  assert.equal(h.app.state.adventure.active.deck.at(-1).ownerId, owner);
+  assert.equal(h.writes.length, writes + 1);
+  page.chooseCard(event('uid', card.uid));
+  assert.equal(h.writes.length, writes + 1);
+});
+
+test('换牌页面保存候选后可恢复，选候选与归属不写入，失败可重试且只成功一次', () => {
+  const h = harness(atNode('camp')), page = h.expedition();
+  page.showRefit();
+  assert.equal(h.app.state.adventure.active.phase, 'campReplace');
+  const restored = harness(clone(h.app.state)).expedition();
+  assert.deepEqual(clone(restored.data.screen.run.choices), clone(page.data.screen.run.choices));
+  const card = page.data.screen.run.choices[0];
+  const outgoing = page.data.screen.run.replaceCards.find(c => c.cardId !== card.cardId);
+  const owner = card.ownerOptions.find(o => o.id !== card.ownerId).id;
+  const saved = clone(h.app.state), writes = h.writes.length;
+  page.selectRefit(event('uid', card.uid));
+  page.chooseRewardOwner({ currentTarget: { dataset: { uid: card.uid, owner } } });
+  assert.equal(h.writes.length, writes);
+  assert.deepEqual(h.app.state, saved);
+  assert.equal(page.data.screen.run.refitSelected.ownerId, owner);
+  h.controls.failWrites = true;
+  page.refitCard(event('uid', outgoing.uid));
+  assert.deepEqual(h.app.state, saved);
+  assert.ok(page.data.screen.run.refitSelected);
+  h.controls.failWrites = false;
+  page.refitCard(event('uid', outgoing.uid));
+  assert.equal(h.writes.length, writes + 1);
+  const result = h.app.state.adventure.active.deck.find(c => c.uid === outgoing.uid);
+  assert.equal(result.cardId, card.cardId); assert.equal(result.ownerId, owner);
+  assert.equal(h.app.state.adventure.active.refits.length, 1);
+  page.refitCard(event('uid', outgoing.uid));
+  assert.equal(h.writes.length, writes + 1);
 });

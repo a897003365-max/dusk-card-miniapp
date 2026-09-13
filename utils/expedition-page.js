@@ -1,4 +1,5 @@
 const combat = require('./combat');
+const { statLines } = require('./battle-stats');
 const { STATUS_GUIDE, getStatusHelp } = require('./status-help');
 const art = require('../assets/battle/manifest');
 const { unitArt, STATES, LABELS, imageFor, heroGroup } = require('./action-art');
@@ -50,6 +51,9 @@ function playActionAudio(action, result) {
 function statusBadges(unit) {
   return Object.keys(statusLabels).filter(key => unit.status[key] > 0).map(key => ({ key, text: statusLabels[key] + unit.status[key] }));
 }
+function compactBadges(badges) {
+  return badges.length > 2 ? [...badges.slice(0, 2), { key: 'more', text: `+${badges.length - 2}` }] : badges;
+}
 function impactFeedback(events, id) {
   const feedback = impactForUnit(events, id);
   return { ...feedback, impactEntries: feedback.lines };
@@ -90,7 +94,7 @@ function enemyArt(enemy, events, regionId, beat) {
   const displayedIntent = action && (beat === 'action' || beat === 'impact') ? actionIntentLines(enemy, action) : intentLines(enemy);
   return { ...enemy,
     ...unitArt(enemy, regionId, events, beat),
-    statusBadges: statusBadges(enemy).slice(0, 2),
+    statusBadges: compactBadges(statusBadges(enemy)),
     exitMotion: !!enemy.leaving && beat === 'impact',
     motion: action && beat === 'action' ? (action.intentKind === 'attack' ? 'enemy-strike' : 'enemy-spell') : '',
     themeId: theme.id, themeLabel: theme.label,
@@ -129,7 +133,7 @@ function buildBattleReceipt(view, battleRun, events) {
     const turn = battleRun && battleRun.turn || result.battleSummary && result.battleSummary.turn || 0;
     const rewardAmount = (events || []).filter(event => event && event.kind === 'reward').reduce((sum, event) => sum + (event.amount || 0), 0);
     return {
-      visible: true,
+      visible: true, statLines: statLines(result.battleStats), statsPartial: result.battleStats && result.battleStats.partial,
       key: `result:${result.regionId}:${result.win ? 'win' : 'loss'}:${result.nodesCleared}:${result.threads}:${result.tickets}`,
       kind: result.win ? 'final-win' : 'defeat',
       postmark: result.win ? '全程送达' : '旅伴归队',
@@ -153,7 +157,7 @@ function buildBattleReceipt(view, battleRun, events) {
   if (nodeType !== 'battle' && nodeType !== 'elite') return null;
   const rewardAmount = (events || []).filter(event => event && event.kind === 'reward').reduce((sum, event) => sum + (event.amount || 0), 0);
   return {
-    visible: true,
+    visible: true, statLines: run.battleStatLines || [], statsPartial: run.battleStats && run.battleStats.partial,
     key: `reward:${run.id}:${run.layer}:${nodeType}`,
     kind: nodeType === 'elite' ? 'elite-win' : 'battle-win',
     postmark: nodeType === 'elite' ? '要件收妥' : '本站收妥',
@@ -177,6 +181,8 @@ function createPage(regionId) {
     data: { screen: { error: '', regionId, view: null } },
     onLoad() {
       this._selection = { cardUid: '', targetId: '' };
+      this._rewardOwners = {};
+      this._refitChoiceId = '';
       this._sheet = '';
       this._previewPose = '';
       this._busy = false;
@@ -218,7 +224,7 @@ function createPage(regionId) {
     refresh() {
       const app = getApp();
       if (!app.state) return this.setData({ screen: { error: app.storageError, regionId } });
-      const view = combat.getAdventureView(app.state);
+      const view = combat.getAdventureView(app.state, this._rewardOwners);
       const committedRun = view.run;
       const animating = !!(this._busy && this._battleTimeline.length && this._previousRun);
       const run = animating ? clone(this._previousRun) : committedRun;
@@ -246,7 +252,8 @@ function createPage(regionId) {
         if (run.pendingChoice) run.pendingChoice.options = run.pendingChoice.options.map(card => cardArt(card, regionId));
         run.environmentName = run.environmentId ? ENVIRONMENTS[run.environmentId].name : '';
         run.conditionLabel = [run.environmentName, run.interceptorId ? '护卫' : '', run.pressure ? '压力+' + run.pressure : ''].filter(Boolean).join(' · ') || '战场平静';
-        if (['cardReward', 'campUpgrade', 'startingUpgrade'].includes(run.phase)) run.choices = run.choices.map(card => cardArt(card, regionId));
+        if (['cardReward', 'campUpgrade', 'startingUpgrade', 'campReplace', 'eventReplace'].includes(run.phase)) run.choices = run.choices.map(card => cardArt(card, regionId));
+        run.refitSelected = run.choices.find(card => card.uid === this._refitChoiceId) || null;
         run.log = run.log.map((event, key) => ({ ...event, key }));
         run.party = run.party.map(member => {
           const shown = shownParty.get(member.id);
@@ -254,7 +261,7 @@ function createPage(regionId) {
           const impact = impactFeedback(this._beat === 'impact' ? frameEvents : [], member.id);
           return { ...display,
           ...unitArt(display, regionId, frameEvents, this._beat),
-          statusBadges: [...(run.interceptorId === member.id ? [{ key: 'intercept', text: '护卫' }] : []), ...statusBadges(display)].slice(0, 2),
+          statusBadges: compactBadges([...(run.interceptorId === member.id ? [{ key: 'intercept', text: '护卫' }] : []), ...statusBadges(display)]),
           acting: this._beat === 'action' && frame && frame.actorId === member.id,
           activeTarget: activeTargetIds.includes(member.id),
           hitTarget: impact.hit,
@@ -275,7 +282,7 @@ function createPage(regionId) {
           run.enemies = run.enemies.concat(summoned);
         }
         selected = run.hand.find(card => card.uid === this._selection.cardUid) || null;
-        if (selected) preview = combat.previewAction(app.state, { type: 'playCard', cardUid: selected.uid, targetId: this._selection.targetId });
+        if (selected) preview = combat.previewAction(app.state, { type: 'playCard', cardUid: selected.uid, targetId: this._selection.targetId }, true);
       }
       const finalAliveEnemies = committedRun ? committedRun.enemies : [];
       const aliveEnemies = animating
@@ -334,6 +341,8 @@ function createPage(regionId) {
         const battleAudio = ['playCard', 'endTurn'].includes(action.type) ? { events: result.events || [], outcome: result.state.adventure.active ? null : result.state.adventure.lastResult } : null;
         playActionAudio(action, result);
         this._selection = { cardUid: '', targetId: '' };
+        this._rewardOwners = {};
+        this._refitChoiceId = '';
         this._sheet = '';
         this._fx = result.events || [];
         this._enemyFrame = this._fx.some(event => event.kind === 'defeat') ? previousEnemies : null;
@@ -459,7 +468,29 @@ function createPage(regionId) {
     tradeSelected() { if (this.data.screen.selected && this.data.screen.selected.canTrade) this.perform({ type: 'tradeCard', cardUid: this.data.screen.selected.uid }); },
     chooseOpportunity(event) { this.perform({ type: 'chooseOpportunity', choiceId: event.currentTarget.dataset.id }); },
     skipOpportunity() { this.perform({ type: 'chooseOpportunity', choiceId: 'skip' }); },
-    chooseCard(event) { this.perform({ type: 'chooseCard', choiceId: event.currentTarget.dataset.uid }); },
+    chooseRewardOwner(event) {
+      if (this._busy || this.data.screen.receipt) return;
+      const { uid, owner } = event.currentTarget.dataset;
+      const card = this.data.screen.run.choices.find(item => item.uid === uid);
+      if (!card || !card.ownerOptions.some(item => item.id === owner)) return;
+      this._rewardOwners[uid] = owner;
+      this.refresh();
+    },
+    chooseCard(event) {
+      const card = this.data.screen.run.choices.find(item => item.uid === event.currentTarget.dataset.uid);
+      if (card) this.perform({ type: 'chooseCard', choiceId: card.uid, ownerId: card.ownerId });
+    },
+    showRefit() { this.perform({ type: 'chooseRefit' }); },
+    selectRefit(event) {
+      if (this._busy || this.data.screen.receipt) return;
+      this._refitChoiceId = event.currentTarget.dataset.uid;
+      this.refresh();
+    },
+    refitCard(event) {
+      const selected = this.data.screen.run.refitSelected;
+      if (selected) this.perform({ type: 'refitCard', choiceId: selected.uid, ownerId: selected.ownerId, cardUid: event.currentTarget.dataset.uid });
+    },
+    skipRefit() { this.perform({ type: 'refitCard', choiceId: 'skip' }); },
     skipCard() { this.perform({ type: 'chooseCard', choiceId: 'skip' }); },
     chooseRelic(event) { this.perform({ type: 'chooseRelic', choiceId: event.currentTarget.dataset.id }); },
     chooseEvent(event) { this.perform({ type: 'chooseEvent', choiceId: event.currentTarget.dataset.id }); },

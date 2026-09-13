@@ -1,8 +1,12 @@
 const { FAMILIES, TIERS } = require('./content');
 const { heroes } = require('../assets/battle/manifest');
-const { FIGHTERS, CARDS, OPPORTUNITY_CARDS, STARTING_TACTICS, RELICS, ENEMIES, REGIONS, DIFFICULTIES, CARD_BY_ID, RELIC_BY_ID, ENEMY_BY_ID, REGION_BY_ID, STATUS_RULES, BATTLE_RULES, ENVIRONMENTS } = require('./combat-content');
+const { FIGHTERS, CARDS, OPPORTUNITY_CARDS, STARTING_TACTICS, RELICS, ENEMIES, REGIONS, DIFFICULTIES, CARD_BY_ID, RELIC_BY_ID, ENEMY_BY_ID, REGION_BY_ID, STATUS_RULES, BATTLE_RULES, ENVIRONMENTS, STREET_ENCOUNTERS, STREET_BATTLE_PATH } = require('./combat-content');
 
-const PHASES = ['startingUpgrade', 'map', 'battle', 'cardReward', 'relicReward', 'event', 'camp', 'campUpgrade'];
+const { analyzeDeck, rewardCandidates, rewardReason, REWARD_SLOTS, SLOT_NAMES } = require('./deck-strategy');
+
+const { KEYS: STAT_KEYS, freshStats, addStat, statLines } = require('./battle-stats');
+
+const PHASES = ['startingUpgrade', 'map', 'battle', 'cardReward', 'relicReward', 'event', 'camp', 'campUpgrade', 'campReplace', 'eventReplace'];
 const STATUS_KEYS = ['mark', 'weak', 'burn', 'counter', 'echo', 'retainBlock'];
 const EFFECT_LABELS = { damage: '伤害', block: '护盾', heal: '治疗', draw: '抽牌', energy: '能量', charge: '蓄能', mark: '标记', weak: '虚弱', burn: '灼烧', counter: '反击', echo: '回响次数', retainBlock: '留盾', cleanse: '净化', stripBlock: '破盾', intercept: '拦截', discover: '发现', scout: '观星', environment: '环境' };
 const ROLE_NAMES = { guard: '守护', combo: '连携', echo: '回响' };
@@ -100,7 +104,9 @@ function newCard(run, cardId, ownerId) {
 function makeNodes(run) {
   const region = REGION_BY_ID[run.regionId];
   const route = pick(run, ROUTES);
+  let ordinaryIndex = -1;
   return route.map((type, index) => {
+    if (type === 'battle') ordinaryIndex += 1;
     const count = type === 'boss' || type === 'camp' ? 1 : 2;
     const options = Array.from({ length: count }, (_, option) => {
       const role = ['guard', 'combo', 'echo'][(index + option) % 3];
@@ -109,8 +115,15 @@ function makeNodes(run) {
       if (type === 'elite') enemyIds = [region.eliteIds[option % region.eliteIds.length]];
       if (type === 'boss') enemyIds = [region.bossId];
       const eventId = type === 'event' ? region.events[option % region.events.length].id : null;
+      const encounterId = run.regionId === 'street' && type === 'battle' && ordinaryIndex > 0 ? STREET_BATTLE_PATH[ordinaryIndex - 1][option]
+        : run.regionId === 'street' && type === 'elite' ? ['street-guard', 'street-press'][option] : null;
+      if (encounterId) {
+        const encounter = STREET_ENCOUNTERS[encounterId];
+        return { id: `node-${index}-${option}`, encounterId, name: encounter.name,
+          description: encounter.description, role, enemyIds: encounter.units.map(unit => unit.id), eventId };
+      }
       const name = enemyIds.length ? ENEMY_BY_ID[enemyIds[0]].name : type === 'event' ? region.events.find(item => item.id === eventId).title : NODE_NAMES[type];
-      return { id: `node-${index}-${option}`, name, description: type === 'battle' ? `胜利后可选择${ROLE_NAMES[role]}方向的新牌` : type === 'elite' ? '战胜精英，挑选一件遗物' : type === 'boss' ? '击破两个阶段，完成本次远行' : type === 'camp' ? '恢复全队生命，或升级一张牌' : type === 'treasure' ? '带走星线，挑选一件遗物' : '作出选择，决定这次收获', role, enemyIds, eventId };
+      return { id: `node-${index}-${option}`, name, description: type === 'battle' ? '胜利后三选一：构筑、功能与跨方向候选' : type === 'elite' ? '战胜精英，挑选一件遗物' : type === 'boss' ? '击破两个阶段，完成本次远行' : type === 'camp' ? run.regionId === 'street' ? '恢复、升级或替换一张非专属牌，三选一' : '恢复全队生命，或升级一张牌' : type === 'treasure' ? '带走星线，挑选一件遗物' : '作出选择，决定这次收获', role, enemyIds, eventId };
     });
     return { index, type, label: NODE_NAMES[type], options, visited: false, chosenId: null };
   });
@@ -170,28 +183,42 @@ function removeDownedCards(run, member, events) {
   const ids = runCards(run).filter(card => card.ownerId === member.id).map(card => card.uid);
   for (const key of ['drawPile', 'hand', 'discardPile']) run[key] = run[key].filter(uid => !ids.includes(uid));
   run.removed = [...new Set([...run.removed, ...ids])];
-  member.block = 0;
+  member.block = 0; member.carriedBlock = 0;
   logEvent(events, 'down', member.id, member.id, 0, `${familyName(member.id)}暂时倒下，所属卡牌本场退场`);
 }
 
-function damage(run, actor, target, base, events, { direct = true, enemyAttack = false, echo = false, applyWeak = true } = {}) {
+function damage(run, actor, target, base, events, { direct = true, enemyAttack = false, echo = false, applyWeak = true, counter = false } = {}) {
   if (!target || !alive(target)) return { killed: false, amount: 0, blocked: 0, hpLoss: 0 };
   let amount = Math.max(0, base);
   if (direct && run.environmentId) amount = Math.max(0, amount + ENVIRONMENTS[run.environmentId].damageModifier);
   if (direct && applyWeak && actor && actor.status.weak > 0) amount = Math.floor(amount * STATUS_RULES.weakMultiplier);
-  if (direct && target.status.mark > 0) { amount += STATUS_RULES.markBonus; target.status.mark -= 1; }
+  const unmarkedAmount = amount, originalHp = target.hp, originalBlock = target.block;
+  const marked = direct && target.status.mark > 0;
+  if (marked) { amount += STATUS_RULES.markBonus; target.status.mark -= 1; }
   const blocked = direct ? Math.min(target.block, amount) : 0;
+  const retainedBlocked = Math.min(target.carriedBlock || 0, blocked);
+  if (target.carriedBlock !== undefined) target.carriedBlock -= retainedBlocked;
   target.block -= blocked;
   const lost = Math.min(target.hp, amount - blocked);
   target.hp -= lost;
   const targetName = target.definitionId ? ENEMY_BY_ID[target.definitionId].name : familyName(target.id);
   const impact = logEvent(events, echo ? 'echo' : direct ? 'damage' : 'burn', actor && actor.id, target.id, lost, `${targetName}${blocked ? `的护盾挡下 ${blocked}，` : ''}受到 ${lost} 点伤害`);
   impact.hpDelta = -lost;
+  if (target.definitionId) {
+    const markHpGain = marked ? lost - Math.min(originalHp, Math.max(0, unmarkedAmount - originalBlock)) : 0;
+    if (markHpGain) { impact.markHpGain = markHpGain; addStat(run, 'markHpDamage', markHpGain); }
+    if (!direct) addStat(run, 'burnHpDamage', lost);
+    if (counter) { impact.counterDamage = lost; addStat(run, 'counterHpDamage', lost); }
+  } else if (retainedBlocked) {
+    impact.retainedBlocked = retainedBlocked; addStat(run, 'retainedBlocked', retainedBlocked);
+  }
   if (blocked > 0) impact.blocked = blocked;
   let killed = target.hp === 0;
   if (killed && target.definitionId) {
     const definition = ENEMY_BY_ID[target.definitionId];
     if (definition.phase2 && target.phase === 1) {
+      const phaseBurnCleared = target.status.burn;
+      addStat(run, 'phaseBurnCleared', phaseBurnCleared);
       target.phase = 2;
       target.maxHp = Math.ceil(definition.phase2.maxHp * difficultyOf(run).hpMultiplier);
       target.hp = target.maxHp;
@@ -199,11 +226,12 @@ function damage(run, actor, target, base, events, { direct = true, enemyAttack =
       target.status = freshStatus();
       target.intentIndex = 0;
       killed = false;
-      logEvent(events, 'bossPhase', target.id, target.id, target.hp, `${definition.name}进入第二阶段`);
+      const phaseEvent = logEvent(events, 'bossPhase', target.id, target.id, target.hp, `${definition.name}进入第二阶段，清除护盾和全部状态`);
+      phaseEvent.burnCleared = phaseBurnCleared;
     } else logEvent(events, 'defeat', actor && actor.id, target.id, 0, `${definition.name}被击败了`);
   } else if (killed) removeDownedCards(run, target, events);
   if (enemyAttack && target.status.counter > 0 && actor && alive(actor)) {
-    damage(run, target, actor, target.status.counter, events, { direct: true, applyWeak: false });
+    damage(run, target, actor, target.status.counter, events, { direct: true, applyWeak: false, counter: true });
   }
   return { killed, amount, blocked, hpLoss: lost };
 }
@@ -292,6 +320,7 @@ function effect(run, descriptor, actor, cardTarget, targetId, events, facts, sca
     } else if (kind === 'stripBlock') {
       const removed = Math.min(target.block, amount);
       target.block -= removed;
+      if (target.carriedBlock !== undefined) target.carriedBlock = Math.max(0, target.carriedBlock - removed);
       const event = logEvent(events, 'stripBlock', actor && actor.id, target.id, removed, `${name}失去 ${removed} 点护盾`);
       event.blockDelta = -removed;
     } else if (kind === 'intercept') {
@@ -353,22 +382,48 @@ function finish(state, win, reason, events) {
     win, reason, regionId: run.regionId, regionName: REGION_BY_ID[run.regionId].name,
     difficultyName: difficultyOf(run).name, nodesCleared: run.layer, threads: run.threadsEarned, tickets: run.ticketsEarned
   };
+  if (run.battleStats) state.adventure.lastResult.battleStats = clone(run.battleStats);
   logEvent(events, 'finish', null, null, 0, reason);
   state.adventure.active = null;
 }
 
-function cardRewards(run) {
-  const node = run.nodes[run.layer];
-  const option = node.options.find(item => item.id === node.chosenId);
-  const pool = CARDS.filter(card => !['strike', 'guard'].includes(card.id) && (!card.familyId || run.party.some(member => member.id === card.familyId)));
-  const preferred = pool.filter(card => card.role === option.role);
-  const source = preferred.length >= 3 ? preferred : pool;
-  const tactical = shuffled(run, source.filter(card => card.tactic))[0];
-  const candidates = [tactical, ...shuffled(run, source.filter(card => !tactical || card.id !== tactical.id)).slice(0, 2)];
-  run.choices = candidates.map(card => {
+function cardRewards(run, genericOnly = false) {
+  run.choices = rewardCandidates(run, () => random(run), genericOnly).map(({ card, slot }) => {
     const owner = card.familyId ? run.party.find(member => member.id === card.familyId) : run.party.find(member => member.role === card.role) || run.party[0];
-    return newCard(run, card.id, owner.id);
+    return { ...newCard(run, card.id, owner.id), rewardSlot: slot };
   });
+}
+
+function refitCandidates(run) { return run.deck.filter(card => !CARD_BY_ID[card.cardId].familyId); }
+function openRefit(run, source, events) {
+  const refits = run.refits || [];
+  requireThat(run.regionId === 'street' && refits.length < 2 && !refits.some(item => item.source === source), '本局这次改造机会已经使用');
+  requireThat(refitCandidates(run).length > 0, '没有可替换的非专属牌');
+  run.phase = `${source}Replace`;
+  cardRewards(run, true);
+  logEvent(events, 'notice', null, null, 0, '已选择换牌机会；放弃本节点其他收益。替换一进一出，不保留原牌升级。');
+}
+function rewardOwner(run, card, ownerId) {
+  const id = ownerId === undefined ? card.ownerId : ownerId;
+  requireThat(run.party.some(member => member.id === id), '请选择本队旅伴作为卡牌归属');
+  requireThat(!CARD_BY_ID[card.cardId].familyId || CARD_BY_ID[card.cardId].familyId === id, '专属牌只能交给对应旅伴');
+  return id;
+}
+function refitCard(run, action, events) {
+  requireThat(['campReplace', 'eventReplace'].includes(run.phase), '当前没有可用的换牌机会');
+  if (action.choiceId === 'skip') { completeNode(run); return; }
+  const choice = run.choices.find(card => card.uid === action.choiceId);
+  const original = refitCandidates(run).find(card => card.uid === action.cardUid);
+  requireThat(choice && original && !CARD_BY_ID[choice.cardId].familyId, '请选择一张候选通用牌和一张要替换的非专属牌');
+  const ownerId = rewardOwner(run, choice, action.ownerId);
+  requireThat(original.cardId !== choice.cardId || original.ownerId !== ownerId, '不能用相同归属的同一张牌替换自己');
+  const record = { source: run.phase === 'campReplace' ? 'camp' : 'event', nodeIndex: run.layer, cardUid: original.uid,
+    before: { cardId: original.cardId, ownerId: original.ownerId }, after: { cardId: choice.cardId, ownerId } };
+  run.refits = [...(run.refits || []), record];
+  const previousName = CARD_BY_ID[original.cardId].name;
+  original.cardId = choice.cardId; original.ownerId = ownerId; original.upgraded = false;
+  logEvent(events, 'refit', ownerId, null, 1, `${previousName}替换为${CARD_BY_ID[choice.cardId].name}，交给${familyName(ownerId)}；牌组张数不变`);
+  completeNode(run);
 }
 
 function relicRewards(run) {
@@ -396,7 +451,7 @@ function battleOutcome(state, events) {
     const recovery = logEvent(events, 'revive', member.id, member.id, member.hp, `${familyName(member.id)}恢复四分之一生命，重新归队`);
     recovery.hpDelta = member.hp;
   });
-  run.party.forEach(member => { member.block = 0; member.status = freshStatus(); });
+  run.party.forEach(member => { member.block = 0; member.carriedBlock = 0; member.status = freshStatus(); });
   const type = run.nodes[run.layer].type;
   bank(state, type === 'boss' ? 12 : type === 'elite' ? 8 : 4, events);
   if (type === 'boss') {
@@ -416,10 +471,15 @@ function battleOutcome(state, events) {
   return true;
 }
 
-function spawnEnemy(run, definitionId) {
+function encounterUnit(enemy) {
+  return enemy.encounterId ? STREET_ENCOUNTERS[enemy.encounterId].units[enemy.encounterSlot] : null;
+}
+function spawnEnemy(run, definitionId, encounterId, encounterSlot) {
   const definition = ENEMY_BY_ID[definitionId];
-  const maxHp = Math.ceil(definition.maxHp * difficultyOf(run).hpMultiplier);
-  return { id: `enemy-${run.nextEnemyId++}`, definitionId, hp: maxHp, maxHp, block: 0, status: freshStatus(), phase: 1, intentIndex: 0 };
+  const slot = encounterId ? STREET_ENCOUNTERS[encounterId].units[encounterSlot] : null;
+  const maxHp = Math.ceil((slot ? slot.hp : definition.maxHp) * difficultyOf(run).hpMultiplier);
+  return { id: `enemy-${run.nextEnemyId++}`, definitionId, hp: maxHp, maxHp, block: 0, status: freshStatus(), phase: 1, intentIndex: 0,
+    ...(slot ? { encounterId, encounterSlot } : {}) };
 }
 
 function beginTurn(state, events) {
@@ -430,6 +490,7 @@ function beginTurn(state, events) {
   const releasedCharge = run.charge;
   run.energy = baseEnergy + releasedCharge;
   run.charge = 0;
+  addStat(run, 'chargeReleased', releasedCharge);
   if (releasedCharge) logEvent(events, 'chargeRelease', null, null, releasedCharge, `蓄能释放，本回合额外获得 ${releasedCharge} 点能量`);
   run.environmentId = null;
   run.interceptorId = null;
@@ -439,8 +500,8 @@ function beginTurn(state, events) {
     member.usedTurn = {};
     if (!firstTurn) {
       member.status.counter = 0;
-      if (member.status.retainBlock > 0) member.status.retainBlock -= 1;
-      else member.block = 0;
+      if (member.status.retainBlock > 0) { member.status.retainBlock -= 1; member.carriedBlock = member.block; }
+      else { member.block = 0; member.carriedBlock = 0; }
     }
     if (member.status.burn > 0) {
       damage(run, null, member, member.status.burn, events, { direct: false });
@@ -456,6 +517,7 @@ function beginTurn(state, events) {
 function startBattle(state, option, events) {
   const run = state.adventure.active;
   run.phase = 'battle';
+  run.battleStats = freshStats();
   run.turn = 0;
   run.plays = 0;
   run.energy = BATTLE_RULES.energyStart;
@@ -466,8 +528,8 @@ function startBattle(state, option, events) {
   run.temporaryCards = [];
   run.relicUsedTurn = {};
   run.relicUsedBattle = {};
-  run.party.forEach(member => { member.block = 0; member.status = freshStatus(); member.usedTurn = {}; member.usedBattle = {}; });
-  run.enemies = option.enemyIds.map(id => spawnEnemy(run, id));
+  run.party.forEach(member => { member.block = 0; member.carriedBlock = 0; member.status = freshStatus(); member.usedTurn = {}; member.usedBattle = {}; });
+  run.enemies = option.enemyIds.map((id, index) => spawnEnemy(run, id, option.encounterId, index));
   run.hand = [];
   run.discardPile = [];
   run.removed = [];
@@ -495,8 +557,9 @@ function enemyTargets(run, pattern, events, enemy) {
   return natural;
 }
 
-function enemyAmount(run, pattern) {
-  let amount = Math.ceil(pattern.amount * difficultyOf(run).damageMultiplier);
+function enemyAmount(run, pattern, enemy) {
+  const slot = encounterUnit(enemy);
+  let amount = Math.ceil(pattern.amount * (slot ? slot.attackPercent / 100 : 1) * difficultyOf(run).damageMultiplier);
   if (difficultyOf(run).affixes.some(item => item.id === 'fury') && run.turn % 3 === 0 && pattern.kind === 'attack') amount += 2;
   if (pattern.kind === 'attack') amount += pressureForTurn(run.turn);
   return amount;
@@ -557,7 +620,7 @@ function endTurn(state, events) {
       for (const target of targets) {
         if (!alive(enemy) || !alive(target)) continue;
         if (pattern.kind === 'attack') {
-          const outcome = damage(run, enemy, target, enemyAmount(run, pattern), events, { enemyAttack: true });
+          const outcome = damage(run, enemy, target, enemyAmount(run, pattern, enemy), events, { enemyAttack: true });
           actionEvent.intentTargets.push({ id: target.id, name: familyName(target.id), ...outcome });
         }
         else {
@@ -599,15 +662,21 @@ function playCard(state, action, events) {
   (definition.exhaust ? run.removed : run.discardPile).push(card.uid);
   run.plays += 1;
   const cardAction = logEvent(events, 'playCard', owner.id, action.targetId, definition.cost, `${familyName(owner.id)}使用${definition.name}${card.upgraded ? '＋' : ''}`);
+  cardAction.cardUid = card.uid;
+  cardAction.cardId = card.cardId;
   cardAction.payment = payment;
   cardAction.paymentText = paymentText(payment);
   cardAction.targetKind = definition.target;
   cardAction.targetIds = getTargets(run, definition.target, owner, action.targetId).map(target => target.id);
   const facts = { kills: 0 };
   const effects = card.upgraded ? definition.upgradeEffects : definition.effects;
+  const areaTargets = new Set();
   let echoReady = owner.status.echo > 0;
   effects.forEach(descriptor => {
     if (descriptor.minPlays && run.plays < descriptor.minPlays) return;
+    if (['damage', 'burn', 'mark', 'weak'].includes(descriptor.kind) && ['allEnemies', 'enemies'].includes(descriptor.target || definition.target)) {
+      run.enemies.filter(alive).forEach(enemy => areaTargets.add(enemy.id));
+    }
     effect(run, descriptor, owner, definition.target, action.targetId, events, facts);
     if (descriptor.kind === 'damage' && echoReady) {
       echoReady = false;
@@ -617,6 +686,8 @@ function playCard(state, action, events) {
       targets.forEach(target => { if (damage(run, owner, target, amount, events, { echo: true }).killed) facts.kills += 1; });
     }
   });
+  cardAction.areaTargets = areaTargets.size;
+  addStat(run, 'areaTargets', areaTargets.size);
   ['attack', 'guard', 'heal', 'marked'].forEach(name => { if (facts[name]) trigger(run, name, owner, action.targetId, events); });
   if (facts.kills) trigger(run, 'kill', owner, action.targetId, events);
   if (run.plays === 3) trigger(run, 'thirdPlay', owner, action.targetId, events);
@@ -725,7 +796,10 @@ function resolve(state, action, events) {
     requireThat(run.phase === 'cardReward', '当前没有待领取的卡牌');
     const card = run.choices.find(item => item.uid === action.choiceId);
     requireThat(action.choiceId === 'skip' || card, '请选择奖励中的卡牌，或跳过');
-    if (card) run.deck.push(card);
+    if (card) {
+      requireThat(run.deck.length < 16, '牌组已满，请跳过本次加牌');
+      run.deck.push({ ...card, ownerId: rewardOwner(run, card, action.ownerId) });
+    }
     completeNode(run);
   } else if (action.type === 'chooseRelic') {
     requireThat(run.phase === 'relicReward', '当前没有待领取的遗物');
@@ -739,6 +813,7 @@ function resolve(state, action, events) {
     const encounter = REGION_BY_ID[run.regionId].events.find(item => item.id === option.eventId);
     const choice = encounter.choices.find(item => item.id === action.choiceId);
     requireThat(choice, '请选择当前奇遇中的选项');
+    if (choice.replace) { openRefit(run, 'event', events); return; }
     if (choice.heal) healParty(run, choice.heal, events);
     if (choice.threads) bank(state, choice.threads, events);
     if (choice.upgrade && upgradeCandidates(run).length) {
@@ -751,6 +826,11 @@ function resolve(state, action, events) {
     requireThat(run.phase === 'camp', '只有营地可以休息');
     healParty(run, 0.35, events, true);
     completeNode(run);
+  } else if (action.type === 'chooseRefit') {
+    requireThat(run.phase === 'camp', '只有营地可以选择换牌');
+    openRefit(run, 'camp', events);
+  } else if (action.type === 'refitCard') {
+    refitCard(run, action, events);
   } else if (action.type === 'chooseUpgrade') {
     requireThat(run.phase === 'camp', '只有营地可以选择升级');
     requireThat(upgradeCandidates(run).length > 0, '所有卡牌都已经升级，可选择休息');
@@ -774,7 +854,34 @@ function applyAction(state, action) {
   return { state: next, events };
 }
 
-function previewAction(state, action) {
+function incomingLoss(state) {
+  const run = state.adventure.active;
+  if (!run || run.phase !== 'battle' || run.pendingChoice) return null;
+  const events = applyAction(state, { type: 'endTurn' }).events;
+  return run.party.map(member => ({ id: member.id, name: familyName(member.id),
+    loss: events.filter(event => event.targetId === member.id && event.hpDelta < 0).reduce((sum, event) => sum - event.hpDelta, 0) }));
+}
+function actionImpact(state, result) {
+  const run = result.state.adventure.active;
+  const events = result.events;
+  const damage = events.filter(event => event.targetId && event.targetId.startsWith('enemy-') && event.hpDelta < 0).reduce((sum, event) => sum - event.hpDelta, 0);
+  const before = incomingLoss(state), after = incomingLoss(result.state);
+  const kills = events.filter(event => event.kind === 'defeat').length;
+  const phases = events.filter(event => event.kind === 'bossPhase').length;
+  const lines = [`本次实际伤害 ${damage}${kills ? ` · 击败 ${kills} 名敌人` : ''}${phases ? ' · Boss转阶段清状态' : ''}`];
+  if (!run || run.phase !== 'battle') lines.push('本战结束，不再承受本轮敌方行动。');
+  else if (run.pendingChoice) lines.push('先完成发现或观星选择，再更新回合风险。');
+  else {
+    lines.push(`出牌后剩 ${run.energy} 能量；立即结束预计下回合 ${nextTurnEnergy(run)} 能量。`);
+    if (before && after) lines.push('立即结束的生命损失：' + after.map(member => `${member.name} ${before.find(item => item.id === member.id).loss}→${member.loss}`).join(' / ') + '（含状态伤害，不抵消治疗）。');
+  }
+  return lines.join('\n');
+}
+function nextTurnEnergy(run) {
+  const banked = Math.min(BATTLE_RULES.bankLimit, run.energy, STATUS_RULES.maxCharge - (run.charge || 0));
+  return (run.turn + 1 >= BATTLE_RULES.energyGrowthTurn ? BATTLE_RULES.energyLate : BATTLE_RULES.energyStart) + (run.charge || 0) + banked;
+}
+function previewAction(state, action, withImpact = false) {
   try {
     const result = applyAction(state, action);
     const events = action && action.type === 'tradeCard' ? result.events.map(event => {
@@ -782,7 +889,7 @@ function previewAction(state, action) {
       const { replacementUid, ...visible } = event;
       return { ...visible, text: `花费${event.paymentText}改签，换入一张牌` };
     }) : result.events;
-    return { allowed: true, reason: '', events, summary: events.map(item => item.text).join('；') || '确认后继续前行' };
+    return { allowed: true, reason: '', events, ...(withImpact && action.type === 'playCard' ? { impactSummary: actionImpact(state, result) } : {}), summary: events.map(item => item.text).join('；') || '确认后继续前行' };
   } catch (error) {
     return { allowed: false, reason: error.message, events: [], summary: error.message };
   }
@@ -905,7 +1012,7 @@ function plannedEnemyEvents(state) {
   return previewAction(previewState, { type: 'endTurn' }).events;
 }
 
-function getAdventureView(state) {
+function getAdventureView(state, rewardOwners = {}) {
   const profile = state.adventure;
   const levels = FAMILIES.map(family => {
     const tier = ownedTier(state, family.id) || 'R';
@@ -938,7 +1045,11 @@ function getAdventureView(state) {
     const enemyPlan = run.phase === 'battle' ? plannedEnemyEvents(state) : [];
     let event = null;
     let choices = [];
-    if (run.phase === 'cardReward') choices = run.choices.map(card => cardView(run, card));
+    if (['cardReward', 'campReplace', 'eventReplace'].includes(run.phase)) choices = run.choices.map(card => ({
+      ...cardView(run, { ...card, ownerId: rewardOwner(run, card, rewardOwners[card.uid]) }, true), rewardLabel: SLOT_NAMES[card.rewardSlot] || '奖励候选',
+      rewardReason: rewardReason(card, card.rewardSlot, run.deck),
+      ownerOptions: run.party.filter(member => !CARD_BY_ID[card.cardId].familyId || CARD_BY_ID[card.cardId].familyId === member.id).map(member => ({ id: member.id, name: familyName(member.id), selected: member.id === (rewardOwners[card.uid] || card.ownerId) }))
+    }));
     if (run.phase === 'relicReward') choices = run.choices.map(id => ({ id, ...RELIC_BY_ID[id] }));
     if (['campUpgrade', 'startingUpgrade'].includes(run.phase)) choices = upgradeCandidates(run).map(card => ({ ...cardView(run, card), upgradeDescription: cardDescription(CARD_BY_ID[card.cardId], { ...card, upgraded: true }, run.party.find(member => member.id === card.ownerId)) }));
     if (run.phase === 'event') {
@@ -953,10 +1064,15 @@ function getAdventureView(state) {
       id: run.id, tacticName: (STARTING_TACTICS.find(item => item.id === (run.tacticId || 'classic')) || STARTING_TACTICS[0]).name,
       regionId: run.regionId, regionName: REGION_BY_ID[run.regionId].name, difficulty: run.difficulty, difficultyName: difficultyOf(run).name,
       phase: run.phase, layer: run.layer, progress: Math.round(run.layer / 9 * 100), nodes: run.nodes.map(node => ({ ...clone(node), current: node.index === run.layer })),
+      battleStats: run.battleStats ? clone(run.battleStats) : null, battleStatLines: statLines(run.battleStats),
+      deckAnalysis: analyzeDeck(run.deck, run.party), refitsUsed: (run.refits || []).length,
+      canRefit: run.regionId === 'street' && !(run.refits || []).some(item => item.source === 'camp'),
+      replaceCards: ['campReplace', 'eventReplace'].includes(run.phase) ? refitCandidates(run).map(card => cardView(run, card, true)) : [],
       party: run.party.map(memberView), hand: run.hand.map(uid => cardView(run, findCard(run, uid))),
-      enemies: run.enemies.filter(alive).map(enemy => ({ ...clone(enemy), name: ENEMY_BY_ID[enemy.definitionId].name, rank: ENEMY_BY_ID[enemy.definitionId].rank, statusText: statusText(enemy), ...intentView(enemy, enemyPlan) })),
+      enemies: run.enemies.filter(alive).map((enemy, index) => ({ ...clone(enemy), actionOrder: index + 1, phaseWarning: ENEMY_BY_ID[enemy.definitionId].phase2 && enemy.phase === 1 ? '转阶段清除全部状态和护盾' : '', name: ENEMY_BY_ID[enemy.definitionId].name, rank: ENEMY_BY_ID[enemy.definitionId].rank, statusText: statusText(enemy), ...intentView(enemy, enemyPlan) })),
       energy: run.energy, charge: run.charge || 0, maxCharge: STATUS_RULES.maxCharge, availableBudget: availableBudget(run),
       energyRefill: run.turn >= BATTLE_RULES.energyGrowthTurn ? BATTLE_RULES.energyLate : BATTLE_RULES.energyStart,
+      nextEnergyIfEnd: nextTurnEnergy(run),
       nextEnergyRefill: (run.turn + 1 >= BATTLE_RULES.energyGrowthTurn ? BATTLE_RULES.energyLate : BATTLE_RULES.energyStart) + (run.charge || 0),
       bankAtEnd: Math.min(BATTLE_RULES.bankLimit, run.energy, STATUS_RULES.maxCharge - (run.charge || 0)),
       environmentId: run.environmentId || null, environmentName: run.environmentId ? ENVIRONMENTS[run.environmentId].name : '',
@@ -967,7 +1083,7 @@ function getAdventureView(state) {
           return { ...cardView(run, card, true), choiceId };
         }) } : null,
       turn: run.turn, plays: run.plays, drawCount: run.drawPile.length, discardCount: run.discardPile.length, removedCount: run.removed.length, deck: run.deck.map(card => cardView(run, card)), temporaryCards: (run.temporaryCards || []).map(card => cardView(run, card)),
-      relics: run.relics.map(id => ({ ...RELIC_BY_ID[id] })), choices, event, log: clone(run.log), threadsEarned: run.threadsEarned, hint: hints[run.phase]
+      relics: run.relics.map(id => ({ ...RELIC_BY_ID[id] })), choices, event, log: clone(run.log), threadsEarned: run.threadsEarned, hint: ['campReplace', 'eventReplace'].includes(run.phase) ? '先选新牌和归属，再选换出的非专属牌；一进一出，原牌升级不继承' : run.phase === 'camp' && run.regionId === 'street' ? '休息、升级或替换非专属牌，三选一' : hints[run.phase]
     };
   }
   return { regions, threads: profile.threads, party: state.team.map(id => levels.find(item => item.id === id)), levels, tactics, run: runView, result: clone(profile.lastResult) };
@@ -983,11 +1099,15 @@ function assertAdventure(profile, state) {
     check(!profile.clears[item.id][2] || profile.clears[item.id][1] > 0);
     check(!profile.clears[item.id].some(Boolean) || regionUnlocked(profile, index));
   });
+  const checkStats = stats => {
+    check(object(stats) && typeof stats.partial === 'boolean' && STAT_KEYS.every(key => integer(stats[key])));
+  };
   const checkResult = result => {
     check(object(result) && typeof result.win === 'boolean' && REGION_BY_ID[result.regionId] && typeof result.reason === 'string');
     check(result.regionName === REGION_BY_ID[result.regionId].name && DIFFICULTIES.some(item => item.name === result.difficultyName));
     check(integer(result.nodesCleared) && result.nodesCleared <= 9 && integer(result.threads) && integer(result.tickets));
     check(!result.win || result.nodesCleared === 9);
+    if (result.battleStats !== undefined) checkStats(result.battleStats);
   };
   if (profile.lastResult !== null) checkResult(profile.lastResult);
   if (profile.active === null) return profile;
@@ -997,6 +1117,7 @@ function assertAdventure(profile, state) {
   check(regionUnlocked(profile, REGIONS.findIndex(item => item.id === run.regionId)) && difficultyUnlocked(profile, run.regionId, run.difficulty));
   check(typeof run.id === 'string' && integer(run.seed) && run.seed > 0 && run.seed <= 0xffffffff && integer(run.rng) && run.rng > 0 && run.rng <= 0xffffffff);
   check(integer(run.layer) && run.layer < 9 && integer(run.energy) && (run.charge === undefined || integer(run.charge) && run.charge <= STATUS_RULES.maxCharge) && integer(run.turn) && integer(run.plays));
+  if (run.battleStats !== undefined) checkStats(run.battleStats);
   check(run.tacticId === undefined || STARTING_TACTICS.some(item => item.id === run.tacticId));
   check(run.environmentId === undefined || run.environmentId === null || Boolean(ENVIRONMENTS[run.environmentId]));
   check(run.pendingChoice === undefined || run.pendingChoice === null || object(run.pendingChoice));
@@ -1006,6 +1127,7 @@ function assertAdventure(profile, state) {
   check(run.interceptorId === undefined || run.interceptorId === null || run.party.some(member => member.id === run.interceptorId && alive(member)));
   const checkUnit = unit => {
     check(object(unit) && integer(unit.hp) && integer(unit.maxHp) && unit.maxHp > 0 && unit.hp <= unit.maxHp && integer(unit.block));
+    check(unit.carriedBlock === undefined || integer(unit.carriedBlock) && unit.carriedBlock <= unit.block);
     check(object(unit.status) && STATUS_KEYS.every(key => integer(unit.status[key])));
   };
   run.party.forEach(member => {
@@ -1024,30 +1146,61 @@ function assertAdventure(profile, state) {
     node.options.forEach((option, choiceIndex) => {
       check(option.id === `node-${index}-${choiceIndex}` && ROLE_NAMES[option.role] && typeof option.name === 'string' && typeof option.description === 'string');
       check(Array.isArray(option.enemyIds) && option.enemyIds.every(id => ENEMY_BY_ID[id] && ENEMY_BY_ID[id].regionId === run.regionId));
-      if (['battle', 'elite', 'boss'].includes(node.type)) check(option.enemyIds.length === 1 && ENEMY_BY_ID[option.enemyIds[0]].rank === (node.type === 'battle' ? 'normal' : node.type));
+      if (option.encounterId !== undefined) {
+        const encounter = STREET_ENCOUNTERS[option.encounterId];
+        check(run.regionId === 'street' && encounter && encounter.rank === (node.type === 'battle' ? 'normal' : node.type));
+        check(node.type === 'elite' || node.type === 'battle' && index > 0);
+        check(JSON.stringify(option.enemyIds) === JSON.stringify(encounter.units.map(unit => unit.id)));
+      } else if (['battle', 'elite', 'boss'].includes(node.type)) check(option.enemyIds.length === 1 && ENEMY_BY_ID[option.enemyIds[0]].rank === (node.type === 'battle' ? 'normal' : node.type));
       else check(option.enemyIds.length === 0);
       if (node.type === 'event') check(REGION_BY_ID[run.regionId].events.some(item => item.id === option.eventId));
     });
   });
   check(ROUTES.some(route => route.every((type, index) => run.nodes[index].type === type)));
   check(['map', 'startingUpgrade'].includes(run.phase) ? run.nodes[run.layer].chosenId === null : Boolean(run.nodes[run.layer].chosenId));
-  const phaseNodes = { battle: ['battle', 'elite', 'boss'], cardReward: ['battle'], relicReward: ['elite', 'treasure'], event: ['event'], camp: ['camp'], campUpgrade: ['camp'] };
+  const phaseNodes = { battle: ['battle', 'elite', 'boss'], cardReward: ['battle'], relicReward: ['elite', 'treasure'], event: ['event'], camp: ['camp'], campUpgrade: ['camp'], campReplace: ['camp'], eventReplace: ['event'] };
   if (phaseNodes[run.phase]) check(phaseNodes[run.phase].includes(run.nodes[run.layer].type));
   check(Array.isArray(run.deck) && run.deck.length >= 12 && run.deck.length <= 16 && new Set(run.deck.map(card => card.uid)).size === run.deck.length);
   const checkCard = card => {
     check(object(card) && /^card-[1-9]\d*$/.test(card.uid) && Number(card.uid.slice(5)) < run.nextCardId && CARD_BY_ID[card.cardId]);
     check(run.party.some(member => member.id === card.ownerId) && typeof card.upgraded === 'boolean');
     check(!CARD_BY_ID[card.cardId].familyId || CARD_BY_ID[card.cardId].familyId === card.ownerId);
+    check(card.rewardSlot === undefined || REWARD_SLOTS.includes(card.rewardSlot));
   };
   run.deck.forEach(card => { checkCard(card); check(permanentCardIds.has(card.cardId)); });
   const temporaryCards = run.temporaryCards || [];
   temporaryCards.forEach(card => { checkCard(card); check(opportunityCardIds.has(card.cardId) && card.upgraded === false && CARD_BY_ID[card.cardId].exhaust); });
   check(new Set([...run.deck, ...temporaryCards].map(card => card.uid)).size === run.deck.length + temporaryCards.length);
   const startingTactic = STARTING_TACTICS.find(item => item.id === (run.tacticId || 'classic'));
+  const expectedCards = new Map();
   run.party.forEach((member, index) => {
-    const initial = run.deck.find(card => card.uid === `card-${index * 4 + 1}`);
-    check(initial && initial.ownerId === member.id && initial.cardId === (startingTactic.cards[index] || 'strike'));
+    [startingTactic.cards[index] || 'strike', 'guard', ...FIGHTERS[member.id].cards].forEach((cardId, offset) => {
+      expectedCards.set(`card-${index * 4 + offset + 1}`, { cardId, ownerId: member.id });
+    });
   });
+  const refits = run.refits || [];
+  check(run.refits === undefined || Array.isArray(run.refits));
+  check(refits.length <= 2 && refits.every(object));
+  check(new Set(refits.map(item => item.source)).size === refits.length);
+  let previousRefitNode = -1;
+  for (const item of refits) {
+    check(object(item) && run.regionId === 'street' && ['camp', 'event'].includes(item.source));
+    check(integer(item.nodeIndex) && item.nodeIndex > previousRefitNode && item.nodeIndex < run.layer && run.nodes[item.nodeIndex].type === item.source);
+    previousRefitNode = item.nodeIndex;
+    check(run.deck.some(card => card.uid === item.cardUid));
+    for (const value of [item.before, item.after]) check(object(value) && permanentCardIds.has(value.cardId) && !CARD_BY_ID[value.cardId].familyId && run.party.some(member => member.id === value.ownerId));
+    const expected = expectedCards.get(item.cardUid);
+    check(!expected || expected.cardId === item.before.cardId && expected.ownerId === item.before.ownerId);
+    expectedCards.set(item.cardUid, item.after);
+  }
+  for (const [uid, expected] of expectedCards) {
+    const card = run.deck.find(item => item.uid === uid);
+    check(card && card.cardId === expected.cardId && card.ownerId === expected.ownerId);
+  }
+  if (['campReplace', 'eventReplace'].includes(run.phase)) {
+    const source = run.phase === 'campReplace' ? 'camp' : 'event';
+    check(run.regionId === 'street' && refits.length < 2 && !refits.some(item => item.source === source));
+  }
   const allCards = runCards(run);
   for (const key of ['hand', 'drawPile', 'discardPile', 'removed']) check(Array.isArray(run[key]) && run[key].every(uid => allCards.some(card => card.uid === uid)));
   const piles = [...run.hand, ...run.drawPile, ...run.discardPile, ...run.removed];
@@ -1077,15 +1230,24 @@ function assertAdventure(profile, state) {
     check(ENEMY_BY_ID[enemy.definitionId] && /^enemy-[1-9]\d*$/.test(enemy.id) && Number(enemy.id.slice(6)) < run.nextEnemyId && integer(enemy.intentIndex));
     check(enemy.phase === 1 || enemy.phase === 2 && ENEMY_BY_ID[enemy.definitionId].phase2);
     const definition = ENEMY_BY_ID[enemy.definitionId];
-    check(definition.regionId === run.regionId && enemy.maxHp === Math.ceil((enemy.phase === 2 ? definition.phase2.maxHp : definition.maxHp) * difficultyOf(run).hpMultiplier));
+    if (enemy.encounterId !== undefined) {
+      const encounter = STREET_ENCOUNTERS[enemy.encounterId];
+      check(run.regionId === 'street' && encounter && integer(enemy.encounterSlot));
+      const unit = encounter.units[enemy.encounterSlot];
+      check(unit && unit.id === enemy.definitionId && enemy.phase === 1);
+      check(run.nodes.some(node => node.chosenId && node.options.some(option => option.id === node.chosenId && option.encounterId === enemy.encounterId)));
+    } else check(enemy.encounterSlot === undefined);
+    const slot = encounterUnit(enemy);
+    check(definition.regionId === run.regionId && enemy.maxHp === Math.ceil((slot ? slot.hp : enemy.phase === 2 ? definition.phase2.maxHp : definition.maxHp) * difficultyOf(run).hpMultiplier));
     checkUnit(enemy);
   });
   if (run.phase === 'battle') check(run.enemies.some(alive));
   check(Array.isArray(run.relics) && new Set(run.relics).size === run.relics.length && run.relics.every(id => RELIC_BY_ID[id]));
   check(object(run.relicUsedTurn) && object(run.relicUsedBattle) && Array.isArray(run.choices) && Array.isArray(run.log));
   check(Object.values(run.relicUsedTurn).every(value => typeof value === 'boolean') && Object.values(run.relicUsedBattle).every(value => typeof value === 'boolean'));
-  if (run.phase === 'cardReward') {
+  if (['cardReward', 'campReplace', 'eventReplace'].includes(run.phase)) {
     check(run.choices.length === 3 && new Set(run.choices.map(card => card.uid)).size === 3);
+    if (run.phase !== 'cardReward') check(run.choices.every(card => CARD_BY_ID[card.cardId] && !CARD_BY_ID[card.cardId].familyId));
     run.choices.forEach(card => { checkCard(card); check(permanentCardIds.has(card.cardId) && !run.deck.some(item => item.uid === card.uid)); });
   }
   if (run.phase === 'relicReward') check(run.choices.length === 3 && new Set(run.choices).size === 3 && run.choices.every(id => RELIC_BY_ID[id] && !run.relics.includes(id)));

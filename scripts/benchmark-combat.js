@@ -37,7 +37,7 @@ function seeds(count) {
   return values;
 }
 
-function experimentalState(team, level, regionId) {
+function experimentalState(team, level, regionId, difficulty = 0) {
   const state = game.createState();
   for (const family of FAMILIES) state.collection[family.id] = { R: 0, SR: 0, SSR: 0, UR: 0 };
   state.team = [...team];
@@ -47,15 +47,16 @@ function experimentalState(team, level, regionId) {
   }
   if (regionId === 'bridge' || regionId === 'market') state.adventure.clears.street[0] = 1;
   if (regionId === 'market') state.adventure.clears.bridge[0] = 1;
+  for (let index = 0; index < difficulty; index++) state.adventure.clears[regionId][index] = 1;
   game.assertState(state);
   return state;
 }
 
 function newMetrics(config, seed) {
   return {
-    seed, config: { label: config.label, team: [...config.team], style: config.style, tacticId: config.tacticId, regionId: config.regionId, level: config.level },
+    seed, config: { label: config.label, team: [...config.team], style: config.style, tacticId: config.tacticId, regionId: config.regionId, level: config.level, difficulty: config.difficulty || 0 },
     win: false, nodesCleared: 0, actions: 0, policyPurityChecks: 0,
-    battles: [], fourCost: { offers: 0, reachable: 0, plays: 0, energyPaid: 0 },
+    effects: {}, rewards: { offered: 0, selected: 0, skipped: 0, drawnUids: [], playedUids: [] }, refits: 0, battles: [], fourCost: { offers: 0, reachable: 0, plays: 0, energyPaid: 0 },
     trade: { count: 0, energyPaid: 0 }, wastedEnergy: 0, chargeLostAtBattleEnd: 0, chargeReleased: 0,
     chargeOverflowEvents: 0, zeroCostNonDamagePlays: 0, environmentPlays: 0, interceptPlays: 0,
     usefulCleanses: 0, pressure: { turns: 0, battles: 0, max: 0 }, downs: 0
@@ -63,18 +64,20 @@ function newMetrics(config, seed) {
 }
 
 function runOne(config, seed) {
-  let state = combat.startExpedition(experimentalState(config.team, config.level, config.regionId), config.regionId, 0, seed, config.tacticId).state;
+  let state = combat.startExpedition(experimentalState(config.team, config.level, config.regionId, config.difficulty || 0), config.regionId, config.difficulty || 0, seed, config.tacticId).state;
   const metrics = newMetrics(config, seed);
   const fourOffers = new Set();
   const fourReachable = new Set();
   const pressureBattles = new Set();
   let activeBattle = null;
+  const rewardUids = new Set(), drawnRewards = new Set(), playedRewards = new Set();
 
   for (let step = 0; step < 1200 && state.adventure.active; step += 1) {
     const view = combat.getAdventureView(state).run;
     if (view.phase === 'battle') {
       if (!activeBattle || activeBattle.layer !== view.layer) activeBattle = { layer: view.layer, type: view.nodes[view.layer].type, turns: view.turn };
       activeBattle.turns = Math.max(activeBattle.turns, view.turn);
+      view.hand.filter(card => rewardUids.has(card.uid)).forEach(card => drawnRewards.add(card.uid));
       for (const card of view.hand.filter(item => item.cost === 4)) {
         const key = `${view.layer}:${view.turn}:${card.uid}`;
         fourOffers.add(key);
@@ -101,6 +104,13 @@ function runOne(config, seed) {
     const result = combat.applyAction(state, action);
     combat.assertAdventure(result.state.adventure, result.state);
     metrics.actions += 1;
+    if (action.type === 'chooseCard') {
+      metrics.rewards.offered += view.choices.length;
+      if (action.choiceId === 'skip') metrics.rewards.skipped += 1;
+      else { metrics.rewards.selected += 1; rewardUids.add(action.choiceId); }
+    }
+    if (action.type === 'refitCard' && action.choiceId !== 'skip') { metrics.refits += 1; rewardUids.add(action.cardUid); }
+    if (chosenCard && rewardUids.has(chosenCard.uid)) playedRewards.add(chosenCard.uid);
     metrics.downs += result.events.filter(event => event.kind === 'down').length;
     metrics.chargeOverflowEvents += result.events.filter(event => event.kind === 'charge' && event.amount === 0).length;
     metrics.chargeReleased += result.events.filter(event => event.kind === 'chargeRelease').reduce((sum, event) => sum + event.amount, 0);
@@ -128,6 +138,9 @@ function runOne(config, seed) {
 
     const afterView = result.state.adventure.active ? combat.getAdventureView(result.state).run : null;
     if (activeBattle && (!afterView || afterView.phase !== 'battle' || afterView.layer !== activeBattle.layer)) {
+      const stats = result.state.adventure.active ? result.state.adventure.active.battleStats : result.state.adventure.lastResult.battleStats;
+      activeBattle.effects = stats || null;
+      if (stats) for (const key of Object.keys(stats).filter(key => key !== 'partial')) metrics.effects[key] = (metrics.effects[key] || 0) + stats[key];
       metrics.battles.push(activeBattle);
       const chargeBeforeClear = result.events.reduce((amount, event) => {
         if (event.kind === 'charge' || event.kind === 'chargeBank') return amount + event.amount;
@@ -140,6 +153,7 @@ function runOne(config, seed) {
   }
 
   if (state.adventure.active) throw new Error(`动作超过上限：${config.label} seed=${seed}`);
+  metrics.rewards.drawnUids = [...drawnRewards]; metrics.rewards.playedUids = [...playedRewards];
   metrics.fourCost.offers = fourOffers.size;
   metrics.fourCost.reachable = fourReachable.size;
   metrics.pressure.battles = pressureBattles.size;

@@ -109,7 +109,7 @@ const CARDS = [
   card("moon-arc", "弯月轻扫", "moon", "echo", 1, "allEnemies", [effect("damage", 2), effect("mark", 1)], [effect("damage", 4), effect("mark", 2)]),
   card("moon-watch", "窗边守月", "moon", "echo", 1, "ally", [effect("block", 6), effect("echo", 1)], [effect("block", 9), effect("echo", 1)]),
   card("nav-chart", "圈出下一站", "nav", "echo", 1, "enemy", [effect("mark", 2), effect("draw", 1, "self")], [effect("mark", 3), effect("draw", 1, "self")]),
-  card("nav-compass", "罗盘借星光", "nav", "echo", 1, "self", [effect("echo", 1), effect("block", 2)], [effect("echo", 1), effect("block", 5)]),
+  card("nav-compass", "罗盘借星光", "nav", "echo", 1, "ally", [effect("echo", 1), effect("block", 2)], [effect("echo", 1), effect("block", 5)]),
   card("tea-sharing", "长椅分半杯", "tea", "guard", 3, "allAllies", [effect("heal", 5), effect("block", 3)], [effect("heal", 7), effect("block", 5)]),
   card("tea-straw", "吸管小栅栏", "tea", "guard", 1, "ally", [effect("block", 6), effect("counter", 2)], [effect("block", 9), effect("counter", 3)]),
   card("sushi-nori", "海苔包好啦", "sushi", "guard", 2, "self", [effect("block", 8), effect("weak", 1, "enemies")], [effect("block", 12), effect("weak", 2, "enemies")]),
@@ -136,7 +136,7 @@ const CARDS = [
   card("firefly-flash", "灯笼晃一晃", "firefly", "combo", 0, "enemy", [effect("cleanse", 1, "self"), effect("mark", 1)], [effect("cleanse", 2, "self"), effect("mark", 2)]),
   card("soup-ladle", "盛一勺再走", "soup", "guard", 2, "ally", [effect("heal", 9), effect("block", 4)], [effect("heal", 12), effect("block", 6)]),
   card("soup-steam", "锅盖冒暖雾", "soup", "guard", 3, "allEnemies", [effect("weak", 1), effect("heal", 4, "party")], [effect("weak", 2), effect("heal", 6, "party")]),
-  card("blanket-quilt", "星毯铺平", "blanket", "echo", 2, "self", [effect("block", 8), effect("echo", 1), effect("retainBlock", 1)], [effect("block", 11), effect("echo", 1), effect("retainBlock", 1)]),
+  card("blanket-quilt", "星毯铺平", "blanket", "echo", 2, "ally", [effect("block", 8), effect("echo", 1), effect("retainBlock", 1)], [effect("block", 11), effect("echo", 1), effect("retainBlock", 1)]),
   card("blanket-stitch", "银线绣一针", "blanket", "echo", 1, "enemy", [effect("damage", 6), effect("echo", 1, "self")], [effect("damage", 9), effect("echo", 1, "self")]),
   card("seedling-break", "嫩芽顶开砖", "seedling", "combo", 2, "enemy", [effect("stripBlock", 6), effect("damage", 8)], [effect("stripBlock", 10), effect("damage", 11)]),
   card("seedling-travel", "沿路撒下种子", "seedling", "combo", 2, "allEnemies", [effect("damage", 4), effect("heal", 2, "party")], [effect("damage", 6), effect("heal", 3, "party")]),
@@ -243,15 +243,45 @@ const ENEMIES = [
   { id: "bell-warden", name: "铜铃雾守", regionId: "market", rank: "boss", maxHp: 68, patterns: [pattern("summon", 1, "招来灯芯", "front", "lantern-mote"), pattern("attack", 6, "雾铃传满街", "all"), pattern("block", 10, "铜铃合罩", "front")], phase2: { maxHp: 78, patterns: [pattern("summon", 1, "招来铜铃小雾", "front", "bell-sprite"), pattern("attack", 18, "重铃追影", "lowest"), pattern("attack", 8, "灯市长鸣", "all")] }, lore: "守市的铜铃被浓雾塞满，呼来小灵替它看守道路。先处理召来的小怪，再找机会靠近；第二阶段会换一种铃声呼唤同伴。" },
 ];
 
+// 遭遇预算是整场预算，不把数只完整强度的敌人直接相加。只在黄昏邮街的新局使用。
+// hp 为普通难度的生命；attackPercent 只缩放主动攻击，不放大负面状态或久战压力。
+const STREET_ENCOUNTERS = {
+  'street-patrol': { name: "信口与灯面", description: "双敌分工：纸团挡路，小蛾干扰。选择先集火谁。", rank: "normal", units: [
+    { id: "paper-ball", hp: 20, attackPercent: 75 }, { id: "stamp-moth", hp: 18, attackPercent: 65 }
+  ] },
+  'street-swarm': { name: "散信小队", description: "三只低血敌人：群攻清场，或击杀一只接续出牌。", rank: "normal", units: [
+    { id: "paper-ball", hp: 14, attackPercent: 50 }, { id: "stamp-moth", hp: 12, attackPercent: 45 }, { id: "wax-drop", hp: 12, attackPercent: 60 }
+  ] },
+  'street-armor': { name: "打结的厚邮袋", description: "单体厚甲：准备破盾、灼烧，或蓄能后的集中攻击。", rank: "normal", units: [
+    { id: "twine-sprite", hp: 44, attackPercent: 100 }
+  ] },
+  'street-crossfire': { name: "线轴与火漆", description: "护盾与灼烧交错：先解决干扰，还是抓住攻击空档？", rank: "normal", units: [
+    { id: "twine-sprite", hp: 24, attackPercent: 65 }, { id: "wax-drop", hp: 20, attackPercent: 80 }
+  ] },
+  'street-guard': { name: "袋口巡守", description: "精英与小蛾同行：先处理干扰，再应对单体重击和全队攻击。", rank: "elite", units: [
+    { id: "postbag-guard", hp: 34, attackPercent: 80 }, { id: "stamp-moth", hp: 16, attackPercent: 60 }
+  ] },
+  'street-press': { name: "旧戳检查站", description: "精英与纸团同行：控制、集火和净化都能打开突破口。", rank: "elite", units: [
+    { id: "stamp-press", hp: 30, attackPercent: 85 }, { id: "paper-ball", hp: 16, attackPercent: 65 }
+  ] },
+};
+const STREET_BATTLE_PATH = [
+  ['street-patrol', 'street-armor'],
+  ['street-swarm', 'street-crossfire'],
+  ['street-crossfire', 'street-swarm'],
+];
+
 const REGIONS = [
   { id: "street", name: "黄昏邮街", subtitle: "把散落的地址送回信匣", description: "沿暮蓝邮局外的石板街找回遗失的信，穿过旧牌楼和仍亮着灯的窗。", bossId: "paper-lion", normalIds: ["paper-ball", "stamp-moth", "twine-sprite", "wax-drop"], eliteIds: ["postbag-guard", "stamp-press"], palette: { sky: "#354964", ground: "#897662", accent: "#d7ac64" }, events: [
     { id: "street-tea", title: "窗下的一碗热茶", text: "守窗的街坊请旅伴歇一会儿。茶还热着，一只拆开的邮袋也正等人缝好。", choices: [
       { id: "tea", label: "坐下喝完热茶", description: "全队恢复8点生命，获得2星线。", heal: 8, threads: 2 },
       { id: "sew", label: "帮忙缝好邮袋", description: "获得7星线。", heal: 0, threads: 7 },
+      { id: "refit", label: "重新整理一张邮路牌", description: "放弃本次其他收益，三选一替换一张非专属牌；牌数不变，原牌升级不继承。", replace: true, heal: 0, threads: 0 },
     ] },
     { id: "street-corner", title: "信封上翘起的角", text: "旧书摊里有一册邮路剪贴簿。摊主愿意教你把一张常用卡牌折得更顺手。", choices: [
       { id: "learn", label: "学会一种折法", description: "随机升级1张尚未升级的牌，获得2星线。", heal: 0, threads: 2, upgrade: true },
       { id: "sort", label: "替摊主整理旧书", description: "全队恢复3点生命，获得5星线。", heal: 3, threads: 5 },
+      { id: "refit", label: "重新整理一张邮路牌", description: "放弃本次其他收益，三选一替换一张非专属牌；牌数不变，原牌升级不继承。", replace: true, heal: 0, threads: 0 },
     ] },
   ] },
   { id: "bridge", name: "雨巷旧桥", subtitle: "沿青瓦和雨声找到来路", description: "雨水洗淡了青瓦上的旧字。顺着桥灯穿过窄巷，留意墨潮落下前的停顿。", bossId: "ink-tide", normalIds: ["ink-puddle", "tile-sprite", "rain-knot", "reed-shadow"], eliteIds: ["umbrella-spirit", "bridge-drum"], palette: { sky: "#354752", ground: "#657a78", accent: "#b9cab3" }, events: [
@@ -288,6 +318,6 @@ const ENEMY_BY_ID = Object.fromEntries(ENEMIES.map(item => [item.id, item]));
 const REGION_BY_ID = Object.fromEntries(REGIONS.map(item => [item.id, item]));
 
 module.exports = {
-  FIGHTERS, CARDS, OPPORTUNITY_CARDS, STARTING_TACTICS, RELICS, ENEMIES, REGIONS, DIFFICULTIES,
+  FIGHTERS, CARDS, OPPORTUNITY_CARDS, STARTING_TACTICS, RELICS, ENEMIES, REGIONS, DIFFICULTIES, STREET_ENCOUNTERS, STREET_BATTLE_PATH,
   CARD_BY_ID, RELIC_BY_ID, ENEMY_BY_ID, REGION_BY_ID, STATUS_RULES, BATTLE_RULES, ENVIRONMENTS,
 };
